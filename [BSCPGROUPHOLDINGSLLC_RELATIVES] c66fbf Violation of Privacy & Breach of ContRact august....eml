@@ -1,0 +1,104 @@
+From - Fri Aug 12 02:26:35 2022
+X-Account-Key: account1
+X-UIDL: AHqXR1VpJUWVYvYABga2wHPMJlY
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Fri, 12 Aug 2022 07:23:50 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:23:50 +0000
+X-YMailAVSC: 1z314Xs3bBuFg0NjlZC6_MskZCspXW1Xd2zD2ULORvaEgmm
+ CDQbBC2JJ5hBVrRpnBVeyZGIZJ6cBWX2Mia8jJnBucbWZpv2IHdrYOlnpke1
+ e3bBIJpuw.2munHZ.Vph_5p1bZ7k8LQorKfzyyv.n1JXCl1T_2bK8HYOt1KL
+ qJoU5dtLZgr52sCUQK52Z1qvzdfvh3KqHxQ_zzed.IvrlUgYmNwveeC8rmdH
+ W8DUKDwy_57EFW.rYGxx8GXmOP_rSedaLbtX7MDr0ItrYzSK00.KanHrJOcm
+ ZwxylsC6QLoXi987cokwcMCuv6T1bqKXIz9oyLZZaqyJdoIfkMDzJO9oTpYi
+ k.ZccvKEHo5tOKCvSCw7N74orSKIEPJJQSNGkL2b.RD6n2ixve1N_gnVgaiH
+ 2rK6O9qVAPy8wej8i4h8QCokHAxIRJL59yWI5R2zjUb6evYTKIPMHgszv2eS
+ q9Cks9Z1yEOzkHBGnvUJcDFRvD7ys6kbQkAIZf1tI2ZwL__JrA480wSR3RZq
+ rRqqJbK1iHYV1ejsKKM6YdXJIQOIcV_jyWlzIwyI08NKXK1RZ9r3LIVDFok3
+ vmLb9L_EbBtp1g3diIAx_8eigKuudxHZuF3jyKslUZJP7pWJZNvXDSBXW51C
+ ym6bDEEtiV5QyXkySQawyciEbFy0gu7_Ic88nhwWPDWx_MlTRc0mQHeu.Lhh
+ oNxImFhawybUErgNwHuLs7clMbn2thHJZENYXaNZNLHVPECBkt8k9OQIoITt
+ u2u6H3UZ0Vx4KvwuXX2Fq4qotFizC4VqVy.pmtIxuNljmoMFxaxHso8Rm8rB
+ NnleuJqhide0Sz66B4MYiPlJD.vlLigxwI.XxgcHgykh82oMannZoZBgh1Ws
+ SGO4pxZu5hrzbq4JhNh0yFgXdm_DbHKjFQvDgaEgpDl8aVyHvYNJS_3I83Nb
+ dqvm6M_o87X56Jrtef_ZNwhhsdVjOE57eJc.LrXgKMmqGjCiVav0YVI1x7W7
+ _RmgSRA4C08IlY4cDPcbNRk_g1w806sc-
+X-YMailISG: zGEXP8cWLDs7okjFtpCHaUMIAF4Bvu1DUP_mLU.7cpJGMtee
+ YHMR8bsIpEtTThEkW7dBiMS19yLSspj96D_dj5P8w.AT7J8fbfwhdYqX6P0c
+ gYUDAO4BziyzDS3wV7Ivr3.O5baxNAyyBA8EJDvky0_IqFlCu7Zi.qneA26n
+ nXsCqB0XW0OlF1Zr7irEAb4FiLBQND82GsipcHEekxgAVU_2tan5yrbKjXxH
+ MDAYWgeQ.vjsBQr7wh0xKixB.aMslXUeABn2w73IOj8Wpxgy56cK8LDAUwoV
+ E.CxbQgn13hQjuvo7K21FonZptCsrOd3BDcxHvDLgayvpEcmFxhYNG_dZyJb
+ CCU_1O_Z0s0ofL67obApiJUX8jah0dEfMi0y4TiDN4lOqGeqO5l.u3GPm0Mm
+ OtiaY0Wej9U9oa4kvMnq8uy4BdLt_4FatRfdTDt_m1JfSh5plzuyamchhq3C
+ WJggqMcbC.H4qKJluezR9WcGNuEFrXJxkL_tHjgfRvgXBRfLXplGnXJkeM7U
+ gImmZwMBPI1cOFMHZs5U3NVBz1kbVoSYzMvbhXG_XOcWM5JvSLzHkf5WKOPt
+ YX1dvqwCrc9kceK4rbGFjPWZV95ZnRTA7arlnF9fWZPVUKtUcNdQaiOB2UZB
+ ki.rAAMvaZkfHEsYkGEePYszavAlApTEzttgII8p5Lo.ycAt00RrjpzbmQNd
+ h0mi5jiLXSOjCvOCphUrYc9Wpx1a9R8RMk9SJ5Hu2TAVU.BJrhZyQ8rktqHt
+ awR1YeffA8tX_yx5KmxrI8cZyQP8TW.ZPd2MZ9qURQDA.RMeRFpOh.9QrGme
+ wjyk1lrFm_nmHTv9HeWX88SFNhYxHPSW.81aE4zmeAeakf1dubQw.tlg0TFU
+ xnrs4wQLPVqFcxbblRhmE0b4X32ysrsclsJNzMhC8BMKHa61TMofqqkFlJLm
+ 8QJS0_VErF6uWfvCIZmox5hU3YRIXGn5pyN1bpK2YCN_aBN6rnMYaB5wrx34
+ MLtbsrRfzyxtvZeZEXtWX.U3s8tgpTAS7eUYY4HIVPLkwSPcUQZenYo991PX
+ 1mihnVDaKFy3inFTaOxrcPAfoQf7lilvWLsG81G8FxHJeXD424VrIZOGUK9K
+ NlU1x66t2eKiGdMVj2kzyfjeJXcDOzKXd9bKI3JwcWQJ4CMUMUoAs_TM9Pah
+ CsGyhl6d7uqUeVSkFxMstY6QYt4-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.214.173.215 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:23:50 +0000
+Received: from github.com (hubbernetes-node-9807900.ash1-iad.github.net [10.56.208.81])
+	by smtp.github.com (Postfix) with ESMTPA id 70C8D5E0945;
+	Fri, 12 Aug 2022 00:23:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660289029;
+	bh=GAbtwXprfHKwOiLnC0j+b3/DAqsX0CIG+qBzGI2Bx30=;
+	h=Date:From:To:Subject:From;
+	b=One609MDN9xko7gDhsp7WGJmBmy61JKb5DAj2Ha2wWgiSWhdU/qPOcI30rcUlO5vv
+	 7fVd63vmSTag5y8AaAPuus6lqlSBEOfLfaKdbW7PdunbYz1WfvWg4f9IgZf5w5FuzG
+	 dWGHdM8BI+CdmcITO7cj1PrzzR32jozx5aDKv1Xw=
+Date: Fri, 12 Aug 2022 00:23:49 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/6-24-2020--after-STATE-FARM-EXECUTED/245f1e-c66fbf@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] c66fbf: Violation of Privacy &
+ Breach of ContRact   august...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 757
+
+  Branch: refs/heads/6-24-2020--after-STATE-FARM-EXECUTED
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: c66fbfe7c51779ea7310b90068096881b7a45c68
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/c66fbfe7c51779ea7310b90068096881b7a45c68
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    M 1 PROBLEM. Violation of Privacy & Breach of Contact..eml
+    A august 8th 2020-6mm no cofo DOI.eml
+
+  Log Message:
+  -----------
+  Violation of Privacy & Breach of ContRact   august 8th 2020-6mm no cofo DOI.eml   acs
+
+Violation of Privacy & Breach of Contact
+tyl b0dc3e AFFIRM_40 - barrett RECEIVED 30 MONTHS OF FEDERAL TIME in Andrews..eml
+
+

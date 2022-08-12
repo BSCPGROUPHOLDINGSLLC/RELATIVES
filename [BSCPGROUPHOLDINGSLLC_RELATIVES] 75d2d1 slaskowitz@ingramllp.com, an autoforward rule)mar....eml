@@ -1,0 +1,363 @@
+From - Fri Aug 12 02:36:45 2022
+X-Account-Key: account1
+X-UIDL: ACcUky95YvO8YvYCtgtC0MObdvs
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.212
+ by atlas301.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:35:18 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas301.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:35:18 +0000
+X-YMailISG: Y3.4zgAWLDs233K.Xivc3E2IP507kR_BpvH2NbwdXOJYvJDa
+ fOVb6cAngegieCRPkyRsKRRtR3AvRDyBIBVhtRnUwQBWY2h.a2grvpCMzEM6
+ mUPsv5MGzwm8f4DqQgRCM80e42J17BrtV8iY7JLx.4ejAX8BO0aNIzgXnt5t
+ Aa_JjGIuCAJZV.kIlXqgvkp.K1bawvllbO4SiIWYYh.7OhMaBLafiGpSRZla
+ npI5dmSdqvibllukrcsqnZgw6I6b_6inkhCjPFLRYd8.EowG1xH4lQ8q.qas
+ 7E_e9rYkVZNYOYPzDJj3eQpkiXQPxEggbtcX9sRwi_hmzWwrq.REYPCGu9wJ
+ LcE2lz4nb38JSrjwvPGEbQoJInhUeTfpeh_JsW.kskL033lcb3v32OVeU.Y5
+ 9IKG8F.WTJuzVpidYrXMFj0Hdb0XTF1.9l6zU44Z4pNmwub7jSw6Go8aq2Tw
+ ZRPk5K4fSVfyX6og4RaOMZn21StgR6fX_7UeK9sk_wg4I3mu7qfl8o1OiPbl
+ F3nlRKuLUBRiXgmS2DBHvP0F.PT9elXUO6BjsaFu3uwFFd37I_iN.F.A0ulJ
+ RYMq9VcgtlXo.gMB8mHuAIZKV8hxMdUAFsqzGpXCOq0MBGiq6hnzuLC5J5vI
+ bGWIB2JVS_1BBOlJffEL_L2Mn6mXeE7SN9nRbvfnKBgkabLBZAdIRNDKZYAg
+ HmB.aN15XFkWKGxt8t4Y8LGJ6PYpcUaJgdFxHQQfCyH0ocwtlnZHdWA3Zz2w
+ Pk058xVMD_fGchxDtepnnLyhf_UhKFVmJDHzd0bXeGq89oZ0LrNH1stT3cV3
+ S5Ry7LKtlB1q89Nh4Ko2DUFNS9BdR2P2Ru7uMwZ7iS9u0tB7TTNb.cjZ4v0p
+ a3BsnZVAXPB9sWnHvx1R_thCzWULcNnbmI7TOapf7t8iaiKMLLqT2wEKjCvX
+ yQD1SH.QxsWzL53q7zoown2z2wXiWh3WAv3UsSE9JNMVsb6y6NWt8Br305J0
+ dMdcrqaQFMAEwmkf0pVQ1B4FTFmmT7ub5wf1M7KY8lp0D.TPhs3kWyqncMwK
+ 9Kg7OvxzKFzkgSF0V0j7Aqab31DQKNgff89MaGkzGB4PglDvyDcuj2OYQBwE
+ GRrLMPMTHp3S2gmphQesLVpc_kS9XlCnVCsuTrnPE3vy_cNP2As0vidqYruh
+ MfTiwWYI32X2PuBruT5kpI.33S2T.KMU5Z0-
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.217.135.212 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:35:18 +0000
+Received: from github.com (hubbernetes-node-6bcf680.va3-iad.github.net [10.48.210.50])
+	by smtp.github.com (Postfix) with ESMTPA id 91D1A5C05C1;
+	Fri, 12 Aug 2022 00:35:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660289717;
+	bh=k2fWR4q/MeyAeqZ3so9us6S9foHlr77fhFhmvWcmNm4=;
+	h=Date:From:To:Subject:From;
+	b=hX55Zl2wm8ciif7afg7JZ+jBEQfJIFIoghjgzQujmOTwxYtSOA8g9kTx+dQZGknpn
+	 5M8esqFhEzq/3Mhs5fs8jWRR7Xd8SdN3nn/qEY2yHzEhIEzLxbZxo3XugRoFrIVEa1
+	 IMUT/cQN/0TLHuChl58INRBu6kNFTbgy7g8EStW0=
+Date: Fri, 12 Aug 2022 00:35:17 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/6-24-2020--after-STATE-FARM-EXECUTED/d8d826-75d2d1@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] 75d2d1: slaskowitz@ingramllp.com, an
+ autoforward rule>>mar...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 15001
+
+  Branch: refs/heads/6-24-2020--after-STATE-FARM-EXECUTED=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: 75d2d10c9608685c82651628f9bc49146834405d=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/75d2d10c96=
+08685c82651628f9bc49146834405d=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A Automatic reply Case Number 01413744 [ 50074 EST ++ ] 2 FILES [ $30=
+++ ].eml=0D
+    A DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT =
+REPLY -1.eml=0D
+    A DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT =
+REPLY -2.eml=0D
+    A DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT =
+REPLY -3.eml=0D
+    A DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT =
+REPLY -4.eml=0D
+    A DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT =
+REPLY -5.eml=0D
+    A DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT =
+REPLY .eml=0D
+    A Re Fwd TAX EVASION link..eml=0D
+    M Read 18 U.S. Code =C2=A7 1512 (1)influence, delay, or prevent the t=
+estimony of any person in an official proceeding;.eml=0D
+    A Read 251295_2021 thru 251334_2021.eml=0D
+    A Read Case Number 01413744 [ 50074 EST ++ ] 2 FILES [ $30++ ].eml=0D=
+
+    M Read Fwd 18 U.S. Code =C2=A7 1512 - Tampering with a witness, victi=
+m, or an informant.eml=0D
+    A Read Fwd Federal, State, and Local Charges Apply TEL NUMBERS (_div =
+).eml=0D
+    A Read Fwd Fw OPEN EXPOSURES #50074 & THESE LEGAL OTHER MATTERS - ALL=
+ OPEN EXPOSURES..eml=0D
+    A Read Fwd Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER] d7daa6 C16-937=
+15 WITH THE HELP OF THE COUNSELORS OF COLU....eml=0D
+    A Read Fwd Fwd [BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER] b0dc3e AFFIR=
+M_40 - barrett got 30 in Andrews..eml=0D
+    A Read Fwd Fwd [voicemail 917-843-3456.mp3] 44b9 slaskowitz@ingramllp=
+.com (slaskowitz@ingramllp.com...-1.eml=0D
+    A Read Fwd Fwd [voicemail 917-843-3456.mp3] 44b9 slaskowitz@ingramllp=
+.com (slaskowitz@ingramllp.com....eml=0D
+    M Read Fwd Proof of service receipt -- Office of the Corporation Coun=
+sel for the City of New York. Please retain it for y....eml=0D
+    A Read Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github=
+.com_BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_...-1.eml=0D
+    A Read Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github=
+.com_BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_....eml=0D
+    A Read Fwd Violations, Forfeit $1.256 Billion in Deferred Prosecution=
+ Agreement _ OPA _ Department of Justice..eml=0D
+    M Read Fwd clear=E2=80=9401413744 [ 50074 EST ++ ] Violation of Priva=
+cy papers.eml=0D
+    A Read Fwd https _github.com_BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER_tr=
+ee_TAX-OBSTRUCTIONS.eml=0D
+    A Read Fwd simiplified this for you as well. only 6 people knew i sen=
+t that - and the recipients in the thirst MSF to-1.eml=0D
+    M Read Fwd simiplified this for you as well. only 6 people knew i sen=
+t that - and the recipients in the thirst MSF to.eml=0D
+    M Read Fwd =E2=80=9401413744 [ 50074 EST ++ ] Violation of Privacy, B=
+ank Fraud, Securities Fraud..eml=0D
+    A Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [pa=
+r-id]-1.eml=0D
+    A Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [pa=
+r-id]-2.eml=0D
+    A Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [pa=
+r-id]-3.eml=0D
+    A Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [pa=
+r-id]-4.eml=0D
+    A Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [pa=
+r-id].eml=0D
+    A Read Re Automatic reply [EXTERNAL] Fwd [BSCPGROUPHOLDINGSLLC_ELSER-=
+AND-DICKER] 2d1c49 C16-93715 --- PEEPING TOMS AND....eml=0D
+    M Read Re Fw 251295 _2021 thru 251334 _2021 __.eml=0D
+    A Read Re ox 63.18 SIMPLIFIED... morgan stanley [ -12.325% =3D -$1,35=
+7,848,214 ] [ tax receipts & estimates. ] 26 CFR =C2=A7 1....eml=0D
+    A Read Reminder $65,000,000.00 out of court offer & TCR FILED FOR OMI=
+SSIONS.eml=0D
+    A Read SEC. 34. DESTRUCTION AND FALSIFICATION OF REPORTS AND RECORDS =
+_ 255 AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX _ 6171....eml=0D
+    M Read STATE FARM LIFE INSURANCE COMPANY - FERREIRA, LUIS [ LOAN DOCK=
+ET 50074].eml=0D
+    A Read [EXTERNAL MESSAGE] + LOAN 50074 annexed IN.eml=0D
+    A Read [EXTERNAL MESSAGE] CONFLICT [ 153974_2020 ] per the FDIC. supp=
+lements attached for convenience..eml=0D
+    A Read [EXTERNAL MESSAGE] Fwd 93715 INTO 1516523 OMISSIONS, OBSTRUCTI=
+ON, FITNESS, ETC..eml=0D
+    A Read [EXTERNAL MESSAGE] Fwd CONFLICT [ 153974_2020 ] per the FDIC. =
+supplements attached for convenience..eml=0D
+    A Read [EXTERNAL MESSAGE] Fwd Case Number 01413744 [ 50074 EST ++ ] 2=
+ FILES [ $30++ ].eml=0D
+    A Read [EXTERNAL MESSAGE] Fwd Txt Banks 101.eml=0D
+    A Read [EXTERNAL MESSAGE] HERE GOREMANS.eml=0D
+    A Read [EXTERNAL MESSAGE] LOAN 50074 SEC FILER 93715 CIK 1516523 AND =
+NYSCEF DOCKETS IN 153974_2020.eml=0D
+    A Read [EXTERNAL MESSAGE] Re Re 16537-714-487-492, OMISSIONS, OBSTRUC=
+TION, FITNESS, ETC..eml=0D
+    A Read [EXTERNAL MESSAGE] Service Request Number 311-10349751.eml=0D
+    A Read [EXTERNAL] CROSS-REFERENCE ALSO..eml=0D
+    A Read [EXTERNAL] EY.eml=0D
+    A Read [EXTERNAL] _10_Sullivan-Elser-Laskowitz-Statefarm.eml=0D
+    A Read [EXTERNAL]12-18-2021 ( 1212 - 5858 s ).eml=0D
+    A Read [EXTERNAL]15394_2020 nyscef MATTER OF WILSON & DICKER.eml=0D
+    A Read [EXTERNAL]Fwd Fwd WILSON DICKER.eml=0D
+    A Read [EXTERNAL]Fwd LOAN 50074 annexed IN 153974_2020 State Farm and=
+ Sullivan Properties LP. [ CHILD VIDEOGRAPHERS - CAP....eml=0D
+    A Read [EXTERNAL]Fwd LOAN 50074 provisions ARE HERE FOR YOUR REVIEW..=
+eml=0D
+    A Read [EXTERNAL]Fwd Service Request Number 311-10349751.eml=0D
+    A Read [EXTERNAL]Re November 22nd, 2021 NOTICE to Laurie Zucker, #348=
+#ADV FORM [bk01@cb.nyc.gov] nonplussed.-1.eml=0D
+    A Read [EXTERNAL]Re November 22nd, 2021 NOTICE to Laurie Zucker, #348=
+#ADV FORM [bk01@cb.nyc.gov] nonplussed..eml=0D
+    A Read [EXTERNAL]State Farm VP Management Corp. (FINRA TIPS filed.).e=
+ml=0D
+    A Read [EXTERNAL]Txt Banks 101.eml=0D
+    M Read [New York State Bar Association] Re 251295_2021 thru 251334_20=
+21.eml=0D
+    M Read _ 255 AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX _ 61710 Mutual=
+ Fund [ SFBDX ] [ SFITX ].eml=0D
+    M Read cleared-- 251295 _2021 thru 251334 _2021 __.eml=0D
+    M Read hello there.eml=0D
+    A Read ref. DECEMBER 18TH MESSAGE TO PROMOTERS OF CIK FILER 93715 xma=
+s.eml=0D
+    A Read ref. DECEMBER 18TH MESSAGE TO PROMOTERS OF CIK FILER 93715.eml=
+=0D
+    M Read this repository here - IS BEING USED FOR A FEDERAL INVESTIGATI=
+ON --- so if you visit the site - they will know..eml=0D
+    M Read =E2=80=9401413744 [ 50074 EST ++ ] Violation of Privacy, Bank =
+Fraud, Securities Fraud..eml=0D
+    A TCR FILE INDEX.eml=0D
+    A THANK YOU FOR REVIEWING THESE TAX EVASION AND INSIDER TRADING DOCUM=
+ENTS..eml=0D
+    A Undelivered Mail Returned to Sender-1.eml=0D
+    A Undelivered Mail Returned to Sender.eml=0D
+    A [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER_WILSON-ELSER-STATEFARM-SULL=
+IVAN-ZUCKER] 27cf12 TAX MAP BLOCK 503 - LOT 8 [GIS.NY....eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  slaskowitz@ingramllp.com, an autoforward rule>>mark file read, forwards=
+ it to...=0D
+=0D
+mark file read, forwards it to...=0D
+=0D
+=0D
+Read hello there.eml=0D
+Read Fwd Fwd Mailboxes Monitored & so are the phone lines..eml=0D
+Read ref. DECEMBER 18TH MESSAGE TO PROMOTERS OF CIK FILER 93715.eml=0D
+Read Fwd 18 U.S. Code =C2=A7 1512 - Tampering with a witness, victim, or =
+an informant.eml=0D
+Read Fwd simiplified this for you as well. only 6 people knew i sent that=
+ - and the recipients in the thirst MSF to.eml=0D
+Read Fwd Federal, State, and Local Charges Apply TEL NUMBERS (_div ).eml=0D=
+
+Read this repository here - IS BEING USED FOR A FEDERAL INVESTIGATION ---=
+ so if you visit the site - they will know..eml=0D
+Read _ 255 AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX _ 61710 Mutual Fund =
+[ SFBDX ] [ SFITX ].eml=0D
+Read Fwd Fwd [voicemail 917-843-3456.mp3] 44b9 slaskowitz@ingramllp.com (=
+slaskowitz@ingramllp.com....eml=0D
+Read Fwd simiplified this for you as well. only 6 people knew i sent that=
+ - and the recipients in the thirst MSF to-1.eml=0D
+Read Fwd clear=E2=80=9401413744 [ 50074 EST ++ ] Violation of Privacy pap=
+ers.eml=0D
+Read ref. DECEMBER 18TH MESSAGE TO PROMOTERS OF CIK FILER 93715 xmas.eml=0D=
+
+Read Fwd Fw OPEN EXPOSURES #50074 & THESE LEGAL OTHER MATTERS - ALL OPEN =
+EXPOSURES..eml=0D
+Read 251295_2021 thru 251334_2021.eml=0D
+Read =E2=80=9401413744 [ 50074 EST ++ ] Violation of Privacy, Bank Fraud,=
+ Securities Fraud..eml=0D
+Read Fwd Proof of service receipt -- Office of the Corporation Counsel fo=
+r the City of New York. Please retain it for y....eml=0D
+Read Re LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Propert=
+ies LP. [ receipt ].eml=0D
+Read Fwd =E2=80=9401413744 [ 50074 EST ++ ] Violation of Privacy, Bank Fr=
+aud, Securities Fraud..eml=0D
+Read Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Proper=
+ties LP. [ receipt ].eml=0D
+Read Case Number 01413744 [ 50074 EST ++ ] 2 FILES [ $30++ ].eml=0D
+Read Fwd Fwd [BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER] b0dc3e AFFIRM_40 -=
+ barrett got 30 in Andrews..eml=0D
+Read EMAIL DISTRIBUTION - OMISSION AND A HUGE RISK - IN THE WORDS OF PWC.=
+. FILED..eml=0D
+Read Fwd Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER] d7daa6 C16-93715 WIT=
+H THE HELP OF THE COUNSELORS OF COLU....eml=0D
+Read Fwd Fwd Fwd STATE FARM LIFE INSURANCE COMPANY AS A 'FIDELITY'UNDER T=
+HE 40-17G.eml=0D
+Read [New York State Bar Association] Re 251295_2021 thru 251334_2021.eml=
+=0D
+Read https _github.com_BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_issues_20.=
+eml=0D
+Read Re ox 63.18 SIMPLIFIED... morgan stanley [ -12.325% =3D -$1,357,848,=
+214 ] [ tax receipts & estimates. ] 26 CFR =C2=A7 1....eml=0D
+Read Reminder $65,000,000.00 out of court offer & TCR FILED FOR OMISSIONS=
+.eml=0D
+Read cleared-- 251295 _2021 thru 251334 _2021 __.eml=0D
+Re Fwd TAX EVASION link..eml=0D
+Read STATE FARM LIFE INSURANCE COMPANY - FERREIRA, LUIS [ LOAN DOCKET 500=
+74].eml=0D
+Read https _github.com_BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER_tree_TAX-OBS=
+TRUCTIONS.eml=0D
+Read Fwd https _github.com_BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER_tree_TAX=
+-OBSTRUCTIONS.eml=0D
+Read Fwd Fwd SEE ALSO FAX CONFIRM TO THE COURT MATTER NYSCEF 153974_2020 =
+[USC 18 =C2=A721, USC 18 =C2=A7225, USC 18 =C2=A72, USC 18 ....eml=0D
+Read Re Automatic reply [EXTERNAL] Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DI=
+CKER] 2d1c49 C16-93715 --- PEEPING TOMS AND....eml=0D
+Read Fwd [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER_WILSON-ELSER-STATEFARM-S=
+ULLIVAN-ZUCKER] 517e97 # USC 18. =C2=A7208. Acts a....eml=0D
+Read Fwd Violations, Forfeit $1.256 Billion in Deferred Prosecution Agree=
+ment _ OPA _ Department of Justice..eml=0D
+Read Fwd Fwd [voicemail 917-843-3456.mp3] 44b9 slaskowitz@ingramllp.com (=
+slaskowitz@ingramllp.com...-1.eml=0D
+Read Fwd [ STATE FARM SVC PROVIDERS ] https _github.com_BSCPGROUPHOLDINGS=
+LLC_WILSONELSER-ZUCKER_tree_VIDEOTAPED-DISTRI....eml=0D
+Read Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github.com_B=
+SCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_....eml=0D
+Read Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github.com_B=
+SCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_...-1.eml=0D
+Read 18 U.S. Code =C2=A7 1512 (1)influence, delay, or prevent the testimo=
+ny of any person in an official proceeding;.eml=0D
+Read Re Fw 251295 _2021 thru 251334 _2021 __.eml=0D
+Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [par-id].=
+eml=0D
+Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [par-id]-=
+1.eml=0D
+Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [par-id]-=
+2.eml=0D
+Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [par-id]-=
+3.eml=0D
+Fwd Service Request Number 311-10349751.eml=0D
+TCR FILE INDEX.eml=0D
+[WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER_WILSON-ELSER-STATEFARM-SULLIVAN-Z=
+UCKER] 27cf12 TAX MAP BLOCK 503 - LOT 8 [GIS.NY....eml=0D
+Read ) __ another $600,000 request by the ZUCKER, filed in KINGS COUNTY 4=
+00842_2020 during 153974_2020---.eml=0D
+Read RSS LINK TO DEBATE ONE STATE FARM PLAZA AND MORGAN STANLEY [par-id]-=
+4.eml=0D
+Undelivered Mail Returned to Sender.eml=0D
+Read SEC. 34. DESTRUCTION AND FALSIFICATION OF REPORTS AND RECORDS _ 255 =
+AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX _ 6171....eml=0D
+Undelivered Mail Returned to Sender-1.eml=0D
+Automatic reply Case Number 01413744 [ 50074 EST ++ ] 2 FILES [ $30++ ].e=
+ml=0D
+Read [EXTERNAL MESSAGE] HERE GOREMANS.eml=0D
+DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT REPLY =
+.eml=0D
+Read [EXTERNAL]Fwd Fwd WILSON DICKER.eml=0D
+Read [EXTERNAL]15394_2020 nyscef MATTER OF WILSON & DICKER.eml=0D
+DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT REPLY =
+-1.eml=0D
+Read [EXTERNAL]Txt Banks 101.eml=0D
+Read [EXTERNAL MESSAGE] Fwd Txt Banks 101.eml=0D
+Read [EXTERNAL MESSAGE] Fwd Case Number 01413744 [ 50074 EST ++ ] 2 FILES=
+ [ $30++ ].eml=0D
+Read [EXTERNAL] EY.eml=0D
+Read [EXTERNAL]Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sulli=
+van Properties LP. [ CHILD VIDEOGRAPHERS - CAP....eml=0D
+Read [EXTERNAL] CROSS-REFERENCE ALSO..eml=0D
+Read [EXTERNAL MESSAGE] + LOAN 50074 annexed IN.eml=0D
+Read [EXTERNAL]12-18-2021 ( 1212 - 5858 s ).eml=0D
+Read [EXTERNAL]Fwd Service Request Number 311-10349751.eml=0D
+DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT REPLY =
+-2.eml=0D
+DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT REPLY =
+-3.eml=0D
+DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT REPLY =
+-4.eml=0D
+Read [EXTERNAL MESSAGE] Service Request Number 311-10349751.eml=0D
+Read [EXTERNAL]State Farm VP Management Corp. (FINRA TIPS filed.).eml=0D
+Read [EXTERNAL]Fwd LOAN 50074 provisions ARE HERE FOR YOUR REVIEW..eml=0D=
+
+Read [EXTERNAL MESSAGE] Re Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, =
+FITNESS, ETC..eml=0D
+Read [EXTERNAL MESSAGE] Fwd 93715 INTO 1516523 OMISSIONS, OBSTRUCTION, FI=
+TNESS, ETC..eml=0D
+DOC Constituent Services - Auto Reply Email Acknowledgement DO NOT REPLY =
+-5.eml=0D
+Read [EXTERNAL] _10_Sullivan-Elser-Laskowitz-Statefarm.eml=0D
+THANK YOU FOR REVIEWING THESE TAX EVASION AND INSIDER TRADING DOCUMENTS..=
+eml=0D
+Read [EXTERNAL MESSAGE] Fwd CONFLICT [ 153974_2020 ] per the FDIC. supple=
+ments attached for convenience..eml=0D
+Read [EXTERNAL MESSAGE] LOAN 50074 SEC FILER 93715 CIK 1516523 AND NYSCEF=
+ DOCKETS IN 153974_2020.eml=0D
+Read [EXTERNAL MESSAGE] CONFLICT [ 153974_2020 ] per the FDIC. supplement=
+s attached for convenience..eml=0D
+Read [EXTERNAL]Re November 22nd, 2021 NOTICE to Laurie Zucker, #348#ADV F=
+ORM [bk01@cb.nyc.gov] nonplussed..eml=0D
+Read [EXTERNAL]Re November 22nd, 2021 NOTICE to Laurie Zucker, #348#ADV F=
+ORM [bk01@cb.nyc.gov] nonplussed.-1.eml=0D
+=0D
+=0D

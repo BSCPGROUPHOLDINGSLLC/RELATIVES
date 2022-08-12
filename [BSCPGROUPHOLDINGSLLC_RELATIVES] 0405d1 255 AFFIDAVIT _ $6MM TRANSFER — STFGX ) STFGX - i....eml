@@ -1,0 +1,287 @@
+From - Fri Aug 12 02:47:00 2022
+X-Account-Key: account1
+X-UIDL: AErPTdcjMsx6YvYEpgZ0WHLQdPM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.76
+ by atlas118.free.mail.bf1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:43:34 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas118.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:43:34 +0000
+X-YMailAVSC: aFJ_Qhw3bBsUg6zTx6_6xMj6dSbvu4HCjhjNwsQPqhCzig.
+ YZ1qPCz2XWUNXpeCdoWebb8B_sE2ye9HZ1EQxP9kN47K8SzRGAexSA6FJXVw
+ lWneUggnpK3jFZ_7hw2uedws4.t.9lQ2GA8fLUgSgXLyUcHnOom26yamGyWL
+ PbVjsTEzbzcnAFlm0DjMBv3tHhGxMLaMzUSBSCUOoVr_.vq2DT4qVCSWzhZM
+ 7mqLAlpN6SpnV7_X.5TTaNtOc6YkD0N7PsXFy_J3PkgYluVcYFk6PNV4FoOC
+ c5lGhJRSeVbGWUSCOJRrtNEFZB5uG9167_ClGxT0wKIU.IaDJW1J0ccZiY7a
+ cUH12VTFY_Xe9yHKcFfhIjmFDH57fzVGrXfxzH_6cwofhhZsIJ5kZkIzg49U
+ fhN4HO3NKWcSLfTDPeJ98yRY27DsCyfY8CjC1fFsf5CfmG2CeWel1uZiq0Sm
+ O_7_pm8vfC3cUBh0zLdF5QkVDYdkoH.BoU04HK3wSbAxnUkqZL3XlUFnew0O
+ QNBYMEa6jIjTXD5OZJEfSzrs4yBWrOVMp7SKSMk_J_YbMlZNOQcsSStcj3jl
+ uYe9Qy4uD75bTj_PSQ3WRtpq0apE_oNp_ga97fIXtyj6f2utJwMzxx1TLx27
+ i8WZNpVnIPgRePJzZf5NbtE4Yl14eJCIZak1Z6MbyJ1rtNq8pvqGG4jgCKwF
+ 3XnI0fU3zYFgcvyX6McwlwOAmsZRfBTAq2OMMPJEIbeJnP2nEcgM75RKF9ir
+ PqRGT18VyF5ObOdEtTWylQts4UIS0Yj6FAocN2VP5szTk6Y3Ms6bc5rYaq7c
+ 9JDeqZ1_EumFtx9Hk7x9jzY5AeWb5QRM27RBAvi429oeFl1qS696jYVfY822
+ UuT1e0NyDQu4EAtcZ5ZfG4MhEuigp.lSiuivSJbcN9cpvul7QTLVyb7Sh2oE
+ lCNOqn3pYafjL1T.Gip_Thu1aFzRwJS0VswxSaItdELrkWfJARWzZmVK_Lw3
+ qiQVuCE2wefMWXSVQJtxfAclB383AUo7wCp06fYm6sYodZiboxixsOXUMqBJ
+ eEXXKYlRv88R9.z8l_SJeng--
+X-YMailISG: hp1CBHUWLDtnKXOuXSR_FpZGQxmQu2Gy8ifr7G8.lTB9BpT1
+ K0yECoudBEoAaTB8Da.S5vLDuG7hNrcVN3straV0OMs_ZPXte95OzrS3T1U7
+ uc3CmgV3LLP.7UiHrVlpf_7XjGruAwIcZ1cZBCBJR_iGNBuwiUojXcH11eC7
+ atfHJ4NpP9bPKoPILDi82Lqvp1zue1_GRLS8YlK3qiKF9ix.lkfZ9HzA9TB4
+ m.jSCW1AXYLBZ.uIz9QHyATZGyn6Mx6fjEMKm8AIfKqYStu59fDoLTh._JbX
+ d6LYXHO60vUIFyRKUCu3ERjXAd_VrKZttR9CjbhF1cGlv8FB49Ee54bDHEDo
+ OPzS44PW7ovCRht_WWfuey4DjeEjBiGw4PcM9tg0Ot2vtmyx2AFTdCbuzZQn
+ z8bAPeNokbNpO52y4q44w7jUyc_1_cKigfe_Osn8_Z6iXINvZSTlynUjuaTJ
+ xmTm6JzK8N1ZGg_dVrPvuMIKNaUCMlPEwmzNcjnxLybibOzLAQTpi1V1WVI_
+ Y8nqje_jMR1qdrbv7RD9aGxG30L8zvFXcPB.md22ekrlxJ8LasL20pXkS6Dn
+ n.K2fSiW8aebJVXLZ7D748lVt7G5RAOPD_d0rYcwzZkqZl.sQki81tX0oVIE
+ x.fULooKpz1ts.Hfw2Z71c2VaFP3X_x9KmwyZmOF848Ootk0U4osu6WbcxNt
+ t6hYWCyuoX.2cfVXAsAKlxZU0CnaoMaT7Jmg4Hks_phs_bS9sEjYcUTj11yu
+ SJ5ZmxN4gmorE6NhUzZQmqQz_lfv0UFGPFD7t1Q98BQFd1yYD.gkO7a4tNXW
+ 30QyIpgIwlxVoshvM4EuU3bmHv5NmYHGIwyz8RgI0nl7hmG_gOSvOeo_k8K.
+ Y8YRa_7K9eQCrWYsF9G_U8MYfOHwlIDX9HNHadKTEGZKB2eeL9M_FKFfvVKM
+ WQFWRfIJc79EZF74TxVMt00nYoabfHMy4lR4qD6u1GgQTb5MBKctpmcpz4yq
+ 4jNmp3c01enI_YiJRDCLeTpR.RbfFUCdfYA5PUzhhBgi6aCuyJJNY5R4sA.t
+ 3fA57DbXNwtryVN6aWzKTYVeP8Lb9THqo7QNiGgJRBn4xmequ6aqclmT.meb
+ 8Bk2Q4XmyLAv9o1EJZQVj3DBqtGf.hw0tXX8CPnuplwMRXT.KXLk_1Bfdloo
+ fJbnj5XDJq_QKBga5A--
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.197.33.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:43:34 +0000
+Received: from github.com (hubbernetes-node-23c85db.ac4-iad.github.net [10.52.12.62])
+	by smtp.github.com (Postfix) with ESMTPA id ED3C4600205;
+	Fri, 12 Aug 2022 00:43:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660290214;
+	bh=ONuqYBTHJTNlCzd40cGqwSr3BF3gTQTHe7S56hkksBU=;
+	h=Date:From:To:Subject:From;
+	b=subCe56u3ZtweTyNjy3F3dVwtFHKlqRlTdVNpqba6orIPwHt9fXa6jN7jndEmX4CJ
+	 wLF05AnBG+ez8MHqzA9mrUs33Wqe1Zv+P9vF3hjfk813H3AaFtf9vEK0MxbDemItd8
+	 fEyDD5Fq3RIwPPyGM8Q89KVCvQNycAqPLNQysxSE=
+Date: Fri, 12 Aug 2022 00:43:33 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/6-24-2020--after-STATE-FARM-EXECUTED/daa11e-0405d1@github.com>
+Subject: =?UTF-8?Q?[BSCPGROUPHOLDINGSLLC/RELATIVES]_0405d1:_255_AFFIDAVIT?=
+ =?UTF-8?Q?_=5F_$6MM_TRANSFER_=E2=80=94_STFGX_>>_STFGX_-_i...?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 8191
+
+  Branch: refs/heads/6-24-2020--after-STATE-FARM-EXECUTED=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: 0405d1a83d652dd6b684d9e8cc1fdddcc682cc38=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/0405d1a83d=
+652dd6b684d9e8cc1fdddcc682cc38=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A C16-93715 OBSTRUCTION OBSESSION AND VIOLATION OF PRIVACY..eml=0D
+    A Fw Docket 348. June 3, 2020. SFBDX STFBX holdings...eml=0D
+    A Fw Mailbox Monitored.eml=0D
+    A Fwd + LOAN 50074 annexed IN-1.eml=0D
+    A Fwd + LOAN 50074 annexed IN-2.eml=0D
+    A Fwd + LOAN 50074 annexed IN.eml=0D
+    A Fwd 30 year rate.eml=0D
+    A Fwd 93715 - 153974_2020 --- 1516523.eml=0D
+    A Fwd 93715 MERGED INTO 1516523 UNDER OMISSIONS, OBSTRUCTION, FITNESS=
+, ETC..eml=0D
+    A Fwd Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan P=
+roperties LP. [ receipt ]-1.eml=0D
+    A Fwd Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan P=
+roperties LP. [ receipt ].eml=0D
+    A Fwd Fwd OBSTRUCTION & Summary Notes for Review..eml=0D
+    A Fwd Mailbox Not Monitored.eml=0D
+    A Fwd NEW CONSUMER CASE NOTIFICATION Case Number ref _00Dt0GzPp._500t=
+0zoG67 ref.eml=0D
+    A Fwd Read [EXTERNAL] Fwd Read Fwd Automatic reply FEDERAL BANK INVES=
+TIGATION, HSBC, JPM..eml=0D
+    A Fwd Your Monthly NY Commercial Real Estate Digest.eml=0D
+    A June 29, 2022 at 12 01 09 PM EDT.eml=0D
+    A Re Automatic reply VIOLATION OF CIVIL RIGHTS, PRIVACY & CONFIRMED U=
+SC TITLE 18.225, 18.21, 18.4, 18.3, 18.2.eml=0D
+    A Re Read [EXTERNAL MESSAGE] Fwd 93715 INTO 1516523 OMISSIONS, OBSTRU=
+CTION, FITNESS, ETC..eml=0D
+    A Re That=E2=80=99s 40 years on one charge BTW, look at bernies paper=
+s though. .eml=0D
+    A STFGX - insiders - and the SFITX =E2=80=9CRISKS=E2=80=9D . [1-10898=
+21708] FDIC Class III holding..eml=0D
+    A State Farm, supplements for convenience..eml=0D
+    A Undeliverable SEC. 34. DESTRUCTION AND FALSIFICATION OF REPORTS AND=
+ RECORDS _ 255 AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX....eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  255 AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX >> STFGX - insiders - and=
+ the SFITX =E2=80=9CRISKS=E2=80=9D . [1-1089821708] FDIC Class III holdin=
+g..eml=0D
+=0D
+Fwd Mailbox Not Monitored.eml=0D
+Fwd Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Propert=
+ies LP. [ receipt ].eml=0D
+Fwd Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Propert=
+ies LP. [ receipt ]-1.eml=0D
+Fwd 30 year rate.eml=0D
+Fw Mailbox Monitored.eml=0D
+Fwd Fwd OBSTRUCTION & Summary Notes for Review..eml=0D
+Fwd Your Monthly NY Commercial Real Estate Digest.eml=0D
+June 29, 2022 at 12 01 09 PM EDT.eml=0D
+Re Automatic reply VIOLATION OF CIVIL RIGHTS, PRIVACY & CONFIRMED USC TIT=
+LE 18.225, 18.21, 18.4, 18.3, 18.2.eml=0D
+Fwd Read [EXTERNAL] Fwd Read Fwd Automatic reply FEDERAL BANK INVESTIGATI=
+ON, HSBC, JPM..eml=0D
+Fwd 93715 MERGED INTO 1516523 UNDER OMISSIONS, OBSTRUCTION, FITNESS, ETC.=
+.eml=0D
+Re Read [EXTERNAL MESSAGE] Fwd 93715 INTO 1516523 OMISSIONS, OBSTRUCTION,=
+ FITNESS, ETC..eml=0D
+State Farm, supplements for convenience..eml=0D
+Fwd 93715 - 153974_2020 --- 1516523.eml=0D
+Fwd NEW CONSUMER CASE NOTIFICATION Case Number ref _00Dt0GzPp._500t0zoG67=
+ ref.eml=0D
+Undeliverable SEC. 34. DESTRUCTION AND FALSIFICATION OF REPORTS AND RECOR=
+DS _ 255 AFFIDAVIT _ $6MM TRANSFER =E2=80=94 STFGX....eml=0D
+Fwd + LOAN 50074 annexed IN.eml=0D
+Fwd + LOAN 50074 annexed IN-1.eml=0D
+Fwd + LOAN 50074 annexed IN-2.eml=0D
+Re That=E2=80=99s 40 years on one charge BTW, look at bernies papers thou=
+gh. .eml=0D
+C16-93715 OBSTRUCTION OBSESSION AND VIOLATION OF PRIVACY..eml=0D
+Fw Docket 348. June 3, 2020. SFBDX STFBX holdings...eml=0D
+STFGX - insiders - and the SFITX =E2=80=9CRISKS=E2=80=9D . [1-1089821708]=
+ FDIC Class III holding..eml=0D
+=0D
+=0D
+2020.07.25 - CEASE AND DESIST - NOTICE OF CAMERA=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXNdg0QWlI=
+RPZOeddIcIetg=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DuJd46HaWd=
+vejXPqCaw0U0A=3D=3D=0D
+=0D
+EXHIBIT(S)=C2=A0=C2=A0=0D
+- "REQUEST: DISMISS ALL CLAIMS (SUPPLEMENTS)NY CPLR =C2=A7 1003=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dsw8P_PLUS=
+_dvJCX1uFTbPUT8L7A=3D=3D=0D
+=0D
+=0D
+NOTICE OF SECONDARY RELIEF PROVIDED AS COURTESY =0D
+(PRO SE LITIGANT)=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DzKlc12hNN=
+Q3mulFoxilt8g=3D=3D=0D
+=0D
+SEE ALSO: LEASE PROVISIONS IN THE MEMORANDUM OF LAW =0D
+(PRELIMINARY) STATEMENTS=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D6a66vTf7k=
+ki3b0YIbAYBQA=3D=3D=0D
+=0D
+2020.01.28 =0D
+-- PAUL REGAN (COUNSEL TO MEWS) LETTER "ON NOTICE" (NYPD) MEANING HE CAN =
+STARE AT THE INTERIOR OF MY UNIT AT WILL?=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2oJ03Bv6r=
+zNxwm21n3_PLUS_ioQ=3D=3D=0D
+=0D
+NYCEF 309=0D
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D572E8gahZ=
+UO1KFthrfiyFQ=3D=3D=0D
+=0D
+NYCEF 310=0D
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DOomxeuQk7=
+0qNjWWKb40STQ=3D=3D=0D
+=0D
+NYCEF 311=0D
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DtBNPPEezU=
+TFc5hbuiEzdUQ=3D=3D=0D
+=0D
+NYCEF 312=0D
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DqE8ZW1H9E=
+96HdWGe_PLUS_HUFMw=3D=3D=0D
+=0D
+NYCEF 313 =0D
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DdFo3h601P=
+Gsx5OdVHKce6w=3D=3D=0D
+=0D
+NYCEF 314 =0D
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrKf0ePhve=
+TNiSdMV/Ff6qQ=3D=3D=0D
+=0D
+MEMO TO PLAINTIFF=0D
+--- LZUCKER@MSKYLINE.COM, SLASKOWITZ@MSKYLINE.COM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcweC=
+7esRoSPO8MNtA=3D=3D=0D
+=0D
+ASSIGNMENTS OF LEASES AND RENTS  =0D
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIY8iDH_PL=
+US_UpVanEtcRioef3A=3D=3D=0D
+=0D
+_Digital Tax Map - New York City Department of Finance=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DeE_PLUS_6=
+vTJd2LbCuTiN42PbQw=3D=3D=0D
+=0D
+CERTIFICATE OF OCCUPANCY FOR REAR (DCP 1077252)  =0D
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2=
+UeHQe8j2tXJoQ=3D=3D=0D
+=0D
+CERTIFICATE OF OCCUPANCY FOR FRONT (DCP 1077252) =0D
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxqRfxyWgj=
+HfS_PLUS_BIgF1mcGA=3D=3D=0D
+=0D
+DEPARTMENT OF BUILDINGS REPORTS FOR (DCP 1077251/1077252) =0D
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D9akTYffEM=
+VNdORAXTNTMtQ=3D=3D=0D
+=0D
+FALSE ADVERTISING (SEE ALSO: _COLUMBIA_AFFIRMATION_643)=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DDwrQqC1h3=
+ZVkpAESBverLw=3D=3D=0D
+=0D
+2020.06.17 efiling with NYSCEF  FAX 2124019146=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5WN6okjo9=
+pR8CzVanU9z3w=3D=3D=0D
+=0D
+2020.06.26 HARVARD UNIVERSITY (JOHN. F KENNEDY SCHOOL OF GOVERNMENT) WELC=
+OME LETTER=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DesgfKCPWn=
+ie3Zh/QuiScWw=3D=3D=0D
+=0D
+2020.07.01 - HARVARD UNIVERSITY (JOHN. F KENNEDY SCHOOL OF GOVERNMENT) PA=
+YMENT IN FULL=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DCI8GTFh9s=
+XN07xjKYLuTZA=3D=3D=0D
+=0D
+2020.07.03 - CEASE AND DESIST SENT TO PARTIES (TO BE LEFT ALONE)=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DNvtIUa5jl=
+s0V4/OF7/XlGg=3D=3D=0D
+=0D
+2020.07.06 - CEASE AND DESIST - PARTIES CONTINUE TO INCITE AND PROVOKE=0D=
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLngso0WNL=
+ftWLKYEefK/1g=3D=3D=0D
+=0D
+=0D

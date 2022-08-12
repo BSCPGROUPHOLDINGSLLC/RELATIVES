@@ -1,0 +1,118 @@
+From - Fri Aug 12 02:47:00 2022
+X-Account-Key: account1
+X-UIDL: APEuizYsOJeYYvYFKQg5eB6ONdM
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.152.8
+ by atlas312.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:45:45 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas312.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:45:45 +0000
+X-YMailISG: uxWRGfkWLDuTe7i2G4Q3j_ojKtcBM2x8_Vxr7A7Qhzb5BLs6
+ L0Fska0q22g6.wC1BDUJeurRcy._POi_arXdBMYWEKcOGeS4a6VoYYqrko_e
+ PBsZfeQrYm_pwQdlMVKDhZsKTQ7w1M1dH1_eShJKwyLspZ01Thryrr8d5TSi
+ ILPaZvtX3efcc7x0vWfHkIJJJT39ohq7bdYI3lb8G_Z3g3GCLVb87AVZ1T3i
+ 9dKa8H6Avkn52JlqX5m90ehm4sLsSgOWgq3inNU.Z4OXLA7H6X6LNCw32uQ1
+ YpJJtdzqLCvTqSoxf.EuYQy2cYlCAYEYmQGmwlE5i67J8WX0DhBVXWp2zJ3X
+ md5lzM6OHq_9tmRZpzYUtW3Sqmispzz9BQqRuuqDxetyO8LRpYA69rkePyzN
+ lRQ0R0PtHXzqHpkFZE_liG6sHkP8eKExSfa4VYI8OTLTHPouIUEhHfG35n7p
+ Z.momzY6SLiGkSNHq6HJPoIntsii1tPHRtxd6hnOGqIgOzRmNcWw177yqTtq
+ IVVVZO_X_A6FZfVBOtlytUEbpHQh_FywdA6Z_svLHl4X_MIkp8Xs8.kS.woD
+ gRju7QoxD9xPFFUtAKQDBjy.xEGcE3iFmLsfIb4aZZllJWFtV.NfY4nmWcJ2
+ PJpP_M.attiu8R9MAsOTtbkOkb.bIRQGIQ_MHBEzt2Y4laBVn580v1prYAxc
+ F0B87V3g85ls3FFOG7PhdJ8QmqKp2TjAgL0XbcuMkw4734W7oaljvaEL4ueo
+ FbgEfPNbJ_xxlVyKNkXdl9D_bg2cegmxaQrubiHKjdYXPe_bfSOrkBARPIT8
+ IKSx4MqUAlFqFJkO5Zr_9ouhRyEFkXZAArsqEm351CiSbJ76E_Tbm0nJpZ3b
+ aEy77VQf._9aBo2z5jEgtdoSgy5kMqel64Ty8ENPJbkft_Fl1.HfjkdKepzb
+ a6mpuZEKTM7J5PZwsyEPPRg.5wvMUsptCk1mMp3_CcInMx3AJAixNMoOurZe
+ 3x_SVVxDy7mQjPLehXs5KdyZLe3H5lLf.asEQ0kKJbzcP6uucIodF1s72YnC
+ IGHw5tEelMd4SnhNtFPHFlwujLkUV4x8AL2fbbevmDczC.1ABuT5Hgal_OEE
+ jQi2BWURUgZk5OZIS7lzr.XoP4pS5B2zWFS6w24Hy9xgnRXfTZFX8j_mOht6
+ kkbmKdIvPiJhwTNpikfEmQZJx3A_3qdv
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.217.152.8 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:45:45 +0000
+Received: from github.com (hubbernetes-node-1804551.va3-iad.github.net [10.48.200.34])
+	by smtp.github.com (Postfix) with ESMTPA id D402E5C0DB4;
+	Fri, 12 Aug 2022 00:45:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660290344;
+	bh=aY+3EXBMpyvmSoYHBWGggV1BNYIOFcOuNO8X9T0gJ/c=;
+	h=Date:From:To:Subject:From;
+	b=1SPHDxXxneXnn6yrveSBQn8vQB+EdaezFDhlYRWOTBfA82M4TYjOpWELnG/grsgQ7
+	 JRoLqkN8ttO0DyFhhd+DhXYljxIxGGMddnL/HE7+SuP2DP7iFKTl5l+QRrAaHneNMF
+	 h/X0TVXShYMKZJFI0K0s2Lq86Sa1VUA3iDKDwdBo=
+Date: Fri, 12 Aug 2022 00:45:44 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/6-24-2020--after-STATE-FARM-EXECUTED/c1d53b-ea7723@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] ea7723:
+ 153974-00048-violation-of-privacy, civil rights, e...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 2168
+
+  Branch: refs/heads/6-24-2020--after-STATE-FARM-EXECUTED
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: ea77230d2267b4f62dcb9882730f83cac2119f31
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/ea77230d2267b4f62dcb9882730f83cac2119f31
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    A 153974-00048-violation-of-privacy
+
+  Log Message:
+  -----------
+  153974-00048-violation-of-privacy, civil rights, et. al
+
+NYCEF 314 
+-- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rKf0ePhveTNiSdMV/Ff6qQ==
+
+MEMO TO PLAINTIFF
+--- LZUCKER@MSKYLINE.COM, SLASKOWITZ@MSKYLINE.COM
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA==
+
+ASSIGNMENTS OF LEASES AND RENTS  
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==
+
+_Digital Tax Map - New York City Department of Finance
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=eE_PLUS_6vTJd2LbCuTiN42PbQw==
+
+CERTIFICATE OF OCCUPANCY FOR REAR (DCP 1077252)  
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==
+
+CERTIFICATE OF OCCUPANCY FOR FRONT (DCP 1077252) 
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=xqRfxyWgjHfS_PLUS_BIgF1mcGA==
+
+DEPARTMENT OF BUILDINGS REPORTS FOR (DCP 1077251/1077252) 
+- USC TITLE 18.225, 18.21, 18.4, 18.3, 18.2
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=9akTYffEMVNdORAXTNTMtQ==
+
+FALSE ADVERTISING (SEE ALSO: _COLUMBIA_AFFIRMATION_643)
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=DwrQqC1h3ZVkpAESBverLw==
+
+2020.06.17 efiling with NYSCEF  FAX 2124019146
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=5WN6okjo9pR8CzVanU9z3w==
+
+2020.06.26 HARVARD UNIVERSITY (JOHN. F KENNEDY SCHOOL OF GOVERNMENT) WELCOME LETTER
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=esgfKCPWnie3Zh/QuiScWw==
+
+

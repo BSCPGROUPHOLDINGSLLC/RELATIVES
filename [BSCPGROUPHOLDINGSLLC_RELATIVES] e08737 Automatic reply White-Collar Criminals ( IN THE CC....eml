@@ -1,0 +1,123 @@
+From - Fri Aug 12 02:36:44 2022
+X-Account-Key: account1
+X-UIDL: AAAyuMFtTwU+YvYAxQ0jSNnf6TQ
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.44
+ by atlas202.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:27:01 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas202.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:27:01 +0000
+X-YMailISG: 4fKHyXUWLDu.RBHgDdlTfDCguVIe.._mkOVf.Z1cnvMwhKay
+ cFSJAvams_PlZ5P5t15E9snmgVgY2nl2ati3itUotylcPHz5r4TYRocRXzSy
+ jnU.NPmMJM4oX1hgK2cj8NNrcehsavQvjLiYvkMtAZ2HCWNfji6DOTFKetdc
+ rCawsV2w.LsVIS_6G8jDoKpvpFbq6g9knxvJfkrFO4QHTDN8q06Tm1Hb2icQ
+ jtP7eyw.QXVkxXz9XM5PJzVOk.8QaXXUILVsaple25BXxd4GqHFcAnsP8BtI
+ YiOR9mp9DhdXdssO8LidNmicc2f.UC0gUr6_gwsg0ZWGtCrAxU7ZQJGCKoBd
+ uM6uIr80yZ86Nr5FMgTpyjpy97kQnnhIjMtwnUFzdpmJFbYAX34v.lbvpMjd
+ 7L1O2hJ9AY0tZ05DX2ksuEoG.E4BI4JJFC_rUWtRBWRVT0AfaMVCP8Xi7xXB
+ kqXlDMM9VXWxPN1A7SXxXXC9IuHnJy2vPl9bfTcOSXH00fHxNn8ROdbNzupD
+ FcBem4kiiSjqGw1MWD.gZ_Swo.osBzZR0vrq1WBRscLYpvcC3pP1rhu1zfTy
+ k4z1LCzaSgW.RGC07hKj3gxVJ86BQUVu7QsQZmOYZ9s7LA3.tehw2BH98lGl
+ oLVw2xpTqedGBvRqC4aUOxhWVwvl0LB8WIF08UTwGZ.gpewwIA.MJaHfw2ep
+ 95GwGkf19Y8Dx87w7bZ6zV.03QHOU7ZTUpHelvNbT3HOWlfOvwrVuasyDAXz
+ 08g4m9hi6KtAhDuJypuLNfxKcwnB9Z8g13uLkfF2bdXMStGU46xlU6rUIdsD
+ stOEeROwbF_hYtSTSsWhA8cM4_mkkTrskYNPQTO84jbxYBb1tJW8xfWILoIa
+ 9siAnkCX50TGWDM1ymmUluBrq7N0JWdKsKMrSdF56QtSEAJhcblrDiXwkGul
+ d_guRMG8lBjcLQW95dGXdKml_MLcjCNTYz4YwsQAAfhULRfvKYC1WsTAMQnQ
+ Ljk44vNpp_mk8EH9_SR8ocrw.kQMEkvLl3o.zCpCOUbhjXNFWsnTNPGBB59R
+ 4hfD217ejnmwwEriW9rsDlACR395h4c.3cqRVmStAebz8ORediHcp6443xat
+ fYbEa43uf1OakbGxUfmVeTG98wdWkyP8OiRpS.b5zMF_VxYPeP0nhPmxQPHJ
+ Vgh7EGZSjbWf6gSri8j9xjGLNjH.hA--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.135.44 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:27:01 +0000
+Received: from github.com (hubbernetes-node-4ca818f.ac4-iad.github.net [10.52.210.57])
+	by smtp.github.com (Postfix) with ESMTPA id 0CA705204A6;
+	Fri, 12 Aug 2022 00:27:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660289221;
+	bh=SB96KkHiYjLZ3BdSrxwhjilop5naFR4RXj1Ncr8j6sw=;
+	h=Date:From:To:Subject:From;
+	b=baIwfbKJUIPobbeLWA+IBT8GZCJhyogS/1sNnkWYppiq6Rtyk8tw/Ru5rJcidUkdi
+	 e4dDe5xxYICpThKYQmm1Kh2p9sSSsg6ltxlJGyesdJOXIrW5mtXnvHF8jujPFhsTij
+	 AKQt98VvRCu1MMMZT05VP5JvWMdWHO4Ojc3bk6rg=
+Date: Fri, 12 Aug 2022 00:27:01 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/6-24-2020--after-STATE-FARM-EXECUTED/385990-e08737@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] e08737: Automatic reply White-Collar
+ Criminals ( IN THE CC...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 2511
+
+  Branch: refs/heads/6-24-2020--after-STATE-FARM-EXECUTED=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: e0873734f80a2eecb607d7e0b285b2c05c44883b=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/e0873734f8=
+0a2eecb607d7e0b285b2c05c44883b=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A Automatic reply White-Collar Criminals ( IN THE CC) 90849565 50074 =
+(MIAMI@SEC.GOV).eml=0D
+    A This email box is not monitored..eml=0D
+    A UNLAWFUL RENTS AND RECEIPTS ATTACHED..eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 138450 https _iapps.courts.state.n=
+y.us_nyscef_Confirmati....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 2a601c SEC. 17. (a) , TRANSACTIONS=
+ OF CERTAIN AFFILIATED ....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 51c4ab CRD FIRM 8209, A PUBLIC DEA=
+LER, AIDED IN CONCERT W....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 58b702 [SFITX](https _github.com_B=
+SCPGROUPHOLDINGSLLC_RE....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 774679 [VIOLATION OF PRIVACY](http=
+s _saaze2311prdsra.blo....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 81000f $$$$$ Federal Register 4.em=
+l=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 810560 26 U.S. Code =C2=A7 6662 (1=
+) Negligence or disregard of....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] 8aff51 Re 16537-714-487-492, OMISS=
+IONS, OBSTRUCTION, FIT....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] b2d4b2 $$$$$$$$$$$$$$ 111 SULLIVAN=
+ STREET, REAR.eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] be9c4e EVEN THEIR COUNSELORS HAVE =
+AVOIDED TO THE RISKS AN....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] c21d91 40-17G #CONCEALED BY CIK FI=
+LER 93715 AND CIK FILER....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] c74dd3 MISLEADING AND OMITTED ADV =
+AND DRP BY CIK 93715, C....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] e19cfc STFBX TIPS FILED WITH FINRA=
+.eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] ead0d5 Add files via upload.eml=0D=
+
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] fc96e6 [CRD FIRM 8209, FINRA MEMBE=
+R 6507985 ](https _saa....eml=0D
+    A [BSCPGROUPHOLDINGSLLC_RELATIVES] fcbbdb Fwd 16537-714-487-492, OMIS=
+SIONS, OBSTRUCTION, FIT....eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  Automatic reply White-Collar Criminals ( IN THE CC) 90849565 50074 (MIA=
+MI@SEC.GOV).eml=0D
+=0D
+Automatic reply White-Collar Criminals ( IN THE CC) 90849565 50074 (MIAMI=
+@SEC.GOV).eml=0D
+=0D
+=0D

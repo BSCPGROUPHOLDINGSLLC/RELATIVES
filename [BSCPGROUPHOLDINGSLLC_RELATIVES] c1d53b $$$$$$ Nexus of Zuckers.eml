@@ -1,0 +1,231 @@
+From - Fri Aug 12 02:47:00 2022
+X-Account-Key: account1
+X-UIDL: AAgosBA1yij2YvYE1gOCcJ9aIyw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.106
+ by atlas102.free.mail.bf1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:44:21 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas102.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:44:22 +0000
+X-YMailAVSC: eSK1t9o3bBsllpAcXboefu9hyYN9mEw3Wy8AyGubBtmYg2z
+ kK.Z6ISMuqpEUyjdeesfD2RrlQkYE25c8YxMijy74BlBv6n200ZAp_2YLO4V
+ Ce_fvjvJ_xDJPvGbDgwsj3irjJFqcUOFQvAuxH4mRdip9Cd1b6Ww7dHPJnq3
+ 4c1F8TyBdY8Rt3jOqDUPoWQ2jC1inTjTo9SBq9WVIADfJp2doR7MSF0oyw77
+ r3eOsSkmuh4N9X1prXzY05I.NZWt93ceFCtrLG6zcDq1KXEasRPgWY_TICwc
+ 8Tc7ov9RUu8Ryt3VHbzirx8ikl_XnlMndYDtddrzIq4xC2tszVXKC0ee9Lk3
+ EiDYgGT1jlO.X.iPymY9n3ruBHq0_PnBsHN_l41oUDZRf9EHiApUEhc1jT4i
+ 77s9eaQTzuNqXBzNthlE3C2cKTnTmavxzHH3YAEXYMjwsORcjfQ2h2SwLpLq
+ e3M6iHPtS2aR2jpWois07lxTidRSpCkBg3aevpiz.0f7xR6_KkNZFHa070Rc
+ 9Z__dzzpbo5tsbHkSGRUisAXV09Dg3edmlhur2b_zHtRcAENMqrsuwqFJtRL
+ zIx7WNMi5wyPbP067eKCNkP9mlcjY2srFVSNzGTCpE1o.l7FeHkO8KqHAbpy
+ MibO_.kfKvmTxLWfKnlSmZu.nf59jcEX_lvBuBxOJqd0c__ggqGGdqeLfUAS
+ pZPjJUhS3MpZpRteWM_FexoZPrUmq6_L0tM5TQSfYmZmr_NcY0UrJJIQivGH
+ 2oloV0MAEcuttGwO8Q3ckfMfvLV9xbeXaEPOnfvOGviI_n2v33xLKBTyvY8B
+ uwP0dKEBqDS0jrcqvV5V6DYJLFKqjsvO5tvIU4JAoLkw1iJWLQmZqbcz7dkO
+ aJpaZ8WJJSlLxpHkebEr0qoooHQ3zXRHmSW_clCGCzuhNjh1RCVI7ZN0pryy
+ SAOk5gk2hp6zemlm6Ij.pNp4EHBsXLeSdPeVYQ1fVLKwt.5bdL3Tqb8YPvGv
+ mLDfqVZKD.eG_JeMTGm4PiJh.6sF3Y6zKoNtypFaHihIE03U13uE.NwSDCm.
+ 58Rwhp84LWU1jS4u2n1c.mQNGA3rsThFnsY4DkX5W
+X-YMailISG: NTBtMBoWLDsv1i5JngHjPOG_iOB2afEwqJr1dDSXHEmPAj_7
+ GD9shjG.58W1whr0oMNQ7ExpQiCHjMuvwhVtSjnZm83tHjuZ1rt1uJ88NAVT
+ W3TwXs0jJ8VtIECyQ1kl_gQY3IG0TncOrrfBWtz8RCkmQVjMu1MhC4gwL3si
+ UYhYdNXzzP8h0ftr1eXiPJjndlIXg3UeoNX74nnrUm8fljg2I3wfpRWSt9eG
+ yUBx5_sMg5zNvxIzH1_TM_NUp_Hu6MZWdJ67fMemLDwaoThZYXXmCGhYxtlA
+ hSswKqu4HmAYl.9DG3dtytDW5wxCFOUUg53KghqMF2f89DB8jfj8NZ48xN1v
+ Xrx4shAeDlJkLYPqny3gK9fvr4Yxso0qlqOn2yqZlyB3u.pcHKrMV9YA3l1p
+ 5Wln_1eCyCVaKykLvDqLL5IEC_uZzbYX722op2ssbX8EGAz47x.MCBVVj_yE
+ Foc6GGUmwMeAR9NhVVHt4VFu3fJSdpoG045s6Sef_4_9ABMoCKljKdXwffbn
+ uFvpOA2j3YKDXYW7Hqq_M6QHCZJodnGXRGV5AYjhg.qALXlhLdX2O5CsPFRL
+ rZPuIejX2B1HLsIpAaQY9uRpECjSAyaC9UPuYD5EguIuMLu_fYN5uU648C1w
+ 5_bebGfEUkDzSfK0QWHtLMvuxkzKCUnea7K0SKW7ear167yrBR6fiu9Ki9kF
+ NxZ91diknP201c8VGb7fadLb7v4gKLwwtAGnX7C1G9HTsSLkYt5oMfVuCUTn
+ nV95MnbG2No313YeRDC3QcO3SDPi_TOs711Kx_a.MuLYz9HqFUy0CqAuGc2B
+ hG9oATJlcfVyTnvTexxzRqowlK7BCHgTPppeOFaO8MLuTAXqMkUQypDHL7A0
+ Gzbk6ccBE2tWvigKoDWMCCfvxHbcl8aVaO8VX001cuZEET4Z8ejfdshpxE1A
+ AeQx4Jv_9Fvr8QqOTfoS3L.UOb3sr.IBEhYa.uZhf8oUs9clSjqgm3ezODGk
+ S9cclDpEBnQnNflXTllyxC86U71xRgZS_kyRTK2cz8wBpZQYi0PBekCoE0Es
+ E_uowtzQRTgbcUH5sbB4t_1RK7zCixAnrRUznzmQg6Gc__feY7AY2JH79NN.
+ W83ich3y7mSBtDsHErX4YQOnfmmPWHFFOgRowkox7dpYuw2_u_DbWzFeOCWR
+ YUl1Qu2yEK4QNu_4JY30NiSSesBioXWINewXouY-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.39.106 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:44:21 +0000
+Received: from github.com (hubbernetes-node-f474e6c.ash1-iad.github.net [10.56.15.20])
+	by smtp.github.com (Postfix) with ESMTPA id B604F5E0510;
+	Fri, 12 Aug 2022 00:44:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660290261;
+	bh=is2uAOl70a3dIMbO41MKQT8s5gWy72JaRLVJzcm8PlE=;
+	h=Date:From:To:Subject:From;
+	b=cn2cCFXNcyPqWJkc9UAFVtGurEgq8RH98ficxsWWS7wO22earuzYhvwOBBrZstuPX
+	 k9L5K/tldfiK0a883lO1tNk6Z1NfzOOFMB8GymRm63+15RNKRwAk+3f8yo+VLo/sFh
+	 v11lJSIoKVpDLqJ7w8Xn70m/v+Ib3JqSxlf8ajR8=
+Date: Fri, 12 Aug 2022 00:44:21 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/6-24-2020--after-STATE-FARM-EXECUTED/0405d1-c1d53b@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] c1d53b: $$$$$$ Nexus of Zuckers
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 8198
+
+  Branch: refs/heads/6-24-2020--after-STATE-FARM-EXECUTED=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: c1d53b7c1f62e7195f95994729d14aeff6ae5843=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/c1d53b7c1f=
+62e7195f95994729d14aeff6ae5843=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A $$$$$$ Nexus of Zuckers=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  $$$$$$ Nexus of Zuckers=0D
+=0D
+=0D
+> https://s3.amazonaws.com/handshake.production/attachments/documents/000=
+/832/183/original/2021_PBS_PP_VES_Marketing_Flyer_vGeneral_Handshake.pdf?=
+X-Amz-Algorithm=3DAWS4-HMAC-SHA256&X-Amz-Credential=3DAKIA2HSNSGACXF6KKT2=
+H%2F20220712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=3D20220712T193929=
+Z&X-Amz-Expires=3D10&X-Amz-SignedHeaders=3Dhost&X-Amz-Signature=3D3e2d9fe=
+10da3e1ee8396cefab33824544bad2983a5c3a8d08d012c2fdef9e42b =0D
+=0D
+<https://s3.amazonaws.com/handshake.production/attachments/documents/000/=
+832/183/original/2021_PBS_PP_VES_Marketing_Flyer_vGeneral_Handshake.pdf?X=
+-Amz-Algorithm=3DAWS4-HMAC-SHA256&X-Amz-Credential=3DAKIA2HSNSGACXF6KKT2H=
+%2F20220712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=3D20220712T193929Z=
+&X-Amz-Expires=3D10&X-Amz-SignedHeaders=3Dhost&X-Amz-Signature=3D3e2d9fe1=
+0da3e1ee8396cefab33824544bad2983a5c3a8d08d012c2fdef9e42b>=0D
+=0D
+2020.06.22 REQUEST TO APPEAR BY PLAINTIFF - =0D
+AT-WILL AS-NEEDED PROCEEDINGS ARE A VIOLATION OF MY CIVIL RIGHTS, =0D
+THE CONSITITUTION AND RIGHTS TO A FAIR TRIAL =0D
+WHICH WAS GROSSLY OBSTRUCTED AND KNOWN BY ALL COUNSELORS SGO2107@COLUMBIA=
+.EDU, ET. AL=0D
+=0D
+LEAD TO THE DEMISE OF CIK FILER 93715, DAMAGES NOT COVERED AS FILED WITH =
+SECURITIES & EXCHANGE COMMISSION=0D
+- INFORMATION THAT WAS IMPEDED, OBSTRUCTED, AND GROSSLY CONTINUES TO BE R=
+ELEASED TO LAW ENFORCEMENT=0D
+- HENCE, I PARTNERED WITH MY BUDDIES FROM 2012 AGAIN - AM KNOWN, WILFULLY=
+.=0D
+- HENCE, I AM NOT AFRAID OF THE ZUCKERS, OR THEIR COUNSELORS (ABSENT OF B=
+EING OBSTRUCTED ANY FURTHER)=0D
+*** THANK YOU.=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DqhjjPjzu=
+wUgwWnZcfiIluA=3D=3D>=0D
+=0D
+ALL UNDER TITLE 18=0D
+=0D
+TITLE 18, =C2=A7 1962 - Prohibited activities=0D
+	(a) It shall be unlawful for any person who has received any income deri=
+ved, directly or indirectly, from a pattern of racketeering activity or t=
+hrough collection of an unlawful debt in which such person has participat=
+ed as a principal within the meaning of section 2, title 18, United State=
+s Code, to use or invest, directly or indirectly, any part of such income=
+, or the proceeds of such income, in acquisition of any interest in, or t=
+he establishment or operation of, any enterprise which is engaged in, or =
+the activities of which affect, interstate or foreign commerce. A purchas=
+e of securities on the open market for purposes of investment, and withou=
+t the intention of controlling or participating in the control of the iss=
+uer, or of assisting another to do so, shall not be unlawful under this s=
+ubsection if the securities of the issuer held by the purchaser, the memb=
+ers of his immediate family, and his or their accomplices in any pattern =
+or racketeering activity or the collection of an unlawful debt after such=
+ purchase do not amount in the aggregate to one percent of the outstandin=
+g securities of any one class, and do not confer, either in law or in fac=
+t, the power to elect one or more directors of the issuer.=0D
+	(b) It shall be unlawful for any person through a pattern of racketeerin=
+g activity or through collection of an unlawful debt to acquire or mainta=
+in, directly or indirectly, any interest in or control of any enterprise =
+which is engaged in, or the activities of which affect, interstate or for=
+eign commerce.=0D
+	(c) It shall be unlawful for any person employed by or associated with a=
+ny enterprise engaged in, or the activities of which affect, interstate o=
+r foreign commerce, to conduct or participate, directly or indirectly, in=
+ the conduct of such enterprise's affairs through a pattern of racketeeri=
+ng activity or collection of unlawful debt.=0D
+	(d) It shall be unlawful for any person to conspire to violate any of th=
+e provisions of subsection (a), (b), or (c) of this section.=0D
+=0D
+TITLE 18, =C2=A7 1963=0D
+	(a) Whoever violates any provision of section 1962 of this chapter shall=
+ be fined under this title or imprisoned not more than 20 years (or for l=
+ife if the violation is based on a racketeering activity for which the ma=
+ximum penalty includes life imprisonment), or both, and shall forfeit to =
+the United States, irrespective of any provision of State law- (1) any in=
+terest the person has acquired or maintained in violation of section 1962=
+; (2) any- (A) interest in; (B) security of; (C) claim against; or (D) pr=
+operty or contractual right of any kind affording a source of influence o=
+ver; any enterprise which the person has established, operated, controlle=
+d, conducted, or participated in the conduct of, in violation of section =
+1962; and (3) any property constituting, or derived from, any proceeds wh=
+ich the person obtained, directly or indirectly, from racketeering activi=
+ty or unlawful debt collection in violation of section 1962. The court, i=
+n imposing sentence on such person shall order, in addition to any other =
+sentence imposed pursuant to this section, that the person forfeit to the=
+ United States all property described in this subsection. In lieu of a fi=
+ne otherwise authorized by this section, a defendant who derives profits =
+or other proceeds from an offense may be fined not more than twice the gr=
+oss profits or other proceeds. (b) Property subject to criminal forfeitur=
+e under this section includes- (1) real property, including things growin=
+g on, affixed to, and found in land; and (2) tangible and intangible pers=
+onal property, including rights, privileges, interests, claims, and secur=
+ities.=0D
+=0D
+ALL UNDER TITLE 18=0D
+	=C2=A7 2 - Principals=0D
+		(a) Whoever commits an offense against the United States or aids, abets=
+, counsels, commands, induces or procures its commission, is punishable a=
+s a principal.=0D
+		(b) Whoever willfully causes an act to be done which if directly perfor=
+med by him or another would be an offense against the United States, is p=
+unishable as a principal.=0D
+	=C2=A7 3 - Accessory after the fact=0D
+		Whoever, knowing that an offense against the United States has been com=
+mitted, receives, relieves, comforts or assists the offender in order to =
+hinder or prevent his apprehension, trial or punishment, is an accessory =
+after the fact. Except as otherwise expressly provided by any Act of Cong=
+ress, an accessory after the fact shall be imprisoned not more than one-h=
+alf the maximum term of imprisonment or (notwithstanding section 3571) fi=
+ned not more than one-half the maximum fine prescribed for the punishment=
+ of the principal, or both; or if the principal is punishable by life imp=
+risonment or death, the accessory shall be imprisoned not more than 15 ye=
+ars.=0D
+	=C2=A74. Misprision of felony=0D
+		Whoever, having knowledge of the actual commission of a felony cognizab=
+le by a court of the United States, conceals and does not as soon as poss=
+ible make known the same to some judge or other person in civil or milita=
+ry authority under the United States, shall be fined under this title or =
+imprisoned not more than three years, or both.	=0D
+	=C2=A76. Department and agency defined=0D
+		As used in this title:=0D
+		-The term "department" means one of the executive departments enumerate=
+d in section 1 of Title 5, unless the context shows that such term was in=
+tended to describe the executive, legislative, or judicial branches of th=
+e government.=0D
+		-The term "agency" includes any department, independent establishment, =
+commission, administration, authority, board or bureau of the United Stat=
+es or any corporation in which the United States has a proprietary intere=
+st, unless the context shows that such term was intended to be used in a =
+more limited sense.=0D
+=0D
+=0D
