@@ -1,167 +1,167 @@
-From - Thu Jun 30 18:49:38 2022
+From - Fri Jul  1 02:26:58 2022
 X-Account-Key: account1
-X-UIDL: AAwGqxQPn9PwYr40XQHoSPWMlcs
-X-Mozilla-Status: 0000
+X-UIDL: AMu7NNpZqsEcYr6gaAnPuAdtbC4
+X-Mozilla-Status: 1001
 X-Mozilla-Status2: 00000000
 X-Mozilla-Keys:                                                                                 
-Received: from 10.197.32.140
- by atlas324.free.mail.bf1.yahoo.com with HTTPS; Thu, 30 Jun 2022 23:40:12 +0000
-Return-Path: <prvs=17368c0fb=TaxEFiled@law.nyc.gov>
-X-Originating-Ip: [216.71.141.186]
-Received-SPF: pass (domain of law.nyc.gov designates 216.71.141.186 as permitted sender)
-Authentication-Results: atlas324.free.mail.bf1.yahoo.com;
+Received: from 10.197.37.233
+ by atlas112.free.mail.bf1.yahoo.com with HTTPS; Fri, 1 Jul 2022 07:21:12 +0000
+Return-Path: <prvs=1747bb6a2=TaxEFiled@law.nyc.gov>
+X-Originating-Ip: [216.71.138.16]
+Received-SPF: pass (domain of law.nyc.gov designates 216.71.138.16 as permitted sender)
+Authentication-Results: atlas112.free.mail.bf1.yahoo.com;
  dkim=pass header.i=@law.nyc.gov header.s=mail-s1;
  dkim=pass header.i=@law.nyc.gov header.s=selector1;
  spf=pass smtp.mailfrom=law.nyc.gov;
  dmarc=pass(p=QUARANTINE) header.from=law.nyc.gov;
-X-Apparently-To: ms60710444266@yahoo.com; Thu, 30 Jun 2022 23:40:12 +0000
-X-YMailAVSC: gk8biVA3bBst7muImghL7FH8ysgcfU4PbFNU1pvJfnERoqu
- ONkaI1JEiK3x7hwC3sY1zwW01830h85lNBb6Tro_JDWbSZofej3oGE10ukKA
- Fy8v6Mk6DvfycoaeRv1Jx5FCeWnf2SfqhLyxz.tKBgxz7QVAilZcscwBEN7C
- JBjZpP9yaniVvL3i6aCNb0y7L8yHkhZZWPCRBud2JaWTy3eQWVskXLiUSZKP
- Tyk6dNxwT_9PzBEVkE9tTFJGMh9fgZ.NBYDXAggu4wQTVrjOnuzrixaWUnwv
- OkFQ6D094cChoqqS4hp0v6CKzEOLjsathEGL3g1aJkNFOxIWipv8UJhA5HU1
- 1S0hyDWJ_dM23xq9iT9w6rt7rpNQiciO3LzuASg--
-X-YMailISG: b1ax4y4WLDsujAQdqmCRrZpmubaqe6.c5quXKyaQyvGc3VMf
- ..Wt9b4dw0ZPcM.31cehmssSmRgaaDpIoU8JnwYpPLOZAHkmIECBz4D_BR24
- JkUN.R7ER.KJh.CXIxx5HcJuKfG.eeEef.quxjNjaYRv7yyElfsQFopf.kdo
- ZkcAoUKnzDKy9FQMTC58Tkvu1hWveBIPm46iunn7sRk1VZfvaE4AHqYf5l.t
- ps9Ib4I5lOGar7Dhww289I5hoUHdjG8VzbCCyYullKYVp8F7255ER7OJo_5W
- OXnJlIQY_8cjKCbmVJ5i58lsHPUoQfZgDw5qgBJ5j5wTa_UZw3mpjoy.ZhMn
- ogFdugUxnUs5nq2DYzgB1_Q8oWNzRFgLWn..0oXAGbA9L.XakNnwcpajlr22
- 2sK4.rnVLV1TBSzd3KAevaQHZpuVQ83TmWzOXkRuJUH0wHbOT.umWf6s08NV
- ro8lo7_J4HEvKTA.2r3G9PgYfrywJs2t2dALKdqaxoONgRx6A3KwZklwXGYf
- 6RK3jYluR3pqtUwc8yaD7eLySv9Gj5hOEV.N3Z_Uniad4jaujdmWXb5hcI0.
- 49K7_7sRE0Ht3kzI_Br_Pjj3qc.5yxUWHITt7I4XEi2xLSp1T2UJkjNT8D75
- Pex0qI52v0t9VY.ijPlVLsSBrRC_J7ohb5dfzF.7hWUBTgYbrLQ3SJTWLQHH
- AzuIsHtYlhcG9OID2SNzmDsKIplrsA9aQPcXdwDR6_PEUZZiVY0ClrmREy8.
- dN4aG_08R8uOIgONyBfFG3OB0fxOiB8B87D7jpLAsOuWL0VZ5JQJKsgoPzf1
- k1A0kg9S2.5IaD8Ty5P4Solyucwj.qCZXd6VjkW9aBIpH__yONHRI1kMo4Rf
- DhHrkisrSY.VqzuPIiDq0zs15gfQM8A22RxYc3QONbKPsIEl5pVf7_0wLNBZ
- qPRp7RgUIhT5D0.xpxGlwMaFzASdu.zHE.N2efG4YtAujTqbivdSTQSD7ixF
- 4lfYQA5pR77AHkQDfpupJlLqiwgs5EcrA4T1neHmI9IpEMuLYzJkc4ROajTy
- 0W.jOtC_3eJW3qf428CUUzLcDLN9qZ0_q66Lc6Rw_ZO.yJHp.8RHauF9HTXy
- oUpBsuIzoSUkM7AzsJBHzNrP2XVurB7hqSoNcdOjzXi7VY_RHC.axVDB0KH3
- AN1TAz...UnnSUQE4loYmlwOY85ZmaTxZw7H9q2PoGc67KPoEOnrKZstzOqg
- 361ICdLK7np1wXbux1SjZ6UenZte8dAL0Es6wJw2Rn_oh2ukuXko0HfRRDrJ
- pbpxOzGsrymH1VgXNJc7RzeJvpuJ3I6TuqvzT.dGcUo3CLqjb3f3n0s7z8RC
- WjOnit_CWnsHYxeOsXYbjK7BzP7Go5k52EhlvQ3jeKEfDhN.FPTsIeuoUomi
-Received: from 216.71.141.186 (EHLO esa20.nycdoitt.iphmx.com)
- by 10.197.32.140 with SMTPs
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 07:21:12 +0000
+X-YMailAVSC: dqpGqU03bBuXoW7qnEmu45nCj7OyMUAHCZAqn3lquXHIUDx
+ Mjn0EALBq7R4wFKiyEX8h1HPcTbQGACJY087eaFGpDCj0HLNWb0ejXeHWRry
+ QYS4JMtO35jRTo9B4GKt29HtuC1caWJkTVBHUd5HH8Kv.ky2As_MrK5sMcIT
+ .zi3NamGlD5LbXSfc5vK5Q.8wjz0g.h282CBL9x29qMA5UpzprmmYj5eLuEU
+ fJ1BDl.o2neAn2JeEduhqhRzN0P6qe2xfbNiFGhSrxzb40BekpIInvv4ECOC
+ XBcN4MqmB5rwJ1IlBAX1LMGKULW.GWl0UtVK9cXWNY5Fka6MzpkqtjTKy988
+ 8Nm8qhxcnKi1EpyKXOlC__1FzR3fHzDRb3rgxirfP
+X-YMailISG: tm0fZDcWLDtts9NBhbDyy7wPPCOjyjdg5.Swj4aMKD7R52tM
+ ..4kHEQlwbavVDrZQyjps3WV_p3rzOsDwPeINGGHM6.epZQwh_dKQtvsWqoY
+ 4e4wjcK_.JnQpFrJrceJwJjf8owqQ3UwaiqnN947bLve5yxRPzleFrL4epn7
+ KoAItWRz4VKnylL5l5yirAsKV5GHjLXitB3.t4CBiYE.ftSfOIm5pCEge2I3
+ xKvZlx.A2.ANaZPAbh4y9wCJm0b74vRhzWM1dmZOQlppUbFTGxo6SeqUvTQp
+ Rei3nUn_GLWKFeVhjMmWAp7CbxCuuhaM1nxM76vvY72GVd_Tla1Qxe.8enBU
+ xeZvlfvTp6bpTgThXOpXMJ5M8HkfnwcTJvqya0GNpbJ.hMOXoonFyX3SO.aQ
+ IvD0q8AUYZSLPnp_yoX.ZSSWDIu34zIeuQDVq7FgpqEmjS4bBOwUraF2ppZ_
+ _PTTgUJ2jlLVIX2jQJtaAGqfAG56PUjL6VuOuMwvpAShGTK.RbOnlfpoxGEU
+ GtojeQd..EncIalx6RN1.djPktOfPSGEIF18iy9igym9aEaJciqJ.e22X58Y
+ G3CCS_h4.azMHrUHZzuvfBkswf_5pKWwXMuT9cDMo8evrZY764HI1PXhfMAG
+ kCtMaTzDYU6KYQaL7rLhZiBAbCrCAI6toJOAUtZveKzY.bBA2Xzq2eMoLmjF
+ JnK5c232I4m2qAa1Ph5MEhjZTTX41c.ndsMYcSKUtnMb9GClkwMU7Dp6IH07
+ K7COwJgsLe7M0L0Qrpn1Udb3_ty8xGZHOHjQwtHq8uVAuiF5hIxS22AYVFq9
+ 2zviH0W8441I9hYV9LGAKIx5f6qju0b4BQr7vaOPtB2fYAfMXrF26qw7QjhD
+ mfT617D4IqvjHXlr_TDXM.UhPofuy7t9Z0lblgNe5okz_kxy.kdpYUQVC5yB
+ 3EnJ4diVes1F8DqrBsFJUjV_77cAIy4FnldJwS3VpKm_sJW7uCnAfyvWCmme
+ 7WdHUGnQNEI8T4lIf6BNhucjgbiDMOImSkXtgb6RHzt8VgdrzCcDMOtbQB11
+ uwTpvTL.RCqV7YR_pI.XSlZ3edpwLwKGi9JolbcTOKh3PbSHR5iVk.CvpDsE
+ CqmW3a5tynomp7taW21jiJKr9qrhu2cVONI2m8vc3N6xEv67I1guIjDziD5C
+ 24G45beX3vAEOA_vW67xrRqFh113KpIMOBcwRPjgsDL.l7TkcIJncXY6s6IA
+ laSdZf8a3n8YkBVUMVfIQu5Z65KK8K2bfLGnnhJnP20nH2goGfJkqiXc4kBF
+ Mg8wMbKp.Grv8DazoDegUvNmBPKLd0eesPZXou4qj4SNrJxlAWDjVppwRoMG
+ 74DLPWnojTA0XCZhCmD019O.Uz97aJyvwuexw1u0PcOcZmm9v1PBppvWoA--
+Received: from 216.71.138.16 (EHLO esa10.nycdoitt.iphmx.com)
+ by 10.197.37.233 with SMTPs
  (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
- Thu, 30 Jun 2022 23:40:12 +0000
+ Fri, 01 Jul 2022 07:21:12 +0000
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
   d=law.nyc.gov; i=@law.nyc.gov; q=dns/txt; s=mail-s1;
-  t=1656632411; x=1688168411;
+  t=1656660071; x=1688196071;
   h=from:to:subject:date:message-id:mime-version;
-  bh=bWK6YhNEsl7bZXN6NzdBnayD5RrrqJm4mfAYqkY7nDs=;
-  b=c9o+OX5v0WAfNAUOnRge0Q5rD5kjqTcD5r9Jh/uYVneYWCBFfNIXTilT
-   6kP3jT6Y6+1jaofQL+ZtSuXt/xldZCZdIkK3W0I4wjgt7RJ8FvndaE39M
-   SIx5L3sdk7b/IyI3GHpm8PCjYwnszf3+EIA7pJD0ryZf8cjqNMQXOFKuZ
-   c=;
-IronPort-Data: A9a23:p1kaIKKCo5hzr5oJFE+RfZQlxSXFcZb7ZxGr2PjLsTEN7Y4Qp2xan
- zVKWWmHJL/UNVJBSKl2Oo239UgE6Mfcn4NnSwForCtkQX4Q98OZXI3EIB2pbnyYcJbNFxw9s
- ZlAZoaYfJA9HnGC+Uf9P+brpHInjqjXLlaQ5I8oHwgoLeMzYHx71EM58wJAvrNVvTTQ72Jh0
- /vzpsTQNQf9gXhsNG18B8mr8ho05aitsT8WsFVlPakW7ACHyiIbVMJELv7rfyX1SdUNFefjG
- 77Nk+nmrjOCo0l2AY+om7ukIxYAGuLcNgGHgRK6N0TDbj1q/0TehY5hbqRGMy+78gm0ou2d6
- OmhlLS8Fgp0Z/OSyL5MAxUHTC1zMaQZp7Gbeifu4cLLlheefye1k6RlAX9tAYBJoewf7UOiV
- BA7xJLhSjjZ2opaFZriErEEavwLdZWtZMVF0p1Z5Wmx4cwOGPgveI2Xo44CtNsMrpoWR6yGO
- ZFBMWEHgCnoOHWjBH9GUfrSo8/43hETQxUAwL5CjfNqi4R75FUZPInFaLI5SPTTLSlmth/wS
- lb9wojMKkpy2OpzaNay2inEaufnxUsXUW+JfVGy3qYCbFa7nwT/BPCKPLcSTDbQZkOWArpix
- 0IoFiUGp/c7+R2KfMLBGDrhmFOkjxEkath1OrhvgO2N4vK8DwexKUMvFmQERPl98cg8SHoty
- 0ODmM7vCXp3qrqJRHmB97CS6zSvJSwSKmxEbigBJecHy4C7/Mdv0VSRE5A6SPLdYt7dQFkcx
- xi2pTgTqbQXgMIj06yku1bWiHSjoYahogsduVSNAjv+slkRiIiNYqeJ1HjptMR5fa3eQ0eLs
- F4kkpOg1bVbZX2KvGnXKAkXJ5ms/Kjdb2SE3QIzRcd/3yWk+3mkO4tX5VlDyFxBN88FfXrlZ
- RTcsggJvptLZiLyMelwfp67DNkswe74D9P5W/vIb91IJJ9saAuA+yIobkmVt4zwrHURfWgEE
- c/zWa6R4bwyVMyLEBLeqz8h7IIW
-IronPort-HdrOrdr: A9a23:dGGqRq28xHKVAbdHijfmdwqjBTRyeYIsimQD101hICG9Lfb0qy
- n+pp4mPEHP4wr5OUtQ0uxoXZPtfZqyz+8Q3WB8B9aftWrdySGVxeNZnOzfKlTbckWQmNK1vp
- 0QEJSWfeeAaGSS+vyKgjVQfexB/DCvytHQuc7ui1NWCS16YaBp6Al0TiyBFFdteQVADZ0lUL
- KB+8tuvVObCDgqR/X+IkNAc/nIptXNmp6jSwUBHQQb5A6Hii7twKLmEiKfwgwVX1p0sPgfGC
- n+4kLED5eYwrGGIyznpizuBqFt6ZrcIoEqPr31tiFaEESvtu/iXvUGZ1TLhkFPnAjo0idmrD
- CEmWZbAywng0mhAl2dsF/j3RLt3y0p7GKnwViEgWH7qci8Xz4iDdFd7LgpBCcxxnBQyO2U6p
- g7qF6xpt5SF1fNjS7979/HW1VjkVe1u2MrlaoWg2ZEWYUTZbdNpchHlXklWKsoDWb/8sQqAe
- NuBMbT6LJfdk6bdWnQui1qzMa3Vno+Ex+aSgwJu9CT0TJRgHdlpnFojfA3jzMF7tYwWpNE7+
- PLPuBhk6xPVNYfaeZnCOIIUaKMexnwqTqlChPsHbzPfJt3Rk4la6SHkondyNvaCaDglqFC5q
- gpeGkoxVIaagbpFdCE2oFN/1TEXHi9NA6duf1j2w==
-X-IronPort-AV: E=Sophos;i="5.92,235,1650945600"; 
-   d="png'150?scan'150,208,217,150";a="79241342"
+  bh=LQ+pzl929/BuX1v7NEW6xBgC6FQV6qki7LgJsRSwRBg=;
+  b=dT5tkjuGhoVyY2EpML24nFiZJaCSvAZJDICC4kIaWQIs9eSphe4uaeWi
+   SiQ+I6jF4g8bSSYViQi71FhcG1lfW1zT8Js1uUcEPpbj734vtbubLi0S2
+   omdJbh8TklPS6C7LrxhFVdoTDwPzmtnmnObXeHRvF0qHYbcEuwwpu85dO
+   A=;
+IronPort-Data: A9a23:yMIi4K5fm+T9GagFeS7FvgxRtJTGchMFZxGqfqrLsTDasI4TYwyz/
+ BJGBDjRb/+KY3y1JY5G3L7G9RgGuJbXzIcyQVM5qSo2EysQoMTJX4qQch6pYi3Id5ycRhw84
+ Z5AMIeccsxrFi+Mr0ejbOex/XQi36iDHeH1V4YoVswQqSpMEU/N3jo4wbNo2OaE+OSEPj9h0
+ D+TT6f3OVqs1DMsajhS86SMwP8ElK7742pE4VUya/5C5weHyilKVc9EK/nhdHCnGNkKE+XmH
+ u3Kle3h8DyBoEd9UY/7yb2nf0QHHe+JN1DShHFfUqPKbnSux8AX+v9T2K00Mx0J0W/hc6lN9
+ ehwWbyMpSYBYPXGxulMCxQJT34hYqYao+WccXTm78bNxkOWfiK2yKwyVRFnNoAmodp6UDpEn
+ RA6xJHhTfwha8aemu/TpjxE35x7RCXTFNpD/Ckml1k1NN5+KXz5a/yiCeRwgXFh3qiiId6EP
+ 5BDMWY2N0ybC/FyEgx/5KwWzb7AakbXI2UwRGK9/cLbNECKkWSdeJC0WDbkUoTiqfd9xy50l
+ Uqfl4jNOSz2AfTEodazHtNAsceU9c/zcNp6+LRVbZeGinXLroAYIER+uVdWPZBVI6NxMj5SA
+ xV8x8YgkUQ93BeqQtXMAxrgmnWZol0uB+ptGa4A5B7Yn8I44y7BboQFZhFqQ4R88eMTHnkt3
+ FLPmM71DztytrHTUWia6rqfsTK1P24SMHMGYigHCwAC5rEPoqlq1k6JEoklTvPz14Wqcd3z6
+ 2niQCwWu7wDoOAK06i31VTOnHSqt5OPQQkrjunSdjL9sFIgPNb6D2CuwUHwwN8QAtaEcgWup
+ SI0o9Sytf9NXJ7YwURhR81IRtlF/c2tNSaC2QE2R8V9q27zpVaydIBX53d1I0IBDyofUTrgY
+ UuWtQYK65RYZCGudfUuO933DNk2x6/9E9ijTurTctdFfpl2ckmA4T1qYkmTmWvqlSDAjJ0CB
+ HtSSu70ZV5yNEit5GPeqzs1uVPz+h0D+A==
+IronPort-HdrOrdr: A9a23:lVIO+KqOfBBAcLqtfFYF0s4aV5utL9V00zEX/kB9WHVpm5Oj+v
+ xGzc5w6farsl0ssRAb6Ju90cy7LU80mqQFhbX5UY3CYOCEghrjEGgB1/qE/9SIIUSXmYBgPM
+ xbAstD4ajLfD1HZLHBkWuF+rgboOVv2ZrY/Nv2/jNId0VHeqtg5wB2BkKwCUttXjRLApI/Cd
+ 61+tdHjyDIQwVaUu2LQl0+G8TTrdzCk5zrJTQcAQQ81QWIhTS0rJbnDhmj2AsEWT8n+8ZszY
+ GFqX222kyQiYD69vbu7R6R031ioqqh9jMYbPb88vT9ZA+cyDpAL74RPYFq9ApF291Hrmxa3e
+ Uk6i1QRfiavhvqDx2IiAqo1A/63Dk07Xj+jVeenHv4uMT8ACk3EsxbmOtiA23kAmcbzaVBOZ
+ hwrhWknosSCQmFkDX25tDOWR0vnk2ooWA6mepWi3BES4MRZLJYsIRapSpuYd89NTO/7JpiHP
+ hlDcna6voTeVSGb2rBtm0qxNC3RHw8EhqPX0BHsM2I1Dpdmmx/0iIjtYUit2ZF8Ih4R4hP5u
+ zCPKgtnLZSTtUOZaY4H+sFSdvfMB25ffrlWFjiXmgOPck8Sg/wQl7MkccIDc2RCe01JcEJ6e
+ r8uXtjxB4PUlOrD9GS15tW9R2ISHmhXF3Wu7Jj26Q=
+X-IronPort-AV: E=Sophos;i="5.90,257,1643691600"; 
+   d="png'150?scan'150,208,217,150";a="80691007"
 X-Attachment-filename: image001.png, image002.png
 X-IronPort-Outbreak-Status: No, level 0, Unknown - Unknown
-Received: from mail-dm3gcc02lp2104.outbound.protection.outlook.com (HELO GCC02-DM3-obe.outbound.protection.outlook.com) ([104.47.65.104])
-  by ob1.nycdoitt.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 30 Jun 2022 19:40:07 -0400
+Received: from mail-dm3gcc02lp2107.outbound.protection.outlook.com (HELO GCC02-DM3-obe.outbound.protection.outlook.com) ([104.47.65.107])
+  by ob1.nycdoitt.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 01 Jul 2022 03:21:10 -0400
 ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
- b=Uaoiibl0u1iIonUFrLKee5gxndo0/VKzggMxw9gx/54y/Eh5ClrDTxLiZOte+GOX9Xg5o/h5R5ROMQ8jkSvz6s5iyNni54QSv4hkEeFrNTtEkdWcs6ks9+PHsTqyU1BtrqcVs52T+KnySQXadTsjffm+5skqp86a6+dZyxmN4T5i7xrsutDzjzvk3JM18n+XeSuHC6fGaYFtZHUIOfrJMyumFGXEHamlg4dcLsnjrqYLMCOoiD5SUijI9wJbtJgElkicIz38UUhNep2QcRx1kQ4qIio7hqIBEqQkEkzCskNzmV0Iujzonq1HRBWp5fpeN9vEesGlL70gEnHg0MlZkA==
+ b=nobcRiJTAkcSvO3J6hqj95SSA3aUlkVn/LaOPL+NSI/D5XJhypahBLUR5X/kNfyTbXrK/N81okz3SxHFlai2qmkGijee44Hrk53DPD9o4Q8rKn5zvxflxu+MUP1Vkt73dgiQpx1HZmlARjHjq3eeXR41J90JmptUBgAIBChbxM7sIK0le41ODE3CeC4SZ+qi3eoY53d9j1kWhHCCAe0OV00GIc009A2CTITUX70zNjp64ahGYGa0n+40DQGEOpFbFlPm0J66gOpazv2puTtcpr09PA6eOncUprl9Hv3cNMJO89e0ekz8sIuSWMpPfq3TxfdlGyDpOKjB/EOUElDDgA==
 ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
  s=arcselector9901;
  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
- bh=bWK6YhNEsl7bZXN6NzdBnayD5RrrqJm4mfAYqkY7nDs=;
- b=l3u2BgwpWNB+B8mjYymysfMlF/5vAaCSmajcnhlX2zYopY9EqeBp42S/5N9CoLs/1XTQEQHoEX1kDWkzq1Nq3e3cJ7HAsUS0LUv9FRH8AdidM48arRh/Zs9bVaNpKGJCymGxkE2KyhRN5iTchy9V9h6K2FiPWcPxf3OAiwRsNM2mvKTzNwTag9miRyD/pQoimT1hOEdq6aoUJ2e/bq4vtdzPObEksJU5RU5IVRtASIRKry3KoMTau0l1dk9c9G3akS97+5dr6E6+xZdhuqIBt4iaZ0p430Gn9ZmqjC/GEDuFQybj8+QKSC6VKQGYhtyZ11pyOr6mU2CPeFDKcng9qw==
+ bh=LQ+pzl929/BuX1v7NEW6xBgC6FQV6qki7LgJsRSwRBg=;
+ b=XHyI0HGeo6+tTifV4IJoLuraQOMEsv7X2CwDiqgkCFh8F6v6DkkBVPOWqNgsa2YgxqlaTKNMPuHFUSw5KzDDpBKaoMavOBFb9bM4EB6vhCK+sR7De9NF0Bh0zJejQRsL/mN36v4HiX3S4JPC/+Dw8pZnd09KeJs0b7QeWvvZJQVBpO2UfTti/Vlh++nWBxjPgJt0s2dSyaZj8FrNI6r+5ZVZmGRvDu77OdizzVUTHzc1BugH1FKCZRDeyeYKRVfFRz/9mi8AdYqnewhZeBVvzBIK1TUsxvcGuTJWgCkiubcwlqdjCT3mCw3MUpZgaXnvSS1j1H0rFKN9R26E2RqGpg==
 ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
  smtp.mailfrom=law.nyc.gov; dmarc=pass action=none header.from=law.nyc.gov;
  dkim=pass header.d=law.nyc.gov; arc=none
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=law.nyc.gov;
  s=selector1;
  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
- bh=bWK6YhNEsl7bZXN6NzdBnayD5RrrqJm4mfAYqkY7nDs=;
- b=KuDWFt+uWQmj3gq8eDss1eYQMenZg7tYU+ZgJw+j7ic/6gfVajU/nRdUql9MLIPUPGm9cqyDkoLJtZyIz+8pXtdZCIWAxzLgDwfK9EvAk2oAKpVFXWyPVg9wMFmWQY9i8nurbQTfE0QQeCRmiPS1FQhACIZ4khyhJeihpb41YoWBu8dz0f9b4Pozp97cnqc3Sl05d4RejbbTcIDJ7TKDVH+JXXSqYJUDjYmGD2H5Qd+DUbWkygaZIomLLyCl03fgN7GOzkdEvS4w12sArsjycaA2TRqjAXyujCM08I6xmQ2mjm9ASkFRu1ENudb9RsbqPk0O1jpWh75THCGMfPv1Yw==
-Received: from SJ0PR09MB6047.namprd09.prod.outlook.com (2603:10b6:a03:260::18)
- by SA1PR09MB8576.namprd09.prod.outlook.com (2603:10b6:806:17c::9) with
+ bh=LQ+pzl929/BuX1v7NEW6xBgC6FQV6qki7LgJsRSwRBg=;
+ b=Yt/bFd8PUfePfjnN2c0twBaG1RF0lSkmpLp0m+/ZlWnIYpvTv0WhdJ+5hF0Ffn3fc6tbrL8QsL8K/lCDSNo6BFy0HhVyAucStpA2rsm7GRkeb6yiNHRq+HcnsyyBcf94zMcsWRjwdU325RfssQaOaCSRZ1fAY2Txk5R2NaNs4A4Ya0GvevZS4YIsvSPE/L/QbNxSZYuqrxKHTGlv8sBManoEKBCAGwFjBcUOH8TB1FyhcSu++kjD6SuWIM+XKPbO28S6MIpRUDLse7yYp5pbZYswmFIglgAhFDkYhZYKvRGrT/BTxqnb7ZoHVmeJueLMrWqjzLbx+vQPTGkLekjMmg==
+Received: from BLAPR09MB6036.namprd09.prod.outlook.com (2603:10b6:208:2a9::20)
+ by SA9PR09MB5951.namprd09.prod.outlook.com (2603:10b6:806:43::22) with
  Microsoft SMTP Server (version=TLS1_2,
- cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.14; Thu, 30 Jun
- 2022 23:39:33 +0000
-Received: from SJ0PR09MB6047.namprd09.prod.outlook.com ([::1]) by
- SJ0PR09MB6047.namprd09.prod.outlook.com ([fe80::3018:7651:4975:b0c2%5]) with
- Microsoft SMTP Server id 15.20.5373.018; Thu, 30 Jun 2022 23:39:27 +0000
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.15; Fri, 1 Jul
+ 2022 07:21:07 +0000
+Received: from BLAPR09MB6036.namprd09.prod.outlook.com ([::1]) by
+ BLAPR09MB6036.namprd09.prod.outlook.com ([fe80::24c3:c0e6:14ac:3b52%6]) with
+ Microsoft SMTP Server id 15.20.5395.014; Fri, 1 Jul 2022 07:21:07 +0000
 From: TaxEFiled <TaxEFiled@law.nyc.gov>
 To: B D2022 <ms60710444266@yahoo.com>
 Subject: Your email to TaxEfiled (Updated-February 11, 2021)
 Thread-Topic: Your email to TaxEfiled (Updated-February 11, 2021)
-Thread-Index: AQHYjNqiNNWOaEw5LEK9kXOB5XForQ==
-Date: Thu, 30 Jun 2022 23:39:27 +0000
+Thread-Index: AQHYjRsh+MMDQmrXW0aPibBl4D2lHg==
+Date: Fri, 1 Jul 2022 07:21:07 +0000
 Message-ID:
- <fa7b67e115ce480d84b0954209cf974d@SJ0PR09MB6047.namprd09.prod.outlook.com>
+ <f69451f1317a4158a11dbb5372043fa1@BLAPR09MB6036.namprd09.prod.outlook.com>
 X-MS-Has-Attach: yes
 X-Auto-Response-Suppress: All
 X-MS-Exchange-Inbox-Rules-Loop: TaxEfiled@law.nyc.gov
 X-MS-TNEF-Correlator:
 x-ms-exchange-parent-message-id:
- <6fd88f34-55f1-e7c3-6332-378ffce88d28@yahoo.com>
+ <8d808ed4-4806-5eff-ea69-fe7450e5995e@yahoo.com>
 auto-submitted: auto-generated
 x-ms-exchange-generated-message-source: Mailbox Rules Agent
 x-ms-publictraffictype: Email
-x-ms-office365-filtering-correlation-id: a15f36b2-9dc2-41ae-ff59-08da5af1c578
-x-ms-traffictypediagnostic: SA1PR09MB8576:EE_
+x-ms-office365-filtering-correlation-id: 4f824ab6-e973-48cd-0955-08da5b3243e1
+x-ms-traffictypediagnostic: SA9PR09MB5951:EE_
 x-outbound-auth: NYCO365
 x-ms-exchange-senderadcheck: 1
 x-ms-exchange-antispam-relay: 0
 x-microsoft-antispam: BCL:0;
 x-microsoft-antispam-message-info:
- px7HwUEDyZvzB5uQyANoLBN/iWzc1KGTDVYxjqZKBu3H6C5Nde8oX1gaBo5c7wlwi3s1DORxVmIfR2VmkUXjDtQZopqTfpVaQPgUxtdZKP+z29zKARl1e6ugQRe7f4JJGJkCVW9sN7Ik3Kab5gHZxR33U0mCL0cHWjZxXn8zUlhrPE7jqnsgmhQclUyLKQvUyXXmHpSpPLxGoB7oCDfEXYr2/3RbRQ9TpQC2sakKHCqx2mrwje+8aMvctvofioKnoqO6rzzsGxiUau7iDqsndzvyKX1gFlZVv9lPGFC5zdZ9eERahAl+KvEpK8j0+mo9ZjrJ9uuFi0QLE2SGCf2/A1ZSZhtncglpMkt5QAetpSXIwOxBAkkvJs0JixjpswkF4ONNNEC5bjWC5L9G/3X7rGD3drENrFXxJiwVOYVADlTQTay/11IoJe1SFrDbOS/6TQ+9d6KnOjwwRrQSTaiwGVeUQ+0WMOFwyqr6YL5nXfi11pmxQMY2dX72zxH8wS2RS+EbjkdsVyagTpbQFMA58O90G/wRDethnv1GGOwY8QiNJK0F+x5noKeYXYOTF6n3pdcAdqGXL5lc6eupj8evwPEXFL7Uh1c/JrUYEeCWCMlOfjvl5GZ8agFzpfO2zOyADdM7qkmFT6xaWB1+r5onq4xrqI0uLPGml3I50fIimYgmC/7yIKK1dEjOhTkR21uUHWZHRPvuyCbkRBZRCPWZ8g==
+ i7FoWDgUy7S35A2obh7TYhRW6u8PNOSK1+906GFaDkosEOVOpJZjF8rkyQqyy9VDvERr68McQGQZM3KBWho3MisjGuo6IOr8xXLBXRhL6gOaK3L9Qq5BLHeSa6NLtxxFzYkXTx92lZNd8wqCw25gPOrKQtWdITQb99QzD/yFecXV9ftpXAYB0OsRzPEBF5caz42nmFdozFPaCEU8yeYoU570KUG21SKUEVHK5XIhAVfN2s6vHtB3D4yHZKfe0Ajk6lkBJUM0k3jg3SPWa9ziGHhddWDELoH4NHGnGp9Wcwx+byvqsya41pE/lznuPBj+elO+TGXY1YIkPbpVrjAkTyJzLLzpw/qbNkE3nuDWCXNuYKB2lllgu7n1q9ly5J7CERbgzoECgfTZeXnofqeVXW0bagiznE8fxZFucZCWHyFOI4gQwSRfSWT01YxPUdD1sOO1QzGgZzTB4zCx213cKfwZH8crs7x9Cy0X7OBq1djM88S2B6Ov/cqWki3AxdT04FloQrtBj7zFvNB6cvEeRUZEBy2OGnz30m4ITHKJl7jb5crLjTPV4bsVKqyLAA1Hj8m6K7ayF3XWDm0iiqZuOjpb1Bsx0ra2ZCcEkWhPbJUa+DfSnb/390EVepgH6gZHVNU8RFHrVVMIQrLcnJX5njDzsyWZROIPiHo9MkDt/BTp6/zxRMlkizPfF4X0UFHK9vNq2tq6zjfhA2b3SFCFlg==
 x-forefront-antispam-report:
- CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SJ0PR09MB6047.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(366004)(9686003)(186003)(99936003)(66476007)(83380400001)(108616005)(24736004)(7696005)(55016003)(6506007)(66556008)(6916009)(122000001)(5660300002)(166002)(8936002)(66446008)(88996005)(966005)(66946007)(71200400001)(8676002)(64756008)(86362001)(498600001)(15650500001)(2906002);DIR:OUT;SFP:1101;
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6036.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(366004)(66476007)(66556008)(66446008)(64756008)(66946007)(88996005)(71200400001)(6916009)(8936002)(8676002)(5660300002)(966005)(498600001)(83380400001)(15650500001)(9686003)(24736004)(108616005)(7696005)(186003)(6506007)(2906002)(99936003)(122000001)(55016003)(166002)(86362001);DIR:OUT;SFP:1101;
 x-ms-exchange-antispam-messagedata-chunkcount: 1
 x-ms-exchange-antispam-messagedata-0:
- HcyC569JzflzhWDH0XXREupB8nyZKkvWX8r936ge6zbOZJcXT8YUTUYXYk2pB45CPemg50wm8r/+MtldwJP8wIkjvoxs0iaGwYfROkdj0CXjZxEeEDnBWe2LPfB5IHsNgObeT6AY+tAwOhuo+nj6+nQTnyagwgBClqWZsJMlc+cCMmtI3oMw641wKcSG+sU85Vu1gvCqa5pZkmzn7pR1JS2OpujSR9nf5oJoHOMZTgRooiETY57GjYG0IVw0gaaXlVehfHBNKzmVi47zhCIDqzvPgw9JCyufBhUBO+tHreglMe1JgUUroO6hxdywGCYG
+ L3Q93OTXLhapm4XR51HOz6JqEIbyCKDuRz9gP7TsilnNBjutP5EHmLE5htm+RiUfA7g36foJ4HELHVHUy7Hnv5yqfc3xP0YtMX3JyhZytB/op/X1uEK33mS+hbNdHOnaxH9FQwC7s/eQyjG6oPCTx6CyW0V3wqc+Fte4MgzK4T28bUcibXOE1vvXlsKqhnBkjfIeCFkVoEF7bMvYYPGtj65qMHdEFX5R9lXW4cGV3URh9Pn2VJTQcEZkisx725exgqwJYxRbZF4gJWaShZPHeX7GEHnt4f1Zo/c8hrm1Fr6bydmtWDAGAD67/TixFJE1
 Content-Type: multipart/mixed;
-	boundary="_005_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_"
+	boundary="_005_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_"
 MIME-Version: 1.0
 X-OriginatorOrg: law.nyc.gov
 X-MS-Exchange-CrossTenant-AuthAs: Internal
-X-MS-Exchange-CrossTenant-AuthSource: SJ0PR09MB6047.namprd09.prod.outlook.com
-X-MS-Exchange-CrossTenant-Network-Message-Id: a15f36b2-9dc2-41ae-ff59-08da5af1c578
-X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Jun 2022 23:39:27.2381
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6036.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4f824ab6-e973-48cd-0955-08da5b3243e1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Jul 2022 07:21:07.0879
  (UTC)
 X-MS-Exchange-CrossTenant-fromentityheader: Hosted
 X-MS-Exchange-CrossTenant-id: 32f56fc7-5f81-4e22-a95b-15da66513bef
-X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA1PR09MB8576
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA9PR09MB5951
 Content-Length: 95712
 
---_005_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_
+--_005_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_
 Content-Type: multipart/alternative;
-	boundary="_000_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_"
+	boundary="_000_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_"
 
---_000_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_
+--_000_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_
 Content-Type: text/plain; charset="Windows-1252"
 Content-Transfer-Encoding: quoted-printable
 
@@ -250,7 +250,7 @@ lease not that we are unable to provide legal advice.
 
 
 
---_000_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_
+--_000_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_
 Content-Type: text/html; charset="Windows-1252"
 Content-Transfer-Encoding: quoted-printable
 
@@ -563,9 +563,9 @@ o provide legal advice.
 </body>
 </html>
 
---_000_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_--
+--_000_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_--
 
---_005_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_
+--_005_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_
 Content-Type: image/png; name="image001.png"
 Content-Description: image001.png
 Content-Disposition: attachment; filename="image001.png"; size=32592;
@@ -1147,7 +1147,7 @@ RAARQAQQgRsJII2O+gQigAggAogAItAbCCCN3hukiNqACCACiAAigAggjY76ACKACCACiAAi0BsI
 II3eG6SI2oAIIAKIACKACCCNjvoAIoAIIAKIACLQGwggjd4bpIjagAggAogAIoAIII2O+gAigAgg
 AogAItAbCCCN3hukiNqACCACiAAigAj8H3Ov2BXWNGdXAAAAAElFTkSuQmCC
 
---_005_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_
+--_005_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_
 Content-Type: image/png; name="image002.png"
 Content-Description: image002.png
 Content-Disposition: attachment; filename="image002.png"; size=22622;
@@ -1554,4 +1554,4 @@ UOERgSElcD05u6VFON7dtnMu2cW1ZmaCGcHjhzRrlDgigAiMTgJIcI7OdkGlGi0EQHBaCWhrFgR3
 LtDRC8kNQhUSnKOlkVA5EIHhJYDOcQ4vb5TbPUhAg2Fyg6HzD66ggAggAvctAcKy136+byuPKo4I
 9IdA+OyAGbMmdo55PTI96mpaf55FcRABRGDsEfh/SXBr0IczPFAAAAAASUVORK5CYII=
 
---_005_fa7b67e115ce480d84b0954209cf974dSJ0PR09MB6047namprd09pr_--
+--_005_f69451f1317a4158a11dbb5372043fa1BLAPR09MB6036namprd09pr_--
