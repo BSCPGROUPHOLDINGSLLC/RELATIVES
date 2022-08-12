@@ -1,0 +1,152 @@
+From - Thu May 19 18:26:36 2022
+X-Account-Key: account1
+X-UIDL: AJPuHUJPEUiMYoahfgduWORH9Lw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.44
+ by atlas109.free.mail.ne1.yahoo.com with HTTPS; Thu, 19 May 2022 19:58:54 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.181]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.181 as permitted sender)
+Authentication-Results: atlas109.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 19 May 2022 19:58:54 +0000
+X-YMailAVSC: 3GbUf4U3bBv9lDNzXxEVMu_9BC9jekbgkvKN6QU.OGGq8o4
+ Wl6JEbewI_unreVs0T96g99jDlvKmLWScX3h8Nb2IEslVdg1WTeGmN0U9mNJ
+ O36o6HFCTw9MbWc15dTwUsEmpLGDxdoA2vhMRYpAgiw.hrjE4GEYUK7pf_RD
+ WqQad5odRuQg8MNoL5nUeHFKR6_Xz2MBhz48J.Dev_NBUrwWTVrCQv8b8_Mv
+ gQKUEOJVSld6egfrwVKm0GbiA4v_LLXZVo_8ERZ_NuZ97bzy5eo9mNk1NGtk
+ E3AgGjDzV25nVQNZx2uwHqNxVhsc3rCmu3Kz7K30lYFX13_82l3Ekfc5PR4X
+ 9i7G8DUNpJv2OIyMsgr9rm0irTE8n3kZpClfsm4e32BMmmIK1kugplg--
+X-YMailISG: evBWRmEWLDs3bps_0GHvciLpHhzMNnjXpm6vjQvxHL5EjAYB
+ kvoQcEFnM326amDGyiyNMydg4auzUZqhk1UVAv5mR.E35lYdKj86NTpi.6e0
+ 5.Ew4WPJt0x2MfDP09e11p7mWW6Q4klR2r.R_gv63PC8irpn1MeuI2R6YOLN
+ PGqKEEXSGynWQiapLnUARI2l13UCgh_05_GfWbCVg6TvImwsaAmE1r.UbLy3
+ U4L5GUE2KAE1rKL6Q1YJh0YNjPA8DHZMi3IFJa_jDQPWXCR.S.VrbvxJbx8i
+ ln2ZSm3XUo8UeTCRVNHrhRBazmmzH8ZwbnKCFhDQS0ASZYUG55XpaiyAKU_4
+ 5MaC5vShVyan1rLwb5Tyb2KMInVKgCEATVEq0TOlGUdUd4AW0hu8P0dNXSWE
+ 3eKDlod7MaKo_hnjALP9BkDYFQGmRm72KWCl_xQPel3SkJrGZNaJf9Pwp3I_
+ d0zDlNnz3lfnMr53a6bi2XdV9.j7panD57.kGuEf7.FqnTL5Ex4QKpC6az.y
+ 54wyDLSvx2C7_4gyisOPnKaNFuJoo1pQJnYUQFn08P3cKANbMpoNaRasDbUp
+ V8NYJG.45BvRI2aXmxY980a.07Kt118Na3UA0FbSizCdLVBHpDmZ61zm.v0g
+ uBivBvYpMeqjXnDJAACsd7_7SoOOtvLFECqFFTKcctuZXxvR8jPrbQ5AJcGR
+ ER.2DbuAnL.9qTjRbAs6jLIthA1VVY5a865z_7QTmJnjWDsk6OuO_TxIrNCL
+ eK97c_G8Qg_eTNFH3IaM.P6KckawHETFzzgdwiHxsLhcDBsTTxrXt3WWGp58
+ qboKRX4e2Wt4xI1K51SgkZr8itRQkrhDXVbPuBRPvYpM9clGda9UnucZBoho
+ SAha.vmxF3pw__bUJ1yhOBkNuNNBcrOcJILAQU9SJJGEFIObEdZtQg2jR0pu
+ x0EQ9RNhNXagS_gFL9VumJyA4KcItaH5NYkaevKDCXbINKesVnH0D4McBhFU
+ rNBjO2cwcXPzCIOqH.kYP7SHsHv04SFqD.RUljIw02vJ4b0iwa5aFi_zukCH
+ Mm1D3rON0ZTmG6_.aIztFYbqDxYUT0fWZhecWFSx0EzrYKGV6Qi_UrOmAI87
+ NBcldNMY.d3ywVYATsJ32rEKdGUtgCskJZw6s8KPk.e1sgYC7K_3rT0VvUor
+ _GjbKntNdqyHtt8nMSPp
+Received: from 17.58.63.181 (EHLO st43p00im-zteg10073401.me.com)
+ by 10.217.135.44 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 19 May 2022 19:58:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1652990333;
+	bh=99U9oGok7tzt/1O0/G2g7I7QNt2/wdTR6yVvbdf8Oaw=;
+	h=Content-Type:From:Mime-Version:Date:Subject:Message-Id:To;
+	b=AsZuS42AMUAGrxMpVWihnxTWJav/vVSuStbxd5PndAG1DqkMCOWBsHU8IiyZtCSLC
+	 jzedVQ8z5w7pUXzu+ijceAQ2WMePFAkcSud1flMg4jxYna8m9DN8HB689Z1Y/KGipA
+	 4wGTHU1XEWz23QBY5bJa8p7X4fK/MrOTEwfv3jUr/rtfxqEfrioTEY6AVAofGbQ1FJ
+	 uf/Tqn01kl3sSEllsybm5Ab5bXqGu6QLAWI+umg7zdhhGd3alWH/rpYt6u3ngPKzuT
+	 3PIqAyHwMs5iWFQt4AGt0G+SE4wJ1RcRDscAMXBLvGh6D/7j12RsMEOdPMBJqw599Z
+	 W2KBICDfnmN8g==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10073401.me.com (Postfix) with ESMTPSA id 8F121A80527
+	for <ms60710444266@yahoo.com>; Thu, 19 May 2022 19:58:48 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-6389F654-2116-4373-BDBE-10C854488A1E
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Date: Thu, 19 May 2022 15:58:47 -0400
+Subject: 31110349751
+Message-Id: <5A350B1E-5089-446A-B16C-9AE416F23FEB@icloud.com>
+To: BBO 121 <ms60710444266@yahoo.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: PaSe4NCL8UU9elA4uFEjUJ4PsLCfswBH
+X-Proofpoint-GUID: PaSe4NCL8UU9elA4uFEjUJ4PsLCfswBH
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.572,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2020-02-14=5F11:2020-02-14=5F02,2020-02-14=5F11,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 mlxlogscore=599 adultscore=0
+ phishscore=0 bulkscore=0 spamscore=0 clxscore=1015 malwarescore=0
+ suspectscore=0 mlxscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205190110
+Content-Length: 3820
+
+
+--Apple-Mail-6389F654-2116-4373-BDBE-10C854488A1E
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+#31110349751
+
+https://saaze2311prdsra.blob.core.windows.net/clean/ea2fe2f1acd7ec11a7b50022=
+48307b90/2020-08-11%20DOB-MTxx3415.png
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/732fabe9acd7ec11a7b50022=
+483079c1/2020-08-09-67PP-50074.png
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/231090fcacd7ec11a7b50022=
+48307aa9/2021-12-19-ColumbiaCounselors.PDF
+
+/BD
+
+
+--Apple-Mail-6389F654-2116-4373-BDBE-10C854488A1E
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><p class=3D"p1" style=3D"margin: 0px 0px 3p=
+x; font-stretch: normal; font-size: 23px; line-height: normal; caret-color: r=
+gb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span cla=
+ss=3D"s1" style=3D"font-weight: bold;">#31110349751</span></p><p class=3D"p2=
+" style=3D"margin: 0px; font-stretch: normal; line-height: normal; min-heigh=
+t: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size=
+-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=3D"m=
+argin: 0px; font-stretch: normal; line-height: normal; caret-color: rgb(0, 0=
+, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s=
+2"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/ea2fe2f1ac=
+d7ec11a7b5002248307b90/2020-08-11%20DOB-MTxx3415.png">https://saaze2311prdsr=
+a.blob.core.windows.net/clean/ea2fe2f1acd7ec11a7b5002248307b90/2020-08-11%20=
+DOB-MTxx3415.png</a></span></p><p class=3D"p2" style=3D"margin: 0px; font-st=
+retch: normal; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0=
+, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s=
+2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal=
+; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color:=
+ rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s2"></span><b=
+r></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal; line-heigh=
+t: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size=
+-adjust: auto;"><span class=3D"s2"><a href=3D"https://saaze2311prdsra.blob.c=
+ore.windows.net/clean/732fabe9acd7ec11a7b50022483079c1/2020-08-09-67PP-50074=
+.png">https://saaze2311prdsra.blob.core.windows.net/clean/732fabe9acd7ec11a7=
+b50022483079c1/2020-08-09-67PP-50074.png</a></span></p><p class=3D"p2" style=
+=3D"margin: 0px; font-stretch: normal; line-height: normal; min-height: 16.7=
+px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust=
+: auto;"><span class=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0=
+px; font-stretch: normal; line-height: normal; min-height: 16.7px; caret-col=
+or: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><spa=
+n class=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-str=
+etch: normal; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0=
+, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s=
+2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal=
+; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webk=
+it-text-size-adjust: auto;"><span class=3D"s2"><a href=3D"https://saaze2311p=
+rdsra.blob.core.windows.net/clean/231090fcacd7ec11a7b5002248307aa9/2021-12-1=
+9-ColumbiaCounselors.PDF">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/231090fcacd7ec11a7b5002248307aa9/2021-12-19-ColumbiaCounselors.PDF</a></sp=
+an></p><br><div dir=3D"ltr">/BD<div><br></div></div></body></html>=
+
+--Apple-Mail-6389F654-2116-4373-BDBE-10C854488A1E--

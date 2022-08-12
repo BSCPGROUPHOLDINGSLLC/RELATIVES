@@ -1,0 +1,119 @@
+From - Mon May 16 23:50:47 2022
+X-Account-Key: account1
+X-UIDL: AIAKrNU0A9f7YoLqYgFAUHI/oRY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.86
+ by atlas307.free.mail.gq1.yahoo.com with HTTPS; Tue, 17 May 2022 00:20:49 +0000
+Return-Path: <pinkbookswap@yahoo.com>
+X-Originating-Ip: [74.6.131.42]
+Received-SPF: pass (domain of yahoo.com designates 74.6.131.42 as permitted sender)
+Authentication-Results: atlas307.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 17 May 2022 00:20:49 +0000
+X-YMailAVSC: 0jJ8zds3bBuoC9..BfEdYIp9VYY0IkIOPJBbn_NJ50jwfQ7
+ j6ablGKwBIxkhpvilEFjt2gufH6uHoPnpR4yISHV9b0kGRkv7Xn3yEoTXfjx
+ lkt8o8vQFxpC9q3gU_TrQNqEyF5PbBJS18lToGUcFUt5e3886E6gW8puvMLW
+ bQR5fmSqYfYEH8c6LWIj.TmAID2r_eAsD4mdF1AswcLxmenK8qxrCzNQt5RW
+ G4DNlGdp0MmJfHnAM_vYEtkOOCgDKeZPZ6lSaTtqaJ.70ktLzu7X9olbZkWP
+ yZt685Czspj2rSpUA6bIa4RyNkWbCcYNo.sb_IySAhYKTFH6gC9YyoASnOyj
+ n2qKBXNJMEf6jQHzy4VA5WA.HmP2rqSVaZF.E4KP04pE_4pCCQp0-
+X-YMailISG: JIIkGpgWLDuJiIuYnLh1ApbX0YtUmUKOyS1w02ddy97HnbcT
+ wOHj8rpj.BMaMc_9hApW6ymm7_1Q4sXgUdX_xL9YaarIxRYmZ99OhoC3OkXG
+ Xir7NlfIzuUMo.L56TSMBNttbzda.AembYVR0J4QPCX0Vt3tD5XY7iwOoDpL
+ w..dEMX7TwKSPBQpg.PodrHsN5LRYDT0q5c_QIlXPQeSyYxjMjT1SzC0FRd4
+ uQocOryyRyZ8dby2ArvqQzGH5ziW7Zc5saFyhZuFcaCeq9QSaoyrrDaOPMj5
+ IM9Xuumeo2crmpayjsBIhbmgrZYE4F6EmJrCSKJFDMK4f4dukdW56ZDbII9k
+ 7yK6EXYPzZCrLHdAkLgJ_z.Kdj7CaBDtpQDB4y_ui4QfG0IxM3aSJSDdBlTA
+ QO53CJ8G_k_IKGY8VFP.WVADz40Yx_zef2G.l1u5mMGmQ3FNNnwBNToJUt4P
+ 10PPspo9XoTSvSooodTVsTjB_Y7p8QNdlrmDB0xWltwGcaTMuMWnV8mwE84k
+ XjVBtvpyqJEBJJCAJwI4SJTvdXlJkr54CCMgKLnAyggYgov7zE4fQ8Gernl3
+ baALtLZoV_hJxcA395zWztwkiFc.9P9g.12eCFA_HiaPTbz_ptzdAIj5mKyT
+ WGjtzwzex9scrBVBd.69bu5pVV9L.BdaB8NF6bvqP4aSFhUqYW04Y_Bv6NqC
+ qcTCCUB94kMuG8Xw00WlV9xCTo60UWwimD_QTcJhfuFFSS7yio_C438nqh9C
+ lrM4U22orz2JSi479wYJOUjbi502RTiap4ujp5I7fsjPydlgG2X7zz0B_r17
+ VsYVXqOHBCvK5GRs3VQsG3rec7Kr3SjSo7IMeIAJ3_HWqXplCTokqEfv3avq
+ ..46xIHPNry8zVMmDYi.L0hWLubWYHiuFAOcqeYOJrHVqcosaSjUuYOvpU.F
+ JL6JlmI8HAWQx8lPC6w1YW5PWDVSotjo6eLRBydlDL7zbQJphduREhcS5fzu
+ PKuVQDWKpThA5F.rYxi89MIOvMDbfOMyuM.3bJdGP2Wfl7NMaS76fQlr1.Ty
+ mgh9nbCvrvpSdoPevycO1XcPasFpd91cA8I.PAj1UYCZdRFiIPJWVRaRRmho
+ TQqGDqPuCKnmkCJKvrL1DRfWWp5Vy_4ixynW1PrL.fxD4x_9oCRyr0sW9eNq
+ 3ZyV1RHni4JxojHNnWsUtpSr.v6c7L70GCQVX7jJ_0ODX6kqfL4MbLJfa69V
+ 0fNOWmLo7OVY10Gge6fV2d.1TSSDxva2abMfgo4YOA--
+Received: from 74.6.131.42 (EHLO sonic303-3.consmr.mail.bf2.yahoo.com)
+ by 10.253.233.86 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 17 May 2022 00:20:49 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652746848; bh=uI8Vkb6cBZ9Vcs7s0FOr0AalZ4+xiO06ZEFyyoKbTU0=; h=Date:From:To:Subject:References:From:Subject:Reply-To; b=IukNTjQilD5qykZd43CIQcZ1f1E899qS0AH+jQE5qGP/HdSr8mlyl/EutLuaCEcEb8iLCd2G/OsIkHjxgwtoM6TilUu2szwvMmfKZqA+bB/CQfFOirSgGHaIy3MQ8DCE/pClNONBV+rITHcrvYAnqe5gT5/Yzg00nmlWhXaRLRCtn8XSuNcDaWrnTNPfNQEEOPftDCn+ZAI31/1sFtScFdj+2XiPCX1fhey1ZI7snZfxEhluqJhF/s1dlUxltZm1c0ID81K+mTpLZxYynLyw5ZUhBpJs3gjLFKMIG6aiLpVWMGdy2ve45/BLGsrsY+OMd4NG869CIITj4uE9vAyVvA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652746848; bh=tasfhX+0Z4HF17UrKtfRn6KNt9WTUtbCIaQOylPK3Nr=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=jk+hS/Tiu3NHgRELOiTYZ9sIqbbvFfs8yXXeZqT+yQQS4dV+4MA8mVgkyb7qp8s9ORjDbnN2Ky/m8b4idx1/BHaASfqODNDx09OAuYQ/keWyNniAh8STbJp2gHFmW4NEr/Re4JzEF9zp688YGBLrh5NEenMeuK4S4qCuZWQFkX2thcXNFvWghq78i1uzCQ1aeIQCe1Mg6KuIJN/KwUyDnEFSbzdHzQAu7i2Yv/asR0MtTrFbErJyHEZSsWC4WosPi0kL+8Mm1VthHegWRo2tIheudrLJyVkKWYQ3/VFPt2cqgRmVcSm6kpnGVQR1+mQ5M5CMBODi1umqKk9XUC8SxA==
+X-YMail-OSG: rQh8i_UVM1noTAGTDHFkhATsE_MtmKPPLKTehvxcQWksH5I8q9F5wE8ZYzvYbqp
+ BjO4ytIPrA1cW8b7WYROD5xu6f3rqcIh_uRMlj_zdQEtWSy0qUO1APWoTnnQtoxyoaDFkI4G04uO
+ TTVKObx2Zuy9gxdM5SDUftAG4zkDuluf0jDiH7wbE3ZkoKVcaBpe.zl1RQ80TBi9Ccl_ZS6nHmG9
+ 5Bqjy2nwJcEO7icm4PEnV_Wkix3kMMuzEEzi8iSeZK37ZZgqEyF8STJHXnjqim1cx38703VWjOhh
+ KkuxDXy0VFVr.L7GRwpbzzHWp9xLgLQI4nIzvZdYQfiZKMRW5kPQsvUdNAuMHYXOz_77kjtXHSCt
+ hor3wf50hrplF1_TRJnPBH6LZSC5CTJNJpaOH1bYa6zUfxc2BrqLt7Amroe7gvQKeRjnIvRYEpYY
+ StNWZPGL0Y9ljsIV6_Q_rav1uV5mIVzrptCvJyPWB7kDIRFBfA0IQmqKAwYM_oVFSXUpyCQVscmW
+ dxmgMbRaskikv6fc69PA.ojj0O6ksJMBvqUVdmkBtyHXwOekfn_EoVBdFI0yQMwPLKZ8NHBuxF4y
+ ScEryZbMyeQHqQDT4Rv4bYklB51Xc8IauAGuh0Iw2uCkASOUaEm71TEO4egHNfY140gPCothfOKg
+ 9S2SnQlxQBezaV0h9VjfDfq87IahU0ngIn9EwBzSCex9_nLsGRvgsKSdt4Dc1VJIK.3kK1u1.eb6
+ IT1BN8tyrCvnZrIP.WpevGJV_ZEna080V1GqYaKYkklc3hhkhAJq13DezptEhkXPL4eRhtZYFKB6
+ wV069UbwKvCuTWl8MbqOKJFG0XgbAdVZmw8VAQDLWGWFz55L3pWYUcaIPeC0BACy1oVvEiD5XPqi
+ GdCosFjx_m8LlyWLbs.7VRLsqwNlea9RJZnhEv0WhpVq0XAYynhn2lWP5YjnKwTpYJJV73c9f4fk
+ Drfqeg5xwTmMYxBJqLOmuGEJqp.k84W3hR6F2gkRWvBjGxJhQu90JVitWTByAhb0BXlojL6wPDVn
+ XgoGuRA4msrWUd0JyLuSvsCXKx8NQWBd39Nd09KEgcEu9EL0Y4x0O8txF4Pjy8Kx2YzJgQU38r6s
+ DblOn9OIniFw8Fzor4SQzlXsfKpp0j5dfpUfJbTZxJFpB6FyCX_L5WERkAVJSDijmiE2yP2IRLU8
+ mTKE.LDaMfP0FSbsvdzLNGz2Wy2njZnAsdnWpf1lUw7RU3zB4xJ5pTXm.9HeZIpwwkClnZQ6jCFs
+ Oyv5voKANTGXX68iNiFzw2AwrE7ajfh9XhEaQWt4Gf3v7T8gunxmEIymKinVX.uYXHb9LB9_PY.s
+ V52D3J3NsP9A1_6HWeMhyG0TBLBkn9BzkxRY7d_W2UTUwfbtHZUvnilVxeKhv.Od2IPsDswwTJ12
+ fSPJnxiVxniFCT8t4B5GltSkZNe03k04nsRX5nSArdxwuxXk2IwOoN4.JCTEurDP9Rji61aDlHow
+ 9nFH1PyIYZ0n7SipcXoEChV_.KMxnocUQkiP5UNkEKevFKlHb9Pv0MY_.Os6wflkYUQNAjtx9QdN
+ zPmgjWWIIR.4.jbC_85IjkBhxK6Mr9tKMt9zPzdkpAUedsk23Qxj4tWKKwnYVLn.ZeneTEdYBB9k
+ 66kxYxM8ViCu7Dc2zkByN1n_7eoau4rC69yweZ9HzamoZ2UQ53AYfvbhhOZjwsOigaWfczPlZcSM
+ MSgAAbTV7CCEnw1yIXI2NKQr2FivIYfFyz_.GAmaHxVHbgzw_XBOgMfA6Ab2PugUzZ6CEnk3ZbZN
+ epqPQszh8.8RpqofNYscZS2_FWBUNw9uHiqoWaaH9oF_FHgFjsJ.N465pXy4ZuYj9wLfyqCH4Sej
+ v536MMDhOQOtKykWEVhgsL72.XZbvvq2VbAzEVHkV0YAff9oCBOyTAf7jWe4inA2qi1SgqDsCzNK
+ RUwLX8L3ih6Rh.C8EFng0WowLtmoYXJZ5HR18FcIqPN3VaAbcfsrGWyMEWTtbp.4d95UfyuIhnuF
+ rMajcpCjEJgM6mzHoALB.6tf3HHrfYJxumP0YlmrhkZa5zsNwjm2VadIioBsVB8mSS6eCEUeT01P
+ mDaygFpixcJ5JhhT7Zt8s8t_wLQ6T8Txdeo5U8DR7ZpCFdwCkfBr0piu0zn3CXvwU3S0Cphj.kOQ
+ cvVzrPUnLMFtxGrfaQR.6lg6DnRtJQ6Woeofbl8YnzmnYndxBe65WEk0DbNYyuuINxcelpg--
+X-Sonic-MF: <pinkbookswap@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.bf2.yahoo.com with HTTP; Tue, 17 May 2022 00:20:48 +0000
+Date: Tue, 17 May 2022 00:20:28 +0000 (UTC)
+From: "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>
+To:  <ms60710444266@yahoo.com>, BO iPhone <Bdincer66@icloud.com>
+Message-ID: <1365188422.2283754.1652746828532@mail.yahoo.com>
+Subject: Shari.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2283753_1353231691.1652746828531"
+References: <1365188422.2283754.1652746828532.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20188 YahooMailIosMobile
+Content-Length: 1362
+
+------=_Part_2283753_1353231691.1652746828531
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5000=
+d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg=C2=A0
+JPG Shari
+
+
+
+
+
+_______________
+Tel: =C2=A0646-256-3609
+
+
+------=_Part_2283753_1353231691.1652746828531
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><body>
+<a href="https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg" target="_blank">https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg</a>&nbsp;<div><br></div><div>JPG Shari</div><div><br></div><div><br></div><div><br><div id="temp-enhancr-placeholder" class="enhancr-placeholder-medium" data-size="medium"></div><br><br><br>_______________<br><div>Tel: &nbsp;646-256-3609</div><div><br><div><br></div></div></div>
+</body></html>
+------=_Part_2283753_1353231691.1652746828531--

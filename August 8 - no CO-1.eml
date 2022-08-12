@@ -1,0 +1,80 @@
+From - Mon May 16 23:51:48 2022
+X-Account-Key: account1
+X-UIDL: AIaxGHkbGK+7YoMKZgImyLQG6ns
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.144.139
+ by atlas218.free.mail.ne1.yahoo.com with HTTPS; Tue, 17 May 2022 02:37:25 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.7]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.7 as permitted sender)
+Authentication-Results: atlas218.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 17 May 2022 02:37:26 +0000
+X-YMailISG: H5mzcVYWLDvb6rd117cS4cO0QR3bsHgVhHmZ381iHje4DaUF
+ L0FuJKNEQ2CY8FALNRjoVLOqZdKXmCgJbPzaUsBXYJ8o3C.xHYlxvBzYs55.
+ 2LfRpA7BPWNMP4tFWyD_u2nXYBqFFe8PDrAh0qhXracmrZR_SRwyWnm34K_o
+ v0Vl6rVIiQQn.b.lq3xFL4uktVRlSTWNrufH2_6hZ1V5ZVzxg00gC9bT_MVb
+ VB35XalVw4V7Qhov_zt0RRL0KimcHW4Mh5X8S0hrqWLfz_6kLhOP6050l3zI
+ DWPhLcMOm_xsmyQDGvtEXu2ZX5W2hI1NO.MUxWXiU9RWRsvRkzfmUhze2fxt
+ q6cLJtJwvi7PBHo8WdsK3jy9Kj0ZubKTHS_TYEAzPVzsstJj7ipEsIFDuWnC
+ .ppf6UshF5CP_HVj0goG_Zy1nmcUG8sOPAMV6wGcSOKpYXPXgr8vOYSDZiFF
+ EWDbQGgPlHUXghJD0iUDuUclCao9KYp3bwSYYFR62WVh0LhEKWcGVHgDD4KV
+ 9wokHBDr5CTRI6mH6SiVQmX6FJ4stth2U5dgZ_LQycG5KloyB2Wm6IOWKVAk
+ yAaJlrC4x13EcCY8qjAYIUKXOjj1WEoQqOZjPaSz9IImjUPj9yPcEmL_qLIx
+ kAt4AXd5wU99N61rf5fv8SQk93DSxkPk7FXlgUZ97rtWWkA_h4Mcco1WdS_g
+ j313TxcJd2KBlJdZ1K_CzBZfoVtqdATk8rj_FteZpwHwdygZPOzU5jE0VBRW
+ bcBEbTZ4ZXT2B52UNb7UsAman4hW7hSQy2aYRDGb9p5yozaxxL6YU3QBPzmL
+ ba9FGTb9b9ZjjAh0LK6TkzfGy9YdCWQxNX9dK79IuJcnV.kqmWJhMMYR12Ii
+ Oi8c.OQFpI3IypxJVWaqCz91mwPMrYMnd6kWeUJNZwSMUmmCPpwFIhqE_0Za
+ ErQ0jCNaHiInHjiwXk9AeMVrA36ZHH5498oh.Hnw9p8QMtW8C.el4HpG5zz7
+ 47TfXqBUHU8t0GQjiBcNVRVJd946wv9rdAcy4Pm7oL0Zd8uEduJ_aszMvYyW
+ XowAAPQf1G2KznmwEh_SYOfP3UNizOAtbaDaqkc-
+Received: from 166.216.149.7 (EHLO alpemg-mtmta04.wnsnet.attws.com)
+ by 10.217.144.139 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 17 May 2022 02:37:25 +0000
+Received: from zatn1ammsc01nfe002.wnsnet.atn1a.tci.att.com ([107.78.102.29])
+	by bizsmtp with ESMTP
+	id qlsEnHuzpBkeSqn5Rnqg27; Mon, 16 May 2022 22:37:25 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1652755045;
+	bh=UOFmg/sz2IdZRYGwZe+R8dkOCpBKZQwAI3fOBr2Jg7g=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=FNWImQhSQuNc4UM6Gh/YaF7O34n79E2Y3/EOTJ6jG5/N6wdtnikQPl3fNgWKaTNvA
+	 mM8BOJgV8dPJGPPFmIPICfbAkMQtsuHB/BwyO+TW+ys98sB9go/2pB7EuIYF43PduV
+	 +4AiNeEMGyXIeqfS1BYHpTJhLB5iI4apRVGJIkxg6mTeVfPKR3nbEKyuNemLm8UpiZ
+	 uGsByyvD04QiQCyGd/Ze8yUeQ3a7RpgMpI7ZhZfyMorlpQ8c7AoMj6HvSKEFSEOZAH
+	 jEl3YV2ywVtd3dFWZrNlDcUM220ViRsjXGGQrYSh5GsYXyz6VSZFTI5AqadwPu+y+a
+	 gQe3v/DYGcvCg==
+Message-ID: <qlsEnHuzpBkeSqn5Rnqg27@txt.att.net>
+In-Reply-To: 2094195031.113209153.1652755045411.JavaMail.nems@zatn1ammsc01nfe002
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1652755043-5
+X-Mms-MMS-Version: 1.2
+To: ms60710444266@yahoo.com
+Subject: August 8 - no CO
+From: 6462563609@mms.att.net
+Date: Tue, 17 May 2022 02:37:25 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_113209152_1387994281.1652755045411"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfACZYrgzJWly56OmE+a2c3BCpp6/8hGrCJvb/V9CUAM6rhXX7a+Pgdu6T8/EV9BLTp/7eOVN+cm3/W0mZuzrX5G2Yi3n7DmGFe6+ObAzVfi26y/C/BrK
+ ftDgJgFBfTu7/XSdA6ruc63Lq837d9o8ymTdXS5fJnneSqMXsXi3BjujlgQ8vVBgchwIR3/qlKD8k/XIW1PVPu0ScF8j6SazYKwBfpPaCS8xDgac13UL0/5y
+Content-Length: 455
+
+------=_Part_113209152_1387994281.1652755045411
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+aHR0cHM6Ly9zYWF6ZTIzMTFwcmRzcmEuYmxvYi5jb3JlLndpbmRvd3MubmV0L2NsZWFuLzhjM2M2
+YzczN2JkNWVjMTFhN2I1MDAwZDNhMTk1NmRkL2F1Z3VzdCUyMDh0aCUyMDIwMjAtNk1NJTIwbm8l
+MjBDb2ZPLlBERg==
+------=_Part_113209152_1387994281.1652755045411--

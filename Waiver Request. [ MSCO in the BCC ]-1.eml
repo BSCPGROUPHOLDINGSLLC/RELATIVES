@@ -1,0 +1,304 @@
+From - Mon May 16 23:51:56 2022
+X-Account-Key: account1
+X-UIDL: AK40LysJSgxkYoMNcAw80K7fVFI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.249.94
+ by atlas321.free.mail.ne1.yahoo.com with HTTPS; Tue, 17 May 2022 02:50:24 +0000
+Return-Path: <pinkbookswap@yahoo.com>
+X-Originating-Ip: [74.6.135.109]
+Received-SPF: pass (domain of yahoo.com designates 74.6.135.109 as permitted sender)
+Authentication-Results: atlas321.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 17 May 2022 02:50:24 +0000
+X-YMailISG: YkcT.00WLDuHhDpky0ZmNYKXHEklzkeU_wSCQWR2oDYqeDKa
+ E7jzgCyuh3cHvzTxBGvIQMBqsukU6vgIO80lYJx2gt2zNIeiJsAQG2cRMAPL
+ dwax.T8baif3KMnWCdbeHE4V5_NKgouKr23m8d2zz0FT5q56yzKjrKfq2.Te
+ Fux4x6w152LISZHFwdJQRMZnFplTiV891bMxlb66bTqQ7EQGpRcg1Env99Hs
+ .GPWwpCwe2JxWn.GV0EC3EtmeIfxcxsRs.BbSixkh8XZyqwrUbffdY2Dp1mH
+ 0.awsg3o71fdouyc3fasbkENXahlhEBYzlO73kVX.GaJxzVp6_URt6w5pIZW
+ pl_KQVClgSHpyQsk5A.UsuaH99auST7pNf3utC7GielQjOO6lI_UMutn3HrT
+ 5AM5S8Z_eA06lJ_UUfKsrjOKw7QvPBCLBOr7mlH.NNkQNpk7tvV05b_TT9.F
+ 1XS_qNNL_VdkMRUFhr6AVjOHM5iZ4BR.sWkc4TVWKPG07oQEqgyrxhHPwUC5
+ KI7Et0MoJvg6NsdwaIwsi6KkHhU2PMLhkPUS6BWRI6ECREwyqm8hO8qYH0sk
+ J0gJ2LUOM7ESMv4jnHY3MQqpIYlDIT26ZvNC4goNI4yhyGFrGRMhneY1v8XU
+ j.evvs8pvE.th_eVTZj8l9d99PSjHj1Xhy.CwqmUnEkO_vCVQopC5JnR0KkZ
+ TGLMalusL27Y8MMjqYif5kEM8j8G7H4Y.o4boTmUySF8tltDH.liCNBgmTlK
+ E8OjZNacHI61VC3m77dP1JDvKj6FBx.g.peEyq8suQj01zpnYW6wgHq4r7Cx
+ VoKPDpMrUWlvavR_NfNejp.Mt9eFAzK8azJPJohUVoCIf0zMUxLq_qME4IFR
+ yAJQMY78tkn223CNLBKEKKFQDUU7l6aFBnYOOUAJoWh_Zcfgm6bAdCwkRkZT
+ _p6v6QmRHi5T4wkfWf5_ei.p_3DojA_FvCohbQazuBsURZDxN9btPVF5l0i8
+ KDDXChV1ocpUyD_vNCXlumSXW6weyLC1y6cwmwIAx5.H5eyOrdD73R4roJw2
+ NZ5mN.gqXODzn81svy0pTIxdXj1.p0grf.hN1nkzQqgFUk3hjyx6Bt3YLnbf
+ .aa8eh4NHeZ5vmSOJTbrVM5LTX02QRINGCg1A4QHB2hI78.rs6yS5eXHIX5.
+ g8sbyhbAuwXP3DkqM8tnoVwoHtXJcT13ATLjc4QKhmoHU.YdFrMoyn5PoGbT
+ t1wJ6yagJMwB.0YDEDlnVfazEzNwLj.ZyE7xUtewEbLc18XqZN7uIenD92Hk
+ HWZpayOI5Cu3U6R9mO4SHYCJozioJX1S3i.E6SNQayQ-
+Received: from 74.6.135.109 (EHLO sonic318-54.consmr.mail.bf2.yahoo.com)
+ by 10.223.249.94 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 17 May 2022 02:50:24 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652755823; bh=fFQPwtQmlMq0MCjWb2ph7+oxlSTcXIzwBWclkAmt1Us=; h=Date:From:To:Cc:Subject:References:From:Subject:Reply-To; b=bnHtHB+O5xQtcBGNkZ4k8gamAoSoHoI7Lyevin5+Cc8thUyMnNrFVWX0oSRFkK08YBk3t9DC9OplkrFkWFk9L77FERt6UvBgG4aSYbQF291SRIvfGaFNUglTBHemz6zjkAXhwqrupwCwrp554RzOGV3pJrjl90/+9C89j9+BpkClPlhESjMgNXW03E3QKVI2mCGcP4FgCeEUJyAGH41WwTx1bZc2zhCIrELX1IBPN5krqfg2pRlokhdPuMxqSSfRPfzkIiv5/M1Z4L5dx5b9du2saoW4jaJTS0Zn7a1DX9Q3XwR8f/T6wLMmUxCW9TOOcIuhGbEASbeapzFJtAxBLA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652755823; bh=arfc3ocBIkoERYXM8izm5vsSI0X1cYYqA7nuBNl38uW=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=fcufPvsVutf8/7uXaAHiuRmMColk75i/k9sjbcArFV4suoHra76hzIfcAYnWB/+A7t0oCuz3LWl+M4ePEWtnszFI5jJr7BDw7l0TOKM/KIv3XqNT9p1BdwtefOT1GWHV+qZ/2D4mFRRK00g77bD3XMIasWUWetsrmwMpAwEsb29yPE+RRAtkGWrYm1U2c9ghV3YZ5myl0KvxOPOvSabzFE5bSdVv/E7e8VgxR0Q6hZgDk7OG1xvfcQK74+HRYyZnvfC1LrFueP7n4N1PZyCsqHwweg2S0H5FLLpNrlBw14UP/xBuCpAqtehJHd1svUJdmwiJAsZanV4cosWVAnrYeg==
+X-YMail-OSG: HOwMEuwVM1m8.zvXxs3IJplHSuZwxzgt997M75wrF25UG.0sTM8bxFmLfIIoojQ
+ 0KwcEHqCwmZKS6iqX.9qy8TxUL6GOJnHTvTDnmp.qCUdjd8OiPTQH8LnS3xgo3NBqwNDnfrI8851
+ r4fD6WW10ZngT.X8r_qpXluufZWlJ0iMVMtc01aTmFe7v15PsBlu21kwEt09zLYJYrAr3LIDTA6v
+ 3O9VV752hLRRGba2GIiS8O4p8f3mYojkOb4TorMsGYHxs2zD5sO.NSNilnIV.MmqXKCW81EBsMKh
+ Aljaw2sTvsCRKcYDt9kJ3tOLz7I0zxVdNZZdveTLo2jyy2Kbh4xHO0s1eftaXPEFII.ZpOByEd72
+ k89cAh8Z8YU2me0cTs4X0oQG04eTuXXH0Thc0wPW8mf5hSnRk1s6NzmNzoFALDCiJstWmmCOQReS
+ bKHnKCoow7U_M4EZenP7JdQpIuBHN5NW7vk3ZknLfyeLquGgi_tAVWd8yehexCoRl8M62ZMK2IcA
+ BGYSVAnDOClRANmBJQwb4ps1RxdVoPv4.SXKVeGOf7ZrSg4bsUkQHKjRTocXtLjHcS.NZNKLXYAV
+ bb.obGys2_V2OcDP8ptKRiGN8oNxDufFu6VVKcpAlXoh5HJ67IMchFMpBCg3Q8PEK73yNIUiKQbq
+ U26HZR8qY0VaukpeEH5O3yw9bKfYHolh8VbVT5P.GVzOsGwoOHQelMSRzEuOIqKIUaeaXgeMNoF4
+ 07CDxBIndSThloUSNHRjdbYHWIMyhwRj9Sj3S.NMEOr5MgMtB6q0sl4cqv4coC6s0I7aml76smKB
+ 04DDVL33Ri6uEb_P7bCd78sCaLDBRyw3teGLvTEoiVDTmXowlXuq62Baoh7zXYVXl.xPvCB5gSrj
+ BTt9vyqNoYGX7FJ5o2rT.2crb7i8frfjksrEPgX1H5Z0khQn5tNicomLlPJidSJaCzcjC5vRDbf5
+ ZuGbLnoID9GI7BPYW0ZwlY.lXkM.99efXQB6WzZfGWrffuNk1N5_9YI.gGbR8CNloy4dGAuDdF.B
+ 99Nnx8CI1vNcB2XA8zcFTZl8jcqYfjaj_7T.6W8Zwmiahf3.PRqY0KK0i3NGQNkIu1rwiFoBuz4j
+ zSRYPRNT4SwtmwgUCiez1eWi3RU13ElMDax95rv7Urqs9ACMpMg1D2Ouh3dkU8KelcdGXCXWwmCj
+ WUp32GugY0TjjDTZM2TtC0IguyyTMWAhrR39WeWeewDbrhdU9WbW1e.QaFiPaYSV20_UNDem3ATU
+ lY1UfEyexWpNH_M6LpwBOHaKJ4URt318Q5IX8SySIF2S52V3obrOSnNzJsqXZEgrnD83e3iBANhQ
+ _C5Obde1qDdlaJ5wplM.NnUptes.LRSMqa361p49D2.VmOF.6qY3gR_TYz0T8Q9n0kaaz5DKnwq.
+ J3qNQ9TJUafHzutqAQod8QxSZ0JGI1zTRuT9SYMBp5.q0.D0lII4biwUCdv.2loLEikDQJKSbIhH
+ kxq_ss9whvjxbWsL5n9kRU8V5Wo7BvcXCmcnhlwhqs0EylNwe0.hfGZH50fgzVGU6EplL99K8QlA
+ 9w1CME.zkDji8J4zm1Ww8RTzRsHuGWsMADRfvVeGrI6Lkv7cyYqca6uvmVDnLknYukVVS9VHefOj
+ fJCA64HKou3gmma8PKfh7.IlPTPiyf22xp_Ai1LTLFYp89KlVok7Tja3DjLJTBjQYgzAox5PCHYK
+ kdjZR4DksUFZT3K1GmagbBE9rYK8xjbMAC7baNzibVQGf6xmn6VVJbiG0AU_aWLJFIasxnjRw.29
+ wPw06f82IAKKWvb7ppuaiaOWitN.3PHOsq30tVOsh2oyob3qoAfjooAZHikxN8ijbX9RGFbD8tzY
+ B97Payeoww9Fti0Ks0W7c6xYG3JC6ncaOjmn7l0ob6jUEqLAZ5H4H5rfXT4fJqNpxAiAZzP6xPlK
+ q931EO8M192K8Xo.O21OSwWWSI8wEZQSBiNv45m.Sa.zm9P0IN2_itaCc7Gf10TQUivI4T0KI6I_
+ ORNnMeAihq6yIDqdabMdGyMpUXh7NXmFkjYvNpI_nLJRzucKtYkgEJXxo1MZJbpAiQXpBhziU.y1
+ wRuoLh_wE2AnkhzONjBJcu0wmd7yg9erDPnSDF.cdf9rgDJfspAqeAD0wPSY4u3S8q.RI_yIBW43
+ TcxYThd_CiF3DGpPTne4P05FKgWpo4bmNnM.ldG5XZZLrK._0lFRAGkZ1N2lkV4dkqWNBNQ--
+X-Sonic-MF: <pinkbookswap@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic318.consmr.mail.bf2.yahoo.com with HTTP; Tue, 17 May 2022 02:50:23 +0000
+Date: Tue, 17 May 2022 02:45:44 +0000 (UTC)
+From: "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>
+To:  <tessier3@stanford.edu>,  <paul.jones@tudor.com>
+Cc: Dark Pink <Bondstrt007@gmail.com>,  <marquee@gs.com>, 
+	 <gsamonlinerequest@gs.com>,  <gs@gs.com>
+Message-ID: <639147633.2314155.1652755544335@mail.yahoo.com>
+Subject: Waiver Request. [ MSCO in the BCC ]
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2314154_1998973660.1652755544332"
+References: <639147633.2314155.1652755544335.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20188 YahooMailIosMobile
+Content-Length: 12821
+
+------=_Part_2314154_1998973660.1652755544332
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+https://stanforddaily.com/be51fb08-1c43-49ae-ad27-569394bd1d02
+
+I even annexed my no-fee waiver as a student and was obstructed, and look a=
+t what happened to State Farm.
+
+All my papers are in NYSCEF matter 153974/2020?=C2=A0
+Including my application to HKS where I offered $1.10 and was accepted, che=
+aper than what I was able to cause a breach of ABA guidelines on conflicts =
+of interest for the two dollars I paid the ZUCKERS attorney, have no polici=
+es non place to prevent OFAC countries from embezzling cash into the countr=
+y with prepaid countries.
+
+She must have gone to the techno club for law in Yonkers I have no idea whe=
+re they found the brains on these leaders of Wilson, Dicker, and Laskowitz=
+=E2=80=A6 live up to the name Zucker, by all means. Ty=C2=A0
+
+Non-Joinder,=C2=A0
+
+what do you think they owe me.. ballpark.=C2=A0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If I find out your in bed with the ZUCKERS, I=E2=80=99ll actually spend tim=
+e and make sure I have your desk on lock, just like a SPV=E2=80=A6
+
+
+
+That=E2=80=99s sub par, and guess what
+=E2=80=94 1516523, probably needs to get on the phone with someone other th=
+an a ZUCKER.
+
+/BD
+
+James, don=E2=80=99t =C2=A0think about emailing this to the Zucker,
+upon discovery I will drop everything to make sure that line of communicati=
+on is 100% demonic, as in it will automatically BCC all communication to wh=
+oever I want, and sent the reports to your compliance dept.
+
+I have had it with these people, if only they went to Princeton or Columbia=
+, or Harvard god forbid=E2=80=94
+- Then what would I do, run?
+_______________
+Tel: =C2=A0646-256-3609
+
+
+------=_Part_2314154_1998973660.1652755544332
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy>
+<span style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><a hre=
+f=3D"https://stanforddaily.com/be51fb08-1c43-49ae-ad27-569394bd1d02" target=
+=3D"_blank">https://stanforddaily.com/be51fb08-1c43-49ae-ad27-569394bd1d02<=
+/a><div id=3D"temp-enhancr-placeholder" class=3D"enhancr-placeholder-medium=
+" data-size=3D"medium"></div></span><br style=3D"font-family: UICTFontTextS=
+tyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBo=
+dy; font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBod=
+y; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; fon=
+t-size: 14px;">I even annexed my no-fee waiver as a student and was obstruc=
+ted, and look at what happened to State Farm.</span><br style=3D"font-famil=
+y: UICTFontTextStyleBody; font-size: 14px;"><span style=3D"font-family: UIC=
+TFontTextStyleBody; font-size: 14px;"></span><br style=3D"font-family: UICT=
+FontTextStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;">All my papers are in NYSCEF matter 153974/20=
+20?&nbsp;</span><div><span style=3D"font-family: UICTFontTextStyleBody; fon=
+t-size: 14px;"><br></span></div><div><span style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;">Including my application to HKS where I offe=
+red $1.10 and was accepted, cheaper than what I was able to cause a breach =
+of ABA guidelines on conflicts of interest for the two dollars I paid the Z=
+UCKERS attorney, have no policies non place to prevent OFAC countries from =
+embezzling cash into the country with prepaid countries.</span><br style=3D=
+"font-family: UICTFontTextStyleBody; font-size: 14px;"><span style=3D"font-=
+family: UICTFontTextStyleBody; font-size: 14px;"></span><br style=3D"font-f=
+amily: UICTFontTextStyleBody; font-size: 14px;"><span style=3D"font-family:=
+ UICTFontTextStyleBody; font-size: 14px;">She must have gone to the techno =
+club for law in Yonkers I have no idea where they found the brains on these=
+ leaders of Wilson, Dicker, and Laskowitz=E2=80=A6 live up to the name Zuck=
+er, by all means. Ty&nbsp;</span><br style=3D"font-family: UICTFontTextStyl=
+eBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody;=
+ font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBody; =
+font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; font-s=
+ize: 14px;">Non-Joinder,&nbsp;</span><br style=3D"font-family: UICTFontText=
+StyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleB=
+ody; font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBo=
+dy; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; fo=
+nt-size: 14px;">what do you think they owe me.. ballpark.&nbsp;</span><br s=
+tyle=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></span><br style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><img webkitattach=
+mentid=3D"7c861049-83e2-41ae-acf0-c4bcedc609d6" id=3D"924E94F9-69F3-4805-B4=
+3E-76516816CEB0" class=3D"Apple-mail-imageattach" src=3D"blob:https://yahoo=
+.com/3b749cee-ff07-436e-b532-0940337cec0a" style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyl=
+eBody; font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyle=
+Body; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; =
+font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBody; f=
+ont-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; font-si=
+ze: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBody; font-siz=
+e: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; font-size: 14p=
+x;"></span><br style=3D"font-family: UICTFontTextStyleBody; font-size: 14px=
+;"><span style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></s=
+pan><br style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><att=
+achment webkitattachmentid=3D"4881a5ad-d894-42a8-bcac-19e94a15207e" title=
+=3D"Stanford Law School to eliminate tuition costs for low-income students =
+- The Stanford Daily.pdf" subtitle=3D"115 KB" src=3D"cid:C809AAD6-367B-4804=
+-AC1B-DC2D216F03C4" type=3D"com.adobe.pdf" style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;"></attachment><span style=3D"font-family: UIC=
+TFontTextStyleBody; font-size: 14px;"></span><br style=3D"font-family: UICT=
+FontTextStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;"></span><br style=3D"font-family: UICTFontTex=
+tStyleBody; font-size: 14px;"><img webkitattachmentid=3D"d8467e85-c8bc-43ac=
+-bd52-3dd70c0f0b9c" id=3D"93092E38-D6CA-4D6F-B83E-14D5763375FC" class=3D"Ap=
+ple-mail-imageattach" src=3D"blob:https://yahoo.com/659211a9-df5d-4463-bcf4=
+-440f92db6242" style=3D"font-family: UICTFontTextStyleBody; font-size: 14px=
+;"><span style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></s=
+pan><br style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><spa=
+n style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></span><br=
+ style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><img webkit=
+attachmentid=3D"1c319d19-2305-4f30-9cd7-4b6613c6819d" id=3D"9DF7EFA1-B509-4=
+D6E-A719-EE5C26BAF843" class=3D"Apple-mail-imageattach" src=3D"blob:https:/=
+/yahoo.com/348b16d7-9fca-4e1d-9bcd-b76444ffeade" style=3D"font-family: UICT=
+FontTextStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;"></span><br style=3D"font-family: UICTFontTex=
+tStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyle=
+Body; font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleB=
+ody; font-size: 14px;"><img webkitattachmentid=3D"4caf43fa-8f86-4316-9c2e-1=
+8b8e434c6d7" id=3D"AD505F20-6A48-406E-B315-304C21487CD5" class=3D"Apple-mai=
+l-imageattach" src=3D"blob:https://yahoo.com/0a932b5b-d0db-49e1-a119-679bed=
+3c2015" style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><spa=
+n style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></span><br=
+ style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></span><br style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><img webkitattach=
+mentid=3D"1cd62536-50e7-483f-b485-dc4501976589" id=3D"7E5E981B-F65C-4912-89=
+CB-598A5AF18027" class=3D"Apple-mail-imageattach" src=3D"blob:https://yahoo=
+.com/3604758f-b111-4d99-aefc-e382edc72d42" style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyl=
+eBody; font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyle=
+Body; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; =
+font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBody; f=
+ont-size: 14px;"><img webkitattachmentid=3D"f27c9f68-7783-4a74-970b-5336f78=
+2c110" id=3D"DD12966B-C91C-4382-9675-AB1C76274017" class=3D"Apple-mail-imag=
+eattach" src=3D"blob:https://yahoo.com/aaf697e1-a739-4290-88a4-c1ade7187254=
+" style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span styl=
+e=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></span><br style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span style=3D"fo=
+nt-family: UICTFontTextStyleBody; font-size: 14px;"></span><br style=3D"fon=
+t-family: UICTFontTextStyleBody; font-size: 14px;"><span style=3D"font-fami=
+ly: UICTFontTextStyleBody; font-size: 14px;">If I find out your in bed with=
+ the ZUCKERS, I=E2=80=99ll actually spend time and make sure I have your de=
+sk on lock, just like a SPV=E2=80=A6</span><br style=3D"font-family: UICTFo=
+ntTextStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontText=
+StyleBody; font-size: 14px;"></span><br style=3D"font-family: UICTFontTextS=
+tyleBody; font-size: 14px;"><img webkitattachmentid=3D"260b1dfe-4cd5-4896-b=
+d59-7ce00bb2d45d" id=3D"73888454-8D02-4AE5-981E-F43569C820BB" class=3D"Appl=
+e-mail-imageattach" src=3D"blob:https://yahoo.com/937bab3c-d6c9-4433-8082-3=
+0fce1aca1dd" style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"=
+><span style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></spa=
+n><br style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span =
+style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"></span><br s=
+tyle=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;">That=E2=80=99s su=
+b par, and guess what</span><br style=3D"font-family: UICTFontTextStyleBody=
+; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; font=
+-size: 14px;">=E2=80=94 1516523, probably needs to get on the phone with so=
+meone other than a ZUCKER.</span><br style=3D"font-family: UICTFontTextStyl=
+eBody; font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody;=
+ font-size: 14px;"></span><br style=3D"font-family: UICTFontTextStyleBody; =
+font-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; font-s=
+ize: 14px;">/BD</span><br style=3D"font-family: UICTFontTextStyleBody; font=
+-size: 14px;"><span style=3D"font-family: UICTFontTextStyleBody; font-size:=
+ 14px;"></span><br style=3D"font-family: UICTFontTextStyleBody; font-size: =
+14px;"><span style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"=
+>James, don=E2=80=99t &nbsp;think about emailing this to the Zucker,</span>=
+<br style=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span st=
+yle=3D"font-family: UICTFontTextStyleBody; font-size: 14px;">upon discovery=
+ I will drop everything to make sure that line of communication is 100% dem=
+onic, as in it will automatically BCC all communication to whoever I want, =
+and sent the reports to your compliance dept.</span><br style=3D"font-famil=
+y: UICTFontTextStyleBody; font-size: 14px;"><span style=3D"font-family: UIC=
+TFontTextStyleBody; font-size: 14px;"></span><br style=3D"font-family: UICT=
+FontTextStyleBody; font-size: 14px;"><span style=3D"font-family: UICTFontTe=
+xtStyleBody; font-size: 14px;">I have had it with these people, if only the=
+y went to Princeton or Columbia, or Harvard god forbid=E2=80=94</span><br s=
+tyle=3D"font-family: UICTFontTextStyleBody; font-size: 14px;"><span style=
+=3D"font-family: UICTFontTextStyleBody; font-size: 14px;">- Then what would=
+ I do, run?</span><br>_______________<br><div>Tel: &nbsp;646-256-3609</div>=
+<div><br><div><br></div></div></div>
+</body></html>
+------=_Part_2314154_1998973660.1652755544332--

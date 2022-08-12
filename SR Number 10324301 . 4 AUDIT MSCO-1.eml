@@ -1,0 +1,133 @@
+From - Wed May 18 00:03:17 2022
+X-Account-Key: account1
+X-UIDL: AEvf1lJebBhwYoQKeg1lsK3Iu38
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.152.8
+ by atlas213.free.mail.ne1.yahoo.com with HTTPS; Tue, 17 May 2022 20:50:02 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.57.156.18]
+Received-SPF: pass (domain of icloud.com designates 17.57.156.18 as permitted sender)
+Authentication-Results: atlas213.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 17 May 2022 20:50:02 +0000
+X-YMailISG: wqj3xhMWLDvLrKUzVlbRX_K3UMJHWsFSeIT1dftkF5tCwRm9
+ lCOnTfFKvBPGEwiROhEHfjW01NodN7wwgTESaz2ED4nvUKDxY63zn_3NRAUq
+ fYqUO3s0KmRZCOmkzEKY1gBnKWEADRILX3OSQTnkQJyx1KVQh4bz661Bxqnz
+ hDQ3dZcs7qLUkjPrCLWRBnK.upoOTCsAO52nDCf5_kownD.7TAIpLyMO1Zx7
+ P69067GV9OAlbvnnbfjLgSl.k62tq3zh4_8oIaVd.bJgCw8zczZG7Zjp_eXs
+ ZCQmKRLbBqY5PNq4v679zYfMg9mZLe.z6YbZ5M.6ujIz4LnSKp4EfTHVnSqB
+ bTHoKm3CQ3tWwWHhsJJ9bcDBbp._kTga_aRWsct8FYrFf55P9rTJ12uaRvvP
+ 0vKxVAVnPFc1RN.LmRSaTLGhDX9LZ8bDYK69RpMEQShDVicHgB6h78PGAwF.
+ cDTfer7QgLioyJhVyCxnWFqSYtYhIB1D50RR4GmUn0uur9w4L4F96dE8a1YK
+ WMvu1bpNYSEewN1jBxESMxh9Q25XSLSt9Uz2tPfmN9w0V5WsEMbvNQNs687e
+ 3fEBtGRak2HzC3MOYZBkYkSag.6m9SPZuKo.myzFuZBsTp3uXJgprvP4bqIX
+ AIK.GatZr1DTfctdyPQXCeeTkTnzG0m_y9Fok5Xp_NumzWACHHLfq7uhSwcD
+ _DRLgykijHOIongjxHwSoOQ2gQTU2XwuQQKs3bOxboo4u7YtJawalocx4Q0X
+ MyzQZIJriAIyLX6vBoiFfMnZD2BZUlLxZKYq.bti36g22RCznOhz0jYK0xNT
+ bolWJ81JWJzkyDxNizOT41K_qgq4HhYjub.Fg8sJh_qs2ASL_Y4jLMx178jm
+ 2ft1ittYtSL5FTgj.QbtMKSytnphDgBPgTYb.J5kOg1SFZkVpu6y3tpbYDb.
+ wSqZ1O4fIuM8pOlY690AMKYJEKVcPNg4a7reDbBX0PT7v94C11i6g3iQZSel
+ jjTuzZtI833tchi8S3U9.tqABwUfDsRvcWlAmNnxMnuyd6p_pzka2tYh.Yo6
+ xxfUfx2dZo_.v.nO83lVcVAL25XGCXWDogczj_S0y1hdjtJccxdXGY6KDDWw
+ prskzaaSvP6.ew--
+Received: from 17.57.156.18 (EHLO ci74p00im-qukt09090101.me.com)
+ by 10.217.152.8 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 17 May 2022 20:50:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1652820602;
+	bh=KzVea0KEcm6AHiCIfzmDFL/dqwYUQpDt3uY0v6FhJyo=;
+	h=Content-Type:From:Mime-Version:Subject:Message-Id:Date:To;
+	b=Hk+nG8zulzI2ajm4p7ZZQbyWIC9ae+36lEBftQ5h4jMDdF4hrQCwxBFETVaNOKJHJ
+	 ROlRl5aOh1/9M7MZMO3kaRAj1a1o/bq2D5o85q6X3y/OuSI8uq1OkR3ARV02zRVpxs
+	 Nimfr8ACSNowlxJV1uTgaeg7yu32R8LyUwCD9VfifxJmRVEHG0sSe4nTcR+MGZRMja
+	 OUpdVVcOdBlSlZdfaKAlW6zjPrhO4fKvyd4LXY9FVd5M3KI2L1JbmDTadzjHNg+LJS
+	 Y15wru6e3EZfan/1bJklYwYQgFBmM4xWJwPvU+8Gjzv8y+mLPLaz/K6MmhDtmcXZMJ
+	 uLNzuKwVzYeNQ==
+Received: from smtpclient.apple (ci77p00im-dlb-asmtp-mailmevip.me.com [17.57.156.26])
+	by ci74p00im-qukt09090101.me.com (Postfix) with ESMTPSA id 0031335C098C;
+	Tue, 17 May 2022 20:49:57 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-0FF8830E-F277-4E0F-913E-4FD737BA77DB
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: SR Number 10324301 . 4 AUDIT MSCO
+Message-Id: <711040CF-E2C6-47D9-86A2-028F07066393@icloud.com>
+Date: Tue, 17 May 2022 16:49:56 -0400
+To: TRACE Data Services <tracedataservices@finra.org>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: MeAseK_lWlYewGD5jbwrFq2F_MxpckU-
+X-Proofpoint-GUID: MeAseK_lWlYewGD5jbwrFq2F_MxpckU-
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.790,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-12=5F03:2020-02-14=5F02,2022-01-12=5F03,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 mlxlogscore=966 adultscore=0
+ suspectscore=0 malwarescore=0 bulkscore=0 phishscore=1 spamscore=0
+ mlxscore=0 clxscore=1015 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205170119
+Content-Length: 3124
+
+
+--Apple-Mail-0FF8830E-F277-4E0F-913E-4FD737BA77DB
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+https://saaze2311prdsra.blob.core.windows.net/clean/3217723b20d6ec11a7b50022=
+48307f33/2020-03-10=E2=80=94ICE%20Data%20Services.PDF
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/46c8dc8e20d6ec11a7b50022=
+483079c1/2022-05-09-InsiderTrading.PDF
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/3c87e47421d6ec11a7b50022=
+48307f33/2021-11-16-483docNotice.png
+
+
+/BD
+
+
+--Apple-Mail-0FF8830E-F277-4E0F-913E-4FD737BA77DB
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"><meta http-equiv=3D"conten=
+t-type" content=3D"text/html; charset=3Dutf-8"><div dir=3D"ltr"><meta http-e=
+quiv=3D"content-type" content=3D"text/html; charset=3Dutf-8"><div dir=3D"ltr=
+"><meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8"><=
+div dir=3D"ltr"><meta http-equiv=3D"content-type" content=3D"text/html; char=
+set=3Dutf-8"><p style=3D"margin: 0px; font-stretch: normal; font-size: 12px;=
+ line-height: normal; font-family: Helvetica;"><a href=3D"https://saaze2311p=
+rdsra.blob.core.windows.net/clean/3217723b20d6ec11a7b5002248307f33/2020-03-1=
+0%E2%80%94ICE%20Data%20Services.PDF">https://saaze2311prdsra.blob.core.windo=
+ws.net/clean/3217723b20d6ec11a7b5002248307f33/2020-03-10=E2=80=94ICE%20Data%=
+20Services.PDF</a></p><p style=3D"margin: 0px; font-stretch: normal; font-si=
+ze: 12px; line-height: normal; font-family: Helvetica;"><br></p><p style=3D"=
+margin: 0px; font-stretch: normal; font-size: 12px; line-height: normal; fon=
+t-family: Helvetica;"><br></p><p style=3D"margin: 0px; font-stretch: normal;=
+ font-size: 12px; line-height: normal; font-family: Helvetica;"><a href=3D"h=
+ttps://saaze2311prdsra.blob.core.windows.net/clean/46c8dc8e20d6ec11a7b500224=
+83079c1/2022-05-09-InsiderTrading.PDF">https://saaze2311prdsra.blob.core.win=
+dows.net/clean/46c8dc8e20d6ec11a7b50022483079c1/2022-05-09-InsiderTrading.PD=
+F</a></p><p style=3D"margin: 0px; font-stretch: normal; font-size: 12px; lin=
+e-height: normal; font-family: Helvetica;"><br></p><p style=3D"margin: 0px; f=
+ont-stretch: normal; font-size: 12px; line-height: normal; font-family: Helv=
+etica;"><br></p><p style=3D"margin: 0px; font-stretch: normal; font-size: 12=
+px; line-height: normal; font-family: Helvetica;"><a href=3D"https://saaze23=
+11prdsra.blob.core.windows.net/clean/3c87e47421d6ec11a7b5002248307f33/2021-1=
+1-16-483docNotice.png">https://saaze2311prdsra.blob.core.windows.net/clean/3=
+c87e47421d6ec11a7b5002248307f33/2021-11-16-483docNotice.png</a></p><p style=3D=
+"margin: 0px; font-stretch: normal; font-size: 12px; line-height: normal; fo=
+nt-family: Helvetica;"><br></p><p style=3D"margin: 0px; font-stretch: normal=
+; font-size: 12px; line-height: normal; font-family: Helvetica;"><br></p><di=
+v dir=3D"ltr">/BD<div><br></div></div></div></div></div></div></body></html>=
+
+--Apple-Mail-0FF8830E-F277-4E0F-913E-4FD737BA77DB--

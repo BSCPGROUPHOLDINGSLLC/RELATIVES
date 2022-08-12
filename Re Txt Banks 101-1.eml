@@ -1,0 +1,94 @@
+From - Wed Jun  8 13:26:28 2022
+X-Account-Key: account1
+X-UIDL: AMAKkRw7RqIUYqDopAbKSFFA50o
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.249.94
+ by atlas305.free.mail.ne1.yahoo.com with HTTPS; Wed, 8 Jun 2022 18:21:30 +0000
+Return-Path: <3quigYhILDRs9EK5IM95NJ+EFI5GCP89I5ML5.3FDDJXRYSRVVVTXXP18FF.3FD@listserv.bounces.google.com>
+X-Originating-Ip: [209.85.219.71]
+Received-SPF: pass (domain of listserv.bounces.google.com designates 209.85.219.71 as permitted sender)
+Authentication-Results: atlas305.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@hirevue.com header.s=google;
+ spf=pass smtp.mailfrom=listserv.bounces.google.com;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=hirevue.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 8 Jun 2022 18:21:30 +0000
+X-YMailAVSC: yj5xq6A3bBs8iiuh4Q6uxFlgtpYQQ4zRirZB.op5Gfg5mGE
+ KGRsdC6.CJeUEWY7mYECVq4TzcR0lf6P1jbtJSN.z4Ru2RhEannGELJiQF8o
+ 11Bf_wSQCe4owzy9tn1mYPqnedsPdZCSDcW_jmvfjF.NkdEpq3LQ8qDLvniQ
+ cE5KriNxaZdoNFrRh8TkiHtFFRGwtui.ngcA.JEXuLNZeZZDAs7yEFBOETyR
+ US7TNF3CLPpwJ_DBIgx6bCEd4IQxrbV3X4CXinbo7mHlazz4ZRigtt9wmQhn
+ Rs1l.9Qp3OnXJVzp7tY5LzxzqhA3b3XIQk62KA_8D63_iu3em4.Bu4Xmzb1Q
+ phsw-
+X-YMailISG: vM9rSmQWLDsVjFSGhtrTXL1bg_urD6oBroNpUK0sbBykgmbB
+ 4u6ei2gg7Q2Y8I5eN3koIEZ3hTE1CGGcWyeqSvW.OiVRp3vH7mkmqgzsBUSu
+ e1CAhlfqosZJ87XeeG9LTRyxBWR7kKoflLjSivGc9dTGTGyGA54f2pr9aOFw
+ iGnkM0BdxTbtWKYFSpj9gKpjXKRSLK.V_849R7Pm_P3VtWBet9BWg5ZMA5Mq
+ vRi78RRpcxf3Dl9lTZE3mN.W_W8WKCvn0TijLPK3cO_V0Ofk9NEdHeDKOES4
+ dhK_EZyYczndRBspOpYcasf_QbnhTwvpH5K6wL_nwCNAUJsDsEyIXs90Q82Z
+ 0BDqtlM3t.Stb94.1y7tMynx95MHnSu9DjqX9mjWi_lUkzGRslI1jO1GV6rA
+ 32ohjWxhETSDx5N.VVz_VaeicrFO3astHNbKolZSGxv6QytUdLR4JDX2thT6
+ DzaJVa70vljtGAqr_6qHcIB8r_wGqyD08sdVur6w5s7aLELBf5UTbuHU6zc6
+ bCBWMtKqhiMfyOT9bYwUyXUsJoZt.MGNT_jBaAfVYecWvZPtFibIPQ0FzORE
+ hZURelFiG4Jl0SON2Il9T.S0lxZA4kivuRhQXyLcTiWkpOJQBDyIXZiYxZuL
+ 2C0KVTvz.VpReBEoLPTQyIYU8sKj4DcJ8tT23IF3OqYdmDPWSKI7Cr.AMvZx
+ w_b88VGpM.oZnlkCn.a7131nJqupvo0URwEAJyHCUW87G2V9qnpEu9B10g2I
+ l03eeIRB_KzfVXPmpMlFLxOGnsHwlG1._8i6ncSR1ftOpSr1.RSr5ciedFKz
+ Jinl0zXIc1GXwfyQpue.KABj8FnKPOjZBpmXp3h.XJvghY2udxYDhpo9ouHy
+ .PS_jblfdkjlr1mGCB6BX13EU.e_Rp6FzZCFTZ_wtzwpJ1LNAq1a4jcwJ0DG
+ .03VbMwX4xkYGq1PAMRL08ctaknyPdNbinbb2_WhXY_Fs.afqJAWOroRr4zn
+ B98yhERAFsjRUwbWwMoxHjWBumrQ1TkzCeCxlxlclS8wkAjSZM4CbPGUEvF.
+ akF9ZF4X6WIAMhfxLh6BJS4PoAew5gb_98QPBVEwNWAKVVz7I4HanH12p6PH
+ 8rQidZXvwAciNn4vvA--
+Received: from 209.85.219.71 (EHLO mail-qv1-f71.google.com)
+ by 10.223.249.94 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 08 Jun 2022 18:21:30 +0000
+Received: by mail-qv1-f71.google.com with SMTP id k6-20020a0cd686000000b004625db7d2aaso13437157qvi.7
+        for <ms60710444266@yahoo.com>; Wed, 08 Jun 2022 11:21:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hirevue.com; s=google;
+        h=mime-version:auto-submitted:in-reply-to:references:from:to:subject
+         :message-id:date;
+        bh=0NKfnat4hIR6n3ADRSYNwSy/TyNUKGDWUbK8cMIRZf8=;
+        b=PHukp9/LRztkm4Ye9+s0T6aLepzFG95acNlLh/oofdq+XBTVJEnXoPvn+hlAvNnNib
+         pFC0vjSfgi3q+Ghyrji1FWzMHXxt8UR0y6/4dUSFxNIz8bsscsaPYp3JdbIHVoXNvBSS
+         3/SxgZ3bXagFJlr6bRzBvH+QEsfOW4te25ycs=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:auto-submitted:in-reply-to
+         :references:from:to:subject:message-id:date;
+        bh=0NKfnat4hIR6n3ADRSYNwSy/TyNUKGDWUbK8cMIRZf8=;
+        b=eddXfyMX4KewOaG27otRzxZQoBGPWO8HtRsRLH6/8aF6tZpyLpEvLopHmxgDOC92Ue
+         hQC32nmw/56JPAeY2B0p9BxToT0fZaOhoXsd+etmpjcaoo+uXy4kNHgpsY/YV9qhliUO
+         OI/ZeOj1W3Gs3k+uaqCvwRQoTfAxfVJ1V/V2kN62HNLfxjOQQf+vkRE1JdmhwroFKg7O
+         4bmgwg2JFEaA1Z5RLY0hmi8yDi2SNSUUJV7RhY/ujdLkadHZLma/1UPLf9jWfxa3caiv
+         IKaOJ8ZeuOHXhgnFbhD1+rfoWNPyXPgj1d+2JwR5BBzd1xiOH257HtzEKWeb84mZ49Nn
+         JLhw==
+X-Gm-Message-State: AOAM530iNHWJdz4i+RIC14uLHeFyYp0Ut6i12XsMaLZBwTJEbuOCn4JB
+	Ge2LNxPDAObiRa2+iIGkdjl+WpJyaZtm3+oDi7xhPGkS1oo=
+X-Google-Smtp-Source: ABdhPJwjrT1O2dPDfaS/v+z3IojgDxoVfBVNFAvdFc3/O6yFK2Rl9EKuBBTkMld797g1Yc1kVbcfPy3BKBLIrw8RYKlef8vQ
+X-Received: by 2002:a37:88c2:0:b0:69b:f243:b5c7 with SMTP id k185-20020a3788c2000000b0069bf243b5c7mr23924408qkd.758.1654712490046;
+        Wed, 08 Jun 2022 11:21:30 -0700 (PDT)
+MIME-Version: 1.0
+Auto-Submitted: auto-replied
+In-Reply-To: <cdc0e533-894a-a4ab-9fe7-5bac1f01b79e@yahoo.com>
+References: <f40e4ed8-fc72-bbe0-fc57-c1a3d53da1a8@yahoo.com> <cdc0e533-894a-a4ab-9fe7-5bac1f01b79e@yahoo.com>
+From: Hirevue Interviews <interviews+noreply@hirevue.com>
+To: <ms60710444266@yahoo.com>
+Subject: Re: Txt Banks 101
+Message-ID: <0000000000002cb13005e0f3c622@google.com>
+Date: Wed, 08 Jun 2022 18:21:30 +0000
+Content-Type: text/plain; charset="UTF-8"
+Content-Length: 494
+
+**This email address is unmonitored.**
+
+If you are having trouble with taking or evaluating an interview or assessment, or have questions about HireVue, please send your email to support@hirevue.com. Support is available to you 24 hours a day, 7 days a week.
+
+Fast, helpful answers can also be found in our Candidate Help Center - http://hirevue.force.com/E2Candidate
+
+Otherwise, please forward your email directly to the individual or organization that invited you to participate.
+
+Thank you!
