@@ -1,0 +1,242 @@
+From - Tue Jun 28 14:34:02 2022
+X-Account-Key: account1
+X-UIDL: AFT0XAVUkXMwYrtXYAqTCNPpC+0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.159
+ by atlas113.free.mail.gq1.yahoo.com with HTTPS; Tue, 28 Jun 2022 19:32:48 +0000
+Return-Path: <messages@service.govdelivery.com>
+X-Originating-Ip: [208.42.137.100]
+Received-SPF: pass (domain of service.govdelivery.com designates 208.42.137.100 as permitted sender)
+Authentication-Results: atlas113.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@service.govdelivery.com header.s=13q2;
+ spf=pass smtp.mailfrom=service.govdelivery.com;
+ dmarc=unknown header.from=service.govdelivery.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 19:32:48 +0000
+X-YMailAVSC: 3eGCIxg3bBvVGj_ByluygID03Gmtva.37L3w33IEx0XyB3e
+ wgqWXGX4Kpo4P3.63AfB8KDeq.xJi75Ax4f1gS6Hw_SWW7VfuGGK1rlPFkKk
+ jo_hzWviheWVYVlSh4eq_N6lA2aCeaj2VyCqnEsUHu5aZMGPIrk9qVXEL47B
+ P8c_nEPSdWivJEANki8UUF7V_qMaqyAZXsFCa9yB6UFyGwP37umMXeSsUw0E
+ 5JQmk9Wi7nZaWh5Sq.gkGQ71lUjUW8w--
+X-YMailISG: NyNPzwcWLDv8d7BQUC_l3pMiOCjNMZzYS_6JYNsWwHzBRt.p
+ BXONakbXBX024rl5XvqXgKNlUKNr43K0zgh62l1xQs4ihFBxjybXLJtZBTev
+ 8BAHXKhzOTXKc2HAZatwALj3huAxq40iJz4_tkgqRbweSnN5BZmV2QcqVqap
+ grSXniP0EknvN3rQl3KXChmsSsj1e_yi6E2KZzd5064z5SuKDuKJErEv7xVY
+ 7M9j6ocJnv7uEvhUbtgr74jsAiCTr9GQWUEBFnEQfkrq5tYhF_zdPewntBsM
+ zqJtbo2CvBQYhpfNVPtxHfzlw_hndxnQqLEv2DpEl5RrJoZ8nZ2MrA.aHx58
+ 1D3Fa6NPliZxs3ndSnS4zyIZRfw.KOHDaNhbxwYWfgDUoaLMrLYo3HEx5ROo
+ 4N6nBEsktP0PORx9cEpIqDRJL8hi._rxv35afwRYmnnEHcO5bqggPQmnkv3v
+ 0cHzEAVADlXVSxBfA79IHuNMc66XKH_eQrz62qnYpnVy1Fb_pNo.UHpEsT4Q
+ 8xcfEMh_5WOG5WjOMgt_w1y3SjTibjkFXKWoHmULv2TO8kT34u.JLVgfzSJO
+ uYtPGCIeZrFJwpUR3_JIQ2nDnm5LQX_BXEIR9lqOyft4.A1HWfRREisTsYnP
+ urM0MteHGE3_0rC6edL8zg8vUY32EVOVIjXV6dkVok96oxXm2mVX_Efb.9II
+ AlcNSiDkiSNhRjrD5J.8vcdxaBkmIVTT0Z8by.UWvCLNp9FrIlaGrb9ruCqX
+ Ld8GP2TcAgzHFJrNflZeU1a1wIMy8EuDWRa6YP96YOP81TFg.nf6C4EC4gQ7
+ swgLjC4h_AD.FYM7.6CqUMbPHnNiVcoBWb844B1ATE6IPMTJryhuhHWOJHy9
+ mh20xXm1FToJg3JGKAAOQOvkGLXTTw.hidCWU5vQfW7Q8hxgd77Dt3t2rfBh
+ 26Yw8Arh_z6YYfVzAnxdobLAWQ6qXK1Tku8NTK67XA88.Qa8jGZPcvUXjLLK
+ 9xL17OHKzkoG82J9hdWaNASJwVm59MFDIDlqzCfPUktFRSdcohozbR7S6C.K
+ Alxm3Iu7YTBVdXQQmyW_wKqcCwgCRgB8HerxlMib57tFndPbuuTqrJHIRdMI
+ 8FI.0JkYH_A6jZYjfHU12TQIKFrO8n6Qej1ZIwi2jZ9ccxrtCagELWBdDONH
+ I5xmnDUWlLhA0mpY
+Received: from 208.42.137.100 (EHLO mailer137100.service.govdelivery.com)
+ by 10.253.62.159 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 19:32:48 +0000
+Received: from prod-bulletinprocessor2.ep.gdi ([10.5.3.4])
+	by mailer137100.service.govdelivery.com (-); Tue, 28 Jun 2022 19:32:48 +0000
+X-VirtualServer: Default, mailer137100.service.govdelivery.com, 10.5.38.217
+X-Destination-ID: MS60710444266@YAHOO.COM
+X-SMFBL: TVM2MDcxMDQ0NDI2NkBZQUhPTy5DT00=
+X-VirtualServerGroup: Default
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=service.govdelivery.com; s=13q2; i=@service.govdelivery.com;
+	h=Date:From:Message-ID:Subject:Mime-Version:Content-Type:
+	Content-Transfer-Encoding:X-AccountCode:message-type:Errors-To:
+	X-MailingID:X-SMHeaderMap:To; bh=Su4xEfzIHSmJGVz0rYrVwg1tvtCUB+B
+	o5foxGhx5YSM=; b=TP1zy4tgG7xhWA5LnUOETfVAp/rko7dTjVmhzJFF+KYDehI
+	sHcmvG7voVQBgznmbeylQdHjHyogBPDKvDIdhzfda5K8UuyCf0yhhhueyTVOV+CI
+	F9gMVQ+k2O/3EOV6Ls+oT3t5FcBf8LAbNCLGashgAVvFwoMo+hXlIylAl+/8QT+i
+	juU5kdG0PS4GWphBab8pRKzizJl6wBLrhXs6pVha5mxYk4sUCMS0+JZWuQA3iNJ5
+	X+uINv3RLwGhPCKCBOFWW0msFic2g5rHwCJotpWFTtdIxk3Nq4v5uBNbLQlvI7n7
+	k6ktG7TsjLLzAKLSBopfeuUcNbTrO3h4pcsoUDg==
+Date: Tue, 28 Jun 2022 14:32:47 -0500
+From: "Office of the Special Inspector General for the Troubled Asset Relief Program (SIGTARP)" <sigtarp@service.govdelivery.com>
+Message-ID: <62bb575f8a7b3_62f0121f1dc8519d@prod-evo-bg6.ep.gdi.mail>
+Subject: Subscription Change Confirmation
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_62bb575f89619_62f0121f1dc8503";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-AccountCode: USTREASSIGTARP
+message-type: subscription_acknowledgement
+Errors-To: messages@service.govdelivery.com
+X-MailingID: 310568378963371::3235567357::0::PRD-ZIPMAIL-3235567357::::1
+X-SMHeaderMap: mid="X-MailingID"
+To: MS60710444266@YAHOO.COM
+Content-Length: 6017
+
+
+----==_mimepart_62bb575f89619_62f0121f1dc8503
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+You have made the following changes to your Office of the Special Inspect=
+or General for the Troubled Asset Relief Program (SIGTARP) subscriptions:=
+
+
+*You subscribed to topics:*
+
+
+  * Reports to Congress =
+
+  * Testimony =
+
+  * Audit and Special Reports =
+
+  * Press Releases =
+
+  * Statements =
+
+
+You will receive an email update when new information becomes available.
+
+________________________________________________________________________
+
+Update your subscriptions, modify your password or e-mail address, or sto=
+p subscriptions at any time on your Subscriber Preferences Page [ https:/=
+/service.govdelivery.com/service/user.html?code=3DUSTREASSIGTARP ]. You w=
+ill need to use your e-mail address to log in. If you have questions or p=
+roblems with the subscription service, please contact subscriberhelp.govd=
+elivery.com [ https://subscriberhelp.govdelivery.com/ ]. =
+
+
+This service is provided to you at no charge by the=C2=A0Special Inspecto=
+r General for the Troubled Asset Relief Program (SIGTARP) [ http://www.si=
+gtarp.gov ]. =
+
+
+=C2=A0
+
+________________________________________________________________________
+
+=C2=A0
+
+This email was sent to MS60710444266@YAHOO.COM using GovDelivery Communic=
+ations Cloud on behalf of: Office of the Special Inspector General for th=
+e Troubled Asset Relief Program (SIGTARP) =C2=B7 1801 L St. N.W.=C2=A0=C2=
+=B7 Washington, DC 20220=C2=A0=C2=B7 (202) 622-1419 GovDelivery logo [ ht=
+tps://subscriberhelp.granicus.com/ ]
+
+----==_mimepart_62bb575f89619_62f0121f1dc8503
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/1=
+999/xhtml" xml:lang=3D"en" lang=3D"en" xml:lang=3D"en">
+<head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+<title></title>
+
+</head>
+<body style=3D"">
+
+
+<!--[if (gte mso 9)|(IE)]>
+  <table style=3D"display:none"><tr><td><a name=3D"gd_top" id=3D"gd_top">=
+</a></td></tr></table>
+<![endif]-->
+<a name=3D"gd_top" id=3D"gd_top"></a>
+
+<p style=3D"margin-bottom: 1em;">You have made the following changes to y=
+our Office of the Special Inspector General for the Troubled Asset Relief=
+ Program (SIGTARP) subscriptions:</p>
+<p style=3D"margin-bottom: 1em;"><strong>You subscribed to topics:</stron=
+g></p>
+<ul><li>Reports to Congress</li>
+<li>Testimony</li>
+<li>Audit and Special Reports</li>
+<li>Press Releases</li>
+<li>Statements</li>
+</ul>
+<p style=3D"margin-bottom: 1em;">You will receive an email update when ne=
+w information becomes available.</p>
+
+<div id=3D"mail_footer">
+<p> </p><p></p><hr /> =
+
+<p>Update your subscriptions, modify your password or e-mail address, or =
+stop subscriptions at any time on your <a href=3D"https://lnks.gd/l/eyJ0e=
+XAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxNSwibWVzc2FnZV90e=
+XBlIjoic3Vic2NyaXB0aW9uX2Fja25vd2xlZGdlbWVudCIsInN1YnNjcmliZXJfaWQiOjI1OD=
+UyMTM4MzAsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4OSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw=
+6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3NlcnZpY2UuZ292ZGVsaXZlcnkuY29tL3Nl=
+cnZpY2UvdXNlci5odG1sP2NvZGU9VVNUUkVBU1NJR1RBUlAifQ.PAeK_VEjY4e8F1YD3azcFX=
+qomj-vHx5TWls3pxqVP40">Subscriber Preferences Page</a>. You will need to =
+use your e-mail address to log in. If you have questions or problems with=
+ the subscription service, please contact <a href=3D"https://lnks.gd/l/ey=
+J0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoxMDgxNSwibWVzc2FnZV=
+90eXBlIjoic3Vic2NyaXB0aW9uX2Fja25vd2xlZGdlbWVudCIsInN1YnNjcmliZXJfaWQiOjI=
+1ODUyMTM4MzAsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4OSwidXJpIjoiZXZvOnRyYW5zYWN0aW9u=
+YWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3N1YnNjcmliZXJoZWxwLmdvdmRlbGl2Z=
+XJ5LmNvbS8ifQ.gZJwZDsE5-vk6hW2gy4ruQERYv0gffQPkNdVwISGlkc">subscriberhelp=
+.govdelivery.com</a>. =
+
+</p> =
+
+<p>This service is provided to you at no charge by the=C2=A0<a href=3D"ht=
+tps://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjox=
+MDgxNSwibWVzc2FnZV90eXBlIjoic3Vic2NyaXB0aW9uX2Fja25vd2xlZGdlbWVudCIsInN1Y=
+nNjcmliZXJfaWQiOjI1ODUyMTM4MzAsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4OSwidXJpIjoiZX=
+ZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwOi8vd3d3LnNpZ3RhcnA=
+uZ292In0.WrBkfy1nJTM9RtbM6er8r8a7-dsA4MPsteBBQue2s8Y">Special Inspector G=
+eneral for the Troubled Asset Relief Program (SIGTARP)</a>. =
+
+</p>
+
+</div>
+<div id=3D"tagline">
+<p>=C2=A0</p>
+<div>
+<hr />
+</div>
+<p>=C2=A0</p>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"89%">This email was sent to MS60710444266@YAHOO.COM using Go=
+vDelivery Communications Cloud on behalf of: Office of the Special Inspec=
+tor General for the Troubled Asset Relief Program (SIGTARP) =C2=B7 1801 L=
+ St. N.W.=C2=A0=C2=B7 Washington, DC 20220=C2=A0=C2=B7 (202) 622-1419</td=
+>
+<td width=3D"11%" align=3D"right">
+<a href=3D"https://lnks.gd/l/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2N=
+vdW50X2lkIjoxMDgxNSwibWVzc2FnZV90eXBlIjoic3Vic2NyaXB0aW9uX2Fja25vd2xlZGdl=
+bWVudCIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MzAsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4O=
+SwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6Y2xpY2siLCJ1cmwiOiJodHRwczovL3=
+N1YnNjcmliZXJoZWxwLmdyYW5pY3VzLmNvbS8ifQ.U30i3vKsaal0OcJX_eyYkPLyHK87ij69=
+2ULgSCqag7w" target=3D"_blank"><img src=3D"https://content.govdelivery.co=
+m/images/govd-logo-dark.png" border=3D"0" alt=3D"GovDelivery logo" width=3D=
+"115" /></a><br /><br />
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<img src=3D'https://lnks.gd/o/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2=
+NvdW50X2lkIjoxMDgxNSwibWVzc2FnZV90eXBlIjoic3Vic2NyaXB0aW9uX2Fja25vd2xlZGd=
+lbWVudCIsInN1YnNjcmliZXJfaWQiOjI1ODUyMTM4MzAsIm1lc3NhZ2VfaWQiOjk4NDg0MzE4=
+OSwidXJpIjoiZXZvOnRyYW5zYWN0aW9uYWw6ZW1haWw6b3BlbiJ9.PtPmGcIV6zC1p8QSno_7=
+dctRrOa_UqzE137XpYkKfN4'/></body>
+</html>
+
+----==_mimepart_62bb575f89619_62f0121f1dc8503--
+

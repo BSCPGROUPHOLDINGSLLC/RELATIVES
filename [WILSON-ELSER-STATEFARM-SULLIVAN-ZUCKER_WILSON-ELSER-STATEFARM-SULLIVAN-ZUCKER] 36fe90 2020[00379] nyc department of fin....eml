@@ -1,0 +1,90 @@
+From - Tue Jun 28 14:23:58 2022
+X-Account-Key: account1
+X-UIDL: AMB1Go10QYeVYrrF1QNACK+2x1Q
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.201
+ by atlas103.free.mail.bf1.yahoo.com with HTTPS; Tue, 28 Jun 2022 09:11:49 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.210]
+Received-SPF: pass (domain of github.com designates 192.30.252.210 as permitted sender)
+Authentication-Results: atlas103.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 09:11:49 +0000
+X-YMailAVSC: cPFJj6M3bBs3TiZuHljVuhztBZiEHg_y8qJlyNechTcBlye
+ cGINoWgGozei9s2cS0DJFLU3SddxymQfurw5dFkh6GFz8lXK7_l48CdRiGqv
+ o1FdAi8jundr2w2ocANyqv4J5dk6U8MaYRnYT_i4pKbnQzMT53jHbYyAGyrx
+ .OdhwyxTz3c9Du8.kFE55crkk37rGvp3.NXzx1lo18bMZbGEkGImxHA.IYKc
+ Go4u9bayEq1EwmO23dWoFZKG3yYlevILYP6s3biqtzhtBHvOhb4U6UfdAV1.
+ KdG8TLXybi16zpX7hRAPuKoB8MlncJ29WvsTJ1K_PxrsHlwl9MhkhkH5UnSX
+ 2
+X-YMailISG: 9aQHHKYWLDtnamUgJctnzqC1AIB9uT7QrpFo3UBa9mnKE6w2
+ Jzeeovpv6SJg1PuU_5ywwk3tfMvi5Dyo2Iag5cj_CX.Llmu6lcJxOFM9O80p
+ tYfp0hZfx.CBNqSiOXRzdYpox689_L2g.Cd21ZlibpZ4jvOI5ETgAcYG_kMr
+ .9KVcMlgGcymcW5024U.M6xTPamMXhzdo.EgiEXJdhjYZbzkmCtEDLmszOND
+ lScX3EKXCTp7iS6bQ1UqALo6i4sxdnXLUG0t2z1HHH4Aq2oFGwNjkGUPWwAl
+ yRCI_xfiLVxWXKc4k.2jfeFPj_Aaf8NJnTyRcaYHWVMQzGOIbM9Qj9sQS3st
+ TddPWxnlLlPueSv6avcu40lWrcImZo1Wsy7OCGgXq5JRgnDGw8W7qRcFieKf
+ AWlgBHD9Ix1PjBwAQx6MWBFKjV9Sa_8oTB4yphaGUs2xnlWtckjeA56j_2HR
+ w0sWc9Nx9x8WB34.LY0p.555F5I_YzIV38aGuSjQS2X1FXhH34RinbO_I0eK
+ sSkb3gnwqshDez815zPOlJeKZs_RsLXCTGfMf4cquD2ygNhpCU4dDpS1uSpb
+ Kgh0EYToMDbHurTtO0FSKhwa8FGLLhz32rEKgHTUnw14CbR.k7kI0hr6yDYs
+ x0mRLS.jN0E1zFj0hMgwS.tbpsnHwaIFXH9so5vpm_MlU5Y1BWmcQFn.szAE
+ 4oQI2y4TP.DcDYzGYLKlnSTVXTITt7tkpS0cVODLKD9wK8JjHiM12_iNU8lK
+ jd.oBojysnWN_yrF1yHjp_CkdSUCuT9dJMyL0LRAxGFmc0uHsPNZ1g2nXVVM
+ l6FcliYfVGwf.xANNfN0uhDAvcgenIshM3hwu2RcAIQYfWn9kP57t3Qt9XlO
+ R9F1BjGHcBy1IjYBHPJzmPxdCwTJhqHI5JuCuJDSTKe3Hjp2g3EvUeEptLB2
+ QAx8CSpr6rpQDvFBc1zygqHBafkX7sBNZLFG8xAlHeCuixmcflueNzw5cUCr
+ HIzgYBQ2krAmyjMkQnxFLN8AyL3OxoBE6HUZnutcHvugJf27KmmHCuTpd6OK
+ ib0JN4N15QQ_W8MyMUrMSDNVKDJm5JqU4VeW0dAQdkdrFpMA7kI6.HTEGxbG
+ GTSzpbHyAkKgSOiBDvbZ
+Received: from 192.30.252.210 (EHLO out-27.smtp.github.com)
+ by 10.197.37.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 09:11:49 +0000
+Received: from github.com (hubbernetes-node-96a3c16.ash1-iad.github.net [10.56.203.96])
+	by smtp.github.com (Postfix) with ESMTPA id C2BAA900BDF;
+	Tue, 28 Jun 2022 02:11:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656407508;
+	bh=beI/DnWH/izN4e7Ec0xoLafawILadBJzOC2yhIHmiqQ=;
+	h=Date:From:To:Subject:From;
+	b=BVoja5GB6hMbpKzkzfLwsrlZOYbIDw32PPlx656PZ9kn8AdK0139bqpeSprq9aLLB
+	 noEWeRi08HHokZ/BSzvqHxLp1fee+NWmpnS6ccZvxoG2BiOSQovmn21YKfzc+MI10C
+	 zq5HyECK27FJtu5qJiyQ+jBOZaIs2G1SbF4faOsM=
+Date: Tue, 28 Jun 2022 02:11:48 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ financialeducation@info.consumerfinance.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/VIOLATION-OF-PRIVACY/07c555-36fe90@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 36fe90: 2020[00379] nyc department of finance
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,financialeducation@info.consumerfinance.gov
+X-Auto-Response-Suppress: All
+Content-Length: 696
+
+  Branch: refs/heads/VIOLATION-OF-PRIVACY
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 36fe909de2253150b78ce000493b807ec87c02e3
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/36fe909de2253150b78ce000493b807ec87c02e3
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-28 (Tue, 28 Jun 2022)
+
+  Changed paths:
+    A ---2020[00379] nyc department of finance.pdf
+
+  Log Message:
+  -----------
+  2020[00379] nyc department of finance
+
+2020[00379] nyc department of finance
+
+

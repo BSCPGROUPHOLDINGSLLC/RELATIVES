@@ -1,0 +1,288 @@
+From - Sun Jun 26 09:48:28 2022
+X-Account-Key: account1
+X-UIDL: AH+HWLtirGmBYrhv5Ada0EDqjag
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.92
+ by atlas210.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 14:40:17 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas210.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 14:40:17 +0000
+X-YMailISG: Ur7dQWUWLDtqDFgCO6UleaezTJpY8V6dfWu__YirYv5hZ7k7
+ aC9W3xTwpDGj1DXD.iqHjAlw9NIUmiBW2WmVDQmZMnvC_r7B.BfpAHNR.Fx1
+ XA7ybzA2phJN1sD.7v2BS.wefLE5RiADE5lJVi_wTZC8P1VupTpPxf8vTzfB
+ imY8Ei754cMCeqR__DrR7ZR32DiURiV42u34YiaqrfyXHvTNtfNjO_1xzJGJ
+ B9.IsCRrzH_jxraVVEP6u1TD.6_cqJqKjXfSGlvfhWKwPzyztkYBt5kDric8
+ QjtWHfHoFLLV7Ns_giU0m03VfDQgY9KQ2aOnYZ9MtQW1.u6FH8G6sx9DyFln
+ tzAXpJreQON6yt9B.XK4rL7cxyFHm.TEiBRaBKnIJP01yPBxqVc06r.sStDh
+ WnX2Xo9n9tMXB6C04HOPQGGwzmfJI0CpLftK7roBTuXO7dwFpnhFx88lS3z0
+ .05Eqk.jjcwAmjuP.knCdk9nxEeyXFoRy1CxzvXkNstqpxyz3sCqRiMQ5BAa
+ 8ENlo31IIMl2Sz.FFOW2sduMGbsxy0YFYw9QrreqGpHo1vsn_Zu3CJkGugyb
+ QtKQlBgWVhCde8YnAn8R.q8SZ3u7nKHNvr9ahiwKofzlTn8cT86etOuxxBd7
+ q8WfYs5FE6rA3Ksl6tlbcFZGm8cbID7pwJCZ4YuZrFVKoZesphQBkegYF5GQ
+ U1853m8w8M_Zq.bEQnv6cP.NCZ4sdwZFqcAdlnlOc8GLEPqZaf7VXSAwEvTw
+ evms..Liqx8TSsIVWSYYSjmGq43artEZgF.6U2MnvvWlN8RFt9fH8jippQjh
+ qSu1Tm7kwzPub0cNSGot29c2.9mrjfOlYuunw5fIxZ368nx4ak1j3O4peizd
+ xQ8im4vlpRJKE8d01CJH_40YD5Ke_aAESYKPLDVQ2paHEtsdyUDb5JQXIu6x
+ rX60NAu5XCjNHzMonyc9X_YMhoS7786r5AIN7r.ny3c.JM.whyacqM_SYgix
+ lteFrDXBNjeCE7DW3exNRDOGtKd0oaY6HeRwq8ukzexHLOSOPFVbXJED6OrC
+ P2EhmE_1Fpjt6rGdbfDO53_fWRRYvZS2JNUslf.qp6KfICgbyKB.iywR7eMr
+ 45_gUqZ0GGkRZyku_H0kZW48DMZG2lKlKIxttpyyoDdi9AlUwJWr.9JxYUwE
+ Ixfj7gakj8Pk.qqUU4uwLtw8dL6DKVNk.xWLPWmP_M.Jj5g-
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.217.136.92 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 14:40:17 +0000
+Received: from github.com (hubbernetes-node-a384db1.ac4-iad.github.net [10.52.125.76])
+	by smtp.github.com (Postfix) with ESMTPA id C288E720545;
+	Sun, 26 Jun 2022 07:40:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656254416;
+	bh=sbfe5bdh/Xrb8chUYpTUjOI1yfVOmu+NddnUi4zC83M=;
+	h=Date:From:To:Subject:From;
+	b=PO0vIUwoWMIXiTR+nM45J8sjH6ojwjn64Kjkl8NKBtanGHLYkNOlrR0ZRcFr4tabf
+	 4xIGlZ+gfVmXdn0cepRVSc/YSrql9gR0ZVv5AYAQNLYPDMqmOAJFbxLp/swsXdhtRh
+	 BYOpZuduZERyhuSUxyvfnsYGwu4hGOX8AuZZaIJY=
+Date: Sun, 26 Jun 2022 07:40:16 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/af666a-21dc98@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 21dc98: you'll need a few hands if you need to go through ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 4545
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 21dc98f47084d3ad33cc59a55eb4c61756b25ec4=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/21dc98f47084d3ad33cc59a55eb4c61756b2=
+5ec4=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  you'll need a few hands if you need to go through this information -- =0D=
+
+=0D
+=0D
+=0D
+=0D
+Changed paths:=0D
+=0D
+M C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION.html=0D
+=0D
+=0D
+A LOAN 50074 - C16-93715 ANNEXED IN 153974 CARRIED OVER TO 1516523.html=0D=
+
+=0D
+=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	[BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] c4c86c: 93715 --- nov13=
+ and Dec18 2021 - could have saved ...=0D
+Date: 	Mon, 23 May 2022 05:02:16 -0700=0D
+From: 	1212-5858 <noreply@github.com>=0D
+To: 	MS60710444266@YAHOO.COM, BLOCK803LOT11@OUTLOOK.COM=0D
+=0D
+=0D
+Branch: refs/heads/93715-CS16-93715-153974=0D
+=0D
+Home: https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+=0D
+Commit: c4c86cdbcc0e0fa3ea2869b7cf97d6fb393ae7dd=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/c4c86cdbc=
+c0e0fa3ea2869b7cf97d6fb393ae7dd=0D
+=0D
+Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com=
+>=0D
+=0D
+Date: 2022-05-23 (Mon, 23 May 2022)=0D
+=0D
+=0D
+=0D
+Changed paths:=0D
+=0D
+M C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION.html=0D
+=0D
+A LOAN 50074 - C16-93715 ANNEXED IN 153974 CARRIED OVER TO 1516523.html=0D=
+
+=0D
+=0D
+=0D
+Log Message:=0D
+=0D
+-----------=0D
+=0D
+93715 --- nov13 and Dec18 2021 - could have saved about 1.5 billion dolla=
+rs by switching to BBO.=0D
+=0D
+=0D
+=0D
+ATTN: MR. MOORE & CO.=0D
+=0D
+ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710=0D
+=0D
+=0D
+=0D
+I REQUESTED AN ESTOPPEL=0D
+=0D
+--- --- TO CEASE AND DESIST FROM ALL THE ACTIVITY=0D
+=0D
+=0D
+=0D
+addr.: STATE FARM=0D
+=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WAeCnxm=
+d/hcOI4eTnbig=3D=3D=0D
+=0D
+=0D
+=0D
+addr.: THE ZUCKER FAMILY & ITS COUNSELORS [ all of them ]=0D
+=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3Un/JaV=
+XZwF7kvbaee4w=3D=3D=0D
+=0D
+=0D
+=0D
+NOTWITHSTANDING FOOLING AROUND WITH A 40' ACT MUTUAL FUND.=0D
+=0D
+IF YOU ARE LOOKING FOR AN EARLY RETIREMENT, IT DOESN'T HAVE TO BE THIS WA=
+Y.=0D
+=0D
+=0D
+=0D
+PLUS, THE NAME HASN'T CHANGED THIS YEAR YET - AND IT DOESN'T HAVE TO....=0D=
+
+=0D
+=0D
+=0D
+TWENTY-FIVE MILLION US DOLLARS, UPFRONT=0D
+=0D
+=0D
+=0D
+AND CONSIDER THE MATTER CLOSED, WITH THE IMPLIED "COVERAGE" THEREAFTER.=0D=
+
+=0D
+=0D
+=0D
+WITHOUT ANY LEGAL EXPOSURES, AND WITH MYSELF THERE TO ASSIST YOU PERSONAL=
+LY - UNTIL THE DISASTER YOUR ADVISORS HAVE LEFT YOU WITH IS CLEAR.=0D
+=0D
+=0D
+=0D
+UPFRONT =E2=80=93 THAT IS MY COST, UNLESS YOU HAVE ANOTHER PROFESSIONAL T=
+O DEAL WITH YOUR COMPANY'S AFFAIRS LEGITIMATELY AFTER THE FACT... AND NOT=
+ THE KIND OF PROFESSIONAL THE ZUCKER WOULD HIRE TO WATCH ME IN A HOTEL RO=
+OM AT 5AM - JUST LKE THE ATTACHED FILE.=0D
+=0D
+=0D
+=0D
+A BETTER USE OF YOUR CREDIT LINE ANYWAYS, FOR ALL INTENSIVE PURPOSES.=0D
+=0D
+=0D
+=0D
+TIME SENSITIVE, AS ALWAYS.=0D
+=0D
+=0D
+=0D
+/S/ BO DINCER=0D
+=0D
+=0D
+=0D
+MS60710444266@YAHOO.COM=0D
+=0D
+BDINCER66@ICLOUD.COM=0D
+=0D
+TEL.: 646-256-3609=0D
+=0D
+=0D
+=0D
+CARRIES OVER, TRUST ME... I AM NOT A ZUCKER, AND THEY CAN NOT AFFORD ME -=
+ AT ANY PRICE.=0D
+=0D
+=0D
+=0D
+=E2=80=93 YOUR $25 MILLION DOLLAR CREDIT LINE IS GOING TO BE ENOUGH TO CO=
+VER MY COSTS TO REPAIR THE FIRM.=0D
+=0D
+AND FOR FREE OF COURSE...=0D
+=0D
+BUT ONLY AFTER WE SETTLE.=0D
+=0D
+=0D
+=0D
+https://www.scribd.com/document/386161673/Bo-Dincer-New-York-City-Fixed-I=
+ncome-Trader-Baris-Dincer-Maritime-Capital=0D
+=0D
+=0D
+=0D
+https://en.everybodywiki.com/Maritime_Capital_Partners_LP=0D
+=0D
+=0D
+=0D
+#GOCARDS.=0D
+=0D
+=0D
+=0D
+THANK FOR REACHING OUT, HAVE A GOOD NIGHT - AND SORRY I WAS WORKING HK HO=
+URS AGAIN.=0D
+=0D
+=0D
+=0D
+>> OUT OF COURT SETTLEMENT PRICE IN US DOLLARS $25,000,000.00=0D
+=0D
+=0D
+=0D
+WITH THE IMPLIED "COVERAGE" OF PRE-EXISTING MATTERS SETTLED=0D
+=0D
+=0D
+=0D
+#1=0D
+=0D
+THANKS DAVID FOR YOUR EMAIL AGAIN MR. MOORE.=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+/S/ BO DINCER.=0D
+=0D
+you know what code to use, same as last=0D
+=0D
+646-256-3609=0D
+=0D
+=0D
+=0D
+#12-12.5858=0D
+=0D
+=0D
+=0D
+##1=0D
+=0D
+=0D

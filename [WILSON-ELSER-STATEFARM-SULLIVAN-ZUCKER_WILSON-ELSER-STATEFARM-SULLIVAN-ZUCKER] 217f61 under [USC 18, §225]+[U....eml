@@ -1,0 +1,137 @@
+From - Mon Jun 27 18:33:03 2022
+X-Account-Key: account1
+X-UIDL: AF/yl6AM4gkyYro89wGGoMHqiLo
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.8
+ by atlas213.free.mail.bf1.yahoo.com with HTTPS; Mon, 27 Jun 2022 23:27:50 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas213.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 23:27:51 +0000
+X-YMailAVSC: Y7pHQ5A3bBuPZPARcHHBN3VZO4bXgMbFqnNjHlolOzNB11A
+ kdOcce38G_Mc0XsW70rTIWJNa4NvnH6A_ziQ8sKiYEJAZwexccMOiZQ_a8LO
+ cPf8iGlQSUNpYZFLcQZU2ZaRYfKXF.loVWkX_psBTezpqpuTbn4QLTBkMnS7
+ 7Bxf9RGrnPJ3PZuDUndQeScYXOb08EMplaxoWhJMsF_ib8Z8gKMY3zZXJDZD
+ Nl9rneiWiqaC0rOBFJqFLx8L4jFc6Y_GvTpN2C8WTl1.fw.CZPTW2wPAXnjW
+ 1U7ouldOj4wk9XPaZoicT8xiorqz5XgCF5R6YNZgGDSOQYY2L4oMDh3.ZIQ8
+ f
+X-YMailISG: cSLWb98WLDu7e8dTiMaheFaz1Y06bm4uV0T_Jt6M.K60avIn
+ CdniLhE1dyBKwDskK.m52VcX2BQjDBh3iofecglb27glGu2RQHqlAMX1zWpw
+ gknwY1NigbDoGMgFttE.7mm0pHLtkhNKdSO.ZNeR60Nkg4v8YCr0e9G8WUtN
+ E4cNWdiL4zM4hiHKxjdZO69_Z3Dqd2SBiovI_3fgDKYR.jA0ZUnwuOrFSL.N
+ U8isDOxqmIG1nZyuVozaY46s84NyF5WdCCfK7_LwNY1YP.aJgqgd5mRFjCk7
+ H6LXYjA4vF1_eVN2NTxJCOgVVfnBgUYum2P.nnGqy88OGxu4eLglIZX5Zi0k
+ 9l6USdPm4seUCVwDdyie8ExDSwa._4JE0GOkUnoL7OPu.csQyLmLTxEODC2V
+ 6o_B6z6xPtjH2nvgT1fkPwIrQbgUO0xmeMqHDOXdDG91z9JQBIGG7VFCStho
+ w_r6E5130IglCk.02gK5Y2k51mbRPwpJJo41vdeXmI_TOa6Tu_didvljQDFC
+ jrqkgo0LMY8tqtI2lBCJgEWWKpDNFQOTZKxLssLHaZFtrjAagWX1izISH1.J
+ wPhC1I7.gtcv_y8RpHBG7IEyXKovsNmdnhC4nszt_6IpXU9jIte.PnVh7RbY
+ WTeNUUmI89MQn27pZGBtHUMr.2.OZDmrUgS3pALwJxp5ceRnibkgGaxz03tz
+ 4J94dlfjp1u80Cws_C92nnUix5qMzpMFHwH.aURurxJ7Rg33TFfPnLROEsoQ
+ RuMOsSzjI95MnDLl51xGwRqiPP8THx_hb_v.WQL5nNXwv7si50Z5D0.dLV9N
+ ecNIf9QfJlSBHBC2.Iyzs.2PvcQo0o3FIVpYv4XGeo2xxa4SWodVSM4L6tfQ
+ BzhgoGOD8fvli6K5uES1AZ8LWXo6c.6nPSyDJFeGIRFBq.LXGXlz5s5nbL6V
+ AQmmvZzq0AmQ4Mf3cg5ahZD.ChsDZvQwjZfmiVUiZmfbF1YRKMQ30OBgfWQZ
+ z60LDee2wi.EU_8t3hDUcmo9lG8zyBXBum9FaaxuSlZ0vVkMyY6RCk6aiAFu
+ PTNaqnTibV5t2Q1Qh86vFxzLEYpzdGXDTVNnFDjdPWYr1dvJifJcSlUpfUDK
+ hJ0UylVb.IbzTiACEvR3npkynpTpHFkRkNSq25G9hfE3t3hT.mnpforwh4Rs
+ 6YMrzGtSmHN3A8tQPokDEx72mg--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.197.36.8 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 23:27:50 +0000
+Received: from github.com (hubbernetes-node-b4e9ef3.ac4-iad.github.net [10.52.201.40])
+	by smtp.github.com (Postfix) with ESMTPA id AEA7F520571;
+	Mon, 27 Jun 2022 16:27:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656372470;
+	bh=EKyx0U4LyfSP1phNF1Uc8ZaotYYDqENFGKevNh9QGYg=;
+	h=Date:From:To:Subject:From;
+	b=usz6CT9fjOrpVft6OUdiH4g8pPzhzkmIBHKjp79Wo5wXcqFCCqTIRzz9NiTKx0TyR
+	 dj+9gJbw6Bba0DkbxNzobuyjwKBQaL2CV8Xkjz6O/PkbX0kwJ7r8B9R45neWXA8K/A
+	 fBwDfj6P1WBt10zPE8SEPzYLv28UTM+cnMkOpt/U=
+Date: Mon, 27 Jun 2022 16:27:50 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/2022-06-27/845a8a-217f61@github.com>
+Subject: =?UTF-8?Q?[WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STA?=
+ =?UTF-8?Q?TEFARM-SULLIVAN-ZUCKER]_217f61:_*****____under__[USC_18,?=
+ =?UTF-8?Q?_=C2=A7225]+[USC_18,_=C2=A721]+[USC_...?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 3253
+
+  Branch: refs/heads/2022-06-27=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 217f61d1cec3c55447f8e2289eedba6e93eca2de=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/217f61d1cec3c55447f8e2289eedba6e93ec=
+a2de=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-27 (Mon, 27 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  *****    under  [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A71=
+962]+[USC 18, =C2=A71963]+[USC 18, =C2=A7241]+[USC 18, =C2=A74]+the despe=
+ration of [USC 18, =C2=A73] =3D priceless [$,$$$,$$$,$$$]=0D
+=0D
+*****     [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7215]+[USC=
+ 18, =C2=A7241]+[USC 18, =C2=A7373]   <**voicemail attached>*<br>=0D
+*****     [USC 18, =C2=A7241]+[USC 18, =C2=A7216][USC 18, =C2=A7218]+[USC=
+ 18, =C2=A7229B]<br>=0D
+*****     [USC 18, =C2=A71962]+[USC 18, =C2=A71963]<br>=0D
+*****     [USC 18, =C2=A72]+[USC 18, =C2=A73]+[USC 18, =C2=A74]<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+c3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D<br>=0D
+*****    under  [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7196=
+2]+[USC 18, =C2=A71963]+[USC 18, =C2=A7241]+[USC 18, =C2=A74]+the despera=
+tion of [USC 18, =C2=A73] =3D priceless<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+PWFQc/WFihoyIKwEunaalQ=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D<br>=0D
+*****    GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID P=
+ROSECUTION IN A VIOLATION OF PRIVACY CASE<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    ABUSE OF THE NY SUPREME COURT, CIVIL PART IN 2020 <br>=0D
+*****    DURING THE COVID-19 PANDEMIC - SEE ALSO LOSSES SUFFERED IN ONE U=
+PON DISCOVERY OF THE MATERIAL FACTS<br>=0D
+*****    TICKERS: STFGX, SFITX, SFBDX, STFBX<br>=0D
+*****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR EFFECTIVE=
+LY, AN "ESTOPPEL"<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    UNLAWFUL ASSETS IN CUSTODY AT JP MORGAN CHASE BANK, NA<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+R9aac7D6DBJZ1wsiq0b38A=3D=3D<br>=0D
+     	&nbsp;&nbsp;&nbsp;*****     *****     *****     *****     *****    =
+ *****     *****     *****     *****     *****     *****     *****     **=
+***     *****     *****     *****     *****     *****     *****     *****=
+     *****     *****     *****     *****     *****     *****=0D
+=0D
+=0D

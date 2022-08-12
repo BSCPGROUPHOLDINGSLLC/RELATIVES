@@ -1,0 +1,99 @@
+From - Sun Jun 26 12:00:49 2022
+X-Account-Key: account1
+X-UIDL: AM9yBb4JMOuUYriOrg4ZYPM9QTY
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.231.19
+ by atlas213.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 16:51:57 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.211]
+Received-SPF: pass (domain of github.com designates 192.30.252.211 as permitted sender)
+Authentication-Results: atlas213.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 16:51:58 +0000
+X-YMailAVSC: DJv6PZU3bBtLjcxIR.42QkMOZa6M6p3Uw2qv8S3uLYIWUU0
+ sxtA3XqSInGiFIEW_S5ZosozO24MRu3xRN4wKzJhTC8qIrfmvOxuexPvcy2D
+ 2pxmNpvXCacd2IAYuEAMp0mq..EPUS5i1YJFzvp4gmKJy4_rafxb09wPayrZ
+ A9p8BwkBZIlISlupqJy4w1pjRstJqVoM1O2a7_eXMHy1WB8T4G4IUI_gnIi.
+ 1B2o5_ziTV3N_dAYk7OPAUqLqPTLommcQcEzeOX.lQ51F5osN4IJIyJEnyPJ
+ Qt98JRQnT7nyw6zJHf1tn34ZubJzEZ0iJ82V2EI49YrmfAMFmDWRFngXzCCA
+ 8aFc-
+X-YMailISG: mkb9HmYWLDv9GCjiIVpqMlo7isAUDBGeE9NNLhAqo3jvuv6a
+ zWAbr5XuJkRcdccfaaxaotintjbVF8U41EnBPAnXFlBVjvIdk_XcckoFA86Q
+ qKQhrYa3TmmAaBpbfVISvJORpL0jmK8kDA1FBz0hEBVDLdj8VUvpxakvZ0ef
+ qTECtECXGiIaX5.6AeC5fb8HQfb00tayHfkmpkSlLaqyBF_it6RH.fAEjDcf
+ eLB576_itmd3jSCOt.38Ro3bd2yBkWGTrWN2julxxbt6RsZJ7LfU.h6pksUn
+ eJOGr01KJdvVtFpzyLCR2RNKeuT1dZspl0TiS8XvB_1gxvI8.Mx1K_7abb.s
+ n6KirAWP4M2v0FBjV2ehCcu8FEcH8bHdT6eca.t5ILieRLSMG9tixnGa4h_k
+ kbzxrI_vn_BSjfhUeRjuqorSrRFI9Q2SGIEYwOyG8agbl54ehACgkkdqU6aN
+ ESz1C9lYMtx6RtcI03ca8ezWEC.iztVVrg.P1jQU63N4.l3GAVnKJmeZmJKn
+ dsOUXbr83DGuUK7OD46A5aizfDPmkU2fZ9QKwKfkOakmTUFuuvZchvXj85bQ
+ RK2wO0mTVr4bIRQpTSMZVCTMxqn5pGmxLIL.i81B0y5ITMigDuvQ_ig.F1Dt
+ kTcmLK22_yYer6NGUfNj_kgd86ckAdy4M3O1QRezRlW5sefTNEcZSIU2Xk3W
+ 7OKtuUnRdb.XgeZz6zVQAOxz_CQmhi7yZKM.tttFs_cQzCPc3NinOj_pWKwN
+ YbZ9K_sv6kGLvjFQ6AXePH3Z.OtkdKYwFTpKh4VNxzrL3JoGa07QHklYPXLn
+ X33kLVfOj0uaRqPAubzjDVSSZKAZDIRBbg0w_LbpoOkaq4LM.4fXZdRFfUr.
+ oc2L58ovhhqSXbf8c9oa50Br0a2TweDdXRmrib8c_Ya.sL94Gs1IBMJcOhrz
+ dO2avWNXc78C1SOSfW1IZBZf_SS1M.vwgX7g4zRUTceF.Dn4ykhyq83Q.H9v
+ zWNEW6jyoMS64xqNXdjGfPFZabkd2eMttAPOQ3YiE4V0XTy_5AhlW10zCFok
+ qAEkBguQ2ky7yCDq.MNe_P9NMlPlvt52fdesMhUgy05PDDiwI_vwEJ3OXgTt
+ 3m3foXMDc0h_zU8yTLGsvaC3lQN2jwSbieRSQFvQQl0dZVKrfRpY2fEhztUQ
+ ZumaasxgPTHdkn_u_I6gawKeFww6cdTRLCA-
+Received: from 192.30.252.211 (EHLO out-28.smtp.github.com)
+ by 10.253.231.19 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 16:51:57 +0000
+Received: from github.com (hubbernetes-node-b8d21ca.ash1-iad.github.net [10.56.14.43])
+	by smtp.github.com (Postfix) with ESMTPA id E85AF900369;
+	Sun, 26 Jun 2022 09:51:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656262316;
+	bh=tCn3TXzK/PPcoclK7Set+4Wlq7tunGmhgAnWwo0g7Rw=;
+	h=Date:From:To:Subject:From;
+	b=xkyiosjcdEn3t3HhrRp86rMBjdgOaCzbvnfQZJYUahEcd8xUZvBOX8k/tGcMRGYRH
+	 q6DkuI11rLJgpFecFgqd2i8hryopYXNu0jskoCKYiVCyT+m3VxWsHySiuGOsLSsenn
+	 UNhKzpQsFO2xhKx1H5RNfjvd8jdG8+Ms73JNza6Q=
+Date: Sun, 26 Jun 2022 09:51:56 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/84f7fc-201b33@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 201b33: 2020_05_27 - INDEX and PAPERS FILED WITH THE SECUR...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1138
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 201b336a4a5a41621d38a4956d5eb7c461e7a4d5
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/201b336a4a5a41621d38a4956d5eb7c461e7a4d5
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    A 2020_05_27 - INDEX and PAPERS.pdf
+    A 2022.03.07.CRD.Mutual.Fund.SFBDX.SFITX.STFBX.STFGX.LGL.pdf
+    A __2021.12.01.NOTICE.FAX.103W55thSTREET(DELIVERED FAX).pdf
+    A assocSemAnnRpt - MAY 2021.pdf
+    A default.2022-05-27---TCRReport.16537-714-487-492.pdf
+
+  Log Message:
+  -----------
+  2020_05_27 - INDEX and PAPERS FILED WITH THE SECURITIES & EXCHANGE COMMISSION #50074-2
+
+__2021.12.01.NOTICE.FAX.103W55thSTREET(DELIVERED FAX).pdf
+2020_05_27 - INDEX and PAPERS.pdf
+2022.03.07.CRD.Mutual.Fund.SFBDX.SFITX.STFBX.STFGX.LGL.pdf
+assocSemAnnRpt - MAY 2021.pdf
+default.2022-05-27---TCRReport.16537-714-487-492.pdf
+
+

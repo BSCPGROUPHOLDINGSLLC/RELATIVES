@@ -1,0 +1,248 @@
+From - Sun Jun 26 12:30:49 2022
+X-Account-Key: account1
+X-UIDL: ANl8sDMyR/GjYriXjAyqMFqk5sY
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.88
+ by atlas314.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 17:30:19 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas314.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 17:30:20 +0000
+X-YMailAVSC: JdxqoXs3bBts9kuZU_HfyCpJT52aOr2t26AX5eL6t_j0gNW
+ P_G.S7rFyuzhIAH.OEtF_HNIXX3tpgClLUow.H._Itix7ytktHh8DFSI34K_
+ ZJ9VXmFabkE1MwQUB0_M0iYHc0NJcPgDJPbTy8z4jeDgD5hAXwkkjuQwyxb3
+ 55CKGjBz59oMsOB45FeD90Kzq4QkHdAl5bsbJHXryExTNjR.zuGtJ7ZHylgk
+ yHI7csfL73mieOS47dMGq5ZunCYU78sTQWuYeCPeEOXq0d0VBEc.HfeLSM6U
+ SRmOo70UOVJMx2Gj9uIW9HbdJH5UTXsuoGFHN6MKyrpVpTh6V0e0pQ.ZxRgK
+ npcM-
+X-YMailISG: VDo553MWLDuN41rD6PDfXRthY6VIqU7VacMVmJzSYdtav0Rr
+ RfEON7U2TecJAhoDVZB5h5ndd.y2.vPR5.p8cBNOkXZGdpgLd1ot3EAOOfUF
+ d.bMhOgOV..B6FN1mlL5bGUR_1776pZsk3Qv5NxMpTpzcxCXk6gcuURRwRhR
+ ANsTsJEfjxM82R4OF6aphIKy7GwvVp5QwtbpqL5.BPXJyfHmbZw1HpJxks5Q
+ pQFd3zmFQ3.6LrVReGZWxsGk_qT6Czp2q2HTD3J3Zfrv5_4kr0mGcZJyX7il
+ TJyXy1_5apPBgCA0b2l4C6Uq1FcWVc_siHfvr73mu99fpq10j8fJc9Gzn.kw
+ 9Qd.aw.uTMfXe6yKgOZy5Eh6zqSWfFQJ3YVG9yZkUglt2nWsPZHujRHL18pM
+ cZPB.VwMKmJI_RVdGd5wmlBaGEx2CGlArxPFZct8Hce.qY0EAkuwJs6G.nzB
+ Atj__6nRHKcfecVIFvM9YcjpXLmjNIQmeSs_1MjwlFPcnxT_pZIu5hTIW4u6
+ u4kP4qXpQNLNRs8uDpoqUZwt1grNLypWFRBABJCkBweXuMAmLNu5xsQG1zWg
+ r5qBaUJdktKYTvzrIGIrrVzqhPmmF7EaQTUmfTmijMLV4zVhV5BTO2QxQE6o
+ gmAw9tD.DJ1KrOAHHVmzOGdYbbJpmQNhKOUhoNCNo0OZ6UtaSlgn5LiHvpr3
+ b9Ceno6zKgOYzxp8jBws6bmEJV8V98pWHsm5fjIdVP_gUcyBSOmDpAp6x43E
+ 1E3NnFjaPNwWJI1nvv2Rq7BpomT.2sKLXjhXkL3JtASyjXCx12nh3_VtS3rY
+ grnHClvwQgti1zA_6PAzU7LPdBH3nD8f3HXdIyqS596.E_dpTmH0kEtlzkkQ
+ ceGeifNMVzWWN7D0f9BuND2iNukM2woE5E1UzfuaHfmfzndUmJWG7cuW6aJZ
+ jnpxCl11RDqw63uhRUUNzs2V2aSOomvfqgvL8oos2BJIfaOJ6OiPdxCohJhS
+ oq8yTcaEGkAb3MxvtYizN5tmvQv8jwisgy6yz43Fzvy5M0KlHqrirBkIvlO1
+ azw3oi.K4Z2_0WbPtH_RnIyCYDwbtSUrOoC_dgcinu4s3i784QjTq4_EhbFQ
+ 4muAxEJVIDYFrDXru5LDGPOQylEIkt4zChNJ0z1XqAwF4283TRaTy6D6KAQf
+ _lOXqQgyusCsHO4HtEcWQ3fRw4nfYAsES5w-
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.253.233.88 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 17:30:19 +0000
+Received: from github.com (hubbernetes-node-4a6b12a.ash1-iad.github.net [10.56.202.81])
+	by smtp.github.com (Postfix) with ESMTPA id 03C02840283;
+	Sun, 26 Jun 2022 10:30:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656264619;
+	bh=5GN7HR2DBURFFf0Pi2PimKfTcmJyaGDEjiz8rFg0dyQ=;
+	h=Date:From:To:Subject:From;
+	b=SM6rF1TOTHK5Ca7c2KSiaeOARmJu157F2Fh31pBeYfSu+KWt0jre19OpHep2Isn0a
+	 Ovqwe5lW82kyoGhUKyNwBwPJQ4/oImcIvRq6eGDnZ2K2jOht7lgdeMA6o8AtRNqC5L
+	 4vtAqUA57595P+g2ubv6/TurGqYRk2KUZ338D52A=
+Date: Sun, 26 Jun 2022 10:30:19 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/9d03de-2a158b@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 2a158b: HOW TO VALUE A PROPERTY WITH LEGAL INCOME = $0.00 ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 7603
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 2a158b0c416eaeabafac250bbbd64f1568337dfe=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/2a158b0c416eaeabafac250bbbd64f156833=
+7dfe=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  HOW TO VALUE A PROPERTY WITH LEGAL INCOME =3D $0.00 ( I DON'T KNOW THAT=
+ ONE EITHER )=0D
+=0D
+THEY WOULD NOT "ALLOW" ME TO FILE A PROPER CROSS MOTION, OR A CHANGE IN C=
+APTION TO INCLUDE STATE FARM.=0D
+--- I FAXED IT TO THE ATTORNEYS ON THE LOAN DOCKET BEFORE I EMAILED THE Z=
+UCKERS - TRUST ME... =0D
+THAT'S WHAT HAPPENS WHEN YOU TRY TO CHEAT THE LAW WHILE HARASSING MY TIME=
+, CONSTITUTIONAL RIGHTS, ETC....=0D
+=0D
+(3) Property.=0D
+For purposes of this section, the term =E2=80=9Cproperty=E2=80=9D refers =
+to both tangible and intangible property.=0D
+Tangible property includes property such as land, buildings, fixtures and=
+ inventory.=0D
+Intangible property includes property such as goodwill, covenants not to =
+compete, leaseholds, patents,=0D
+contract rights, debts and choses in action.=0D
+=0D
+=0D
+(f) Multiple valuation misstatements on a return -=0D
+=0D
+(1) Determination of whether valuation misstatements are substantial or g=
+ross.=0D
+The determination of whether there is a substantial or gross valuation mi=
+sstatement on a return is=0D
+made on a property-by-property basis. Assume, for example, that property =
+A has a value of 60 but a taxpayer claims a value of 110,=0D
+and that property B has a value of 40 but the taxpayer claims a value of =
+100.=0D
+=0D
+Because the claimed and correct values are compared on a property-by-prop=
+erty basis,=0D
+there is a substantial valuation misstatement with respect to property B,=
+ but not with respect to property A,=0D
+even though the claimed values (210) are 200 percent or more of the corre=
+ct values (100) when compared on an aggregate basis.=0D
+=0D
+(2) Application of dollar limitation. For purposes of applying the dollar=
+ limitation set forth in section 6662(e)(2),=0D
+the determination of the portion of an underpayment that is attributable =
+to a substantial or gross valuation misstatement=0D
+is made by aggregating all portions of the underpayment attributable to s=
+ubstantial or gross valuation misstatements.=0D
+=0D
+Assume, for example, that the value claimed for property C on a return is=
+ 250 percent of the correct value, and that the value claimed for propert=
+y D on the return is 400 percent of the correct value.=0D
+Because the portions of an underpayment that are attributable to a substa=
+ntial or gross valuation misstatement on a return are aggregated in apply=
+ing the dollar limitation, the dollar limitation is satisfied if the port=
+ion of the underpayment that is attributable to the misstatement of the v=
+alue of property C, when aggregated with the portion of the underpayment =
+that is attributable to the misstatement of the value of property D, exce=
+eds $5,000 ($10,000 in the case of most corporations).=0D
+=0D
+(g) Property with a value or adjusted basis of zero.=0D
+=0D
+The value or adjusted basis claimed on a return of any property with a co=
+rrect value or adjusted basis of zero is considered to be 400 percent or =
+more of the correct amount. There is a gross valuation misstatement with =
+respect to such property, therefore, and the applicable penalty rate is 4=
+0 percent.=0D
+=0D
+=0D
+HOW TO VALUE A PROPERTY WITH LEGAL INCOME =3D $0.00=0D
+	=0D
+(e) Definitions -=0D
+=0D
+(1) Substantial valuation misstatement.=0D
+There is a substantial valuation misstatement if the value or adjusted ba=
+sis of any property claimed on a=0D
+return of tax imposed under chapter 1 is 200 percent or more of the corre=
+ct amount.=0D
+=0D
+(2) Gross valuation misstatement.=0D
+There is a gross valuation misstatement if the value or adjusted basis of=
+ any property claimed on a return of tax=0D
+imposed under chapter 1 is 400 percent or more of the correct amount.=0D
+=0D
+(3) Property.=0D
+For purposes of this section, the term =E2=80=9Cproperty=E2=80=9D refers =
+to both tangible and intangible property.=0D
+Tangible property includes property such as land, buildings, fixtures and=
+ inventory.=0D
+Intangible property includes property such as goodwill, covenants not to =
+compete, leaseholds, patents,=0D
+contract rights, debts and choses in action.=0D
+=0D
+=0D
+(f) Multiple valuation misstatements on a return -=0D
+=0D
+(1) Determination of whether valuation misstatements are substantial or g=
+ross.=0D
+The determination of whether there is a substantial or gross valuation mi=
+sstatement on a return is=0D
+made on a property-by-property basis. Assume, for example, that property =
+A has a value of 60 but a taxpayer claims a value of 110,=0D
+and that property B has a value of 40 but the taxpayer claims a value of =
+100.=0D
+=0D
+Because the claimed and correct values are compared on a property-by-prop=
+erty basis,=0D
+there is a substantial valuation misstatement with respect to property B,=
+ but not with respect to property A,=0D
+even though the claimed values (210) are 200 percent or more of the corre=
+ct values (100) when compared on an aggregate basis.=0D
+=0D
+(2) Application of dollar limitation. For purposes of applying the dollar=
+ limitation set forth in section 6662(e)(2),=0D
+the determination of the portion of an underpayment that is attributable =
+to a substantial or gross valuation misstatement=0D
+is made by aggregating all portions of the underpayment attributable to s=
+ubstantial or gross valuation misstatements.=0D
+=0D
+Assume, for example, that the value claimed for property C on a return is=
+ 250 percent of the correct value, and that the value claimed for propert=
+y D on the return is 400 percent of the correct value.=0D
+Because the portions of an underpayment that are attributable to a substa=
+ntial or gross valuation misstatement on a return are aggregated in apply=
+ing the dollar limitation, the dollar limitation is satisfied if the port=
+ion of the underpayment that is attributable to the misstatement of the v=
+alue of property C, when aggregated with the portion of the underpayment =
+that is attributable to the misstatement of the value of property D, exce=
+eds $5,000 ($10,000 in the case of most corporations).=0D
+=0D
+(g) Property with a value or adjusted basis of zero.=0D
+=0D
+The value or adjusted basis claimed on a return of any property with a co=
+rrect value or adjusted basis of zero is considered to be 400 percent or =
+more of the correct amount. There is a gross valuation misstatement with =
+respect to such property, therefore, and the applicable penalty rate is 4=
+0 percent.=0D
+=0D
+---=0D
+_2020.07.28 - state farm associates trust filed for 2020.05.31 - STFGX - =
+Joe Monk=0D
+=0D
+I ANNEXED THESE - JUST IN CASE.=0D
+=0D
+RECEIVED NYSCEF: 08/01/2020=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2xkNo2v2/=
+wHD14V7b_PLUS_2njQ=3D=3D=0D
+=0D
+HERE'S THE INVOICE WITH JUNE PAID. INCLUDING LEGAL FEES AND ANY DAMAGES.=0D=
+
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dvd54Sn1RL=
+wYlVxoKhGh0xg=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6D=
+BJZ1wsiq0b38A=3D=3D=0D
+HERE IS A CONFIRMATION FROM ONE OF YOUR COUNSELORS:=0D
+=0D
+FILED ON JULY 30TH, 2020.=0D
+=0D
+=0D

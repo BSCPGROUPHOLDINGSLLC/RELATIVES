@@ -1,0 +1,85 @@
+From - Sat Jun 25 23:26:24 2022
+X-Account-Key: account1
+X-UIDL: AHBzqyF/XppEYrffegYSsHeUqeU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.12
+ by atlas116.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:24:26 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas116.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:24:26 +0000
+X-YMailISG: ADly5bsWLDtu6DKQ5VvVP.JUi.91QZ82AQLDigBw793iDgy5
+ iOMgqeXBp2AHeeIUJneDAJHnitCz_KveGBnhZy0qTAsJwLiCZRtVrenfmvyG
+ k1riaKkKVW_q4fjxf5FeXjHUu7ZhOh0ACudqsEmJY7S3F94sY5D3oTKciBMW
+ hBbEMICRWB.PLvGMO.x04GVxSAtpwtEeNjma65QhiG2LPW7vF5BfeQmAAgI8
+ 3ZhbZJc_qJFVecS9HxPG7dHUkcuk.e02E.r_.dhql28gs_xKHs5C6eCCSd6r
+ KyU5M1uwQ4m6d5LsdF4f7PD8taP3yDKWolsxGEheQDY9F9me2xa1hmNqr4v7
+ d7WYVcOlBXv2hUpUJi6jN1In9gyEAeeQxULbC1Y8RE52LNYIJLo04Ru1H_bs
+ Xo7B9th4xhA4mvy_laP1K3DD8SdYXXP2OCRVqIVAp4mLboFiTjcZR1t44zHx
+ RnISyqz9gkSy4SM0bwenogCNjzp4bNt7YGKVij9TBSaRgHPylRO7tGR3erBj
+ CqbGjK5HK5ExwkoFO38XopbUoGY3_pdTICZ0Eg9KJVFclGcX1mbJwSIWxDQI
+ xbPgeVxmE5pWd6i4AYyOiEIAIqZZxMmVUVrPbaKFugT3iKbkx5HZtIIXvMW.
+ KLwhsOeYtqHvOVT.qQnRQPO6caK46jvtrNkgn57AYDo86Va.7luvuSPCmoMg
+ mf2M8SNihhM51x8QCzWGIxipYz8DLoq_VvQrjH1Eb1W56phnE2CUIFd.fZul
+ IomKGqUj49jiC8Q0Gp_ap5Mkecg_zoqwHty9ePYFhCKbEt7Q7bZfd5RfSDTN
+ 2pD1oMOCKRnqepSn61If.lVB2C_mdhu7Qrzn2lZ4R0PEMdxQcePWbTlxQei6
+ 6OoHOaK0ckRK.YVUzlJWnswaIAAkTYJpsuPveGG0.q56X8i.VlCrJir4rAXD
+ I_e06vcPvesx7AnJdcSJymuLJMdLkp8d7_tBwMZ5AlY38k3pqL_M.L9QMOyt
+ kWhYTJGSgo10j4l5i5kglryYi7cvKl3aeZINeRyghG9pte6OFk75oSTEoiPA
+ yGAVGfwB5zn2wRGTHjko1Piet_vVYOQf97P9k0sIszJXlWx0h_cin24hqxEk
+ VFPlsGkCRVv0JqnJkN4VBZYqZzsGsg--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.150.12 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:24:26 +0000
+Received: from github.com (hubbernetes-node-8952fac.ac4-iad.github.net [10.52.220.60])
+	by smtp.github.com (Postfix) with ESMTPA id A7D6A520362;
+	Sat, 25 Jun 2022 21:24:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656217465;
+	bh=JzC0IdIagMiO0h30ISSyOCAfzpAt29cpiq/XE1Qj2UI=;
+	h=Date:From:To:Subject:From;
+	b=DxwRtWfKWg/+3nWfvFr+KoiKq+oCgac1WBULbr9n4zDA6aPfbX2dZZSY007wqRpX+
+	 QB1meefTW63AuqjShGyc0firAAw9QNGc9fsBX35g+6H4i840w6dZ7f0otlWloMgCKP
+	 WyrT1G36gYz9dwbbiRYhgKofR8d2oi0KSHAhNGtc=
+Date: Sat, 25 Jun 2022 21:24:25 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/75c576-308a6f@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 308a6f: NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 824
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 308a6fa602da13704f51375ce60e8d39a0e30d70
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/308a6fa602da13704f51375ce60e8d39a0e30d70
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-25 (Sat, 25 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020 
+
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020
+NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=/yhElCiKJ0BGv2DF/MOn4g==
+
+

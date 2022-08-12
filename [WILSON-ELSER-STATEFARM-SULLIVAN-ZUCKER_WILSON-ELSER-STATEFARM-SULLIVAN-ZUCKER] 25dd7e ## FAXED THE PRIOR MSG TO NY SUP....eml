@@ -1,0 +1,96 @@
+From - Sat Jun 25 23:16:20 2022
+X-Account-Key: account1
+X-UIDL: AEOnA5gxX7HlYrfbtg5zOK9aA84
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.11
+ by atlas107.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:08:22 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas107.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:08:22 +0000
+X-YMailAVSC: GSRUcWo3bBugx6pDQcBOWHhdUdAjtNVHVNf1rnkeOZRm8j8
+ qJABiF1u3SLEWfDDickQCt9iFoiiCks5v4_nlb84OyfGl3Rf5qIvGTb6.pIQ
+ 8uX6aqw7q_ZSgsc6PYTdMjw5uS9QqsoAjjeAiEQkjliK3cAGw1hZflaGTM0T
+ R_qPYT0e1wXLjAQej9Yvjtc4jvoBz3tAXlvEiApP8xpLIr3eJN_z2q0kNRQF
+ eXIh0UXE2a.Mncug0AIyVCM4vgzYczj5hSg8satbLOQsd94E5GvsdqpzLCd8
+ 28NC5oFhlp73RIw4.gCBYttSqr0d7jURRvQf2QIUhG7AaR7G236KSBEgpR1o
+ n
+X-YMailISG: XPbVlFAWLDv0uAeBXaMgLN74vCDp_coZ_hRy4b9hEd757tD3
+ wrXdRKQc.ZHX69xUBm.U1ssFS6tYeuvvMYnK3dfcJkC4EbRImNoAGG6eBm6j
+ 8Nfn1iivLloXWlqm7hmf9ctZy6QxpAbMHuCJt4VggVoffxt8Y.V_jHKd_vWF
+ E5_h5TGh.As_rc4rISj5sMHR_pozlbSG7.5BjUO54jpamGe0bPzQ_dPQy0ej
+ 0UzMSuIq_pMT60d1XOSPzoFxmt5T2rO_FgVco9hA2FU.ZITuTocowQHOL3PW
+ hy.GLCQPOMnhn6dcVkrqWt.NObKbnUzl9FYe8mX6hc9pWQ35xIHA1xGY6yBA
+ 8pARuaDdHFrTw1jcIj51UOs3Udn_ImNZnMEFq_pTeFT2ror11TExeu4nDmp9
+ ZevZ2sg5x6NHX5ahahKDknu_QLpkTBaZBlxFW9krJ4sOpqsOh90UC00vQJao
+ a6xed3_jpyNm8QyQhY9cNH0wtCbM1lydAlBRzmU3mcZcZSWzb4HDhPYbizOi
+ d6kbX657gfDeIm8RpEDV8ohD.BJm9TF9P_4ILbPHa4vi2oesvcd7ySJQkIVv
+ 5bALV0iA35r9YAaeBlXm38IxI.Wd5di3QkUIIGrnvKJFin_W2wKbpGWarmja
+ h8dQ8728vzKGNldA2MdXvllcivmWHBoYFzIVX8s3Zk0jukSrofBE9u06InAI
+ N8vpONOxfocgTPpwMCxGufWJOoIU2lwnrCYRzjyQIRpJpj0ZcVqFa4w8lLLb
+ AlEQ.KJ9MkaLFEPYIdaX74h2w3WktSc5tKCYl8aKCFOgz0SaNxhTTzHqNDoS
+ 61qmsf_2nUHs1ipWG7AfGF9jXMaLFnE8q1MHaYpKoqNhkOMgGCbr8CW9kQQ3
+ OzzNFn0o_MlQWrClGFbhbosZRPD.3KHfpDvXooM71QoNwaeDk5n1wjiulHOU
+ 2W5CxkY7tfowN3ZbwVmlQAwojJaLoauC4l5ePBvq0DJmLYzzd.7UR.CegXAX
+ bb4duKG8asr4vYcTcQF9IYeSORHGh3zvsgV0EI454agk1PwfK.LIOBdf60Tc
+ P0Ix26cUyLQzF7vRk7ABya9qOIrEFtkxrkSpPmsL7sK0foWaXMtlnuo3leJP
+ T_Un7k7bJqC6xFRH53PyrhnKktrRMw4UqXsgsEhofX_t.WqqzkFfG0HJuGWT
+ QVDJr3YjA5DGQhbDKdyT_ORK1TIoQSUoMw--
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.197.33.11 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:08:22 +0000
+Received: from github.com (hubbernetes-node-395efcd.ash1-iad.github.net [10.56.15.78])
+	by smtp.github.com (Postfix) with ESMTPA id 911B184015D;
+	Sat, 25 Jun 2022 21:08:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656216502;
+	bh=URHVfA4Np/BELBkSrSX+55qsgywF1W05jlgTEwTMLyY=;
+	h=Date:From:To:Subject:From;
+	b=sdBr6ZRbAhoEvDbns+X6mhA8E3cCVsonXy+ztLoJZJB2kbVV2zrJiVbmENyQM5x4s
+	 IbOXU3+kxZvTEQ7uvfZRujKizSJtoy599KpG2agSfFiJl43P8XhyXLZAAmKX1J078Q
+	 pidSSNq12UE85R2pmzHHm50pgBGl7grjdUfP4XQk=
+Date: Sat, 25 Jun 2022 21:08:22 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/64efe6-25dd7e@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 25dd7e:  ## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVI...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1097
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 25dd7e7ede4cc54c976a6e601ffe98819166f137
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/25dd7e7ede4cc54c976a6e601ffe98819166f137
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-25 (Sat, 25 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+   ## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH. 
+
+
+## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae387cc
+
+<MOV DISTRIBUTION WITHOUT CONSENT>
+[Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA.EDU CONFIRMED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip)
+
+

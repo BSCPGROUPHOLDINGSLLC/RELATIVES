@@ -1,0 +1,198 @@
+From - Fri Jun 24 06:57:08 2022
+X-Account-Key: account1
+X-UIDL: ACuT6JN2C2MEYrWlagITQC50AyQ
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.245
+ by atlas302.free.mail.ne1.yahoo.com with HTTPS; Fri, 24 Jun 2022 11:52:09 +0000
+Return-Path: <Deborah.Jones@ey.com>
+X-Originating-Ip: [216.71.152.85]
+Received-SPF: pass (domain of ey.com designates 216.71.152.85 as permitted sender)
+Authentication-Results: atlas302.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ey.com header.s=PS1;
+ spf=pass smtp.mailfrom=ey.com;
+ dmarc=pass(p=NONE) header.from=ey.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 24 Jun 2022 11:52:09 +0000
+X-YMailISG: ffCj4BcWLDtfE4mBShkne91q9DLDvGzsYsf1MGOIuP5afeAe
+ IRUBQUN2lTEhkA46sHIpFxzKCSs8dGP9uevaoxDcD3.1Of3PYfDX74P35BXH
+ TvKjdmTfUaq1BSxkEypF0jn82Zyph.9LM_dlMKwNU1.SVpFxRg4GVyujfqoX
+ .OYHm_uwTq21D_ERBcyIy8nwbEj2aiq_7FKlln0PN25rXlOaeGE6urOAWkfA
+ Oqk7ZplB_bsElHGbfbnwbl5geUotbg9vHk0hKVhN76wMjsCWLlC0pVibnQE0
+ CLiPiSLZvW.BlekgGlfjz37Sw8Ms8q_nR2sCT9UyJGRWlmplK76jZY2QuJao
+ 5UvxZBpcXLjnyvXacWuIVb9g6llECupdzXfkGDWNeRSL50_5bl5CD_fCjbCM
+ MHFEsLSMMUMVlkcisiP7PfwMHW160utA6V4LEN8DspY25IyYQjzM8iPA5X4M
+ HsYyzIY5wRdSQYCAw0YnP2HJQVebh_MAUlvtzFSa6l7i6s5t2ltiewOI2JUb
+ GztZ7B371NF6UmcOZWl8GFOFM4Mbv1JRsY67GyutqA_XfP.eM5qeZsac09OK
+ 1xs8YRpsbNXxn.1e.t_R0Ew4XYLLNlTlRw3D4do2.5EGDTk3WttbLjTI9QUO
+ DFfMZSYuFnA_9bqHMoBbHw_YVonYDPzkUgKZcEW2K3DtxIUR53tTtQT35NtU
+ xN_o0tiAnoCAfdj23ZXRdahFHg3zk4p2U0_C.O3DqqFiqnDqguobgWRSwinQ
+ IBuugxHSDOh9ZOZhTjW_Cxqa4pX0ljTYpGGlU6CRx6x.uLyrDPT9PzjEVFgD
+ G2rMazAMtl6bufQg7ljjiLiOSx3oY0ax8zJDyRsS9mN5ezwJ12k2RTGS7tJg
+ 4NwRMn.hLHRLe9Q_bl3QmB0AUaCEYnWDudgVu4wBTZjw6wV.lkMykWGGAt.v
+ yjvD4MnpXsrXVFyw0TwBfQi0XTEefGVp62V7iWknRL.S6GbGw.6.LmfgbLfr
+ qXVb1cJPKjz0nF6n0YlOLEBq9VRqIEdM63kz8Iv.ku74co1krmFyFi8mV.yh
+ 5TGlgcvQGZnou2x3YdmOcp5gh2DdL5fl3rt_srmen4lhjMAQxINqP0O6RY6Y
+ 2ocA8w68NxEXsdUWRGzIuJmGdBKk2xXbhzwg209sC5DAAltoLRBVmjenPzTA
+ gP3r7LwBjXVpf3nYuonhFiqAIxP0KH66JPcInLxlPGduu0T.Q7ovtXsBDMDB
+ 6J6rhd70lzeoXm6rOb4OXIiSnpvSMgopkIYIy6eLcF22P0uuaZ12mHZYtHxC
+ xs_CCkZ2xhBJE2w.C.PMwh1_U3uvzvBhgUe3EnwRup4A5d30.zvjosufCLq5
+ BUOHoxUoanNANPtlmA--
+Received: from 216.71.152.85 (EHLO esa.hc4912-99.iphmx.com)
+ by 10.223.248.245 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 24 Jun 2022 11:52:09 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=ey.com; l=1998; q=dns/txt; s=PS1; t=1656071529;
+  x=1687607529;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=jZYfezAVjL4Hl+BP6Y8bPWplT4fwFKAtunYlvSArdCU=;
+  b=kkLKsJPBxr8QRpm6i51qCvA1snX69NNbb1PvipHs+p5hzA+VeXWukDHS
+   KlXai5hrX6FKtJAS6UjjtG4YhptaauunvxcUfGU6HXlPfbYPRSN3IZOZV
+   dMmgaIIiY37liOmZ9VR3/HouUNpp4PmRPI93u1QY1ISVQb7wvz1s6KLxo
+   TiJMEXIahweZyWelStGoeVFi3WBh8jAUTm6+LFSYIgYhGawNUln4tsrGp
+   ZuQt6yi9SVk3F4hH2Q6HwGcJTJwSXKp3DXQZeVHojVjo0m+VBncG6BJdn
+   L/oRRPjlmXTsXA8QePG14/TuDENYg4FrcsuLdSM4bN6sJXahbVX/k+1ci
+   g==;
+X-IronPort-RemoteIP: 199.52.13.8
+X-IronPort-MID: 16767533
+X-Ironport-BodySize: 8305
+X-IronPort-AV: E=Sophos;i="5.92,218,1650931200"; 
+   d="scan'208,217";a="16767533"
+Received: from unknown (HELO USSECRMPEXTP06.ey.net) ([199.52.13.8])
+  by esa1.hc4912-99.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 24 Jun 2022 11:52:09 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=KcPPAndV0zbqRi6RrTA+RuUjwTXf4kwxdc2A876wrhsF9BgZNJ2mvIZrhVYydhdutbgv88dTLCJpCNIOG+s5IZc/vPY1ESUeSzSXX6aaGdr6QHnorCmsefaJSLyNJvePcrlWPjP6XyIVooLlJKvlm7csE2h9h5NQNT2wWK6R0GRO/NxYkT+hhECfVwv42bMfZqCA0e6QScSH6TunlmUqC1CJ/D76L3i3hSeF78WAkxYWWVndXJNkNFvSQcW3k9wo6Fah0wOR8baExHTW4ZWGUJmBHCf9wWmxvIFxF/T+mUPFOVh/R/hauRCiq0Ji2KprthPhX2+MZpgrWRAmNQUV1g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=jZYfezAVjL4Hl+BP6Y8bPWplT4fwFKAtunYlvSArdCU=;
+ b=dnh1wCSYFvV/YcRGPhqSJ97g8JzzycswthPo1vj0QFNyLIiRcRgIVj18E3NNRxZpoK/uCqGVr0Hp/tPMMO4afZoluZQ18W+5ht7Ju/L67H4pGB11dekorMc44I3W8aIu2UagvLyGWTG7Oyx5+RP/b00FyY1QsGzevE9fkg+rz5RU4oq6sIqcNshe2zEhbo9i019m4qyfuGUfbCmXw3QNOwRU96FogmA9UKC+8dJu0VDScEjkBL6nDdUGDGeh/hRXXOT7lf4sLxUaSlpeB+oJ384BAxo1EAlb8w0usMHkQ8dQoASMoTTGim8K9NappJ2zHgXLA0CfoaNbDEoaMlYDcA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ey.com; dmarc=pass action=none header.from=ey.com; dkim=pass
+ header.d=ey.com; arc=none
+From: Deborah M Jones <Deborah.Jones@ey.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 FILES [
+ $30++ ]
+Thread-Topic: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 FILES [ $30++ ]
+Thread-Index: AQHYh8DC+vYuMwp9n0SgJQw2SJ3A1g==
+Date: Fri, 24 Jun 2022 11:52:04 +0000
+Message-ID: <e80165cc03294191b5e6c17a08c2c515@ey.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 1a99fcca-d0b8-49c2-d4c0-08da55d7f527
+x-ms-traffictypediagnostic: BL0P172MB0065:EE_
+x-ms-exchange-atpmessageproperties: SA|SL
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 892UIhfhMyxjzKBCqFghaZfdlZZpNNAuI35NbuuazBT/avI0tUrBGuDv9vY1FdszdjN3BNqA8CpbHI2DqqSP4tEKB7LIP98/pE8Cx7+9y2Yl6AmO/cE8adttLtt2q2BGPjVmvXVERSnZe1Bb7pDs8dJr3Q22z6l3p8hbcNQH5QXLy+Ki4WUNke4qj5t/0R9OFAWKAcPFzNxfJP4nI8nzC7ifvbxh9GBUwhDG9gdA/N5y7AXQbJTGVc8vYeEyInO73wlYPStvlPhAzmMQwwaro4yTvAqVS+fSoScsS6jusncgVdHnN9I+ZtQ0yJtbhV1gX0p1f45QxXZPeq1zvBVe5ijzkf4CTOxT+NWTNQymXvVrdxhsIKwV2eYkvoPDWuEG0VIF/5qDW3CqFUt8p50GaoSoAzryDY6KrcP2e1shHdkf/21Gm9ZfZmaCe18c1+IqExE0WgdJyL8lMeQZ8yIG9kKtmlrg/l5KxQ8sdEAuqlA=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BL0P172MB0083.NAMP172.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230016)(4636009)(396003)(136003)(39860400002)(366004)(346002)(376002)(108616005)(41300700001)(2906002)(86362001)(4270600006)(6512007)(6506007)(2616005)(6486002)(478600001)(24736004)(88996005)(71200400001)(8936002)(73894004)(186003)(82960400001)(66476007)(122000001)(36756003)(621065003)(66556008)(316002)(66446008)(8676002)(6916009)(66946007)(64756008);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?9isZfpTdhsFokaU42a8jrR3CS7fUIfA6s+B1+g8I3R6twycAIg6zMXNVx2ut?=
+ =?us-ascii?Q?n3QEVcN0P9EPokYT6AxHAsK+NUzhkAa7i2s9DJjEP9rANBRW1Y6ETGY8SR03?=
+ =?us-ascii?Q?TGi/qNLgppJ2eXlDgbGa7hrV23kc0Y5GPtzKx1CctaYppqGEASdQ90OeYXyW?=
+ =?us-ascii?Q?o5wkHfXSCsEIC4yEYXcY483urjo+7aTyYa4idwPEOSRRUMgIdoFE4riNkwvz?=
+ =?us-ascii?Q?/3jJaR+nlnf01gQC8fjDixNAxtvx6q9CQd77ceMkU8b2p3jvgWPnYh6GvPGt?=
+ =?us-ascii?Q?oVx4U9R6YPtO4SMIyIkYoEQVMsvOllk4vLtMSIcrQnKb1SwcQwfpzPg4pxlr?=
+ =?us-ascii?Q?lVYvgydJsdySLfZLalHCzWbuZ5jZBCf7wn9Sl07A/V5YolKrqcoAIjQDoSje?=
+ =?us-ascii?Q?CQRVHB7PK1xVrIGdurhVX0GrBTuucUCsB0fygSC9SNz9mnpCZ+P659/Fk31+?=
+ =?us-ascii?Q?+31sPp5LNxe1Xns9PYa4/yjNL2/9iRjkSzJaAFFrLfv2mbciKCHvEbTfyPtG?=
+ =?us-ascii?Q?z3Ia9Tqch5jnAGgs1BdMoErgzt8mf+0QtHGR3ZYFuuFPwjaOkVn+eaYbFk8t?=
+ =?us-ascii?Q?OoTjSAuEZPx0Ep1zz6xUIvZ6ZRdq58D3be0NUYldKYuyXqu2qMTd49jY+4/X?=
+ =?us-ascii?Q?+X/tdmywLM099L9Tu5c7nUI4R+P6T8pfnhils+kG7oKwul/N/E+uHMLCxDx5?=
+ =?us-ascii?Q?E0QprrKE7U0YOpFPc2XCXoQ7/caIGWD86aGdepqmftQDb5Uah9EwUGEuvBEI?=
+ =?us-ascii?Q?Lx6AkG/rJPihYh14TuINjlWI/peIN445j7tI9QZ6lbYtiLZLaPHZiXph8otv?=
+ =?us-ascii?Q?fZNG5oldckolIVpVQa530RWvjrd+YMcG17yuJDUVXKgenLoCElqFzEnuH9kZ?=
+ =?us-ascii?Q?p4Z/eXm3Sa0OeBFAiriJ8Ik83826gDmw9/TqmlEQxaYQqVPZzQt5hIwp/4Bn?=
+ =?us-ascii?Q?OAhBVpbnzmu7VBJz9eYabSMsl8Bb9ZMOvq5ZzCYMC09rCed00co+lQosjULm?=
+ =?us-ascii?Q?I5+gVOwfxREe3Q1Y8aLDcEovuYnvx61+VWv63x8U/W5LLnKeDZnKpqn57vQ/?=
+ =?us-ascii?Q?cUwjMy+1liAWLwe8JgDMBov+OuDi3r//WZ0PH/y+Um0MmPZpyzVHK6xCWwjh?=
+ =?us-ascii?Q?5RxV6aim/uFCbUQznjzMpHva/Lv040toedP5QHxtJVNZ9oC/c/Pd56q5yIQ7?=
+ =?us-ascii?Q?dn/fnH5VfXVSVV4PtxY+/LN9pCGi26RIV5WmSlbTGZ2UIS8w1YHQ292i0P2o?=
+ =?us-ascii?Q?tG13pqSzmRdyuN4KQ4ncvI6jsdv5WFCpiAq5GLfI6hL8jvevn38Kphv5YAna?=
+ =?us-ascii?Q?HPfF0AgXuCADqNJTOQ2MGZQfhD/8rz9nDYaEGSotezbXcOJ/Iq+/udK9cRPd?=
+ =?us-ascii?Q?eGhtRsZ4Fz4xvQK/a5wrAOD5/qwH6VUh1t6Juc9w0P/ZkztrlC4LL1yNbGeE?=
+ =?us-ascii?Q?mbyFbA/nvOIhuBLyECRmeuEMFKzcqp4I?=
+Content-Type: multipart/report;
+	boundary="_000_e80165cc03294191b5e6c17a08c2c515eycom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BL0P172MB0083.NAMP172.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1a99fcca-d0b8-49c2-d4c0-08da55d7f527
+X-MS-Exchange-CrossTenant-originalarrivaltime: 24 Jun 2022 11:52:04.5235
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 5b973f99-77df-4beb-b27d-aa0c70b8482c
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: K8pAuVX1y9Da10CeeU4jPCd6wdhGuGHFHZ+dOjaRjemWdcwFJMCoEVcDnuzB77NbiML1cGX0l1IGmVHJmQhV7A==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL0P172MB0065
+X-OriginatorOrg: ey.com
+X-CFilter-Loop: Forward SEC EP06 
+Content-Length: 1944
+
+--_000_e80165cc03294191b5e6c17a08c2c515eycom_
+Content-Type: multipart/alternative;
+	boundary="_002_e80165cc03294191b5e6c17a08c2c515eycom_"
+
+--_002_e80165cc03294191b5e6c17a08c2c515eycom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Deborah M Jones
+   Subject: Fwd: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 FILES [ $3=
+0++ ]
+   Sent: Friday, June 24, 2022 7:48:24 AM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Friday, June 24, 2022 7:52:04 AM (UTC-05:00) Eastern Time (US =
+& Canada).
+
+--_002_e80165cc03294191b5e6c17a08c2c515eycom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Deborah M Jones<br>
+&nbsp;&nbsp; Subject: Fwd: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 =
+FILES [ $30++ ]<br>
+&nbsp;&nbsp; Sent: Friday, June 24, 2022 7:48:24 AM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Friday, June 24, 2022 7:52:04 AM (UTC-05:00) Eastern Time=
+ (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_e80165cc03294191b5e6c17a08c2c515eycom_--
+
+--_000_e80165cc03294191b5e6c17a08c2c515eycom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Deborah.Jones@ey.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: v04SW9rLQ0WL0Q4PjoWedA==
+Original-Message-ID: <09858c00-ebf6-f441-5881-495542967e9d@yahoo.com>
+X-Display-Name: Deborah M Jones
+
+
+--_000_e80165cc03294191b5e6c17a08c2c515eycom_--

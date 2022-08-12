@@ -1,0 +1,128 @@
+From - Sun Jun 26 03:59:53 2022
+X-Account-Key: account1
+X-UIDL: AHfireharMrIYrgehwGeEKxfG0k
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.167
+ by atlas209.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 08:53:29 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas209.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 08:53:29 +0000
+X-YMailAVSC: dOMteAY3bBv6oOxeGh1tXXmzHQPo4Qj7B_P5BkM7TWF0cVl
+ GV1deuJtg9GxJATZg2j4OqQUFdmqxGnhYAE4kiJMlfY8ApDDUe5VJtx02MXg
+ 6gbdFPd9sSFwI7JbDXopgYrvCfPDK8mlJs8o2oIgjw1tSgVOVVZ40ZjY.7Vb
+ SOphog32kgVCeqqEaFS3RD.eBLCG_1tyt.2cdeOw9eSMz_vMNuiZ2OrrdGbl
+ Jhzv6Y8ZB8zG68axv9.yxl7hRLpd9RIPqL3FzuhwVhoyTL6j29eadMq4gV_H
+ BFFTIgHQj2eO.tBPTiDbjCMvVos10Nwzusap.sMSjDILj8BSa_vFscnZRAUa
+ 7
+X-YMailISG: uqDO0NkWLDu0IWpSmOS7dZohIVLRklcyodHK7oe9qNnCiJS_
+ _O8lIrQzcghzm1YF6LZl_mkjJJYbwJBf7ED7pr23zHu_ow8tq906w1.lMdxh
+ xGr6Dn2_LwAAzv2PSV5pvsngweDiZHPBGj9.49ZvlTIku13K2GEII2TOBDBb
+ 1.FC0N1SRHWrXeHtBXqcU4ypEvXixLrTp1f9Hgh_siZZ7OjRDe6yK0qizafJ
+ 5Zcb1FAw01NrPHSgjw_1OWbPw1baeErL4j9_SJ.Oryl3Lrw6ialGUNQJvz_K
+ 7mDp_4Zk_hQ1AcJ3dA_3d8FrCIhM3NeAOPZ7AnIjwKSlDaWcXfPoDmXcXMk6
+ EB_hw0DGXJU2dMqnkOdgmgfwLFzQjOqDAaSGYA8dY.HcwnQHRLSAA7GnJ3nQ
+ fxUXD4tzLPQzc6iB2fY8JJq2Lu0KhZxvAkdVVFvGPzupbEBVJxXsK2D0NRKG
+ sycJMaqXWlqGz6cxbkuH.BpgdBz0Nyb4VHZQuqhv3PsU1TfBXvJpN4nYuHx1
+ QVKHIkj7VMm1SATK1LgVT73J_wPEMK7frDW6xFb1yhV4PWRAuea3UyCIZbG1
+ fwWYQPRtDFBygSoW81PxSlx4yO1L.x9zhItQDQYgDSSuwCd5rqV22DRbK18X
+ 8BsQv6P5e5W5N5c4eaiB9wHjQFLuQhn4Lznf9ZcV_bRbg1P3oBk6fF67Weut
+ bBS7Uzgd5R_N7df3TUvVQ21Q6ALDKlj4deZXscvjOnFGt8jIcj3ZXIsETM7t
+ Q531pZK3lG0iP1mLw2N8SZH9g2gg.vbRxoHNXhQ1LDV6uDR9iPkj12NmbeXJ
+ l7ojXK9FF3bX9zchiOTYqfMNy2ga6DDslzFnVUcsExDsSWhUfgNabkv.8qjT
+ yc0Gj1fHzeNAzKIALteidOcpYoFHRVVNqLGaGIUHrp3tT7TpHkk5tlgFXasO
+ 8N.Cw87GBJy0OP93EWZyljSWYRHR4rE7eJ3SiiHajZgir2pAvomC2HnQ224.
+ _1UIVBpGuvDqDszjakZDYYTam3wzt.KlONgD8Oul59vCSF0aPdBSqYcGgKQo
+ tp.glYXrPaAvlxOqGxKCihxrgxOhbvt70VC7impUU_il3rYq6uGQb17rsN8o
+ OIeekIosEdotWOSK8YBR5WRFRBr2PUTo_Apy6Odwr5h_DrDX7lQJAm9_600c
+ gcIEOFmcOhE8Us3zPQsNoShmdiSVbr71sLljfuVfaPc-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.40.167 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 08:53:29 +0000
+Received: from github.com (hubbernetes-node-b8d21ca.ash1-iad.github.net [10.56.14.43])
+	by smtp.github.com (Postfix) with ESMTPA id D8AA45E04A5;
+	Sun, 26 Jun 2022 01:53:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656233608;
+	bh=M3NBU2vMnUjStup/kNhuhlGBgzp2GR3UhmsHT5FikCw=;
+	h=Date:From:To:Subject:From;
+	b=fvGc/JxcuIuie7NdQb1f07UB60u9R8lwBNF9VoKp6sTjkQDyJrzOitLDUlp6j/YkK
+	 4mZ1SAQFYAEPkJ5dkG7FsW5tLIzRWQXuBFo1Ibc9GOAYjaluDZSL31o3Z+KIT8ykjv
+	 gCW8uKDoOiYre1u5qALQ6CzDeH1Nkqi+1xszPBio=
+Date: Sun, 26 Jun 2022 01:53:28 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/26300c-2b9338@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 2b9338: *** [ MULE NUMBER 1: slaskowitz@ingramllp.com] ***
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2372
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 2b9338556b4524916b49c55871d93d0d84d8a40f
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/2b9338556b4524916b49c55871d93d0d84d8a40f
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  *** [ MULE NUMBER 1: slaskowitz@ingramllp.com] ***
+
+---
+ALL FILES FOLLOWED THE FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DENIED.
+STEP 1: COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED ] EX-POST IN 2021
+---
+*** E-mail Notifications ***
+An email regarding this filing has been sent to the following on 08/09/2020 02:31 AM
+#### SHARI LASKOWITZ - slaskowitz@ingramllp.com [ MULE ]
+*** [ MULE NUMBER 1: slaskowitz@ingramllp.com] ***
+*** [ MULE NUMBER 2: ASHLEY.HUMPHRIES@WILSONELSER.COM] ***
+*** [ MULE NUMBER 3: CWEISS@INGRAMLLP.COM] ***
+RE: MULE NUMBER 3, I AM NOT POSITIVE IF IT IS A REAL PERSON.
+*** THESE ARE LIST SERV ADDRESSED MONITORED BY WHOEVER MAY OR MAY NOT BE AVAILABLE, DEPENDING ON WHEN AND WHAT IS BEING DEALT WITH.
+ADMINISTRATION@MSKYLINE.COM; LZUCKER@MSKYLINE.COM; ADMINISTRATOR@MSKYLINE.COM; LEGAL@MSKYLINE.COM; LEGALASST@MSKYLINE.COM; SGO@COLUMBIA.EDU; SCCS@COLUMBIA.EDU...
+[ LOCATION 1 - FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOMAINS
+---
+[LOCATION 3] @MSKYLINE.COM
+[LOCATION 2] @WILSONELSER.COM, @INGRAMLLP.COM
+[LOCATION 1] @COLUMBIA.EDU
+---
+WITHOUT CONSENT, PHOTOGRAPHED AND VIDEOTAPED THE INTERIOR OF MY APARTMENT - THEN HOSTED THEM ON THE INTERNET AS WELL.
+*** NOTWITHSTANDING THE INDETERMINATE NUMBER OF <VIDEO.MOV> FILES BY AND BETWEEN ALL THREE LOCATIONS ABOVE.
+	
+---
+### [ LOAN DOCKETS FOR 50074 EST ++ ] $6,000,000.00 AND UNDER USC 18.225
+LOAN DOCKETS, ASSIGNMENT OF UNLAWFULLY REPRESENTED INCOME (USC 18.21)
+* LEASES AND RENTS TO STATE FARM IN EXCHANGE FOR $6,000,000.00
+
+<br><br>
+[LOCATION 3]  @MSKYLINE.COM<br>
+* 101 WEST 55TH STREET, NEW YORK, NY, 10019
+<br><br>
+
+[LOCATION 2]  @WILSONELSER.COM<br>
+* 150 EAST 42ND STREET, NEW YORK, NY, 10017
+<br><br>
+
+[LOCATION 1]  @COLUMBIA.EDU<br>
+* Lewisohn Hall, 2970 Broadway, 4TH FLOOR, New York, NY 10027
+
+

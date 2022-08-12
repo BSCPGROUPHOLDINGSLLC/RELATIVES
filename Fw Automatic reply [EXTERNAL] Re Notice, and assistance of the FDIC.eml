@@ -1,0 +1,175 @@
+From - Sat Jun 25 21:58:41 2022
+X-Account-Key: account1
+X-UIDL: AOgsl74v2376YrdpUwcUgI/mlQU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.73
+ by atlas102.free.mail.bf1.yahoo.com with HTTPS; Sat, 25 Jun 2022 20:00:03 +0000
+Return-Path: <pinkbookswap@yahoo.com>
+X-Originating-Ip: [74.6.132.41]
+Received-SPF: pass (domain of yahoo.com designates 74.6.132.41 as permitted sender)
+Authentication-Results: atlas102.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 25 Jun 2022 20:00:04 +0000
+X-YMailAVSC: aaHI.Kk3bBtKRY2osPci4j82f83wLbSzjQ5xlEs7KtvlUEn
+ qnX9jMp0JrUUiKnuYfhWLPqQnAemBNs3kb2OjGEG3eTnpjMJrzpv8DLNMyqn
+ iSTfwl4S.BznfbkzJWrKB3wt6NbthIi5vfRtxRgpJcM22neiOnSIYIlRPJVs
+ OhxsNucQs.Rik_XJZ_jmdhpcgfcG0zfGxBC98wpBiRNDcKdmNpil3o0NiLg_
+ IKHV5jjX2NPC61Nhmk1hKI28EBC8GNF.mXX3bYLs_laGwVBEB76Tv3jj5VQD
+ vn6yALepI8hLg2CsoJOW4F_qRSNoN_eA10tkFFkEUcgE89qBEESTr4UQHOX2
+ BrvNPkWVULPgQQ5RL0HWngwTMtyPmyZz8VrjCKtmvuZ5vW_Obo3RfnL4a
+X-YMailISG: TDVVmLMWLDuEtE8eDfOAGfxQjATGnxIaK5991MtAkPwrU.Xp
+ DHtFa9_.165UsyXngMlZA.JRketFjxpTZt8J9y5WnnCQwU4vParBApx0vQHz
+ cqTv6txH06tJAjjEjAxuZaEjfngFmJSnZbsEa4mR.25MhCcXBKD0SbZiE.6s
+ EVhBfLNDI69N5X.OrPoQqewsh2DWtv4ax6YiYYO0RwQm0aTkfTNGCTefn.AX
+ ooD5Q8S022GeYsmH8eXlQNdSgXPZjE5jBDG8Y8jO0oaxVT46OsWUBy2.6nJx
+ y2ptHVQpFDURnMi2_0dB1qX1CONONaHOcA0vz.h1oF9EH7hAHXxCEG0NtyXt
+ IHgHozghXmPYwZNlNiGKESDXjlNO4BoHYfyOGecExGMJrzBWVlOD8Ow0PCCo
+ KdDfYLw1KYBJdRTYIHlls1s4EaxHMutzHiA6y5JrfdTCHnTYefffMaoNzJaI
+ wSImhltl9npqAFDIR1X03o.fx5tlsTZZijGm8f5w2iKiXbVDcnwCcb7_j5Cz
+ PayWklvziLHOB5GA2OQNeAEVf2ajRb6BIzL_ThEvnCgNLqv_TrWAh0voEdTa
+ 5wu1ry8I0kZFsR7VXF6lbXOsJeXdebEp5jCMx1AiwTY4dZWQ99pI8CjAt9jG
+ gGlDnhvBE.A2CTN4zHRFD4UzKV1LT8aERoigj7Ly6WBKpYBdYTvv6nmzOYXx
+ cCESC6_jkM3LI3QRjWV7dLjsspGM3q41.3T.4k4KyptzoZkBk.1Th1oebI5X
+ 6jKb9O2rXd.pQtE44l9tUktu1gc1Yl000XL9aSdESd5oUCKTYX8dn1838Ete
+ x4e3ePNv6wHSM0XFYHFAog5cB_gLKrAE7rXpZSVDVpbifUpWhGtTXfnMqNre
+ uG.0yuLMXGkKWsWgw0Ftc0DbOYn1hjepaWEqe98PVSWpFnAtSq8O3pjRdKT5
+ jc.usIKDPZwVVhLiocFIUyOhF40kvDXGAUHrmLs3sZsL4VogkVC1XuYEyNTb
+ RtzP3V39jyUYybhNRUTlZKcIM.8hC8ptRRLRgLxLPSYn1yGhZIpDeLPi84yW
+ VADewIjTCgkGsAUYqf.HuRiH2SyQTuz_QQfk4J.Qey1pdmfqLadsaPdBxw01
+ b_s5RVbAkzloWnWy6.1HZc.HslLkkWeH7I01zboSW4jnwmDHt5iTEXev0DRZ
+ dYzGmooeIQ--
+Received: from 74.6.132.41 (EHLO sonic306-2.consmr.mail.bf2.yahoo.com)
+ by 10.197.37.73 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 25 Jun 2022 20:00:03 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656187203; bh=8yJpQOaIeCcA/q1Fr0Y5PgRTME9buaxwdMrHGJnI1yg=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=K3cQ36tFEIubluIYabQDvDC06abwUXYxg6Kx2N54hEugvC+Zv3JCuQRI7TfFKaqk6FSwDaD8z51WLaDnubu/j1jDFuCNq0W1/84wF7C2hsD4BVDOA8jD/KMW06o0tjUKe9foV+4ReY35IhjOCrwjrGA5r125umCARyym+tlOpp16LJXM8yy7DVsWcYO448Dmx8o7+VKkyRQ9sIwmXKkQa2HZjI1s6BFd4q7EczlFEBDmQaMFSwact23q/6gkKI6ij0Jf+3/KDymyC0UNcxFrhUJRqLRqa77Zfhd3HmCbU9YZBc9RPIcVwsYKRsMpB1rIF+z2ZEmhdeEUg0GY30qACQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656187203; bh=51v+23C8B56UetN6rhu7S/336XDda8htYaXVNqJ0Z2t=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=G7Ff8m5dAh8xz+pF7YQe1fITZ0hr0hOpzGQqunUYDPxI+1a4m65NfqaOR9W0gLd88toa4Y7BtlvgF4KvNAD5bieTbSAw2Pw7Zr0jZxYSqiI42+vYem5mLYeWwKDfDvf98/mJEiIoODQD28qOmrUwK44SUnJINe2YZcG1Rjv4JxkJSS/WJmF2BrSvfvXB2HOKteoExQs1PwVt+ZOrg1Iywiga43uveP04X7n9IrJRcSe/MeP9ZzwcdL9spD/ZicKzr4gzT28ttXnvHBiL5FpPnhhf9013IEQhxvfpar3M1iCRIvGLdGhk9BjyD0Zfrv7grkOxFwTFvRlpEe905e3mCQ==
+X-YMail-OSG: .0zTSaYVM1kmpM09VLzciCx2ff4jAHiv2RFevdMTtwenOtJ16NGnfN_QRI_QWqI
+ aJfwGRXkgFXdLk5mO41dRtEsqhSSqbnJCbmaxlcN9B8DBLGeKOPJRmkybane83KfyM6msACamEWB
+ AHOAtParWNBM8UqzujmZIAuZx8KV9hcs6LFMNgLqrRH7QrcoNqgSwCszFTj4GfDdYBpLNHmMA7DG
+ tPl3p6uNBTJd0K4MtrRJKs953iz37auwG_4GePMd97pLjJQY3yN_G.juncn0bV2804pHCXoJm3g6
+ 2s5jO.NJSAiqwgQ0ozqRexN0ZNJpBZ_l7lXvRDLZi0l5bbUadPLoHaNgR9OHZKO2rTb.3le_URXJ
+ Eia1tpcdBXBhmHIc.Qoee5fUFhb0lE8Z0L4q2yrvBavijh1iNwqhzP5o2ohoYf.d9TXv2_8RfZTB
+ _GLz6YLmYusBgFamaJpuTv6nCtr2m7OBpDDtA_tq5srvgXFdzWXgEPjYDSJ_OmEYy2WJ5EslXLTx
+ Mlo6qnxZfEuhVscZ2eIQ5cASPQhDc4.oQevvpPfHzJSYu_ZPk2m_Qrylzt1iPXHmdmGKKcatTP3s
+ Qz3DcffcpVuz_YlKbzTnZJBy8PJi3URdRtUFgTzgqirlMdpMDjVMJCOzH3XJI.Qb7xTwSuScgrI4
+ QvwUej0mWLG_BXxGZcL0kxhYuCjzb9NSR8udp_wywYMZidW.lJ2L4izhe3tBUlgJEWB5fTRWxcxY
+ 51rq7mdpnal.G6Qr_ZIxomKoqV.hGxvBbv_K9d1u3aC9tq.iJIqRHV.mIc4ITIYwGxOZRzJp5hKQ
+ j6oPYUfRpWazgziP.DY2sX.1uS4l8i4FwrPuac8bRqNPPlQLnDeJ3rMmOOKQe8eX6fIn93KMmoeh
+ g13c5l0EgTKaPjnLkXzeBjoAlGDYZUmlTCBbxG5cLjCUq7e5njBUjIGULncBgmowMwL70oEMbeO6
+ yeTebT8KkrppLwpVNtv_4_Spdan0iM.r7lX0xsFzp3Ikw19wIR1aN_ClI0cev4k4dxXwRO2QSoQu
+ VruIsHim.D8s7pL4VgaMtDqMG9gTD7I_erHD90GG0Yip0L8qf9lfuHzt0j4XS0ImQ9zVMdK2TRCf
+ jXeemzC7GAQOclbT5pBLLC0sccQ965RrOiAwhze1nFVrUZyST07YbHNRdIfiPfzzx8ar6g6I3fYz
+ GVERZr4hGizHupfzZ6ryuFRPcHy95J4ySIFyen6bviP2z_1L25THhqnSBOBz1Ojj6pajhYStuAHg
+ DSIB2LqFeJdvrfzGhJ6fQt7B0eL7BAHZhgjuwMHrJSy3KSRu_IwGdPVO9f4KKJzQeU1WVrbY.I0C
+ 0qoiyH58Hu.aaqGueqlBfkCNhMHZfNXRuXDKqFbx.U7DKam_Kj.jZCRWCO9ntZL4lZSO4PQzqpms
+ M_U_VmuAGx3L1xyMY.s4al2sWebXzXQb670LA8_kns3i16K08poXbLeesM94AV02bZrC5wnmDmff
+ D1TOSoc9mSmwZ415QdvyRdl4RsF8x5tyE6qy4Or6Yoy1iF8.mE0OlQ5rT6zF1r_eUYlPTUGR8YfC
+ Q8kUIMGOmKOLi7HAN2ZlRTz_LljT6rxIX3oZaHCtvM8AmWW4qHstCicVukeVIwNSuXwmpwixdVC9
+ qe.hvgNEu8_QVcSdpl4eI8VOACRL9RS8bv3Ddy6ify4ZzaEsb9IlPHznvhpvB8320xxB1ycurltP
+ ogjBgAAEoHgADzbQiDzOtBUWzFEw09reqxzMY2A7ZCeMVn1W.ipL6OCpylGV3RsdpLpZXJlMDClT
+ xZX9AWxYMUNmFtjSJ2XyPKSmFmRlqQ0j3bFp8uYB1Z.EW2isATsKH8bX8665feFokiGVnUy_9jYv
+ flr9t7P34nmlbh353YdY1zEjJzhH67MmBVYBr2pSuL4QneNJZLiZjOAVYdkGwYnckm8CdAY2ZVW9
+ ugsWrFKOIqZr2qdig93VxQ3dyd.4VowoWbFUqwWqIqhVfiwsQLeI6J6QFHZj2B2EXNg_DSj7AKct
+ QTZ7sgl7jFCWbE3LJKkovpcnxf.FGYdbBnhgu.NuMRbQBnb.FsxnT.LGdEVYxVHd80guAsgRUGTx
+ Z6N05LnANlrEzPLGNxejl10PDBiagxXLLgcHAQag01rBXggr15Wpg_zOeK8E18fZ50kYQJKESp_U
+ ze9hjIEbFpSOKH.wqFY8DewYu1iwtKXDzCQvsaqqBz_EpdSjOTB1S9YfeNv9xhOxT19yGvL.9Ub.
+ SPyP8tswP4yMToM.Yyg--
+X-Sonic-MF: <pinkbookswap@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic306.consmr.mail.bf2.yahoo.com with HTTP; Sat, 25 Jun 2022 20:00:03 +0000
+Date: Sat, 25 Jun 2022 19:59:56 +0000 (UTC)
+From: "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>
+To: KATHY HOCHUL <governor.hochul@exec.ny.gov>, 
+	BBO 121 <ms60710444266@yahoo.com>
+Message-ID: <469119740.4817957.1656187196623@mail.yahoo.com>
+In-Reply-To: <28123df64adf412eb5fa671699cae02e@BYAPR11MB3702.namprd11.prod.outlook.com>
+References: <A9E05764-240B-4360-A92D-BB4D02516DF9@icloud.com> <4DAC3FF8-987F-49CE-B456-1F34099ED849@icloud.com> <1881887383.661462.1654239013731@mail.yahoo.com> <28123df64adf412eb5fa671699cae02e@BYAPR11MB3702.namprd11.prod.outlook.com>
+Subject: Fw: Automatic reply: [EXTERNAL] Re: Notice, and assistance of the
+ FDIC
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4817956_377659849.1656187196622"
+X-Mailer: WebService/1.1.20280 YahooMailIosMobile
+Content-Length: 2861
+
+------=_Part_4817956_377659849.1656187196622
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=E2=80=A6=C2=A0
+
+
+_______________
+Tel: =C2=A0646-256-3609
+
+Begin forwarded message:
+
+On Friday, June 3, 2022, 2:59 AM, David Moore <david.moore.ct95@statefarm.c=
+om> wrote:
+
+ <!--#yiv0163375109 _filtered {} _filtered {}#yiv0163375109 #yiv0163375109 =
+p.yiv0163375109MsoNormal, #yiv0163375109 li.yiv0163375109MsoNormal, #yiv016=
+3375109 div.yiv0163375109MsoNormal {margin:0in;font-size:11.0pt;font-family=
+:"Calibri", sans-serif;}#yiv0163375109 span.yiv0163375109EmailStyle17 {font=
+-family:"Times New Roman", serif;}#yiv0163375109 .yiv0163375109MsoChpDefaul=
+t {font-family:"Calibri", sans-serif;} _filtered {}#yiv0163375109 div.yiv01=
+63375109WordSection1 {}-->
+Out of the office until Tuesday June 7 at 8:00 a.m. Please contact=C2=A0Jan=
+na Underwood at 309-766-8116 or Tina Powers at 309-766-6661 if you need imm=
+ediate assistance.=20
+=20
+
+
+
+------=_Part_4817956_377659849.1656187196622
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy>
+=E2=80=A6&nbsp;<br><br><br>_______________<br><div>Tel: &nbsp;646-256-3609<=
+/div><div><div><br></div></div><p class=3D"yahoo-quoted-begin" style=3D"fon=
+t-size: 15px; color: #715FFA; padding-top: 15px; margin-top: 0"><span style=
+=3D"color: #AAAAAA;">Begin forwarded message:</span><br><br>On Friday, June=
+ 3, 2022, 2:59 AM, David Moore &lt;david.moore.ct95@statefarm.com&gt; wrote=
+:</p><blockquote class=3D"iosymail"><div id=3D"yiv0163375109">
+
+=20
+=20
+<style><!--
+#yiv0163375109 =20
+ _filtered {}
+ _filtered {}
+#yiv0163375109 =20
+#yiv0163375109 p.yiv0163375109MsoNormal, #yiv0163375109 li.yiv0163375109Mso=
+Normal, #yiv0163375109 div.yiv0163375109MsoNormal
+=09{margin:0in;font-size:11.0pt;font-family:"Calibri", sans-serif;}
+#yiv0163375109 span.yiv0163375109EmailStyle17
+=09{font-family:"Times New Roman", serif;}
+#yiv0163375109 .yiv0163375109MsoChpDefault
+=09{font-family:"Calibri", sans-serif;}
+ _filtered {}
+#yiv0163375109 div.yiv0163375109WordSection1
+=09{}
+--></style>
+
+<div>
+<div class=3D"yiv0163375109WordSection1">
+<p style=3D"" class=3D"yiv0163375109MsoNormal"><span style=3D"font-size:12.=
+0pt;font-family:New serif;">Out of the office until Tuesday June 7 at 8:00 =
+a.m. Please contact&nbsp;Janna Underwood at 309-766-8116 or Tina Powers at =
+309-766-6661 if you need
+ immediate assistance. </span></p>=20
+</div>
+</div>
+
+</div><blockquote></blockquote></blockquote>
+</body></html>
+------=_Part_4817956_377659849.1656187196622--
