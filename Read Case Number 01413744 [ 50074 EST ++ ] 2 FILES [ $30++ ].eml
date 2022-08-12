@@ -1,0 +1,206 @@
+From - Fri Jun 24 11:21:17 2022
+X-Account-Key: account1
+X-UIDL: AO63W5s/Rdp9YrXM8wXf6C30e7c
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.230.151
+ by atlas213.free.mail.gq1.yahoo.com with HTTPS; Fri, 24 Jun 2022 14:40:50 +0000
+Return-Path: <lee.henderson@ey.com>
+X-Originating-Ip: [216.71.155.184]
+Received-SPF: pass (domain of ey.com designates 216.71.155.184 as permitted sender)
+Authentication-Results: atlas213.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@ey.com header.s=PS1;
+ spf=pass smtp.mailfrom=ey.com;
+ dmarc=pass(p=NONE) header.from=ey.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 24 Jun 2022 14:40:50 +0000
+X-YMailAVSC: ENBWpz83bBuS4yjT.Pr8d.5.3h3nxy3roY3olUUCvYsYhqi
+ pUX9j.Gu9Ir71oCgJEqdQF1ui1b8WX0lrHu4dpKmCvtDkAFEptYc1FFC7t6W
+ ZgGoK6Rz4Ox2ARIQqu1UOxmlYZa.CeSNuvuHSof_i1gBeyn1vN7RpZkZf1YD
+ NLfePts87jsPbHUns.fYWSlqYZQpS1f194s1VWJ0b2gSnl3V9bA2ELEwObfw
+ luOo90VQqbyYaOhg.VyKf8TVa9cklcdLOwlhzBdW7b5g5DC9q_u7HzcFloBg
+ SAjWpewo0gHt5lMYM2f3O22ONssoTynmRe_1rhBH7BpQV5yt9YKS94YQdSEh
+ A
+X-YMailISG: RqY7LWgWLDtWhKERhVbMk44p1JmmFhopoVOWcY24iBp3PQL6
+ nWnfwyrn1nY_Bdm1LZvHzQHMEvK6IuIJo4ofi_4qG_uCFstPD0kKW9BYKfeY
+ BDQRtRmRkzTtHiY2GB0bVDq7hcwmUlZ3CfcpYvPQJx_urEcLqgbKmku8FtN9
+ xdLM63pT_iau5UMmm185u18BgGLbSZQ6ZCTPvUGl1Iz1x3bq6yRBC9U9fAxS
+ __vGk4wCAdsHlsW44JRS69X9OhFe12zh02An.KcRGADan04GMqOC7NjILYHU
+ bbSAqrFBOC5Bwj9f_NZLRDOLAiLPtYObmvSWTADyDJtf1bHk_dvb1VWdwkfw
+ JIW4l2sTjKDNGMEmkt4z8IrE6Mqd9ZvojxYDY40DD4MzYDUMzt2Gn9g1molc
+ oKO0Olo0SGzq2aOz_N6uM4T63gP.0GScADMtG6zYT52cWFJfszSJSkSiTBqU
+ DG09YkvomPSJfoPaNaWd2vy71qJAlk8rlonxnNgLPHDJ5m4RaDhLTzgtx9ML
+ DDllqc7nmdVGH70Xs1fOCMKTKhvrzJmV12pEn2CfWn4hShxk0v3pX4owPOCC
+ jqIv864Usvv0scJWOJwPXxIAr5vwc6SmXGAvWxpC48d2HaGIWjH_g5p6wsFR
+ DTK08L1ABN1SUaJLnaRJHpUCPj_zxHLHEdF32TKxlBrbU3NkbMDs7WzIpAr4
+ l58nnNc5VE8Ki3RtUGgS6VuESFbFyInIB2957_crt5ntR5aXWVXlRwM394VB
+ Md.pQ_sxj80D0gMQ_Zf05xq_pypS5d2kakXu8Fwm6rbJohov65ysMmky6S12
+ rinqOuM6SNAoWWFQiSy9Ikq85od_7I9hpA6y52bC8rhIPV5yGli5WAzEpp5e
+ fbYvQZkBWkUeNpd2_Wzet31tGSrY8O1YFBky8Qa04dn3UZ5xEAEWmVX2YQ6y
+ ViW39dIBFqAAwIm8cXZuxS.lN1BFlGxrqBWJKYb5WysK93i6DWDtX7tbgwuO
+ MqWdt2xMVeUTHsrLjjbOe5pkN2U7gpiuIE2zDLHUWhZuj4eCqsteeYYjAI09
+ 0sSPDja.IP6URfHVfaOohEiIxtsVb1Nr_FLVDle8YOQhh7lR.sTq.FPsQg.P
+ 9VJZOXY4S8_tCSgO2oizemE2btPFf2JDIwYwxylTyRNTIkFDFpLVJLGkSelm
+ B5q8nwpCLotsUZ5PublrwCEyWu6TGvcC.T9MCPoll7okfAOYhQYEued3h_zz
+ AkWNf53lvBspgGZWnTObtOlnUzbAwfTMrriDBnLRGLBcGJpwedxrgUSheEk9
+ VmBJwS1RT3TJjF_3CyJWQrGjMTjYD_ZxVUh.GKRBNylOnixFj.dNqRBw2Tu3
+ 9kmbQ7jfPfstly8fGeXLZiRqfQ7kmWRyKCZj0HQ6P.OA
+Received: from 216.71.155.184 (EHLO esa.hc4912-99.iphmx.com)
+ by 10.253.230.151 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 24 Jun 2022 14:40:50 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=ey.com; l=2049; q=dns/txt; s=PS1; t=1656081650;
+  x=1687617650;
+  h=from:to:subject:date:message-id:in-reply-to:mime-version;
+  bh=YQ8+9M+7PEi2jn8PX+7rZSzPQE5sx+CEQt9S4o9CbZY=;
+  b=cWoU1Ha2M4kk+598jfyrn0q8zQ3O4G3/UPVzDK8Xt7hikuigSr2g9Mew
+   uG46Y/j248iPRvr6W4/eHAULGC7WsbhOsyqmFfeEiVYhBgz9kV+9Qg970
+   zzrvFlhrzpINb29BDmzzFzhBC6y4FrlnzLp1L7pU78L4MOQwi+N8YwRDW
+   0jeTow1xfy9paVTCUpocMKsRYTQnTpwvx2HqWR43TJHAsFRmuJe8E5x06
+   c2QnNFqUmkiAaMaOXUnKHgr4e/ZWjNVQJPanClHC51+zXw/ox7ebCiubA
+   /8WamDFO+g2GZjobDunT51dnKV6+nBAhLfpde8vN+DjDVGucNIMbDf9wX
+   A==;
+X-IronPort-RemoteIP: 199.52.13.8
+X-IronPort-MID: 16384301
+X-Ironport-BodySize: 8730
+X-IronPort-AV: E=Sophos;i="5.92,218,1650931200"; 
+   d="scan'208,217";a="16384301"
+Received: from unknown (HELO USSECRMPEXTP06.ey.net) ([199.52.13.8])
+  by esa4.hc4912-99.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 24 Jun 2022 14:40:49 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=LAr+sK2dX0DdFbRalfx5Hdf/lTex+AV0J1JSvcL7KgyL1JLtTTEQWrYwDgnWR1mmGQraOWNpnc/G4nd4C3wvi3NS+nFt2q2asjMYxMCUlFc2ziEDAuhYfKr99N8PWEqOyl3Y8BPM0eUDykStKefViYHxA1GWg9/Plgflc5d75Aoi5wVmbZmSQsPMWM7LawFELyZyjoATQMNbebbNDudTI7PSnUYvVJ19cIakNd3u+LVSIM9nH+JGjY2NJOWlbtXpsU/bc/VvvBCrWrWkg+GvNXwhsOpaC7M6aWSkL/0RYJqTC7slTe4+ZlKBsf9t9g0cSJVDihRZID4F1WEs4nFF0w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=YQ8+9M+7PEi2jn8PX+7rZSzPQE5sx+CEQt9S4o9CbZY=;
+ b=abyxz5Zc1LrOJAggGQgkWHJkaD/EdfykY9fTJakbp+Sc9DuzGuOO3kW7rzypNu4qH6KbNK6QfoMllmuNcJ2JD2VfxUMkAmat2eiELG1V5Z0khsrdGeIhizwInxyjAyPuMH9pycFvTXsqxX5dVOfaCgcDHZT2wZC9IKBgr+cX0+RSH84TEwl8PpIHMtArKOEZil6iG2Qh8Ag2B8trdce+stHEyGcRCTIt/4Ie/FIlYQP6vDStQl8EMrSx+mLi1zykE4oozbKte4Pb19s231VRw509YD4oj0WfgO3dR3DeV9GRfR0MaNomsSXWfLnyi+ybXSxUKa7s4x/+SAJMijP++A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ey.com; dmarc=pass action=none header.from=ey.com; dkim=pass
+ header.d=ey.com; arc=none
+From: Lee Henderson <lee.henderson@ey.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 FILES [ $30++ ]
+Thread-Topic: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 FILES [ $30++ ]
+Thread-Index: AQHYh8DK1rktpGCu80umw+na4crfYK1eoSK+
+Date: Fri, 24 Jun 2022 14:40:46 +0000
+Message-ID: <CY4P172MB0044DAF83D0DEE51A903818089B49@CY4P172MB0044.NAMP172.PROD.OUTLOOK.COM>
+In-Reply-To: <09858c00-ebf6-f441-5881-495542967e9d@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 6b0701cf-6bf3-4ea7-25ee-08da55ef860c
+x-ms-traffictypediagnostic: DM8P172MB0253:EE_
+x-ms-exchange-atpmessageproperties: SA|SL
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 6HjyivgFkEP7U7CNVrPgsyZfSbd5eimZZb49+OxyAL9nYQLBCz5kq7+GO8oWfgsKE1cIyeoXb48cctcM4H+CWPiZ82DOX+nBQo90TfWHrsW9w9acaDJCn5ZdSnrsFui0XtuCVTF+C3UKPtCwDV31YT6gbZZO4VcADjp0EGGJp9CpqNyF943vf5XXsb4wKKWu79cwvhWCGpXhHalTICga5jqovKqticKKjrSxKEC1IoepQdyq9tseHVgSemHJq7K/hWcCMYuh4arXcpCZrWcxaMxRUtVDwTjKNdhQ9ysbWRfF1nTztHcE9z8HFgYhS6lFOhGkpfWqsb+IoS+ZJ2lw9FmCyS3KzTMo8+9JU7zBD70Uvb8M0FS8v4SlphgIaGHhoslqqADzh1IdczlbQHXFFkYBP+iCCVIEnEoDAC0ulPpQQUZd1I73YJfJqptOMWU0pU/RqOWnIuQkC2+aZnIa5NZoP9BuYUGT6pxQaR+k3cXTP5wLlf64SeZsZ2r1t1I9A8UiJBUnEwX4eeoqexk1zenG9zl4y9P/7bqztANWnBY=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CY4P172MB0044.NAMP172.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230016)(4636009)(376002)(346002)(39860400002)(396003)(136003)(366004)(6916009)(316002)(41300700001)(8936002)(86362001)(8676002)(64756008)(66946007)(66556008)(66446008)(66476007)(76116006)(38100700002)(82960400001)(9686003)(26005)(52536014)(4270600006)(7696005)(6506007)(71200400001)(122000001)(38070700005)(478600001)(33656002)(2906002)(55016003)(44832011)(621065003)(186003)(73894004);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?VUm1uMeaNFJj6kiiMGfrdEYhYp9LnVy8Q4JosADboMD1GLTsxApbTPmG/9pa?=
+ =?us-ascii?Q?0pwBJ1cnulrxBEcPk+/VidLe/pIF0+TfLVVBSHcVN+7f0BI4I8V0GlASYulT?=
+ =?us-ascii?Q?8Unzdb/9Ra/ndgTkpjNfkCDtMP9tGxd3b+rvL88ccgBzZlDcZOEadRpDIjjt?=
+ =?us-ascii?Q?5fvw/fcnJBEibs8m5HoXY55b3hJO71fk/FyKIOA3pW3i+dS3ebsh/IDQHdkz?=
+ =?us-ascii?Q?vV6PRa1pEZouqPXttixwtX93CWj1IQ2fTW4JCpg4hiQ2dm3JxiOerMAzeAWd?=
+ =?us-ascii?Q?a/PMRQZrIwD5gkCMJJxrWESbC+Tq2T3q5+o/ioxFSMstyqTGHFm86gxp+GER?=
+ =?us-ascii?Q?GaQAtXKOLSy/prUuE8y+qp3jcM084cmKcPOhqa3K3dPCI/MKYLH54J2fzKYO?=
+ =?us-ascii?Q?GxzfAqnuw0JsG4VLnI1f2Fjti24+Y6kVWJZ8cvlMo62eA18ZeVpGm5hZw+38?=
+ =?us-ascii?Q?62Qm06h7+AKkgGkPfIVSXZsCc8Epp6Oj5VesoBV6XgZ7BLsbN4P/O15qRS2f?=
+ =?us-ascii?Q?P0pjRCngCACueAHHyYnQHbZvlTVPEmvAXFELtl2kVZxSfcZsheXzaTd74Ydq?=
+ =?us-ascii?Q?3V+pdvB7LedTQkSD+ToslkFeX1eJcLzIyECmJlqpkcNpfSAfxnkzVY8jRSps?=
+ =?us-ascii?Q?2VU/muQ3M1IwLaiyGH0/6bHy4HJGT6D0T+YdftUXtaOh5VbrtEP82vszqLQd?=
+ =?us-ascii?Q?yPpN9SsxNEExuMIHbDWeohgVX5Ji5UXE4z3PMGYcIwAXO9QQrclYFj7F9rY2?=
+ =?us-ascii?Q?Coo8Y1/QmI/fFYx7urxs//uvbStcvVoMWBkZojeXe9uGNW/wNocTWADwJUEq?=
+ =?us-ascii?Q?lgOp5AN3wMnOURS9KXJTvAVQA573runi+FNkx8P6dfPkeBv2AAFI5dh/s+g8?=
+ =?us-ascii?Q?r6p2zTG5pgDU5jAPZmBliID9zKJNqfIM2ZiNDjT34ysNPQz/2foCMTxQM4hQ?=
+ =?us-ascii?Q?4Q1ZwCpkexEwFfVhClwTkL6loOqz5r9KNEiNaqG7B/SyEAwKc46wgZA258M0?=
+ =?us-ascii?Q?woTG47fBNenbUMpg11/sAQVw446wPDjCWiUUC/oXTeNqIVUzlN5OMbxpdBXh?=
+ =?us-ascii?Q?vkJJPpauclRDn+PMnEU9dEVayRidHxI+8RRHTNB/MICQt9bNATkLu0SentrM?=
+ =?us-ascii?Q?8kIjcrpsEg8F8qlE4j6Um0TNowAU1KP8lCTyeVg9ciN2sbRWXshctuWMn+Kt?=
+ =?us-ascii?Q?jYiB2NCj4TbmWDi/CFDmcI0aUgBxbRZvbY0sL9YI6xgOdufacqPaywxEUHuk?=
+ =?us-ascii?Q?gTx8QHT8DOUOjiadwwzylvtt+5zIkH9QJjMK43tN2Fpgvpcd6iTQ/ehGS8E0?=
+ =?us-ascii?Q?VCpxOMHgWZ1+3CVlwjr1mfmYeVXa6Vb6zFcuwKJk6Jfqch/W07PvuGrf+yaN?=
+ =?us-ascii?Q?vwYKcAtfDDcw2KRsxHrT2gcuufEqyxpmvemFnj8Rs6NcR7KuiYqe6S6lvXQS?=
+ =?us-ascii?Q?VJz9qdu4kW7WsRIWSuxjrkAhHqCSY119gosO0D79VgGcnB8WhAJMqS3L4MRf?=
+ =?us-ascii?Q?3+A4swYBSarNpw/lSQ4HuHz8ZUxoN39cv2B3z9pi/VDfnxfXqLAdl9mEZ4iM?=
+ =?us-ascii?Q?gzu9jNDNitk41Gl9syYbk7CBYa5in32qvf4rGzdz?=
+Content-Type: multipart/report;
+	boundary="_000_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CY4P172MB0044.NAMP172.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6b0701cf-6bf3-4ea7-25ee-08da55ef860c
+X-MS-Exchange-CrossTenant-originalarrivaltime: 24 Jun 2022 14:40:46.0209
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 5b973f99-77df-4beb-b27d-aa0c70b8482c
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: D/RDe2L4iqHC3szW8nT05zWpmM3M/sJffSlGOIo+SEVozp8FVSeP37e/vttenK5FHl7yl5bl846IL9yLeIU4zA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8P172MB0253
+X-OriginatorOrg: ey.com
+X-CFilter-Loop: Forward SEC EP05
+Content-Length: 1996
+
+--_000_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_
+Content-Type: multipart/alternative;
+	boundary="_002_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_"
+
+--_002_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Lee Henderson
+   Subject: Fwd: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 FILES [ $3=
+0++ ]
+   Sent: Friday, June 24, 2022 7:48:24 AM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Friday, June 24, 2022 10:40:17 AM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Lee Henderson<br>
+&nbsp;&nbsp; Subject: Fwd: *****: Case Number: 01413744 [ 50074 EST ++ ] 2 =
+FILES [ $30++ ]<br>
+&nbsp;&nbsp; Sent: Friday, June 24, 2022 7:48:24 AM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Friday, June 24, 2022 10:40:17 AM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_--
+
+--_000_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; lee.henderson@ey.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: mzF20VU/F0i00vLqyvoaTQ==
+X-Display-Name: Lee Henderson
+
+
+--_000_CY4P172MB0044DAF83D0DEE51A903818089B49CY4P172MB0044NAMP_--

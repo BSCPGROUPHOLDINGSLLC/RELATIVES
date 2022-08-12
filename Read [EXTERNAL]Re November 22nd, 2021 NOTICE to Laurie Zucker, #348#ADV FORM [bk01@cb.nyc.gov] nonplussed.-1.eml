@@ -1,0 +1,246 @@
+From - Wed May 11 00:25:01 2022
+X-Account-Key: account1
+X-UIDL: AIYamFQB4ClFYnrbJQvPcA61RG0
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.155
+ by atlas207.free.mail.gq1.yahoo.com with HTTPS; Tue, 10 May 2022 21:37:40 +0000
+Return-Path: <communityaffairs@occ.treas.gov>
+X-Originating-Ip: [166.123.212.215]
+Received-SPF: pass (domain of occ.treas.gov designates 166.123.212.215 as permitted sender)
+Authentication-Results: atlas207.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@occ.treas.gov header.s=ZIXVPM16ab5adfb7f;
+ dkim=perm_fail header.i=@occ.treas.gov header.s=selector2;
+ spf=pass smtp.mailfrom=occ.treas.gov;
+ dmarc=pass(p=REJECT) header.from=occ.treas.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 10 May 2022 21:37:40 +0000
+X-YMailAVSC: 0vhTsiE3bBvKb7Sd1UDtSv30TkELYymQSr_LsblDwd61dig
+ OwwUvsNFuBr09SOaAGxJhIcbsE9Tg1thvzaqP7zc7IhJdPwADWxIxFUVxBEY
+ eS_0J5zAX32EsJqWROp0KFFdGdTzIPZFjR2UqzAd_k.C.oiNMRisvUE7pz.H
+ 1IP0PN76w2W3v.GjTwdRQM8jjpLjjPW8Z6iwMLfzktCxeJ52eVZiIluX.hTc
+ LLoyuKy5ze2D5yfFhcvBjZq_UaIGBpRbEHKQ0euRAFNRFhd99Zq8T2jVX6n.
+ K846Oo6S.CMSGAJS1VYOcZn_2dzQCxviN8UTuqwfX026OLkRjJx67H.0Jb7G
+ UO6m093ZdiCW76aKnNOUU6By0qGqWWbDEKWI-
+X-YMailISG: 6jF7KWYWLDuDQ3KYtJDl777DPzMibVG0CBRlw0Q3vALOkQTe
+ sGvrtvwodWNDuXXylbKNDi3Pou4oogjttd7mbs9eb5WmHIrLx_DaFvDYS04x
+ uv3o9sWzgskN2WK_qzilTyQKh3QNDXuhqTewaqs.8bqMnPzNQZxK6gBYKsjO
+ hrA3ejU8gBQED7jt5vZ2aIRWA3Tp8gYVBx7.rxjWlcRXpypoU5hC2AwMkx4k
+ 9paRgx5OtVVntMj0hAdQzIsID4.IUt9uoKgstps223z.gTHrgnvRicDdUpsU
+ YNokuTSdsElaY7ZSqQAUUbQNaeiPyLgNFpW.enNCp4YX1fIY_TlqsoYmFuC9
+ iLI2vH_Rm49Qof6KeLzFrhdyRpjKSQ6N4tIaWDVUyP9MIP.LkWbULCLZhg7D
+ 0UYaOBYwt13Iwb6sSqKxcgsFCAa2PfviWMUkVvJ6tZzq1UmuyLhiTInO7VIA
+ eUAzlBN1GqtKqqqZcL0eDlCgO3fqs32nV__4AuQvolMDY8CHpWAHR3CZ8yUW
+ CndS8Hh8SpOjYi4CUloZ8BtevsoWn8fWIXq1YuEeDz8Inu3zQdZ6dyEOOu0m
+ WT7oFsfWnU8fUeV2zWnJZjwZKqxqW.VOzozeDJb_6tKIgk8Dqq9IH2SNhIoH
+ njXqwncDS7r94yFORU90Gy_CcPPavIZiy.sx844MVw.QYM1tS1Z_OVGOHnWz
+ BC1SVyfXJDjpZRHeOPV3y8cB3uuOhYHDBAkWTrvaHGuYjUGPTHWseYNPmvL_
+ 3PpJlMByym7ZfZl7H9gvXcWejnHJv6uP8sETABKkXalrG8n4i0hk.cXFaSiW
+ 46yJ2_z7bSYHn2i8y.pg19Sgn2Oi4d2jMC0KbV83qL3d8GD935FrWNfYwANc
+ 8D.gjx7G5tolrE2g7hmCtbGcsmwcR1awYEseVcczuM0dLnJfnRuGvGoqQ51V
+ Udb7MRaporWKlJqdMjtPhs9HVLgb51K1Pf3T9QxTm7I6eNHqjL36CH2Vq7s_
+ jVAOtQ564Y6p1FSOtkrIMzuDacXPIuft7u7Me8EYTsa9aQKRMl.PG1M8.OwT
+ h9jyHBh47Fbc0cGThweJbpQc0vzqQkXP9PR6fkgL7pEHAkFqHklU9cQ3IGAx
+ H.76tNl8ZyicM.IhgW2V3efcP2KuGUG8BMM0yOTAggIc1KjZnJpQf4PQt79q
+ iuo3c5Es25I-
+Received: from 166.123.212.215 (EHLO pk-extmail1.treasury.gov)
+ by 10.253.62.155 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 10 May 2022 21:37:40 +0000
+X-attachments-notify: 
+X-IronPort-AV: E=Sophos;i="5.91,215,1647302400"; 
+   d="scan'208,217";a="85473961"
+Received: from mail1.occ.treas.gov (HELO vpm.occ.treas.gov) ([10.104.230.175])
+  by pk-intmail1.treasury.gov with SMTP; 10 May 2022 21:37:40 +0000
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.occ.treas.gov (Proprietary) with SMTP id 1B216201A7CCD
+	for <ms60710444266@yahoo.com>; Tue, 10 May 2022 17:37:40 -0400 (EDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=ZIXVPM16ab5adfb7f; d=occ.treas.gov;
+	h=From:To:Subject:Date;
+	b=hufxxKSdZjsWgVv9Y2sjdmOEZx22iWF1hCzAfBdvYhw2y5VXT8o8cXgubM3VK4gI
+	KqLfrg4UQsbEMDL36u/bxIbxH+jD5JecyXW5VmKBDnULLEWkg7XpvbXCeIZmoJ
+	OEliA8866ZPhekSHvg5QbSnjfRRt0v3GudqTkbY3uC3X4=;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=occ.treas.gov;
+	s=ZIXVPM16ab5adfb7f; t=1652218660;
+	bh=gWqsB5yz8IUfdNSVFxktTVGs+D950v6AyS3wuGNC/SE=;
+	h=From:To:Subject:Date;
+	b=FrZCFO7Toeh2zoQQCiWEusN2XiVcv1D4QeMvIY6w0R46NC7sQphiDZUJ/1Ji4loLV
+	 ubwK6Z0EgyXds9L3Un/ZPKYW0re0ZgJjjsG1LQsiD2G21ZdZiboz9aSWI+zk8x83DR
+	 tMM/QwVFAjz7OaTOFZ5Hn8rjQF8n/5iW63cIWblQ=
+Received: from HQDCEXHMBPV01.occ.treas.gov (unknown [10.104.230.66])
+	by vpm.occ.treas.gov (Proprietary) with ESMTP id E42AB600B68B6
+	for <ms60710444266@yahoo.com>; Tue, 10 May 2022 17:37:39 -0400 (EDT)
+Received: from HQDCEXHMBPV02.occ.treas.gov (10.104.230.61) by
+ HQDCEXHMBPV01.occ.treas.gov (10.104.230.60) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.1.2375.24; Tue, 10 May 2022 17:37:39 -0400
+Received: from HQDCEXHETPV01.occ.treas.gov (10.104.224.197) by
+ HQDCEXHMBPV02.occ.treas.gov (10.104.230.61) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_DHE_RSA_WITH_AES_256_GCM_SHA384) id 15.1.2375.24
+ via Frontend Transport; Tue, 10 May 2022 17:37:39 -0400
+Received: from GCC02-BL0-obe.outbound.protection.outlook.com (10.90.10.81) by
+ HQDCEXHETPV01.occ.treas.gov (10.104.224.197) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.1.2375.24; Tue, 10 May 2022 17:37:39 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=H4EXJXFLk459kLSAm88wkawwoMjXhsr1ofTe7m2aps4Flfazbs/5MIgQVwBuw9cAyWUfiwI3yYFVpNBo6y+egFNHZmZpoUY62/0/EWGPSA2edDxCiaOSlCJ0+KfnUc1258BR9w/muAYKlaS3I7JPWfudVP0RWbgujxYl4eGuzq40zIWBaZ+9srdLR2W94fVWaAVEQMgTs1K+gjVdg4t0f0ooEtWDu2G4mo+hSVBMG+zL3/d6PdJtmHB5fFfZ4McXPGgbCfLcSf4OHQWVkEH1Bq8UWjYWP8LCyyLhQBDFIvpVfL9gfJxMEDWYDhVzFpKK2wdkTcMSErmSOC8Kd/mMwA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=XIhnjqdbTiBi59jNxmBk4urqUCYXP8WmeVMCkZf+kWE=;
+ b=f1xQGEI07wdVKP1H92FuuZbF9Lz9HP1Yie00ZkwJLKIU9EmoTH/hC2uEEiDJjDU2Xokfc1kbNVCehywwl/gmPa+grZsfT0uYoaqLvTbQhR2WE+ZFusAOAbgzjqUVJztl6gLPH9a7PZAxwHsY8f6Rv/G50633nQn5ScUXqK9WVvnCDPCT86jFBZn08PW5gmB1Jpy4DedKR1cxTjJqv9BBAVQYTbEAewO7RAW5N+mUKCniCX+5PDgGY6RUecKNq93IdBwXtCKNYWUlObIUr0KVLWZoF+NJ6vj3M5bYMgGHtA4P1xwjuW1RcIqPVMptH8k6MpmGH+0eejzP/Cg3uWGqUA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=occ.treas.gov; dmarc=pass action=none
+ header.from=occ.treas.gov; dkim=pass header.d=occ.treas.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=occ.treas.gov;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=XIhnjqdbTiBi59jNxmBk4urqUCYXP8WmeVMCkZf+kWE=;
+ b=fYjvxlHKeLz+JDrIhtaU0/QIn1UxlTVojGByp/wy1W5QeKZKKvy0UD2v80mnXyg5W7slbC3csKRbetOCmesKxHK/Wtm3dvj9PiZCOltGuGVTQcjssLRRLFIf3eNEuW3VBRO3jFgE4gUVvAy7Ja+Xk5QycO0lNbCszl6aUhDsVLI=
+Received: from PH0PR09MB8731.namprd09.prod.outlook.com (2603:10b6:510:6a::10)
+ by DM8PR09MB6120.namprd09.prod.outlook.com (2603:10b6:5:2ed::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5227.21; Tue, 10 May
+ 2022 21:37:38 +0000
+Received: from PH0PR09MB8731.namprd09.prod.outlook.com
+ ([fe80::2d33:76c6:4362:9aef]) by PH0PR09MB8731.namprd09.prod.outlook.com
+ ([fe80::2d33:76c6:4362:9aef%9]) with mapi id 15.20.5227.023; Tue, 10 May 2022
+ 21:37:38 +0000
+From: Community Affairs <CommunityAffairs@occ.treas.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: [EXTERNAL]Re: November 22nd, 2021 NOTICE to Laurie Zucker,
+ #348#ADV FORM [bk01@cb.nyc.gov] nonplussed.
+Thread-Topic: [EXTERNAL]Re: November 22nd, 2021 NOTICE to Laurie Zucker,
+ #348#ADV FORM [bk01@cb.nyc.gov] nonplussed.
+Thread-Index: AQHYXsELNrwcNwjwjEiClS+eJovrbw==
+Importance: high
+X-Priority: 1
+Date: Tue, 10 May 2022 21:37:38 +0000
+Message-ID: <7de6bd37b8af4e92b598c6aff0ebe0ba@occ.treas.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 735a22d1-4552-49f1-8377-08da32cd4dfe
+x-ms-traffictypediagnostic: DM8PR09MB6120:EE_
+x-microsoft-antispam-prvs: <DM8PR09MB612095957BE659DD7F7251EA81C99@DM8PR09MB6120.namprd09.prod.outlook.com>
+x-o365-internal: True
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: x62GYKZcdMli62yrHdkm/MsKE5xXmqzvHhOMR/ingS0y9QlJp6/Xiuwp/UGw+39Ac294PA2HkcEkfJ0wjRBOdpiYNou8+2mdQG9jLeK91TURKJFcZI4Nw1psALecfNGsyiGfX3A0bHKASH61Jv0YzqEEX8FCCzeMEQQ2ygJuGQshYQvMyRfTFCW/PCkrISyLrJXCuokbIP5UtThntCbpUN5LJ8WLuii4v0chHjSri3eolRzMOddwlvwkDsge2SejCs7T37kmTDP4mO4bnteP21V2silSz1dJCSfZ89E143SaOhNLMWve2hSpqDkyNXdP6PgpyCuKiIxpwb7qkeCmAv5MhryEZr3MSVgpQaHvd+Y1XAJC4Om0RmLujekLXMdR
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:PH0PR09MB8731.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(122000001)(316002)(6506007)(24736004)(6916009)(2616005)(4270600006)(86362001)(186003)(66946007)(64756008)(621065003)(8936002)(66446008)(108616005)(8676002)(71200400001)(66556008)(6512007)(66476007)(73894004)(508600001)(88996005)(2906002)(6486002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?ZTq1jGSAiOwNfcExWDLNV+OPyPZ7jB+KNSZdKMnLo8EtVNCQZAY7ihX6a4m1?=
+ =?us-ascii?Q?aezsx2gr0ohm/kzQM0xuk7kW0sUHGVYKQka1ed7jEi16OVov1CrtzC21YN0g?=
+ =?us-ascii?Q?OnlQ3Z92LYKkyh2ksKZ3Y7du09pLgvs6329UfKi/WGyuGIf5wvqxZ+joQsNo?=
+ =?us-ascii?Q?bWe0CJigfs41lc5a3zAV0SzMVGSUzgyzciqe67lyG6XhmX/b12SqaXrlzyKa?=
+ =?us-ascii?Q?GAK4yvnkm12rwIDbxroMxChvputG2u3OWuat3O8dbUKVyKg6ju88YBesBruV?=
+ =?us-ascii?Q?L5Og/9Bmj4JoCDSviK5Fk6s7QLAiBRMy4K6b5A0pCZ9blRfMzwsa9QwjcAsh?=
+ =?us-ascii?Q?PgMkl0FxzHwXdCa1ADaxJP3L145PVQLKBooaqr6xnMmqDrUZ7+2kgtgL5J4Y?=
+ =?us-ascii?Q?97r26QhCKEJLON5G5FewR2HggqTEPj7shhsE0grOAGGoEAksbk0Erue869a/?=
+ =?us-ascii?Q?Q+qsQSvs9OdHYA4Tl4NU1mhU/xS3WKGxYKAqOkiSC97Lh+JWRfGFgjPe1cPY?=
+ =?us-ascii?Q?PtuRMr86buwt0Y0vdhlBcbXSJW7cvge7NN/ibq/Z0iYYOU+kT9t11Ec5NP97?=
+ =?us-ascii?Q?tsFhipryhVK9lgREGF4SoAhaw5fkD/cMNSvxMPHfeKjtH8XMGnhHNwWyrwQ7?=
+ =?us-ascii?Q?aZZM+T8d9Wjesldh1MhrV5GZ9uHdlbkvEtKbDmAM9S1+eNHI+HcYStYQVsrc?=
+ =?us-ascii?Q?ePeF+GaL6hNyhfaSpHw8UYXOWoXHv5dlZ+y4n80O/ny6KGg4k0b5Cbp5QS41?=
+ =?us-ascii?Q?ThSWzU8Wdow8zp/RKinriTnLUtZYJ60TnP2GalGM+yuXcnX9GErhRpfCrRTC?=
+ =?us-ascii?Q?ycE0A/wNcGhOl6pOX53kZLr7xaNIvWjMl8CCHUk2A2e71ZPITBkGTgPFYFFO?=
+ =?us-ascii?Q?0cmY99wWJdeNmb4duBoauBdEld5E9i4cis1tdcK1T8Eug0YLFQfIIrku12WM?=
+ =?us-ascii?Q?RxGGrvvAFrECMZvg26Nyd65hOW1u6sE3ura1MD30NAZ/v1yj1zai41UhEeXB?=
+ =?us-ascii?Q?t4UiXYIReuhQz1xzNtxfq/UMHUd/sBmRdW94vPmw0TLCMpjmojOHudbYfyUs?=
+ =?us-ascii?Q?E6hVHZ20B0Ofox5c88WG6yT/bQkldu3NgAOeynyd8PRKJZkZZn7x2NRpp8fA?=
+ =?us-ascii?Q?wbhuF5Zl6la7hhEQGIAduruBAv2TeSm/7ulI1Sv09ZoOocARE7cJQqtJOygd?=
+ =?us-ascii?Q?8BnHWg+V5UsWBDPZijAcTnM831P5xPzYOyrujact0rVRGZGL45cCp38Sj1gR?=
+ =?us-ascii?Q?Cj78eASA+5qBtve2RQVTmjOLySYQVfOQMGE5W7LEmMqfF8t8mGBQSe4q4jpH?=
+ =?us-ascii?Q?FxfFw7x89hqK0frkG2x6NqB5U5N9qLPSzzWziUETvGynGPpwjhWr+TzT6bYm?=
+ =?us-ascii?Q?xjxJbWfGrx+ub7oAVHS+dtD+oSEz+26WKeWpQLk/gVidbJpbSxHOhTyeubaX?=
+ =?us-ascii?Q?yHfzM1/Il19KIBYpu3QDlfxictMQdLUjlkkPCNJisMBJwZv9QgKJ8/fClvZg?=
+ =?us-ascii?Q?fazweKdVgozN+qRomGMOd59HxYXH5vK+CJpM/px6ny85QlhyHDtq73S7yaEH?=
+ =?us-ascii?Q?U+T1Rw4P8PmydnY4pTHPql2YEwnz9bFkM8PupLQsxRy/3MGtT7Yh2jsnzxIS?=
+ =?us-ascii?Q?DzV/dtsCfbBRiGR/cfLz3wLudRYANTVx0Txa0yhfNI3G?=
+Content-Type: multipart/report;
+	boundary="_000_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PH0PR09MB8731.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 735a22d1-4552-49f1-8377-08da32cd4dfe
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 May 2022 21:37:38.3931
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: fd30c709-1bb8-49f1-9c7e-dd8840c989d0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8PR09MB6120
+X-VPM-MSG-ID: 07d328c3-5a5b-457b-b413-3e1d6bc2d7c7
+X-VPM-HOST: HQVPM01.occ.treas.gov
+Cc: 
+X-VPM-GROUP-ID: 12427e3f-122a-42af-999d-6660a69b8451
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+Content-Length: 2169
+
+--_000_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_
+Content-Type: multipart/alternative;
+	boundary="_002_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_"
+
+--_002_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Community Affairs
+   Subject: [EXTERNAL]Re: November 22nd, 2021 NOTICE to Laurie Zucker, #348=
+#ADV FORM [bk01@cb.nyc.gov] nonplussed.
+   Sent: Tuesday, May 3, 2022 3:40:22 AM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Tuesday, May 10, 2022 5:37:38 PM (UTC-05:00) Eastern Time (US =
+& Canada).
+
+--_002_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Community Affairs<br>
+&nbsp;&nbsp; Subject: [EXTERNAL]Re: November 22nd, 2021 NOTICE to Laurie Zu=
+cker, #348#ADV FORM [bk01@cb.nyc.gov] nonplussed.<br>
+&nbsp;&nbsp; Sent: Tuesday, May 3, 2022 3:40:22 AM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Tuesday, May 10, 2022 5:37:38 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_--
+
+--_000_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_
+Content-Type: message/disposition-notification; name="ATT00001"
+Content-Description: ATT00001
+Content-Disposition: attachment; filename="ATT00001"
+
+Final-recipient: RFC822; CommunityAffairs@occ.treas.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: tayrcDVBQUSDwn6Qv1xgxg==
+Original-Message-ID: <10761452-475f-5c06-f2d8-24c5bfea4c45@yahoo.com>
+X-Display-Name: Community Affairs
+
+
+--_000_7de6bd37b8af4e92b598c6aff0ebe0baocctreasgov_--
+

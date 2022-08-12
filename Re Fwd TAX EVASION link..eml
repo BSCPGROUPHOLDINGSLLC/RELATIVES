@@ -1,0 +1,196 @@
+From - Mon Jun 27 13:13:44 2022
+X-Account-Key: account1
+X-UIDL: ANhfMwUN+a6DYri+owtWWDj2DUw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.146
+ by atlas309.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 20:16:36 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.65.83]
+Received-SPF: pass (domain of yahoo.com designates 98.137.65.83 as permitted sender)
+Authentication-Results: atlas309.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 20:16:36 +0000
+X-YMailISG: FUV7VUgWLDvvUNareXacpwPxunl2CRIy.cztVbxAYPMJAP87
+ XdKYHpjQH.cQszBKGtSx0GhIqQeWeRYFhV7dFIWDBsUy14UG9UKVZaaiHC33
+ 9jcDbOy9rWOGNmxWiMuJ6HVRpaiOb3kOqxk1o7LOA0DcCgLloVA0P9ZE3gbD
+ mT6_8yTBySN1jGDPpfbt70rNQvVo4a8e9B6TZjZIRL5dzqz4AGEz.BoU_g9V
+ F9XYUl2hCQFiqy00CJdzr7dcMob2VoqywuZsuRyLEctZpzd._uuX0I8bBEko
+ FlXAR_tGFgsE3YMvA8OW.yZfkeC__jTLocvpp6aICczBbiGBm1sZv5ISCv3P
+ ADUj_ni8ZXT7th1NierfQIZUqvLu6xqPZ7Xd9VttmZ9ZGRzubCp1zNSUNVQt
+ QnHCFXFXMt16U3p3AGNL5k1g9I6kqWgH7RevtKAzSrS7kWAOoXPB0xNiqcy8
+ Lp_9KfrAYhH1d6uOrp65HT4MO2a1zj6h5wliXhR9wDMmi7XeOlCBPPwV4T2t
+ VLB4IR3t8GSvoZJ4fL5fHvI4RgEmjIxioZ0uu6VkAicT661H8o9a.TTA13CN
+ R_NnkZdC0KRw11QEwqRTvKA9PzE_8dZlPM52rIeEWCg8wC0gnaY4XGIYjBkQ
+ imozrGiKJkFl7azv1dAYv94OHmAPrF3U7_RyXLq66QEfRmBi9nOaiy.WJL3j
+ 78jgLUI8oqcwJnbQUfOzmA.owFSf6.FewqwfP_Y7GHvsMme9HV0WuKFzcIXx
+ VYUhYjp.R_GeWDHIqbLGQNubiQeOPRm63svs2Z9lvjHu0AKcD.Kz0fiyLzYM
+ K.NyIFK0UBmv12UzXNXoj0UQknC9uEfGjFFE.9Gx7Mu0lB5u4QqFpOY3rMw8
+ gGg5NWOGOurY.U5mwhdBG0FhdwLpIMZO4CgvyHqEosWpW_CW3Pb0LL2joGE0
+ 38Ix3GBfOyE__Z4hbvX71NoaSdDx6BLrLVhT35YCbPPrab3TsD5JgGZYJNrG
+ mWUGuO6Wu.z41G_quCSWA6A6YPKdGa_UvKC.ZcMx2a9862Y.5N.OcVFGOJaU
+ QatMGUTIuDOZQo8zYk_v13EbjmGNP6NsY58H.wwh4rykR0.2un5OQkye77CE
+ wRqM6rCDyvv4PxVgv050D6CHhV1dXbDhkgq4pdSMaeO8UUQe7L.3jfTlKgoC
+ 9.yQzkqYMnUAHVoZudVs_pHmbBAVAA--
+Received: from 98.137.65.83 (EHLO sonic313-20.consmr.mail.gq1.yahoo.com)
+ by 10.217.130.146 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 20:16:36 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656274595; bh=S3c9fzoqp06dTGAdzKtxP5Fn658RDPZdKI2zh3JhD3U=; h=Date:From:Reply-To:To:Cc:Subject:References:From:Subject:Reply-To; b=IHXnryI+FP7CwRbFYFcV2mCQbNWITQED14v1im/Ut/F0eU/zT+pgg/YhDrWwZJOVbf+/33wO2LOtmmYRvUbmpTyuio4NJrCqLgPjL7+h4EFbmu2an35/1PxVXXE62Ss4WAwLnzEXcjot0mW+zMgRiZl04gv1dYn8Lvo4pnVfoRfapt5/pSXX/ukWCEBxOAJlwSdmIpx8h5l5fg4VY2pkUbdjUAx4yvQ27UANT2LG9ypXi2fRE3FdSowzxBgRMh6VhncmSNuo9Of30AaUXPjFi0dJx9hs8mFMQ6LlEh73TGO8kYewNXYvOIMF4HmLJJwwXa69ba1LetXKXqdnEzMuOA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656274595; bh=xYDBAwdCG4WfrvAxTIM6wwaXbJbhlXG4qZftUURel/y=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=TM8qUBtKqXu9Y+BLE7++Adw2a79eg0rzEQk2fYa+b+Fs6tWk2RkNSI8ujMKeA5BEc8VjpRwAdGOM626Ms5rA6TFZLLJjANfa9QYeF72/XOA12gTmuxKPdq/gtQ1p5BbqPlqx4PFStRYpVWgh8GR4GOsG2YMJVMv35nZCh7kMDe1lLUK/fJhRYWu+mNVM7hhI5ssl7DIe12vJfHPYvwmv1lMixajVDYUgBg+AaaPjETnC2yen1zmwnULDY49YLJk17r4gl6sEpeQrVzVoAAXwRTunDl1Q2+NpIZ2SNqnswetYE9FHRghewxzP0cfStOQ5SoMNedbq1zxrLaPX6GWCUw==
+X-YMail-OSG: CmikgxQVM1l7beezOZQ73Wuio7qXf8trtIbhYdGr90oqG4hSJGf9PhXi.OEx16S
+ WCRU2CYP0FDeaJ5eqQACf4GBOSiFZvV5Tv12KnbBrJjgt7j6a99dbQ92vA7xmFEd8IWDmDhhexWL
+ f.lWuGgflgB0VJoHUqX1R0e0QeQZpZ_mPq_dFneu3yviBal0YZThNmDOW1YrklcyWXoF3a.meQwM
+ Zw.S.OtHRhz_9_NbyADvS5p1fDBNqG1frpFqTBhADhbp3DX5BWhi7LYe6VHOvNenAOMuWOGTb775
+ ddxeZC6AfAE1JTPjIUGWCSis7sCzJekBU0KjDU7fCj5TTFli8.xO4WSJ7bv.S2xlHGMmcWoA1cEz
+ de5b5ciLK_093oUwZsueXztWszeYq3qudAh1xYv4Fs.ee0tgu60IFnFweaB2Xhw9RcRhhDKM62x6
+ VaZfXU0LgFw4WJPH7VATuU_TDZKIHtp1Tx8FbjVp9dlGG7_Sr7YjOQGYM6z_vFJMVScvzkZGtpPM
+ ZOwuZnR_fsy7mOEqJwQJZGNFM0JgMCO_wpTOQolHFx6WdyKHJCtzaOvSgeV6xm7XHTm.sRrTq5vK
+ OfXbg1i7zCX3GD0tpbkHLSmzgJ4BnfQbAH_dkM2qgFoxl7_cqeh7NZX0EQcW4GCIfN8Zpb7IzjVl
+ .dmeogIvRlXCC.SeO9LBypHI3iLcT3dzYEOvenSG5d.7ErsVD587vH85QaMK2PB_PpXm8AOKd04W
+ PNlDLsM24PfNOD6lVAyZ7aKCXduqlDSPBzIY093F6ICSTZXcWiCTMdGLKi8NGVX8GpSXLHxTu8vF
+ sGvpSnqsJ870TmJOkV2dK6J3JULJrSauPORv.8ldSlWgrGmAKf94Zx5L9RhDqPXJgQlA4ttK0pM8
+ XS_lCyC8P30hIW2gANpf0biaocZ18mPe2Bx4VYophuupppruy5P2G5rjXZ4WKGC_C.2vjf.nJuji
+ NHA1BvdM0LqEtE6.AYd5.UYiYj7ZEYeSXBN8xJwZj5bjC_vAxZZZa216ICjZu9Gst4dAk4sc4N4x
+ cDXXGgJe0cOLIOlUeI8u.J13yvRWNojxxg0XAc2TQc9GwAH_Dr0vtNmZ9e.Q7W.w9quOfyShxRcs
+ hSmOoatlSprY.3MYQXxk4atwIZEeZcXuWm3.P8bf.VqqR6kdtdlWHMdfFODLeO.fCLaUKdb3yoNB
+ bRPrpSMRuGe_RUx7O277nRRQDaC45neOxrZ6gN_tKGF1tL5pGNtGqKqwryC5KZTQOT6YAS9L8gps
+ Axn3dIW1tC2WsdQDTdMj9ZvcDdRRh60ib2Dfd9qVdEp7uSgO4AQnuidZFbIigSgEqO.yaFa.jnVA
+ 70SamavA7NJWY7_iWj6t2bvW_ZJrbnB_tgtnN01j7bU0Y96.Q0FEix6Szr9Fkapm7fMNJ37v56eF
+ 9uNcuF88712_WS4qyP5v3AsMtB7LgionbzqvRIXONMcFmY2fVHVJ3DFSZ37NYF6c3p3clWcHSazS
+ muwFCDUCTnNjUGQBaqvj2fILmdxNnZjMuLrLZ5uINtde0ArKgycGR1vTU8iFsaVyurdSANXP8uQ1
+ ZDDviP5xfBlJ6L4DhItXFJ0RSpIQ9NWKqdxtr_No3FRkotN5lws8GpUs5Hpc8j85EKehqq8pot0W
+ xfPKoyhaEpo4WRKFR_fJzMl348Z6jdPVbB.EoPQk0TIyJjX2730498cCpozpq.eiaf6g_47y6MrH
+ xEfDYhLMr2TnO0mCmQrhkGO9MUgIe4wq0KLINN8cD9Mti3m7j5hJ0QlKmfqE5vARw4cYYsZM6k_l
+ m_9TQiUMevud.8GCgv68dxyct5mn3748qaTQ_0UYHxYZyCHbphuUvccIP3ey1j.D2vU7zmLsuwqy
+ w7RM17m5SB7cr5A7zh9QrYWi.7ggNYRsoe7vqPKkd1hrTYQuYkWQbsFSeTa9VQW31YyuY_n2KunU
+ 3qaODyGpRvnehqQUZl_YbJJo6Zxs8gvgMUR86b0Hy.by5ouHaccMDU7J1GqsquEjsemR2Hn7Wa0C
+ 7.MGlMH6NUQWQ2ZAwN83T7LilCKL7LvnUYnCXUaQQeO7mneBJ_WZ.o3InWyED_KH7Pdi33jPHjJF
+ ExYE0l2cC86aNsN.H8w7e7BU8VtAKWAA0pZ2FWRzsyvOAXKsLH__zZ6ctupEVy6FyhRxtWg--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic313.consmr.mail.gq1.yahoo.com with HTTP; Sun, 26 Jun 2022 20:16:35 +0000
+Date: Sun, 26 Jun 2022 20:16:32 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bdincer66@icloud.com" <bdincer66@icloud.com>, 
+	"edi.civil.rights.division@irs.gov" <edi.civil.rights.division@irs.gov>, 
+	"eca_press@state.gov" <eca_press@state.gov>, 
+	"teschmann@mskyline.com" <teschmann@mskyline.com>, 
+	"18pctdvo@nypd.org" <18pctdvo@nypd.org>, 
+	"18pctyco@nypd.org" <18pctyco@nypd.org>, 
+	"cbrooks7@bloomberg.net" <cbrooks7@bloomberg.net>, 
+	"10pctdvo@nypd.org" <10pctdvo@nypd.org>, 
+	"Bloomberg L.P." <bbrief@bloomberg.net>, 
+	"1pctdvo@nypd.org" <1pctdvo@nypd.org>, 
+	"1pctyco@nypd.org" <1pctyco@nypd.org>, 
+	"23pctdvo@nypd.com" <23pctdvo@nypd.com>, 
+	"iceglobalnetwork-info@ice.com" <iceglobalnetwork-info@ice.com>, 
+	"23pctyco@nypd.org" <23pctyco@nypd.org>, 
+	"ksaperstein2@bloomberg.net" <ksaperstein2@bloomberg.net>, 
+	"dcaoletters@sec.gov" <dcaoletters@sec.gov>, 
+	"JPMCinvestorrelations@jpmchase.com" <JPMCinvestorrelations@jpmchase.com>, 
+	"10pctyco@nypd.org" <10pctyco@nypd.org>, 
+	BD <bondstrt@protonmail.com>, Chair <chair@sec.gov>, 
+	Tennesse <sbarchenger@tennessean.com>, Newyork <newyork@sec.gov>, 
+	MSRB <msrbsupport@msrb.org>, MSKYLINE <ANNE@thehighlandpartners.com>, 
+	BBO 121 <ms60710444266@yahoo.com>, 
+	"dallas-reserve-mgmt@dal.frb.org" <dallas-reserve-mgmt@dal.frb.org>, 
+	"ashley.humphrie@wilsonelser.com" <ashley.humphrie@wilsonelser.com>, 
+	"GSAMOnlineRequest@gs.com" <GSAMOnlineRequest@gs.com>, 
+	"blaw.content@bloomberg.net" <blaw.content@bloomberg.net>, 
+	"matthew.chase@lw.com" <matthew.chase@lw.com>, 
+	"marc.jaffe@lw.com" <marc.jaffe@lw.com>, 
+	"ofac_feedback@treasury.gov" <ofac_feedback@treasury.gov>, 
+	"dion.gaspard@nypd.org" <dion.gaspard@nypd.org>, 
+	"rosalyn.marcus@finra.org" <rosalyn.marcus@finra.org>, 
+	"legalasst@mskyline.com" <legalasst@mskyline.com>, 
+	"rebecca.coyle@statefarm.com" <rebecca.coyle@statefarm.com>, 
+	"garrett.marquis@bnymellon.com" <garrett.marquis@bnymellon.com>, 
+	"ted.banner@bnymellon.com" <ted.banner@bnymellon.com>, 
+	"CHICAGO@sec.gov" <CHICAGO@sec.gov>, 
+	"TEDHERMANSON@northmarq.com" <TEDHERMANSON@northmarq.com>, 
+	"amount@bressler.com" <amount@bressler.com>, 
+	"asksipc@sipc.org" <asksipc@sipc.org>, 
+	"efoia@fdic.gov" <efoia@fdic.gov>, 
+	"electronicfilings@ftc.gov" <electronicfilings@ftc.gov>, 
+	"gs@gs.com" <gs@gs.com>, 
+	"infor@solowresidential.com" <infor@solowresidential.com>, 
+	"LZUCKER@mskyline.com" <LZUCKER@mskyline.com>, 
+	"mshyld@bloomberg.net" <mshyld@bloomberg.net>, 
+	"newsoffice@mit.edu" <newsoffice@mit.edu>, 
+	"oca@sec.gov" <oca@sec.gov>, 
+	"privacypolicy@related.com" <privacypolicy@related.com>, 
+	"shareholderproposals@sec.gov" <shareholderproposals@sec.gov>, 
+	"slaskowitz@mskyline.com" <slaskowitz@mskyline.com>, 
+	"tips@insider.com" <tips@insider.com>, 
+	"tips@latimes.com" <tips@latimes.com>, 
+	"tips@nytimes.com" <tips@nytimes.com>, 
+	"tips@vibe.com" <tips@vibe.com>, 
+	"wmckenzie@nycourts.gov" <wmckenzie@nycourts.gov>, 
+	FTC ANTITRUST <antitrust@ftc.gov>, 
+	Brooklyn Tap House <tips@nypost.com>, 
+	CRC FTC REPORTS <crcmessages@ftc.gov>, 
+	CS TEAM <Activations@hutchmen.com>, 
+	BRIAN HODGSON <BRIAN.HODGSON.NYZ6@statefarm.com>, 
+	Debra Tama <debra.tama@wilsonelser.com>, 
+	Dian Zhu <dian.zhu@finra.org>, 
+	FOX ROTHSCHILD <JROSE@foxrothschild.com>, 
+	Paul Regan <legal@mskyline.com>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	Stephen O'Connell <sgo2107@adcu.columbia.edu>, 
+	Alan Morrison <ajm157@columbia.edu>, 
+	Alan Andreini <aandreini@fortress.com>, 
+	UNITED ARTISTS MUSIC <investorrelations@umusic.com>, 
+	UNIVERSAL EDITORIAL <investmentnews@editorial.investmentnews.com>, 
+	WILLIAM BEHR <william.behr@wilsonelser.com>, 
+	ZUCKER ORGANIZATION <jgiamboi@mskyline.com>, 
+	Bressler Info <INFO@bressler.com>, 
+	Finra Webmaster <webmaster@finra.org>, 
+	JAMES GORMAN <james.gorman@morganstanley.com>, 
+	Joseph Giamboi <joseph.giamboi@brooklaw.edu>, 
+	LA TIMES NEWSLETTERS <newsletters@latimes.com>, 
+	Lee Bollinger <bollinger@columbia.edu>, 
+	Lee Bollinger <officeofthepresident@columbia.edu>, 
+	Lori Semlies <lori.semlies@wilsonelser.com>, 
+	MATT HARVEY <mharvey13@bloomberg.net>, MATT LOWE <mlowe@fdic.gov>, 
+	MIKE DANILACK <MIKE.DANILACK@us.pwc.com>, 
+	Amy Hanrahan <amy.hanrahan@wilsonelser.com>, 
+	Alan Rubin <alan.rubin@wilsonelser.com>, 
+	PAM OLSON <PAM.OLSON@us.pwc.com>, 
+	PETER MERILL <PETER.MERILL@us.pwc.com>, 
+	"Lauren M. Zink" <lauren.zink@wilsonelser.com>, 
+	"executive_education@mailsvc.sloan.mit.edu" <executive_education@mailsvc.sloan.mit.edu>, 
+	"Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, 
+	"Roger R. Gottilla" <roger.gottilla@wilsonelser.com>
+Cc: "tedhermanson@northmarq.com" <tedhermanson@northmarq.com>, 
+	Jpetit <jpetit@mccarter.com>, 
+	"tmprosecutordocs@uspto.gov" <tmprosecutordocs@uspto.gov>, 
+	"tmc-corps@bloomberg.net" <tmc-corps@bloomberg.net>
+Message-ID: <280437441.445140.1656274592994@mail.yahoo.com>
+Subject: Re: Fwd: TAX EVASION link.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_445139_1823978329.1656274592993"
+References: <280437441.445140.1656274592994.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20280 YahooMailAndroidMobile
+Content-Length: 1179
+
+------=_Part_445139_1823978329.1656274592993
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+To=C2=A0
+My flashlight.=C2=A0
+
+Sent from Yahoo Mail on Android=20
+=20
+------=_Part_445139_1823978329.1656274592993
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<div id="yiv4581570381"><div id="yiv4581570381"><div id="yMail_cursorElementTracker_1656274580465">To&nbsp;</div><div id="yMail_cursorElementTracker_1656274582675"><br></div><div id="yMail_cursorElementTracker_1656274582884">My flashlight.&nbsp;<br clear="none"><br clear="none"><div id="yiv4581570381ymail_android_signature"><a rel="nofollow noopener noreferrer" shape="rect" id="yiv4581570381ymail_android_signature_link" target="_blank" href="https://go.onelink.me/107872968?pid=InProduct&amp;c=Global_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=ym&amp;af_sub1=Internal&amp;af_sub2=Global_YGrowth&amp;af_sub3=EmailSignature">Sent from Yahoo Mail on Android</a></div> <br clear="none"> <div id="yiv4581570381yqt53005" class="yiv4581570381yqt4925793934 yiv4581570381yQTDBase"></div></div></div></div>
+------=_Part_445139_1823978329.1656274592993--
