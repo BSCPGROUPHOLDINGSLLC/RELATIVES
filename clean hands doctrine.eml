@@ -1,0 +1,325 @@
+From - Sun Apr 17 11:39:26 2022
+X-Account-Key: account1
+X-UIDL: AJdL5Toh4XSlYkkKEAkrqL5TJV0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.202
+ by atlas317.free.mail.bf1.yahoo.com with HTTPS; Sun, 3 Apr 2022 02:44:32 +0000
+Return-Path: <cockarens@vouchersrus.org>
+X-Originating-Ip: [64.147.123.27]
+Received-SPF: pass (domain of vouchersrus.org designates 64.147.123.27 as permitted sender)
+Authentication-Results: atlas317.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@vouchersrus.org header.s=fm1;
+ dkim=pass header.i=@messagingengine.com header.s=fm3;
+ spf=pass smtp.mailfrom=vouchersrus.org;
+ dmarc=unknown header.from=vouchersrus.org;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 3 Apr 2022 02:44:32 +0000
+X-YMailISG: PGNm3wAWLDsPvWGf57KKO8KWUWDeWW13ku1Dt8XZSpSCRIss
+ VeUhxodhvFV4UZcDtvbf9lgbJpFMepN5.VhaOaGJQKej8aGseZDby7DMlQBN
+ Qe865.CzMRpiOb9CeIELKn.1kCET5JKtrRn6uI.e.omj4ap3pAABcDVm6_Q0
+ e6Vk21UN0IbrX56xQOF02vJOqpx9u4R_Q9P5CkkIP30TJkTiTlqHc5orcaHz
+ YTEAym24TlStXYuQ7zoXde3qW10CdffvyvM9MNMtpu2sl0C2XB2RhV8e75ur
+ wVyjyu5LmaJGhsYm3jig80ZulUG7h7kjVOiEuFg.Jv1mo8C3guE62gLrptYG
+ hQPKzmiS4ADsZb2naD21RokjqlW6785pkFgY0C4UMAQqBvTiv22_H3365_fZ
+ UGv1We5F04qIkxWclIHgv9my1YGd5p3whwnz1C.ZhOsu5rUSys96zDYeLW82
+ 7pfXKlKNpsMTKKBq6BzcEcnj2h1NTX.FME0F4Pa4vjjI3ndksx9q29Ox08gs
+ NQamEd_iePMA47I68.QbcpYoOLCyLmnhJDK0bC84TpivPMsF6kbTf31XF5fj
+ 1vvrFDnBs4ydZh3ii9yxodiPSlMihoW3tJwM4cmqJTAgraDmpA.9SdkL17Wj
+ PkVsytk7ujDem5_wsgjuid_xJ1nicjw_ZW.vW4NgE5PD7.LmfxToz3S4mX3w
+ wEfLqL5AGpUnqucqcPMHIn6Yht8nBKVQfGVGWMwELSbm0PzbW2MGF7KvwHZ7
+ LVVYYH5_SEZx3jIRyB7Z1HXdCHcAMPJQEhsTr8rQSfDt4DLOLZKOghvuh0EZ
+ 95RsacTuj0DoM6cg5wDyYSgZCYfVjswbruvAuRAS1V.dfP5PSICNiHuUVQ4z
+ BhoLDMUWN4XG_1687Y2lWaqM2rFhOSuhtQY7Y8Raj1J3R9c3LHrc3CcGy26_
+ 8JP1dJ0cPEhTtbMmO8MuRhBiOVGcNg8BAzRiUag.LhVKZRMz3d9L0LxFFM1p
+ qyyrtvJ0veU9X3H9YCxesPC0zcTj.Sq2O77pTDA4M1NwcBnVorifQBQjVgiG
+ 1jf3oLEk8p66Mxq5CwYFZA3m501X_3ThyKANY.iU1w33N_v2jgW2ICrYwXoF
+ y5VaMOLJfvQxDgm0FvvxayS9YyvBuQfgyflRLHm3I.RkpNhNwZE3LCvb24ef
+ vjtakmCbxW5sHOm8skz6IjNIvvGzBfKZqGv2ku2zS5hhIFfcIF1fLgEzLseH
+ ZfmCblpYZkyqXX00FBKzxiYTqwnbGOxgKR8F5A--
+Received: from 64.147.123.27 (EHLO wnew2-smtp.messagingengine.com)
+ by 10.197.36.202 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 03 Apr 2022 02:44:32 +0000
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	by mailnew.west.internal (Postfix) with ESMTP id A7B3F2B0019D;
+	Sat,  2 Apr 2022 22:44:30 -0400 (EDT)
+Received: from mailfrontend2 ([10.202.2.163])
+  by compute4.internal (MEProxy); Sat, 02 Apr 2022 22:44:31 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=vouchersrus.org;
+	 h=cc:cc:content-type:date:date:from:from:in-reply-to:message-id
+	:mime-version:reply-to:sender:subject:subject:to:to; s=fm1; bh=p
+	knnTYDdXSVMdJjpVCEblU7p1eq+Re/qt24nA5ubxmU=; b=qo5keCPIM9oD2BSia
+	5jcurnchJAebqWkY6khQaAvqb1jgjH5bqwGYBX20SHz+i9AyQcYlC6G8sY7/1SGa
+	SRifEU+vm1I+Kf4j7hVlJWyp/kGarYdXIeNUla5oAEN1q9TjDt2G0CSdfTIzymck
+	p/4WyHbizZc9h52LBe7uT8sUEA1lvuWCvlg1eLY5jAxl6hXKC2j2dh1yjOO/KTJc
+	Q+P8UXU2b8c03hd9qGFzNV4hMhr3EJo5igSbCziyGgBsGpABmx/hU7sWmHjWAYmL
+	2KfGyv+11U4Hyx6XgR/hPkgfhfuQ64exPvo8dj3fK3xJ1vVGUD/dI6JZtMORrKLv
+	0O/vg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=
+	messagingengine.com; h=cc:cc:content-type:date:date:from:from
+	:in-reply-to:message-id:mime-version:reply-to:sender:subject
+	:subject:to:to:x-me-proxy:x-me-proxy:x-me-sender:x-me-sender
+	:x-sasl-enc; s=fm3; bh=pknnTYDdXSVMdJjpVCEblU7p1eq+Re/qt24nA5ubx
+	mU=; b=dAI2D9v/EvRBTfXIM83dh2qbSvMzxVKuwVosoQsurH/Ynezr1QrpmXQND
+	y8kRaczyE778Ggjqsqd6rLVHEcxUaCdUZieiEr5ok4/E99fvbDXH5dLTyF9Epe4/
+	sDscBAA5MilNSRsHKig7wrNAvsahvxOxCQsnNSpNBMlj3dLnqH1s1Kx8rh2UzMtW
+	MmVfnYIv/kYywMwsPDOW0NGZf5Her3CC8/onqppu2x0V/9aZ1Z119K2EfunBvgfA
+	Q7Kx1DUKPTW2VsMPSrOKJZOyzTGuzHC1qUxR3DwVQ6JsMrjf6Fhz5MAIGzuryWFb
+	ZywUZhjMBZEMDnmiQQJfbHqjv4mXQ==
+X-ME-Sender: <xms:DQpJYkqkRTg18Cq5F8Vmvuqx6IxcKciRm8jhNLjxrYU0WIV9OUK4NQ>
+    <xme:DQpJYqqLb2_fvFpKfRKF8j8Ya0XTSl0i5LsjmUyvFAR3mrJMOgK5DnvzeUCReLsRs
+    EnSSumsL9RgSssqQ2I>
+X-ME-Received: <xmr:DQpJYpOLEc5zeHdyYnsNlOJ69oCMhx-yXexVGJ0O8tmV7ljhL4pHNNl4Svz8nybW>
+X-ME-Proxy-Cause: gggruggvucftvghtrhhoucdtuddrgedvvddrudeiledgheelucetufdoteggodetrfdotf
+    fvucfrrhhofhhilhgvmecuhfgrshhtofgrihhlpdfqfgfvpdfurfetoffkrfgpnffqhgen
+    uceurghilhhouhhtmecufedttdenucesvcftvggtihhpihgvnhhtshculddquddttddmne
+    dhkfhnvhhishhisghlvgcufihorhgushculdehtddmnecujfgurheptgfkffggfgfhuffv
+    segrtderredtfeejnecuhfhrohhmpeghohhrkhcuoegtohgtkhgrrhgvnhhssehvohhutg
+    hhvghrshhruhhsrdhorhhgqeenucggtffrrghtthgvrhhnpeegheeiffdvkeffhffhvdej
+    tdetkeejtedukeetheejgeegueetgefghfehveetgeenucevlhhushhtvghrufhiiigvpe
+    dtnecurfgrrhgrmhepmhgrihhlfhhrohhmpegtohgtkhgrrhgvnhhssehvohhutghhvghr
+    shhruhhsrdhorhhg
+X-ME-Proxy: <xmx:DQpJYr7rReu7bQ_FHygGELAqLpZ155aU8sGGCfL_poIPM0ibXcxkeA>
+    <xmx:DQpJYj7Y_VFT4yo0iSVxHvsXFIDpqTcYLDY3pz4mkrTjIUgdz0u2yQ>
+    <xmx:DQpJYrhia5cjrjkXaY-K77tow8JAdjlVvnpfLpG3vjKM-BQUsrHCJA>
+    <xmx:DgpJYjFvyLp0X5sz-FN4dFiNgdzIcRbrNslU0WyVaZSEn6p0ELkK6owyG5o>
+Received: by mail.messagingengine.com (Postfix) with ESMTPA; Sat,
+ 2 Apr 2022 22:44:29 -0400 (EDT)
+Content-Type: multipart/alternative;
+ boundary="------------ct4IDwKr0LzV9U0O8UkaCCN9"
+Message-ID: <18eb952f-2606-b718-177d-5232961f1d30@vouchersrus.org>
+Date: Sat, 2 Apr 2022 21:44:12 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Content-Language: en-US
+From: Work <cockarens@vouchersrus.org>
+Subject: clean hands doctrine
+To: MILTON MCKENZIE <MS60710444266@YAHOO.COM>,
+ Bo Dincer <bdincer66@icloud.com>
+Cc: edincer54@gmail.com, ERDINC.DINCER@BNYMELLON.COM
+Content-Length: 12836
+
+This is a multi-part message in MIME format.
+--------------ct4IDwKr0LzV9U0O8UkaCCN9
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+     here is the information chapter headings from a prior.
+
+     I got something for you as well.
+
+equitable estoppel
+
+n. where a court will not grant a judgment or other legal relief to a 
+party who has not acted fairly; for example, by having made false 
+representations or concealing material facts from the other party. This 
+illustrates the legal maxim: "he who seeks equity, must do equity." 
+Example: Larry Landlord rents space to Dora Dressmaker in his shopping 
+center but falsely tells her a Sears store will be a tenant and will 
+draw customers to the project. He does not tell her a new freeway is 
+going to divert traffic from the center. When she fails to pay her rent 
+due to lack of business, Landlord sues her for breach of lease. 
+Dressmaker may claim he is equitably estopped.
+
+clean hands doctrine
+
+n. a rule of law that a person coming to court with a lawsuit or 
+petition for a court order must be free from unfair conduct (have "clean 
+hands" or not have done anything wrong) in regard to the subject matter 
+of his/her claim. His/her activities not involved in the legal action 
+can be abominable because they are considered irrelevant. As an 
+affirmative defense (positive response) a defendant might claim the 
+plaintiff (party suing him/her) has a "lack of clean hands" or "violates 
+the clean hands doctrine" because the plaintiff has misled the defendant 
+or has done something wrong regarding the matter under consideration. 
+Example: A former partner sues on a claim that he was owed money on a 
+consulting contract with the partnership when he left, but the defense 
+states that the plaintiff (party suing) has tried to get customers from 
+the partnership by spreading untrue stories about the remaining 
+partner's business practices.
+
+collateral estoppel
+
+n. the situation in which a judgment in one case prevents (estops) a 
+party to that suit from trying to litigate the issue in another legal 
+action. In effect, once decided, the parties are permanently bound by 
+that ruling.
+
+    Just give me moment I texted you our hotel was vacated by the fire 
+department - remember that ok.
+
+--------------ct4IDwKr0LzV9U0O8UkaCCN9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <p>    here is the information chapter headings from a prior.</p>
+    <p>    I got something for you as well.</p>
+    <p class="text" style="box-sizing: border-box;
+      -webkit-font-smoothing: antialiased; margin: 0px 0px 10px;
+      font-size: 13px; line-height: 20px; text-align: left; color:
+      rgb(0, 0, 0); font-family: Roboto, sans-serif; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+      0px; text-transform: none; white-space: normal; widows: 2;
+      word-spacing: 0px; -webkit-text-stroke-width: 0px;
+      background-color: rgb(255, 255, 255); text-decoration-thickness:
+      initial; text-decoration-style: initial; text-decoration-color:
+      initial;"><span class="definedword" style="box-sizing: border-box;
+        -webkit-font-smoothing: antialiased; font-size: 18px;
+        font-family: Arial, Verdana, sans-serif; font-weight: bold;
+        color: rgb(30, 63, 122); line-height: 23px; text-decoration:
+        none; font-style: normal; font-variant-ligatures: normal;
+        font-variant-caps: normal; letter-spacing: normal; orphans: 2;
+        text-align: left; text-indent: 0px; text-transform: none;
+        white-space: normal; widows: 2; word-spacing: 0px;
+        -webkit-text-stroke-width: 0px; background-color: rgb(255, 255,
+        255);">equitable estoppel</span><br style="box-sizing:
+        border-box; -webkit-font-smoothing: antialiased; color: rgb(0,
+        0, 0); font-family: Roboto, sans-serif; font-size: 14px;
+        font-style: normal; font-variant-ligatures: normal;
+        font-variant-caps: normal; font-weight: 400; letter-spacing:
+        normal; orphans: 2; text-align: left; text-indent: 0px;
+        text-transform: none; white-space: normal; widows: 2;
+        word-spacing: 0px; -webkit-text-stroke-width: 0px;
+        background-color: rgb(255, 255, 255); text-decoration-thickness:
+        initial; text-decoration-style: initial; text-decoration-color:
+        initial;">
+    </p>
+    <p class="text" style="box-sizing: border-box;
+      -webkit-font-smoothing: antialiased; margin: 0px 0px 10px;
+      font-size: 13px; line-height: 20px; text-align: left; color:
+      rgb(0, 0, 0); font-family: Roboto, sans-serif; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+      0px; text-transform: none; white-space: normal; widows: 2;
+      word-spacing: 0px; -webkit-text-stroke-width: 0px;
+      background-color: rgb(255, 255, 255); text-decoration-thickness:
+      initial; text-decoration-style: initial; text-decoration-color:
+      initial;">n. where a court will not grant a judgment or other
+      legal relief to a party who has not acted fairly; for example, by
+      having made false representations or concealing material facts
+      from the other party. This illustrates the legal maxim: "he who
+      seeks equity, must do equity." Example: Larry Landlord rents space
+      to Dora Dressmaker in his shopping center but falsely tells her a
+      Sears store will be a tenant and will draw customers to the
+      project. He does not tell her a new freeway is going to divert
+      traffic from the center. When she fails to pay her rent due to
+      lack of business, Landlord sues her for breach of lease.
+      Dressmaker may claim he is equitably estopped.</p>
+    <p class="text" style="box-sizing: border-box;
+      -webkit-font-smoothing: antialiased; margin: 0px 0px 10px;
+      font-size: 13px; line-height: 20px; text-align: left; color:
+      rgb(0, 0, 0); font-family: Roboto, sans-serif; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+      0px; text-transform: none; white-space: normal; widows: 2;
+      word-spacing: 0px; -webkit-text-stroke-width: 0px;
+      background-color: rgb(255, 255, 255); text-decoration-thickness:
+      initial; text-decoration-style: initial; text-decoration-color:
+      initial;"><span class="definedword" style="box-sizing: border-box;
+        -webkit-font-smoothing: antialiased; font-size: 18px;
+        font-family: Arial, Verdana, sans-serif; font-weight: bold;
+        color: rgb(30, 63, 122); line-height: 23px; text-decoration:
+        none; font-style: normal; font-variant-ligatures: normal;
+        font-variant-caps: normal; letter-spacing: normal; orphans: 2;
+        text-align: left; text-indent: 0px; text-transform: none;
+        white-space: normal; widows: 2; word-spacing: 0px;
+        -webkit-text-stroke-width: 0px; background-color: rgb(255, 255,
+        255);">clean hands doctrine</span><br style="box-sizing:
+        border-box; -webkit-font-smoothing: antialiased; color: rgb(0,
+        0, 0); font-family: Roboto, sans-serif; font-size: 14px;
+        font-style: normal; font-variant-ligatures: normal;
+        font-variant-caps: normal; font-weight: 400; letter-spacing:
+        normal; orphans: 2; text-align: left; text-indent: 0px;
+        text-transform: none; white-space: normal; widows: 2;
+        word-spacing: 0px; -webkit-text-stroke-width: 0px;
+        background-color: rgb(255, 255, 255); text-decoration-thickness:
+        initial; text-decoration-style: initial; text-decoration-color:
+        initial;">
+    </p>
+    <p class="text" style="box-sizing: border-box;
+      -webkit-font-smoothing: antialiased; margin: 0px 0px 10px;
+      font-size: 13px; line-height: 20px; text-align: left; color:
+      rgb(0, 0, 0); font-family: Roboto, sans-serif; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+      0px; text-transform: none; white-space: normal; widows: 2;
+      word-spacing: 0px; -webkit-text-stroke-width: 0px;
+      background-color: rgb(255, 255, 255); text-decoration-thickness:
+      initial; text-decoration-style: initial; text-decoration-color:
+      initial;">n. a rule of law that a person coming to court with a
+      lawsuit or petition for a court order must be free from unfair
+      conduct (have "clean hands" or not have done anything wrong) in
+      regard to the subject matter of his/her claim. His/her activities
+      not involved in the legal action can be abominable because they
+      are considered irrelevant. As an affirmative defense (positive
+      response) a defendant might claim the plaintiff (party suing
+      him/her) has a "lack of clean hands" or "violates the clean hands
+      doctrine" because the plaintiff has misled the defendant or has
+      done something wrong regarding the matter under consideration.
+      Example: A former partner sues on a claim that he was owed money
+      on a consulting contract with the partnership when he left, but
+      the defense states that the plaintiff (party suing) has tried to
+      get customers from the partnership by spreading untrue stories
+      about the remaining partner's business practices.</p>
+    <p class="text" style="box-sizing: border-box;
+      -webkit-font-smoothing: antialiased; margin: 0px 0px 10px;
+      font-size: 13px; line-height: 20px; text-align: left; color:
+      rgb(0, 0, 0); font-family: Roboto, sans-serif; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+      0px; text-transform: none; white-space: normal; widows: 2;
+      word-spacing: 0px; -webkit-text-stroke-width: 0px;
+      background-color: rgb(255, 255, 255); text-decoration-thickness:
+      initial; text-decoration-style: initial; text-decoration-color:
+      initial;"><span class="definedword" style="box-sizing: border-box;
+        -webkit-font-smoothing: antialiased; font-size: 18px;
+        font-family: Arial, Verdana, sans-serif; font-weight: bold;
+        color: rgb(30, 63, 122); line-height: 23px; text-decoration:
+        none; font-style: normal; font-variant-ligatures: normal;
+        font-variant-caps: normal; letter-spacing: normal; orphans: 2;
+        text-align: left; text-indent: 0px; text-transform: none;
+        white-space: normal; widows: 2; word-spacing: 0px;
+        -webkit-text-stroke-width: 0px; background-color: rgb(255, 255,
+        255);">collateral estoppel</span><br style="box-sizing:
+        border-box; -webkit-font-smoothing: antialiased; color: rgb(0,
+        0, 0); font-family: Roboto, sans-serif; font-size: 14px;
+        font-style: normal; font-variant-ligatures: normal;
+        font-variant-caps: normal; font-weight: 400; letter-spacing:
+        normal; orphans: 2; text-align: left; text-indent: 0px;
+        text-transform: none; white-space: normal; widows: 2;
+        word-spacing: 0px; -webkit-text-stroke-width: 0px;
+        background-color: rgb(255, 255, 255); text-decoration-thickness:
+        initial; text-decoration-style: initial; text-decoration-color:
+        initial;">
+    </p>
+    <p class="text" style="box-sizing: border-box;
+      -webkit-font-smoothing: antialiased; margin: 0px 0px 10px;
+      font-size: 13px; line-height: 20px; text-align: left; color:
+      rgb(0, 0, 0); font-family: Roboto, sans-serif; font-style: normal;
+      font-variant-ligatures: normal; font-variant-caps: normal;
+      font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:
+      0px; text-transform: none; white-space: normal; widows: 2;
+      word-spacing: 0px; -webkit-text-stroke-width: 0px;
+      background-color: rgb(255, 255, 255); text-decoration-thickness:
+      initial; text-decoration-style: initial; text-decoration-color:
+      initial;">n. the situation in which a judgment in one case
+      prevents (estops) a party to that suit from trying to litigate the
+      issue in another legal action. In effect, once decided, the
+      parties are permanently bound by that ruling.<br>
+      <font color="#ffffff"><br>
+      </font></p>
+    <p><font color="#ffffff">   Just give me moment I texted you our
+        hotel was vacated by the fire department - remember that ok.</font></p>
+  </body>
+</html>
+
+--------------ct4IDwKr0LzV9U0O8UkaCCN9--
