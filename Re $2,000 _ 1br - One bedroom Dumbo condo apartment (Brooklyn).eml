@@ -1,0 +1,447 @@
+From - Sat May 21 02:52:10 2022
+X-Account-Key: account1
+X-UIDL: ABWLlt0QEuWKYoiKMgqa2KUVOcg
+X-Mozilla-Status: 1015
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.213.170.250
+ by atlas316.free.mail.gq1.yahoo.com with HTTPS; Sat, 21 May 2022 06:44:02 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.131.40]
+Received-SPF: pass (domain of yahoo.com designates 74.6.131.40 as permitted sender)
+Authentication-Results: atlas316.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 21 May 2022 06:44:02 +0000
+X-YMailAVSC: cPULl4Y3bBt4aMWnGevF8NqQUlwUXK7K.VF.M5rYM0z7_oZ
+ 0p9NbYnQcRFoxiGZBxIIYuh9BjXc2n0oVYygkWfXu89eWWB0rRDF9DBBauVQ
+ CiCcQTKoWcMTYZ1u_mvBq0Zk8.BpnkwI_aGE01WeHvB_oS83UdnnIW3nK7ok
+ O88dTMf6Eog8L5JcKEIsCGKtcD8IVhfTPY3yxW4c4TacV40yM9GUcojDNpFL
+ bUCRKU5JZ5pSkH41jnvc.51sFkVaCXAHHOX5UZsnpfU.LzUiLMkvprV9D_kU
+ UiODULkShs42fSlLz3W6pYSh5AGnJJSF3R.l9ltm_smUWykjvldxHSOSP7J3
+ N
+X-YMailISG: ZEoFBP8WLDt78v7GSee6d17Fwzn75Y8TU6AUKLSmxIVDZNP4
+ G_1EhDShAq_dp69R637RvnE9iDfV0.yp0EBs1YLpDwEYGJdBvEibE7KFqVpH
+ Qn3bO4QukEAoXZwBWqsxAiX07zS7ZnGpu.1xpmnfWkgCWsmklm4mr38BuFMJ
+ QrIrf8V9HYqeoxfCT1SNEb0hl0FD_P_NBhqQH331nWLf7wSCgSSrQQmLa80q
+ X2jEeQYA.NrOjB1O04_NW1DSnhgDqoodzHyoMxPpew3qE9sk1S0VU.w.hXFj
+ 7mfVpoPTd39vfDzIE2t9L8UdIRMSTb9CAZ_oOITNU8dKq7n.pTzci.Ec7A3w
+ v_lcwqYp9AJCjACMkDzR4KdsTJi6.Y7cXqaAu5N_IjML_i4ALLzDbZQOorDU
+ gnLsys45U2wajcG6aJWg9gnUJ1VWkhgAIzlmaT58ZHTaK8yXPEcNE3rtDM91
+ jt7lqWqJ76T____y_ONkHdtmH3P8PjpPeLGN7_jt7lngEE.IWVtNJ._VlStU
+ z2t6k3mnM.X6YiUTYPkpMoCDI0VS0.PoxiFNR7FvSYAvDF_otHLdOILHJEpR
+ Gf98oqk4qklzWNEp7u5mHe11w9.drp9pdF5YxolRSTCHeel1N.EfkZR_iaD1
+ SVaBXJQK60mgNby7JUaMrySo8kUgI0aDg1hmoHCC6eSHoqvfmKJ1o.deWLJc
+ 9NDRKYh9XNoK_LvbxntmDpruapFKR5EPa7UL6TBfsqxPc8A7.eiRuz2mOIc7
+ 6.kKWPbGa7MtD5ymSszV.q5aL8NxvX316qh6EfBTDWAMSf.qtHRmMWUY1HQb
+ 0QSdIHHGTmkHoM21k7nSGTZvMa_M26PDGCf_kh4ws0Pm59BgYlnrUtU4D1Dw
+ Azh6gR3O0jlzY.iNyjNTuJQeZJ8sPfb5pw41WiM.a6ZcZBW1srzE9EgjE9jO
+ cAGQKtMWtEVg8pzpem4qMPRUYJJ7acDhDtTJxBf0bXqXsaMpn7RYPmMZFRxY
+ oQN74c8cqEKtd73RNWRsO7n2yJWRUTqA5OpQLIfiDqUFV24unFYcsoo.YWHu
+ FDDD1w1.8eb7TbOqzcsvwmQV3Eick.vDtW1vE638pb4.55UbCJSuCziFCBz_
+ GCsAucMpOiwNlYoufJVW9w3ytfoPnqYeOV2mCr.p_SWvnWFQcCsbeRlXncUK
+ _w--
+Received: from 74.6.131.40 (EHLO sonic303-1.consmr.mail.bf2.yahoo.com)
+ by 10.213.170.250 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 21 May 2022 06:44:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653115441; bh=Em1q18IxmLLVDik3fubdCZNDUQ2tm0PnfPay/+E6k5U=; h=Date:Subject:To:References:From:In-Reply-To:From:Subject:Reply-To; b=ki74uiaMhKoyJdc8t0wAJM3oicBJwW98GWud7jTDXGWlWvUzdo8p35l0uAOCA+xhhb6Hl86qAUIkT5X+X1kL7l9FDNxyf2298vIMNyrU7gGeXK9mYLr7igRkXgGcM8TS7iwKHb1HSabLeL/syTaGm2JUKvpzxpg2gQQtOO6Aygxf6yvPZLOzMY2UdbmtBsIXNG5ZXxy/BX73cbh4+rovjRb7nPjPEVWaPASBKyhDtpcmYuntJ7GQfQLs9ShgCBxiFrJ9j9fYfTatzwWRYQBEl8/MnLNJl2mx9iuGSfX7IKUBjZfyTx9vPV5fRf15zG+nZBwwAtSpG9UUIdA65n8ShA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653115441; bh=F7AUzhR2yCw7eR+OI07+YMmOCiquZZTimTJZkAB4TTI=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=eIYZIsh3q8D7u8lPqaFYMHESVkkWV2qrcNrHiFGmM4WmWvC5Zv3YzA98KSUbc8Gf/XYfwKh6Sv8+XjFRKFxNlD8KSazK+v/dOEphLlhyXDJQzpUFPoZywkfKIEnZkNw+1MfRl7f87KkRJ1+NTCgpAOMFp3RVuj04G5cbEzocUNo8RBTQUuYamk0VLSnfd0gQzbUVTz+ig3tyX8A1U4xgWGvuzpRx30Fc/elAkVfl0pbJf4sT7SjC0+TuxfVEpvRlnvM1TWq17kwc/lwE/ZD3W6ft6egvkEWXdYTv6c3n9vB0JfdQdLU3HEgXEl8VK6W5a0u+jzewgH6fl2KjpehXlA==
+X-YMail-OSG: 4ipVwD8VM1nKbeMCa01f2nU_ePWHAb3i1et0tdmknQ8qcZnia6ZI63C1lrdMtl7
+ puq1Xy7DPy6UB7xD44S7bHe1e2fAElL_vaSP7ofercR6qNxo.iW34T47Yco2lbvCVKK2BHHrqYPW
+ ICyyNsqvLb0oukCNKSRuGTQs59YAXj2Ryf1nTT7kPLGiR2sGEKPGolX_bQhfbleySVodmRJpOLuZ
+ tt2YCEd_lO0viEVpE.Kk1AePutyutk9gd7Nd4ZPYJwZUivIN80IlhBZJjBcLmwCYGEBOWMWKLq8l
+ T9etx.bt963XwogywfY5HO_lZAU_B8fyUg0X_kw2rk3uNSw_woVsl6gXsxlIut8hREE6vWh.103x
+ ojQ.cCbkYBJ8satmpzPXG3HgNcoOOljCm8hCEb8foYbJqL4Sd5HYTIsexJhjCLQc54vjPF1wPySp
+ PvjbSxlfYttm3h8QpET0NTaP.Gwoo4rxjW_BCZE51Op9FDKSi_bhlIICuZWwLkCbmnd6tWxOgk.2
+ xB1oyusoPZB4M53aaZ6XSkHrWlr.2VbfHPf8EjUtlw1ywYe0FpENPOCWTBZs6hXuUXwhZstWzEA2
+ LIKfuWZ9XybB9VUETvE4Ttu3tWcZjLH4ooaXNTt4WKciqT7e9PVPfNhMqCsimcmqf3aXOw387AQK
+ FMogxOXi3HNN60bcT1YRowraXxc.nw9y.E9ugpH_iV43aEhD6ovfZ1y15cJnrDg4axu08MC_92tD
+ K7ZxOSlq6FTPWTA09pm26aBnUt6MrWnsiWNZm1Om9pTiYEcB.swvPlrsLTSV.ubBUn6ibYJofVzB
+ JHGQut6d1LwaOdr3JnXtcYznjeelOa6nnS2VZAizEx.ao3JdUqJaKtJqKlRDtLOyy6c2s1UPp0kC
+ 1JgWR7EzGxyp_7WWBY54ZWrB19A36zV3fUwJjW0fn2d0_xfizqH3k5jf.vEPDH..HLaz4qScFbkQ
+ gm5yD0QPbxtzE4fx8d_Gs9Q4QF7HedmbP8sq3oKBt7OzuJb28mK3umXnTpvDPRsD0M4ME_saHver
+ _CmhV1QE.PiBF9SOrmsZay0qWQ3m6XHd1j5e5XDn69D94G8n_JuNbxVZFbbgrBtYAVk_VNr2.hlL
+ HOzUQRefVi27R.RE_sJU0x0cKsCFblTbW53anGUvqPaR0k4TsrReLU0d1tgyn_ifQHJnFzRWpPFp
+ 4Ynmzikiz4gOCmZ1A0zhBANS2W6hPmoTNHegjWrWH.q7fAA0Rub8BkKFQj9sqG.mdS7MDjpbqc9J
+ fOMGpfJONjh9eEU6saF6rWLIF0GpC_9Z2xcR97oURLh_TG.h6JXcWTAf_xeR4AwBLUXRQqm_kiSr
+ 3jT3UcCCVHhTNxU3Ly3BSLWaa62KxFGbVCsxJLTJ0r6H4IZdo.A0Jt72UxaQh1I0bGRLJuRL_HT9
+ t4IScqZ5FlwJO2Lx1lN8pCzPsZGlE8ikpH49KPwE1SkAmdMrS31SQS16ZPA_PeC.kPbUcZ6eqetL
+ GNWCwStawZktJQKwfucoK1crkc07TZ2pkH2FCimb.JnGlK6KRZYXExGJerfdjjRh5mm3c25ixUNF
+ SyOq1uZmD0HXkOLzAMjw6jJOJtRoAK4bDlDrBhLOija3mC45YEQM4jIvPy6W4C0FSvRFQhCr4oO6
+ QEu4VOCpk5pc269T0gD6iyma9j0kwJlWp1xIIlpMzFr_BVTUbYCYutXDTJDaxZHAZZibrvkMlsNv
+ QodeAC0WJ7QLxYHfOYEWZ4DSsZ01Sg81f6eMbEPsObmMgLzFR2qJF3kzwjD1PTcyDEPS9X55Rnfa
+ gDJBcZUVM4YykERT5QZIqSfJsWpxOV9.0rde3gKN_rUEcBZRyoOqlzZ0Npm0756hoeWNX7suS3DU
+ S1uXvRVaahB0wxxz023KhEq_nZwqBHtI9ByBry.v13zFYL4MXcAc1hg9gKeRGAkM7HdcSczjXlAi
+ 4zHnzc6AWHNb4Q4mkkasdRz4nfrzzOtg6xWkGSPDS9qL_cARoYNUlqAEgNlj5EN4A4tNix4_QZ71
+ K.xawtcMexNNdNr.w1vsS6y0yfZ1x2pHoruVUnHWLqIXjBQddIyibNUcbvIkU2U8Skp5kozjk7Ol
+ XAtgiwPfadTeOcO_jtE8UH7dGZjK5cWvj6B3ffbgU30yaIs4AHFVJp40zlAFwfts.khg_efmap5q
+ Dj99kL_tpnXvCIrkLBrrS_lJEIul7ycgCDRyTZnnYx0k_pzFxMFFp7lOlHwiI4nrmu45k_xupHJC
+ HUsbnle6Km4HWxfTJ5AFVZdK7aHNYS2EF9oKGiu4vFDi1_qXmJ7geF_iy43RsreTDpwl7mptQZWU
+ CmrShACxzlX.fMsLOZognZL00Jg--
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.bf2.yahoo.com with HTTP; Sat, 21 May 2022 06:44:01 +0000
+Received: by hermes--canary-production-ne1-5495f4d555-h6hfl (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 7adb5c4b604e0a077d1fa299c0df86d4;
+          Sat, 21 May 2022 06:43:55 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------VeI6MhhI4z03g3uPQYWjQBEf"
+Message-ID: <803782f5-0adf-cac1-25f0-feb047d1870a@yahoo.com>
+Date: Sat, 21 May 2022 02:43:38 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Subject: Re: $2,000 / 1br - One bedroom Dumbo condo apartment (Brooklyn)
+Content-Language: en-US
+To: craigslist 7485405195
+ <2a9bd3753d2e31fca72dd7c7ca44f050@hous.craigslist.org>
+References: <269091d7-ae4e-0dcd-f554-979f9e051998.ref@yahoo.com>
+ <269091d7-ae4e-0dcd-f554-979f9e051998@yahoo.com>
+ <GnBBNsR5aQKTARjJXhZvLxbAxQhrPh6WgCJ7lfT9-Kmk7Snkf4mf-m9RBvwT0FFiIcVIkTyu7XmA2VPA6UabG_K6eRCd9HYxYOkXp2WTrU0@v2.cl.com>
+ <56aa4f07-74ae-e61b-8232-87ca2b9af2a4@yahoo.com>
+ <JvD8ajXwB4VYbQpxf0M5L0M-SvonC9009J4VYKp23LJCgMyiEDZN-yJEJ3XI5Nerv6IqRfIdnoshspKx7FXx5D65YvYbM1lh3VYIWgEtC0I@v2.cl.com>
+From: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <JvD8ajXwB4VYbQpxf0M5L0M-SvonC9009J4VYKp23LJCgMyiEDZN-yJEJ3XI5Nerv6IqRfIdnoshspKx7FXx5D65YvYbM1lh3VYIWgEtC0I@v2.cl.com>
+X-Mailer: WebService/1.1.20225 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 16839
+
+This is a multi-part message in MIME format.
+--------------VeI6MhhI4z03g3uPQYWjQBEf
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+*RE:    133 Water St Unit 4E Dumbo, NY 11201
+*
+*            - CAN I TAKE A LOOK AT THE PLACE SOMETIME THIS WEEKEND.*
+*
+*
+*ALSO, WHAT INFORMATION DO YOU NEED FROM ME?*
+*
+*
+*THANK YOU.
+*
+**
+
+On Fri, 20 May 2022 at 16:02, B D2022 
+<2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org> wrote:
+LOCATION.
+The Unit will be available at the end of May , all procedures are to be 
+complete before end of the month  and all utilities are included in the 
+unit, our monthly sublease payment is $2000 while security deposit is $700.
+The apartment is available on a monthly basis,
+It is Fully furnished and also all utilities are included
+
+Let me know what you wish to know more about the unit so we can proceed
+
+On Thu, 19 May 2022 at 18:18, B D2022 
+<2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org> wrote:
+
+    IS THIS UNIT AVAILABLE.
+
+
+    https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html
+
+
+    ------------------------------------------------------------------------
+    Original craigslist post:
+    https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html
+    About craigslist mail:
+    https://craigslist.org/about/help/email-relay
+    Please flag unwanted messages (spam, scam, other):
+    https://post.craigslist.org/mailflag?flagCode=34&smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1
+    <https://post.craigslist.org/mailflag?flagCode=34&smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1>
+
+    ------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Original craigslist post:
+https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html
+About craigslist mail:
+https://craigslist.org/about/help/email-relay
+Please flag unwanted messages (spam, scam, other):
+https://post.craigslist.org/mailflag?flagCode=34&smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1 
+<https://post.craigslist.org/mailflag?flagCode=34&smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1> 
+
+------------------------------------------------------------------------
+On 5/20/2022 6:10 PM, craigslist 7485405195 wrote:
+> 133 Water St Unit 4E Dumbo , NY 11201
+>
+> On Fri, 20 May 2022 at 16:02, B D2022 
+> <2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org> wrote:
+>
+>     LOCATION.
+>     The Unit will be available at the end of May , all procedures are
+>     to be complete before end of the month  and all utilities are
+>     included in the unit, our monthly sublease payment is $2000 while
+>     security deposit is $700.
+>     The apartment is available on a monthly basis,
+>     It is Fully furnished and also all utilities are included
+>
+>     Let me know what you wish to know more about the unit so we can
+>     proceed
+>
+>     On Thu, 19 May 2022 at 18:18, B D2022
+>     <2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org> wrote:
+>
+>         IS THIS UNIT AVAILABLE.
+>
+>
+>         https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html
+>
+>
+>         ------------------------------------------------------------------------
+>         Original craigslist post:
+>         https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html
+>         About craigslist mail:
+>         https://craigslist.org/about/help/email-relay
+>         Please flag unwanted messages (spam, scam, other):
+>         https://post.craigslist.org/mailflag?flagCode=34&smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1
+>         <https://post.craigslist.org/mailflag?flagCode=34&smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1>
+>
+>         ------------------------------------------------------------------------
+>
+>
+>     ------------------------------------------------------------------------
+>     Original craigslist post:
+>     https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html
+>     About craigslist mail:
+>     https://craigslist.org/about/help/email-relay
+>     Please flag unwanted messages (spam, scam, other):
+>     https://post.craigslist.org/mailflag?flagCode=34&smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1
+>     <https://post.craigslist.org/mailflag?flagCode=34&smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1>
+>
+>     ------------------------------------------------------------------------
+>
+--------------VeI6MhhI4z03g3uPQYWjQBEf
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html data-lt-installed="true">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;">RE:    133
+            Water St Unit 4E Dumbo, NY 11201 <br>
+          </span></b></font></div>
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;">            -
+            CAN I TAKE A LOOK AT THE PLACE SOMETIME THIS WEEKEND.</span></b></font></div>
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;"><br>
+          </span></b></font></div>
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;">ALSO, WHAT
+            INFORMATION DO YOU NEED FROM ME?</span></b></font></div>
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;"><br>
+          </span></b></font></div>
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;">THANK YOU.<br>
+          </span></b></font></div>
+    <div dir="ltr"><font color="#008080"><b><span style="font-family:
+            &quot;Libre Franklin&quot;; font-size: 16px;">    </span></b></font><br>
+    </div>
+    <br>
+    <div dir="ltr" class="gmail_attr">On Fri, 20 May 2022 at 16:02, B
+      D2022 &lt;<a
+        href="mailto:2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org"
+        class="moz-txt-link-freetext">2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org</a>&gt;
+      wrote:<br>
+    </div>
+    <div>
+      <div dir="ltr">
+        <div style="padding:20px 0px 0px">LOCATION.<br>
+        </div>
+        <div style="padding:20px 0px 0px">The Unit will be available at
+          the end of May , all procedures are to be complete before end
+          of the month  and all utilities are included in the unit, our
+          monthly sublease payment is $2000 while security deposit is
+          $700.</div>
+        <div>
+          <div
+            id="gmail-m_-8538714438410399996gmail-m_-3436047175312149050gmail-:ms"
+            style="direction:ltr;margin:8px 0px
+            0px;padding:0px;font-size:0.875rem">
+            <div
+              id="gmail-m_-8538714438410399996gmail-m_-3436047175312149050gmail-:d0"
+style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:small;line-height:1.5;overflow:hidden">
+              <div dir="ltr">The apartment is available on a monthly
+                basis,<br>
+                It is Fully furnished and also all utilities are
+                included<br>
+                <br>
+                Let me know what you wish to know more about the unit so
+                we can proceed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="gmail_quote">
+        <div dir="ltr" class="gmail_attr">On Thu, 19 May 2022 at 18:18,
+          B D2022 &lt;<a
+            href="mailto:2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org"
+            target="_blank" class="moz-txt-link-freetext">2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org</a>&gt;
+          wrote:<br>
+        </div>
+        <blockquote class="gmail_quote" style="margin:0px 0px 0px
+          0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+          <div>
+            <p><font size="2"><font face="Helvetica, Arial, sans-serif">IS
+                  THIS UNIT AVAILABLE.<br>
+                </font></font></p>
+            <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+                </font></font></p>
+            <p><font size="2"><font face="Helvetica, Arial, sans-serif"><a
+href="https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html"
+                    target="_blank" class="moz-txt-link-freetext">https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html</a></font></font><br>
+            </p>
+          </div>
+          <p> <br>
+          </p>
+          <hr> Original craigslist post:<br>
+          <a
+href="https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html"
+            target="_blank" class="moz-txt-link-freetext">https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html</a><br>
+          About craigslist mail:<br>
+          <a href="https://craigslist.org/about/help/email-relay"
+            target="_blank" class="moz-txt-link-freetext">https://craigslist.org/about/help/email-relay</a><br>
+          Please flag unwanted messages (spam, scam, other):<br>
+          <a
+href="https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1"
+            target="_blank">https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1</a>
+          <hr> </blockquote>
+      </div>
+      <p> <br>
+      </p>
+      <hr> Original craigslist post:<br>
+      <a
+href="https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html"
+        target="_blank" class="moz-txt-link-freetext">https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html</a><br>
+      About craigslist mail:<br>
+      <a href="https://craigslist.org/about/help/email-relay"
+        target="_blank" class="moz-txt-link-freetext">https://craigslist.org/about/help/email-relay</a><br>
+      Please flag unwanted messages (spam, scam, other):<br>
+      <a
+href="https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1"
+        target="_blank">https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1</a>
+      <hr> </div>
+    <div class="moz-cite-prefix">On 5/20/2022 6:10 PM, craigslist
+      7485405195 wrote:<br>
+    </div>
+    <blockquote type="cite"
+cite="mid:JvD8ajXwB4VYbQpxf0M5L0M-SvonC9009J4VYKp23LJCgMyiEDZN-yJEJ3XI5Nerv6IqRfIdnoshspKx7FXx5D65YvYbM1lh3VYIWgEtC0I@v2.cl.com">
+      <div dir="ltr"><span
+          style="color:rgb(51,51,51);font-family:&quot;Libre
+          Franklin&quot;;font-size:16px">133 Water St Unit 4E Dumbo , NY
+          11201 </span><br>
+      </div>
+      <br>
+      <div class="gmail_quote">
+        <div dir="ltr" class="gmail_attr">On Fri, 20 May 2022 at 16:02,
+          B D2022 &lt;<a
+            href="mailto:2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org"
+            moz-do-not-send="true" class="moz-txt-link-freetext">2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org</a>&gt;
+          wrote:<br>
+        </div>
+        <blockquote class="gmail_quote" style="margin:0px 0px 0px
+          0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+          <div>
+            <div dir="ltr">
+              <div style="padding:20px 0px 0px">LOCATION.<br>
+              </div>
+              <div style="padding:20px 0px 0px">The Unit will be
+                available at the end of May , all procedures are to be
+                complete before end of the month  and all utilities are
+                included in the unit, our monthly sublease payment is
+                $2000 while security deposit is $700.</div>
+              <div>
+                <div
+                  id="gmail-m_-8538714438410399996gmail-m_-3436047175312149050gmail-:ms"
+                  style="direction:ltr;margin:8px 0px
+                  0px;padding:0px;font-size:0.875rem">
+                  <div
+                    id="gmail-m_-8538714438410399996gmail-m_-3436047175312149050gmail-:d0"
+style="font-variant-numeric:normal;font-variant-east-asian:normal;font-stretch:normal;font-size:small;line-height:1.5;overflow:hidden">
+                    <div dir="ltr">The apartment is available on a
+                      monthly basis,<br>
+                      It is Fully furnished and also all utilities are
+                      included<br>
+                      <br>
+                      Let me know what you wish to know more about the
+                      unit so we can proceed</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="gmail_quote">
+              <div dir="ltr" class="gmail_attr">On Thu, 19 May 2022 at
+                18:18, B D2022 &lt;<a
+                  href="mailto:2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org"
+                  target="_blank" moz-do-not-send="true"
+                  class="moz-txt-link-freetext">2a9bd3753d2e31fca72dd7c7ca44f050@reply.craigslist.org</a>&gt;
+                wrote:<br>
+              </div>
+              <blockquote class="gmail_quote" style="margin:0px 0px 0px
+                0.8ex;border-left:1px solid
+                rgb(204,204,204);padding-left:1ex">
+                <div>
+                  <p><font size="2"><font face="Helvetica, Arial,
+                        sans-serif">IS THIS UNIT AVAILABLE.<br>
+                      </font></font></p>
+                  <p><font size="2"><font face="Helvetica, Arial,
+                        sans-serif"><br>
+                      </font></font></p>
+                  <p><font size="2"><font face="Helvetica, Arial,
+                        sans-serif"><a
+href="https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html"
+                          target="_blank" moz-do-not-send="true"
+                          class="moz-txt-link-freetext">https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html</a></font></font><br>
+                  </p>
+                </div>
+                <p> <br>
+                </p>
+                <hr> Original craigslist post:<br>
+                <a
+href="https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html"
+                  target="_blank" moz-do-not-send="true"
+                  class="moz-txt-link-freetext">https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html</a><br>
+                About craigslist mail:<br>
+                <a href="https://craigslist.org/about/help/email-relay"
+                  target="_blank" moz-do-not-send="true"
+                  class="moz-txt-link-freetext">https://craigslist.org/about/help/email-relay</a><br>
+                Please flag unwanted messages (spam, scam, other):<br>
+                <a
+href="https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1"
+                  target="_blank" moz-do-not-send="true">https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=2d0f151865ae4f72f94f42a3b469b69470ff8b65.1</a>
+                <hr> </blockquote>
+            </div>
+            <p> <br>
+            </p>
+            <hr> Original craigslist post:<br>
+            <a
+href="https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html"
+              target="_blank" moz-do-not-send="true"
+              class="moz-txt-link-freetext">https://newyork.craigslist.org/brk/sub/d/brooklyn-one-bedroom-dumbo-condo/7485405195.html</a><br>
+            About craigslist mail:<br>
+            <a href="https://craigslist.org/about/help/email-relay"
+              target="_blank" moz-do-not-send="true"
+              class="moz-txt-link-freetext">https://craigslist.org/about/help/email-relay</a><br>
+            Please flag unwanted messages (spam, scam, other):<br>
+            <a
+href="https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1"
+              target="_blank" moz-do-not-send="true">https://post.craigslist.org/mailflag?flagCode=34&amp;smtpid=37ff5128ec4c95efb2604da4b6ae39b39c794745.1</a>
+            <hr> </div>
+          <p>
+          </p>
+        </blockquote>
+      </div>
+    </blockquote>
+  </body>
+</html>
+
+--------------VeI6MhhI4z03g3uPQYWjQBEf--

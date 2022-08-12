@@ -1,0 +1,124 @@
+From - Mon May 16 23:50:47 2022
+X-Account-Key: account1
+X-UIDL: AI0l+zA+CZfOYoLpPA7/2Fshcgk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.76
+ by atlas221.free.mail.bf1.yahoo.com with HTTPS; Tue, 17 May 2022 00:15:56 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.176]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.176 as permitted sender)
+Authentication-Results: atlas221.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 17 May 2022 00:15:56 +0000
+X-YMailAVSC: aRQ0xok3bBt1BfzmcxCu458x3WmS6UBnZrC_r8EQflo2vLp
+ fW3W63o0.MTXfHxbot6PCvO7TNeNizLs5A8awbF3HCjJcbBMCKGNp90fYehu
+ hjDcS6JfyahExhE.vfKtDnkdURRzGRL.oZ8uHHDIS_pOkdyHyGn2chiEnxF7
+ d2KAbkeLPRfUCNB_E7lLRbv9qNXeMCNoxBQVaaP.i1C9dW8LhOl3Lj6W59Q6
+ nR.HPSd2AAHbTnZxAw8MibFKe0muNhbdrY_gMyHYGHf9V2gVPrPw6W6J76_l
+ 9lzxfE6jnd467oPe3TEnpfhnSNS4oyW5s1UwediB8a6PUM0elfD.tw_miB8.
+ NfkuRMA7gReSpsRf9.NZv2bBncNB0Re0wQkCSpfJdwvfgda3Eoz0-
+X-YMailISG: R6.GJMkWLDuQaBfAp613NRKV.BdIKYtnMsbLOjdV44x4kBz1
+ mOS8aaPVWQJs58ji3vbpPnQPzFGffQTb.PscsCRniR.ArrTgb.HM5ahrG5OJ
+ WgPo4mEwje4SChF8_vf64.x_fRNlr8Ujzd7clQ.1KC3v9SnhcfhW.bvWgefG
+ mEhUOURgIcEOz8zlvNh406t8ynZm39ChXhNrts9xe5l52dB1lUtj.HyRE31l
+ BIDl.RllLGZ.DMJxp8LbqYYgFgDFdvFqx.jdgmZOrRwAPiI6QfenXvGF1Dop
+ 9ziKXqcTZtP8UU25pQyM2e29jDo4NCq3bycVySXD7VbjgsAvcjnPUsxafBXj
+ dB7fy_tIjoFEozzMiKRydAHeTPpZn3UMOb9nv7p14JHt8q9QrmcGa9D3nytF
+ OJrniST7qbO8nZXMtpSEUDpfci2V7pcSxMFXZ4kirTOxYCRtaId.W0LBxR2P
+ eHOyo3DPmZalzjdkG7PHgwKlnmQedNraijhGcBq_9QJN0lWlT8kgPwCJCQPM
+ KkWb8eioBx7aSyUYhf4Lo7nQN3QAZyuHb2hEx2ikudUJvNcQZRXdvNmhrw2j
+ vDZCobR5EXaGaInE8yAGNiipnDcCKZBPqTilCvMYW.XrZuC10SxQ_TnkVWUf
+ 2Iw7vx_CmLek_LMdG3DMm5mR21ZmTj2.7LmpvFyLnnt62W4HWCiqCOD62LGs
+ zShvTmPy5gxHjPpsQZZjlAu_LqxOp_Zo0VLuPYY2gTHrMzKjZjrfS6Azp_nJ
+ e7g03tKQ_Q8RW224jHx.Mg1N3h57bKtiTpWBXFQ4E9dWikBUV40CRotEJjiG
+ 2U8O5zltWersV.ptFP4u_21JUPbPoPaESFOv0XopPtRrHiLD8.DyPbYFa2d_
+ 1aQ7Q2pgfX4T3gGKuBW48aeYm_A39272Wr0W_3qvlGvOEP4n221bSIIUawdY
+ Dodmqqe80nIV8iQbbMEnh5wKBcXh1Wa5fxCRczFkexsTWZD0i_8xpzO1U_qU
+ DDUiYosLXdKR26WhRSV3TpukXKIXNIXU0dVE3Tkgdh4qxHoyiX4zeYE3SZd0
+ bFZ5zVnFgOJEmgDYSaCKGXugKLVfRvLqwvDG6fVIpgC_UOAVa0IwTu5erDTo
+ QsZgXM7Lx9.n1qbPH6Of3hOgeDSB7KgP_yXDJjtl5tbZVm1FDyf614lfCd50
+ VLXdp4j7jSNFpqvco7srQ5mRmA--
+Received: from 209.85.166.176 (EHLO mail-il1-f176.google.com)
+ by 10.197.33.76 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 17 May 2022 00:15:56 +0000
+Received: by mail-il1-f176.google.com with SMTP id j7so2275453ila.1
+        for <ms60710444266@yahoo.com>; Mon, 16 May 2022 17:15:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=UJbxg/BLoXolqyJnRSs+x+gth5QfT1JI/x9WTcd5VnA=;
+        b=pFahbB21eL0Zm2QpytRqnhMf6Kc1/2J7uWSYZbxLR1wofyZ7+31PeB+wZI0f3/th2+
+         BVCSBg51gTKqnpvHPE6oaBDGv5m2awt4BL9ssKjB9O16k6gDE2qtlJWODR7T0dcNGWhd
+         2Xk/xKZT7Ij2UCExBGtBU72uX0lqlIQZl8VvWAxjsEvJpTYSOyZAI0WWMNql2+iae7E9
+         Sx7rie86cGUC3wBcoMSse29GHSnxYsWgCt0jaiEqU/FIUjLpQtp7/FniHuLQz5wkAkpd
+         dI6Lmb2v2ib6UMI41ZPUIU5np/qwDb0ls/Gd4JUyt0tkP8dG27RtmjwFzADFWOebeRpz
+         NcmA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=UJbxg/BLoXolqyJnRSs+x+gth5QfT1JI/x9WTcd5VnA=;
+        b=IKAGmQptTWWOWynnGQFV8QeYp7KazXjoZr4edthazt9/Ri1cVSAJodB1UXX73i3iJB
+         jDCRn6QKy2kOKV3bUnETWJZBRjV2i3/yAkHt5un4CjlMxRDa65ngkNSuf5ptZJXTHdGM
+         NucPH4Sidi64L5w29DyrxygVi59iz0ZA5gHUhYr18LhPGhlF0HK8lp7qRSe4kYh88Itk
+         x4Cpef3pcO1eyZEGdgIYMrsTWZDUem71A4MNBMT+D29CAIKdQ+WvYGy2tWZmZeR0Ycke
+         RKTWkwsTe96l9H4S5vegN0BXqAyRy9bkEBPWYIRbsZAbIIH5bGVSlb8Skmw9wTYZBsdH
+         ZM7Q==
+X-Gm-Message-State: AOAM530B1yVJRfQAFxa+3t0ibuYB0MWqb8f8vWCGWCKyleDqyPt2Ttze
+	ysXeavOwTHKUGgoYMovZdvjSIv8iBc8Mgb/ige2zM4voh7Q=
+X-Google-Smtp-Source: ABdhPJzP3eBafQ0Qy8Qc3MwB/4XG9n9SeYBAK/MDLP8pIciU9YZ1pxSIrpJdpJv9+EMo5HeaekOUdAHw5/5JSt5DCK4=
+X-Received: by 2002:a92:cd83:0:b0:2cf:a37a:a405 with SMTP id
+ r3-20020a92cd83000000b002cfa37aa405mr9836472ilb.319.1652746556326; Mon, 16
+ May 2022 17:15:56 -0700 (PDT)
+MIME-Version: 1.0
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Mon, 16 May 2022 20:15:45 -0400
+Message-ID: <CAOHu4892L01C8g-5rH_J8cgBOp9jVreNp6bWiCwWKo47_3h3DQ@mail.gmail.com>
+Subject: T2 jpg plus radiator
+To: BBO 121 <ms60710444266@yahoo.com>, Bo Dincer <bdincer66@icloud.com>
+Content-Type: multipart/alternative; boundary="00000000000064c95305df2a0b0b"
+Content-Length: 2008
+
+--00000000000064c95305df2a0b0b
+Content-Type: text/plain; charset="UTF-8"
+
+Radiator
+
+https://saaze2311prdsra.blob.core.windows.net/clean/2f7c8ae375d5ec11a7b5002248307b90/Screenshot_20220516-013630_Chrome.jpg
+
+
+Gutter
+https://saaze2311prdsra.blob.core.windows.net/clean/bca418c875d5ec11a7b5000d3a1af965/Yahoo%20Mail%20Document_%20Fwd_%20Misleading%20gutter%20service%20didn%E2%80%99t%20even%20have%20to%20file.%20.PDF
+
+
+14.b march 2022
+https://saaze2311prdsra.blob.core.windows.net/clean/61bd548f75d5ec11a7b5000d3a1afadb/14.b.50074-Mar-2022.PDF
+
+--00000000000064c95305df2a0b0b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">Radiator<div dir=3D"auto"><br></div><div dir=3D"auto"><a =
+href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/2f7c8ae375d5ec1=
+1a7b5002248307b90/Screenshot_20220516-013630_Chrome.jpg">https://saaze2311p=
+rdsra.blob.core.windows.net/clean/2f7c8ae375d5ec11a7b5002248307b90/Screensh=
+ot_20220516-013630_Chrome.jpg</a></div><div dir=3D"auto"><br></div><div dir=
+=3D"auto"><br></div><div dir=3D"auto">Gutter</div><div dir=3D"auto"><a href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/bca418c875d5ec11a7b=
+5000d3a1af965/Yahoo%20Mail%20Document_%20Fwd_%20Misleading%20gutter%20servi=
+ce%20didn%E2%80%99t%20even%20have%20to%20file.%20.PDF">https://saaze2311prd=
+sra.blob.core.windows.net/clean/bca418c875d5ec11a7b5000d3a1af965/Yahoo%20Ma=
+il%20Document_%20Fwd_%20Misleading%20gutter%20service%20didn%E2%80%99t%20ev=
+en%20have%20to%20file.%20.PDF</a></div><div dir=3D"auto"><br></div><div dir=
+=3D"auto"><br></div><div dir=3D"auto">14.b march 2022</div><div dir=3D"auto=
+"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/61bd548f75=
+d5ec11a7b5000d3a1afadb/14.b.50074-Mar-2022.PDF">https://saaze2311prdsra.blo=
+b.core.windows.net/clean/61bd548f75d5ec11a7b5000d3a1afadb/14.b.50074-Mar-20=
+22.PDF</a></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div></d=
+iv>
+
+--00000000000064c95305df2a0b0b--

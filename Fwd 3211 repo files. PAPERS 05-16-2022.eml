@@ -1,0 +1,1731 @@
+From - Mon May 16 23:49:23 2022
+X-Account-Key: account1
+X-UIDL: AHzwxItqh81vYoKGrwPYYCaIHo4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.232
+ by atlas321.free.mail.bf1.yahoo.com with HTTPS; Mon, 16 May 2022 17:15:26 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.57.156.18]
+Received-SPF: pass (domain of icloud.com designates 17.57.156.18 as permitted sender)
+Authentication-Results: atlas321.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 16 May 2022 17:15:27 +0000
+X-YMailAVSC: FKve5dg3bBuhuJdTxyyU4RqjP2nCyAwQbf_kViUJqseQive
+ suEitEfhj7I26oQ2koJAiBJjHuIh4lfwlLHskiP38GBnKZkE5UwtvRi_gmhq
+ kzklybbGq84F_FS6lysm7wPCItHwBKqVleFS4m.7ep7cnqpotu1JOeX8X2P2
+ sEntzfiklGT1YqxKYGwa0bgN1fbFzoctqmjOZ3.ubMdW.ypWw2E7.t3PIHkC
+ rOaOFKKJ13OrTg5NhlnL4xeChbbIiGrPeilgOPlDCcAfZF2ned.i17igzIdv
+ Gm0lDKAQ7Cgg0HFGjGYbdZsmhiKoRtRA5R14w51Ea7UDTPRPHpSugj3nEhTm
+ 7XaXJDDd2ukAH0gMUnPZq3PJKp6xLAh3y0S4.Za0WBqxAPqLfoyM3TsYYPPp
+ Bn2A9bdS1NZoPhwzkbv19PXK.kH7u
+X-YMailISG: oTX2OKMWLDtXMUPcWIu4eL3yK70Vfovily5nwhHnS4XrWOeS
+ z_R0jbChgGeeBFuBDZcfYcJwMwOGXB3p_HlyPOJ4lwPZHj2GEefGxiZiF9Z4
+ iyjC9Ld2AEBS6Szxb4R3wA_O8bW4A8G4mbnbgw0zD4pBaqyUCvXeJ6ML7Cy9
+ ZUChWiBVCulnTFD2GgWZjK03Eqbp2KAcwr1tkvDuuRDPY8ZZ1tl0tPzt.aLq
+ W39SmmCoZZhLR_p0hAXl1KYEywrtUyD3ftw3TFYmXodH0HWR_lygROQEQlUL
+ ufX70cPYEnALO6JBcu0CjwFZguoAfP7jTxEOsVQ2fYb7k0tAJo5zNruJ3Ali
+ 5363KnjDDJhBpGoC0yespjou97tXAli_Tcv5PiHm_QdZ.kztyvbdOWoZpty1
+ HK8LKTb4gcyiqnFJV3B.CGrqiQailhdstpsYchGllCRmO7PZEjQDlwu4OtMU
+ .Hsk.7zafA3JDZXBNGg92Jz2d8hhHM2weuGl79m3vYFaa9t3WmshvNEYblqM
+ bZ1tM9BBEG2aYF67UEqDnSK9zxLnHAQre9YsEbcXV7pnsZriA9cDw.i2xr9a
+ Uk2nwsaPzpbkWMHgVxLbvYv3D9mrJJGQSceyGRdj3VmrpvAHq3AhF_G9U9cI
+ pyEXR9f7dDCgWQ3sjSvbJc4cfLx7HJWmZJ9fnlxEXgWCXsvLJlpiXqnpdNGM
+ P8RYO8uzXR9ETInR1lQddh8Q7eMoKACZSso.Y4gmPw76UXmOcYEgxLhPosLJ
+ 6M5LW97XEa7_xxdNzI28dlo.lMyw46q8oVNs1Q6SPGT8HKO_OZmjT.KL8zln
+ 75LthKPfzIeWipviRqSLvPFUjM_qxYCQW9d7mB2XVlFqWguWQlz1785iaDk0
+ 49hIrwJdSMF2gqYDjur.UzBSLpYZcSm.JhueyJNnkFMzL1l4YrflXtCUB8.h
+ 2M7YrFm2IgoV2Fs7n.Um7YMVOLnTrl7njU_ktkXc6PGOWuFLFuWx393HSfU9
+ cnrsOdJ.EgD_ApN.av8SzjrurXubGiM9_XezO.DyTFVx7OBcdCivbvAIUvSU
+ V5FFtsoe2P2AyXbUQtnkNLRqqvYBbBUc1mXskHtgHxIo_rDZ1K9Kzqqa3VYZ
+ V88fj1.xBgcu6yixzB.CamhNvY.82FNSeSBHZyIADC2bRMs1FpXeJ8OB3yRS
+ V0IYYPrnQnx9OtvFKA4DZOKtCUw7eEUc3Q--
+Received: from 17.57.156.18 (EHLO ci74p00im-qukt09090101.me.com)
+ by 10.197.37.232 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 16 May 2022 17:15:26 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1652721326;
+	bh=hOGVUhRTeX8u8n8yLkbM9uCXRxONRwP3UpdqxAvFW4I=;
+	h=Content-Type:From:Mime-Version:Date:Message-Id:Subject:To;
+	b=wZPRFfSbfxbUOvEmThw9q1/mpVV2U/2OpIIFka1iMDVzIdoVwXuLbYJmexE4CEadL
+	 H+UE7l742sj3YZ6F3+8m6yYcuLajQOIHjIQpfQ+kW3pqiBN4gnW/OlrBDPU1dbg27y
+	 CtKUZV4YcZ+NaAdLMn54irbT07O4gukpuGeWKylvkXDURERAajwMY8LZy4BICNor4W
+	 Z1AMRdaHuZh1v1BuNyjvQvnOA8j1KQ3n+8W1WKYzffC7dPlxoBsvTivbJiGrAo/xyV
+	 7tt55ktnEACf+Dfj1H1ZlEwgGlO8YfGdgnwG0KRBLb7rPOUcVSzWbTnHK/VQe8sSRQ
+	 ijwwEUHTLJWLw==
+Received: from smtpclient.apple (ci77p00im-dlb-asmtp-mailmevip.me.com [17.57.156.26])
+	by ci74p00im-qukt09090101.me.com (Postfix) with ESMTPSA id D16AE35C05A8
+	for <ms60710444266@yahoo.com>; Mon, 16 May 2022 17:15:24 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-46972457-C0F8-4EF4-BEB3-AEE442FF6961
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 16 May 2022 13:15:22 -0400
+Message-Id: <3AA0AA9E-A81A-47EF-B162-78EC1D407348@icloud.com>
+Subject: Fwd: 3211 repo files. PAPERS 05-16-2022
+References: <845359543.859482.1652716870515@mail.yahoo.com>
+To: BBO 121 <ms60710444266@yahoo.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-GUID: _HeaYz7wEEhlOmTvnd4sQVuFD9m6USAk
+X-Proofpoint-ORIG-GUID: _HeaYz7wEEhlOmTvnd4sQVuFD9m6USAk
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.572,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2020-02-14=5F11:2020-02-14=5F02,2020-02-14=5F11,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 suspectscore=0 bulkscore=0
+ clxscore=1015 spamscore=0 phishscore=0 mlxlogscore=999 malwarescore=0
+ adultscore=0 mlxscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205160095
+Content-Length: 90605
+
+
+--Apple-Mail-46972457-C0F8-4EF4-BEB3-AEE442FF6961
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+/s/ Baris Dincer.
+    Tel.: 646-256-3609=20
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hr=
+VmJ9DX_PLUS_bdg=3D=3D
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7b500=
+2248286386/8209-$BROOKS--4776256-6109023[FILED].pdf
+>=20
+>=20
+> 93715 BROKERS
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b500=
+0d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+>=20
+>=20
+> December 18, 2021
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b500=
+2248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+>=20
+>=20
+> Docket 399
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b500=
+0d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500=
+224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7b500=
+0d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500=
+224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7b500=
+0d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7b500=
+22482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%2080181=
+84.pdf
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b500=
+22482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b500=
+2248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b500=
+2248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b500=
+0d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b500=
+0d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b500=
+224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b500=
+2248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%2=
+08018184.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b500=
+224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FA=
+RM%20mutual%20automobile%20insurance%20company-$3487.pdf
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b500=
+224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b500=
+2248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%2=
+08018184.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b500=
+224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FA=
+RM%20mutual%20automobile%20insurance%20company-$3487.pdf
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b500=
+2248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+>=20
+>=20
+> =E2=80=94SHARI
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b500=
+0d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+>=20
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b500=
+0d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+>=20
+>=20
+> 348
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIH=
+KtnJU/ni/zvg=3D=3D
+>=20
+> https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1
+>=20
+>=20
+> https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D20=
+20052000291003
+>=20
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrE=
+GCsUUcCcvtJ8O/dfg=3D=3D
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G=
+0QvnmRLGpYIQ=3D=3D
+>=20
+>=20
+> Docket 315: Loan
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G=
+0QvnmRLGpYIQ=3D=3D
+>=20
+> 315 1 pager
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0=
+ynPeXZKSHgLQ=3D=3D
+>=20
+>=20
+>=20
+> Docket 313
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66=
+hrVmJ9DX_PLUS_bdg=3D=3D
+>=20
+>=20
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0=
+ynPeXZKSHgLQ=3D=3D
+>=20
+>=20
+> Docket 348
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIH=
+KtnJU/ni/zvg=3D=3D
+>=20
+> Docket 53
+>=20
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLU=
+S_k6vCmKgfCSJEzuQ=3D=3D
+>    =20
+> 311 Service request.
+>=20
+> https://portal.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff=
+86900c
+>    =20
+> May 11, 2022
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b500=
+0d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+>    =20
+> JP Morgan Links
+>=20
+> https://saaze2311prdsra.blob.core.windows.net/clean/f2d6a0fe5fd3ec11a7b500=
+0d3a1326fe/Fwd:%20unlawful%20RENT%20and%20PAYMENTS%20in%20CUSTODY%20at%20JP%=
+20MORGAN%20CHASE%20BANK.pdf
+>    =20
+> /BD
+
+ATTN: JP MORGAN CHASE BANK, N/A.
+          [REDACTED]
+
+I had a moment to clean this up and also added some additional information i=
+n the latter portion of this document.
+
+As stated at your branch on Friday, I have not heard from these folks since A=
+ugust of 2020, and certainly not in a court of law.
+
+- The violation of privacy and distribution of videos which they filmed and p=
+hotographed "inside of my apartment" were without consent, and were also dis=
+tributed by and between their counselors / advisors and are attached here fo=
+r context if you'd like to look into matters which pertain to Violation of P=
+rivacy.
+
+RE: TAX MATTERS
+
+           =20
+THE 6 BUILDINGS, A TOTAL OF 144 APARTMENTS HAVE BEEN VALUED AT ROUGHLY $22.5=
+ MILLION DOLLARS AND FOR TAX PURPOSES PER THE NY DEPT OF FINANCE REGISTER AS=
+ OF DECEMBER 2021 REPORT YoY GROSS INCOME IN A LINEAR FASHION AND IN DOUBLE D=
+IGITS.
+           =20
+- THIS HOLDS TRUE FOR ALL SIX PROPERTIES USED AS "CREDITWORTHINESS" OF INCOM=
+E AND ASSETS, HOWEVER, TO KEEP MATTERS SIMPLE.
+
+THERE ARE TWO PROPERTIES WHICH MAKE THIS MUCH EASIER FOR YOU AND YOURS TO AB=
+SORB.
+           =20
+PROPERTY 1:=20
+111 SULLIVAN STREET REAR, APT 2BR, NEW YORK, NY, 10012   =20
+                                                  =20
+- Where I resided, and the rights of the leases and rents transferred to Sta=
+te Farm is a building with no certificate of occupancy.
+           =20
+PROPERTY 2:=20
+117 SULLIVAN STREET, NEW YORK, NY, 10012  =20
+                                                =20
+- The neighboring building, where the rights of the leases and rents were al=
+so transferred to State Farm is a building with no certificate of occupancy.=
+
+                                       =20
+BOTH PROPERTIES with " UNLAWFUL INCOME " was used and represented as lawful i=
+ncome to State Farm and to obtain a loan for $6,000,000.00 as referenced her=
+eunder.
+
+                                      =20
+filed under ACRIS:=20
+" TRANSFER OF LEASES AND RENTS "
+                                                      =20
+TO: STATE FARM
+ONE STATE FARM PLAZA=20
+BLOOMINGTON, IL, 61710
+     =20
+I did notify the "Brokerage & Investment" department at JP Morgan, and they n=
+o longer are custodians for the Investment Adviser, who in the former has
+  =20
+           =20
+"CEASED TO EXIST" and as of November 24th, 2021 under the Securities and Exc=
+hange Commission.
+                                                                            =
+  https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/file=
+name1.pdf
+
+    =20
+                                                         =20
+State Farm Assurances Funds Trust
+CIK NUMBER: 93715
+SEC FILE NUMBER: 811-01519
+               =20
+Attachments and link to substantive matters are below my signature and for c=
+onvenience and ease of your references.
+                           =20
+1. TCR report attached, which was filed with the Securities and Exchange Com=
+mission on November 13th, 2021.
+ =20
+2. Losses registered by their Investment Adviser, between November 13th, 202=
+1 through April 30th, 2022 have grown to the excess of 1.35 billion dollars,=
+ and one of their Investment Advisers has also Ceased to Exist [ SEC FILER: 9=
+3715 ]
+      =20
+3. NYC DEPT OF FINANCE RECORDS ARE ATTACHED, AS ARE THE TAX BILLS FOR BLOCK 8=
+03, LOT 11 --- which was transferred to State Farm on May 15th, 2020.
+                           =20
+4. VIOLATION OF PRIVACY AND TAX EVASION DOCKETS.PDF is also attached in case=
+ there is any question as to the matters which are "sensitive" and also "dep=
+lorable" in the scope of conduct/ethics.
+
+SECURITY DEPOSIT(S) ARE HELD IN CUSTODY AT JP MORGAN CHASE BANK, N/A
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6DBJZ=
+1wsiq0b38A=3D=3D
+
+     =20
+
+SULLIVAN PROPERTIES LP
+101 WEST 55TH STREET
+NEW YORK, NY,    10019
+                   =20
+DOES NOT HAVE A CERTIFICATE OF OCCUPANCY
+                   =20
+111 SULLIVAN STREET, 113 SULLIVAN STREET=20
+OR 115 SULLIVAN STREET (REAR)
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxNV4Y=
+4DTX6pANaA=3D=3D
+
+    =20
+
+THERE WERE NO CERTIFICATES OF OCCUPANCY ON FILE FOR MY APARTMENT.
+           =20
+111 REAR SULLIVAN STREET
+NEW YORK, NY, 10012=20
+      AT ANY POINT IN TIME.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIJ47OvVzsLOb=
+NsXt0u8trg=3D=3D
+
+  =20
+
+2020-08-04 111 SULLIVAN STREET REAR
+
+      =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DzXega0sLahw5=
+fVuBTVtpnw=3D=3D
+
+           =20
+111 REAR SULLIVAN STREET
+LEGAL ADULT USE: NO
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D9zQd7Hu3cy9v=
+p6I960WGNQ=3D=3D
+
+
+
+RENT PAYMENTS 2020_07_25
+HAVE NOT BEEN REFUNDED AS OF CURRENT.
+=E2=80=94NOTWITHSTANDING MY DEMANDS, A DEFAULT " NON-JOINDER " IN THE MATTER=
+ OF 153974/2020
+       =20
+MY SECURITY DEPOSIT ALSO WAS NOT RETURNED AND THE GREATER AMOUNTS OF RENTS A=
+ND SECURITY ARE "PURPORTEDLY" RENT PAYMENT(S) ARE HELD IN CUSTODY AT JP MORG=
+AN CHASE, N/A
+
+THE INITIAL FINANCING / MORTGAGE=20
+=E2=80=94 TO PURCHASE THE PROPERTIES IN QUESTION WERE FROM JP MORGAN CHASE N=
+A, IN 1989
+
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3DFT_1=
+000000324600
+
+    =20
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3DFT_1=
+350000324035
+
+   =20
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=3DFT_1350=
+000324035
+
+        =20
+THE LOAN DOCKETS AND TAX RECEIPTS WERE ANNEXED IN THE MATTER OF 153974/2020.=
+       =20
+=E2=80=94THE ACCOUNT ADDRESS YOU SHOULD HAVE FOR THE ENTITIES ARE:
+                     =20
+         101 WEST 55TH STREET
+         NEW YORK, NY,    10019
+                                =20
+         103 WEST 55TH STREET
+          NEW YORK, NY,    10019
+        =20
+CORPORATE NAMES, INDIVIDUALS        =20
+    =20
+     DONALD ZUCKER;
+     LAURIE ZUCKER;
+     ANDRES REYNOSO; OR=20
+    =20
+AN APPOINTED DIRECTORS UNDER THESE ENTITIES:
+     =20
+    - SULLIVAN PROPERTIES LP
+    - SULLIVAN GP LLC
+    - MANHATTAN SKYLINE MANAGEMENT CORP.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DMjxo9_PLUS_Fd=
+CN/p2Jrgw4MkIQ=3D=3D
+
+    =20
+PER THE NEW YORK SUPREME COURT DOCKETS:
+- CUSTODY OF THOSE ASSETS ARE HELD AT:=20
+
+     JP MORGAN CHASE, N/A
+=E2=80=94 Please understand that BEYOND the RENT & SECURITY which was stolen=
+ from me by Sullivan Properties LP.
+
+as discussed at your branch on 2022-05-13, have mysteriously disappeared, as=
+ individuals, corporations, notwithstanding their Counselors.
+
+Are liable for other default provisions under a certain
+ " non-joinder " and beyond the unlawful rents and security deposits which a=
+re in custody at your institution as of current, are not permitted as lawful=
+ per the FDIC and at any US depository institution.
+               =20
+This was all filed and in New York State Supreme Matter 153974/2020 and unde=
+r the Honorable Schlomo Haggler, J.S.C., for reference.
+
+=E2=80=942020-06-15
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6DBJZ=
+1wsiq0b38A=3D=3D
+   =20
+=E2=80=942020-08-04
+NO COMPLAINTS FILED IN MY RESIDENCE OR BUILDING.
+     NO GROUNDS TO LEGALLY COLLECT RENT=20
+    AND/OR SECURITY DEPOSITS=20
+
+FOR ANY OF THOSE PROPERTIES TRANSFERRED=20
+TO A 40=E2=80=99 ACT MUTUAL FUND, then CIK 93715, and the Note and liability=
+ was transferred by contractual obligations under the prospectus and indentu=
+re to the new Adviser, filer CIK 15156523.
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DDnmjCPN_PLUS=
+_DIIELjZFua7gWQ=3D=3D
+
+       =20
+Notice to Parties named sent via email:=20
+=E2=80=94 WITH ENCLOSURES TO AMEND CAPTION.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DyMXQNekW7te0=
+QA5jjAvP2w=3D=3D
+
+     =20
+DOB RECORDS.=20
+ADDRESS INFORMATION FROM THE NEW YORK CITY DEPARTMENT OF BUILDINGS.
+    =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DCeL5zAaUK8tf=
+WrX9kp/QdA=3D=3D
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DupAzS2FC6bIC=
+OGxa73ptdg=3D=3D
+
+    =20
+=E2=80=94 RENT STATEMENTS & RECEIPTS OF PAYMENTS.           =20
+2020, FEBRUARY
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D4PiwGksCJul/=
+AGvyopmH8g=3D=3D
+
+       =20
+=E2=80=94 STATEMENT 2020, MAY
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DvMB0J4qaYgau=
+PBeEMLIOXA=3D=3D
+
+   =20
+=E2=80=94RENT PAYMENT 2020, MAY
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwCwqZV3k3dKP=
+IhAESd/oag=3D=3D
+
+
+STATEMENT: REQUESTED A REFUND OF ALL UNLAWFUL FEES.
+               [ NO RESPONSE ]
+
+06-03-2020, 07-31-2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dvd54Sn1RLwYl=
+VxoKhGh0xg=3D=3D
+
+   =20
+=E2=80=94 RENT PAYMENT RECEIPT AND STATEMENT
+07-31-2020
+
+      $3106 [ 25% INCREASE: WITHOUT LEGAL GROUNDS OR REASONABLE CAUSE, WAS P=
+AID AND HELD IN CUSTODY AT JP MORGAN CHASE BANK.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D4WL76ylXCtw_=
+PLUS_H5zwmPPkZw=3D=3D
+
+RENT PAYMENT RECEIPT AND MONTHLY STATEMENT    =20
+
+05-31-2020
+              $600 IN PENALTIES ARBITRARILY INVOICED, PAID, AND REMAINS IN C=
+USTODY AT JP MORGAN CHASE.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DhSVGBDz7FlXs=
+kw5BZ_PLUS_e_PLUS_ZA=3D=3D
+
+   =20
+RECEIPT AND REQUEST FOR REFUND
+06-03-2020
+
+    =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DEJfqnPTVv0u9=
+BQ/iFgKRew=3D=3D
+
+    =E2=80=94 PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PR=
+OPERTY EITHER.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxNV4Y=
+4DTX6pANaA=3D=3D
+
+=E2=80=94 JULY RENT IS REFUSED BY LANDLORD, AND SO ARE ANY OTHER DEMANDS.
+- A CHANGE IN CAPTION IS ALSO REFUSED & UNANSWERED.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dewwxg8z5wECG=
+tkuHHm8O9A=3D=3D
+
+=E2=80=94EXHIBIT.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3Mt2U=
+6UigWCM9XQ=3D=3D
+
+=E2=80=94TAX MAP BLOCK 503 - LOT 8.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0Q=
+vnmRLGpYIQ=3D=3D
+
+1. Consolidated Letter of Credit and Indemnity.
+
+SULLIVAN PROPERTIES LP
+    =20
+       TERMS OFFERED BY STATE FARM LIFE INSURANCE.
+        =E2=80=94 MAY 11TH, 2020
+       =20
+ASSIGNED THEIR LEASES AND RENTS=20
+        TO STATE FARM, EXECUTED BY DONALD ZUCKER.=20
+        =E2=80=94 MAY 15TH, 2020
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9akRV=
+9TGfXXJT/g=3D=3D
+
+
+=E2=80=94 ACRIS Detailed Document Information
+    (2019000021408)2019010800475001
+    =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3kG=
+wHqebPg0fw=3D=3D
+
+=E2=80=94 ACRIS Detailed Document Information
+    (2020000155422)2020052000291003
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXux=
+moKqFiESrw=3D=3D
+    =20
+=E2=80=94 ACRIS Detailed Document Information
+    (2020000155421)2020052000291002
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hr=
+VmJ9DX_PLUS_bdg=3D=3D
+    =20
+=E2=80=94 ACRIS Detailed Document Information
+    (2020000155422)2020052000291003
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BG=
+v2DF/MOn4g=3D=3D
+
+=E2=80=94 ACRIS Detailed Document Information
+    (2020000155423)2020052000291004
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0yn=
+PeXZKSHgLQ=3D=3D
+
+__ASSIGNMENT OF LEASE AND RENTS ON=20
+__FILED ON MAY 26TH, 2020
+   =20
+=E2=80=94 New York Finance Register.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVfWOL=
+jSXhyJZ94A=3D=3D
+       =20
+    NOTICE TO:   STATE FARM
+    ONE STATE FARM PLAZA
+    BLOOMINGTON, IL, 61710
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcweC7es=
+RoSPO8MNtA=3D=3D
+
+   =20
+  NOTICE TO SULLIVAN PROPERTIES LP
+  101 west 55th Street
+  New York, NY, 10019
+
+COMPLAINT #14585819 (7/25/2020) FILED WITH THE BETTER BUSINESS BUREAU
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DEJfqnPTVv0u9=
+BQ/iFgKRew=3D=3D
+
+        NO CERTIFICATE OF OCCUPANCY
+       =20
+AUGUST 4TH, 2020
+       =20
+RENT PAYMENT RECEIPT, MONTHLY STATEMENT. 07_31_2020 WITH $8,106.21 IN UNLAWFU=
+LLY INVOICED LEGAL FEES, WHICH CAN BE USED AS A CREDIT AND A LIABILITY TO ME=
+.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dlq9Z3VE3sO4p=
+TEk1UrHB2Q=3D=3D
+
+RENT PAYMENT RECEIPT AND MONTHLY STATEMENTS
+07_21_2020
+=E2=80=94 CLICK PAY IS NO LONGER ACCEPTING PAYMENTS.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DiK7ZjdNLVty6=
+kLSL4SjeoA=3D=3D
+
+
+=E2=80=94 RENT PAYMENT RECEIPT, MONTHLY STATEMENT  =20
+    04_30_2020
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrEGC=
+sUUcCcvtJ8O/dfg=3D=3D
+
+=E2=80=94 PLAINTIFFS POLICIES AND PROCEDURES
+    INSURANCE REQUIREMENT
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DmzFuOKAUp7O4=
+ARBxH4uCDA=3D=3D
+  =20
+=E2=80=94 LANDLORD_REFUSES_PAYMENT
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2lQuDSfPu51L=
+3OhNqqRGvg=3D=3D
+
+=E2=80=94 PROPERTY RECORDS: PROPERTY SHARK
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUAXjpRh1KO2_=
+PLUS_8KsdF1TuQA=3D=3D
+
+=E2=80=94 NOTICE TO CHANGE CAPTION IN THIS MATTER.
+    WITH ATTACHED PROPERTY SHARK RECORDS.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXkdNmKBghAAq=
+MUItDdrwxA=3D=3D
+
+=E2=80=94 NOTICE TO CHANGE CAPTION IN THIS MATTER.
+    ATTACHED PROPERTY SHARK RECORDS.
+    2020-08-04
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DcWLErrXbEw5q=
+tOLVeWU/7g=3D=3D
+
+=E2=80=94 NOTICE TO CHANGE CAPTION IAn 153974/2020
+    TO ADD STATE FARM AS A RESPONDENT
+    2020-08-08
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1NcBAD=
+qRc_PLUS_g11P4g=3D=3D
+
+
+=E2=80=94 RENT STABILIZED BREACH [ J-51 ]
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dd7t3ED/Z4rcg=
+gm8dkQ0Jlg=3D=3D
+
+SUPPLEMENTS FOR CONVENIENCE.
+https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d=
+3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+
+    =20
+https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b50022=
+48286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+
+    =20
+https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5000d=
+3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+
+    =20
+https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b50022=
+4828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%20=
+1516523]%20MONK[CRD%201357149].pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7b5000d=
+3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%20=
+1516523]%20MONK[CRD%201357149].pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d=
+3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b50022=
+4828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%20=
+1516523]%20MONK[CRD%201357149].pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7b5000d=
+3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7b50022=
+482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%208018184=
+.pdf
+
+    =20
+https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b50022=
+482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b50022=
+48286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b50022=
+48286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d=
+3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d=
+3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b50022=
+4828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b50022=
+48286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208=
+018184.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b50022=
+4828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM=
+%20mutual%20automobile%20insurance%20company-$3487.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b50022=
+4828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b50022=
+48286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208=
+018184.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b50022=
+4828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM=
+%20mutual%20automobile%20insurance%20company-$3487.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d=
+3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+
+   =20
+https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d=
+3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKt=
+nJU/ni/zvg=3D=3D
+
+   =20
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2020=
+052000291003
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrEGC=
+sUUcCcvtJ8O/dfg=3D=3D
+
+    =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0Q=
+vnmRLGpYIQ=3D=3D
+
+    =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0Q=
+vnmRLGpYIQ=3D=3D
+
+    =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0yn=
+PeXZKSHgLQ=3D=3D
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hr=
+VmJ9DX_PLUS_bdg=3D=3D
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0yn=
+PeXZKSHgLQ=3D=3D
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKt=
+nJU/ni/zvg=3D=3D
+
+   =20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLUS_=
+k6vCmKgfCSJEzuQ=3D=3D
+
+   =20
+https://portal.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff86=
+900c
+
+       =20
+https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d=
+3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+
+NO CLASS THREE HOLDINGS REPORTED AS OF=20
+2020-05-31, FILED ON 2020-07-28 BY=20
+
+State Farm VP Management Corp.
+BY: TERRENCE LUDWIG, CCO.
+
+
+
+
+   =20
+
+
+
+--Apple-Mail-46972457-C0F8-4EF4-BEB3-AEE442FF6961
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"><meta http-equiv=3D"conten=
+t-type" content=3D"text/html; charset=3Dutf-8"><div><div style=3D"caret-colo=
+r: rgb(0, 0, 0); color: rgb(0, 0, 0);">/s/ Baris Dincer.</div><div style=3D"=
+caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);">&nbsp; &nbsp; Tel.: 646-256=
+-3609&nbsp;</div></div><div><br></div><div><br></div><a id=3D"linkextractor_=
+_1652716694998" data-yahoo-extracted-link=3D"true" href=3D"https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3D" style=3D"font-family: Roboto, sans-serif;">https://iapps.courts.state.n=
+y.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D</a><br=
+><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote style=3D"margin: 0 0=
+ 20px 0;"><div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-l=
+eft: 1px solid #6D00F6;"><div style=3D"font-family:Roboto, sans-serif; color=
+:#6D00F6;"><div id=3D"yMail_cursorElementTracker_1652716692279"><br></div> <=
+/div>  <div id=3D"yiv4083888157"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D=
+"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D=
+"ltr"><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:=
+normal;font-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" targe=
+t=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/f6d=
+60b925fd3ec11a7b5002248286386/8209-$BROOKS--4776256-6109023%5BFILED%5D.pdf">=
+https://saaze2311prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7b50022=
+48286386/8209-$BROOKS--4776256-6109023[FILED].pdf</a></p><p style=3D"margin:=
+0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvet=
+ica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line=
+-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-s=
+tretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;">9371=
+5 BROKERS</p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-=
+height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-st=
+retch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a re=
+l=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://saaze23=
+11prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA=
+9F-D641-4B62-9D15-3AF4205617AC.jpeg">https://saaze2311prdsra.blob.core.windo=
+ws.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF420=
+5617AC.jpeg</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px=
+;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;f=
+ont-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"=
+ id=3D"yMail_cursorElementTracker_1652716715853"><br></p><p style=3D"margin:=
+0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvet=
+ica;">December 18, 2021</p><p style=3D"margin:0px;font-stretch:normal;font-s=
+ize:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"marg=
+in:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Hel=
+vetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"h=
+ttps://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b500224=
+8286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.b=
+lob.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B=
+2A-89B9-93BD202498A9.jpeg</a></p><p style=3D"margin:0px;font-stretch:normal;=
+font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;" id=3D"yMail_cursorElementTracker_1652716719863"><br></p><p sty=
+le=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-=
+family:Helvetica;">Docket 399</p><p style=3D"margin:0px;font-stretch:normal;=
+font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5=
+000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg">https://saaze2311prd=
+sra.blob.core.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69=
+BD-4971-91F6-A5A40317CC63.jpeg</a></p><p style=3D"margin:0px;font-stretch:no=
+rmal;font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p st=
+yle=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font=
+-family:Helvetica;" id=3D"yMail_cursorElementTracker_1652716721826"><br></p>=
+<p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal=
+;font-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_=
+blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b99=
+7d3ec11a7b500224828654e/%5BSTATE%20FARM%20VP%2043036%5DAdvisers%20Investment=
+%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pdf">https://saaze=
+2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/[STA=
+TE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MO=
+NK[CRD%201357149].pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font=
+-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"ma=
+rgin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:H=
+elvetica;" id=3D"yMail_cursorElementTracker_1652716722991"><br></p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7b5=
+000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20=
+%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pdf">https://saaze2311prdsra.=
+blob.core.windows.net/clean/5380dd8997d3ec11a7b5000d3a132789/[STATE%20FARM%2=
+0VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%2013=
+57149].pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;=
+line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;fo=
+nt-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;">=
+<br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-heigh=
+t:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" tar=
+get=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/e=
+9eb965d97d3ec11a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.=
+pdf">https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b=
+5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf</a></p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0p=
+x;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetic=
+a;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b50022482865=
+4e/%5BSTATE%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%20=
+1516523%5D%20MONK%5BCRD%201357149%5D.pdf">https://saaze2311prdsra.blob.core.=
+windows.net/clean/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%204303=
+6]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf=
+</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-heigh=
+t:normal;font-family:Helvetica;"></p><p style=3D"margin:0px;font-stretch:nor=
+mal;font-size:12px;line-height:normal;font-family:Helvetica;"><span style=3D=
+"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16=
+px;background-color:rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0=
+px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helveti=
+ca;"><span style=3D"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans=
+-serif;font-size:16px;background-color:rgb(255, 255, 255);"><br></span></p><=
+p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;=
+font-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_b=
+lank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795=
+d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC=
+.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7=
+b5000d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf</a>=
+</p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:no=
+rmal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:nor=
+mal;font-size:12px;line-height:normal;font-family:Helvetica;"><span style=3D=
+"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16=
+px;background-color:rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0=
+px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helveti=
+ca;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https=
+://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7b5002248286=
+4f0/%5BsfVP43036%5D%20$2876793%20-%20david.moore%20$3487%20-%20IA%208018184.=
+pdf">https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7b=
+50022482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%2080=
+18184.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;l=
+ine-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;fon=
+t-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><=
+a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://saa=
+ze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b50022482864f0/%5=
+BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf">https://saaze2311prdsr=
+a.blob.core.windows.net/clean/af081f4095d3ec11a7b50022482864f0/[STATE%20FARM=
+%20VP%2043036]%20$3231040-2004555.pdf</a></p><p style=3D"margin:0px;font-str=
+etch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><br></=
+p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:norm=
+al;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:norma=
+l;font-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofoll=
+ow noopener noreferrer" target=3D"_blank" href=3D"https://saaze2311prdsra.bl=
+ob.core.windows.net/clean/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Man=
+agement%20Corp-CRD%2343036.pdf">https://saaze2311prdsra.blob.core.windows.ne=
+t/clean/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD=
+%2343036.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12p=
+x;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;=
+font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;=
+"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-hei=
+ght:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" t=
+arget=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean=
+/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%234303=
+6.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a=
+7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf</a></p><p st=
+yle=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font=
+-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-=
+size:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"mar=
+gin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:He=
+lvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"=
+https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d=
+3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf">https:/=
+/saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326f=
+e/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf</a></p><p style=
+=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-fa=
+mily:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-siz=
+e:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin=
+:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helve=
+tica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a1=
+32789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg">https://saaze2311prdsra.blo=
+b.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62=
+-9D15-3AF4205617AC.jpeg</a></p><p style=3D"margin:0px;font-stretch:normal;fo=
+nt-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"=
+margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family=
+:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12=
+px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener no=
+referrer" target=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.window=
+s.net/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%2=
+0$SMITH%20-%20SEMI.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/=
+172de37992d3ec11a7b500224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SE=
+MI.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line=
+-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-s=
+tretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a r=
+el=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://saaze2=
+311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5002248286997/%5BSF.=
+VP%2043036%5D%202876793%20-%20$david%20moore%20$3487%20-%20IA%208018184.pdf"=
+>https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5002=
+248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%20=
+8018184.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px=
+;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;f=
+ont-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"=
+><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-heig=
+ht:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$%=
+20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$34=
+87.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11=
+a7b500224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STAT=
+E%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf</a></p><p sty=
+le=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-=
+family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-s=
+ize:12px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noope=
+ner noreferrer" target=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.=
+windows.net/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971=
+235-%20$SMITH%20-%20SEMI.pdf">https://saaze2311prdsra.blob.core.windows.net/=
+clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMIT=
+H%20-%20SEMI.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size=
+:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:=
+0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvet=
+ica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line=
+-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener noreferre=
+r" target=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/c=
+lean/bee2b76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$d=
+avid%20moore%20$3487%20-%20IA%208018184.pdf">https://saaze2311prdsra.blob.co=
+re.windows.net/clean/bee2b76c92d3ec11a7b5002248286997/[SF.VP%2043036]%202876=
+793%20-%20$david%20moore%20$3487%20-%20IA%208018184.pdf</a></p><p style=3D"m=
+argin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:=
+Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12p=
+x;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;=
+font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;=
+"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://=
+saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b500224828654e=
+/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$%20tipsord%20$%20STATE%20FARM%20m=
+utual%20automobile%20insurance%20company-$3487.pdf">https://saaze2311prdsra.=
+blob.core.windows.net/clean/9194266492d3ec11a7b500224828654e/[sf%20VP%204303=
+6-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%2=
+0insurance%20company-$3487.pdf</a></p><p style=3D"margin:0px;font-stretch:no=
+rmal;font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p st=
+yle=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font=
+-family:Helvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank=
+" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec=
+11a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdf">https://=
+saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe=
+/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf</a></p><p style=3D"margin:0px;f=
+ont-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"=
+><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-heig=
+ht:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretc=
+h:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D=
+"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://saaze2311pr=
+dsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/%5BSTATE%2=
+0FARM%20VP%2043036%5D$%203487%20$.pdf">https://saaze2311prdsra.blob.core.win=
+dows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$=
+%203487%20$.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:=
+12px;line-height:normal;font-family:Helvetica;" id=3D"yMail_cursorElementTra=
+cker_1652716708312"><br></p><p style=3D"margin:0px;font-stretch:normal;font-=
+size:12px;line-height:normal;font-family:Helvetica;"><span style=3D"color:rg=
+b(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16px;backgr=
+ound-color:rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0px;font-s=
+tretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><spa=
+n style=3D"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;fo=
+nt-size:16px;background-color:rgb(255, 255, 255);" id=3D"yMail_cursorElement=
+Tracker_1652716706159"><a id=3D"linkextractor__1652716706780" data-yahoo-ext=
+racted-link=3D"true" href=3D"https://saaze2311prdsra.blob.core.windows.net/c=
+lean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.j=
+peg">https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b=
+5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg</a></span></p><p sty=
+le=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-=
+family:Helvetica;" id=3D"yMail_cursorElementTracker_1652716706836"><br></p><=
+p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;=
+font-family:Helvetica;"><span style=3D"color:rgb(51, 51, 51);font-family:Hel=
+vetica, Arial, sans-serif;font-size:16px;background-color:rgb(255, 255, 255)=
+;"><br></span></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;=
+line-height:normal;font-family:Helvetica;"><span style=3D"color:rgb(51, 51, 5=
+1);font-family:Helvetica, Arial, sans-serif;font-size:16px;background-color:=
+rgb(255, 255, 255);">=E2=80=94SHARI</span></p><p style=3D"margin:0px;font-st=
+retch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><span=
+ style=3D"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;fon=
+t-size:16px;background-color:rgb(255, 255, 255);"><br></span></p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><span style=3D"color:rgb(51, 51, 51);font-family:Helvetica, Ar=
+ial, sans-serif;font-size:16px;background-color:rgb(255, 255, 255);" id=3D"y=
+Mail_cursorElementTracker_1652716704138"><a id=3D"linkextractor__16527167048=
+36" data-yahoo-extracted-link=3D"true" href=3D"https://saaze2311prdsra.blob.=
+core.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-9=
+1F6-A5A40317CC63.jpeg">https://saaze2311prdsra.blob.core.windows.net/clean/a=
+463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg</a=
+></span></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-h=
+eight:normal;font-family:Helvetica;" id=3D"yMail_cursorElementTracker_165271=
+6704881"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;l=
+ine-height:normal;font-family:Helvetica;"><span style=3D"color:rgb(51, 51, 5=
+1);font-family:Helvetica, Arial, sans-serif;font-size:16px;background-color:=
+rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0px;font-stretch:norm=
+al;font-size:12px;line-height:normal;font-family:Helvetica;"><span style=3D"=
+color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16p=
+x;background-color:rgb(255, 255, 255);" id=3D"yMail_cursorElementTracker_165=
+2716702315"><a id=3D"linkextractor__1652716703291" data-yahoo-extracted-link=
+=3D"true" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c=
+6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg">https:=
+//saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a1327=
+89/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg</a></span></p><p style=3D"margi=
+n:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helv=
+etica;" id=3D"yMail_cursorElementTracker_1652716703339"><br></p><p style=3D"=
+margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family=
+:Helvetica;"><span style=3D"color:rgb(51, 51, 51);font-family:Helvetica, Ari=
+al, sans-serif;font-size:16px;background-color:rgb(255, 255, 255);"><br></sp=
+an></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height=
+:normal;font-family:Helvetica;"><span style=3D"color:rgb(51, 51, 51);font-fa=
+mily:Helvetica, Arial, sans-serif;font-size:16px;background-color:rgb(255, 2=
+55, 255);">348</span></p><p style=3D"margin:0px;font-stretch:normal;font-siz=
+e:12px;line-height:normal;font-family:Helvetica;"><span style=3D"color:rgb(5=
+1, 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16px;backgroun=
+d-color:rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0px;font-stre=
+tch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D=
+"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.court=
+s.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKtn=
+JU/ni/zvg=3D=3D</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:=
+12px;line-height:normal;font-family:Helvetica;"><span style=3D"color:rgb(51,=
+ 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16px;background-=
+color:rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0px;font-stretc=
+h:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><span sty=
+le=3D"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-si=
+ze:16px;background-color:rgb(255, 255, 255);" id=3D"yMail_cursorElementTrack=
+er_1652716700325"><a id=3D"linkextractor__1652716701289" data-yahoo-extracte=
+d-link=3D"true" href=3D"https://github.com/users/BSCPGROUPHOLDINGSLLC/projec=
+ts/1">https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1</a></span></p=
+><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:norma=
+l;font-family:Helvetica;" id=3D"yMail_cursorElementTracker_1652716701334"><b=
+r></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:=
+normal;font-family:Helvetica;"><span style=3D"color:rgb(51, 51, 51);font-fam=
+ily:Helvetica, Arial, sans-serif;font-size:16px;background-color:rgb(255, 25=
+5, 255);"><br></span></p><p style=3D"margin:0px;font-stretch:normal;font-siz=
+e:12px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noopene=
+r noreferrer" target=3D"_blank" href=3D"https://a836-acris.nyc.gov/DS/Docume=
+ntSearch/DocumentImageView?doc_id=3D2020052000291003">https://a836-acris.nyc=
+.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2020052000291003</a></p><p=
+ style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;f=
+ont-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;fo=
+nt-size:12px;line-height:normal;font-family:Helvetica;"><span style=3D"color=
+:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-size:16px;bac=
+kground-color:rgb(255, 255, 255);"><br></span></p><p style=3D"margin:0px;fon=
+t-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><=
+a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iap=
+ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrEGCsUUcCcvtJ8O=
+/dfg=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+_PLUS_TlrEGCsUUcCcvtJ8O/dfg=3D=3D</a></p><p style=3D"margin:0px;font-stretch=
+:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><span styl=
+e=3D"color:rgb(51, 51, 51);font-family:Helvetica, Arial, sans-serif;font-siz=
+e:16px;background-color:rgb(255, 255, 255);"><br></span></p><p style=3D"marg=
+in:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Hel=
+vetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0Qv=
+nmRLGpYIQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</a></p><p style=3D"margin:0px;font-stretch=
+:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p=
+ style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;f=
+ont-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;fo=
+nt-size:12px;line-height:normal;font-family:Helvetica;">Docket 315: Loan</p>=
+<p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal=
+;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;=
+font-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow=
+ noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.n=
+y.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D">https://ia=
+pps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=
+=3D=3D</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line=
+-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-s=
+tretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;">315 1=
+ pager</p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-hei=
+ght:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stret=
+ch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D=
+"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.court=
+s.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D=3D=
+">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0=
+ynPeXZKSHgLQ=3D=3D</a></p><p style=3D"margin:0px;font-stretch:normal;font-si=
+ze:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margi=
+n:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helv=
+etica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;li=
+ne-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font=
+-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;">Do=
+cket 313</p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-h=
+eight:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-str=
+etch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a rel=
+=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.co=
+urts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7D=
+n66hrVmJ9DX_PLUS_bdg=3D=3D</a></p><p style=3D"margin:0px;font-stretch:normal=
+;font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0p=
+x;font-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetic=
+a;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKS=
+HgLQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+gcMSDaFzm0ynPeXZKSHgLQ=3D=3D</a></p><p style=3D"margin:0px;font-stretch:norm=
+al;font-size:12px;line-height:normal;font-family:Helvetica;"><br></p><p styl=
+e=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-f=
+amily:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-si=
+ze:12px;line-height:normal;font-family:Helvetica;">Docket 348</p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener n=
+oreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef=
+/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D">https://iapps.courts.=
+state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D</a><=
+/p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:nor=
+mal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:norm=
+al;font-size:12px;line-height:normal;font-family:Helvetica;">Docket 53</p><p=
+ style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;f=
+ont-family:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;fo=
+nt-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow n=
+oopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D">https:/=
+/iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLUS_k6vCmKg=
+fCSJEzuQ=3D=3D</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;" id=3D"yMail_cursorElementTrac=
+ker_1652716736099">&nbsp; &nbsp;&nbsp;</p><p style=3D"margin:0px;font-stretc=
+h:normal;font-size:12px;line-height:normal;font-family:Helvetica;">311 Servi=
+ce request.</p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;lin=
+e-height:normal;font-family:Helvetica;"><br></p><p style=3D"margin:0px;font-=
+stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><a r=
+el=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://portal=
+.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff86900c">https://=
+portal.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff86900c</a>=
+</p><p style=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:no=
+rmal;font-family:Helvetica;" id=3D"yMail_cursorElementTracker_1652716738460"=
+>&nbsp; &nbsp;&nbsp;</p><p style=3D"margin:0px;font-stretch:normal;font-size=
+:12px;line-height:normal;font-family:Helvetica;">May 11, 2022</p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener n=
+oreferrer" target=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windo=
+ws.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments=
+%20%252F%20Omissions.%20.pdf">https://saaze2311prdsra.blob.core.windows.net/=
+clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252=
+F%20Omissions.%20.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font=
+-size:12px;line-height:normal;font-family:Helvetica;" id=3D"yMail_cursorElem=
+entTracker_1652716742138">&nbsp; &nbsp;&nbsp;</p><p style=3D"margin:0px;font=
+-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;" id=
+=3D"yMail_cursorElementTracker_1652716740381">JP Morgan Links</p><p style=3D=
+"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-famil=
+y:Helvetica;"><br></p><p style=3D"margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow noopener n=
+oreferrer" target=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windo=
+ws.net/clean/f2d6a0fe5fd3ec11a7b5000d3a1326fe/Fwd:%20unlawful%20RENT%20and%2=
+0PAYMENTS%20in%20CUSTODY%20at%20JP%20MORGAN%20CHASE%20BANK.pdf">https://saaz=
+e2311prdsra.blob.core.windows.net/clean/f2d6a0fe5fd3ec11a7b5000d3a1326fe/Fwd=
+:%20unlawful%20RENT%20and%20PAYMENTS%20in%20CUSTODY%20at%20JP%20MORGAN%20CHA=
+SE%20BANK.pdf</a></p><p style=3D"margin:0px;font-stretch:normal;font-size:12=
+px;line-height:normal;font-family:Helvetica;" id=3D"yMail_cursorElementTrack=
+er_1652716746385">&nbsp; &nbsp;&nbsp;</p></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div></div></div></div></div></div><=
+/div></div></div></div></div></div></div></div></div><div id=3D"yiv408388815=
+7"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr">=
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"=
+><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div di=
+r=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div d=
+ir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"lt=
+r"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div d=
+ir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><p style=3D"ma=
+rgin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family:H=
+elvetica;" id=3D"yMail_cursorElementTracker_1652716744664">/BD</p></div></di=
+v></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></blockquote></div></blockquote><br><div><div>ATTN: JP MORGAN C=
+HASE BANK, N/A.</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [REDACTED]</div=
+><div><br></div><div>I had a moment to clean this up and also added some add=
+itional information in the latter portion of this document.</div><div><br></=
+div><div>As stated at your branch on Friday, I have not heard from these fol=
+ks since August of 2020, and certainly not in a court of law.</div><div><br>=
+</div><div>- The violation of privacy and distribution of videos which they f=
+ilmed and photographed "inside of my apartment" were without consent, and we=
+re also distributed by and between their counselors / advisors and are attac=
+hed here for context if you'd like to look into matters which pertain to Vio=
+lation of Privacy.</div><div><br></div><div>RE: TAX MATTERS</div><div><br></=
+div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>THE 6 BUI=
+LDINGS, A TOTAL OF 144 APARTMENTS HAVE BEEN VALUED AT ROUGHLY $22.5 MILLION D=
+OLLARS AND FOR TAX PURPOSES PER THE NY DEPT OF FINANCE REGISTER AS OF DECEMB=
+ER 2021 REPORT YoY GROSS INCOME IN A LINEAR FASHION AND IN DOUBLE DIGITS.</d=
+iv><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>- THIS HOL=
+DS TRUE FOR ALL SIX PROPERTIES USED AS "CREDITWORTHINESS" OF INCOME AND ASSE=
+TS, HOWEVER, TO KEEP MATTERS SIMPLE.</div><div><br></div><div>THERE ARE TWO P=
+ROPERTIES WHICH MAKE THIS MUCH EASIER FOR YOU AND YOURS TO ABSORB.</div><div=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>PROPERTY 1:&nbsp;=
+</div><div>111 SULLIVAN STREET REAR, APT 2BR, NEW YORK, NY, 10012 &nbsp; &nb=
+sp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>- Where I resided, and=
+ the rights of the leases and rents transferred to State Farm is a building w=
+ith no certificate of occupancy.</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp;&nbsp;</div><div>PROPERTY 2:&nbsp;</div><div>117 SULLIVAN STREET, NE=
+W YORK, NY, 10012 &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>- Th=
+e neighboring building, where the rights of the leases and rents were also t=
+ransferred to State Farm is a building with no certificate of occupancy.</di=
+v><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;=
+</div><div>BOTH PROPERTIES with " UNLAWFUL INCOME " was used and represented=
+ as lawful income to State Farm and to obtain a loan for $6,000,000.00 as re=
+ferenced hereunder.</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>filed under ACRIS:&nbsp;</div><di=
+v>" TRANSFER OF LEASES AND RENTS "</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp;</div><div>TO: STATE FARM</div><div>ONE STATE FARM PLAZA<font co=
+lor=3D"#000000"><span style=3D"caret-color: rgb(0, 0, 0);">&nbsp;</span></fo=
+nt></div><div>BLOOMINGTON, IL, 61710</div><div>&nbsp; &nbsp; &nbsp;&nbsp;</d=
+iv><div>I did notify the "Brokerage &amp; Investment" department at JP Morga=
+n, and they no longer are custodians for the Investment Adviser, who in the f=
+ormer has</div><div>&nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp;&nbsp;</div><div>"CEASED TO EXIST" and as of November 24th, 2021 un=
+der the Securities and Exchange Commission.</div><div>&nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; https://www.sec.gov/Archives/edgar/data/0000093715/99999=
+9999721005790/filename1.pdf</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</d=
+iv><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>S=
+tate Farm Assurances Funds Trust</div><div>CIK NUMBER: 93715</div><div>SEC FI=
+LE NUMBER: 811-01519</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp;&nbsp;</div><div>Attachments and link to substantive matters are b=
+elow my signature and for convenience and ease of your references.</div><div=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>1. TCR report attached, which was fil=
+ed with the Securities and Exchange Commission on November 13th, 2021.</div>=
+<div>&nbsp;&nbsp;</div><div>2. Losses registered by their Investment Adviser=
+, between November 13th, 2021 through April 30th, 2022 have grown to the exc=
+ess of 1.35 billion dollars, and one of their Investment Advisers has also C=
+eased to Exist [ SEC FILER: 93715 ]</div><div>&nbsp; &nbsp; &nbsp; &nbsp;</d=
+iv><div>3. NYC DEPT OF FINANCE RECORDS ARE ATTACHED, AS ARE THE TAX BILLS FO=
+R BLOCK 803, LOT 11 --- which was transferred to State Farm on May 15th, 202=
+0.</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>4. VIOLATION OF PRIVACY AN=
+D TAX EVASION DOCKETS.PDF is also attached in case there is any question as t=
+o the matters which are "sensitive" and also "deplorable" in the scope of co=
+nduct/ethics.</div><div><br></div><div>SECURITY DEPOSIT(S) ARE HELD IN CUSTO=
+DY AT JP MORGAN CHASE BANK, N/A</div><div><br></div><div>https://iapps.court=
+s.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6DBJZ1wsiq0b38A=3D=3D</d=
+iv><div><br></div><div>&nbsp; &nbsp; &nbsp;&nbsp;</div><div><br></div><div>S=
+ULLIVAN PROPERTIES LP</div><div>101 WEST 55TH STREET</div><div>NEW YORK, NY,=
+ &nbsp; &nbsp;10019</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>DOES NOT HAVE A CERTIFICATE OF OCCUP=
+ANCY</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp;&nbsp;</div><div>111 SULLIVAN STREET, 113 SULLIVAN STREET&nbsp;</div=
+><div>OR 115 SULLIVAN STREET (REAR)</div><div><br></div><div>https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D=
+</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><div><br></div><div>THER=
+E WERE NO CERTIFICATES OF OCCUPANCY ON FILE FOR MY APARTMENT.</div><div>&nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>111 REAR SULLIVAN STRE=
+ET</div><div>NEW YORK, NY, 10012&nbsp;</div><div>&nbsp; &nbsp; &nbsp; AT ANY=
+ POINT IN TIME.</div><div><br></div><div>https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3DIJ47OvVzsLObNsXt0u8trg=3D=3D</div><div><br></di=
+v><div>&nbsp; &nbsp;</div><div><br></div><div>2020-08-04 111 SULLIVAN STREET=
+ REAR</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;</div><div>https:/=
+/iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DzXega0sLahw5fVuBTVt=
+pnw=3D=3D</div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+&nbsp;</div><div>111 REAR SULLIVAN STREET</div><div>LEGAL ADULT USE: NO</div=
+><div>&nbsp; &nbsp;&nbsp;</div><div>https://iapps.courts.state.ny.us/nyscef/=
+ViewDocument?docIndex=3D9zQd7Hu3cy9vp6I960WGNQ=3D=3D</div><div><br></div><di=
+v><br></div><div><br></div><div>RENT PAYMENTS 2020_07_25</div><div>HAVE NOT B=
+EEN REFUNDED AS OF CURRENT.</div><div>=E2=80=94NOTWITHSTANDING MY DEMANDS, A=
+ DEFAULT " NON-JOINDER " IN THE MATTER OF 153974/2020</div><div>&nbsp; &nbsp=
+; &nbsp; &nbsp;&nbsp;</div><div>MY SECURITY DEPOSIT ALSO WAS NOT RETURNED AN=
+D THE GREATER AMOUNTS OF RENTS AND SECURITY ARE "PURPORTEDLY" RENT PAYMENT(S=
+) ARE HELD IN CUSTODY AT JP MORGAN CHASE, N/A</div><div><br></div><div>THE I=
+NITIAL FINANCING / MORTGAGE&nbsp;</div><div>=E2=80=94 TO PURCHASE THE PROPER=
+TIES IN QUESTION WERE FROM JP MORGAN CHASE NA, IN 1989</div><div><br></div><=
+div>https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D=
+FT_1000000324600</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><div>htt=
+ps://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3DFT_1350=
+000324035</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://a83=
+6-acris.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=3DFT_1350000324035</=
+div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>THE LOA=
+N DOCKETS AND TAX RECEIPTS WERE ANNEXED IN THE MATTER OF 153974/2020. &nbsp;=
+ &nbsp; &nbsp; &nbsp;</div><div>=E2=80=94THE ACCOUNT ADDRESS YOU SHOULD HAVE=
+ FOR THE ENTITIES ARE:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp;101 WEST 55TH STREET</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NEW=
+ YORK, NY, &nbsp; &nbsp;10019</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;103 WEST 55TH STREET</div>=
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NEW YORK, NY, &nbsp; &nbsp;10019</di=
+v><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>CORPORATE NAMES, INDIVID=
+UALS &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp;</div><=
+div>&nbsp; &nbsp; &nbsp;DONALD ZUCKER;</div><div>&nbsp; &nbsp; &nbsp;LAURIE Z=
+UCKER;</div><div>&nbsp; &nbsp; &nbsp;ANDRES REYNOSO; OR&nbsp;</div><div>&nbs=
+p; &nbsp; &nbsp;</div><div>AN APPOINTED DIRECTORS UNDER THESE ENTITIES:</div=
+><div>&nbsp; &nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; - SULLIVAN PROPERTI=
+ES LP</div><div>&nbsp; &nbsp; - SULLIVAN GP LLC</div><div>&nbsp; &nbsp; - MA=
+NHATTAN SKYLINE MANAGEMENT CORP.</div><div><br></div><div>https://iapps.cour=
+ts.state.ny.us/nyscef/ViewDocument?docIndex=3DMjxo9_PLUS_FdCN/p2Jrgw4MkIQ=3D=
+=3D</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><div>PER THE NEW YORK=
+ SUPREME COURT DOCKETS:</div><div>- CUSTODY OF THOSE ASSETS ARE HELD AT:&nbs=
+p;</div><div><br></div><div>&nbsp; &nbsp; &nbsp;JP MORGAN CHASE, N/A</div><d=
+iv>=E2=80=94 Please understand that BEYOND the RENT &amp; SECURITY which was=
+ stolen from me by Sullivan Properties LP.</div><div><br></div><div>as discu=
+ssed at your branch on 2022-05-13, have mysteriously disappeared, as individ=
+uals, corporations, notwithstanding their Counselors.</div><div><br></div><d=
+iv>Are liable for other default provisions under a certain</div><div>&nbsp;"=
+ non-joinder " and beyond the unlawful rents and security deposits which are=
+ in custody at your institution as of current, are not permitted as lawful p=
+er the FDIC and at any US depository institution.</div><div>&nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>This was all filed a=
+nd in New York State Supreme Matter 153974/2020 and under the Honorable Schl=
+omo Haggler, J.S.C., for reference.</div><div><br></div><div>=E2=80=942020-0=
+6-15</div><div><br></div><div>https://iapps.courts.state.ny.us/nyscef/ViewDo=
+cument?docIndex=3DR9aac7D6DBJZ1wsiq0b38A=3D=3D</div><div>&nbsp; &nbsp;&nbsp;=
+</div><div>=E2=80=942020-08-04</div><div>NO COMPLAINTS FILED IN MY RESIDENCE=
+ OR BUILDING.</div><div>&nbsp; &nbsp; &nbsp;NO GROUNDS TO LEGALLY COLLECT RE=
+NT&nbsp;</div><div>&nbsp; &nbsp; AND/OR SECURITY DEPOSITS&nbsp;</div><div><b=
+r></div><div>FOR ANY OF THOSE PROPERTIES TRANSFERRED&nbsp;</div><div>TO A 40=
+=E2=80=99 ACT MUTUAL FUND, then CIK 93715, and the Note and liability was tr=
+ansferred by contractual obligations under the prospectus and indenture to t=
+he new Adviser, filer CIK 15156523.</div><div><br></div><div>&nbsp; &nbsp;&n=
+bsp;</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DDnmjCPN_PLUS_DIIELjZFua7gWQ=3D=3D</div><div><br></div><div>&nbsp; &nbsp; &=
+nbsp; &nbsp;&nbsp;</div><div>Notice to Parties named sent via email:&nbsp;</=
+div><div>=E2=80=94 WITH ENCLOSURES TO AMEND CAPTION.</div><div>https://iapps=
+.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DyMXQNekW7te0QA5jjAvP2w=3D=
+=3D</div><div><br></div><div>&nbsp; &nbsp; &nbsp;&nbsp;</div><div>DOB RECORD=
+S.&nbsp;</div><div>ADDRESS INFORMATION FROM THE NEW YORK CITY DEPARTMENT OF B=
+UILDINGS.</div><div>&nbsp; &nbsp; &nbsp;</div><div>https://iapps.courts.stat=
+e.ny.us/nyscef/ViewDocument?docIndex=3DCeL5zAaUK8tfWrX9kp/QdA=3D=3D</div><di=
+v><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://iapps.courts.state.ny=
+.us/nyscef/ViewDocument?docIndex=3DupAzS2FC6bICOGxa73ptdg=3D=3D</div><div><b=
+r></div><div>&nbsp; &nbsp; &nbsp;</div><div>=E2=80=94 RENT STATEMENTS &amp; R=
+ECEIPTS OF PAYMENTS. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>202=
+0, FEBRUARY</div><div><br></div><div>https://iapps.courts.state.ny.us/nyscef=
+/ViewDocument?docIndex=3D4PiwGksCJul/AGvyopmH8g=3D=3D</div><div><br></div><d=
+iv>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>=E2=80=94 STATEMENT 2020, MAY=
+</div><div><br></div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocume=
+nt?docIndex=3DvMB0J4qaYgauPBeEMLIOXA=3D=3D</div><div><br></div><div>&nbsp; &=
+nbsp;&nbsp;</div><div>=E2=80=94RENT PAYMENT 2020, MAY</div><div><br></div><d=
+iv>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwCwqZV3k3=
+dKPIhAESd/oag=3D=3D</div><div><br></div><div><br></div><div>STATEMENT: REQUE=
+STED A REFUND OF ALL UNLAWFUL FEES.</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp;[ NO RESPONSE ]</div><div><br></div><div>06-03-2020=
+, 07-31-2020</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?=
+docIndex=3Dvd54Sn1RLwYlVxoKhGh0xg=3D=3D</div><div><br></div><div>&nbsp; &nbs=
+p;&nbsp;</div><div>=E2=80=94 RENT PAYMENT RECEIPT AND STATEMENT</div><div>07=
+-31-2020</div><div><br></div><div>&nbsp; &nbsp; &nbsp; $3106 [ 25% INCREASE:=
+ WITHOUT LEGAL GROUNDS OR REASONABLE CAUSE, WAS PAID AND HELD IN CUSTODY AT J=
+P MORGAN CHASE BANK.</div><div><br></div><div>https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3D4WL76ylXCtw_PLUS_H5zwmPPkZw=3D=3D</div><di=
+v><br></div><div>RENT PAYMENT RECEIPT AND MONTHLY STATEMENT &nbsp; &nbsp;&nb=
+sp;</div><div><br></div><div>05-31-2020</div><div>&nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; $600 IN PENALTIES ARBITRARILY INVOICED, PAID, AND REM=
+AINS IN CUSTODY AT JP MORGAN CHASE.</div><div><br></div><div>https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3DhSVGBDz7FlXskw5BZ_PLUS_e_PL=
+US_ZA=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>RECEIPT A=
+ND REQUEST FOR REFUND</div><div>06-03-2020</div><div><br></div><div>&nbsp; &=
+nbsp; &nbsp;</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?=
+docIndex=3DEJfqnPTVv0u9BQ/iFgKRew=3D=3D</div><div><br></div><div>&nbsp; &nbs=
+p; =E2=80=94 PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PRO=
+PERTY EITHER.</div><div><br></div><div>https://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D</div><div><br></div>=
+<div>=E2=80=94 JULY RENT IS REFUSED BY LANDLORD, AND SO ARE ANY OTHER DEMAND=
+S.</div><div>- A CHANGE IN CAPTION IS ALSO REFUSED &amp; UNANSWERED.</div><d=
+iv><br></div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3Dewwxg8z5wECGtkuHHm8O9A=3D=3D</div><div><br></div><div>=E2=80=94EXHIBIT=
+.</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+rjL6yoW3Mt2U6UigWCM9XQ=3D=3D</div><div><br></div><div>=E2=80=94TAX MAP BLOCK=
+ 503 - LOT 8.</div><div><br></div><div>https://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</div><div><br></div>=
+<div>1. Consolidated Letter of Credit and Indemnity.</div><div><br></div><di=
+v>SULLIVAN PROPERTIES LP</div><div>&nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nb=
+sp; &nbsp; &nbsp;TERMS OFFERED BY STATE FARM LIFE INSURANCE.</div><div>&nbsp=
+; &nbsp; &nbsp; &nbsp; =E2=80=94 MAY 11TH, 2020</div><div><span style=3D"car=
+et-color: rgb(0, 0, 0); color: rgb(0, 0, 0);">&nbsp; &nbsp; &nbsp; &nbsp;&nb=
+sp;</span></div><div><span style=3D"caret-color: rgb(0, 0, 0); color: rgb(0,=
+ 0, 0);">ASSIGNED THEIR LEASES AND RENTS&nbsp;</span></div><div><div style=3D=
+"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);">&nbsp; &nbsp; &nbsp; &nbsp=
+; TO STATE FARM, EXECUTED BY DONALD ZUCKER.&nbsp;</div><div style=3D"caret-c=
+olor: rgb(0, 0, 0); color: rgb(0, 0, 0);">&nbsp; &nbsp; &nbsp; &nbsp; =E2=80=
+=94 MAY 15TH, 2020</div><div style=3D"caret-color: rgb(0, 0, 0); color: rgb(=
+0, 0, 0);"><br></div><div style=3D"caret-color: rgb(0, 0, 0); color: rgb(0, 0=
+, 0);">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1=
+KA9akRV9TGfXXJT/g=3D=3D</div></div><div style=3D"caret-color: rgb(0, 0, 0); c=
+olor: rgb(0, 0, 0);"><br></div><div style=3D"caret-color: rgb(0, 0, 0); colo=
+r: rgb(0, 0, 0);"><br></div><div>=E2=80=94 ACRIS Detailed Document Informati=
+on</div><div>&nbsp; &nbsp; (2019000021408)2019010800475001</div><div>&nbsp; &=
+nbsp; &nbsp;</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?=
+docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D</div><div><br></div><div>=E2=80=94 A=
+CRIS Detailed Document Information</div><div>&nbsp; &nbsp; (2020000155422)20=
+20052000291003</div><div>&nbsp; &nbsp;&nbsp;</div><div>https://iapps.courts.=
+state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D</div=
+><div>&nbsp; &nbsp; &nbsp;</div><div>=E2=80=94 ACRIS Detailed Document Infor=
+mation</div><div>&nbsp; &nbsp; (2020000155421)2020052000291002</div><div><br=
+></div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D</div><div>&nbsp;&nbsp; &nbsp;&nbsp;</div><=
+div>=E2=80=94 ACRIS Detailed Document Information</div><div>&nbsp; &nbsp; (2=
+020000155422)2020052000291003</div><div><br></div><div>https://iapps.courts.=
+state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D</div=
+><div><br></div><div>=E2=80=94 ACRIS Detailed Document Information</div><div=
+>&nbsp; &nbsp; (2020000155423)2020052000291004</div><div><br></div><div>http=
+s://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZ=
+KSHgLQ=3D=3D</div><div><br></div><div>__ASSIGNMENT OF LEASE AND RENTS ON&nbs=
+p;</div><div>__FILED ON MAY 26TH, 2020</div><div>&nbsp; &nbsp;&nbsp;</div><d=
+iv>=E2=80=94 New York Finance Register.</div><div>https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVfWOLjSXhyJZ94A=3D=3D</div><div=
+>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; NOTICE TO: &nbsp;=
+ STATE FARM</div><div>&nbsp; &nbsp; ONE STATE FARM PLAZA</div><div>&nbsp; &n=
+bsp; BLOOMINGTON, IL, 61710</div><div><br></div><div>https://iapps.courts.st=
+ate.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcweC7esRoSPO8MNtA=3D=3D</div><=
+div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div><span style=3D"caret-color:=
+ rgb(0, 0, 0); color: rgb(0, 0, 0);">&nbsp; NOTICE TO SULLIVAN PROPERTIES LP=
+</span></div><div><font color=3D"#000000"><span style=3D"caret-color: rgb(0,=
+ 0, 0);">&nbsp;&nbsp;</span></font>101 west 55th Street</div><div>&nbsp; New=
+ York, NY, 10019</div><div><br></div><div>COMPLAINT #14585819 (7/25/2020) FI=
+LED WITH THE BETTER BUSINESS BUREAU</div><div>https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3DEJfqnPTVv0u9BQ/iFgKRew=3D=3D</div><div><br=
+></div><div>&nbsp; &nbsp; &nbsp; &nbsp; NO CERTIFICATE OF OCCUPANCY</div><di=
+v>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>AUGUST 4TH, 2020</div><div>&nb=
+sp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>RENT PAYMENT RECEIPT, MONTHLY STATE=
+MENT. 07_31_2020 WITH $8,106.21 IN UNLAWFULLY INVOICED LEGAL FEES, WHICH CAN=
+ BE USED AS A CREDIT AND A LIABILITY TO ME.</div><div><br></div><div>https:/=
+/iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dlq9Z3VE3sO4pTEk1UrH=
+B2Q=3D=3D</div><div><br></div><div>RENT PAYMENT RECEIPT AND MONTHLY STATEMEN=
+TS</div><div>07_21_2020</div><div>=E2=80=94 CLICK PAY IS NO LONGER ACCEPTING=
+ PAYMENTS.</div><div><br></div><div>https://iapps.courts.state.ny.us/nyscef/=
+ViewDocument?docIndex=3DiK7ZjdNLVty6kLSL4SjeoA=3D=3D</div><div><br></div><di=
+v><br></div><div>=E2=80=94 RENT PAYMENT RECEIPT, MONTHLY STATEMENT &nbsp;&nb=
+sp;</div><div>&nbsp; &nbsp; 04_30_2020</div><div><br></div><div>https://iapp=
+s.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrEGCsUUcCcvtJ8O/=
+dfg=3D=3D</div><div><br></div><div>=E2=80=94 PLAINTIFFS POLICIES AND PROCEDU=
+RES</div><div>&nbsp; &nbsp; INSURANCE REQUIREMENT</div><div><br></div><div>h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DmzFuOKAUp7O4A=
+RBxH4uCDA=3D=3D</div><div>&nbsp; &nbsp;</div><div>=E2=80=94 LANDLORD_REFUSES=
+_PAYMENT</div><div><br></div><div>https://iapps.courts.state.ny.us/nyscef/Vi=
+ewDocument?docIndex=3D2lQuDSfPu51L3OhNqqRGvg=3D=3D</div><div><br></div><div>=
+=E2=80=94 PROPERTY RECORDS: PROPERTY SHARK</div><div><br></div><div>https://=
+iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUAXjpRh1KO2_PLUS_8Ks=
+dF1TuQA=3D=3D</div><div><br></div><div>=E2=80=94 NOTICE TO CHANGE CAPTION IN=
+ THIS MATTER.</div><div>&nbsp; &nbsp; WITH ATTACHED PROPERTY SHARK RECORDS.<=
+/div><div><br></div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DXkdNmKBghAAqMUItDdrwxA=3D=3D</div><div><br></div><div>=E2=80=94=
+ NOTICE TO CHANGE CAPTION IN THIS MATTER.</div><div>&nbsp; &nbsp; ATTACHED P=
+ROPERTY SHARK RECORDS.</div><div>&nbsp; &nbsp; 2020-08-04</div><div><br></di=
+v><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DcWLEr=
+rXbEw5qtOLVeWU/7g=3D=3D</div><div><br></div><div>=E2=80=94 NOTICE TO CHANGE C=
+APTION IAn 153974/2020</div><div>&nbsp; &nbsp; TO ADD STATE FARM AS A RESPON=
+DENT</div><div>&nbsp; &nbsp; 2020-08-08</div><div><br></div><div>https://iap=
+ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1NcBADqRc_PLUS_g1=
+1P4g=3D=3D</div><div><br></div><div><br></div><div>=E2=80=94 RENT STABILIZED=
+ BREACH [ J-51 ]</div><div><br></div><div>https://iapps.courts.state.ny.us/n=
+yscef/ViewDocument?docIndex=3Dd7t3ED/Z4rcggm8dkQ0Jlg=3D=3D</div><div><br></d=
+iv><div>SUPPLEMENTS FOR CONVENIENCE.</div><div>https://saaze2311prdsra.blob.=
+core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9=
+D15-3AF4205617AC.jpeg</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><di=
+v>https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b500=
+2248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg</div><div><br></div><di=
+v>&nbsp; &nbsp; &nbsp;</div><div>https://saaze2311prdsra.blob.core.windows.n=
+et/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC=
+63.jpeg</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><div>https://saaz=
+e2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/[ST=
+ATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20M=
+ONK[CRD%201357149].pdf</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><di=
+v>https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7b500=
+0d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf</div><div><br></div><div>&nbsp; &nbsp;&=
+nbsp;</div><div>https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d=
+97d3ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf</div><d=
+iv><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2311prdsra.blob=
+.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%=
+2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%20135714=
+9].pdf</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2=
+311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7b5000d3a132789/15397=
+4-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf</div><div><br></div><di=
+v>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2311prdsra.blob.core.windows.ne=
+t/clean/ff91792a95d3ec11a7b50022482864f0/[sfVP43036]%20$2876793%20-%20david.=
+moore%20$3487%20-%20IA%208018184.pdf</div><div><br></div><div>&nbsp; &nbsp; &=
+nbsp;</div><div>https://saaze2311prdsra.blob.core.windows.net/clean/af081f40=
+95d3ec11a7b50022482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf<=
+/div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2311prds=
+ra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%=
+20Management%20Corp-CRD%2343036.pdf</div><div><br></div><div>&nbsp; &nbsp;&n=
+bsp;</div><div>https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5=
+fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf</div=
+><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2311prdsra.b=
+lob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20=
+%20attachments%20%252F%20Omissions.%20.pdf</div><div><br></div><div>&nbsp; &=
+nbsp;&nbsp;</div><div>https://saaze2311prdsra.blob.core.windows.net/clean/db=
+5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg</di=
+v><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2311prdsra.=
+blob.core.windows.net/clean/172de37992d3ec11a7b500224828654e/[sfVP%2043036]%=
+204971235-%20$SMITH%20-%20SEMI.pdf</div><div><br></div><div>&nbsp; &nbsp;&nb=
+sp;</div><div>https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92=
+d3ec11a7b5002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$348=
+7%20-%20IA%208018184.pdf</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><=
+div>https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b5=
+00224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20=
+FARM%20mutual%20automobile%20insurance%20company-$3487.pdf</div><div><br></d=
+iv><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze2311prdsra.blob.core.wind=
+ows.net/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-=
+%20$SMITH%20-%20SEMI.pdf</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><=
+div>https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5=
+002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA=
+%208018184.pdf</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https:=
+//saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b50022482865=
+4e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mut=
+ual%20automobile%20insurance%20company-$3487.pdf</div><div><br></div><div>&n=
+bsp; &nbsp;&nbsp;</div><div>https://saaze2311prdsra.blob.core.windows.net/cl=
+ean/e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$=
+.pdf</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://saaze231=
+1prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%=
+20FARM%20VP%2043036]$%203487%20$.pdf</div><div><br></div><div>&nbsp; &nbsp;&=
+nbsp;</div><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInde=
+x=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp=
+;</div><div>https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?d=
+oc_id=3D2020052000291003</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><=
+div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_Tl=
+rEGCsUUcCcvtJ8O/dfg=3D=3D</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div=
+><div>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFX=
+y0G0QvnmRLGpYIQ=3D=3D</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><di=
+v>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G=
+0QvnmRLGpYIQ=3D=3D</div><div><br></div><div>&nbsp; &nbsp; &nbsp;</div><div>h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynP=
+eXZKSHgLQ=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https=
+://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9D=
+X_PLUS_bdg=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>http=
+s://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZ=
+KSHgLQ=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://=
+iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/ni/z=
+vg=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://iapp=
+s.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLUS_k6vCmKgfCSJE=
+zuQ=3D=3D</div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div>https://por=
+tal.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff86900c</div><=
+div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div>https://saaze=
+2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf</div></div><div><br><=
+/div><div>NO CLASS THREE HOLDINGS REPORTED AS OF&nbsp;</div><div>2020-05-31,=
+ FILED ON 2020-07-28 BY&nbsp;</div><div><br></div><div>State Farm VP Managem=
+ent Corp.</div><div>BY: TERRENCE LUDWIG, CCO.</div><div><br></div><div><br><=
+/div><div><br></div><div><br></div><div>&nbsp; &nbsp;&nbsp;</div><div><br></=
+div><div><br></div></div></body></html>=
+
+--Apple-Mail-46972457-C0F8-4EF4-BEB3-AEE442FF6961--

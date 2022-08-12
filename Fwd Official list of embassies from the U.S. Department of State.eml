@@ -1,0 +1,116 @@
+From - Fri Jun 10 16:42:46 2022
+X-Account-Key: account1
+X-UIDL: ALPfymt2o1SJYqOnIAQayIVwW5Y
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.44
+ by atlas309.free.mail.ne1.yahoo.com with HTTPS; Fri, 10 Jun 2022 20:18:39 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.48]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.48 as permitted sender)
+Authentication-Results: atlas309.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 10 Jun 2022 20:18:40 +0000
+X-YMailAVSC: .eh8Vvw3bBvVhnvfCYvvG_xaqZANwaolz4pM0a5Vgj3wtYn
+ zfxDhz81vW8NkmWDJIWUkr3_zOVuNnzJ5CbgzwD9QuIK6x4btP7a2VmKuW8y
+ aFGlEYT66_GKiLsV_Qc_WtlLIXOk35.0dGdzjV9MqK2zOGo_VFO4kL2tNQ0k
+ hw960nux0WoP5KoRsrwJQC8KPgnFZWCnd28NKzONpInnppw5hSa5xNeBLLID
+ 3DYeXYSt53HeNeH_zb9KGWfufobOH64TOAJgy6KJJTQoFO9YyP4J.IEwy0Sp
+ amMQ2tsV8v28_G6xXBdwTVjmFr75GbJDeNnv31Cy0VVSq0Xk0MIxlD3Z.y7m
+ 1WME9OIm53y4rmjuPJu.SxPmOMj5u4TDbZw2mrOme
+X-YMailISG: 3dmQAbYWLDtyRywUF4yXsB7PX77ECWRjUdPjx2uXDBWaROD3
+ XSqso_CskLNpmT_LuuhhkzKWgt.u7MB2mExFZKFMuljt60tlF.jmmwiIXyeZ
+ 70CKejevd25IIJeUTSTT8O3mWnyW.XmZkbuYd47E506OJp_RtxMoymQFZtpc
+ CP47b2J4NAgjYxevcT70VVv3bjF8kQSS8n9yBEoEFWrGiHggZs6LQ3W4LzOV
+ FY6SgUDASkKOjaWvaZVwOSPwbV8Br2dXteKvQdctKwUOsfZxKlOyc4_ARcxK
+ D7XHKueXiBujPiT6G1dk_Kl7ZokDZx8hI8Xm9Wr92ci8OIfp2whmJ1fTwaHf
+ Q5YdrEQhPEsluhlyUMx6iKsq9cOELQ0WtMKJizAHmugjlUY8O5F.8Fw2LjTZ
+ vRPzwGaTclCuvgqjBMzU4lEDjKVpybHvn6j.AkOyFq3pz0sDkA_9Nu5Ourut
+ QLykToPhQ0c4z9qneSW6Dedu11Gp8P9GSa0_eogDJtWdcyoaMse_xYD2QURz
+ LME1v.HqBqBo5DuKQ.ZnsAvnGiwVNytgryfwWXmpqjiAufiyqK447TTqbZjC
+ H3nKvo3tNLFFZvmGA4.OxVs37Ytdi_J8fpyIunylSr.53ReG3AFwglbcufQe
+ CwuAyjfzNEqx70ioIox6xuvQZLb6b3guSaE5KGFfWU625I6LayuBxvk7CSj0
+ v2b1Lm5sSGdbH6NKkGQHsxhHSKFxye.Rj.IfZXnURPzLdllI5aT5iSNX575N
+ dv7Sp8ff1WIo8ZgJXg34_TSmloY8vSJo0dBEFobqNeVyjfXpQ5eJMPV6ePDY
+ zZ_FgPqevk4yjTF9PAm3QBdnCr7MdXOr8FQYKcC1PxnDVo517XSG8tzLfMr4
+ 6i_Mpy055F_Yrn3LSsUkCVhzb.3VWc0bkCSmLbMdrbkHluGgm7n7HqENBLHN
+ rLn6z9sotzTBA4cJnzoicDS_yKyDkoiXFlcX2ZymaZqk_bX6Np7pR_Z_Z.zC
+ EoeIm6UaCqc19BKEoBeCk8huecCdoFlVXU3VLPJXLb0ThPARC49lCnRwuL9A
+ OhvfHunGn6g7p_FiwN21lplqjIcKx0KdWLaiE0pHDDHcXnKzOXgbh5SGRVKc
+ _8GAkeLRd.St37uyZnNyXuc61lLMdjm9FybXydN5ES1fgdD.lNyozCjWCt7Z
+ 3fU.a6iw5EMOF6BYKRRW61V4
+Received: from 209.85.166.48 (EHLO mail-io1-f48.google.com)
+ by 10.217.135.44 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 10 Jun 2022 20:18:39 +0000
+Received: by mail-io1-f48.google.com with SMTP id y79so188541iof.2
+        for <ms60710444266@yahoo.com>; Fri, 10 Jun 2022 13:18:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=2/jzz+67G3UOUHK4wQ+CpwU61pqWEv9bgvnxRcfrNhE=;
+        b=fdyTAbgdRjZkPyLXiXJ5PbV8kf1msR01cU4xo8olF4T936JpU+y9r12ukxo2T6UjOX
+         HDYOYxRpF9wHIugw76djHChAXF9ai8bSXYybja0o42opdWSLxOnHgup79TtDrkOfS5D4
+         qfPUcJVNgXJ5xzqW2Z9QvP1dMx2GE0Q8VBmiNXnzSWORR2yodPsd/Qtft8uNhM6xT8VU
+         nmUda/yvUhBZVBexhlOeNNAKSuj4nw1mAxRAoXlqoqWfxmNmEOjQFkd3VMiZqO43Ir/0
+         9tIWQ+6gbyMgxpH5TFAdYR3jLOPcx0ob3TPWNAC5GYQ01Sw+jzYc/4neqFvHtLkF+Qh0
+         ca2g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=2/jzz+67G3UOUHK4wQ+CpwU61pqWEv9bgvnxRcfrNhE=;
+        b=KYli64jLb8W3xP0JgKyEvrsETHRI8ALfDZ3ZrUSHVgSaI4CW7ijiGheDp1v6wEvXq1
+         I3xj502U12VhoO3NIMLfFnVpApJL1sEpVJo1Q7AzQRGUYHziCC+kp5BfZfw/QQDpy5OA
+         rIIZcjEqyvvLI0yWNnl1/k/DRjrRT7dqJhHWcVNQNluzb/AlXXq6L0Df0vmiFU/u+p4I
+         7wyisyvzuo0QhxrVKbDyHCNxsP5bG28NPpQVklYswPUttWFrEVJTbhysJ2+LTcEUwrvc
+         e+KEXSv5HviPr10CFX03aSxzdjRzc8zB0o3ujPuZ2ZnNy1c5gXBrYF8tu6CWgi8262k7
+         KStA==
+X-Gm-Message-State: AOAM531KMJ3JJUsJ+Nnjvrdj407luUeH3QhjRAKZrExDh9yrsxaKIQBS
+	26LhuzKclt9Xdl1roCdKkbZTc1RYtZg7dHG3ox+LCsuf
+X-Google-Smtp-Source: ABdhPJyV6btK8K7FbxY4OrOqcH9PI0r+IcRiU+OAJpq56p3Smk33a3qrk0d0ubkHR1W7HAGXZqxiDlssC9CTxOdP/EA=
+X-Received: by 2002:a05:6638:2481:b0:331:df8f:95e0 with SMTP id
+ x1-20020a056638248100b00331df8f95e0mr9516955jat.280.1654892319517; Fri, 10
+ Jun 2022 13:18:39 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAOHu48-fAyS6DW2yHupgDkeGKGuv48E8JdcnMvbarbZieH6QGg@mail.gmail.com>
+In-Reply-To: <CAOHu48-fAyS6DW2yHupgDkeGKGuv48E8JdcnMvbarbZieH6QGg@mail.gmail.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Fri, 10 Jun 2022 16:18:27 -0400
+Message-ID: <CAOHu4892Gi1rdcAVDVuzWpnQ-1a84fuZ_6FEa0wNPg_xDdxDXg@mail.gmail.com>
+Subject: Fwd: Official list of embassies from the U.S. Department of State
+To: BBO 121 <ms60710444266@yahoo.com>
+Content-Type: multipart/alternative; boundary="000000000000d8b1bd05e11da48c"
+Content-Length: 1162
+
+--000000000000d8b1bd05e11da48c
+Content-Type: text/plain; charset="UTF-8"
+
+---------- Forwarded message ---------
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Mon, Jun 6, 2022, 4:28 PM
+Subject: Official list of embassies from the U.S. Department of State
+To: BBO 121 <ms60710444266@yahoo.com>
+
+
+https://www.usembassy.gov/
+
+--000000000000d8b1bd05e11da48c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong c=
+lass=3D"gmail_sendername" dir=3D"auto">BO DINCER</strong> <span dir=3D"auto=
+">&lt;<a href=3D"mailto:bondstrt007@gmail.com">bondstrt007@gmail.com</a>&gt=
+;</span><br>Date: Mon, Jun 6, 2022, 4:28 PM<br>Subject: Official list of em=
+bassies from the U.S. Department of State<br>To: BBO 121 &lt;<a href=3D"mai=
+lto:ms60710444266@yahoo.com">ms60710444266@yahoo.com</a>&gt;<br></div><br><=
+br><div dir=3D"auto"><a href=3D"https://www.usembassy.gov/" target=3D"_blan=
+k" rel=3D"noreferrer">https://www.usembassy.gov/</a>=C2=A0</div>
+</div>
+
+--000000000000d8b1bd05e11da48c--

@@ -1,0 +1,352 @@
+From - Thu May 19 18:26:40 2022
+X-Account-Key: account1
+X-UIDL: AD90d1M/20DeYoasVQe0qE89Ey8
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.94
+ by atlas101.free.mail.gq1.yahoo.com with HTTPS; Thu, 19 May 2022 20:45:09 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.175]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.175 as permitted sender)
+Authentication-Results: atlas101.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 19 May 2022 20:45:09 +0000
+X-YMailAVSC: bOI8Qck3bBtM4Eg1NjPm12sVmSViqJW8y0kMbY9mMe4lm0v
+ ZDRLOrFB1NUsP5Hh9ekH21op7lCh_zTgyjnXsKyIdqdPU6iyqowQniJkC6e2
+ 9op0SFIEN4l9.pY1b83B54Zqk6AHgPbSALlo7AsvO8V6Yeb2VbzyB9hpEZvt
+ 9hloQOllbttcIqXXFVyfmeHcLbh18puzQJN5SaTJo9PXnMSy23oNxwp.lri_
+ MiNpw51.PRp8uNj8nSMKoH811dftTVQoJaZIcYupFUk.ZRUyEafLOPaW0t.4
+ Wky.pXVYEwNzZOoNwnN8PcEuuBkowbfyd.NUFFYuJwJReyPVRAR6lyCPswEI
+ O._qYBbItz.1.JqjsFvMit3j.sBBGEEPlW0iLlVIS9JCyXEroHp3zZw--
+X-YMailISG: PdQ20isWLDtO4JhJXp.OEoYBBveSqYRYFJaJ4vaI9BwwDgUE
+ R6KpigXO1L_TragN81PzMNzrHpdnQPSg7sICGi2siRT53aTU6lDObSrYAk9t
+ DiVJi_SbWsi0ew6OPj8iwdWiMmgHsAEzBG4fOI3Yf25YPKK1gBblxczwgoxH
+ ZMZk_dRMCj_wiGDWTJC0itBZXgiikI1qDt2L1p5DIUn.Fbaej.2jiA9kLTFQ
+ L8RfYrIjtaoM6prCF17NtYiyiRmioqpMIIjmBneTRfyMxDmdUa7bI9bAYgh5
+ diDdI19w66DcUrCEl4QMN7eAGYOcKNDH3nf0F86wxsR12e54VDfzyEIUZDjz
+ Mpf2LGRwDQm8t2N0QIJv0oP_aEkboUAdEFh2KAzKj6t97XV1yg8zNQX2wwAi
+ i4yConANCl04HTe0aCBdq8lfImv.FtTA6B2oul09KOuTq5UNpEmtsXuOcINd
+ e3W1capEeMaBesybbYSBShXPQBcODeXqQNCSSwj6QFqm60gd08HqCX04cU.O
+ RK8gQE3.Tm0toM2dH1uUaxCjs8IERFlYKzXYYfFp31nZW13KWyTJasA2tKNI
+ Foy7iji9fsrA_IjKstvM8fENY1sBwsrpX6mOBRdi9QunO8Xj_W9Vpf7jiVUw
+ _1XOEmVCvB70d7TV8fmSFdLcUH3pOL9SiQIAIKhkqt_kMW6PBsw1W6JzhL2S
+ VRKM7IeuHRBn_e9ZnjE2BK3tjpHScFlk38i1ODePpiSPdn4poTbEv6hRrSlz
+ FYfF.Q9kintsEqphSsiGCDYz_yWwY1aHgBy9AKbWhUmZRAmVzvHT..evV0wc
+ 6Dl5GcDRa2AeYP3bgmOnumzUknlsWIPzPbTpxdgXyrvR.c05zHnvO3YKmJVh
+ NH0MEqXHpoaix1E8CaNN3KpsrGxHNwzzoPkls9zXEr5c7kFedh9XTcHi49ZU
+ NJIYSCD_nl82BCkM55n16_Nief27or6RG_bsNCA_yLHeVUMohgbEuQFCJUBp
+ rSZdGwMcaUZ_yAnrrMPFmwiOIxUiec9e3Y39e8zHJMCPma6EM8M1TKQVLgEJ
+ dH59xwL17t49aQhiPwhrcdxByDnWE4JVIaJlq7JE6OYzuFo.sV5lEoxr_YwU
+ FV0aAfX02Roeq0.TI.L68k7I6FARXn3ChRMQyKVBfpmjnVSrnnBxUhv7upl3
+ 7nm88Eokg_MZyzTGrjZng1E1JdHm5c4-
+Received: from 17.58.63.175 (EHLO st43p00im-zteg10063401.me.com)
+ by 10.253.31.94 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 19 May 2022 20:45:09 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1652993108;
+	bh=5gANDfsOU3bp/4gWFW5EX9Rfnrrt/rLe0Y40Rfmgkt8=;
+	h=Content-Type:From:Mime-Version:Subject:Date:Message-Id:To;
+	b=loQy8UfOEHQKY8prTC2eVzbfFHzwObNqz6QR9ebtUkzuYLs/K8memfebrwJ/MDGo6
+	 Ygqjzpjc76rJXZ83gwPiDWDMUYKPGqR+rayoFq1Qi7bUINyJNHYhodoepgo86AQa7I
+	 qYJuK27i8PQXnXtxFjpXnltDlJtOns4kqiqfRuIqlwm8/WOlssb7R9MiHfqfbgUCdd
+	 FsSjcRPEI+xIwuZTTf+YwoJfDLWg9yTa82ce+V1sLCDRmeZzkAfnZ5N5GjMxwdxQAX
+	 ck4B9fHr+1EHiosiqVNQXM9ECvHkYc7V1Lpg5wX//gAJpiboRJVToABHmilTPOGinT
+	 tL4vFkCf2+LnA==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10063401.me.com (Postfix) with ESMTPSA id 9254DC607CB;
+	Thu, 19 May 2022 20:45:07 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-2879C9A3-3240-4CCB-B21A-100B57EFF7DA
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: =?utf-8?Q?Non-Joinder_=E2=80=94_SFITX=5F93715?=
+Date: Thu, 19 May 2022 16:45:06 -0400
+Message-Id: <E39636B7-636F-42DC-90A0-677989FF0D56@icloud.com>
+Cc: Depositorservices@fdic.gov, fed-mmkt-ops@bloomberg.net,
+ david.moore@statefarm.com, David Moore <david.moore.ct95@statefarm.com>,
+ Jpetit <jpetit@mccarter.com>, TEDHERMANSON@northmarq.com,
+ thermanson@northmarq.com, Brent Reeder <bdr11@bloomberg.net>
+To: BBO 121 <ms60710444266@yahoo.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: UHKh6klotmqu5bYOHtCGIwDpRBl8iedn
+X-Proofpoint-GUID: UHKh6klotmqu5bYOHtCGIwDpRBl8iedn
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.816,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-17=5F04:2020-02-14=5F02,2022-01-17=5F04,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 bulkscore=0 malwarescore=0
+ mlxlogscore=728 suspectscore=0 spamscore=0 mlxscore=0 clxscore=1015
+ phishscore=0 adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205190114
+Content-Length: 16337
+
+
+--Apple-Mail-2879C9A3-3240-4CCB-B21A-100B57EFF7DA
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Why would you ignore something like this Mr. Moore.
+
+Makes no sense, because of Shari Laskowitz and the ZUCKERS??
+
+
+Notice Nov 16, 2021
+https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022=
+483079c1/Nov16-JamesGorman.png
+
+
+August 8, 2020
+
+https://saaze2311prdsra.blob.core.windows.net/clean/7c586100b2d7ec11a7b50022=
+48307aa9/MotherCOMPANY.png
+
+
+Docket 420
+
+https://saaze2311prdsra.blob.core.windows.net/clean/b53cd2e8b1d7ec11a7b50022=
+483079c1/Random%20selections.png
+
+Description
+https://saaze2311prdsra.blob.core.windows.net/clean/ea2fe2f1acd7ec11a7b50022=
+48307b90/2020-08-11%20DOB-MTxx3415.png=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/732fabe9acd7ec11a7b50022=
+483079c1/2020-08-09-67PP-50074.png=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/231090fcacd7ec11a7b50022=
+48307aa9/2021-12-19-ColumbiaCounselors.PDF
+
+311-10349895=20
+2022-03-07.legal use 117.png=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/8f2f6058aed7ec11a7b5000d=
+3a1956dd/2022-03-07.LEGAL%20USE%20117.png
+
+2022-05-11-noticetoparties.pdf=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/2b44ec70aed7ec11a7b50022=
+48307aa9/2022-05-11-NOTICETOPARTIES.PDF
+
+2022-05-07-jpmorgan-93715=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/f7129668aed7ec11a7b50022=
+483079c1/2022-05-07-JPMORGAN-93715.PDF #311-10350044 dincermot212.pdf=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/19997802b0d7ec11a7b50022=
+483079c1/DincerMOT212.pdf=20
+
+
+aa-pr2022-55-disgorgeill-gotten-gains=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/deff13f5afd7ec11a7b50022=
+48307b90/AA-pr2022-55-disgorgeill-gotten-gains%20.pdf=20
+
+
+Notice to Gorman=20
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d83e3b0ab0d7ec11a7b50022=
+48307b90/Fwd%20Folder%201.png
+
+Date/Time Observed
+8/4/2020 4:24 PM
+
+
+
+
+/BD
+
+
+--Apple-Mail-2879C9A3-3240-4CCB-B21A-100B57EFF7DA
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><p class=3D"p1" style=3D"margin: 0px; font-=
+stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(=
+0, 0, 0); -webkit-text-size-adjust: auto;">Why would you ignore something li=
+ke this Mr. Moore.</p><p class=3D"p1" style=3D"margin: 0px; font-stretch: no=
+rmal; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -=
+webkit-text-size-adjust: auto;"><br></p><p class=3D"p1" style=3D"margin: 0px=
+; font-stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0); colo=
+r: rgb(0, 0, 0); -webkit-text-size-adjust: auto;">Makes no sense, because of=
+ Shari Laskowitz and the ZUCKERS??</p><p class=3D"p2" style=3D"margin: 0px; f=
+ont-stretch: normal; line-height: normal; min-height: 16.7px; caret-color: r=
+gb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span cla=
+ss=3D"s1"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch:=
+ normal; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0);=
+ color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></=
+span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; lin=
+e-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-te=
+xt-size-adjust: auto;"><span class=3D"s1">Notice Nov 16, 2021</span></p><p c=
+lass=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: normal;=
+ caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: a=
+uto;"><span class=3D"s1"><a href=3D"https://saaze2311prdsra.blob.core.window=
+s.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png">https://=
+saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1=
+/Nov16-JamesGorman.png</a></span></p><p class=3D"p2" style=3D"margin: 0px; f=
+ont-stretch: normal; line-height: normal; min-height: 16.7px; caret-color: r=
+gb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span cla=
+ss=3D"s1"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch:=
+ normal; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0);=
+ color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></=
+span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; lin=
+e-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-te=
+xt-size-adjust: auto;"><span class=3D"s1">August 8, 2020</span></p><p class=3D=
+"p2" style=3D"margin: 0px; font-stretch: normal; line-height: normal; min-he=
+ight: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-s=
+ize-adjust: auto;"><span class=3D"s1"><a href=3D"https://saaze2311prdsra.blo=
+b.core.windows.net/clean/7c586100b2d7ec11a7b5002248307aa9/MotherCOMPANY.png"=
+></a></span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: norm=
+al; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -we=
+bkit-text-size-adjust: auto;"><span class=3D"s1"><a href=3D"https://saaze231=
+1prdsra.blob.core.windows.net/clean/7c586100b2d7ec11a7b5002248307aa9/MotherC=
+OMPANY.png">https://saaze2311prdsra.blob.core.windows.net/clean/7c586100b2d7=
+ec11a7b5002248307aa9/MotherCOMPANY.png</a></span></p><p class=3D"p2" style=3D=
+"margin: 0px; font-stretch: normal; line-height: normal; min-height: 16.7px;=
+ caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: a=
+uto;"><span class=3D"s1"></span><br></p><p class=3D"p2" style=3D"margin: 0px=
+; font-stretch: normal; line-height: normal; min-height: 16.7px; caret-color=
+: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span c=
+lass=3D"s1"></span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretc=
+h: normal; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0=
+); -webkit-text-size-adjust: auto;"><span class=3D"s1">Docket 420</span></p>=
+<p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height: nor=
+mal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -we=
+bkit-text-size-adjust: auto;"><span class=3D"s1"><a href=3D"https://saaze231=
+1prdsra.blob.core.windows.net/clean/b53cd2e8b1d7ec11a7b50022483079c1/Random%=
+20selections.png"></a></span><br></p><p class=3D"p1" style=3D"margin: 0px; f=
+ont-stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0); color: r=
+gb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"><a href=3D"=
+https://saaze2311prdsra.blob.core.windows.net/clean/b53cd2e8b1d7ec11a7b50022=
+483079c1/Random%20selections.png">https://saaze2311prdsra.blob.core.windows.=
+net/clean/b53cd2e8b1d7ec11a7b50022483079c1/Random%20selections.png</a></span=
+></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height=
+: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0)=
+; -webkit-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p clas=
+s=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: normal; ca=
+ret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto=
+;"><span class=3D"s2" style=3D"font-weight: bold;">Description</span></p><p c=
+lass=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: normal;=
+ caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: a=
+uto;"><span class=3D"s1">https://saaze2311prdsra.blob.core.windows.net/clean=
+/ea2fe2f1acd7ec11a7b5002248307b90/2020-08-11%20DOB-MTxx3415.png&nbsp;</span>=
+</p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height:=
+ normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);=
+ -webkit-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p class=
+=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: normal; car=
+et-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;=
+"><span class=3D"s1">https://saaze2311prdsra.blob.core.windows.net/clean/732=
+fabe9acd7ec11a7b50022483079c1/2020-08-09-67PP-50074.png&nbsp;</span></p><p c=
+lass=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height: normal;=
+ min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit=
+-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p1" s=
+tyle=3D"margin: 0px; font-stretch: normal; line-height: normal; caret-color:=
+ rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span c=
+lass=3D"s1">https://saaze2311prdsra.blob.core.windows.net/clean/231090fcacd7=
+ec11a7b5002248307aa9/2021-12-19-ColumbiaCounselors.PDF</span></p><p class=3D=
+"p2" style=3D"margin: 0px; font-stretch: normal; line-height: normal; min-he=
+ight: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-s=
+ize-adjust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p1" style=3D=
+"margin: 0px; font-stretch: normal; line-height: normal; caret-color: rgb(0,=
+ 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D=
+"s1">311-10349895&nbsp;</span></p><p class=3D"p1" style=3D"margin: 0px; font=
+-stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb=
+(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1">2022-03-07.le=
+gal use 117.png&nbsp;</span></p><p class=3D"p2" style=3D"margin: 0px; font-s=
+tretch: normal; line-height: normal; min-height: 16.7px; caret-color: rgb(0,=
+ 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D=
+"s1"></span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: norm=
+al; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -we=
+bkit-text-size-adjust: auto;"><span class=3D"s1">https://saaze2311prdsra.blo=
+b.core.windows.net/clean/8f2f6058aed7ec11a7b5000d3a1956dd/2022-03-07.LEGAL%2=
+0USE%20117.png</span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch:=
+ normal; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0);=
+ color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></=
+span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; lin=
+e-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-te=
+xt-size-adjust: auto;"><span class=3D"s1">2022-05-11-noticetoparties.pdf&nbs=
+p;</span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; lin=
+e-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(=
+0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></span><br></p=
+><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: no=
+rmal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adju=
+st: auto;"><span class=3D"s1">https://saaze2311prdsra.blob.core.windows.net/=
+clean/2b44ec70aed7ec11a7b5002248307aa9/2022-05-11-NOTICETOPARTIES.PDF</span>=
+</p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height:=
+ normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);=
+ -webkit-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p class=
+=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: normal; car=
+et-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;=
+"><span class=3D"s1">2022-05-07-jpmorgan-93715&nbsp;</span></p><p class=3D"p=
+2" style=3D"margin: 0px; font-stretch: normal; line-height: normal; min-heig=
+ht: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-siz=
+e-adjust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p1" style=3D"=
+margin: 0px; font-stretch: normal; line-height: normal; caret-color: rgb(0, 0=
+, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s=
+1">https://saaze2311prdsra.blob.core.windows.net/clean/f7129668aed7ec11a7b50=
+022483079c1/2022-05-07-JPMORGAN-93715.PDF #311-10350044 dincermot212.pdf&nbs=
+p;</span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; lin=
+e-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(=
+0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></span><br></p=
+><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-height: no=
+rmal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adju=
+st: auto;"><span class=3D"s1">https://saaze2311prdsra.blob.core.windows.net/=
+clean/19997802b0d7ec11a7b50022483079c1/DincerMOT212.pdf&nbsp;</span></p><p c=
+lass=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height: normal;=
+ min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit=
+-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p2" s=
+tyle=3D"margin: 0px; font-stretch: normal; line-height: normal; min-height: 1=
+6.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adj=
+ust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p1" style=3D"margi=
+n: 0px; font-stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0)=
+; color: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1">a=
+a-pr2022-55-disgorgeill-gotten-gains&nbsp;</span></p><p class=3D"p2" style=3D=
+"margin: 0px; font-stretch: normal; line-height: normal; min-height: 16.7px;=
+ caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: a=
+uto;"><span class=3D"s1"></span><br></p><p class=3D"p1" style=3D"margin: 0px=
+; font-stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0); colo=
+r: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1">https:/=
+/saaze2311prdsra.blob.core.windows.net/clean/deff13f5afd7ec11a7b5002248307b9=
+0/AA-pr2022-55-disgorgeill-gotten-gains%20.pdf&nbsp;</span></p><p class=3D"p=
+2" style=3D"margin: 0px; font-stretch: normal; line-height: normal; min-heig=
+ht: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-siz=
+e-adjust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p2" style=3D"=
+margin: 0px; font-stretch: normal; line-height: normal; min-height: 16.7px; c=
+aret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adjust: aut=
+o;"><span class=3D"s1"></span><br></p><p class=3D"p1" style=3D"margin: 0px; f=
+ont-stretch: normal; line-height: normal; caret-color: rgb(0, 0, 0); color: r=
+gb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1">Notice to G=
+orman&nbsp;</span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: no=
+rmal; line-height: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); co=
+lor: rgb(0, 0, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></spa=
+n><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: normal; line-h=
+eight: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-=
+size-adjust: auto;"><span class=3D"s1">https://saaze2311prdsra.blob.core.win=
+dows.net/clean/d83e3b0ab0d7ec11a7b5002248307b90/Fwd%20Folder%201.png</span><=
+/p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height: n=
+ormal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -=
+webkit-text-size-adjust: auto;"><span class=3D"s2" style=3D"font-weight: bol=
+d;"></span><br></p><p class=3D"p1" style=3D"margin: 0px; font-stretch: norma=
+l; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -web=
+kit-text-size-adjust: auto;"><span class=3D"s2" style=3D"font-weight: bold;"=
+>Date/Time Observed</span></p><p class=3D"p1" style=3D"margin: 0px; font-str=
+etch: normal; line-height: normal; caret-color: rgb(0, 0, 0); color: rgb(0, 0=
+, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1">8/4/2020 4:24 PM</=
+span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-he=
+ight: normal; min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0=
+, 0); -webkit-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p c=
+lass=3D"p2" style=3D"margin: 0px; font-stretch: normal; line-height: normal;=
+ min-height: 16.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit=
+-text-size-adjust: auto;"><span class=3D"s1"></span><br></p><p class=3D"p2" s=
+tyle=3D"margin: 0px; font-stretch: normal; line-height: normal; min-height: 1=
+6.7px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); -webkit-text-size-adj=
+ust: auto;"><span class=3D"s1"></span><br></p><br><div dir=3D"ltr">/BD<div><=
+br></div></div></body></html>=
+
+--Apple-Mail-2879C9A3-3240-4CCB-B21A-100B57EFF7DA--
