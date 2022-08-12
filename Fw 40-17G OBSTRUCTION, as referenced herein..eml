@@ -1,0 +1,3349 @@
+From - Wed Jun 29 14:18:37 2022
+X-Account-Key: account1
+X-UIDL: ABieoRk4QxrQYrucTgqiqN6UG8o
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.44
+ by atlas121.free.mail.ne1.yahoo.com with HTTPS; Wed, 29 Jun 2022 00:26:54 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.83]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.83 as permitted sender)
+Authentication-Results: atlas121.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 29 Jun 2022 00:26:54 +0000
+X-YMailISG: CNcxnsMWLDsZR62euY84oLHUI7GDWbTllUUU1od04FAis1Mm
+ YauyF0ylh2odyF5Dxb8HgxKSxEwiUWu_Wt9YuUE6nmX_914SLs17f4RgYKzr
+ vzC9G1uR8DRdpfDub4wrQsZe.tGWU0ubtFqXoTryNWUu9_IhR6zPHgT36.z5
+ s3QLJMIW6bXcsCJTGl44jkfaXM1jVTZ.tNs6qkdEuhwLrEDeTRMJ.fx_Y8Xn
+ 4DsOE3gk36O3i21lBp4ssCUXWQWrCRO1yKYY_OxThpzK.I8J6fmldjAAGUVf
+ ZobkTebj.UT9fhrzz402kCA7gSesXMeOWU42OwcHLZb0G29rj.MzBBf4vkDr
+ JD96wSYj1u6kQ2fY5Zp11MflL5EQzXWfT4BFD6HAE1J4WJreR9gotNk9wjUM
+ x2v1QfzIhWp39SqYX2T79XJ_rB4_BhkHqiTdXc1_8Tyytv7lmiy6EDBp2E2J
+ Xx0IIM.J11qYggwXVf5MphFC1OER_HiS4RijOA4LqtdpJZnQKWheXSMz5DZu
+ 8rxxOuwnmkikZifqzrjSnMOoLse.3nbXP84SdUn7nOlw1wSkOeg6wzUIHL.u
+ FND0d1YNN.JqWBrN1uxLvpI9NRbOAEpOjzKmOfym5vyv7hgo6YQKbX2A_rIY
+ _KRqXJNmPsBxshVUFGpzLbTO3awDIuUTXSa5N6cU5drckibnLO7n.Bov3cIf
+ shLoeuT8aY7YQ7mW.PXA9xzQ87.mKinkw9jebosTY3gYeZM0yrE_xAtzmEZH
+ immmTgmyB2nZzDrNCaPg1nUOdE8lDVotG_iw3l1UzJy4.ELu7Q8FcUFchTfL
+ zRnLNRkUx09ANSWh7BSC3MA2Iv3RWKapyw5ywybZ_Sv6FBzQElKh0qrIxHRm
+ vNpxzVKG31JltNSKxmAnoWR7eoobLthJpveVh5X0Lzp_x38eTkmFjkC42uoq
+ gzxoRKRvVoTk9Y.K3PqXVK6uF6TOgSuJBEaVYOlYnXTasiTILRefQeaoiJ1d
+ vDKvnIcRZQ1NScVUP86WgxSpjdCvLSq.CQBa3Z7seJ4CYxFB255ORGGaITwM
+ XnZKzZULepzwVBcTtSf6lm0avIbpu9guJ8XVQ.zqSJxQkeQTxK_O0SHQelXZ
+ AmQ.Q5TdTRPbaPSaBrlxZvLuyi858WfvdcUfrkqJp60yLzkOAPRiZBWgHjT3
+ Q2A01eRz8Q--
+Received: from 98.137.66.83 (EHLO sonic321-20.consmr.mail.gq1.yahoo.com)
+ by 10.217.135.44 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 29 Jun 2022 00:26:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656462413; bh=zicGsagA1zmWpJJxr/0gKiKLD95XfQevboaWF2MF/+g=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=symKON0rJyBImy3QnKCutZWYfyLeJ6GXURKXszn4Gj7G7Ad/R36e+HNdLhef2tAayY0c8Q3qkn57EmTSrF/GhD75ylt+gYg1Nx6W0vnkK/IHwWV8J57I+oa7G99DAsjKM0RnIiJm39e1qi6yE5wp+ZTHbXdQPRt38E/WmntkFelzFZ8TmYUgJyMO5uXrNhpAlFMSHwE/uIxXuTsiVZZ12mNf4hT8pk3reTQG/05/d1z2F4uVnrFX4Cnx5LZEkJLh2etzBCO36B1C7Rwhn8D955FMY0c0HuvruJR5WxV21dM1aK1W46FpL0crUUUMo81ATsaAzB7TYgZqflqXyYMQQg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656462413; bh=cV/SjS8g08kwBgyY/8IU2dFZSc1nk6d/0jduS3uxHrk=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=t8FKG4o2UBrElmf3cjUeSngRWVmEiSuaeRATVC0tu8meM7SnR738CyQJRAz+m6Z2/ema12j59BrMcMEZ0meBuPZH2vzmhCEuI7CXQBLh3IKnXc1B3B3sQRok6XnH/OK3IusM+RzMbEfVmVo7cYxrrKtT+XuQaDV2T/ufo+WysQjkKuVqihwrDWleMkOoPL7KU5QFVy6VPJxNFwoef/XP7nbFbPMV6YxHKavchu/f58YQMmftmlj5r5siMJXo+jlr+dIf8Yy6PDtON2b5t4e5XyHjzgMTRuR6TZOCWxaY2NGEkc9d2uegFzvzDbFbi4p93/jEuWucxeQK8hy4cPJ5EA==
+X-YMail-OSG: ev0Bb9sVM1nAYAmIyqbLzvhpaPJp9d8z3IE3Blf3iFFN9lq8KxUfdyHH2DJzTCK
+ HxbbTKbUSUArzOHrEqN5xYQyOBWvAbEyZfs.9rQmsAB0sDjLzJ3EhIaj20tYO7SC_OStof2cJhlb
+ aIy0pJG_f2nwSLdStM3a2Y7LH7pvcBSVYn65Q70KfcIBENoD5av6mBCCCHDsR.Tjqi4Yt4mUuNwM
+ RPQjZWqvLfbVZlt805_Fqo6HXT93i8sZLGaNaPTCS9_Dwr3VFszlTJvWDQxHbK_b3F0fP19h9ceu
+ Dtm0ltsJyiEWYBoaZt1zUk1E1Rp5DulpezJS.dVxFZJJebBkyHl2aSYXqWLiAqCQ4L02ZAlqguJU
+ nvaE.YBePSKecCcxlIzL3lfS0rcqxBGXh.5qQJQQpNyZWxBsbns2DRVkL.JHKZ08DmS8WWK3HYuv
+ qcYOmDqlxeMirc5209EPvOILyB35jAzd6rFDla39od1gaI3o0XxvM.5lcBuddRObe2vaszccGFf8
+ Xp_fTY3RibCYANAtLKnD5hmDtMz6ArGNGgi9JGnTBpFOCUEDw9G2dzKQE8Pumi44FC2lrUxv_DLR
+ WHN6hkCNNN9mXOdjT.uOa74Fr1a_7PdkSOCTd8Y5i11H0.6ktjOFn_w9n6Mxr_gP2DEzLSduaXLc
+ kNAqWJJXkBscDbYuRboFcJVT94t5uarf6j4LHrevWwWkKXx2cSer1zCnbV0IwmkcD_CU6aJ9XyZp
+ O9BoTwuCX.up0qZvdrZ1CJmPlFbD0u3wdEx5h_74jbPCIFfUbUy106eIpWk8GumlYjhMZndGCNOu
+ yTP6ddMxr4ftdOEkenOa_3m5z84PlcIeUF0K64n9nFez6gKPdbuRw9_477kqjFGVu_RC.aB_kW_9
+ n1st9ampgmbFSZfv5qyrBswoKf2vSbVqrDQx5i077UvZUMj.A4e.tpYRz1n4HkaOfq0UK.6nfTLj
+ lAgvshMSyy_UOKGlNHHStJQvuZxeQSKfM2muY7RvrFEFw0cz1XDn5xRlWkHY6JGsGPEhqem4m.BQ
+ r3Xq_EbOWKNZF3BKQPKJZz2AtZtTZ8QYAruYyyoDamM87._L9k3sfciZUjlDGtQtFS2Kh6EukET8
+ vtJIYrb22IK5aALMavmlf2Fh5TMVxYcRFQ_dRY37KjNh6KtYz6zaM4.SDca7FzPMO._FOAp4SdC_
+ Gmlgb4kMSiMpvK4bFh9._L_0bDhHGJqjaeq2j.FUurLx9DbNY6BwESGZdYG16NAznjgX7cK1fVBj
+ TJphOBRdrpjcFbnFZVLGIWVCYqxCs8kyMgAubKHRzDn.Lg7GSS3Wvx7E6lHR5wb95PsG1LOTmpyZ
+ q_g76QKTJKry_DqVcQVHyteboYpK9MdYM6yxiT6nZfjsg1Ddah.VweKi7635wzHekKjX1HCMZlWu
+ Z4DC9Ea5MxK7hmSRYQ6UTRiMU3Ld_wBzXqDkFgZPyG74NZ3B1EvuXptiqKnAJDtYrJz0yAvnPTlO
+ kBzPFeb5_W6oY1XeNsfWji7N8s3k_vkBO4KOBKKeDvaRYZ9qaYqB5EgtVCYTol.Ug20ZSfv0rbT0
+ kSTlS9xxOFe4XeUHP2IcpOJbdSNeqk7hr1yxK2oDFCrIggGFyZdSMQnSIscb6eapsKmNkUxj0VHW
+ pPflIWGu4D2TAyYAZNFgbJvYT74uM2JNg5kZfYR5nAqkAFd5UBuBEpGDw.tZ7YayPhmVZh4WTdeJ
+ Dvb09KHQCYkZDtBjBndTeoVSASATZ4UdrgYWtPAkfA1HcXVlG_IHZ6KaouHThWTXpZ26weoiLSEO
+ mCdIgxrU8CJ8MGZZTJSYjya4svfLYDlZ2Ji0f1fcYFRQpbsDG8ZSIDeZSp9UhV5CULorDdMMG0kG
+ sc6w4370SRASHEH3.F5iNi1KH5LLKO83Y5y7hPyLZtdmwXbDPdDpRdEeAzMVyWSIkXigXuMm74q2
+ eFZziuFd2uv1DYpthD0gOuvUeLixxpiSj5C0YN_Dq6IpF94S2aQkOXRxsPISQ4GGjuI_X39fRAff
+ Xu8xpONt6HI34v5wJFcqVG7j4O5rRzyRSCgjvCE9tj2E4tjHrHx0b9YnhL1FbrIBw_NKpd8LX0rS
+ AVLrTkttQzW5a.c8VE23FLMhElnazR2WHU_pcFOmesK.LQO.triDhm_l4Ne.MzHvdx52tHmotlmh
+ _nv3AXRrZL13my8ZG1RWn7TenkFgY4ECDKbccOiyvuzQg91VfYvlA9bc93uCZu3IFD9XC3BcGZ_U
+ 56Iql.c6AUt44ri21tL64xf1QyUghg1zZ.Ase_8GW.rqdGcyUBASoA8yEc8tAKhJj4KSTDUXLVtk
+ coLwQgGoFf_GSDKrAT2YUpg9tqGe0f7y9a1xlDt7.vdwJyUVE6F2y1kftm5AxGYfZ.fWu65JM7u.
+ xQrIo_8L4t0Mcqe0CzZBXOBrihKvVftkQrw2cJP0l.p8cvicP_Tjj
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic321.consmr.mail.gq1.yahoo.com with HTTP; Wed, 29 Jun 2022 00:26:53 +0000
+Date: Wed, 29 Jun 2022 00:26:49 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, 
+	William McKenzie <wmckenzi@nycourts.gov>, 
+	Paul Regan <legal@mskyline.com>, 
+	"lzucker@mskyline.com" <lzucker@mskyline.com>, 
+	Stephen O'Connell <sgo2107@columbia.edu>, 
+	Amber Griffiths <ag2943@columbia.edu>, 
+	Amber Griffiths <ag2943@adcu.columbia.edu>, 
+	Stephen O'Connell <sgo2107@adcu.columbia.edu>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	"legalasst@mskyline.com" <legalasst@mskyline.com>, 
+	Lee Bollinger <officeofthepresident@columbia.edu>, 
+	"LLC. MANHATTAN SKYLINE" <administrator@mskyline.com>, 
+	"adminstration@mskyline.com" <adminstration@mskyline.com>, 
+	"teschmann@mskyline.com" <teschmann@mskyline.com>, 
+	Joseph Giamboi <joseph.giamboi@brooklaw.edu>, 
+	Golf Channel <news@golfchannel.com>, 
+	"abanews@americanbar.com" <abanews@americanbar.com>, 
+	"plumbingenfir@buildings.nyc.gov" <plumbingenfir@buildings.nyc.gov>, 
+	"plumbingswo@buildings.nyc.gov" <plumbingswo@buildings.nyc.gov>, 
+	Lori Semlies <lori.semlies@wilsonelser.com>, 
+	"Lois K. Ottombrino" <lois.ottombrino@wilsonelser.com>, 
+	"assessments@fdic.gov" <assessments@fdic.gov>, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, 
+	"MSHY1 [ DEC 18 - 2021]" <mshy1@bloomberg.net>, 
+	Alan Rubin <alan.rubin@wilsonelser.com>, 
+	Amy Hanrahan <amy.hanrahan@wilsonelser.com>, 
+	"slaskowitz@mskyline.com" <slaskowitz@mskyline.com>, 
+	FDIC Public Information <publicinfo@fdic.gov>
+Cc: Legal Services and Special Contracts Group <lsscg@fdic.gov>, 
+	K-C Privacy Team _Legal <privacy@kcc.com>, 
+	American Bar Association <abanews@americanbar.org>, 
+	Rule-Comments <rule-comments@sec.gov>
+Message-ID: <1040735756.168016.1656462409665@mail.yahoo.com>
+In-Reply-To: <512726003.1943857.1654971390028@mail.yahoo.com>
+References: <20220610203002.2D851D206D@mail4.chamber.state.ny.us> <512726003.1943857.1654971390028@mail.yahoo.com>
+Subject: Fw: 40-17G OBSTRUCTION, as referenced herein.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_168015_993895746.1656462409648"
+X-Mailer: WebService/1.1.20381 YahooMailAndroidMobile
+Content-Length: 176096
+
+------=_Part_168015_993895746.1656462409648
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+#11
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Bo Dincer" <bo.dincer@yahoo.com> To=
+: "Bo Dincer" <bo.dincer@yahoo.com>, "Bo Dincer" <bondstrt007@gmail.com> Cc=
+:  Sent: Sat, Jun 11, 2022 at 2:16 PM Subject: 40-17G OBSTRUCTION, as refer=
+enced herein.  Losses registered in their mutual fund was the greater of $8=
+52,029,489.38, immediately following my notice to their promoters at MORGAN=
+ STANLEY.- see also filename: TCR 16537-714-487-492.pdf
+2019-12-27=C2=A0 =C2=A0 >>```40-17G```=C2=A0=C2=A0```January 1, 2020 to Jan=
+uary 1, 2021```<https://www.sec.gov/Archives/edgar/data/0001516523/00011931=
+2519324413/d847031d4017g.htm><br>2020-12-18=C2=A0 =C2=A0 >>```40-17G```=C2=
+=A0=C2=A0```January 1, 2021 to January 1, 2022```<https://www.sec.gov/Archi=
+ves/edgar/data/0001516523/000119312520320913/d80254d4017g.htm>
+2022-02-02=C2=A0 =C2=A0 >>```40-17G```=C2=A0=C2=A0```January 1, 2022 to Jan=
+uary 1, 2023```<https://www.sec.gov/Archives/edgar/data/0001516523/00011931=
+2522025502/d207567d4017g.htm>
+
+ADVISERS INVESTMENT TRUST, STATE FARM FUNDS on November 22, 2021 for the pe=
+riod ending September 30, 2021. Please treat this matter seriously as to av=
+oid any further damages to State Farm, who presently hold the rights to the=
+ir tax risks, also annexed in those dockets, however screenshot for conveni=
+ence:=C2=A0 =C2=A0 =C2=A0 =C2=A0 <https://www.sec.gov/Archives/edgar/data/0=
+001516523/000119312521347485/d221423dncsr.htm>
+"...Our procedures included confirmation of securities owned as of Septembe=
+r 30, 2021 by correspondence with the custodian and brokers; when replies w=
+ere not received from brokers, we performed other auditing procedures. We b=
+elieve that our audits provide a reasonable basis for our opinions... "=C2=
+=A0
+Pricewaterhouse Coopers=E2=80=94
+
+Here are the letters of credit that were OBSTRUCTED and by nonjoinder, I an=
+nxed the docket as an EXHIBIT, see also DOCKETS 1-590 which all seamlessly =
+were processed, until I filed these Loans filed in NYC Finance register, ar=
+e severely undervalued, at a 90% discount to their present market values, u=
+sing the schedule of all Manhattans TAX lots and units- more specifically a=
+re dime-bricks.
+- NYSCEF Matter 153974/2020 and below,=C2=A0-- the link below I filed, see =
+also: violation of privacy as a claim and tort that was also avoided to, an=
+d not referenced as an "irregular" legal matter, one should hope.
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9ak=
+RV9TGfXXJT/g=3D=3D>
+
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3=
+kGwHqebPg0fw=3D=3D>
+
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqX=
+uxmoKqFiESrw=3D=3D>
+
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66=
+hrVmJ9DX_PLUS_bdg=3D=3D>
+
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0=
+BGv2DF/MOn4g=3D=3D>
+
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0=
+ynPeXZKSHgLQ=3D=3D>
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0guaranteed by the unlawful rents a=
+nd security deposits held at JP Morgan Chase, I attached that for convenien=
+ce as DOCKET 053.
+This is a seperate letter of obstruction I filed with the NYSBA, and for go=
+od measure is what I requested at the onset of these filings, was an immedi=
+ate BAR and ESTOPPEL.
+
+/S/ BO DINCER
+https://support.nysba.org/attachments/token/nyJdN4A4dvaR0IkBmWyZBIrCx/?name=
+=3DNovember+22+-+2021-000-email+to+lzcuker+and+james.gorman%40morganstanley=
+.com.pdf
+
+/S/ BO DINCER---------- Forwarded message ----------=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 2019-12-27
+
+>>```40-17G``` =C2=A0
+```January 1, 2020 to January 1, 2021```
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312519324413/d8470=
+31d4017g.htm
+<br>
+2020-12-18
+>>```40-17G``` =C2=A0
+```January 1, 2021 to January 1, 2022```
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312520320913/d8025=
+4d4017g.htm
+
+2022-02-02
+>>```40-17G``` =C2=A0
+```January 1, 2022 to January 1, 2023```
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d2075=
+67d4017g.htm
+
+
+
+
+
+
+
+LETTER OF CREDIT BETWEEN STATE FARM AND SULLIVAN PROPERTIES LP
+
+=C2=A0=C2=A0=C2=A0 AN OUTSIDE BUSINESS OF STATE FARM VP MANAGEMENT CORP.
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 CRD# 43036
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 1.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 RANDALL HOUSTON HARBERT=C2=A0=C2=A0 [2992788]individual_2992788-2022-05=
+-06
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 2.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 JOSEPH RILEY MONK =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 [001357149]indi=
+vidual_1357149-2022-05-06
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 3.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 PAUL JOSEPH SMITH=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0 [0=
+04971235]individual_4971235-2022-05-06
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 4.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 TERRENCE MICHAEL LUDWIG=C2=A0=C2=A0=C2=A0 [003231040]individual_4971235=
+-2022-05-06
+
+=C2=A0=C2=A0=C2=A0=C2=A0https://a836-acris.nyc.gov/DS/DocumentSearch/Docume=
+ntDetail?doc_id=3D2020052000291003
+
+
+
+
+
+ALSO.. I DON'T THINK THEY ARE COVERED FOR THE OMISSIONS OF THE LOAN AND THE=
+ TAX CONSEQUENCES OF 15-YEARS OWED ON THE 6-PROPERTIES TRANSFERRED TO STATE=
+ FARM.
+
+=C2=A0=C2=A0=C2=A0 -- CERTIFIED SHAREHOLDER REPORT
+=C2=A0=C2=A0 =C2=A0https://www.sec.gov/Archives/edgar/data/0001516523/00011=
+9312521347485/d221423dncsr.htm
+=C2=A0=C2=A0 =C2=A02021-09-30: REPORT DATE
+=C2=A0=C2=A0 =C2=A02021-12-03: FILE DATE
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0-----PRICE WATERHOUSE COOPERS
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0-----Report of Independent Registered Public Accounting =
+Firm
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 September 30, 2021
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 ADVISERS INVESTMENT TRUST, STATE FARM=
+ FUNDS
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edg=
+ar/data/0001516523/000119312521347485/d221423dncsr.htm
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "...Our procedures=
+ included confirmation of securities owned as of September 30,
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ 2021 by correspondence with the custodian and brokers; when replies were n=
+ot
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ received from brokers, we performed other auditing procedures. We believe =
+that
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ our audits provide a reasonable basis for our opinions... "
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ November 22, 2021
+
+
+
+
+
+
+=C2=A0=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edgar/data/0000093715/=
+000114554922006149/xslFormN-CEN_X01/primary_doc.xml
+=C2=A0=C2=A0 =C2=A0OMISSIONS:=C2=A0=C2=A0=C2=A0 Item B.11
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 any proceeding to which any director, offi=
+cer or other affiliated person of the =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant is a party adverse to the=
+ Registrant or any of its subsidiaries; and =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 (3) any proceeding involving the rev=
+ocation or suspension of the right of the =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant to sell securities.=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+
+
+FY 2020
+=C2=A0=C2=A0 =C2=A08/9/2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D
+=C2=A0=C2=A0 =C2=A0NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 9TH, 2020
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A08/8/2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DZOCFS3HH2UeHQe8j2tXJoQ=3D=3D
+=C2=A0=C2=A0 =C2=A0NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 10TH, 2020
+
+
+
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0NYSCEF DOC. NO. 309 =C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A008-09=
+-2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0NYSCEF DOC. NO. 379 =C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A008-10=
+-2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D572E8gahZUO1KFthrfiyFQ=3D=3D
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0LEASES AND RENTS TRANSFERRED TO "STATE FARM"=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0EXECUTED:=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0 05-11-2020
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0FILED=
+:=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0 05-15-2020
+=C2=A0=C2=A0 =C2=A0PARTY 1:=C2=A0=C2=A0 SULLIVAN PROPERTIES LP, 101 WEST 55=
+TH STREET, NEW YORK, NY, 10019
+=C2=A0
+=C2=A0=C2=A0 =C2=A0PARTY 2:=C2=A0=C2=A0 STATE FARM REALTY MORTGAGE LLC, ONE=
+ STATE FARM PLAZA, BLOOMINGTON, IL, 61710
+
+=C2=A0=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edgar/data/0000093715/=
+000114554922006149/xslFormN-CEN_X01/primary_doc.xml
+=C2=A0=C2=A0 =C2=A0OMISSIONS:=C2=A0=C2=A0=C2=A0 Item B.11
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 any proceeding to which any director, offi=
+cer or other affiliated person of the =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant is a party adverse to the=
+ Registrant or any of its subsidiaries; and =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 (3) any proceeding involving the rev=
+ocation or suspension of the right of the =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant to sell securities.=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+
+=C2=A0=C2=A0 =C2=A0OMISSIONS:=C2=A0=C2=A0=C2=A0 Item B.14
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 any (1) capital contribution, (2) purchase=
+ of a security from a Money Market =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 Fund in reliance on rule 17a-9 under the A=
+ct (17 CFR 270.17a-9), (3) purchase =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 of any defaulted or devalued security at f=
+air value reasonably intended to =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 increase or stabilize the value or liquidi=
+ty of the Registrant's portfolio, =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 (4) execution of letter of credit or lette=
+r of indemnity, (5) capital support =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 agreement (whether or not the Registrant u=
+ltimately received support), (6) =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 performance guarantee, or (7) other simila=
+r action reasonably intended to =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 increase or stabilize the value or liquidi=
+ty of the Registrant's portfolio. =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 Provision of financial support does not in=
+clude any (1) routine waiver of fees =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+"
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 or reimbursement of Registrant's expenses,=
+ (2) routine inter-fund lending, =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 (3) routine inter-fund purchases of Regist=
+rant's shares, or (4) action that =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 would qualify as financial support as defi=
+ned above, that the board of directors =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 has otherwise determined not to be reasona=
+bly intended to increase or stabilize =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 the value or liquidity of the Registrant's=
+ portfolio. =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+
+=C2=A0
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+
+
+PRIVACY VIOLATION
+ANNEXED BY THEIR OWN ATTORNEYS.
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DfXMaXgeyzvA85ViWMmvfAQ=3D=3D
+
+=C2=A0=C2=A0 =C2=A0> CARRIES THE BURDEN OF "POTENTIAL" CARRY-OVER TO THE NE=
+W "HOLDERS" OF THE LEASES AND RENTS...
+
+
+
+
+
+PER THE TERMS OF 255 AFFIDAVIT (LETTER OF CREDIT & LOAN) BETWEEN THE PARTIE=
+S
+
+TAX CONSEQUENCES ANNEXED IN THE MATTER OF NYSCEF 153974/2020
+
+AS WERE THE LOANS...
+
+
+
+=C2=A0 =C2=A0
+=C2=A0 - =C2=A0=C2=A0 =C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+
+=C2=A0 - =C2=A0=C2=A0 =C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+
+=C2=A0 - =C2=A0=C2=A0 =C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+
+=C2=A0 - =C2=A0=C2=A0 =C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0
+
+=C2=A0 - =C2=A0=C2=A0 =C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+
+=C2=A0 - =C2=A0=C2=A0 =C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D
+
+=C2=A0
+- SERIOUS QUESTION...
+
+
+=C2=A0=C2=A0=C2=A0 CAN I INSURE MY HANDS???
+
+
+
+
+/S/ BARIS DINCER.
+
+
+
+
+
+2019-12-27
+>>```40-17G``` =C2=A0
+```January 1, 2020 to January 1, 2021```
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312519324413/d8470=
+31d4017g.htm
+<br>
+2020-12-18
+>>```40-17G``` =C2=A0
+```January 1, 2021 to January 1, 2022```
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312520320913/d8025=
+4d4017g.htm
+
+2022-02-02
+>>```40-17G``` =C2=A0
+```January 1, 2022 to January 1, 2023```
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d2075=
+67d4017g.htm
+
+
+
+
+
+
+
+LETTER OF CREDIT BETWEEN STATE FARM AND SULLIVAN PROPERTIES LP
+
+=C2=A0=C2=A0=C2=A0 AN OUTSIDE BUSINESS OF STATE FARM VP MANAGEMENT CORP.
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 CRD# 43036
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 1.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 RANDALL HOUSTON HARBERT=C2=A0=C2=A0 [2992788]individual_2992788-2022-05=
+-06
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 2.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 JOSEPH RILEY MONK =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 [001357149]indi=
+vidual_1357149-2022-05-06
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 3.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 PAUL JOSEPH SMITH=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0 [0=
+04971235]individual_4971235-2022-05-06
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 4.=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 TERRENCE MICHAEL LUDWIG=C2=A0=C2=A0=C2=A0 [003231040]individual_4971235=
+-2022-05-06
+
+=C2=A0=C2=A0=C2=A0=C2=A0https://a836-acris.nyc.gov/DS/DocumentSearch/Docume=
+ntDetail?doc_id=3D2020052000291003
+
+
+
+
+
+ALSO.. I DON'T THINK THEY ARE COVERED FOR THE OMISSIONS OF THE LOAN AND THE=
+ TAX CONSEQUENCES OF 15-YEARS OWED ON THE 6-PROPERTIES TRANSFERRED TO STATE=
+ FARM.
+
+=C2=A0=C2=A0=C2=A0 -- CERTIFIED SHAREHOLDER REPORT
+=C2=A0=C2=A0 =C2=A0https://www.sec.gov/Archives/edgar/data/0001516523/00011=
+9312521347485/d221423dncsr.htm
+=C2=A0=C2=A0 =C2=A02021-09-30: REPORT DATE
+=C2=A0=C2=A0 =C2=A02021-12-03: FILE DATE
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0-----PRICE WATERHOUSE COOPERS
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0-----Report of Independent Registered Public Accounting =
+Firm
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 September 30, 2021
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 ADVISERS INVESTMENT TRUST, STATE FARM=
+ FUNDS
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edg=
+ar/data/0001516523/000119312521347485/d221423dncsr.htm
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "...Our procedures=
+ included confirmation of securities owned as of September 30,
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ 2021 by correspondence with the custodian and brokers; when replies were n=
+ot
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ received from brokers, we performed other auditing procedures. We believe =
+that
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ our audits provide a reasonable basis for our opinions... "
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ November 22, 2021
+
+
+
+
+
+
+=C2=A0=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edgar/data/0000093715/=
+000114554922006149/xslFormN-CEN_X01/primary_doc.xml
+=C2=A0=C2=A0 =C2=A0OMISSIONS:=C2=A0=C2=A0=C2=A0 Item B.11
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 any proceeding to which any director, offi=
+cer or other affiliated person of the =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant is a party adverse to the=
+ Registrant or any of its subsidiaries; and =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 (3) any proceeding involving the rev=
+ocation or suspension of the right of the =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant to sell securities.=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+
+
+FY 2020
+=C2=A0=C2=A0 =C2=A08/9/2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D
+=C2=A0=C2=A0 =C2=A0NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 9TH, 2020
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A08/8/2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DZOCFS3HH2UeHQe8j2tXJoQ=3D=3D
+=C2=A0=C2=A0 =C2=A0NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 10TH, 2020
+
+
+
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0NYSCEF DOC. NO. 309 =C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A008-09=
+-2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0NYSCEF DOC. NO. 379 =C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A008-10=
+-2020
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D572E8gahZUO1KFthrfiyFQ=3D=3D
+=C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0 =C2=A0
+=C2=A0=C2=A0 =C2=A0LEASES AND RENTS TRANSFERRED TO "STATE FARM"=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0EXECUTED:=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0 05-11-2020
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0FILED=
+:=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0 05-15-2020
+=C2=A0=C2=A0 =C2=A0PARTY 1:=C2=A0=C2=A0 SULLIVAN PROPERTIES LP, 101 WEST 55=
+TH STREET, NEW YORK, NY, 10019
+=C2=A0
+=C2=A0=C2=A0 =C2=A0PARTY 2:=C2=A0=C2=A0 STATE FARM REALTY MORTGAGE LLC, ONE=
+ STATE FARM PLAZA, BLOOMINGTON, IL, 61710
+
+=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edgar/data/0000093715/000114=
+554922006149/xslFormN-CEN_X01/primary_doc.xml
+=C2=A0=C2=A0 =C2=A0OMISSIONS:=C2=A0=C2=A0=C2=A0 Item B.11
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 any proceeding to which any director, offi=
+cer or other affiliated person of the =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant is a party adverse to the=
+ Registrant or any of its subsidiaries; and =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 (3) any proceeding involving the rev=
+ocation or suspension of the right of the =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0=C2=A0 Registrant to sell securities.=C2=A0=
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+
+=C2=A0=C2=A0 =C2=A0OMISSIONS:=C2=A0=C2=A0=C2=A0 Item B.14
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 any (1) capital contribution, (2) purchase=
+ of a security from a Money Market =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 Fund in reliance on rule 17a-9 under the A=
+ct (17 CFR 270.17a-9), (3) purchase =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 of any defaulted or devalued security at f=
+air value reasonably intended to =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 increase or stabilize the value or liquidi=
+ty of the Registrant's portfolio, =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 (4) execution of letter of credit or lette=
+r of indemnity, (5) capital support =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 agreement (whether or not the Registrant u=
+ltimately received support), (6) =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 performance guarantee, or (7) other simila=
+r action reasonably intended to =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 increase or stabilize the value or liquidi=
+ty of the Registrant's portfolio. =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 Provision of financial support does not in=
+clude any (1) routine waiver of fees =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =
+"
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 or reimbursement of Registrant's expenses,=
+ (2) routine inter-fund lending, =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 (3) routine inter-fund purchases of Regist=
+rant's shares, or (4) action that =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 would qualify as financial support as defi=
+ned above, that the board of directors =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 has otherwise determined not to be reasona=
+bly intended to increase or stabilize =C2=A0=C2=A0=C2=A0 "
+=C2=A0=C2=A0 =C2=A0"=C2=A0=C2=A0 the value or liquidity of the Registrant's=
+ portfolio. =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=
+=A0=C2=A0=C2=A0 "
+
+=C2=A0
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+
+
+PRIVACY VIOLATION
+ANNEXED BY THEIR OWN ATTORNEYS.
+=C2=A0=C2=A0=C2=A0=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDoc
+[remainder of message body omitted; too large]
+
+
+/S/ BO DINCER=20
+=20
+  On Wed, Jun 8, 2022 at 9:21 AM, BO DINCER<bondstrt007@gmail.com> wrote:  =
+ https://github.com/153974-158143-Regan-Laskowitz/STFGX/releases/tag/WEDNES=
+DAY
+
+So ask em...=C2=A0did you see Ricki Henderson on April 26th,2022.
+Thats more than 30-days to report a DRP by all Directors of State Farm migh=
+t I add.=C2=A0
+
+
+On Sat, Jun 4, 2022, 2:16 PM Bo Dincer <bo.dincer@yahoo.com> wrote:
+
+
+
+/S/ BO DINCER=20
+=20
+  On Sun, May 29, 2022 at 7:34 AM, Bo Dincer<bo.dincer@yahoo.com> wrote:  =
+=20
+
+I. =C2=A0=C2=A0=C2=A0 THEY MONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT=
+.
+=20
+ - ON A 24 HOUR BASIS, RECORDED MY EVERY STEP AND MOTION.
+=20
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexO=
+lBwsgc1lnMJ2_PLUS_AqQ=3D=3D
+=20
+=20
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 --- ASHLEY HUMPHRIES, OF WILSON , EL=
+SER & DICKER.
+=20
+=20
+ " ... PLEASE CHECK THE SECURITY TAPES ... "
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLH=
+B3tyjhEWAYb6mOPw=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihz=
+M1cwANtAvbUwWX_PLUS_g=3D=3D
+=20
+II. =C2=A0=C2=A0=C2=A0 VIDEOTAPED ME "INSIDE OF MY APARTMENT".
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4=
+RNLy/6V9gf1BkpTQ=3D=3D
+=20
+III. =C2=A0=C2=A0=C2=A0 DISTRIBUTED VIDEOS OF MYSELF IN MY APARTMENT -- THE=
+ INTERIOR.=20
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoO=
+yDJuc93MrOnwh5Jw=3D=3D
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4=
+RhX5LEi0sISXetBw=3D=3D
+=20
+IV. =C2=A0=C2=A0=C2=A0 ATTACHED VIDEO OF MYSELF DRILLING INSIDE OF MY APART=
+MENT.
+   =20
+   -  https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/=
+ORklCen4NaSEt6oFg=3D=3D
+=20
+=20
+V. =C2=A0=C2=A0=C2=A0 ATTACHED VIDEO OF MYSELF HAMMERING INSIDE OF MY APART=
+MENT.
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PL=
+US_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D
+=20
+VI. =C2=A0=C2=A0=C2=A0 THEY ALSO ANNEX MY RECEIPT TO HELP BUY THEMSELVES MO=
+RE TIME AND TO DISTRACT
+ THE JUDGE, CLERK AND INSTEAD OF DEALING WITH THEIR TAX-EVASIONS AND ILLEGA=
+L CONDUCT. HTF DID THEY EVEN GET AN IMAGE OF MY RECEIPT?
+=20
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5N=
+RQV4YHKqWUf8fyVQ=3D=3D
+=20
+ VII. =C2=A0=C2=A0=C2=A0 ALSO WILL SWEAR THAT THEY HAVE NO INVOLVEMENT, IN =
+ANYTHING...
+ =C2=A0=C2=A0=C2=A0 - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND THROUGH=
+ MY DOOR.
+ =C2=A0=C2=A0=C2=A0 - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF OF SUL=
+LIVAN PROPERTIES, LP.
+ =20
+ =20
+  =20
+VIII. =C2=A0=C2=A0=C2=A0 HAVE ALSO ANNEXED AND SWORE UNDER OATH THEY SAW ME
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/=
+WFihoyIKwEunaalQ=3D=3D
+=20
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0 =C2=A0=C2=A0 "... BANGING ON A RADIA=
+TOR ... "
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfE=
+u9a94Y3U5/kpIt5g=3D=3D
+=20
+=20
+=20
+IX. =C2=A0=C2=A0=C2=A0 ALSO HAVE ANNEXED THEY "HOSTED" MY VIDEOS ON THE INT=
+ERNET --
+=20
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 -- USING ONE OF THEIR OWN TENANTS AS THE VIDEOGRAPHER.
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/=
+WFihoyIKwEunaalQ=3D=3D
+=20
+ =20
+ =20
+  =20
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 TRANSFERRED THE LE=
+ASES AND RENTS TO STATE FARM.
+=20
+=20
+=C2=A0- HERE ARE SOME OF THE PROVISIONS FOR AIDING AND ABETTING TAX EVASION=
+. BY WAY OF OBSTRUCTION, OMISSIONS, AND UNFAIR DEALINGS.
+=20
+ - COSTED THE INVESTORS OF STATE FARM THE GREATER OF 1.5 BILLION DOLLARS AN=
+D ALSO ONE INVESTMENT ADVISER:=20
+ =20
+  - FILER 93715 - AFTER 27 YEARS RANDOMLY DECIDED TO " CEASE TO EXIST "
+=20
+ =20
+ =20
+RE: 153974 - VIOLATION OF PRIVACY...=20
+ /S/ BO DINCER
+ TEL. 646-256-3609
+ TEL. 917-378-3467
+ BDINCER66@ICLOUD.COM
+=20
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7=
+Dn66hrVmJ9DX_PLUS_bdg=3D=3D
+   - https://saaze2311prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7=
+b5002248286386/8209-$BROOKS--4776256-6109023[FILED].pdf
+ =20
+
+=20
+  =20
+=C2=A0=C2=A0=C2=A0 TAX MATTERS
+=20
+ =20
+   =20
+   - https://www.irs.gov/pub/irs-utl/tax_crimes_handbook.pdf
+   =20
+   - https://www.irs.gov/pub/int_practice_units/IGA9560_11_06.pdf
+ =20
+ -------- Forwarded Message --------=20
+| Subject:  | [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 2d2b62: TCR 16537-714=
+-487-492 FILED.: OMISSIONS, OBSTRUCTI... |
+| Date:  | Fri, 27 May 2022 20:26:30 -0700 |
+| From:  | 1212-5858 <noreply@github.com> |
+| To:  | MS60710444266@YAHOO.COM, sjs5@ntrs.com |
+
+=20
+=20
+ Branch: refs/heads/REQUEST-TO-BAR
+=20
+ Home: https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+=20
+ Commit: 2d2b621f9b4e59f4d0f470538b748bb148ddd8eb
+=20
+ https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/2d2b621f9b=
+4e59f4d0f470538b748bb148ddd8eb
+=20
+ Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+=20
+ Date: 2022-05-27 (Fri, 27 May 2022)
+=20
+=20
+=20
+ Changed paths:
+=20
+ A 16537-714-487-492
+=20
+=20
+=20
+ Log Message:
+=20
+ -----------
+=20
+ TCR 16537-714-487-492 FILED.: OMISSIONS, OBSTRUCTION, INVESTOR LOSSES AND =
+ASSETS MISSING
+=20
+=20
+=20
+ NO MANDATORY ATTENDANCE REQUIRED.=20
+ 2022-05-27---TCRReport 16537-714-487-492
+=20
+=20
+=20
+ ATTN: THE NORTHERN TRUST COMPANY.
+=20
+=20
+ via EMAIL: SJS5@NTRS.COM
+=20
+=20
+=20
+=20
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2
+=20
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-f87405da5ef03c67c43c2dd391b9e8e15e36553a=
+d5a56bf4089dd600f4d9ea7b
+=20
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-1b1e8bc23d8163d3e8fd3c1b9afe2dfa43987933=
+ab4a255f654dfeb93d004cbe
+=20
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-a08dd2a966192670b96232cd500357a562db71af=
+7b8082e63f0a2b2edccde936
+=20
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-f53bbf593645261d55469f485116c9a3b7cc292e=
+56f3917741b877251f094614
+=20
+=20
+=20
+ AS STATED PREVIOUSLY, YES.
+=20
+ - I WOULD STILL LIKE TO PRESS CHARGES FOR THE VIOLATION OF PRIVACY.
+=20
+=20
+=20
+ https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/12da4ef7a7=
+4ba377567c9f9951294eb95cf34c52
+=20
+=20
+=20
+=20
+=20
+ THANK YOU.
+=20
+=20
+=20
+ https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/12da4ef7a7=
+4ba377567c9f9951294eb95cf34c52
+=20
+=20
+=20
+=20
+=20
+ OFFER @ $65,000,000.00 for out of court settlement.
+=20
+=20
+=20
+ UNFAIR DEALINGS AND OMMISSIONS OF MORGAN STANLEY IN AIDING AND ABETTING TO=
+ THE TAX EVASION AND LOSSES SUFFERED BY STATE FARMS FAMILY OF TICKERS: STFG=
+X, SFITX, STFBX, SFBDX with Sullivan Properties LP and their subsidiaries -=
+ continue to avoid prosecution in this respect, and
+=20
+ collectively have costed INVESTORS the greater of $1.5 BILLION IN LOSSES b=
+efore FINES, REGULATORY ACTION, or SETTLEMENT of a certain VIOLATION OF PRI=
+VACY CASE
+=20
+=20
+=20
+=20
+colorful, and also can be zoomed on, pixelated and in their servers, was al=
+so distributed without consent, and probably - they play with themselves wa=
+tching me in their privacy.
+=20
+
+ --- $25 million was a DISCOUNT.
+=20
+
+=20
+=20
+
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgeyzv=
+A85ViWMmvfAQ=3D=3D
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+ https://www.sec.gov/comments/s7-14-18/s71418-4531826-176079.pdf
+=20
+=20
+=20
+ - obo OF SULLIVAN PROPERTIES LP HAVE ALSO "PROMISED" TO PAY THEM BACK,
+=20
+ SOMEWHERE ON PAGE 800 OF THE UNREGISTERED SECURITY ( THE COMBINED
+=20
+ AND RE-STATED PROSPECTUS ) WHICH I ALSO ANNEXED IN THE MATTER OF NYSCEF
+=20
+ 153974/2020.
+=20
+=20
+=20
+    =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1K=
+A9akRV9TGfXXJT/g=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sI=
+t7n3kGwHqebPg0fw=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD=
+2PqXuxmoKqFiESrw=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7=
+Dn66hrVmJ9DX_PLUS_bdg=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElC=
+iKJ0BGv2DF/MOn4g=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDa=
+Fzm0ynPeXZKSHgLQ=3D=3D
+=20
+=20
+=20
+ UNFAIR DEALINGS
+=20
+=20
+=20
+=20
+I. THEY MONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT.
+=20
+
+ - ON A 24 HOUR BASIS, RECORDED MY EVERY STEP AND MOTION.
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOlBws=
+gc1lnMJ2_PLUS_AqQ=3D=3D
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+ ASHLEY HUMPHRIES, OF WILSON & DICKER.
+=20
+
+ " ... PLEASE CHECK THE SECURITY TAPES ... "
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLHB3ty=
+jhEWAYb6mOPw=3D=3D
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1cw=
+ANtAvbUwWX_PLUS_g=3D=3D
+=20
+=20
+=20
+=20
+II. VIDEOTAPED ME "INDISE OF MY APARTMENT".
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy=
+/6V9gf1BkpTQ=3D=3D
+=20
+=20
+=20
+=20
+III. DISTRIBUTED VIDEOS OF MYSELF IN MY APARTMENT -- THE INTERIOR.
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOyDJu=
+c93MrOnwh5Jw=3D=3D
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4RhX5=
+LEi0sISXetBw=3D=3D
+=20
+=20
+=20
+=20
+IV. ATTACHED VIDEO OF MYSELF DRILLING INSIDE OF MY APARTMENET.
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORklC=
+en4NaSEt6oFg=3D=3D
+=20
+=20
+=20
+=20
+V. ATTACHED VIDEO OF MYSELF HAMMERING INSIDE OF MY APARTMENET.
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6=
+_PLUS_kgBxoElZyFgKxGEQ=3D=3D
+=20
+=20
+=20
+VI. THEY ALSO ANNEX MY RECEIPT TO HELP BUY THEMSELFVES MORE TIME AND TO DIS=
+TRACT
+=20
+
+ THE JUDGE, CLERK AND INTEAD OF DEALING WITH THEIR TAX-EVASIONS AND ILLEGAL=
+ CONDUCT.
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5NRQV4=
+YHKqWUf8fyVQ=3D=3D
+=20
+=20
+VII. ALSO WILL SWEAR IN THEIR AFFIDAVITS THAT GO ON FOR PAGES THAT THEY HAV=
+E NO INVOLVEMENT.
+=20
+
+ - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND THROUGH MY DOOR.
+=20
+
+ - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF OF SULLIVAN PROPERTIES, L=
+P.
+=20
+
+ VIII. HAVE ALSO ANNEXED AND SWORE UNDER OATH THEY SAW ME
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFih=
+oyIKwEunaalQ=3D=3D
+=20
+=20
+=20
+=20
+"... BANGING ON A RADIATOR ... "
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu9a9=
+4Y3U5/kpIt5g=3D=3D
+=20
+=20
+=20
+=20
+IX. ALSO HAVE ANNEXED THEY "HOSTED" MY VIDEOS ON THE INTERNET --
+=20
+
+ -- USING ONE OF THEIR OWN TENANTS AS THE VIDEOGRAPHER.
+=20
+=20
+=20
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFih=
+oyIKwEunaalQ=3D=3D
+=20
+=20
+=20
+=20
+=20
+ HERE ARE SOME OF THE PROVISIONS FOR AIDING AND ABETTING TAX EVASION.
+=20
+ BY WAY OF OBSTRUCTION, OMISSIONS, AND UNFAIR DEALINGS.
+=20
+ HAS COSTED THE INVESTORS OF STATE FARM THE GREATER OF 1.5 BILLION DOLLARS
+=20
+ AND ALSO ONE INVESTMENT ADVISER: FILER 93715
+=20
+=20
+=20
+   =20
+   - https://www.irs.gov/pub/irs-utl/tax_crimes_handbook.pdf
+   - https://www.irs.gov/pub/int_practice_units/IGA9560_11_06.pdf
+=20
+=20
+=20
+ RE: 153974 - VIOLATION OF PRIVACY
+=20
+=20
+=20
+ /S/ BO DINCER
+=20
+ TEL. 646-256-3609
+=20
+ TEL. 917-378-3467
+=20
+ BDINCER66@ICLOUD.COM
+=20
+=20
+   =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7=
+Dn66hrVmJ9DX_PLUS_bdg=3D=3D
+   - https://saaze2311prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7=
+b5002248286386/8209-$BROOKS--4776256-6109023[FILED].pdf
+=20
+=20
+=20
+=20
+=20
+ 93715 BROKERS AT MORGAN STANLEY - FURTHER OBSTRUCTED BY WAY OF OMISSION.
+=20
+   =20
+   - https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7=
+b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+=20
+=20
+=20
+=20
+=20
+ December 18, 2021
+=20
+   =20
+   - https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7=
+b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+=20
+=20
+=20
+=20
+=20
+ Docket 399 - AIDED AND ABETTED BY THE FIRST COUNSELOR ON DECK FOR THE ZUCK=
+ER..
+=20
+   =20
+   - https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7=
+b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+   - https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7=
+b500224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[=
+$CIK%201516523]%20MONK[CRD%201357149].pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7=
+b5000d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[=
+$CIK%201516523]%20MONK[CRD%201357149].pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7=
+b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7=
+b500224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[=
+$CIK%201516523]%20MONK[CRD%201357149].pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7=
+b5000d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7=
+b50022482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%20=
+8018184.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7=
+b50022482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7=
+b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7=
+b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7=
+b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7=
+b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+   - https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7=
+b500224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7=
+b5002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%2=
+0IA%208018184.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7=
+b500224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE=
+%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf
+   - https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7=
+b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf
+   -=20
+
+
+
+ =20
+ =20
+ =20
+
+------=_Part_168015_993895746.1656462409648
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+#11<br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <blockq=
+uote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; m=
+argin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fam=
+ily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message -----=
+</div> <div><b>From:</b> "Bo Dincer" &lt;bo.dincer@yahoo.com&gt;</div> <div=
+><b>To:</b> "Bo Dincer" &lt;bo.dincer@yahoo.com&gt;, "Bo Dincer" &lt;bondst=
+rt007@gmail.com&gt;</div> <div style=3D"display:none"><b>Cc:</b> </div> <di=
+v><b>Sent:</b> Sat, Jun 11, 2022 at 2:16 PM</div> <div><b>Subject:</b> 40-1=
+7G OBSTRUCTION, as referenced herein.</div> </div>  Losses registered in th=
+eir mutual fund was the greater of $852,029,489.38, immediately following m=
+y notice to their promoters at MORGAN STANLEY.<div>- see also filename: TCR=
+ 16537-714-487-492.pdf</div><div id=3D"yMail_cursorElementTracker_165497137=
+6432"><br></div><div id=3D"yMail_cursorElementTracker_1654971378731">2019-1=
+2-27</div><div>&nbsp; &nbsp; &gt;&gt;```40-17G```&nbsp;&nbsp;</div><div id=
+=3D"yMail_cursorElementTracker_1654971378119">```January 1, 2020 to January=
+ 1, 2021```</div><div>&lt;https://www.sec.gov/Archives/edgar/data/000151652=
+3/000119312519324413/d847031d4017g.htm&gt;</div><div>&lt;br&gt;</div><div>2=
+020-12-18</div><div>&nbsp; &nbsp; &gt;&gt;```40-17G```&nbsp;&nbsp;</div><di=
+v>```January 1, 2021 to January 1, 2022```</div><div>&lt;https://www.sec.go=
+v/Archives/edgar/data/0001516523/000119312520320913/d80254d4017g.htm&gt;</d=
+iv><div><br></div><div>2022-02-02</div><div>&nbsp; &nbsp; &gt;&gt;```40-17G=
+```&nbsp;&nbsp;</div><div>```January 1, 2022 to January 1, 2023```</div><di=
+v>&lt;https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502=
+/d207567d4017g.htm&gt;</div><div><br></div><div><br></div><div>ADVISERS INV=
+ESTMENT TRUST, STATE FARM FUNDS on November 22, 2021 for the period ending =
+September 30, 2021. Please treat this matter seriously as to avoid any furt=
+her damages to State Farm, who presently hold the rights to their tax risks=
+, also annexed in those dockets, however screenshot for convenience:</div><=
+div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;https://www.sec.gov/Archives/edgar/data=
+/0001516523/000119312521347485/d221423dncsr.htm&gt;</div><div><br></div><di=
+v>"...Our procedures included confirmation of securities owned as of Septem=
+ber 30, 2021 by correspondence with the custodian and brokers; when replies=
+ were not received from brokers, we performed other auditing procedures. We=
+ believe that our audits provide a reasonable basis for our opinions... "&n=
+bsp;</div><div><br></div><div>Pricewaterhouse Coopers=E2=80=94</div><div><b=
+r></div><div><br></div><div>Here are the letters of credit that were OBSTRU=
+CTED and by nonjoinder, I annxed the docket as an EXHIBIT, see also DOCKETS=
+ 1-590 which all seamlessly were processed, until I filed these Loans filed=
+ in NYC Finance register, are severely undervalued, at a 90% discount to th=
+eir present market values, using the schedule of all Manhattans TAX lots an=
+d units- more specifically are dime-bricks.</div><div><br></div><div>- NYSC=
+EF Matter 153974/2020 and below,&nbsp;</div><div>-- the link below I filed,=
+ see also: violation of privacy as a claim and tort that was also avoided t=
+o, and not referenced as an "irregular" legal matter, one should hope.</div=
+><div><br></div><div><br></div><div>&lt;https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D&gt;</div><div><br=
+></div><div><br></div><div><br></div><div>&lt;https://iapps.courts.state.ny=
+.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D&gt;</div><d=
+iv><br></div><div><br></div><div><br></div><div>&lt;https://iapps.courts.st=
+ate.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D&gt;</=
+div><div><br></div><div><br></div><div><br></div><div>&lt;https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=
+=3D=3D&gt;</div><div><br></div><div><br></div><div><br></div><div id=3D"yMa=
+il_cursorElementTracker_1654971252888">&lt;https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D&gt;</div><div>=
+<br></div><div><br></div><div><br></div><div>&lt;https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D&gt;</div=
+><div><br></div><div><br></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p;</div><div>guaranteed by the unlawful rents and security deposits held at=
+ JP Morgan Chase, I attached that for convenience as DOCKET 053.</div><div>=
+<br></div><div>This is a seperate letter of obstruction I filed with the NY=
+SBA, and for good measure is what I requested at the onset of these filings=
+, was an immediate BAR and ESTOPPEL.<br><br><div id=3D"ymail_android_signat=
+ure">/S/ BO DINCER</div><blockquote style=3D"margin: 0 0 20px 0;"><div styl=
+e=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D=
+00F6;"><div id=3D"ymsg71764" class=3D"ymsg7510293094" src=3D"mid://AEFxtvRD=
+0GyGYqOpyw8bMORQW60/2"><div id=3D"yiv2577211384"><a rel=3D"nofollow noopene=
+r noreferrer" id=3D"yiv2577211384linkextractor__1654890923871" target=3D"_b=
+lank" href=3D"https://support.nysba.org/attachments/token/nyJdN4A4dvaR0IkBm=
+WyZBIrCx/?name=3DNovember+22+-+2021-000-email+to+lzcuker+and+james.gorman%4=
+0morganstanley.com.pdf" style=3D"">https://support.nysba.org/attachments/to=
+ken/nyJdN4A4dvaR0IkBmWyZBIrCx/?name=3DNovember+22+-+2021-000-email+to+lzcuk=
+er+and+james.gorman%40morganstanley.com.pdf</a><div id=3D"yiv2577211384yMai=
+l_cursorElementTracker_1654890923958" style=3D""><br style=3D""><br style=
+=3D""><div id=3D"yMail_cursorElementTracker_1654971302525" style=3D"">/S/ B=
+O DINCER</div><div id=3D"yMail_cursorElementTracker_1654971305964" style=3D=
+"">---------- Forwarded message ----------</div><div id=3D"yMail_cursorElem=
+entTracker_1654971319751" style=3D"">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; 2019-12-27</div><blockquote style=3D"margin-top:0px;margin-right:0px;ma=
+rgin-bottom:20px;"><div style=3D"padding:10px 0px 0px 20px;margin:10px 0px =
+0px;border-left:1px solid rgb(109, 0, 246);" id=3D"yMail_cursorElementTrack=
+er_1654971294500"><blockquote style=3D"margin-top:0px;margin-right:0px;marg=
+in-bottom:20px;"><div style=3D"padding:10px 0px 0px 20px;margin:10px 0px 0p=
+x;border-left:1px solid rgb(109, 0, 246);"><div id=3D"yiv2577211384ymsg0145=
+9" style=3D"" class=3D"yiv2577211384ymsg9692281646">&gt;&gt;```40-17G``` &n=
+bsp;<br style=3D"">```January 1, 2020 to January 1, 2021```<br style=3D""><=
+a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://ww=
+w.sec.gov/Archives/edgar/data/0001516523/000119312519324413/d847031d4017g.h=
+tm" style=3D"">https://www.sec.gov/Archives/edgar/data/0001516523/000119312=
+519324413/d847031d4017g.htm</a><br style=3D"">&lt;br&gt;<br style=3D"">2020=
+-12-18<br style=3D"">&gt;&gt;```40-17G``` &nbsp;<br style=3D"">```January 1=
+, 2021 to January 1, 2022```<br style=3D""><a rel=3D"nofollow noopener nore=
+ferrer" target=3D"_blank" href=3D"https://www.sec.gov/Archives/edgar/data/0=
+001516523/000119312520320913/d80254d4017g.htm" style=3D"">https://www.sec.g=
+ov/Archives/edgar/data/0001516523/000119312520320913/d80254d4017g.htm</a><b=
+r style=3D""><br style=3D"">2022-02-02<br style=3D"">&gt;&gt;```40-17G``` &=
+nbsp;<br style=3D"">```January 1, 2022 to January 1, 2023```<br style=3D"">=
+<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://w=
+ww.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d207567d4017g.=
+htm" style=3D"">https://www.sec.gov/Archives/edgar/data/0001516523/00011931=
+2522025502/d207567d4017g.htm</a><br style=3D""><br style=3D""><br style=3D"=
+"><br style=3D""><br style=3D""><br style=3D""><br style=3D""><br style=3D"=
+">LETTER OF CREDIT BETWEEN STATE FARM AND SULLIVAN PROPERTIES LP<br style=
+=3D""><br style=3D"">&nbsp;&nbsp;&nbsp; AN OUTSIDE BUSINESS OF STATE FARM V=
+P MANAGEMENT CORP.<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; CRD#=
+ 43036<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 1.&nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; RANDALL HOUSTON HARBERT&nbsp;&nbsp; [2992788]indivi=
+dual_2992788-2022-05-06<br style=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp;&nbsp; 2.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; JOSEPH RILEY MONK &=
+nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; [001357149]individual_1357149-2022-05-=
+06<br style=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 3.&nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; PAUL JOSEPH SMITH&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp; &nbsp;&nbsp;&nbsp; [004971235]individual_4971235-2022-05-06<br st=
+yle=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 4.&nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; TERRENCE MICHAEL LUDWIG&nbsp;&nbsp;&nbsp; [00323=
+1040]individual_4971235-2022-05-06<br style=3D""><br style=3D"">&nbsp;&nbsp=
+;&nbsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=3D20=
+20052000291003" style=3D"">https://a836-acris.nyc.gov/DS/DocumentSearch/Doc=
+umentDetail?doc_id=3D2020052000291003</a><br style=3D""><br style=3D""><br =
+style=3D""><br style=3D""><br style=3D""><br style=3D"">ALSO.. I DON'T THIN=
+K THEY ARE COVERED FOR THE OMISSIONS OF THE LOAN AND THE TAX CONSEQUENCES O=
+F 15-YEARS OWED ON THE 6-PROPERTIES TRANSFERRED TO STATE FARM.<br style=3D"=
+"><br style=3D"">&nbsp;&nbsp;&nbsp; -- CERTIFIED SHAREHOLDER REPORT<br styl=
+e=3D"">&nbsp;&nbsp; &nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D=
+"_blank" href=3D"https://www.sec.gov/Archives/edgar/data/0001516523/0001193=
+12521347485/d221423dncsr.htm " style=3D"">https://www.sec.gov/Archives/edga=
+r/data/0001516523/000119312521347485/d221423dncsr.htm</a><br style=3D"">&nb=
+sp;&nbsp; &nbsp;2021-09-30: REPORT DATE<br style=3D"">&nbsp;&nbsp; &nbsp;20=
+21-12-03: FILE DATE<br style=3D"">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&=
+nbsp; &nbsp;-----PRICE WATERHOUSE COOPERS<br style=3D"">&nbsp;&nbsp; &nbsp;=
+<br style=3D"">&nbsp;&nbsp; &nbsp;-----Report of Independent Registered Pub=
+lic Accounting Firm<br style=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp;&nbsp; September 30, 2021<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+;&nbsp; ADVISERS INVESTMENT TRUST, STATE FARM FUNDS<br style=3D"">&nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp;&nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://www.sec.gov/Archives/edgar/data/0001516523/000119312521347485/d=
+221423dncsr.htm" style=3D"">https://www.sec.gov/Archives/edgar/data/0001516=
+523/000119312521347485/d221423dncsr.htm</a><br style=3D"">&nbsp;&nbsp; &nbs=
+p;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "...Our procedures included confirm=
+ation of securities owned as of September 30,<br style=3D"">&nbsp;&nbsp; &n=
+bsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 2021 by corres=
+pondence with the custodian and brokers; when replies were not<br style=3D"=
+">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; received from brokers, we performed other auditing procedures. We believ=
+e that<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; our audits provide a reasonable basis for our opinion=
+s... "<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; November 22, 2021<br style=3D""><br style=3D""><br st=
+yle=3D""><br style=3D""><br style=3D""><br style=3D""><br style=3D"">&nbsp;=
+&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blank"=
+ href=3D"https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006=
+149/xslFormN-CEN_X01/primary_doc.xml" style=3D"">https://www.sec.gov/Archiv=
+es/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xm=
+l</a><br style=3D"">&nbsp;&nbsp; &nbsp;OMISSIONS:&nbsp;&nbsp;&nbsp; Item B.=
+11<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; any proceeding to which a=
+ny director, officer or other affiliated person of the &nbsp;&nbsp;&nbsp; "=
+<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nbsp; Registrant is a party=
+ adverse to the Registrant or any of its subsidiaries; and &nbsp;&nbsp;&nbs=
+p; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nbsp; (3) any proceedin=
+g involving the revocation or suspension of the right of the &nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nb=
+sp; Registrant to sell securities.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&=
+nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br s=
+tyle=3D""><br style=3D""><br style=3D"">FY 2020<br style=3D"">&nbsp;&nbsp; =
+&nbsp;8/9/2020<br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noo=
+pener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.u=
+s/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D" style=3D"">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0Q=
+vnmRLGpYIQ=3D=3D</a><br style=3D"">&nbsp;&nbsp; &nbsp;NO CERTIFICATE OF OCC=
+UPANCY FILED ON AUGUST 9TH, 2020<br style=3D"">&nbsp;&nbsp; &nbsp;<br style=
+=3D"">&nbsp;&nbsp; &nbsp;8/8/2020<br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a =
+rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapp=
+s.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2UeHQe8j2tXJoQ=
+=3D=3D" style=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DZOCFS3HH2UeHQe8j2tXJoQ=3D=3D</a><br style=3D"">&nbsp;&nbsp; &nbsp;N=
+O CERTIFICATE OF OCCUPANCY FILED ON AUGUST 10TH, 2020<br style=3D""><br sty=
+le=3D""><br style=3D""><br style=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<br style=3D"">&nbsp;&=
+nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;NYSCEF DOC. NO. 309 &nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbs=
+p;&nbsp; &nbsp;08-09-2020<br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"n=
+ofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D" s=
+tyle=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1=
+9MVPFXy0G0QvnmRLGpYIQ=3D=3D</a><br style=3D"">&nbsp;&nbsp; &nbsp;<br style=
+=3D"">&nbsp;&nbsp; &nbsp;NYSCEF DOC. NO. 379 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;08-10-=
+2020<br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener nore=
+ferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/V=
+iewDocument?docIndex=3D572E8gahZUO1KFthrfiyFQ=3D=3D" style=3D"">https://iap=
+ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D572E8gahZUO1KFthrfiyFQ=
+=3D=3D</a><br style=3D"">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &=
+nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;=
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb=
+sp; &nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;LEASES AND RENTS T=
+RANSFERRED TO "STATE FARM"&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb=
+sp; &nbsp;EXECUTED:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 05-11-2020<br sty=
+le=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;FILED=
+:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 05-15-2020<br st=
+yle=3D"">&nbsp;&nbsp; &nbsp;PARTY 1:&nbsp;&nbsp; SULLIVAN PROPERTIES LP, 10=
+1 WEST 55TH STREET, NEW YORK, NY, 10019<br style=3D"">&nbsp;<br style=3D"">=
+&nbsp;&nbsp; &nbsp;PARTY 2:&nbsp;&nbsp; STATE FARM REALTY MORTGAGE LLC, ONE=
+ STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br style=3D""><br style=3D"">&nbs=
+p;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blan=
+k" href=3D"https://www.sec.gov/Archives/edgar/data/0000093715/0001145549220=
+06149/xslFormN-CEN_X01/primary_doc.xml" style=3D"">https://www.sec.gov/Arch=
+ives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.=
+xml</a><br style=3D"">&nbsp;&nbsp; &nbsp;OMISSIONS:&nbsp;&nbsp;&nbsp; Item =
+B.11<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; any proceeding to which=
+ any director, officer or other affiliated person of the &nbsp;&nbsp;&nbsp;=
+ "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nbsp; Registrant is a par=
+ty adverse to the Registrant or any of its subsidiaries; and &nbsp;&nbsp;&n=
+bsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nbsp; (3) any proceed=
+ing involving the revocation or suspension of the right of the &nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&=
+nbsp; Registrant to sell securities.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&=
+nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp=
+;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br=
+ style=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;OMISSIONS:&nbsp;&nbsp;&nbsp; =
+Item B.14<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; any (1) capital co=
+ntribution, (2) purchase of a security from a Money Market &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; Fund=
+ in reliance on rule 17a-9 under the Act (17 CFR 270.17a-9), (3) purchase &=
+nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&n=
+bsp;&nbsp; of any defaulted or devalued security at fair value reasonably i=
+ntended to &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br st=
+yle=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; increase or stabilize the value o=
+r liquidity of the Registrant's portfolio, &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; (4) execution of let=
+ter of credit or letter of indemnity, (5) capital support &nbsp;&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; agree=
+ment (whether or not the Registrant ultimately received support), (6) &nbsp=
+;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&=
+nbsp; &nbsp;"&nbsp;&nbsp; performance guarantee, or (7) other similar actio=
+n reasonably intended to &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; increase or stabili=
+ze the value or liquidity of the Registrant's portfolio. &nbsp;&nbsp;&nbsp;=
+ &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; Provis=
+ion of financial support does not include any (1) routine waiver of fees &n=
+bsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nb=
+sp;&nbsp; or reimbursement of Registrant's expenses, (2) routine inter-fund=
+ lending, &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br sty=
+le=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; (3) routine inter-fund purchases o=
+f Registrant's shares, or (4) action that &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; would qualify as fina=
+ncial support as defined above, that the board of directors &nbsp;&nbsp;&nb=
+sp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; has otherwise determin=
+ed not to be reasonably intended to increase or stabilize &nbsp;&nbsp;&nbsp=
+; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; the value or liquidity o=
+f the Registrant's portfolio. &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&=
+nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D""><br style=3D"">&nbsp;<br st=
+yle=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<br style=3D""><br style=3D""=
+><br style=3D"">PRIVACY VIOLATION<br style=3D"">ANNEXED BY THEIR OWN ATTORN=
+EYS.<br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener nore=
+ferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/V=
+iewDocument?docIndex=3DfXMaXgeyzvA85ViWMmvfAQ=3D=3D" style=3D"">https://iap=
+ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgeyzvA85ViWMmvfAQ=
+=3D=3D</a><br style=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&gt; CARRIES THE=
+ BURDEN OF "POTENTIAL" CARRY-OVER TO THE NEW "HOLDERS" OF THE LEASES AND RE=
+NTS...<br style=3D""><br style=3D""><br style=3D""><br style=3D""><br style=
+=3D""><br style=3D"">PER THE TERMS OF 255 AFFIDAVIT (LETTER OF CREDIT &amp;=
+ LOAN) BETWEEN THE PARTIES<br style=3D""><br style=3D"">TAX CONSEQUENCES AN=
+NEXED IN THE MATTER OF NYSCEF 153974/2020<br style=3D""><br style=3D"">AS W=
+ERE THE LOANS...<br style=3D""><br style=3D""><br style=3D""><br style=3D""=
+>&nbsp; &nbsp;<br style=3D"">&nbsp; - &nbsp;&nbsp; &nbsp;<a rel=3D"nofollow=
+ noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D&nbsp;&nbs=
+p;&nbsp; " style=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocument?=
+docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;<b=
+r style=3D""><br style=3D"">&nbsp; - &nbsp;&nbsp; &nbsp;<a rel=3D"nofollow =
+noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.n=
+y.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D&nbsp;&nbsp=
+;&nbsp; " style=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;<br=
+ style=3D""><br style=3D"">&nbsp; - &nbsp;&nbsp; &nbsp;<a rel=3D"nofollow n=
+oopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny=
+.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D&nbsp;&nbsp;=
+&nbsp; " style=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;<br =
+style=3D""><br style=3D"">&nbsp; - &nbsp;&nbsp; &nbsp;<a rel=3D"nofollow no=
+opener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D&nbsp;&n=
+bsp;&nbsp; " style=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D&nbsp;&nbsp;&nbsp;&nbsp;</a>&=
+nbsp;<br style=3D""><br style=3D"">&nbsp; - &nbsp;&nbsp; &nbsp;<a rel=3D"no=
+follow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.=
+state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D&nbs=
+p;&nbsp;&nbsp; " style=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D&nbsp;&nbsp;&nbsp;&nbsp;</a>&n=
+bsp;<br style=3D""><br style=3D"">&nbsp; - &nbsp;&nbsp; &nbsp;<a rel=3D"nof=
+ollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.s=
+tate.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D" sty=
+le=3D"">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcM=
+SDaFzm0ynPeXZKSHgLQ=3D=3D</a><br style=3D""><br style=3D"">&nbsp;<br style=
+=3D"">- SERIOUS QUESTION...<br style=3D""><br style=3D""><br style=3D"">&nb=
+sp;&nbsp;&nbsp; CAN I INSURE MY HANDS???<br style=3D""><br style=3D""><br s=
+tyle=3D""><br style=3D""><br style=3D"">/S/ BARIS DINCER.<br style=3D""><br=
+ style=3D""><br style=3D""><br style=3D""><br style=3D""><br style=3D"">201=
+9-12-27<br style=3D"">&gt;&gt;```40-17G``` &nbsp;<br style=3D"">```January =
+1, 2020 to January 1, 2021```<br style=3D""><a rel=3D"nofollow noopener nor=
+eferrer" target=3D"_blank" href=3D"https://www.sec.gov/Archives/edgar/data/=
+0001516523/000119312519324413/d847031d4017g.htm" style=3D"">https://www.sec=
+.gov/Archives/edgar/data/0001516523/000119312519324413/d847031d4017g.htm</a=
+><br style=3D"">&lt;br&gt;<br style=3D"">2020-12-18<br style=3D"">&gt;&gt;`=
+``40-17G``` &nbsp;<br style=3D"">```January 1, 2021 to January 1, 2022```<b=
+r style=3D""><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://www.sec.gov/Archives/edgar/data/0001516523/000119312520320913/d=
+80254d4017g.htm" style=3D"">https://www.sec.gov/Archives/edgar/data/0001516=
+523/000119312520320913/d80254d4017g.htm</a><br style=3D""><br style=3D"">20=
+22-02-02<br style=3D"">&gt;&gt;```40-17G``` &nbsp;<br style=3D"">```January=
+ 1, 2022 to January 1, 2023```<br style=3D""><a rel=3D"nofollow noopener no=
+referrer" target=3D"_blank" href=3D"https://www.sec.gov/Archives/edgar/data=
+/0001516523/000119312522025502/d207567d4017g.htm" style=3D"">https://www.se=
+c.gov/Archives/edgar/data/0001516523/000119312522025502/d207567d4017g.htm</=
+a><br style=3D""><br style=3D""><br style=3D""><br style=3D""><br style=3D"=
+"><br style=3D""><br style=3D""><br style=3D"">LETTER OF CREDIT BETWEEN STA=
+TE FARM AND SULLIVAN PROPERTIES LP<br style=3D""><br style=3D"">&nbsp;&nbsp=
+;&nbsp; AN OUTSIDE BUSINESS OF STATE FARM VP MANAGEMENT CORP.<br style=3D""=
+>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; CRD# 43036<br style=3D"">&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp;&nbsp; 1.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; RANDALL =
+HOUSTON HARBERT&nbsp;&nbsp; [2992788]individual_2992788-2022-05-06<br style=
+=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 2.&nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; JOSEPH RILEY MONK &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp; [001357149]individual_1357149-2022-05-06<br style=3D""><br style=3D"">=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 3.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; PAUL JOSEPH SMITH&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; [00=
+4971235]individual_4971235-2022-05-06<br style=3D""><br style=3D"">&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp;&nbsp; 4.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; TERRE=
+NCE MICHAEL LUDWIG&nbsp;&nbsp;&nbsp; [003231040]individual_4971235-2022-05-=
+06<br style=3D""><br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow =
+noopener noreferrer" target=3D"_blank" href=3D"https://a836-acris.nyc.gov/D=
+S/DocumentSearch/DocumentDetail?doc_id=3D2020052000291003" style=3D"">https=
+://a836-acris.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=3D20200520002=
+91003</a><br style=3D""><br style=3D""><br style=3D""><br style=3D""><br st=
+yle=3D""><br style=3D"">ALSO.. I DON'T THINK THEY ARE COVERED FOR THE OMISS=
+IONS OF THE LOAN AND THE TAX CONSEQUENCES OF 15-YEARS OWED ON THE 6-PROPERT=
+IES TRANSFERRED TO STATE FARM.<br style=3D""><br style=3D"">&nbsp;&nbsp;&nb=
+sp; -- CERTIFIED SHAREHOLDER REPORT<br style=3D"">&nbsp;&nbsp; &nbsp;<a rel=
+=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://www.sec=
+.gov/Archives/edgar/data/0001516523/000119312521347485/d221423dncsr.htm " s=
+tyle=3D"">https://www.sec.gov/Archives/edgar/data/0001516523/00011931252134=
+7485/d221423dncsr.htm</a><br style=3D"">&nbsp;&nbsp; &nbsp;2021-09-30: REPO=
+RT DATE<br style=3D"">&nbsp;&nbsp; &nbsp;2021-12-03: FILE DATE<br style=3D"=
+">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;-----PRICE WATERHOUS=
+E COOPERS<br style=3D"">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbs=
+p;-----Report of Independent Registered Public Accounting Firm<br style=3D"=
+"><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; September 30, 2021<b=
+r style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; ADVISERS INVESTMENT TRUS=
+T, STATE FARM FUNDS<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<br =
+style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow no=
+opener noreferrer" target=3D"_blank" href=3D"https://www.sec.gov/Archives/e=
+dgar/data/0001516523/000119312521347485/d221423dncsr.htm" style=3D"">https:=
+//www.sec.gov/Archives/edgar/data/0001516523/000119312521347485/d221423dncs=
+r.htm</a><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; "...Our procedures included confirmation of securities owned as of Se=
+ptember 30,<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; 2021 by correspondence with the custodian and br=
+okers; when replies were not<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&=
+nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; received from brokers, we perfo=
+rmed other auditing procedures. We believe that<br style=3D"">&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; our audits p=
+rovide a reasonable basis for our opinions... "<br style=3D"">&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; November 22,=
+ 2021<br style=3D""><br style=3D""><br style=3D""><br style=3D""><br style=
+=3D""><br style=3D""><br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofol=
+low noopener noreferrer" target=3D"_blank" href=3D"https://www.sec.gov/Arch=
+ives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.=
+xml" style=3D"">https://www.sec.gov/Archives/edgar/data/0000093715/00011455=
+4922006149/xslFormN-CEN_X01/primary_doc.xml</a><br style=3D"">&nbsp;&nbsp; =
+&nbsp;OMISSIONS:&nbsp;&nbsp;&nbsp; Item B.11<br style=3D"">&nbsp;&nbsp; &nb=
+sp;"&nbsp;&nbsp; any proceeding to which any director, officer or other aff=
+iliated person of the &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp=
+;"&nbsp;&nbsp;&nbsp; Registrant is a party adverse to the Registrant or any=
+ of its subsidiaries; and &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &=
+nbsp;"&nbsp;&nbsp;&nbsp; (3) any proceeding involving the revocation or sus=
+pension of the right of the &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br styl=
+e=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nbsp; Registrant to sell securities=
+.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbs=
+p;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n=
+bsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D""><br style=3D""><br styl=
+e=3D"">FY 2020<br style=3D"">&nbsp;&nbsp; &nbsp;8/9/2020<br style=3D"">&nbs=
+p;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blan=
+k" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+19MVPFXy0G0QvnmRLGpYIQ=3D=3D" style=3D"">https://iapps.courts.state.ny.us/n=
+yscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</a><br style=3D"=
+">&nbsp;&nbsp; &nbsp;NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 9TH, 2020<=
+br style=3D"">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;8/8/2020=
+<br style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener noreferr=
+er" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3DZOCFS3HH2UeHQe8j2tXJoQ=3D=3D" style=3D"">https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2UeHQe8j2tXJoQ=3D=
+=3D</a><br style=3D"">&nbsp;&nbsp; &nbsp;NO CERTIFICATE OF OCCUPANCY FILED =
+ON AUGUST 10TH, 2020<br style=3D""><br style=3D""><br style=3D""><br style=
+=3D""><br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp;&nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp=
+;&nbsp; &nbsp;NYSCEF DOC. NO. 309 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&=
+nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp=
+;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;08-09-2020<br sty=
+le=3D"">&nbsp;&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" tar=
+get=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D" style=3D"">https://iapps.courts.s=
+tate.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</a><=
+br style=3D"">&nbsp;&nbsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;NYSCEF D=
+OC. NO. 379 &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbs=
+p;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;08-10-2020<br style=3D"">&nbsp;&nbsp;&n=
+bsp;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D=
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D572E8gahZU=
+O1KFthrfiyFQ=3D=3D" style=3D"">https://iapps.courts.state.ny.us/nyscef/View=
+Document?docIndex=3D572E8gahZUO1KFthrfiyFQ=3D=3D</a><br style=3D"">&nbsp;&n=
+bsp; &nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbs=
+p; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<br style=
+=3D"">&nbsp;&nbsp; &nbsp;LEASES AND RENTS TRANSFERRED TO "STATE FARM"&nbsp;=
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbs=
+p;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;EXECUTED:&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp; &nbsp; 05-11-2020<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbs=
+p;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nb=
+sp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&=
+nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;FILED:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;=
+ &nbsp;&nbsp;&nbsp; &nbsp; 05-15-2020<br style=3D"">&nbsp;&nbsp; &nbsp;PART=
+Y 1:&nbsp;&nbsp; SULLIVAN PROPERTIES LP, 101 WEST 55TH STREET, NEW YORK, NY=
+, 10019<br style=3D"">&nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;PARTY 2:&nbsp=
+;&nbsp; STATE FARM REALTY MORTGAGE LLC, ONE STATE FARM PLAZA, BLOOMINGTON, =
+IL, 61710<br style=3D""><br style=3D"">&nbsp;&nbsp;&nbsp;<a rel=3D"nofollow=
+ noopener noreferrer" target=3D"_blank" href=3D"https://www.sec.gov/Archive=
+s/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml=
+" style=3D"">https://www.sec.gov/Archives/edgar/data/0000093715/00011455492=
+2006149/xslFormN-CEN_X01/primary_doc.xml</a><br style=3D"">&nbsp;&nbsp; &nb=
+sp;OMISSIONS:&nbsp;&nbsp;&nbsp; Item B.11<br style=3D"">&nbsp;&nbsp; &nbsp;=
+"&nbsp;&nbsp; any proceeding to which any director, officer or other affili=
+ated person of the &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&=
+nbsp;&nbsp;&nbsp; Registrant is a party adverse to the Registrant or any of=
+ its subsidiaries; and &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbs=
+p;"&nbsp;&nbsp;&nbsp; (3) any proceeding involving the revocation or suspen=
+sion of the right of the &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=
+=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp;&nbsp; Registrant to sell securities.=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp=
+;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbs=
+p;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D""><br style=3D"">&nbsp;&nb=
+sp; &nbsp;OMISSIONS:&nbsp;&nbsp;&nbsp; Item B.14<br style=3D"">&nbsp;&nbsp;=
+ &nbsp;"&nbsp;&nbsp; any (1) capital contribution, (2) purchase of a securi=
+ty from a Money Market &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"=
+">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; Fund in reliance on rule 17a-9 under the=
+ Act (17 CFR 270.17a-9), (3) purchase &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;=
+ "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; of any defaulted or deval=
+ued security at fair value reasonably intended to &nbsp;&nbsp;&nbsp; &nbsp;=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&=
+nbsp; increase or stabilize the value or liquidity of the Registrant's port=
+folio, &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &=
+nbsp;"&nbsp;&nbsp; (4) execution of letter of credit or letter of indemnity=
+, (5) capital support &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D""=
+>&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; agreement (whether or not the Registrant =
+ultimately received support), (6) &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; performanc=
+e guarantee, or (7) other similar action reasonably intended to &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; =
+&nbsp;"&nbsp;&nbsp; increase or stabilize the value or liquidity of the Reg=
+istrant's portfolio. &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">=
+&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; Provision of financial support does not in=
+clude any (1) routine waiver of fees &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; =
+"<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&nbsp; or reimbursement of Regist=
+rant's expenses, (2) routine inter-fund lending, &nbsp;&nbsp;&nbsp; &nbsp;&=
+nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp;"&nbsp;&n=
+bsp; (3) routine inter-fund purchases of Registrant's shares, or (4) action=
+ that &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &n=
+bsp;"&nbsp;&nbsp; would qualify as financial support as defined above, that=
+ the board of directors &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nb=
+sp;"&nbsp;&nbsp; has otherwise determined not to be reasonably intended to =
+increase or stabilize &nbsp;&nbsp;&nbsp; "<br style=3D"">&nbsp;&nbsp; &nbsp=
+;"&nbsp;&nbsp; the value or liquidity of the Registrant's portfolio. &nbsp;=
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp=
+;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "<br=
+ style=3D""><br style=3D"">&nbsp;<br style=3D"">&nbsp;&nbsp; &nbsp;&nbsp;&n=
+bsp;&nbsp;<br style=3D""><br style=3D""><br style=3D"">PRIVACY VIOLATION<br=
+ style=3D"">ANNEXED BY THEIR OWN ATTORNEYS.<br style=3D"">&nbsp;&nbsp;&nbsp=
+;&nbsp;<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"ht=
+tps://iapps.courts.state.ny.us/nyscef/ViewDoc" style=3D"">https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDoc</a><br style=3D"">[remainder of message body=
+ omitted; too large]</div></div></blockquote></div></blockquote></div><br><=
+div id=3D"yiv2577211384ymail_android_signature">/S/ BO DINCER</div> <br> <b=
+lockquote style=3D"margin:0 0 20px 0;"> <div style=3D"font-family:Roboto, s=
+ans-serif;color:#6D00F6;"> <div>On Wed, Jun 8, 2022 at 9:21 AM, BO DINCER</=
+div><div>&lt;bondstrt007@gmail.com&gt; wrote:</div> </div> <div style=3D"pa=
+dding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6D00F6;"> <div=
+ id=3D"yiv2577211384"><div><a rel=3D"nofollow noopener noreferrer" target=
+=3D"_blank" href=3D"https://github.com/153974-158143-Regan-Laskowitz/STFGX/=
+releases/tag/WEDNESDAY">https://github.com/153974-158143-Regan-Laskowitz/ST=
+FGX/releases/tag/WEDNESDAY</a><div><br></div><div><br></div><div>So ask em.=
+.</div><div>&nbsp;did you see Ricki Henderson on April 26th,2022.</div><di=
+v><br></div><div>Thats more than 30-days to report a DRP by all Directors o=
+f State Farm might I add.&nbsp;</div><div><br></div><div><br></div></div><b=
+r><div class=3D"yiv2577211384gmail_quote"><div dir=3D"ltr" class=3D"yiv2577=
+211384gmail_attr">On Sat, Jun 4, 2022, 2:16 PM Bo Dincer &lt;<a rel=3D"nofo=
+llow noopener noreferrer" ymailto=3D"mailto:bo.dincer@yahoo.com" target=3D"=
+_blank" href=3D"mailto:bo.dincer@yahoo.com">bo.dincer@yahoo.com</a>&gt; wro=
+te:<br></div><blockquote style=3D"margin:0 0 0 .8ex;border-left:1px #ccc so=
+lid;padding-left:1ex;" class=3D"yiv2577211384gmail_quote"><br><br><div id=
+=3D"yiv2577211384m_3216005822614366833ymail_android_signature">/S/ BO DINCE=
+R</div> <br> <blockquote style=3D"margin:0 0 20px 0;"> <div style=3D"font-f=
+amily:Roboto, sans-serif;color:#6d00f6;"> <div>On Sun, May 29, 2022 at 7:34=
+ AM, Bo Dincer</div><div>&lt;<a rel=3D"nofollow noopener noreferrer" ymailt=
+o=3D"mailto:bo.dincer@yahoo.com" target=3D"_blank" href=3D"mailto:bo.dincer=
+@yahoo.com">bo.dincer@yahoo.com</a>&gt; wrote:</div> </div> <div style=3D"p=
+adding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6d00f6;"> <di=
+v id=3D"yiv2577211384m_3216005822614366833yiv2970856642"><blockquote style=
+=3D"margin:0 0 20px 0;" id=3D"yiv2577211384m_3216005822614366833yiv29708566=
+42yMail_cursorElementTracker_1653823861084"><div style=3D"padding:10px 0 0 =
+20px;margin:10px 0 0 0;border-left:1px solid #6d00f6;"><div id=3D"yiv257721=
+1384m_3216005822614366833yiv2970856642"><div><div><h1 id=3D"yiv2577211384m_=
+3216005822614366833yiv2970856642yMail_cursorElementTracker_1653823862540">I=
+. &nbsp;&nbsp;&nbsp; THEY MONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT.=
+</h1>
+      <br>
+      - ON A 24 HOUR BASIS, RECORDED MY EVERY STEP AND MOTION.<br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOl=
+Bwsgc1lnMJ2_PLUS_AqQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dc3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D</a></li>
+      </ul>
+      <br>
+      <h3><b> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; --- ASHLEY HUMPHRIES, O=
+F WILSON , ELSER &amp;
+          DICKER.</b></h3>
+      <br>
+      <h1> " ... PLEASE CHECK THE SECURITY TAPES ... "</h1>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLHB=
+3tyjhEWAYb6mOPw=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DHbnFLHB3tyjhEWAYb6mOPw=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM=
+1cwANtAvbUwWX_PLUS_g=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3DYvkihzM1cwANtAvbUwWX_PLUS_g=3D=3D</a></li>
+      </ul>
+      <h1>II. &nbsp;&nbsp;&nbsp; VIDEOTAPED ME "INSIDE OF MY APARTMENT".</h=
+1>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4R=
+NLy/6V9gf1BkpTQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D</a></li>
+      </ul>
+      <h1>III. &nbsp;&nbsp;&nbsp; DISTRIBUTED VIDEOS OF MYSELF IN MY APARTM=
+ENT -- THE
+        INTERIOR.
+      </h1>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOy=
+DJuc93MrOnwh5Jw=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DYGRsoOyDJuc93MrOnwh5Jw=3D=3D</a></li>
+      </ul>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4R=
+hX5LEi0sISXetBw=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3D84wdx4RhX5LEi0sISXetBw=3D=3D</a></li>
+      </ul>
+      <h1>IV. &nbsp;&nbsp;&nbsp; ATTACHED VIDEO OF MYSELF DRILLING INSIDE O=
+F MY
+        APARTMENT.</h1>
+      <ul>
+        <li>
+          <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D=
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORklC=
+en4NaSEt6oFg=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3D5uMb/ORklCen4NaSEt6oFg=3D=3D</a></li>
+      </ul>
+      <br>
+      <h1>V. &nbsp;&nbsp;&nbsp; ATTACHED VIDEO OF MYSELF HAMMERING INSIDE O=
+F MY
+        APARTMENT.</h1>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLU=
+S_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D">
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6_=
+PLUS_kgBxoElZyFgKxGEQ=3D=3D</a></li>
+      </ul>
+      <h1>VI. &nbsp;&nbsp;&nbsp; THEY ALSO ANNEX MY RECEIPT TO HELP BUY THE=
+MSELVES MORE
+        TIME AND TO DISTRACT</h1>
+      <b>THE JUDGE, CLERK AND INSTEAD OF DEALING WITH THEIR TAX-EVASIONS
+        AND ILLEGAL CONDUCT. HTF DID THEY EVEN GET AN IMAGE OF MY
+        RECEIPT?</b><br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5NR=
+QV4YHKqWUf8fyVQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DUavl5NRQV4YHKqWUf8fyVQ=3D=3D</a></li>
+      </ul>
+      <h1>
+        VII. &nbsp;&nbsp;&nbsp; ALSO WILL SWEAR THAT THEY HAVE NO INVOLVEME=
+NT, IN
+        ANYTHING...</h1>
+      &nbsp;&nbsp;&nbsp; - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND TH=
+ROUGH MY
+      DOOR.<br>
+      &nbsp;&nbsp;&nbsp; - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF O=
+F SULLIVAN
+      PROPERTIES, LP.<br>
+    </div>
+    <div><br>
+    </div>
+    <div><br>
+    </div>
+    <div>
+      <h1>VIII. &nbsp;&nbsp;&nbsp; HAVE ALSO ANNEXED AND SWORE UNDER OATH T=
+HEY SAW ME</h1>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/W=
+FihoyIKwEunaalQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D</a></li>
+      </ul>
+      <h1><font color=3D"#ff0000">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &n=
+bsp;&nbsp; "... BANGING ON A RADIATOR
+          ... "</font></h1>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu=
+9a94Y3U5/kpIt5g=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3Doz2nfEu9a94Y3U5/kpIt5g=3D=3D</a></li>
+      </ul>
+      <br>
+      <br>
+      <h1>IX. &nbsp;&nbsp;&nbsp; ALSO HAVE ANNEXED THEY "HOSTED" MY VIDEOS =
+ON THE
+        INTERNET --</h1>
+      <h3><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; -- USING ONE OF
+          THEIR OWN TENANTS AS THE VIDEOGRAPHER.</font></h3>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/W=
+FihoyIKwEunaalQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D</a></li>
+      </ul>
+      <font color=3D"#ff0000"><br>
+      </font></div>
+    <div><font color=3D"#ff0000"><br>
+      </font></div>
+    <div><font color=3D"#ff0000"><br>
+      </font></div>
+    <div>
+      <h1><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nb=
+sp;&nbsp;&nbsp; TRANSFERRED THE LEASES AND
+          RENTS TO STATE FARM.</font></h1>
+      <blockquote>
+        <blockquote><font color=3D"#ff0000">&nbsp;- HERE ARE SOME OF THE
+            PROVISIONS FOR AIDING AND ABETTING TAX EVASION. BY WAY OF
+            OBSTRUCTION, OMISSIONS, AND UNFAIR DEALINGS.</font><br>
+          <br>
+          <font color=3D"#ff0000">- COSTED THE INVESTORS OF STATE FARM THE
+            GREATER OF 1.5 BILLION DOLLARS AND ALSO ONE INVESTMENT
+            ADVISER: </font><br>
+          <font color=3D"#ff0000">
+          </font><br>
+          <font color=3D"#ff0000">
+            - FILER 93715 - AFTER 27 YEARS RANDOMLY DECIDED TO " CEASE
+            TO EXIST "</font></blockquote>
+      </blockquote>
+    </div>
+    <div><font color=3D"#ff0000"><br>
+      </font></div>
+    <p><b>RE: 153974 - VIOLATION OF PRIVACY...</b><b>
+      </b></p>
+    <div>/S/ BO DINCER<br>
+      TEL. 646-256-3609<br>
+      TEL. 917-378-3467<br>
+      <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:BDINCER66@I=
+CLOUD.COM" target=3D"_blank" href=3D"mailto:BDINCER66@ICLOUD.COM">BDINCER66=
+@ICLOUD.COM</a><br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7D=
+n66hrVmJ9DX_PLUS_bdg=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7b=
+5002248286386/8209-$BROOKS--4776256-6109023%5BFILED%5D.pdf">https://saaze23=
+11prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7b5002248286386/8209-=
+$BROOKS--4776256-6109023[FILED].pdf</a></li>
+      </ul>
+      <div>
+        <h1><font color=3D"#ff0000"><b><br>
+            </b></font></h1>
+      </div>
+      <div>
+        <h1><font color=3D"#ff0000"><b>&nbsp;&nbsp;&nbsp; TAX MATTERS</b><b=
+r>
+          </font></h1>
+      </div>
+      <div><br>
+        <ul>
+          <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" hre=
+f=3D"https://www.irs.gov/pub/irs-utl/tax_crimes_handbook.pdfhttps://www.irs=
+.gov/pub/int_practice_units/IGA9560_11_06.pdf">https://www.irs.gov/pub/irs-=
+utl/tax_crimes_handbook.pdf</a></li>
+        </ul>
+        <ul>
+          <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" hre=
+f=3D"https://www.irs.gov/pub/irs-utl/tax_crimes_handbook.pdfhttps://www.irs=
+.gov/pub/int_practice_units/IGA9560_11_06.pdf">https://www.irs.gov/pub/int_=
+practice_units/IGA9560_11_06.pdf</a></li>
+        </ul>
+      </div>
+      <br>
+      -------- Forwarded Message --------
+      <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+        <tbody>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">Subject:
+            </th>
+            <td>[BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 2d2b62: TCR
+              16537-714-487-492 FILED.: OMISSIONS, OBSTRUCTI...</td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">Date: </th>
+            <td>Fri, 27 May 2022 20:26:30 -0700</td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">From: </th>
+            <td>1212-5858 <a rel=3D"nofollow noopener noreferrer" ymailto=
+=3D"mailto:noreply@github.com" target=3D"_blank" href=3D"mailto:noreply@git=
+hub.com">&lt;noreply@github.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">To: </th>
+            <td><a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:M=
+S60710444266@YAHOO.COM" target=3D"_blank" href=3D"mailto:MS60710444266@YAHO=
+O.COM">MS60710444266@YAHOO.COM</a>, <a rel=3D"nofollow noopener noreferrer"=
+ ymailto=3D"mailto:sjs5@ntrs.com" target=3D"_blank" href=3D"mailto:sjs5@ntr=
+s.com">sjs5@ntrs.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      Branch: refs/heads/REQUEST-TO-BAR<br>
+      <br>
+      Home: <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER">https://githu=
+b.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER</a><br>
+      <br>
+      Commit: 2d2b621f9b4e59f4d0f470538b748bb148ddd8eb<br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/2d2b621f9b4e59=
+f4d0f470538b748bb148ddd8eb">
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/2d2b621f9b4=
+e59f4d0f470538b748bb148ddd8eb</a><br>
+      <br>
+      Author: 1212-5858
+      <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:70865813+BS=
+CPGROUPHOLDINGSLLC@users.noreply.github.com" target=3D"_blank" href=3D"mail=
+to:70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com">&lt;70865813+BSC=
+PGROUPHOLDINGSLLC@users.noreply.github.com&gt;</a><br>
+      <br>
+      Date: 2022-05-27 (Fri, 27 May 2022)<br>
+      <br>
+      <br>
+      <br>
+      Changed paths:<br>
+      <br>
+      A 16537-714-487-492<br>
+      <br>
+      <br>
+      <br>
+      Log Message:<br>
+      <br>
+      -----------<br>
+      <br>
+      TCR 16537-714-487-492 FILED.: OMISSIONS, OBSTRUCTION, INVESTOR
+      LOSSES AND ASSETS MISSING<br>
+      <br>
+      <br>
+      <br>
+      NO MANDATORY ATTENDANCE REQUIRED. <br>
+      2022-05-27---TCRReport 16537-714-487-492<br>
+      <br>
+      <br>
+      <br>
+      ATTN: THE NORTHERN TRUST COMPANY.<br>
+      <br>
+      <br>
+      via EMAIL: <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:=
+SJS5@NTRS.COM" target=3D"_blank" href=3D"mailto:SJS5@NTRS.COM">SJS5@NTRS.CO=
+M</a><br>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604=
+ddb8f7ccd80a7a5a6e13b6e4b2https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND=
+-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2#diff-f87405da5ef03c=
+67c43c2dd391b9e8e15e36553ad5a56bf4089dd600f4d9ea7bhttps://github.com/BSCPGR=
+OUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6=
+e4b2%23diff-1b1e8bc23d8163d3e8fd3c1b9afe2dfa43987933ab4a255f654dfeb93d004cb=
+ehttps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b=
+5604ddb8f7ccd80a7a5a6e13b6e4b2%23diff-a08dd2a966192670b96232cd500357a562db7=
+1af7b8082e63f0a2b2edccde936https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AN=
+D-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2%23diff-f53bbf59364=
+5261d55469f485116c9a3b7cc292e56f3917741b877251f094614"><br>
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2<br>
+        <br>
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-f87405da5ef03c67c43c2dd391b9e8e15e36553a=
+d5a56bf4089dd600f4d9ea7b<br>
+        <br>
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-1b1e8bc23d8163d3e8fd3c1b9afe2dfa43987933=
+ab4a255f654dfeb93d004cbe<br>
+        <br>
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-a08dd2a966192670b96232cd500357a562db71af=
+7b8082e63f0a2b2edccde936<br>
+        <br>
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#diff-f53bbf593645261d55469f485116c9a3b7cc292e=
+56f3917741b877251f094614<br>
+      </a><br>
+      <br>
+      <br>
+      AS STATED PREVIOUSLY, YES.<br>
+      <br>
+      - I WOULD STILL LIKE TO PRESS CHARGES FOR THE VIOLATION OF
+      PRIVACY.<br>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/12da4ef7a74ba3=
+77567c9f9951294eb95cf34c52">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-A=
+ND-DICKER/commit/12da4ef7a74ba377567c9f9951294eb95cf34c52</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      THANK YOU.<br>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/12da4ef7a74ba3=
+77567c9f9951294eb95cf34c52">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-A=
+ND-DICKER/commit/12da4ef7a74ba377567c9f9951294eb95cf34c52</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      OFFER @ $65,000,000.00 for out of court settlement.<br>
+      <br>
+      <br>
+      <br>
+      UNFAIR DEALINGS AND OMMISSIONS OF MORGAN STANLEY IN AIDING AND
+      ABETTING TO THE TAX EVASION AND LOSSES SUFFERED BY STATE FARMS
+      FAMILY OF TICKERS: STFGX, SFITX, STFBX, SFBDX with Sullivan
+      Properties LP and their subsidiaries - continue to avoid
+      prosecution in this respect, and<br>
+      <br>
+      collectively have costed INVESTORS the greater of $1.5 BILLION IN
+      LOSSES before FINES, REGULATORY ACTION, or SETTLEMENT of a certain
+      VIOLATION OF PRIVACY CASE<br>
+      <br>
+      <br>
+      <br>
+      <h1>colorful, and also can be zoomed on, pixelated and in their
+        servers, was also distributed without consent, and probably -
+        they play with themselves watching me in their privacy.</h1>
+      <h1><br>
+        --- $25 million was a DISCOUNT.</h1>
+      <h1><br>
+      </h1>
+      <h1><br>
+        <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgeyzvA8=
+5ViWMmvfAQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI=
+ndex=3DfXMaXgeyzvA85ViWMmvfAQ=3D=3D</a></h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://www.sec.gov/comments/s7-14-18/s71418-4531826-176079.pdf"><br>
+        https://www.sec.gov/comments/s7-14-18/s71418-4531826-176079.pdf</a>=
+<br>
+      <br>
+      <br>
+      <br>
+      - obo OF SULLIVAN PROPERTIES LP HAVE ALSO "PROMISED" TO PAY THEM
+      BACK,<br>
+      <br>
+      SOMEWHERE ON PAGE 800 OF THE UNREGISTERED SECURITY ( THE COMBINED<br>
+      <br>
+      AND RE-STATED PROSPECTUS ) WHICH I ALSO ANNEXED IN THE MATTER OF
+      NYSCEF<br>
+      <br>
+      153974/2020.<br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9akRV9T=
+GfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/View=
+Document?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3Dhttps=
+://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF=
+/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D"><br>
+      </a>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA=
+9akRV9TGfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D">https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA=
+9akRV9TGfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D">https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA=
+9akRV9TGfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D">https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA=
+9akRV9TGfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D">https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA=
+9akRV9TGfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D">https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA=
+9akRV9TGfXXJT/g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3Dhttps://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3Dhttps://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=
+=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3Dhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D">https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D</a></li>
+      </ul>
+      <br>
+      <br>
+      <br>
+      UNFAIR DEALINGS<br>
+      <br>
+      <br>
+      <br>
+      <h1>I. THEY MONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT.</h1>
+      <h1><br>
+        - ON A 24 HOUR BASIS, RECORDED MY EVERY STEP AND MOTION.</h1>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOlBwsgc1l=
+nMJ2_PLUS_AqQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3Dc3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1> ASHLEY HUMPHRIES, OF WILSON &amp; DICKER.</h1>
+      <h1><br>
+        " ... PLEASE CHECK THE SECURITY TAPES ... "</h1>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLHB3tyjhEW=
+AYb6mOPw=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DHbnFLHB3tyjhEWAYb6mOPw=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1cwANtA=
+vbUwWX_PLUS_g=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3DYvkihzM1cwANtAvbUwWX_PLUS_g=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <h1>II. VIDEOTAPED ME "INDISE OF MY APARTMENT".</h1>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9=
+gf1BkpTQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <h1>III. DISTRIBUTED VIDEOS OF MYSELF IN MY APARTMENT -- THE
+        INTERIOR.</h1>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOyDJuc93M=
+rOnwh5Jw=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DYGRsoOyDJuc93MrOnwh5Jw=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4RhX5LEi0=
+sISXetBw=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3D84wdx4RhX5LEi0sISXetBw=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <h1>IV. ATTACHED VIDEO OF MYSELF DRILLING INSIDE OF MY APARTMENET.</h=
+1>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORklCen4N=
+aSEt6oFg=3D=3D">
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORklCe=
+n4NaSEt6oFg=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <h1>V. ATTACHED VIDEO OF MYSELF HAMMERING INSIDE OF MY APARTMENET.</h=
+1>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6_PLU=
+S_kgBxoElZyFgKxGEQ=3D=3D">
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6_=
+PLUS_kgBxoElZyFgKxGEQ=3D=3D</a><br>
+      <br>
+      <br>
+      <h1>VI. THEY ALSO ANNEX MY RECEIPT TO HELP BUY THEMSELFVES MORE
+        TIME AND TO DISTRACT</h1>
+      <h1><br>
+        THE JUDGE, CLERK AND INTEAD OF DEALING WITH THEIR TAX-EVASIONS
+        AND ILLEGAL CONDUCT.</h1>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5NRQV4YHKq=
+WUf8fyVQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DUavl5NRQV4YHKqWUf8fyVQ=3D=3D</a><br>
+      <br>
+      <h3>VII. ALSO WILL SWEAR IN THEIR AFFIDAVITS THAT GO ON FOR PAGES
+        THAT THEY HAVE NO INVOLVEMENT.</h3>
+      <h3><br>
+        - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND THROUGH MY DOOR.</h=
+3>
+      <h3><br>
+        - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF OF SULLIVAN
+        PROPERTIES, LP.</h3>
+      <h3><br>
+        VIII. HAVE ALSO ANNEXED AND SWORE UNDER OATH THEY SAW ME</h3>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFihoyIK=
+wEunaalQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <h1>"... BANGING ON A RADIATOR ... "</h1>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu9a94Y3U=
+5/kpIt5g=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3Doz2nfEu9a94Y3U5/kpIt5g=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <h1>IX. ALSO HAVE ANNEXED THEY "HOSTED" MY VIDEOS ON THE INTERNET
+        --</h1>
+      <h1><br>
+        -- USING ONE OF THEIR OWN TENANTS AS THE VIDEOGRAPHER.</h1>
+      <br>
+      <br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"htt=
+ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFihoyIK=
+wEunaalQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      HERE ARE SOME OF THE PROVISIONS FOR AIDING AND ABETTING TAX
+      EVASION.<br>
+      <br>
+      BY WAY OF OBSTRUCTION, OMISSIONS, AND UNFAIR DEALINGS.<br>
+      <br>
+      HAS COSTED THE INVESTORS OF STATE FARM THE GREATER OF 1.5 BILLION
+      DOLLARS<br>
+      <br>
+      AND ALSO ONE INVESTMENT ADVISER: FILER 93715<br>
+      <br>
+      <br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://www.irs.gov/pub/irs-utl/tax_crimes_handbook.pdf">https://www.ir=
+s.gov/pub/irs-utl/tax_crimes_handbook.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://www.irs.gov/pub/int_practice_units/IGA9560_11_06.pdf">https://w=
+ww.irs.gov/pub/int_practice_units/IGA9560_11_06.pdf</a></li>
+      </ul>
+      <br>
+      <br>
+      <br>
+      RE: 153974 - VIOLATION OF PRIVACY<br>
+      <br>
+      <br>
+      <br>
+      /S/ BO DINCER<br>
+      <br>
+      TEL. 646-256-3609<br>
+      <br>
+      TEL. 917-378-3467<br>
+      <br>
+      <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:BDINCER66@I=
+CLOUD.COM" target=3D"_blank" href=3D"mailto:BDINCER66@ICLOUD.COM">BDINCER66=
+@ICLOUD.COM</a><br>
+      <br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7D=
+n66hrVmJ9DX_PLUS_bdg=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7b=
+5002248286386/8209-$BROOKS--4776256-6109023%5BFILED%5D.pdf">https://saaze23=
+11prdsra.blob.core.windows.net/clean/f6d60b925fd3ec11a7b5002248286386/8209-=
+$BROOKS--4776256-6109023[FILED].pdf</a></li>
+      </ul>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      93715 BROKERS AT MORGAN STANLEY - FURTHER OBSTRUCTED BY WAY OF
+      OMISSION.<br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b=
+5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg">https://saaze2311p=
+rdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F=
+-D641-4B62-9D15-3AF4205617AC.jpeg</a></li>
+      </ul>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      December 18, 2021<br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b=
+5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg">https://saaze2311p=
+rdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B=
+-6A0E-4B2A-89B9-93BD202498A9.jpeg</a></li>
+      </ul>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      Docket 399 - AIDED AND ABETTED BY THE FIRST COUNSELOR ON DECK FOR
+      THE ZUCKER..<br>
+      <br>
+      <ul>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpe=
+g</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%2043036]Advisers%20In=
+vestment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/5380dd8997d3ec11a7b5000d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20In=
+vestment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.=
+pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%2043036]Advisers%20In=
+vestment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFarmRealt=
+yInsuranceLLC.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/ff91792a95d3ec11a7b50022482864f0/[sfVP43036]%20$2876793%20-%20david.moore=
+%20$3487%20-%20IA%208018184.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/af081f4095d3ec11a7b50022482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2=
+004555.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343=
+036.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343=
+036.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%2=
+0Omissions.%20.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpe=
+g</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/172de37992d3ec11a7b500224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%2=
+0SEMI.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/bee2b76c92d3ec11a7b5002248286997/[SF.VP%2043036]%202876793%20-%20$david%2=
+0moore%20$3487%20-%20IA%208018184.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/9194266492d3ec11a7b500224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%2=
+0tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$34=
+87.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%2=
+0-%20SEMI.pdf</a></li>
+        <li><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b=
+5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeghttps://saaze2311prd=
+sra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTATE%2=
+0FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5D%2=
+0MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.net/c=
+lean/5380dd8997d3ec11a7b5000d3a132789/%5BSTATE%20FARM%20VP%2043036%5DAdvise=
+rs%20Investment%20Trust%20%5B$CIK%201516523%5D%20MONK%5BCRD%201357149%5D.pd=
+fhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311=
+prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b500224828654e/%5BSTAT=
+E%20FARM%20VP%2043036%5DAdvisers%20Investment%20Trust%20%5B$CIK%201516523%5=
+D%20MONK%5BCRD%201357149%5D.pdfhttps://saaze2311prdsra.blob.core.windows.ne=
+t/clean/3bb9011795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFar=
+mRealtyInsuranceLLC.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+ff91792a95d3ec11a7b50022482864f0/%5BsfVP43036%5D%20$2876793%20-%20david.moo=
+re%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.=
+net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%=
+20$3231040-2004555.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d=
+88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036=
+.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b=
+5002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdfhttps://saaze2=
+311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%=
+20EVASION%20%20attachments%20%252F%20Omissions.%20.pdfhttps://saaze2311prds=
+ra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D6=
+41-4B62-9D15-3AF4205617AC.jpeghttps://saaze2311prdsra.blob.core.windows.net=
+/clean/172de37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SM=
+ITH%20-%20SEMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b=
+76c92d3ec11a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows=
+.net/clean/9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201=
+943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%=
+20company-$3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/172d=
+e37992d3ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20S=
+EMI.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11=
+a7b5002248286997/%5BSF.VP%2043036%5D%202876793%20-%20$david%20moore%20$3487=
+%20-%20IA%208018184.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/=
+9194266492d3ec11a7b500224828654e/%5Bsf%20VP%2043036-$3487%5D%201943922-%20$=
+%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$=
+3487.pdfhttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec1=
+1a7b5000d3a1326fe/%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://sa=
+aze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/=
+%5BSTATE%20FARM%20VP%2043036%5D$%203487%20$.pdfhttps://saaze2311prdsra.blob=
+.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A=
+-89B9-93BD202498A9.jpeg"></a></li></ul></div></div></div></div></blockquote=
+></div></div></blockquote></blockquote></div>
+</div> </div> </blockquote></div></div> </div> </blockquote></div> </div> <=
+/blockquote>
+------=_Part_168015_993895746.1656462409648--
