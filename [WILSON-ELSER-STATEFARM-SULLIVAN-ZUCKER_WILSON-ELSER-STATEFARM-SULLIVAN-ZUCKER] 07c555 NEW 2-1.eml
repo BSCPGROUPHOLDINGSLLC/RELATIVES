@@ -1,0 +1,84 @@
+From - Tue Jun 28 14:23:57 2022
+X-Account-Key: account1
+X-UIDL: AAKNxwd+na6pYrrFrgqW8KJRsyQ
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.165
+ by atlas125.free.mail.ne1.yahoo.com with HTTPS; Tue, 28 Jun 2022 09:11:10 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas125.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 09:11:10 +0000
+X-YMailISG: 1GKvWnIWLDuKxKjwoz1BWM3A72VyHEGandpH429UpwIzB5hK
+ vhLxV4NAE_A6oE.JaG6HJPSSIUMlYVMUb7T5c07n9lgqTb2.RIi1HrgIv7yv
+ vl_hhVTpe9Nr5Se0jb0F1.0aylGKV75DMB.yPY41Jp_ncH2nDmzqCsJ5WKtQ
+ .TLo_aiPvTVmUOS_rP5Gty_JKFov5zlqbyQ5dvXESdWMd.o0bCqYSIx1YOXY
+ ORz2Z.uEVuB_EtL4uRh_s86JVAqfXDPum6WubFbTFwXhSkVwqBU38WxG7Drr
+ DCiQSxRTRRqsVxwQnjxzmbwynLCjXsVVEPNaSiSkxZnoy4Nm93tmBWFNv3KE
+ vPgJ1SZjDOFyLSJg8ho_NEtM6zh44JpXvcshuI4D47fH4FyekiPFnkJn85k0
+ wGhLfvXY3..LZW7zMDLltObJ1jZ5jNLBdy9n8adhy6.sQVT95XTZe5kHPfgS
+ OqsP4X.tyiQquUjy_ovoOJLSdSs7QZwFu_4AhanvCkKs7pp_hQmFsoy.Y6MB
+ vlW_YT57yoo.msLPwJu6fJkdjp.sfRn5mY.GCEpzKJaRW5ykp5eKuFsjwPLC
+ TF3d_B7USKcet3jQH2nrvXu2B57ly6u6kX23FD7BLXYDvM27Wz8eGXij0f76
+ 2oZdG3PNRzJl0Ouh0vanZFaTWrquqeGMk7Fqcm6H_bxqvpK1TqlIltvUm6ng
+ _kY_LxWDEVADED9MYTtBZNil5uhKNByaP9VZYZmiuunmiPajrLCLgvtlvNVG
+ ey5kCufL1SqJV1f8lL6U3YwpOx0eUYTuZfKGuQiQiKv5ZZhEVHVb58rvuoNZ
+ VJY5CURaOBXHJLxW5eCrwy.1s5ANpVZlDtsPhL6A1Wv5khGJQ.toW0.umZGc
+ HgYsV2WbP.3ndZdQr3IRO_ppM2YHh3mhTLGCB7VdyRhIqRBk1N3Vx86Sr0Wa
+ Buz1GyP5hcBHH9oh4MeMIO8st36uNumP8dq07DiA5JZNY2XWx2G6EB3k.bEq
+ x0Z2o1vfLhCqZZsbbQxjGSTMy3c3XmzLRBU0eRzSe4owIAHmraEudDkqKriT
+ jul6ruwMG17pibifoAdWyQwFFYNST3L7vmuRTk.DbHPv29Pp_ns.opqE9eZW
+ da1uEhaxfErINakOffH.V9LBsZGdFbjPrCpwvc.9lQlyIeU6bAHK5pgPUQRh
+ pJ2jdNljUg--
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.223.248.165 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 09:11:10 +0000
+Received: from github.com (hubbernetes-node-0324fd9.va3-iad.github.net [10.48.205.102])
+	by smtp.github.com (Postfix) with ESMTPA id EAFB15C0EC4;
+	Tue, 28 Jun 2022 02:11:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656407470;
+	bh=KCAGHgJcQhjnUq84jnwtnrxl7QeE4A0+rS0zPSXKpww=;
+	h=Date:From:To:Subject:From;
+	b=BJaMGmUQBzQ1zhPnWiNO8uyIA+Mr6QyX5FKnQLghK0/Lnkk1T0LFItqLwr+gLHVEa
+	 X426CqHFyL959ivMK7gvX5t5+pvFOQkqNm2tFb9ugx+7fofqrQq8f+auJ+H0oF82Ws
+	 M4dQ0bZTa7gSWElKswLZ4kFIjpTUEyg8L+WSosXE=
+Date: Tue, 28 Jun 2022 02:11:09 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ financialeducation@info.consumerfinance.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/VIOLATION-OF-PRIVACY/ac324b-07c555@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 07c555: NEW 2
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,financialeducation@info.consumerfinance.gov
+X-Auto-Response-Suppress: All
+Content-Length: 597
+
+  Branch: refs/heads/VIOLATION-OF-PRIVACY
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 07c5556a6b183c17ee1652e88d3cd6e5c482c7f2
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/07c5556a6b183c17ee1652e88d3cd6e5c482c7f2
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-28 (Tue, 28 Jun 2022)
+
+  Changed paths:
+    A new 2.txt
+
+  Log Message:
+  -----------
+  NEW 2
+
+NEW 2
+
+

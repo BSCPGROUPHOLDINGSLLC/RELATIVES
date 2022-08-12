@@ -1,0 +1,158 @@
+From - Sun May  1 03:25:47 2022
+X-Account-Key: account1
+X-UIDL: AAhfTq5oK/LkYm4iGwcv2InuiDk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.216.85
+ by atlas305.free.mail.bf1.yahoo.com with HTTPS; Sun, 1 May 2022 06:00:59 +0000
+Return-Path: <douglas.buchanan@davispolk.com>
+X-Originating-Ip: [144.211.197.16]
+Received-SPF: pass (domain of davispolk.com designates 144.211.197.16 as permitted sender)
+Authentication-Results: atlas305.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@davispolk.com header.s=pxironport1;
+ spf=pass smtp.mailfrom=davispolk.com;
+ dmarc=pass(p=QUARANTINE) header.from=davispolk.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 1 May 2022 06:00:59 +0000
+X-YMailAVSC: Msn4QNs3bBvxX1KXlI37vsgIft9Sd01wqprSStx91K66qDZ
+ 1ldq42XPasLpddIc8zqUjxee3yOkf.iDgUl5oa1x3uEI8qcW2hj.S7trDIQL
+ vORsU6ibfNEW.2Qe5EaItNrtDtb1Hro7lYMHkK0LMZDlzm0WoAOMKqfIWwBW
+ iN2JbsYULucUPdWXDXXOEsoackjtxaqIIEOxQ_N0ZjYroqWg2kaYextXK73_
+ EPL714HXZyYNI9NvYbeWO5r4_BH0JXFlw9I2mocM5TNkh7rCSUobbD0teCEk
+ 5CtxdMIg1.wjDm5wgg.IeM_qKKuVXQT2IWkowL937kZfecECShzxc6g4HSA0
+ P
+X-YMailISG: s.NE_JAWLDsOgRWI6lGBxUKopq36ShVfAolMnkvrnncCe0Kg
+ iFgl9C7D39xtPrRNRl8imF.VGgmjLHHSF0iMmq9FqmaVQHyesVOHFi6n17M2
+ pUDZCoo6nVBy620OGiqTVq91RZImGEVZYalgU5RKCdh8DjLhlAwnngyoviZG
+ TviuaSTbE354IndzUv2V83CxlXhNT2DXIfpCuicUTIN1QQL8muXPA7hj7y0r
+ oOp3njXQli9K35cFlhyXPU6Xo2fZuWN.jiyjdv4NvDiIXxe5hVY2cJhAfndD
+ rdztKzWpm33nKu_XEWKhJogL9fP1UIm8GYp5OJEUI253ynOBag8hY6XKcPss
+ njLQ.POgUBWxiiAeMs9lHycMd7evDf5.KcvUOmF5kPgMvhUz9qfQ8OceJQMX
+ CgfvSiToTGQLEi1RSysmDZXfSUHx19ZHximBAyOwcrcjLP74BI8ayEcs5gJL
+ doJHACfd6WQd2x9Qu1VSMbBD.XDBN0noGERXfyMYks95u9N8QqGu.1NrPdUg
+ Gx49c6G3xL8ZuN.aKi0mp.xVM14QgUA03F73NmwF0y8q06aLQt0BVS.u.F8u
+ GOWNVPB.OeqrSI2vVj1ehvxULBIN3L7OX9dIajVqTpC.0EU61T5uNtvt98bs
+ x86DuXOk01rAaZkBJ7TVG9_XXIXEhpG5qrBFDq2NMY9mWgJHF0Zvx1jsLpMA
+ B.raVDIqb89SxNy42WHk1UDJ7BAQFo.voAaaRpvrz9vwwcT9Kg.htopWT3Dx
+ rQ6AsK5lRbMyK0wLpGaXfwswrv.ilV7sndfHFIoHYNC9VcfUruO_vwYXLiJ.
+ G0sTm9xCWLvoR.jODNqre4bRtg_TAEH35LqVwmF.vV8p3irTjtWMjZvb6Poa
+ xMqzq3z0xvsg2qD4tGT_JWMW2ejfbozKCMY8tFfstt61l6mzEgpfhFTj8Ltu
+ jSNwBsYZy1LDN9Uq7aZVb5PaBg.KKxjm5bNv77IS6m.Wu_.d8VzlFQNc_ARY
+ 9mLeRyP32XqQIHUhID97uZ2zGOcZkiM7ZnTNw37oW26Qn8nU6cL1eEUuNguj
+ weQ5Wdsw6Jh8HgUItFE4axKf5gV..oRohH5gZIYlQ1qLNvuPuyo5ph66VwR9
+ VQmHqUwl5E7kgWaGHljMVH5qlqVLonuH.JLeCzz4O.9xUM8cvz9nviQ6Sfgu
+ 7WwJAtVowpNXAiXWbMy8_QtHyfe8yesVfEKmtDKxtfJ6KXck_XJsiM.ll55g
+ 4Ke.aDpzhG3AKq9a9RqWDKdELPdqtA.20O9XfHs54QAQIInoDAqCexXxpcAP
+ DXgsbW6Xj8NWWyo-
+Received: from 144.211.197.16 (EHLO s4.gw.dpw.com)
+ by 10.196.216.85 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 01 May 2022 06:00:59 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=davispolk.com; i=@davispolk.com; q=dns/txt;
+  s=pxironport1; t=1651384859; x=1682920859;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=B9Ylbg4JFUrrzvIFUjtSF1TAwUU7SIexZCEGS964RpQ=;
+  b=Rd5iYJRmaWKmIjtanGKoF1e7VEWyOcCVfrwzwdW7P+ylmjDIUwD4kxHj
+   AMjMSta859WUxJIzD+kdHunNDsjviM6+PO2HMitZieJ3kN48CQXiwy4Xk
+   cZgtRzMIxbMTFZ5zjIf5jqodF+IOlOjIhXE8LRRasd9sQ1wtq16cAJZOm
+   y/7QDapp+VSWhmuCNmZHLZ0F0p78jZWbwn73z12IpzidAh8s62gs1EJRY
+   nXdlp21yDdriuaW0NLOlkcsuy31SvRYA7QUHpoHHBGl8RXVRYCRGbwgIl
+   ajt+ppjpyc/2hJA6Ha0Wt27rNr4acR8BWvct8u83Ep6/ybk2UpZ93eE8B
+   w==;
+X-Cloud_Email_Provider: False
+X-DPW-RU-UA-BY-DPWUsers: False
+X-DPW-RU-UA-BY-Whitelists: False
+X-DPWSPF-Check: Null
+X-IronPort-AV: E=Sophos;i="5.91,189,1647327600"; 
+   d="scan'208,217";a="151173520"
+X-ARCHIVED: TRUE
+Received: from unknown (HELO pyexch02.ad.dpw.com) ([10.204.54.72])
+  by pxironport1.gw.dpw.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 30 Apr 2022 23:00:57 -0700
+Received: from pyexch04.ad.dpw.com (10.204.54.74) by pyexch02.ad.dpw.com
+ (10.204.54.72) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.986.15; Sun, 1 May 2022
+ 02:00:56 -0400
+Received: from pyexch04.ad.dpw.com ([fe80::35d1:9247:7b1c:c1d2]) by
+ pyexch04.ad.dpw.com ([fe80::35d1:9247:7b1c:c1d2%15]) with mapi id
+ 15.02.0986.015; Sun, 1 May 2022 02:00:56 -0400
+From: "Buchanan, Douglas B.G." <douglas.buchanan@davispolk.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: =?iso-8859-1?Q?Read:_****_906,_63.18_OX_[_-12.325%_=3D_-$1,357,848,214_]_?=
+ =?iso-8859-1?Q?[_warned_STATE_FARM_]_26_CFR_=A7_1.6662_FED_+500_[_LOAN_50?=
+ =?iso-8859-1?Q?074._]?=
+Thread-Topic: =?iso-8859-1?Q?****_906,_63.18_OX_[_-12.325%_=3D_-$1,357,848,214_]_[_warn?=
+ =?iso-8859-1?Q?ed_STATE_FARM_]_26_CFR_=A7_1.6662_FED_+500_[_LOAN_50074._]?=
+Thread-Index: AQHYXRY3bpQx7sMNckC5EcHbMcpUsA==
+Date: Sun, 1 May 2022 06:00:55 +0000
+Message-ID: <ffacc358038f400eb0219660ed73e53e@davispolk.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: multipart/report;
+	boundary="_000_ffacc358038f400eb0219660ed73e53edavispolkcom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+Content-Length: 2124
+
+--_000_ffacc358038f400eb0219660ed73e53edavispolkcom_
+Content-Type: multipart/alternative;
+	boundary="_002_ffacc358038f400eb0219660ed73e53edavispolkcom_"
+
+--_002_ffacc358038f400eb0219660ed73e53edavispolkcom_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Buchanan, Douglas B.G.
+   Subject: **** 906, 63.18 OX [ -12.325% =3D -$1,357,848,214 ] [ warned ST=
+ATE FARM ] 26 CFR =A7 1.6662 FED +500 [ LOAN 50074. ]
+   Sent: Sunday, May 1, 2022 12:41:05 AM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Sunday, May 1, 2022 2:00:55 AM (UTC-05:00) Eastern Time (US & =
+Canada).
+
+--_002_ffacc358038f400eb0219660ed73e53edavispolkcom_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Buchanan, Douglas B.G.<br>
+&nbsp;&nbsp; Subject: **** 906, 63.18 OX [ -12.325% =3D -$1,357,848,214 ] [=
+ warned STATE FARM ] 26 CFR =A7 1.6662 FED &#43;500 [ LOAN 50074. ]<br>
+&nbsp;&nbsp; Sent: Sunday, May 1, 2022 12:41:05 AM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Sunday, May 1, 2022 2:00:55 AM (UTC-05:00) Eastern Time (=
+US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_ffacc358038f400eb0219660ed73e53edavispolkcom_--
+
+--_000_ffacc358038f400eb0219660ed73e53edavispolkcom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; douglas.buchanan@davispolk.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: OjsvdMQpRkGuPcNZdyRZLg==
+Original-Message-ID: <e1c3c3ad-a4c1-4d83-388b-d90ee3a8fbad@yahoo.com>
+X-Display-Name: Buchanan, Douglas B.G.
+
+
+--_000_ffacc358038f400eb0219660ed73e53edavispolkcom_--

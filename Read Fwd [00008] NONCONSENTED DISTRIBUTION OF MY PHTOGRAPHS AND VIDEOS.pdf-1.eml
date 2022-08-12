@@ -1,0 +1,196 @@
+From - Sun Jul  3 14:32:26 2022
+X-Account-Key: account1
+X-UIDL: AEOTLoRK814VYsHI+gFbqEfDatQ
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.43
+ by atlas305.free.mail.ne1.yahoo.com with HTTPS; Sun, 3 Jul 2022 16:51:05 +0000
+Return-Path: <kshadle@tcmfund.com>
+X-Originating-Ip: [40.107.93.116]
+Received-SPF: pass (domain of tcmfund.com designates 40.107.93.116 as permitted sender)
+Authentication-Results: atlas305.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@tcmfund.com header.s=selector2;
+ spf=pass smtp.mailfrom=tcmfund.com;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=tcmfund.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 3 Jul 2022 16:51:05 +0000
+X-YMailISG: a3pL._IWLDt6qaOOrhg1JQnOTcbyoaP.AWGydsoKU3SlYDFN
+ zRIbhzHrLgPmdaxkjdgmvlB9ag15ejJxaXxrZbS9oSHfzHmoostgOz877kbw
+ QtWIB7flpBw.wRx_kiADFYIGBBDO3YhgTp7lfvrglszsF1e8Q8QjjAHegvoJ
+ xjwzrdZClkJGXsOPdGBg3q21lTT3L7bEEw.XlfFaE.8Np4LyOSlQ3injSemU
+ uLpTiclY4imEYYzgO740wZN9h5ORGVWaHYpZgyEYCtVcleWcAWoJTgIwNyYH
+ fe5bUtH7XcBaXxZ.AK40mB1pHbQsrsP1k6fixQPUtTBC93wqaS0Q1CkyD8tJ
+ ZN_7tCczZa9tUQmdXEL5MSxxRkH4yVPv7YCIXxMDLZ8du0yceQF8bez3kdjW
+ MPMFXmYH90F_Hi0waJFirrmFDpBGzQ0pIaFU8z6x7SOuuu.0JZwMbmQWKM7j
+ HUD_GpEySaowxycZAk_N4h2tpxNvngTTbhE1oBSnPKH1OQVzS9KcRyZ_opRH
+ X9SHg8bi6oBXr7VU8kvRLt8hEBBpdH6Sq.AWq33RjZpLKPnGZhYHLa.sxYXl
+ AYesRUfhdi5qz0REWVIF.epFnoyceN3P2fFuJ0OepGwbAJibtv2XQEnChCZ3
+ jte2B7OR7QTOivckYCzRosRkKvR_665VMS.oe2kVkZMiCXMnKbBjnEfycscg
+ BWXqGjG8wFqywS30MgydDGJRL_9wDmtk5DVMBEF835HK6OhjBoahmVwjJ0bS
+ 6IsYNZbKz1hvm0edJvknrNac_BWQaIPbYk6ESq.pRUN_g6tfZAtXkPS4QkWi
+ .cknQHpiPket84q7Tg28Wc9H1m8TtQg3KOqXYC9D4mps4UbUzfu7Hm5cmOQl
+ dcdHcXTsMqgd_v1zwcw.SrOd_QyRvzX8xnKXJEkYakIC74qHMDE2qWC2vZkp
+ lmh156D.h7fu0mbLJCEgJBemrgK8XfIIfbHzpVP6rx2SnErjAjxGG7UmyzDy
+ iPf4OirFABP3oR62.b8f3ckY8rXMppQgDfon3ee4midonSsEJWSByGv8giRI
+ W4bhrum.3mB2qxtUr5xAW9HqR2MXDR1h3RgcoEy3Zr5v9gJyxB6oXKxB0C8p
+ rq3TNKh2gZQ_n1gvEdNe7VbyUczqUb8FZvwH3uHi5AQaOaMqvFBjKt2o62kh
+ KtpKPIC1_73Sd0EqBeA_XhQcoAdW2y3p9Ic8rNMviAvvKHkiwDSuhumXviTu
+ k4uCFp1bWmxbrDtjDqwzJ64ksNJFHdVUYD0koJF_F49EREpRLMfbGjxFulx5
+ 54FiPGC0YmU6jzTaWz6k.D5UuaHa6anoMmzefgJcefKsNA--
+Received: from 40.107.93.116 (EHLO NAM10-DM6-obe.outbound.protection.outlook.com)
+ by 10.217.135.43 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 03 Jul 2022 16:51:05 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=j3GUnB9XBSnXbumbmlYSml2lq5il+d6FWPjbAKuS0X567EZN5jti4DouYsDkbLUNq6nKnedP0M75LC0lQgkWfRJafxgCC94fYKgStApK/qMszrZgUP300vI0h6bnktQ5PYHuzH8doghbUIKUnSU5iV118xUnDQLjwFhaf1oBg9tNS9aMB+FM+Q0+16vbZSlj7KD6qS4JfbibTGAlIIrP4KQjMafugR5PYmJt/zC+nGJTqwxn15D2PKhXGDjmj2egzeNSkzBQuqwH/t8kn/SxSSO20buUuUMNP1J5jFXQmaqqNv/LTjOhvXlmSdb8YylO5IdMxcrKvQ61MmhvHF9mJQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=q4RQ+sg0C/Jo/6twtHkv9q0P+1D4M7jX6KE9TqU3IR8=;
+ b=dNrXCqa+e7c17GV0we/uLHAwnRi7gNRWEgAqsKTxcxH+psYxXDnzegpRIsrofMzqegNwdU/aZh2Z1fV59x3N7GaEI74faTJ+b4HErfWZwfFR09DOq7Fes2NsGhYWJVX7v8gUgzo6g9qaHjxNoWnJVQ8E+kEconU6p7y2DY3+BRhT+aNtNKc0S9/yJFZ2vUgZP2Rig8xmgrBpxOGxS3rxVrK1xkt7MpSaaQ6jHJuTkRVNDrf1r3YDtiQf/8YKGNpI0utn/tUIs/rddQzI47R8ocDJXAlPtr2KG96OfcKLF3rJbG+mcC/x3IzAkwLHHD9BWDARqn0cLN91rnUv5oIIng==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=tcmfund.com; dmarc=pass action=none header.from=tcmfund.com;
+ dkim=pass header.d=tcmfund.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tcmfund.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=q4RQ+sg0C/Jo/6twtHkv9q0P+1D4M7jX6KE9TqU3IR8=;
+ b=HT6s09IZrzgLexY5st1nhrklgBHPd3TWO90gNYtrrP9jwx/Axnae4XpU5MCG0y2TMx+CH9VQLHcTard47hNN31KuGXxc23h73BrN+2AHk+rq29Lvz9MRDNxPeGSmOdt3qey6rh1RtLIQfTYOdyXIwGycA6ClCxG/M82zAV3JxvufCufmyLQ63sQ/MCp7lJkfGBh6FyDZJKYVKTKuEvpcIR4BU75KQ/EuaOE28NOgB8OL+kKhUIElmasSCzcGw91qZPHkdFM5sW6JhjIGyuuZs0CNqHS7O7ou0tbuVUylWw1RAC7G2Bmul7W9BAYZ5C4u7q6uNTWQilazKEGRf9wZQw==
+Received: from DS7PR19MB6120.namprd19.prod.outlook.com (2603:10b6:8:83::20) by
+ BLAPR19MB4306.namprd19.prod.outlook.com (2603:10b6:208:272::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5395.20; Sun, 3 Jul 2022 16:51:04 +0000
+Received: from DS7PR19MB6120.namprd19.prod.outlook.com
+ ([fe80::6115:a9b8:9ebc:1b89]) by DS7PR19MB6120.namprd19.prod.outlook.com
+ ([fe80::6115:a9b8:9ebc:1b89%5]) with mapi id 15.20.5395.015; Sun, 3 Jul 2022
+ 16:51:04 +0000
+From: Kurt Shadle <kshadle@tcmfund.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: [00008] NONCONSENTED DISTRIBUTION OF MY PHTOGRAPHS AND
+ VIDEOS.pdf
+Thread-Topic: Fwd: [00008] NONCONSENTED DISTRIBUTION OF MY PHTOGRAPHS AND
+ VIDEOS.pdf
+Thread-Index: AQHYjdqkGmfq4qAX4kOaYxQzmzojX61s3jbe
+Date: Sun, 3 Jul 2022 16:51:04 +0000
+Message-ID:
+ <DS7PR19MB612052F98AED898166B36092AABF9@DS7PR19MB6120.namprd19.prod.outlook.com>
+In-Reply-To: <633f7076-2e19-c099-0f96-c9ddf56e75e0@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: ed46d2ae-92c5-4fd3-b946-08da5d143803
+x-ms-traffictypediagnostic: BLAPR19MB4306:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ pfUuKlWPpMmmKl9MZNDepsi3WDl5rxn+Am4AnUK225lInvJZ2LAUZOVoo8W13ryndsxbkJ6zf7XWSMzkmRxFUsU6+GkHBh99qF7lT8O4uSs5TawVxihTNFLH3lPsbDqNCyf8b7h9WQgdPm+qhtEW5gV8XiYGpiSu/4PJrZZ3Ma2w9cpnn8VKwqyNY7kAy1afcMSktB1nbgVB+UrTie8rLJksCNZKvfnG5ifDdl8SJ06TQfWVxtEHOvqCIrd0hkTIb7B+PoP7W1SJYIYSjvApbiLG5umrpxv2OxRqenxfUwjNy8P3f/uJzxZrEUS5NpbwUE8dBYUFnwGbYTi0Hz+biR9xyDm6NzLUoAJYdrmrh0CSZ01SrZfJQ9MLqyywPwPAaOqoVOLRhzOCrqwLHQBgiaqUdJwj6QK9ay9+Q5e5JGiOwkiqi3rJ+V4Rm+EMtpaP8Xlqd6nhM1tqi+n5c3oYCiZWF8ZtiYv1vXUGpYbguocvF4SihUm7fixIWPpfnO0YFoCWzQ9cnx7/nRhjkuWED1z8q6llsLv7wdIalYSUNgoXaBoBsoO4L6I4kio1OVzQ
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DS7PR19MB6120.namprd19.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(376002)(396003)(366004)(136003)(346002)(39830400003)(316002)(8936002)(6916009)(76116006)(8676002)(71200400001)(478600001)(52536014)(64756008)(66946007)(66556008)(66476007)(66446008)(41300700001)(6506007)(7696005)(4270600006)(2906002)(73894004)(621065003)(9686003)(26005)(186003)(86362001)(38070700005)(55016003)(33656002)(38100700002)(122000001);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?tyyV5pG9VBtvzlyhUIVuwAHv/SH3NsEzv0K1delrgXepAKIKQQ81J87Z75Gm?=
+ =?us-ascii?Q?O4pHGr7vw791Pl2qAqFCIjfnNiFzv0NKgvlrRTdLDWfpTMnEQcst1dIxL/DX?=
+ =?us-ascii?Q?pQ1eGq/1dcU9cds2DHjINcbI88MZ9XsVutgeY9F4InhgskEQ5dsuBxTjL3DZ?=
+ =?us-ascii?Q?1zYdpaN0eyT2uV78uy0sbYVc0TX8K7edrXcWRzzt05108ADX7zG+dVdEClFQ?=
+ =?us-ascii?Q?24O1bBdVBqbPs88cl0iyEK7+gfBceQKm6GjpzLvLUBOW1mgCy+zzPiPIBfQB?=
+ =?us-ascii?Q?RKVi5AhAq3XtZ0D+JtbCxX7yJaYopAMnyC+kFnaKyOGoGs+/5I0shp8UWV1w?=
+ =?us-ascii?Q?cuA4g2y1lKIY5y2rgjVNy1zsDi9KFxnka+xGOJNsMQyxhQlCBgTEzNBk6s+r?=
+ =?us-ascii?Q?5ZX5CMAlKeeuo0gk/lgd5Gz9zLG4DmXjPOWwxmTVQNOlQDzqAmsaiZZlJdex?=
+ =?us-ascii?Q?Gnd8e/t4+ToM6o5ff8Qd8ZXAXPKa4HYfUldCwvO5OzRH+RNZI+8UyouaR18E?=
+ =?us-ascii?Q?m0WnswJ6wG7daS+exDWVR4DgJKtM14y5SP95g9AhryB+mo98aHWVQ6M+QQ61?=
+ =?us-ascii?Q?tuNTk+OL/Xvwe2CDXjxE5estIMlfyTU0EwS34O31NoWw/aPBf6ASDMsAFNpa?=
+ =?us-ascii?Q?sCTzwk9LTmtaeTXbtaqFKKmFpOZYgxhByFmuEgRDtTedvfAp5xVatSTbUxGK?=
+ =?us-ascii?Q?bOI0Xrsn2zQfqig/OTyrkAel3U3bF3JfYz3hR9JG7BwrSYyEgEc7UgxRCnEX?=
+ =?us-ascii?Q?773K1UZv8E59snm+/JDmqbBWVlsdaZvSgEQ8NPSLxSSEGvzzxuiP55MjlUn8?=
+ =?us-ascii?Q?/eJYbuF5ALrVLxhn0W70E0qoLLdCQg4pUv6ml3dffcuLmUYTpplyVLnQz+mA?=
+ =?us-ascii?Q?xPJWd1V54JOXoCO+C7jt2D7eHF6em4VI6yKpWHZK2ZFjo43zYrFKS37qHi1Q?=
+ =?us-ascii?Q?Hv956awruhXAK7ftL/IEdYF1qSVGrJo8OpM5EbQIqKELg9G3gjtSBz3uRHXm?=
+ =?us-ascii?Q?uu8YItVhg4dAUT6kjfNPbp76vylAQuzIEmC9gJHbOJi5rs7d/r0hcuej7k49?=
+ =?us-ascii?Q?aNfP4ft9okQhdCWOmvCtByur131nFPXrIMRvIXjIquqCApK/29+AWW1tF7sg?=
+ =?us-ascii?Q?xhB6DSVSX1s2AT+uwaFiCA0DHZ97UMbhCSgUSfJeXWxwZtUk0jMxKWRtb5Gd?=
+ =?us-ascii?Q?pI/g4ajRvVMyDDVmYnLcGIssW4RyJ8R9HiuW+XdDL+vQ3tOw6PhGDyD9JRl4?=
+ =?us-ascii?Q?Zt9HRCN2Q2t/EJ/rHk68t7cwuJ6kgO34mHj4VFSOqfLYqtqE+riC0yc9eRdU?=
+ =?us-ascii?Q?MIkxMQdEQWavivjYML4C0Q1BDQMFD41BqorVEQlliAPXSmKkJqGn0gCa8WkT?=
+ =?us-ascii?Q?2Ih7Uta0qpnREwdKyZ96fgcvj2qBWHoLjdGaOh5KG1bZsQTOA6zsNjGbzeFQ?=
+ =?us-ascii?Q?wEoFWsOxKuifCIqecHXz7XaB/O6iQZ/g0UpW6NshIU9sqwm7uvKI6zSHz6f8?=
+ =?us-ascii?Q?an7lIZ/QxPQUygDcIGi51igrKu7nI1kR2tt3kcUs2bNv4ZWEj3CJBEzuJdho?=
+ =?us-ascii?Q?VTQtTsQqWEwqlEyd3y+wwtvceLGq125ilAyhQY7G?=
+Content-Type: multipart/report;
+	boundary="_000_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: tcmfund.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DS7PR19MB6120.namprd19.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: ed46d2ae-92c5-4fd3-b946-08da5d143803
+X-MS-Exchange-CrossTenant-originalarrivaltime: 03 Jul 2022 16:51:04.6531
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 754a79e2-40e9-41a8-b6c9-a065afcf1762
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: Ys9LFfLa97mhY7EzG6AtlcZAt3VLVm9q2e6e2IgBJ7U1MMdeVZAFDWCbiHiRrV2H3KFf8R+RtOvSyglkoyH1dA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR19MB4306
+Content-Length: 2003
+
+--_000_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_
+Content-Type: multipart/alternative;
+	boundary="_002_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_"
+
+--_002_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Kurt Shadle
+   Subject: Fwd: Fwd: [00008] NONCONSENTED DISTRIBUTION OF MY PHTOGRAPHS AN=
+D VIDEOS.pdf
+   Sent: Saturday, July 2, 2022 2:09:08 AM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Sunday, July 3, 2022 12:50:11 PM (UTC-05:00) Eastern Time (US =
+& Canada).
+
+--_002_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Kurt Shadle<br>
+&nbsp;&nbsp; Subject: Fwd: Fwd: [00008] NONCONSENTED DISTRIBUTION OF MY PHT=
+OGRAPHS AND VIDEOS.pdf<br>
+&nbsp;&nbsp; Sent: Saturday, July 2, 2022 2:09:08 AM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Sunday, July 3, 2022 12:50:11 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_--
+
+--_000_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; kshadle@tcmfund.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: 2rGQtlzZDUC5R7aoX2jeHg==
+X-Display-Name: Kurt Shadle
+
+
+--_000_DS7PR19MB612052F98AED898166B36092AABF9DS7PR19MB6120namp_--

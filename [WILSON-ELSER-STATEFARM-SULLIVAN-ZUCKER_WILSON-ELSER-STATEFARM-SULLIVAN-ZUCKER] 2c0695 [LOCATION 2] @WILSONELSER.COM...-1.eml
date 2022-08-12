@@ -1,0 +1,93 @@
+From - Sun Jun 26 00:06:20 2022
+X-Account-Key: account1
+X-UIDL: ADcmH5VpcWowYrfnKwDikHFFUHc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.105
+ by atlas122.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:57:14 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas122.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:57:14 +0000
+X-YMailAVSC: Goy0bLM3bBtb1TTptKJj0cLk53qM5qTEq137KUkQp1ifqmR
+ E.v2I2mEMXJ06uzhPa1mykMYHgk4hDaTMgpZ9.LHAmmZ8hO4NRzylUEeJbs0
+ wLcz6ewHMH.dKqwhOzX48udGYd0peJSnSiVWqNOtPS27XyxOIUBAIHjb95aw
+ dNk3pJk69KGSEdWkf2vliIWL9T4gG2MO4YLOt9s367T5SAynZTzU1yE6HwTI
+ vRW37Bpy_YH5tnI9HlVFf_MLCF6vGDSSE5OS4JvrOTvjEu5tOT9_yKi04QCP
+ qq1refZO9NXQN9X6CY096H.o3u1Ej8O5trA6Wr2qC7LEa3njMWP98maJi1ma
+ x
+X-YMailISG: mPA965kWLDtJGei6ViRL_PM.igy4M.sxYlOj0qQg_UbxjDoP
+ fS3F1ko91ZViJYlA_C68syHwuHq46nI_S07htJDvxeGxeXKC8wdWc1_CENnS
+ py74hSyxkTz.8399NfSfrLVT3Y01E9h.g_qeaiLozoa1_RWu8S8Z1IoPs75J
+ GYZLPi4G4cF5XJtfqMBS0DVAT6KSaLVPLbR2LIOB3QfPePUYVcR1iftoFT7e
+ CJXKUCtHXrBHbIwsdOkDna1xAyTslY9vuwryqIDHLLdeHNfSVFQxBc19gy8v
+ WZZikc4GgusHR5veRjw7YQMFSsnPZ9IezgNuNWy20uWByeOP2.ot8ttdynJi
+ E1NtSTeM8nZLRvsNNmCnK6o_AL3Elt9zeoIKcw7mLf4XaamQ6pa5G3zmPOsd
+ sxIwaDTBj6OGqKiO8ZPRUBY4Y0epYf9FX39t4uW88Js1zzMFh3Qt1tSHMfLI
+ ndXRmyP2xsOvkDCtuuDXpdoNUhWmYFU60HqjsJkRUbkRlfbyJfrmYGTlN1Ah
+ ea_rUiz6rRppAA1TE32NpQ.J2hfDazlPtqesNxIvCguSpHvGImkYvkMolgBi
+ YI5J0.I2ATnmDX3kjIFa8zx_svI.zBVXbT8fYOYIa1qAx52kVGYnISdFIirq
+ YXqa6zczF0zb3_uKUoQvTVmtvXx_3douTftK28488xj1cUEG3QlPdCpeEVzt
+ NWTihlwQfR0Lo91pAfvbwsbrYeKizBjk0eNnOURgoJI4cCvFjbfcQ7KCpCTG
+ 5G77kHljlonuHZSlFdAibxWCwK3YM3ShY5HZ8fxdnBOq6xu8GB_jYWEflIMD
+ ImevrkH.embLi4DiTXdRdbPVtF9OVZPWgESx2A_rIto7BmqmPx8LA.Db9mnL
+ OGlQAkiA51DWU05_Do4OGAVtyZlDwwRQsLXUfqyMh8eatS9SedBdPVvKqWwj
+ .lQr6UmXFfr8ASkqSaOgQAKf42.4pyGHy5PGyE.bVm2nZNTLqrWmLflO0yja
+ d1sxOzOJgiSSVV822clGVDvMuROr_4aBmguAP9F9snduN.W.CSBaJB0RHPnp
+ tigNaNE2Q5tV1FZogat6es.HbIYgHZQlQ3Cs8CjlRGjBxfiOxmx_PThy9aWQ
+ Wbulv8.5zKv3ueiVl.PUarmKbm8Gd1mhSC0qN.jxxvRDu8YprtSdIgfYJwJl
+ L0_cHEdLq0cq4MU-
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.197.39.105 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:57:14 +0000
+Received: from github.com (hubbernetes-node-689476a.ac4-iad.github.net [10.52.210.70])
+	by smtp.github.com (Postfix) with ESMTPA id A6EF77203E4;
+	Sat, 25 Jun 2022 21:57:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656219434;
+	bh=meQ1k2ra4Yu8TxHsgD/ykNa1e/7jzZ5Zmj03y2c9j8M=;
+	h=Date:From:To:Subject:From;
+	b=pxL4mbInlHKmWZ+dt46w5Kt8ByOeAXnMKcW8InQ2yQSsoF/70ShShaWSIQ/uNEhxg
+	 RxpvojBVfqjNN9Czm80iTJ9glKiaUpMHRWIeKHSKViTf5xZ/WwiEYGaWtSHnWDw6+a
+	 IeYCZD9CfYG8GBlxbguAuB6skaVs4Frc4KcrBAn4=
+Date: Sat, 25 Jun 2022 21:57:14 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/c740da-2c0695@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 2c0695: *** [LOCATION 2] @WILSONELSER.COM, @INGRAMLLP,
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 719
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 2c0695b03280a9fd6a833e579934a25d1255db28
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/2c0695b03280a9fd6a833e579934a25d1255db28
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-25 (Sat, 25 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  *** [LOCATION 2] @WILSONELSER.COM, @INGRAMLLP, 
+
+[LOCATION 3] @MSKYLINE.COM
+[LOCATION 2] @WILSONELSER.COM == @INGRAMLLP.COM
+[LOCATION 1] @COLUMBIA.EDU
+
+

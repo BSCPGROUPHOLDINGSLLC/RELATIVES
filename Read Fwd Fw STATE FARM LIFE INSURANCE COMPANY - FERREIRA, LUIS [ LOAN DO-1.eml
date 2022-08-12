@@ -1,0 +1,192 @@
+From - Tue Jul  5 13:45:00 2022
+X-Account-Key: account1
+X-UIDL: AH6v+bMNZRgMYsNIHwNfSIHj9cw
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.201
+ by atlas302.free.mail.ne1.yahoo.com with HTTPS; Mon, 4 Jul 2022 20:05:50 +0000
+Return-Path: <kshadle@tcmfund.com>
+X-Originating-Ip: [40.107.92.136]
+Received-SPF: pass (domain of tcmfund.com designates 40.107.92.136 as permitted sender)
+Authentication-Results: atlas302.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@tcmfund.com header.s=selector2;
+ spf=pass smtp.mailfrom=tcmfund.com;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=tcmfund.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 4 Jul 2022 20:05:51 +0000
+X-YMailISG: khPn1uAWLDubT2ZjNC3KpVW1dhkan3DHcwJUxR49Cu8mGIOx
+ l8n8UCX6XWHa2oonaLWLu3UsUscIx6OwJGst.2KNQhRjD_4uMuwZdNCI48El
+ XoZ5jNh4ZL_V4YJY4P_mVPGCHs7E4vN.WLJK9ldlx7yz6f9mtigAH3sDqBoL
+ y1Bw5pOUX3lj5YJBReviQcVmuKLoK8VzAHRzX5AmLG57CD1j93s7V8ZUKvBq
+ qtXw36GWJJs58v3MZgDD.OGA_C8mbgHo1LiUrcryKvK8Z0s593W2a.pKbfA1
+ qG89NHz04xFZFib4qEX76MDVS7kxx6ORYPuA9QvulR9cBxES.of6fE6tbaKW
+ n__mS3cWNxtC_xL6JPsPZcSTPTe3Ge.bSiBm_Fikwzgh9GuvB_9g8gTd9uS.
+ _n4ZiIFu3_5psldZHzKBHwVR6XRSbJAbxjUhywP7.AA0pHozJJD2kBZh4WZU
+ aDhrWjAB0RTHUJeBDY.O.8X9LQzl2LtWPsvP41VbZmgJOxxJIWsiasf6lyj5
+ RxXq5faGs.jJ4H0S8fOIRXQkNe9Kfkj8tnZENI3_hBoa_S8g7ES_XXPXN0rY
+ vS1G1GBrq8TeNmM_V6teP5Wh0Foi5s2GFE.sVx.88chYmIjdgPKuyj4KotJJ
+ JYiWZe7G_Ww5qqb2c7nPCAz4b4KGBMSLLlDzW7q2WyDvf7MOgOlPbNJUrfBc
+ 3wEmJm3XPCW9VWxY9hme810_YyUulG6TM7PPM3sMNRABcf6FFDonqA1Y9Vtl
+ xli8epW_rZTlqYMDa_bD.x3B54r8b1KssKfI_.q2crk8uz82Vlu1TVS_bT4n
+ ovw60TeW40h_Oc9r5e6jkfreb4y0NHHAsQBGMElQc9RnFDsJ1wsp2rl1Vuka
+ zU_28x3fmR1eHcC.n.tzry7hbP_rbRHJ.8yPEBbGIGzBlNP4D8QtvVM3Ahaf
+ Uyki8mE5lyIOE7cqdv_6kKz_1.hegU_xudkZhIrye8q4ATw0bCe1NIjoUki0
+ ozPM6l930l2EIPJ8t37j2aWyQHKWvcfiH5WBG2hC1n1195a7WV61TFw0Lv9z
+ lEvR7._1nxEOdU7UgUJnOJeURA2yzm0EduSwWAxdcNnEBekzFAg9n_lFFnNc
+ Iu9_EgRVVIy7ub1WTVaJK.hBTxe34lnsNDXhoB6g.8iNcyEKmnxZf0G9GQ89
+ 9x5SiMesAKx1YZ1A_dfGCXaBUhY0USmx2EGdaK1sivHuyzGw42MXKbO7vwMS
+ 4rzwhHGsAVBtTHeTa8E3BtiZ_jMNFhiE2frBcH2jgmTv3uUEpl46PpD06WIQ
+ D43uBgIATZ48z6J6EdZducxMk9plI.Pyojhc4ZE-
+Received: from 40.107.92.136 (EHLO NAM10-BN7-obe.outbound.protection.outlook.com)
+ by 10.217.151.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 04 Jul 2022 20:05:50 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=lhteZgDUniytUwGhcWRtaJbKBJhXlrP5Qn8MLSckf9seA8Kqf5DLPBwlcg4qVtn7W1WH8xXxkjLJBsXr9lUCXu0gBeJ+Ege8Y0THfxpdLNheCt5vC8/ibTpwN0s6AJGc0xAyBR3CAboNsnSducT6Rb38d0S4iqa7ntm0795HmBFg+3aS2XdRuXXdy40LJaDR/4FOPOBozN6lrkZYgqgG2UmlQld/Y0cEzNod/rR16lDdByxcMdUKn41ee+GMLMPtJd67HWfonXes9ggR3YRIo9Z8p+m+hb0CTCdKZxLhrOlAotsa8t2NZP/1nNOWLqnIrLbWTB3QTF2LcbVFtlKU1A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=1ZUd0LiRaDF8qc7ITYW4aicJABQJ64ngJLK0o4nlro8=;
+ b=FMVJh1xbEdhxtV+Ch+khDFnAxgaVD7yP5XYLzOTzDSzvKuVKKCewpndzX7TQzzYpdfEI6rpqMX7f8H6yu1/eACGsC7spWrWHNMQiHrlXAsBrBdZ68ud7JZ2U214lJ63ILsk5Y+9ntBGGMorZ5pjjZYFrM2rWe2fPHhX9yFKxsa1F61NIfnSCHhmxoOCM9RVwRWrW0SEZlUL98mofDIa5hc014VR8yha98NCHs0jRbbvJsGgLSR3+jLJ9Q5tqVechIYgi/+emg0kA9Xo1rtLQxzkOkSgBmdCcvhL/ibQvWWZiM1GYvjuQoYKkwPBOtZo2UW0kw05cqU23rEvE4ZCPgg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=tcmfund.com; dmarc=pass action=none header.from=tcmfund.com;
+ dkim=pass header.d=tcmfund.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tcmfund.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=1ZUd0LiRaDF8qc7ITYW4aicJABQJ64ngJLK0o4nlro8=;
+ b=fl6tQJE6n7bx3Ot9ykJ1BfUTotNkBVgUa5wJrCYxSx8J6UXhzLb3aTHb/uL9qWtEwDv4yBL3gbVRDrkGDEEaIJ7yYfLRQdsqGOwce8JHaZqmfJodUNo19bEtFC6L5Ss2dBCJdXwlIA1JznGj87Ah1WaB1lM5vy0g91JGnbzu/Z1NH74MDrWpgWnOeqWzDbGqLS8UHNS4vxyZ8D9gK7jWTG9r0hwkBA2D4m297yhNXvVTTHsp1JzoSSsw2NuzreG16Dz2Zi3xOTF5H/CmITAq4kZM38UByD5k+awgRnTXfI38BvvzXITAzSkAxVzRI39rrjVjQy+BKQ4fE3dcJKAu1g==
+Received: from DS7PR19MB6120.namprd19.prod.outlook.com (2603:10b6:8:83::20) by
+ CO1PR19MB4840.namprd19.prod.outlook.com (2603:10b6:303:f6::11) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5395.20; Mon, 4 Jul 2022 20:05:49 +0000
+Received: from DS7PR19MB6120.namprd19.prod.outlook.com
+ ([fe80::6115:a9b8:9ebc:1b89]) by DS7PR19MB6120.namprd19.prod.outlook.com
+ ([fe80::6115:a9b8:9ebc:1b89%5]) with mapi id 15.20.5395.015; Mon, 4 Jul 2022
+ 20:05:49 +0000
+From: Kurt Shadle <kshadle@tcmfund.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: Fw: STATE FARM LIFE INSURANCE COMPANY - FERREIRA, LUIS [
+ LOAN DO
+Thread-Topic: Fw: STATE FARM LIFE INSURANCE COMPANY - FERREIRA, LUIS [ LOAN DO
+Thread-Index: AQHYjxcz+8GXImmHf0e3M41/KLsngw==
+Date: Mon, 4 Jul 2022 20:05:49 +0000
+Message-ID: <6255c36cd2714ba6b33c7ec0b4a52081@tcmfund.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 45ff4127-c70e-4abb-167f-08da5df89710
+x-ms-traffictypediagnostic: CO1PR19MB4840:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ aTx9Sy4PXFK+NoJMFf1myfZ60TrkfMHEJSypqqwa3P7wNI+2p1iTJrrWwZIoROt9jxOuFXu6cdxBZjb+MjlOyEnXhkWzU1TsShu1J+b4HzvHesjRBi1t6k1Wf5Z06VreX52GbnwIK2ZNlDfgtOhY6tcDP01IT3AMiGvhqEe9Laj/m1XbO5LxFh6rt+EATx59RsRLkuB40sNNWsJqRUkAbAqPUkMX9ND0rM1LKOR/CHjcwfWq43b4+EgDDYPMjHx/nmfYLYR7wPvZzcd540lO59DdpgbNK+zIN36s89BiMxTURyIE5UUee+vlm0TCp0Dl1AY+c1K9HmLEq+gImobO+vIhD1qJ3iskPU7Lk1p9l5OTohfaBMofVPAFKRTM1ahX/07JbpOvehsnF8RjH5Mr/6UeQNyaXuuhlP3WRe3SWDT6ah7+LWXQlwTjcbZqO7CSSFPwNa4rX7/hyQowkl2sLpAuVFCU2xcdzQSbTo4VQypNg/Z9CWn16h3krPITv0X9P3iTBJvHDY+SZs9FDHWrXdCEQPOeTOdX9/Dre4umwPg=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DS7PR19MB6120.namprd19.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(136003)(39830400003)(396003)(366004)(346002)(376002)(2906002)(8936002)(108616005)(66446008)(186003)(122000001)(36756003)(621065003)(88996005)(71200400001)(478600001)(6486002)(316002)(66476007)(6916009)(66556008)(73894004)(6506007)(66946007)(24736004)(41300700001)(6512007)(64756008)(8676002)(86362001)(2616005)(4270600006)(35673002);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?K9lJ9q8w2PWKu0vbr0z0+zO3o/1eqE+SFvbThVNNvj3Bko450LxugOQv9TzI?=
+ =?us-ascii?Q?/hKT5BNHuZrToJ5qKPKsrbO5wf44/uXkflETvCGrQOZio2uL+wKZ2Nl2twjV?=
+ =?us-ascii?Q?gns6JIKZWH68fAhtDX2R0XtGNSpQFPwLstOjspHdwqLmcqtdmHjYxB/UOsYn?=
+ =?us-ascii?Q?NESA0bssPkRfWlOA+ZuY4Pf22amUldNpjAkaLoAV1i9GVWc38cQVd4CN+lhc?=
+ =?us-ascii?Q?glI5WQuBDaEYwDjZEOH8pK0N3L1bUCXw3tf7hxXMj/nllcig5/RBjBRBV2QK?=
+ =?us-ascii?Q?hqNVAHR70yJBhao24aATWI38gXHiLEFh5VHU9ZNLAWr/S5cFRdHsB96U3Yqj?=
+ =?us-ascii?Q?ma6qN5vN2MsLa+TTqWEgV9y0HruIcSSLtT+gfx0Jszr2+dWDRxcPqRaFbNs6?=
+ =?us-ascii?Q?POzriimbYiNKXzCm2CkffjkdiYrKxzRrGQS4LLBAZvfNG+IQq5chrdXI+GjF?=
+ =?us-ascii?Q?AJlG3Bm/l5apXawraaNB34MlbVe1jzpRm7ZD/uLWXzyqC3YKt0vrAsTXh4PL?=
+ =?us-ascii?Q?LsuaOyWc96zK8YMfU4QyvwRgL6az+88dWxBV7DhcWslvHOUbbCh4wMoeW+is?=
+ =?us-ascii?Q?RA4Nh2elJu1N0U4fUG0Y1WdZaY8XuhB8aXuefv9m79xpzbvS5+4VCvFWlamh?=
+ =?us-ascii?Q?FeBJ9wC1yDhdtP4l+uGsKrRQwF0G5Kpx682HG2q4uKhHw6pIe6RTVzbxWX0/?=
+ =?us-ascii?Q?xvjgztkLhRhB1TI+77u812kU+t16FietXTxk+p7c4k07WPdbyr5jS/2RyUBJ?=
+ =?us-ascii?Q?/OeE9ffPs0PPljcoqddwkvA+1g7ABmt16sW1TDkKQkCJuQM7JUQMtbT3jxA0?=
+ =?us-ascii?Q?shCbRgZ5Ugv1AAtAVRb4wgd7/EFMxmqfNKrkFUD0qgib2FEEFGDHumaGn9yg?=
+ =?us-ascii?Q?uehufPacsvxw3hHty0QnG2PcxIJiu0UTAnZVfAESzVxCcy+tiS1C0v6owRPN?=
+ =?us-ascii?Q?+HjYuVCIrzz7E8X72CKpNxOduQ/SNowwYSb+MNq4GF8THxku2kxiLe9WsfDc?=
+ =?us-ascii?Q?IBvKVbHQ0M6RzdHvNHup3EqSNfgQLBW200SLBBVbqDLQMPSjcKK7rEkS87L8?=
+ =?us-ascii?Q?bLHvH8KgJXrB8mpQViZqosxl8iPJYQyHm37ZhRQ+MosxCZzX0tQh9+IRPxyg?=
+ =?us-ascii?Q?7/lpkEwx9sH5HAVmRduNs2Dd61c+4LYPchzG2Z4gXp7Y/Qx+JE3xIv4yFbkH?=
+ =?us-ascii?Q?kMmzFKs4NbkgFIH/KXdUSucbZGglEWt+9XAjiawcV1l816m/iUya1Iot/E9I?=
+ =?us-ascii?Q?c1qDrWJozB7mJ0vLysVO6h8mQTOwpg7zvY7n05HnL8B3Ex2oBfWwSF0Y6Zzh?=
+ =?us-ascii?Q?IxkKhHVM5Jrk5OHKG6r7xKVUZe6VThI0oH8xJyMaYJovKBxF4kY9WJXMZ1Lg?=
+ =?us-ascii?Q?tuBnXBNFTI7BM/YPFzuzAxDNOKqzzRSeHnxSzGNqmF0YaE4lzPCG+WFMZB5s?=
+ =?us-ascii?Q?BBIp7b8jnMvTcKopzHoyhWGzIjEPbwn8/b/zdD3CabyuSy1lsW2JLg=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: tcmfund.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DS7PR19MB6120.namprd19.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 45ff4127-c70e-4abb-167f-08da5df89710
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Jul 2022 20:05:49.3720
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 754a79e2-40e9-41a8-b6c9-a065afcf1762
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 8CKxuu0S7a3UqLW8n2e5Qs5y70/MOfFe3NiHEcAWlRcLIirKZ1xyrboEMGdrgswyNbvj+Xm/ubAObH9sJixKVw==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR19MB4840
+Content-Length: 1964
+
+--_000_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_
+Content-Type: multipart/alternative;
+	boundary="_002_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_"
+
+--_002_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Kurt Shadle
+   Subject: Fwd: Fw: STATE FARM LIFE INSURANCE COMPANY - FERREIRA, LUIS [ L=
+OAN DO
+   Sent: Sunday, July 3, 2022 3:55:40 PM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Monday, July 4, 2022 4:05:49 PM (UTC-05:00) Eastern Time (US &=
+ Canada).
+
+--_002_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Kurt Shadle<br>
+&nbsp;&nbsp; Subject: Fwd: Fw: STATE FARM LIFE INSURANCE COMPANY - FERREIRA=
+, LUIS [ LOAN DO<br>
+&nbsp;&nbsp; Sent: Sunday, July 3, 2022 3:55:40 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, July 4, 2022 4:05:49 PM (UTC-05:00) Eastern Time =
+(US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_--
+
+--_000_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; kshadle@tcmfund.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: ePRmdo+OF0a5tvRuODxkOQ==
+Original-Message-ID: <1c1dff09-ee3b-63f8-c190-fb3f5bf896f0@yahoo.com>
+X-Display-Name: Kurt Shadle
+
+
+--_000_6255c36cd2714ba6b33c7ec0b4a52081tcmfundcom_--

@@ -1,0 +1,205 @@
+From - Sat Jun 25 22:36:20 2022
+X-Account-Key: account1
+X-UIDL: ACjlFZga5HRJYrfS0APzuHrOleY
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.231.19
+ by atlas308.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 03:30:23 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas308.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 03:30:24 +0000
+X-YMailAVSC: FLwDdgo3bBsMt2NhvjSZ6_ASCzrneYZJRcZXJ6NoyFJ3ZNK
+ 7Bad5mmg5MnYTRK7_qIBAEetRx4mA6LMW0NcTqFqytVynO6nCZirLdOhUWqb
+ nRv8qqRXwPCphyUSkCa.C2S9TPGFIEeBjKvH8_haK7cYHC5NzVXsH1.DcxU9
+ WV2v5pJ7i2jfMTwiVchOHptl.3wHXSiYQG6Q5BRcbNeUI.zGUauD.u.UZhGW
+ P7jNHJuwDSyeyEKeZUSZd30U1.boakwt.N6Enq_4J2z.OyAmimK3VcMfVG.S
+ o6JF70pnlu5cxMGlzgn3xnNcKu1xsaWBYc41..CPrvvPgWfbVPVEnXGtRn9u
+ hO4rTcq1uSYOvfy.okKdz6urJp2gVROkUvLk-
+X-YMailISG: qpsBm3IWLDuH6xL6Of3K6ekyQIG8UXemI1QCVihMc.TbrxxH
+ SrTlNy8ilcV62To5r7QA6T53ktN5GLNwKP0i_gW3SSRX8fPdAMb4XbKxUPf7
+ OH84FMqtl_Yag7FbzOUO3OlXL72PTVXBVzSjlBvsVN6t7Ct7AoFQWORTU6Ck
+ 8rQAKmq1RSwS06DCZvHpSZpN7DHErfQYfZHzNxCSw8a0TLpXYuvff_VFp.lO
+ NFV4_yF78oJvZrFSu77dyoqO.GOuHtn9w7OBcilHlKNwoG_UOzdm.0a1Bg1K
+ 17IuIPW02PQZhblb_5.lv0bL9KCX61WvDHEAB0BX8Tlj6gojmmp7yhBKRrTv
+ AOI9qXQRGLskiTpioIZKFj24mn3zOZb3arZ14T4Y2yZAwSg6pHGhjBof3oWD
+ hMGWBCcobdRXKYPDu5_7FHjaHg7n0xal2gElP42rXcN71IHNYrgf7Zv8bzwN
+ hU7ODHTnxEBQdzxAD28i4wxtj9rnxTBWLLnWhjqNXdydJl1N9nlIpDP6xuTT
+ UJjk7o7YIxrwY9AUxyAHX7yjIxdXSD8wv1EfeJgsQck8VH7pQ3a1fECUzjRp
+ nx7vcQnYScv4qQ9CAFfsSE3xOQPXgySNzzMCYQmP6Sc.okI1i7tPc3nJvMVu
+ ...rSshGPyPHoSb_c826veypXc18Km_L4Q2CvcUxLB9YzBDZb7wKTA4JgDL1
+ DONFFKkVZVf2KsYg_AYOrK5tFVSN.A5vYccTU3QMyyjRTNFIwwV5FW4Yh0VM
+ Sp6tEtFcArkOfQfBAJVdgQI6dLoTU_lkEa10NGxq_gDO10.y.y3N63jB3NfF
+ XG7NUiqwDx9962LlDEn_oytaOmU3OjNTsfRwl03z0UmBNPhFhYmZ5MhmXElR
+ 3Aq6zwTiuW.0GtV_U.v5L3WsHyPWop.Zn5ePCrEsGPTCVqRMfDShG2JAt80D
+ NMLJcM610IMncxnp5McE4yAFdw0m1MuBYLbTcQ0ybmmy99IvzeedcFlP.iPD
+ HJsZzdnxXyVun4.D2d6XmN.cADTfpn9rNsRNptCQKBw3gYbyUB94SSZeOlet
+ G.sQDNwC4phtA_5N5AAK.2iFL5VQULOtQDZUNE5g_.jY8l318O9c3qpnUX9q
+ Jg.I.9bl7EkSR0frBr7lk0mvJKGqlF9ifdoGOrKKMykLdhyrX38SgHPZ2WSg
+ P2e1qveChZnIZGLzI22g4KHeEsTsp26WKrA4H7yffoiB
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.253.231.19 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 03:30:23 +0000
+Received: from github.com (hubbernetes-node-9ae4a67.ash1-iad.github.net [10.56.225.15])
+	by smtp.github.com (Postfix) with ESMTPA id EEBD784047F;
+	Sat, 25 Jun 2022 20:30:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656214223;
+	bh=UY80gCQGIaROQEXlXfQsIBObfcK6Q0Wb63t8awDw+Ck=;
+	h=Date:From:To:Subject:From;
+	b=pnKJHIhjiCSGsNmwGJJGaOd4VH1wLrHY0MNFvvKdk1OBcPStyAJiTzBtziZXGOl/O
+	 keDgQ+ZtwDZ4YU4OweUzPYSBQKm4jGGlCguhdFT0OLe7HJIj3rRvaXGXmvOlhrQdFI
+	 i6/TEtafPm+OEQSORr92jJFfK6+frhM01zOJnxtA=
+Date: Sat, 25 Jun 2022 20:30:22 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPMEDIARELATIONS@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/6b7ca0-264295@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 264295: AFFIDAVITS NOTARIZED BY REPRESENTATIVES IN NYSCEF ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPMEDIARELATIONS@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 6045
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 2642952ef0d4bf4d66f322b55f37ab5ee694642f=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/2642952ef0d4bf4d66f322b55f37ab5ee694=
+642f=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-25 (Sat, 25 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  AFFIDAVITS NOTARIZED BY REPRESENTATIVES IN NYSCEF 153974/2020 [ASHLEY.H=
+UMPHRIES@WILSONELSER.COM]=0D
+=0D
+USC 18. VIOLATIONS ANNEXED IN NYSCEF MATTER 153974/2020=0D
+---=0D
+=C2=A72. - Principals=0D
+		(a) Whoever commits an offense against the United States or aids, abets=
+, counsels, commands, induces or procures its commission, is punishable a=
+s a principal.=0D
+		(b) Whoever willfully causes an act to be done which if directly perfor=
+med by him or another would be an offense against the United States, is p=
+unishable as a principal.=0D
+=0D
+=C2=A73. - Accessory after the fact=0D
+		Whoever, knowing that an offense against the United States has been com=
+mitted, receives, relieves, comforts or assists the offender in order to =
+hinder or prevent his apprehension, trial or punishment, is an accessory =
+after the fact. Except as otherwise expressly provided by any Act of Cong=
+ress, an accessory after the fact shall be imprisoned not more than one-h=
+alf the maximum term of imprisonment or (notwithstanding section 3571) fi=
+ned not more than one-half the maximum fine prescribed for the punishment=
+ of the principal, or both; or if the principal is punishable by life imp=
+risonment or death, the accessory shall be imprisoned not more than 15 ye=
+ars.=0D
+=0D
+=C2=A74. Misprision of felony=0D
+		Whoever, having knowledge of the actual commission of a felony cognizab=
+le by a court of the United States, conceals and does not as soon as poss=
+ible make known the same to some judge or other person in civil or milita=
+ry authority under the United States, shall be fined under this title or =
+imprisoned not more than three years, or both.	=0D
+=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600=0D
+=0D
+150 East 42nd Street 19th Floor, New York, NY 10017=0D
+Filed: 07/21/2020=0D
+    =0D
+[NYSCEF INDEX NO. 153974/2020]=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DE0CKxALt/=
+dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+# VIOLATION OF PRIVACY AND BREACH OF DUTIES=0D
+*** Filed: 07/21/2020=0D
+   =0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DE0CKxA=
+Lt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+# PROCESSED=0D
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=3DSVnk_PLU=
+S_wwn_PLUS_akZLr2HagUrng=3D=3D&ret=3DD&docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=
+=3D=0D
+>> Please keep this notice=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DUZsCx4=
+RNLy/6V9gf1BkpTQ=3D=3D=0D
+CONFIRMATION -- PROCESSED=0D
+The NYSCEF website has received an electronic filing on 08/04/2020 02:32 =
+PM.=0D
+<MOV DISTRIBUTION>=0D
+BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES.=0D
+	ASHLEY.HUMPHRIES@WILSONELSER.COM=0D
+	=0D
+## FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxBYJ69pjI=
+uDxBegralE8Uw=3D=3D=0D
+=0D
+NYSCEF DOC. NO. 225 RECEIVED NYSCEF: 08/04/2020=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+## FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020=
+=0D
+RECEIVED NYSCEF: 08/04/2020=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=0D
+=0D
+	=0D
+E-mail Notifications An email regarding this filing has been sent to the =
+following on 08/04/2020 02:32 PM:=0D
+    SHARI LASKOWITZ - slaskowitz@ingramllp.com=0D
+	=0D
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600 150 E=
+ast 42nd Street 19th Floor, New York, NY 10017=0D
+=0D
+Hon. Milton A. Tingling, New York County Clerk and Clerk of the Supreme C=
+ourt NYSCEF Resource Center, nyscef@nycourts.gov Phone: 646-386-5956 Webs=
+ite: http://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_operations=
+.shtml Phone: (646) 386-3033 | Fax: (212) 401-9146 | Website: www.nycourt=
+s.gov/efile=0D
+	=0D
+property report (see also: Miwa and Teschman) Assignment to Zucker 0526 	=
+Filed: 08/04/2020 	Confirmation Notice=0D
+=0D
+=0D

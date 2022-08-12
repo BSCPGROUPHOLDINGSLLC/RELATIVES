@@ -1,0 +1,136 @@
+From - Fri May 20 12:55:54 2022
+X-Account-Key: account1
+X-UIDL: APlWbP9CscTiYoeDdwEhEB233DU
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.243.14
+ by atlas123.free.mail.bf1.yahoo.com with HTTPS; Fri, 20 May 2022 12:03:02 +0000
+Return-Path: <tfilley@alliant.com>
+X-Originating-Ip: [170.10.129.126]
+Received-SPF: pass (domain of alliant.com designates 170.10.129.126 as permitted sender)
+Authentication-Results: atlas123.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@alliant.com header.s=mimecast20200423;
+ dkim=pass header.i=@dkim.mimecast.org header.s=201912;
+ spf=pass smtp.mailfrom=alliant.com;
+ dmarc=pass(p=REJECT) header.from=alliant.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 12:03:02 +0000
+X-YMailAVSC: 7ExtY043bBv3z7pUH5.fi_xm7VyB3_w.V71hFmfaM.VXauT
+ PUmzcUCzBF32ASkZn8ErKh7yu4.WxqpPtr8kfa5hA8K1FT8Nzhv1IOmn_3_u
+ VnoC00n_a.ixPYCv3JxbQ.VA11UqyB11d5hXqiW9kitH5CtIQv_TnpArCNbB
+ YNqGoVSNi1lz8o8JKkWDyfhFLi5eAtwldwosAqg.S1zrp4pYY9sqQjZqm6Yy
+ Y1pEF0IrS2jzk81ZyMuKtFhrXodM0c_bZA.Qm.6.Jd7lpZhK.6.dJvPi_V_L
+ LLW_Y77icdu.3InGb_wmmF4DpJDDrsbQA_y9hEFEqmSOgwQbSBdx23DcOQg-
+ -
+X-YMailISG: lsbd6b4WLDtRGF_rkGXHAMDOsWJSSXJ.NuygrEKE0N4ms3Sl
+ SWeaoDG2bTkf6Gwhg1dBEjhTR76etAnijZ7e_Sqd_MAhAp0NjZxseJvzVxTY
+ HQewHYt3iyguukyuTtTwPbGRiFmCTtRKLBW8VhHE8DpUAISJ.NYjOy3SbtBw
+ 2mOi7UaDDsLf461hbx8RN7W0MX_4nhWPLz2PZ7SoMA6FiMLXJSfR5imfRhIw
+ 6bwSHrTXO52evNuBHNbxFAlJLlWO8ETGdthp_otuWLauPcoqZRkYlMEL2Ps9
+ _jYzL6MOrDzkNiot.A.nKkEGIgvUYueQbvElKl5fXgQ25SH3.v.FUNMrXWPT
+ F_etB3AFanIpeE3iVV94DJW_s_4M0ojh3s89p48N1R3yvTkxgcA6lB34zS7N
+ wweYHmrziCYRI.08whjPfDRPH07eavAcJ2q77DTSIYmtJ2tSINb0rs_Sre3m
+ qd6PBMZALOoyMbtTAlZZXLWtzLYGaMsOo9qEwS2PflCqAqjEtPD4Q7bWmk1X
+ dsroNJpkre4k7piTEpIOceDjHc4MV2Bm4DtftBZWYEgEvGhylD_Q5_6TalsA
+ ejQsIHOPciCGV417RRlXkAjU2HfRRObXjDZ0sS.xyzhkYLNyTvpid7EmiAZx
+ jz9vOObsf0wH8Biu4AcAa3FzOhlylSAWhHbMWUdo09KL.JZZKZEV4_Ave.Ub
+ dVSW4o6ysfXDDlfWWY3cKV9e5eIhpXGAD5j7mHjrOM9posblzvKbXqv94Q3X
+ lxp92Ahv3i6W5x.xVaMFwuEz4sXxAvjx024cE3vGIw379ZTcK.koNmcVcXLD
+ t8RwjjEP44zVh8gC6ZxyqB63q2JDjADffnGIH4_nhSkSgbrNwGL1gvA8jXCK
+ AJTt_cxvbrCK7TERpM.LJqTJc4AJRzl1nVSkXRLkrlda0fwKWNv2USZGMxj9
+ G4P_8M6BRUK2lDtXDWavAsDd6b.GQM8zEOTVcuSMKHRc7XSYNXAmTpI06pMj
+ 1rDvot8HMDOlZv0i.p4yWzKfROTrdlpcH0Ec3kmIWADnWIfFWCu4sh24Aeh9
+ B5Q5SmQZKbojF3SsXzf6iEnNpgOgDeH2YJ3ZbS6hjiYy7JL1wH5rEZRTndAm
+ eG76E2bBDu9mkZ2qbzyuoV2qJZaH__UdYsXN3QswLunAY_4sm2YM_MSBpI6U
+ BVYwDKNNTMZ8jdv1Mjsk_nD7rTv_1rxQPBl4jHBZFo2ORf6hvlUVmLGJD1IB
+ e2CLaMjHAApM7kGxdlI3GnfqyrmK54CQ3qTUMouKXvYoK9bSx0WFd8lCwxJ4
+ qOTQG89ndTEj_LomRRzB9VPqZmpL1SerMskA5QZQBsHN18jqiBQET7VsPGGD
+ bEefCkIhs6_7WwHodsZNsqpVNtCTyynIIuruf2L7ay6x_BgoDfCfRe.l.g--
+Received: from 170.10.129.126 (EHLO us-smtp-delivery-126.mimecast.com)
+ by 10.196.243.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 12:03:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=alliant.com;
+	s=mimecast20200423; t=1653048182;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type;
+	bh=9rSWP5yVbjr+ylZlnl5xGUrlLSBjrCzrIefDq0JzhbM=;
+	b=NCeLtM4xtcwGM0sFIH4Y5EOYPgW368/3UGTwXzdu7q4HUlaSVUoxrJz1pFI3scNLGKkcAK
+	n5a676Iedu97dF9qmznmbdDkqNrDBW6oCRtWuiXQPgSm9398ZjgD6b9oH683X8e7HGBGPE
+	8TwE+ZzizHUBD3vtK2t0Zpjq3Lb5r+I=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dkim.mimecast.org;
+	s=201912; t=1653048182;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type;
+	bh=9rSWP5yVbjr+ylZlnl5xGUrlLSBjrCzrIefDq0JzhbM=;
+	b=a0r8ecRzwma9kXAAncDeE830YnA2KgXv6KUgi+g3kN0YYCRQwTxGCe/EsD/UG8pRDJcWmg
+	CHdtINu57OqRlCkexiPpvfP4iUUlcFJsf/P2eFwJLayRtT39TBLn4wyc3Nhr9aMGIuWvEy
+	B0os93GdLcbxk4Y4jr9/ZazsZlvtzkSCzt6Kd/x4jxIrYq4dWW2zKqOTbirEUMJ8REYSYr
+	qiBpwNG5ngHL5YZMUu1ZeRHIrPZJ5UWsPsuekn1oxl0pYk2oSf1X8xfcWIJ1gjzdJgN7TF
+	tN/AZk/WpEpHXDVkzUTwIi7f7onkqZPfeyObhyE7eT6OFq3OCfISf3SydsN/rw==
+Received: from mx-out.alliantinsurance.com (8.4.25.17 [8.4.25.17]) by
+ relay.mimecast.com with ESMTP with STARTTLS (version=TLSv1.2,
+ cipher=TLS_DHE_RSA_WITH_AES_256_GCM_SHA384) id
+ us-mta-155-p_-i6FvTPE-UJNlaH-OwMQ-10; Fri, 20 May 2022 08:03:01 -0400
+X-MC-Unique: p_-i6FvTPE-UJNlaH-OwMQ-10
+Received: from IDC-EXCHMB08.driveralliant.com ([::1]) by
+ IDC-EXCHHT02.driveralliant.com ([fe80::b59c:bf34:a45d:70c0%14]) with mapi id
+ 14.03.0513.000; Fri, 20 May 2022 05:02:26 -0700
+From: Ted Filley <tfilley@alliant.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: STFBX STFBX SFITX SFBDX - FILER 1516523 153974
+Thread-Topic: STFBX STFBX SFITX SFBDX - FILER 1516523 153974
+Thread-Index: AQHYbAkz2OY8hvBjoEuhYjSQpLNiK60nqtvy
+Date: Fri, 20 May 2022 12:02:23 +0000
+Message-ID: <B4CF3D26737FFA40A970427DD126C7CA017B1158DB@IDC-EXCHMB08.driveralliant.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+MIME-Version: 1.0
+X-Mimecast-Spam-Score: 0
+X-Mimecast-Originator: alliant.com
+Content-Language: en-US
+Content-Type: multipart/report;
+	boundary="_000_B4CF3D26737FFA40A970427DD126C7CA017B1158DBIDCEXCHMB08dr_";
+	report-type=disposition-notification
+Content-Length: 1347
+
+--_000_B4CF3D26737FFA40A970427DD126C7CA017B1158DBIDCEXCHMB08dr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Ted Filley<br>
+&nbsp;&nbsp; Subject: STFBX STFBX SFITX SFBDX - FILER 1516523 153974<br>
+&nbsp;&nbsp; Sent: Thursday, May 19, 2022 11:16:42 PM (UTC-08:00) Pacific T=
+ime (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Friday, May 20, 2022 5:02:23 AM (UTC-08:00) Pacific Time =
+(US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_000_B4CF3D26737FFA40A970427DD126C7CA017B1158DBIDCEXCHMB08dr_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; tfilley@alliant.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: mR/jCCIRu0mNSKEut1yPMA==
+Original-Message-ID: <41c41b98-24b8-d677-527c-f9fd1ee67512@yahoo.com>
+X-Display-Name: Ted Filley
+
+
+--_000_B4CF3D26737FFA40A970427DD126C7CA017B1158DBIDCEXCHMB08dr_--
+

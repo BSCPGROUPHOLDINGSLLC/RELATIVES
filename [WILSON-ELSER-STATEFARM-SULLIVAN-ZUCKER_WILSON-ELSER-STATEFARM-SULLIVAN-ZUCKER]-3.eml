@@ -1,0 +1,74 @@
+From - Sun Jun 26 04:39:53 2022
+X-Account-Key: account1
+X-UIDL: AOyA61cDtIHVYrgpNQbWALJiyc8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.180
+ by atlas109.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 09:39:00 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas109.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 09:39:01 +0000
+X-YMailAVSC: S7XBiZ43bBsa8I54FAPlXDtoYOFLuSeSlQtlsD2QoDGD97d
+ kLLy6yRlKlHsK1i8UPfsDjxOkKoV62yHosrx_xMVn0OlqgPDCYShNbvjmLr3
+ S.0gvbPvnvJzBX_KoDJVHyw6VHVVJhF6MQCzXwNvJUfXD2XKHoU.ftF1iygH
+ HEW_XZQb3iN2LEMvLhnMRqAHXtILlNsjXH.L862dechGYiKSC7xCWTP47tRw
+ nCFIWdPe9XAlGvzdLtKeYq_NMTxNZsLZE9z_3jhssadkCxWSrytV1w5JbfiV
+ xQoX4Y9FuszfLcnOou4GYnUuRQi642e4x23HO1YpwcvuH4r9matzWSJvuXdr
+ b
+X-YMailISG: 1gJZHpYWLDtYya0myCvn86YkVxLmRYE_0OZLeQzaL8fC9gOx
+ lHdzSyRlBaYCMpyNXujZuYRn6QYlLnSUC4v6QrSHppCIPz6.bhE5jbVxydnj
+ ShiSugfz95vpQGKhCKsxHFaY.NzvyjiVjLoHR34c790l_hvSf22C3810J7jF
+ W_mkmx_UfJ8lCXmpw1KCJ9w6mZEAr.trmmEZ5luWMpx0dXrYb6mvVIk4DzF7
+ NBztG_zuZaS74iK95oHeXwyttBdlmSDcVuGlxcI8vWF9sucEFeu6eO0ilzgr
+ fhDSmP2pEj2kU686rF0TQmYgVF_e6LRJZdD_DZvxfRC_Bd5x8CgOOceqJ4Vh
+ S6ijk_DNU4dVuJEmtinQNAPWUVdQIgeaXObIlcCg_0M9VmVh6lJGX2HGqGkp
+ agpZ_s5dmxCdYUmjeSf0W.fsDBKkhdcS3Yo4AO2oJSgGgyptKKezSf2nSpLY
+ 4szUqX2pBLlv6GH9.liA2259X8jmqfzugxnFV.fMktWnpB4i5MNadWAoYbOP
+ cA_uFKw12NCxyaftxlxoJZRQWA323g8Cvyjk9X10hEt03C1jfSdOHN78dZ2S
+ wVso53XIdykcbcvteMcqkqQxKvQAhD1SdmRZfpEgXk439oPbcredKdOySXUG
+ tMitEfY1uHzQkATdbXIB3M2QpsRd54RtVcQQZhULblPJNfaaTrj2qImckGYm
+ ETEPKhRipAr2jzAxuGzj5eAqmnYgIzPk97SkpOJ7BNfnUMHF1J1bYDVLp5OZ
+ qRSzb_giP1xgjRRQMZs5H.EE6fU22U0DEIukVscnG_lhaqzVrS_2scYU9hmK
+ 5X6MHJgffQbbBAy8mCRLVAGXb7joup5er0kZQm5uOdezmVXkL.Q1Lq5QtaRP
+ ZETvR7Rsz0XTOfz.Nyp9vYC7Kxln4_et5mnd9ViKFEdXJH3x6X2xk5efjV3j
+ eouiQdJljoOqiOsYrMSsTMOJiQUTMKsuuCrFUXOloStmu7sRkVhLvZBXHBti
+ gFwVkAlAxJ79z4MT2hCWPdIPcAS2nYZ1R0mLspKQw3JIVlbayomeK3ASxRFk
+ gc36Bxv1pitBKpvirWgJ3ZRLC9IpFV4eONSgg4N.RkRZEP53Jmm4EnxLyyR6
+ br1yhA--
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.253.62.180 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 09:39:00 +0000
+Received: from github.com (hubbernetes-node-1d29bb1.va3-iad.github.net [10.48.220.26])
+	by smtp.github.com (Postfix) with ESMTPA id 422E1340388;
+	Sun, 26 Jun 2022 02:39:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656236340;
+	bh=Awr2aRb2xzNpD+8STZgjTlPcUm9Tup+KGrDtl58UZMk=;
+	h=Date:From:To:Subject:From;
+	b=GF3rVRt/WXckxACZljEy2q88V2WxZMSb1qYdlPC4UjSfMcO4a/gqaNbrAlkMOGob6
+	 IpF05R6oSCNxuu1PWlJF5h8qYCMOQufFeoz29nO4nWY+P8lm/eTbZp3XNW3f7YqrID
+	 I9fMt1nctPTsSXn49IKTWvbFWEnw8Rc5nzsA7s9w=
+Date: Sun, 26 Jun 2022 02:39:00 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/MSG-MULE1/000000-e8718e@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 138
+
+  Branch: refs/heads/MSG-MULE1
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER

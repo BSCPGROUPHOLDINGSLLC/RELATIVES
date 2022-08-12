@@ -1,0 +1,181 @@
+From - Mon May  2 03:31:41 2022
+X-Account-Key: account1
+X-UIDL: AD8Id9V0jKMgYm+K6AeB4Dc1zBg
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.157
+ by atlas118.free.mail.gq1.yahoo.com with HTTPS; Mon, 2 May 2022 07:40:23 +0000
+Return-Path: <isabel.zisselsberger@kpmg.com>
+X-Originating-Ip: [67.231.148.125]
+Received-SPF: pass (domain of kpmg.com designates 67.231.148.125 as permitted sender)
+Authentication-Results: atlas118.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@kpmg.com header.s=ppus27062019;
+ spf=pass smtp.mailfrom=kpmg.com;
+ dmarc=pass(p=REJECT) header.from=kpmg.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 2 May 2022 07:40:24 +0000
+X-YMailAVSC: EK2rxi43bBvgkguLBY.6iPss11zTdvDPPUChB2DODuYtTBp
+ c2ZAymTOgC9LbFOKx5ON1eiDs3gb_nwtgU7F2b0DY6q_oRN9dhX0f8YPefDm
+ yH0Bc9uraQRtRuBHeZJ0Kjlf1AC037WqXlbi4v1EZS7HXX8roqE0iL3WItEd
+ xmGe0hfqIeQ0n30LfkBfaa5cTXPng_aVnt83Q0pyFq07xTElLz9BDbN1xe5Z
+ thqk94l1twGeqovQdNrvuFJD73HCGhOelTeYUS28fjd7VqLWPR51eACkwN9T
+ CtG0MonfJBDqqygBB0fFor_fSkNR_scnii68GnIYBU_POxukQf3IeTlHjsg9
+ o
+X-YMailISG: Q3SFDOIWLDvFop_i0kCzLptz.Ze2W8NBQiwU91084C8H7IhL
+ SmhUtJtshQ9x8AO9Rn.1a5ltn_CY7ZmOcm7k8Wb.bufHVkE9dqDO8yOEGA0o
+ vwGyOtFk_0ApLPTG.EgcoW25PpQ8r4c9wfl68TH3UR2Jwa_.UZq2z9JnpJMU
+ QwIdcuEZvsHKqFoIuB5ls2kM.FCIf2z4tQjZRh4oWHJq8tQpr7rHBunaVldH
+ LV0fdgf7pP11qzWyvdq3pG2LJVrJ9WiRQp.JRHMxXBOnGRbdMskBCMxcpotK
+ XwV1VvQwboWwpmTM3F8sIqUP9shckSWZpADrScnfwepZQuWyY9GP9N4q9Ykk
+ kUxwoMReYI6HS4trxce8IVcLeoro9wrf86uJOOiQfpKKjhLHAY4slf6Xxl8N
+ Lm10nMlzr6ynkhvIJFMQKbWeLcDfMEVXbQ102bD0PZTZ1Thp2Yjnt02wwWmW
+ rhhypMuiawhvD4J9ZB.k_W1wWM42QlbHhVNneFIeukB00sKI2_jKPQVXKgPs
+ 5ii7HRc.zLR0isHryOGxbod0S8LM0HiKTXkfp7zh5gVZlilE4Ji6pbJkJusw
+ RHeVBZ5pFPOJrUeWO7bn0VM5Efm42kx0FK5CzkUKZZpNWo5hf.t5xpIQwDct
+ F5Kvk.Fnd7TbPTqZci456.Z7B6SqwEzUwPBsDTv0BlMMsUjmXyuP9h_KBt_t
+ S3X7CxOnFsZmoaR4916u_.0ms40xwzSMZODH7JVzNLmfaLqRAf984NlIzW10
+ e6WAGfiL7edZVhFZLAmFDLdv0rhrGjPxeXoQiKqMSXYJRkFQvTY9UFl0o2fT
+ .jOAGX2oeEWB2IzwjF4MFMXdCfLRaV.RE8LNw7YojjKZ.lf5fEQAojjww_Go
+ Yf7pba_4MHjKUQst.qCCoRKGQdzVRz9pT62R.LedMBxAT2fJk5A7xYJtIRkg
+ RS3FuOzqNVy_Nkh4H6ZiPbSKt5hjwc7uppiTgV1jNWwSlDCFXFwI1QMtjlmE
+ vV_TzTGJ1sTo01ohLHxlkarCXPQBdrv6UBR3V4C6CjbGd68gNLkvbyQUAAAM
+ MZJ2mDvmuVcKGNKKQJ4duVh.Mip_Rv59VbqTvTI_L7l6amODCY9vbJH4cgdQ
+ 80_hVCj1WqcH2maeNPOxzv9TlBywEgeapZ2wpMKJBm0mvb2oYZVtxDWQB95X
+ yiYkF2OMgqHkGeCbtXdcG.6HWSaPXT6HeaJBTK0Jw3lteEu84XkcoVdrvIwc
+ 340ym3H8XvKw.nL0mQFaINPDnvX4xM0PzdgWSftR25nDMDAwDKFefC8qbk6t
+ _O_ct5eYEmwtq7x894gfHYz6N7ec_QbIYRrZgUDDuVFD2OK_fh_ddPzTuM6O
+ hG_lHmW2FMjnqjRzkd2EMC5Azg--
+Received: from 67.231.148.125 (EHLO mx0a-00120b02.pphosted.com)
+ by 10.253.62.157 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 02 May 2022 07:40:23 +0000
+Received: from pps.filterd (m0085733.ppops.net [127.0.0.1])
+	by mx0b-00120b02.pphosted.com (8.17.1.5/8.17.1.5) with ESMTP id 2420D33x029350
+	for <ms60710444266@yahoo.com>; Mon, 2 May 2022 07:40:23 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kpmg.com; h=from : to : date :
+ message-id : content-type : mime-version : subject; s=ppus27062019;
+ bh=DRmOiFGzYK1GOmcl20Yl504jza16qhWn3pV6vTzwf4w=;
+ b=ZDoJuZ/qIj4HygWk3e+fo8Kpj6ylfJPe8dqwqACxoz/hqqEBqtDZURbY4dyGRcgXY7Qg
+ LfKFUx1P0jrCLlrXzuM6BKMjhp6JADPPXJl4zM+XyD3xQ1M+GvDXg9KoAu18CnUhc9HU
+ G8xHNE1qLuR48qWubeH2um/w04QY0sf8sXJLMFmT4EcyAnsy8pekF+WsKkjdrhtcVEu9
+ sjy7FrBoLXecCLsOwVV4tiX1d7Qt333uHH+3AdX31yq8tVpa4zgyfmQ46qc2hlP7rjMV
+ tvOBVfOfJ9eqPlMy0xCTIXuVndVDYYAceu4t8EdAESpe0hEWU0KbEu5sN0m236murqFN oQ== 
+Received: from kpmg.com ([158.179.76.86])
+	by mx0b-00120b02.pphosted.com (PPS) with ESMTPS id 3frvg9h31u-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <ms60710444266@yahoo.com>; Mon, 02 May 2022 07:40:23 +0000
+Received: from pps.filterd (YYIXEMTA01.kworld.kpmg.com [127.0.0.1])
+	by YYIXEMTA01.kworld.kpmg.com (8.16.1.2/8.16.1.2) with SMTP id 2427e6en049968
+	for <ms60710444266@yahoo.com>; Mon, 2 May 2022 09:40:21 +0200
+Received: from cnhkgexc901.cn.kworld.kpmg.com ([10.153.61.27])
+	by YYIXEMTA01.kworld.kpmg.com with ESMTP id 3fruxbuqxa-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <ms60710444266@yahoo.com>; Mon, 02 May 2022 09:40:21 +0200
+Received: from CNHKGEXC901.cn.kworld.kpmg.com (10.153.61.27) by
+ CNHKGEXC901.cn.kworld.kpmg.com (10.153.61.27) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.1.2375.24; Mon, 2 May 2022 15:40:18 +0800
+Received: from CNHKGEXC901.cn.kworld.kpmg.com ([fe80::91c5:9588:630c:1a61]) by
+ CNHKGEXC901.cn.kworld.kpmg.com ([fe80::91c5:9588:630c:1a61%12]) with mapi id
+ 15.01.2375.024; Mon, 2 May 2022 15:40:18 +0800
+From: "Zisselsberger, Isabel (HK/PTR)" <isabel.zisselsberger@kpmg.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Thread-Topic: [EXTERNAL] DOCKET 385 --- 1.6662-2 Accuracy-related penalty XXX1
+Thread-Index: AQHYXfa81lHdFFZoU0edmLBICH6VJg==
+Importance: high
+X-Priority: 1
+Date: Mon, 2 May 2022 07:40:18 +0000
+Message-ID: <0aabf66b00094137bc59a911edf9689d@kpmg.com>
+Accept-Language: en-US, en-GB
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: multipart/report;
+	boundary="_000_0aabf66b00094137bc59a911edf9689dkpmgcom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=nai engine=6400 definitions=10334 signatures=591665
+X-Proofpoint-ORIG-GUID: udwSBk-kvjk6_nT968u4_yO5lviVDDSs
+X-Proofpoint-GUID: udwSBk-kvjk6_nT968u4_yO5lviVDDSs
+Subject: Read: DOCKET 385 --- 1.6662-2 Accuracy-related penalty XXX1
+X-Proofpoint-Disc: 1
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.205,Aquarius:18.0.858,Hydra:6.0.486,FMLib:17.11.64.514
+ definitions=2022-05-02_02,2022-04-28_01,2022-02-23_01
+X-Proofpoint-Spam-Details: rule=outbound_spam_notspam policy=outbound_spam score=0 lowpriorityscore=0
+ adultscore=0 suspectscore=0 clxscore=1031 bulkscore=0 impostorscore=0
+ mlxscore=0 priorityscore=1501 spamscore=0 mlxlogscore=999 phishscore=0
+ malwarescore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205020058
+Content-Length: 2840
+
+--_000_0aabf66b00094137bc59a911edf9689dkpmgcom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Zisselsberger, Isabel (HK/PTR)
+   Subject: [EXTERNAL] DOCKET 385 --- 1.6662-2 Accuracy-related penalty XXX1
+   Sent: Monday, May 2, 2022 3:28:43 PM (UTC+08:00) Beijing, Chongqing, Hon=
+g Kong, Urumqi
+
+ was read on Monday, May 2, 2022 3:40:18 PM (UTC+08:00) Beijing, Chongqing,=
+ Hong Kong, Urumqi.
+
+****************************************************************************
+Email Disclaimer
+----------------
+The information in this email is confidential and may be legally privileged.
+It is intended solely for the addressee. Access to this email by anyone else
+is unauthorised.
+
+If you have received this email in error, please reply to the sender and
+notify him/her of this and delete the email (including all its enclosures)
+and destroy all copies of it. If you are not the intended recipient, any
+disclosure, copying, distribution or any action taken or omitted to be
+taken in reliance on it, is prohibited and may be unlawful.
+
+Any opinions, conclusions, advice or statements contained in this email
+should not be relied upon unless they are confirmed in writing on hard copy
+letterhead. Opinions, conclusions and other information in this email and
+any attachments that do not relate to the official business of the firm are
+neither given nor endorsed by it.
+
+There is no guarantee that email communications are secure or error-free,
+as information could be intercepted, corrupted, amended, lost, destroyed,
+arrive late or incomplete, or contain viruses.
+
+KPMG, a Hong Kong partnership and KPMG Huazhen LLP, a People's Republic=20
+of China partnership, are member firms of the KPMG global organisation of i=
+ndependent=20
+member firms affiliated with KPMG International Limited.
+
+KPMG and KPMG Huazhen LLP, together with various
+affiliated entities operate in the People's Republic of China including
+Hong Kong SAR and Macau SAR, as KPMG China.
+
+
+KPMG International Limited is a private English company limited by guarante=
+e. Member firms of the KPMG
+global organisation of independent firms are affiliated with KPMG Internati=
+onal
+Limited.
+KPMG International Limited and its related entities do not provide services=
+ to clients.
+
+Web sites: kpmg.com/cn
+***************************************************************************=
+**
+
+--_000_0aabf66b00094137bc59a911edf9689dkpmgcom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; isabel.zisselsberger@kpmg.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: x5iSZpS5+0W0Oo3obljvxA==
+Original-Message-ID: <aac6aae9-0c7a-b714-1006-d2bfb4c8349e@yahoo.com>
+X-Display-Name: Zisselsberger, Isabel (HK/PTR)
+
+
+--_000_0aabf66b00094137bc59a911edf9689dkpmgcom_--

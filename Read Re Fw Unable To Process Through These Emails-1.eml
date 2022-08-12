@@ -1,0 +1,196 @@
+From - Tue Jul  5 13:45:00 2022
+X-Account-Key: account1
+X-UIDL: AJbqt81HwyXhYsNIHgYeaCaIF+U
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.201
+ by atlas210.free.mail.ne1.yahoo.com with HTTPS; Mon, 4 Jul 2022 20:05:49 +0000
+Return-Path: <kshadle@tcmfund.com>
+X-Originating-Ip: [40.107.92.136]
+Received-SPF: pass (domain of tcmfund.com designates 40.107.92.136 as permitted sender)
+Authentication-Results: atlas210.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@tcmfund.com header.s=selector2;
+ spf=pass smtp.mailfrom=tcmfund.com;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=tcmfund.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 4 Jul 2022 20:05:50 +0000
+X-YMailAVSC: NwXe73E3bBvhMg2qwL3qexaxutyKuy4l1ElV_N9wEYlU2DU
+ h5doT7mQ4KKuGmmmxLbQzy5QhmiXBJmMWhDUQi2BLMQgtWSeZ9D.ct8S0VgV
+ Q7nuCay9FcrUE9aLFBGJLnDw5oj.v_MRbvQHXTiq0UFQUNbY5MFDfRNesRnw
+ _MQ_3X.or9btchmqapo_M6XIqOq3yRvIN0Sfg6u1XBOm9efBvhdmTPkTekdq
+ 1iWeNSVnL607d0c_5hiy6P7aco2I2gFXRKyBIHPtjQa3MumlNPGLYjfd9pou
+ 6rGKfswBU60WWVR31xwnNQNmRkkCUAgruMEP5YKJjreduqliBgetXPGFWIde
+ 0wyg-
+X-YMailISG: gUBtdGEWLDvH6tHGeoHnNbkyTY.2.oTA1feZIcEvstQubELf
+ bKmPhQ3aF1pQmLOrtvRIB9nCRwgBcLrj9X832HvmZ1X2Wornscshi6v.D.n0
+ DCu4vqJQmxnHFialKBXmDlG6HIj6xkazUMSsKfaAg0rU5Qc1uD2ONyqSTPmv
+ KNoBsgn9FC3OeV5Oao3lgMAerD3a3nelNnAzES34fx4DeRcYGRkSGgqHjABv
+ EBL0V_FSIElkgezgCbmqBSWNxAGxtmw_bXJ1USqyQ2ALhGrV9MPL.5ZeUeJ3
+ Rj64fsMg8LFW.iy_cAfOdW_GofvYbbnbaGHTAhCSkxyLBH8I6bIPMS1ySNJC
+ nDQquaAh3R20U9jLEHQXFDSB_Jdhz74vI_y.OwMTZgdtibQLoyK5wlUDcYd1
+ 3aY9cEfoi4lQBMxlFvuSuaftN2EMl_hGP0d.8coD3t2TeSAUev8ePTqoVswv
+ lPCYa3dzF3iUeYh1xXsn3Thhjspldlrmw_qwcxM07Qu21i6MdkknjcJMbEJG
+ bsknOMlvaBWu9wyHMhynoPuhfm19P2dgCrl91LI6q72sYgXmSoPdRym4mqHx
+ HPmyRaNQWFeov2RS5eT8K27mbmcUciqBw4iDdKzHTlJUVmzQ.DMxM6YtTdlS
+ fmU3uBQWpO0tssgQ7R33wzlU8QE1ai97bzW.tnGMWtfM4w3lDocryxPg6NZ_
+ Qww7K6d2hCK1faLLoba5_eWm9.lZ_JM.HL_UZG3IlmfeckxPxCx0JloWxfZ8
+ 9q0TzJxO1O19gQ_PMb2c9TU8lNR1HkoVP92lVv.FWDDPQQWf4272LNrmkhZM
+ EndPXTU8wbb1tSXUNHKH3b2xCHz9.EZks.APFbA.3fxIFqM6RpcSBPhP0Dlz
+ lQCrOxRwLJR917SswXG1ld33JaK.7mBl69VxM5UWoKHfCM1H_vB_NotRzP2K
+ Nx2zuI7fSm2uJP_crqL0u7H2u4G.VYyJkgup89py03IOS9JqN7NsmniZyfR0
+ NTwn2T9OayTjWaYh3mI9I3HB8NqtHig09jtlA2EHCfaPi1KYW5x7aIAzf7i3
+ JFh3Q6m62q3zwIyXh_8uhPuATQLWfpfz6iKBNpv77FtqjhN75HY.BN7MYzAh
+ YFxLzIT_J5ZyElO4xu7nmzvTnSyVWrmiR71uStRjGd3FXE10sTpfzkiPUr0h
+ A8V6uqDDrPIvvg37CDj.8YMT9vh_ZEz6Fp4R1wM9vcPvTqpRsBLOPs8TUkvy
+ nC0IPhcszT0tXFnm7AOFIP731CYZXmjNjLqEeajPedEh1Ci98SCqtq0gLZBI
+ ngfY8SOriB3epHBwZN89EJVkNmJRFgvRcZs-
+Received: from 40.107.92.136 (EHLO NAM10-BN7-obe.outbound.protection.outlook.com)
+ by 10.217.151.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 04 Jul 2022 20:05:49 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XoTHzYGnqu2Ul//N5BRkhab5NTmnkYrJBCL0/joinalMtRT0/aArSsC4kLnjLK9dhiYukCnZa0h2OW4/8A513W59R+/iSNra2cv3SAAF6LQ6NWvWtH/82QhzJydFiCjgkIPUF9aTjo1hKVHN0WJlnZ+f1pkanbbzW6iFWdqvN+a5C4S/m4N6ZpLPKpwpvXZDeBzo8eDKCbIcePrxELiRbIYiG+42D146PJR0pEUq1jihkUE5czi3FCijogHkRoSnVSjhBz3C3XncVsChUSuJvqZ+KAtPXI0FRgCEqJ23xolzZNqRSOLxQkTgHJGPXZglTw7VcK5ucZmHn+wptVHH4w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=tjakr2dd4sgy0e0S88hwFR8nbHJppg59rkkGEvGfWYA=;
+ b=d90Pm3DjVrXXLtNhVSawqLFfwd/51WcH1sSYTOE3LBOcy8xNwCPgEdg3u6aizY1h9X2h69wtfrvYVtuV0S3s28MxWCDTI8jDQr64oz6nF2u5yUWQkfFzBt8aOvepMk7yuaw2FkFSGO8zP5RfjY/ofA+NBPUzfsSMo/iOarRy0GnlxRXkDMb9untxzniqT9kGQ7fQ2wzZ2Ori/GgUkBGVM5WekbtOii13bWmdnSXrAJR961t5Kiyt+ufJT2VfF9iISqQzF8Y0jLceZqdwwJvnm6ixQriJVsxdB+qaRi2Gw4WADdOcSq66EoxPjp/imNGUvbpU0lCmjaPFgtn7JZdAYQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=tcmfund.com; dmarc=pass action=none header.from=tcmfund.com;
+ dkim=pass header.d=tcmfund.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tcmfund.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=tjakr2dd4sgy0e0S88hwFR8nbHJppg59rkkGEvGfWYA=;
+ b=o50NDOZvzBvXTXFudGDnNSsXY+mZRsqflBAvCu/zRb5gs1BtivxaoveSfJ61wAJPa6bU2IogOsR0mjwqz6ExhZJDdUclhp1qiNeZqGIDqXC214b13HwYuOJj1kqU6dkJQ8QpannkSyImY6ADOBOrbaSfd9adQJrOlMDctIqU+0YIrbNL/lx5sbC8TD6OLoXfoP1eLtGWiVsvP6Z+Mk9b+5Q+u+JVtCkPWoqF8kBQVHl1d//PP1z2vd+aPSZ5CZnKSvxnsKJltu67YT45NpZtVcUdhMdXl+KF50cGLCjPtRcCSv/JDz5l/qJx0AFI+ZbbO6ZZqerSMEcGYgD3nsvxZg==
+Received: from DS7PR19MB6120.namprd19.prod.outlook.com (2603:10b6:8:83::20) by
+ CO1PR19MB4840.namprd19.prod.outlook.com (2603:10b6:303:f6::11) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5395.20; Mon, 4 Jul 2022 20:05:48 +0000
+Received: from DS7PR19MB6120.namprd19.prod.outlook.com
+ ([fe80::6115:a9b8:9ebc:1b89]) by DS7PR19MB6120.namprd19.prod.outlook.com
+ ([fe80::6115:a9b8:9ebc:1b89%5]) with mapi id 15.20.5395.015; Mon, 4 Jul 2022
+ 20:05:48 +0000
+From: Kurt Shadle <kshadle@tcmfund.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Re: Fw: Unable To Process Through These Emails
+Thread-Topic: Fw: Unable To Process Through These Emails
+Thread-Index: AQHYjxe1j7YeQZS6bkq87Wd3VT4l7Q==
+Date: Mon, 4 Jul 2022 20:05:48 +0000
+Message-ID: <69edb7f247a54354bd9c32120e43faa1@tcmfund.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 51582b12-05d6-42b5-a93d-08da5df8969d
+x-ms-traffictypediagnostic: CO1PR19MB4840:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 3VowH0y7/j7dc2Z7kQGAELM3YdJrYkn3KX38L0X2081uKi8CNDtL7j1WQ4nsHkNBKJaFxIP5I4rhMFqkviDYakFo4g306HIBFRWQPReosFQmbFJrMTtsjQ3yPXcmPtfRj2MCzN8Y5Vp/9CmOAtjxm+/WPDuy+8lmT7sTsB88KfvEAThszs3MgutCIocXxCF3EMDk1kXMeuklT2QUMDSWqimxBu8uSd5dE2udwS/BrtgqSqoUK4EtkMwVubK346UZE9tbo8LSGId+0XipcteIp4tyNHi+ikjiqtfZdZ9u1y+pGOq2isBJxaM7qGAaTjLS+8YfH/fue3zm6XBBq9FSQtyawEH1jzRcLINIkeW3hZcjEGVimaKh1eW9c8eUomkaKcp721qswWUG/uQMAETbZfxtp0lE+Roa3Sk2mtV0NdSREnyzRARgICT716IMMEcdrCfYcLoN5+K27CvmJ4DgPdLb4/T37Si0AN1ea0vUQHa5T1vuyblgxK25impN608l
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DS7PR19MB6120.namprd19.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(136003)(39830400003)(396003)(366004)(346002)(376002)(2906002)(8936002)(108616005)(66446008)(186003)(122000001)(36756003)(621065003)(88996005)(71200400001)(478600001)(6486002)(316002)(66476007)(6916009)(66556008)(73894004)(6506007)(66946007)(24736004)(41300700001)(6512007)(64756008)(8676002)(86362001)(2616005)(4270600006);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?SpG2MNpMXKwLqdOMnPTUgacT3v41FVh2L+2/2U0pXL3MUK3mUovX6pdjh6D/?=
+ =?us-ascii?Q?d4ANHdgxxwQyW2Vh2T7qu0iZEnTpzlXXGH2F5ZYRIDIQEfn86mMVj2B4U6rN?=
+ =?us-ascii?Q?sGSIstOx0amv1sDZnlF+1OYQJvnzF474ECyizi2lUT8fh4OUEU5V82IT88Kg?=
+ =?us-ascii?Q?7hnzr3NULgCRBfBQKyRsx8zmyVxM2+54jaV4FvQ58EcYHnVAEZnSnQZyXUQA?=
+ =?us-ascii?Q?1+8WHuYnyqmYDjPcvUyviPWcj/zU9TAEPmcigZNm8sqRZy9NXCK+ktZz0yxS?=
+ =?us-ascii?Q?kW051M9BxI3j/MhHtZd2cuYWEAn8WbkvGyBChbCrJ6zEl4+7pRKP4IZnNptW?=
+ =?us-ascii?Q?3oJ0JgRiS1XJjmZlf87GRXtYVCX2LdGLHXpSDhNi87DatccWSJtCn1AR5s1h?=
+ =?us-ascii?Q?atZCQmonV1mN6EAzQBsZrmO4c7PZLiithPqPuNY7sw1GqsF6yew6KX2uUU6w?=
+ =?us-ascii?Q?Qnh428Rb04nF/7bXTFmcFGAxHPDogG8E7uLgrYXfY4pkdronjePN8UkCGLzE?=
+ =?us-ascii?Q?YP74SNYS7ENZUMawG4xw41yWHAfUBLuuZ9vbdXegIsqnaBoWJrYMdB/IupwT?=
+ =?us-ascii?Q?rig4c4l5my9KPOpw2UdDgJr6hL+MPhPGpLt/Q1krjxVF6SB6Xu+5Hj2s/mh2?=
+ =?us-ascii?Q?T6irpdrPD2S9VIU5cKRxclBAV/7AxR5pWEr34SRk8iuIuwTFzYJCgC441Hux?=
+ =?us-ascii?Q?BzkC1bLxGj54rCxK7rrCO+jWPPS+z2II9Yxg5dDtvfshEy7gxOuS6wS/W9ir?=
+ =?us-ascii?Q?tWGBtBEMPceLmBMyTSe9tE45ZLg3xGyXuWL2m6z4xcoCPY0pCMkC8BHm3yWV?=
+ =?us-ascii?Q?ylNcCJlXbF+eNA4xZpE3ianLSvKXi5edYtBbkT28zIwZo6LlmEedpbKvBVqc?=
+ =?us-ascii?Q?Gz3bp0WYra65sXV+eu5s2Kyx5AQgA6aGMOSyohsZuyMl0pe+mPCgllRpqBGk?=
+ =?us-ascii?Q?S8RbI1oaJx3cOEfSxwRr3SGN310l9C+WfKK48jukw/maxx1ONzSGopHVFu4k?=
+ =?us-ascii?Q?zPfoynRQN5TuDfFBEnRNPcMVqDbULsmUtpsyQFAJItPuVyviPjS2NJHyAKHW?=
+ =?us-ascii?Q?mdaThC9ymnYcbSh9IMFs0svuk3+UFSHQ9rCLeixm0jk8+QhfDnAY/37xwDZ5?=
+ =?us-ascii?Q?N7SPUhBjn3f92VoBpL0hMwf77c1o2JoIwsI3TCwuS3u7JFIgMLCKoPz06p+J?=
+ =?us-ascii?Q?ZHrwjAKBb8H3g7Jo/nyjreCuRynV4OlFD4lsDSevYWOcEqvC1LQ82iQ738Xc?=
+ =?us-ascii?Q?s4S+dJONziGUggxf5rnATwAYHW9ERWj/Z4xWLj3nGC8WqlifTRBsTN+agAO9?=
+ =?us-ascii?Q?a4XMc426/7iB0EnD7bOTSua437AY2n1m20pZDylLb27G0jHihhPL78rdrMa7?=
+ =?us-ascii?Q?3+AkMKtISnSYA9tpN5u0sIZAQFw8jhlYLXDP6u8f/+t4ExIcJ0tdf6viap1R?=
+ =?us-ascii?Q?sMx0atQNP+yhey3M6yk3slc9CTRmv/5sWnBltHnjkpJQnvrhESxAaw=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_69edb7f247a54354bd9c32120e43faa1tcmfundcom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: tcmfund.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DS7PR19MB6120.namprd19.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 51582b12-05d6-42b5-a93d-08da5df8969d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Jul 2022 20:05:48.6065
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 754a79e2-40e9-41a8-b6c9-a065afcf1762
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: +1zoMoTPbcTlEjTv1gSXj7qdbR+iNGjS3YAWNeJqYCOhJ3gr11HRQ+A1X4J09hd0jax8tlQf01JH826MzEv/og==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR19MB4840
+Content-Length: 1914
+
+--_000_69edb7f247a54354bd9c32120e43faa1tcmfundcom_
+Content-Type: multipart/alternative;
+	boundary="_002_69edb7f247a54354bd9c32120e43faa1tcmfundcom_"
+
+--_002_69edb7f247a54354bd9c32120e43faa1tcmfundcom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Kurt Shadle
+   Subject: Re: Fw: Unable To Process Through These Emails
+   Sent: Sunday, July 3, 2022 3:57:31 PM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Monday, July 4, 2022 4:05:48 PM (UTC-05:00) Eastern Time (US &=
+ Canada).
+
+--_002_69edb7f247a54354bd9c32120e43faa1tcmfundcom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Kurt Shadle<br>
+&nbsp;&nbsp; Subject: Re: Fw: Unable To Process Through These Emails<br>
+&nbsp;&nbsp; Sent: Sunday, July 3, 2022 3:57:31 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, July 4, 2022 4:05:48 PM (UTC-05:00) Eastern Time =
+(US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_69edb7f247a54354bd9c32120e43faa1tcmfundcom_--
+
+--_000_69edb7f247a54354bd9c32120e43faa1tcmfundcom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; kshadle@tcmfund.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: KrOfA6EwiUOBEsezGoCKWA==
+Original-Message-ID: <3a9cc44e-55f7-a6e5-a4d8-b2ca5aeff94d@yahoo.com>
+X-Display-Name: Kurt Shadle
+
+
+--_000_69edb7f247a54354bd9c32120e43faa1tcmfundcom_--

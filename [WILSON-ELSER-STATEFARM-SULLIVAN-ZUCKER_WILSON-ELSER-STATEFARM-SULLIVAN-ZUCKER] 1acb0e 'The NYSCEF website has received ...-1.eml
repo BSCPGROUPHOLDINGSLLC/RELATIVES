@@ -1,0 +1,121 @@
+From - Sun Jun 26 02:29:53 2022
+X-Account-Key: account1
+X-UIDL: AGKLtGcKRojbYrgJrwrRiMl00no
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.215
+ by atlas204.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 07:24:31 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas204.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 07:24:31 +0000
+X-YMailISG: dMaH1xgWLDvZzAI2cjCbhoghtelznAXDZ8UI7HPxmKj5R0ZQ
+ XnBvhA2zXiLuYtSMQK.MzAuXbw_04co9pBTeL7Dp8UMNZ_6zmJxJrmLyi4Oi
+ GQ5koajgyjQ5PLYal2le3jdkFXq9x2vUF4oOwh_RazMrHddcZqsltKqJChgI
+ EBdi75RXc8D38PjXQwjg2_1cZ4NovqCOJvnSc8DUfldFxHz0qMPeRZUGEFFx
+ AoV43gyvva0kP13992Ewp5TZxqzzm.qoOlr6tX37B07agR52xujlxE2o43dV
+ cjuwtpkjf5DnaIvML7eT_T4vgfTlmNUvXT2sh2AuCmW0Oq1qZKGUPR8iEl0B
+ BWBKRuN2fiIeCveDZUSG.XYxzHjmOR3y7yp9U8ZLT8W0kwsYrE1NaSp5iirN
+ IPSsdMZCJWKghF0Lk7KT0ifo0pw6gyreco5cGRHnBqHc4r.agNBkI0bkg0V_
+ yvB_h8mZrFTHZeFQj1_e8lEte4aZrfXL7exvCX1XJ.9Qgoylzq3tReyjl.tW
+ B4p9b5cw1C.hCvRf34Sw0fAYAaq.FB_Z3MC2n2he6EO80nKi_PMGcyOFZb3F
+ 8vdQVOfaP.ceWgeIK6_vHqB05DpHljEZtvd_dctia18nfBENyfyV84xRihk4
+ aPgf1K1QmjdIK4mqvgWfbEPJSEnfDmFH25t161ycnGeKwnAa0CJfwrSahfGz
+ 65HG3cMygoiv_dOzSiWacyVDfUkg6Y8f8w1iSAAdZ5KD_jVjWNDi9X4E9ubI
+ TLaAGQfrLpsW9A2iv9y_C1r02MDXX0jleikUS6LtNCXpty.I63J4p11WkYzc
+ HdFBHzYNr99pQfWA4H91QNdBIghE_aohK3vfFoerKXB4m.MgRn7LptB.GVBH
+ XSz9UIX039rW3p2t1RdlA28Y7uBf33IPG_H24HNEHEmKG1ZgfjaOWzfKsokc
+ 21Bu1WRJirJJ_Ke9GJ7p9yV67OERpmWSs_0Frq4J5Qatk9483dQPSemx8FoU
+ .bo2.8vlwQc0Qicpu0514OTpzvyRQpQLPUqdo2sPCx3.W7yu2MjTg0qjNxC_
+ ZnisJLSkPzUFyTrkRgkfru0WVuxzSUBm4YoFOuPJo8mNkcXRRxiTl7KZ3Hxm
+ _3AEnoAhB.b3R.pRklwAobE9BcoCs2ecqZ3rW.pjSwbDWFUjbYMtKHU.g_Hu
+ WEiGRwiAA7nytVKIQE0ZkbUj.AFbebdI8iIfPk7O
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.136.215 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 07:24:31 +0000
+Received: from github.com (hubbernetes-node-c3ba9ad.ac4-iad.github.net [10.52.223.34])
+	by smtp.github.com (Postfix) with ESMTPA id D62DA52016D;
+	Sun, 26 Jun 2022 00:24:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656228270;
+	bh=mdZ56hj39Vb/u418BpB+oswB1o5E3EQfzMyReY6fYFQ=;
+	h=Date:From:To:Subject:From;
+	b=WafphLuCmajVukE9Vi78was8ABq6oLnstL5XhAETCdQEDz+gEJy2taiV5uo1ZPZaD
+	 f7B5MGNmje0Jgkw7d+AkZ5UjzLKzP7W+IGPiC0F4o8dhNlVn2mR7RlCE4WZhENQ5Rl
+	 NaB6SfsZeK3HxXGq0lCVl9vMzjSjlnpb0G+cc0Tk=
+Date: Sun, 26 Jun 2022 00:24:30 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/5c227e-1acb0e@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 1acb0e: "The NYSCEF website has received an electronic fil...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2380
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 1acb0e6d743351dc3a0e7ea9f9afc978e844e852
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/1acb0e6d743351dc3a0e7ea9f9afc978e844e852
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  "The NYSCEF website has received an electronic filing on 08/04/2020 02:32 PM"
+
+NO CERTIFICATE OF OCCUPANCY IN AUGUST, 2020
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM     * * * * *     
+NYSCEF INDEX NO.:      153974/2020       * * * * *      NYSCEF DOC. NO. 230        * * * * *      RECEIVED NYSCEF: 08/04/2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=AgwH2omenQPCvT0OYOE3Rg==
+
+
+PROCESSED
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=SVnk_PLUS_wwn_PLUS_akZLr2HagUrng==&ret=D&docketId=rbJs1u78EZo22UbkaVdrZg==
+CONFIRMATION PROCESSED BY THE EXECUTIVES AND COUNSELORS OF
+
+* SULLIVAN PROPERTIES, LP
+* SULLIVAN GP, LLC
+* MANHATTAN SKYLINE MANAGEMENT CORP.
+
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=UZsCx4RNLy/6V9gf1BkpTQ==
+
+
+      * * * * * THEN DISTRIBUTED BY AND BETWEEN THE MATERIAL PARTIES [ MULE 1 ]
+
+
+"The NYSCEF website has received an electronic filing on 08/04/2020 02:32 PM"
+
+
+E-mail Notifications: An email regarding this filing has been sent to the following on 08/04/2020 02:32 PM
+SHARI LASKOWITZ - slaskowitz@ingramllp.com
+
+BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES. ASHLEY.HUMPHRIES@WILSONELSER.COM
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=xBYJ69pjIuDxBegralE8Uw==
+
+NYSCEF DOC. NO. 225 RECEIVED NYSCEF: 08/04/2020 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=UZsCx4RNLy/6V9gf1BkpTQ==
+
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020
+RECEIVED NYSCEF: 08/04/2020
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=JjKiWNUTBeipcESQfFiwVQ=
+
+E-mail Notifications An email regarding this filing has been sent to the following on 08/04/2020 02:32 PM: SHARI LASKOWITZ - slaskowitz@ingramllp.com
+
+
