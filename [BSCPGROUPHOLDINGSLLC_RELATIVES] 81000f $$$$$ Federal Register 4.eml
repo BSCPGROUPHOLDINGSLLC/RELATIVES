@@ -1,0 +1,409 @@
+From - Fri Aug 12 01:56:33 2022
+X-Account-Key: account1
+X-UIDL: AOLd1/kMOyygYvX27wDqYMhQ6tk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.107
+ by atlas208.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 06:45:02 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas208.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:45:02 +0000
+X-YMailISG: N7T_gT4WLDtryVViuTfLJ06S3LO5ZVfNGBlZ.TWJttHaGiTs
+ UfVhQnTYO2d4TFt7B.401dKFmb1s6nLvjN8gsxV3PmSGC77CM2vw8i7d9uDn
+ fjaqnzah8w1QnHgQeIyXQV384wiQL9v.CQmrYEH90pEcKmLWQetUeKNsUCd3
+ DuUzAQH8FsxNLajuTAAW7omoqaZ_Rlwk11IfmppUx93F1HkfBaR911NFllVA
+ nlP.llUSk..t_p6IY0Da6ki2KO8s5Lj_v3g6D1T4gP063YL.XnufiGfGRwbB
+ wOBXtHaVZcFIXlQexY808.ZBY8hSPMHN83rWiT4qNsyRa8pyOm2E3vDnDwYJ
+ IE.teGcoU_tYSSRNw.bRG0kuETzmef0q3Y5SvqY10WAR.09einAqmko1eNHw
+ 8xei7nEOSYUUn7tvB_e0OKjVB1vmn9g8t59iZwHBQskyj47Zb7dssogDn.WV
+ 6QUzZp22DOylNt8zs9U.F1aWr244NbTo4NuKTbPQNGafxY2470TFImQDKQgx
+ xXJZXqoo.a4rDwjWrkHTm13jiUDGlRHeuxoJqc7Ab9xk3I.vF1lWJx4aJxQc
+ mCozv_X4MFJY9Flou2gVnbDSQ11WVjfqAyS_KsZCy3RFfAp6QURJyAMszDcY
+ KicIWRRC75t71ZFZLv3yWterLGDQexuvsiUWwe8z8L19FscHVY4AxBoQl1C4
+ 6CDcLb2KUsD3TAtII3IfzsMc2kPEkzRhxEtS3UZstyG4.TYrHESkKKSlVoVU
+ JSAal8aP4nw_KN4WwbYyVLGuGuTzjAXQwDWvN4.sm4IePKbUDY95sQVjzWWL
+ 7PqyZ6VThjgfF_uO3CZtLKdghvPOlVDYwO42uTS8dRlbQsesDuQcnoDYzQT1
+ F6oMvnDQCfNrasjcmZczwsyeHnbpakZSMlvvhgpJwTecmyooCEaMcB_fRGRI
+ VUI.sxqfXZVYZdrz94D0MBPnUrS4QfD0H1l6Sza5xO1VuTbbYv.bw7ubMLvu
+ 0qlPFLoiNgOJklZKu_9SvBvbtdxvRpjgt7pAJcnRgXXGQB_d0az0QkudL3XW
+ _4IGqpx496XjehidaFOcRlfZrMbNc5CnTgj89XVXwaRcjwY9mQuEX_lG6LGO
+ Y2U1MxU7tnni.WDkXzG0JGkuyZFs7XBCN1dr27uLXjBjh8pkNzaK9cE7DtNO
+ WNybgNmNzWjsqEoSgnde2PXCLmlvr.8aROmH2JyLFHAJuKvzeupe
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.135.107 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:45:02 +0000
+Received: from github.com (hubbernetes-node-fbf9b16.ac4-iad.github.net [10.52.211.83])
+	by smtp.github.com (Postfix) with ESMTPA id 458615204B5;
+	Thu, 11 Aug 2022 23:45:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660286702;
+	bh=9XZ6V3Kyw6rDaqT0tjWU+zAozTbpMFYk7IPCEDZbo/0=;
+	h=Date:From:To:Subject:From;
+	b=jE2TfEjQzuoQ6ye2dyZdLZJCSocMQQxgTKs41kwsZ2tAkqn1P+agAECq0TbFIXUy7
+	 Xp/dQIT+EJN/eryjv86RPF/ki5doueY6VugLa5wyaniuuDNtYSguJXIiLhSCz0CrmD
+	 fTDqbHvgC7Jx81hgadRegXo3HsPAvRfkU5epdA2Y=
+Date: Thu, 11 Aug 2022 23:45:02 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/be9c4e-81000f@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] 81000f: $$$$$ Federal Register 4
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 13581
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: 81000f2a9f811b2b252c737ca6da959c46b329e7=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/81000f2a9f=
+811b2b252c737ca6da959c46b329e7=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A $$$$$ Federal Register 4=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  $$$$$ Federal Register 4=0D
+=0D
+$$$$$ Federal Register 4=0D
+=0D
+thank you.=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pull/1=0D
+PAPERWORK REDUCTION ACT=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BERNIE/raw/main/2020_0=
+5_27%20-%20INDEX%20and%20PAPERS.pdf=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Re: Docket No. CFPB-2022-0040, CASE 01416925.=0D
+Date: 	Fri, 12 Aug 2022 06:13:14 +0000 (UTC)=0D
+From: 	pinkbookswap@yahoo.com <pinkbookswap@yahoo.com>=0D
+To: 	redacted=0D
+CC: 	redacted=0D
+On Tuesday, August 9, 2022, 11:54 AM, pinkbookswap@yahoo.com <pinkbookswa=
+p@yahoo.com> wrote:=0D
+=0D
+    Oxley 63.18 Violated in two concurrent and consecutive years, CERT-99=
+ by CIK filer 93715, CIK filer 1516523 neglected to publicly inform their=
+ custodian and customers of this =E2=80=9Cletter of credit=E2=80=9D and =E2=
+=80=9Clegal proceedings=E2=80=9D which has been missing in the Edgar sinc=
+e May 11TH, 2020.=0D
+=0D
+    Upon discovery, CRD firm 8209 decided not to share, updated their pre=
+miums received as promoters and also swapped their CRD in the new improve=
+d disfunction under CIK filer 1516523.=0D
+=0D
+    I believe JP Morgan was the custodian in the former, unsure who is re=
+sponsible for those deposits and leverage risk as of current. =0D
+=0D
+    Enjoy the afternoon!=0D
+=0D
+    https://www.bop.gov/contact/index.jsp =0D
+=0D
+=0D
+    Federal Register 4=0D
+=0D
+    https://www.federalregister.gov/documents/2022/07/20/2022-15243/reque=
+st-for-information-regarding-relationship-banking-and-customer-service =0D=
+
+=0D
+=0D
+    https://www.fbi.gov/video-repository/newss-chasing-the-dragon-the-lif=
+e-of-an-opiate-addict/file_view =0D
+=0D
+=0D
+    FINRA, SEC, et al. Under the counsel of the Sarbanes of Oxley, I beg =
+to differ those consequences beyond the damages as to set a Precedent, I =
+once again invite this onto the Experts again, (e.g. a THIRD PARTY BUS OF=
+ OPINION) that are also Qualified, as am I. =0D
+=0D
+=0D
+    _______________=0D
+    Tel:  646-256-3609=0D
+=0D
+=0D
+=0D
+    On Tuesday, August 9, 2022, 11:26 AM, Bo Dincer <bdincer66@icloud.com=
+> wrote:=0D
+=0D
+=0D
+=0D
+        /BD=0D
+=0D
+=0D
+        Begin forwarded message:=0D
+=0D
+>         From: Bo Dincer <bdincer66@icloud.com>=0D
+>         Date: August 9, 2022 at 11:24:51 AM EDT=0D
+>         To: CONFIDENTIAL=0D
+>         Subject: Re: Docket No. CFPB-2022-0040, CASE 01416925.=0D
+>=0D
+>         =EF=BB=BF Yep. =0D
+>=0D
+>=0D
+>>         On Aug 9, 2022, at 11:21 AM, pinkbookswap@yahoo.com wrote:=0D
+>>=0D
+>>         =EF=BB=BF=0D
+>>         1. Reference https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIK=
+E-BERNIE/raw/main/2020_05_27%20-%20INDEX%20and%20PAPERS.pdf=0D
+>>=0D
+>>         ^ 1 REFERENCE.  summarizes those economic interests and freedo=
+ms, white collar crimes and USC Title 18.225, violations under Continuing=
+ Financial Crimes, and on my watch I filed upon discovery in the matter o=
+f NYSCEF 153974/2020, which the Plaintiff was confused as to which Felony=
+ it was avoiding, and impeded the timely release to you and yours.=0D
+>>=0D
+>>         https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pul=
+l/1=0D
+>>=0D
+>>=0D
+>>         1. Coverpage =0D
+>>=0D
+>>=0D
+>>=0D
+>>=0D
+>>         Nearly $1 billion lost in a single session and no CORPACT BY F=
+ILER 93715, or FILER 1516523.=0D
+>>=0D
+>>=0D
+>>=0D
+>>         On Tuesday, August 9, 2022, 11:07 AM, Bo Dincer <bdincer66@icl=
+oud.com> wrote:=0D
+>>=0D
+>>=0D
+>>=0D
+>>             /BD=0D
+>>=0D
+>>=0D
+>>             Begin forwarded message:=0D
+>>=0D
+>>>             From: Bo Dincer <bdincer66@icloud.com>=0D
+>>>             Date: August 9, 2022 at 11:05:00 AM EDT=0D
+>>>             To: CLASSIFIED=0D
+>>>             Subject: Re: CASE 01416925. Docket No. CFPB-2022-0040Dock=
+et 420=0D
+>>>=0D
+>>>             Those rent rolls, do not exist.=0D
+>>>             ** were used to obtain a loan from STATE FARM LIFE INSURA=
+NCE COMPANY FOR $6 Million Dollars with no grounds to legally collect sec=
+urity or rent.=0D
+>>>=0D
+>>>             There is no letter of credit, an omission by State Farm V=
+P. Management Corp. under their Treasurer will not claim a legal proceedi=
+ng or a LOAN 50074 which I annexed in NYSCEF 153974/2020. =0D
+>>>=0D
+>>>             Here=E2=80=99s a TxT document with the links to the court=
+ documents, sequentially filed. =0D
+>>>=0D
+>>>             /BD=0D
+>>>             On Aug 9, 2022, at 10:51 AM, Bo Dincer <bdincer66@icloud.=
+com> wrote:=0D
+>>>>=0D
+>>>>             Under USC 18.225.each person:=0D
+>>>>=0D
+>>>>             '...imprisoned for a term of not less than 10 years and =
+which may be life."=0D
+>>>>=0D
+>>>>             https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=
+/blob/BSCPGROUPHOLDINGSLLC-EMAIL-DOCKETS/ms-pwc-dicker=0D
+>>>>=0D
+>>>>             Those papers confer a violation of the Sarbanes-Oxley 20=
+02 Rev. and by more than 4 institutions, certain of which are Privately H=
+eld. =0D
+>>>>             -- questions?=0D
+>>>>             /S/ BO DINCER.=0D
+>>>>=0D
+>>>>=0D
+>>>>>             On Aug 9, 2022, at 9:26 AM, Bo Dincer <bdincer66@icloud=
+.com> wrote:=0D
+>>>>>=0D
+>>>>>             =EF=BB=BF=0D
+>>>>>             Docket No. CFPB-2022-0040=0D
+>>>>>=0D
+>>>>>             In light of the Paperwork Reduction Act of 1995, I have=
+ prepared this in support of CIK filer 93715, in the former, was in custo=
+dy of assets which were greater than $10 billion and qualify hereunder fo=
+r comment. A failed Advisor who merger into CIK 1516523 without any mater=
+ial notice and lost nearly $1 billion dollars in a single trading session=
+ on December 21, 2021 without any requirement to file a corporate action,=
+ or any action at the guidance of my =E2=80=9Cseniors=E2=80=9D was in fac=
+t a violation of civil rights and procedure as referenced hereunder in th=
+e matter of NYSCEF 153974/2020.=0D
+>>>>>=0D
+>>>>>             https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BERN=
+IE/raw/main/2020_05_27%20-%20INDEX%20and%20PAPERS.pdf=0D
+>>>>>=0D
+>>>>>             I appreciate the extension, please made sure the link a=
+bove make it your PRA desk and also to Director Chopra.=0D
+>>>>>=0D
+>>>>>             Most Respectfully,=0D
+>>>>>=0D
+>>>>>             BD=0D
+>>>>>=0D
+>>>>>             https://www.federalregister.gov/documents/2022/07/20/20=
+22-15243/request-for-information-regarding-relationship-banking-and-custo=
+mer-service=0D
+>>>>>             /BD . ).=0D
+>>>>>>             On Aug 9, 2022, at 8:56 AM, Bo Dincer <bdincer66@iclou=
+d.com> wrote:=0D
+>>>>>>=0D
+>>>>>>             =EF=BB=BF=0D
+>>>>>>             Mr. Chopra,=0D
+>>>>>>=0D
+>>>>>>             CIK FILER 93715 into CIK FILER 1516523=0D
+>>>>>>=0D
+>>>>>>             https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BER=
+NIE/raw/main/2020_05_27%20-%20INDEX%20and%20PAPERS.pdf=0D
+>>>>>>=0D
+>>>>>>             /BD. ).=0D
+>>>>>>>             On Aug 9, 2022, at 8:08 AM, Bo Dincer <bdincer66@iclo=
+ud.com> wrote:=0D
+>>>>>>>=0D
+>>>>>>>             =EF=BB=BF=0D
+>>>>>>>=0D
+>>>>>>>             /BD=0D
+>>>>>>>=0D
+>>>>>>>=0D
+>>>>>>>             Begin forwarded message:=0D
+>>>>>>>=0D
+>>>>>>>>             From: Bo Dincer <bo.dincer@yahoo.com>=0D
+>>>>>>>>             Date: August 9, 2022 at 7:33:39 AM EDT=0D
+>>>>>>>>             To: CONFIDENTIAL=0D
+>>>>>>>>             Cc: CONFIDENTIAL=0D
+>>>>>>>>             Subject: Re: CASE 01416925. Unlawful deposits and In=
+terest accruals=0D
+>>>>>>>>             Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com=
+>=0D
+>>>>>>>>=0D
+>>>>>>>>             =EF=BB=BFVery much. @151=0D
+>>>>>>>>=0D
+>>>>>>>>             /S/ BO DINCER=0D
+>>>>>>>>=0D
+>>>>>>>>                 On Tue, Aug 9, 2022 at 3:25 AM, Bo Dincer=0D
+>>>>>>>>                 <bo.dincer@yahoo.com> wrote:=0D
+>>>>>>>>                 https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUC=
+KER-ZUCKER/pull/1=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>                 The most expensive and negligent change of addre=
+ss I have seen. =0D
+>>>>>>>>                 CIK FILER 93715 into CIK FILER 1516523=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>                 https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LI=
+KE-BERNIE/raw/main/2020_05_27%20-%20INDEX%20and%20PAPERS.pdf=0D
+>>>>>>>>                 ^ 1 REFERENCE, is summarizes those economic inte=
+rests and freedoms, white collar crimes and USC Title 18.225, violations =
+under Continuing Financial Crimes, and on my watch.=0D
+>>>>>>>>=0D
+>>>>>>>>                 /S/ BO DINCER.=0D
+>>>>>>>>                 https://www2.occ.gov/publications-and-resources/=
+publications/banker-education/files/2022-cybersecurity-report.html=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>                     On Tue, Aug 9, 2022 at 3:09 AM, Bo Dincer=0D=
+
+>>>>>>>>                     <bo.dincer@yahoo.com> wrote:=0D
+>>>>>>>>                     /S/ BO DINCER=0D
+>>>>>>>>                     On Tue, Aug 9, 2022 at 2:59 AM, Bo Dincer=0D=
+
+>>>>>>>>                     <bo.dincer@yahoo.com> wrote:=0D
+>>>>>>>>                     To whom this may concern,=0D
+>>>>>>>>=0D
+>>>>>>>>                     ANNEXED in NYSCEF MATTER 153974-2020 are the=
+ original custodians (HSBC) who carried the unlawful rents and interest, =
+upon reasonable belief holds the same for all of those properties without=
+ a legal grounds to collect rent. =0D
+>>>>>>>>=0D
+>>>>>>>>                     Docket 166, ANNEXED in NYSCEF matter 153974/=
+2020 represents the transfer of funds (unlawful security deposits) for th=
+e Properties and with respect to Loan 50074 cannot be defeased without al=
+l liens clear.=0D
+>>>>>>>>=0D
+>>>>>>>>                     Those interests and risks were passed on to =
+STATE FARM LIFE INSURANCE COMPANY during the height of the COVID-19 PANDE=
+MIC as referenced in the NYC Dept Of Finance Register by and between part=
+ies and first NOTARIZED by STATE FARM LIFE INSURANCE COMPANY on May 11, 2=
+020. The Directors of CRD firm 43036 report this as a materially substans=
+ive conflict, as it is disclosed on the CRD of its Directors as such. In =
+layman's terms, the underlying risk and economic interests are deemed "re=
+portsble" as an business, so it's not exactly a part time paper delivery =
+job.=0D
+>>>>>>>>=0D
+>>>>>>>>                     Absent of the unlawful deposits, no differen=
+t than a heroin dealership =E2=80=94are unlawful at any US DEPOSITORY INS=
+TITUTION, per the Federal Deposit Insurance Corporation. This may cause a=
+ome conflicts with audit and with respect to which properties arw subject=
+ to the interbank lending and Tier 1 reserves aa reported by the two bank=
+s.=0D
+>>>>>>>>=0D
+>>>>>>>>                     If you need me to notarize anything, I would=
+ recommends you review the dockets in NYSCEF 153974/2020 sequentially pri=
+or to any further intrusion, or my opinion in the matter, which generally=
+ holds no opinion. I only understand what is written in the Sarbanes-Oxle=
+y, and namely all of those interim revisions, which over the course of ti=
+me have become less "relaxed" with respect to "minimum triggers" and "min=
+imum fines", as the triggers moved lower and fines grew higher.***=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>                     /S/ BO DINCER.=0D
+>>>>>>>>                     MAC.: 646-256-3609 =0D
+>>>>>>>>                     TMO.: 917-378-3467 117=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>                     *** If you sold STFGX in the quarter prior, =
+wheb the price was higher, are you the buyer? I only see fewer promotiona=
+l dollars from CRD firm 8209, while comparing their reported premiums in =
+fiscal period 2020, with respect to 2021 (by roughly 25%). More important=
+ly, the combine of 4-Tickers lost the greater of 852,029,489, and not in =
+a day=E2=80=94 no intraday dots for those tickers then under CIK filer 93=
+715, with the CLASS 3 holding unreported by the new CIK filer 1516523.=0D=
+
+>>>>>>>>=0D
+>>>>>>>>                     *** hence, a violation of the Sarbanes-Oxley=
+ 2002, and per "Price Waterhouse Coopers", changed their language... but =
+could not get a hold of "any" broker about a Class III holding, and by th=
+eir own promoter (only 3 of them). Largely due to the "oversight" which L=
+EEPS from one body of negligence to the other, and generally only the CIK=
+ Filer Numbers grew. =0D
+>>>>>>>>=0D
+>>>>>>>>                     *** that's the greater of $852,029,489 lost =
+in two shakes of a lambs tail, under oath =E2=80=94has been obstructed fo=
+r a timely release by the SEC and for all available excuses in a non-join=
+der and non-matrimonial BRK-B/STFGX divorce after the greater of ten-year=
+s.=0D
+>>>>>>>>                     --=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>=0D
+>>>>>>>>                     P.S. a working draft and for early release, =
+casually however not as fashionable as the Zucker Enterprises LLC.=0D
+>>>>>>>>=0D
+>>>>>>>>                     DRAFT, I can call you back on this later as =
+I am certain the Comptroller of Currency at the US Treasury can understan=
+d this is white collar "non hostile" observation, and I thank the NYPD fo=
+r immediate resoonses upon placing a Manhattan corner in the subject line=
+. =0D
+>>=0D
+=0D
+=0D

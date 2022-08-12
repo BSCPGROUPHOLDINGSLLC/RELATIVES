@@ -1,0 +1,254 @@
+From - Fri Aug 12 02:06:38 2022
+X-Account-Key: account1
+X-UIDL: AGbZq6MNW1xIYvX6YgK7OJ0q4Dc
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.144.139
+ by atlas112.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 06:59:45 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas112.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:59:46 +0000
+X-YMailAVSC: fQBhAVg3bButb.GKBeeak1W3Bjehd6E1HvJ1E7phFNWPxEu
+ zSmNF1MXwL1oRVwTp8BRT8wJHZPRY_wnvfxwRETGhhwSe6WxmFrvNb2ZrZ4W
+ DwPATlOCTEtVdLzGjhikX6p5A_aFkjlIghQxg2JhyMDB98xnPZfWiKrZKyD2
+ .R7_cWtFgXgmfEbWabgF8KyEKOmWpfeCKmWbINMncNfjfx5Z0uH3qHSjT1mq
+ y_TvKzM92Yw6W9wixv4aPMAFbyiliUXomhn7_2cW7BPpOOwsqv.9.PRkj2C_
+ OOOVRynYFZRdY_PgY9LPP4QMLEuwASLD8PcKltH4Jf3xYfzaoxhKlQknecuY
+ VQp_8Pi.Ob3Bf2gaEwQ9zssazIWZfEVG024wAfCye6gxi_S35KJEUEYev._5
+ XrVsh7aXtKilGII6r1_ihYXXaDelWyx8G_tD5hnaMKrD.Xc5NjeuU8RzX1tz
+ k8S1trnMXFNlyhFQjdtkC5F30.AARvCETpT4zC88U21ZyfDZwKjjWW47IoX3
+ 4NbBlgn62VGGNd9dcrlXpK0Fgiq_09bxQGyXtmcOoj6EBJd1iVW7ghxK6n3j
+ gl.7mkw3Q48bN2qza8vjocH9pgEV_e.sNr6nk3NToourOZt.Iv8kk3nnA5.o
+ xqIxgZ2.dXfBEdO0HiLT2lttwwVLEM2hq8jHaCwM6MWQiFRzlQ_MDEk1fasI
+ A75DCUxUR7K6IES_eVQvSMZybob02BtsGq_9_.FrzzBGN.i5_CYYS1bh_IH0
+ 07B8oQe9sbWF42uKDeRHF7Kte8aoRox9HmnS23o7EHsGWsem2h.4bbYI1hsY
+ 6urDZovp46nF4PuTmTAiWcUacOGdPwdxlx1WiUoRVJ0ntlQzwgdrqE.MDvWS
+ 7TTG9cLwPqt0ww4TCMQ0kkG.a4rkhg1_ZxvIk8mkeliaByH1vmHUQoYlT80W
+ xUjbnTwBROFX1EWJrwsCth7I5w3m5ztvBxaUzFIHg2tipY1HJvaDbpZfFjCe
+ 0WYOlAPJIUL8Sm9RDew_rdn0UUiitaBPTO4f3wniHhU9RhzXoWdL8TUnnQha
+ RH2I-
+X-YMailISG: qTWu0HMWLDsZ.KxaDEsvKDlirVUwBIWm7u8IWSqZpfD9qKKk
+ 1EIxRSBmBvYhOnoZ7sWkSOMj9xTLUyaX9ngPqBxDUAEA.LbZbnDp5Y1SDc1Q
+ C7OLGNXbviesAMXgxqKi7P51SneWETJVTn.kLhxaBsFFgGsq2hg.brI_gwi4
+ M.YeVzLsuh0Gh6wwgjGZBpjQjTs8hL05gJ4Q00hhGQdZyqh_cj.NS38hBjUR
+ LL96WUjTPgKDtVTFR_jI0rVWADOPauL7x8fJZDZU4p9stAxdwztfSvF.ZLzW
+ OIjHG1_z7Oq1GH4wIpR1_roEIpkO5gM7XiDiPfuou7LoPUlttc_tTTr20DUb
+ M9alUV3PUuy5ee8fvxA7.vtpMEsEazT7W8vo27FcUtazb2.oHZOmka5WxICN
+ TD7g4_5HdQfdeLz5qwnPPCOw7TcF9PSNJJvRo8gIdIM8wCTGeJe6yOB4nJq4
+ 2oViI5qRrh2HKztUEm7hvJxpSbSbvaSVZMW4mayOjAyBcYr0FIOWP0JAzcuj
+ yTc8zHabLiyb62TNSvzYXKiXNMzTn49oJDgc1dcue0.fZHZGboN8B2Bh08pk
+ t0BRhsFNFy098TNSSQzA0cvkKjsZOxZqNWeFEdCES9tzM.kC9py5mmcazxHk
+ LDi2pB9UrYEuFv0MKj3QVyl1dyQi7DgACRl0KBNEnN3gcSvDnx9lMYlGxcSj
+ h1zLjpQK.93qXKAxmRq2E1KMZfwTZOQdF7nkEhNTfsCLs_NgJArGzXbM32dQ
+ PrfXQvrRlEojvQ1rGQwvtHOpcsq2xUM8q6ev3IqFSuozcf0EEivGV43rTOW1
+ Jj6KG0BGKyu9ZRcyQpgjhdU6qrKBZYN7cqC.sr7zNKI8begngsFc9BntYIWr
+ z1FjW.ESMKzzNTONYjeyrkpc8KX0dpDoGi0dwUpKcgG6Bv.I9.vIEhATRR0M
+ O8esWyhdwwdB3tEK_3_5U8wGmq2jZUaUWzpU10bTNZ8jr0cSt5SywWzgw6pQ
+ exwZ2g0JMBdEb3RXrNv7JHhX89PuoSVuBsNmgdyhXKfS9.q7HnFqtR9ZcNfn
+ _zQGmvNrfJHB0lDGF8j5_WU0tJ_7Z24uCtg3U1gHIsYXT49XKoMokZH37HP6
+ Vtu7OoZN1bqRpf4tfwN_83h5ggOuf9WU68EMycSJMatbR3nGY13X.DR_YKLQ
+ YLlu7IcfLa7RT8TWUy3x_MZ69GlGsg--
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.217.144.139 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:59:45 +0000
+Received: from github.com (hubbernetes-node-417c316.ac4-iad.github.net [10.52.202.74])
+	by smtp.github.com (Postfix) with ESMTPA id 80C847207C0;
+	Thu, 11 Aug 2022 23:59:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660287585;
+	bh=hN1NJnbb2IGiG0g3MAl+UGf4bPzNQBADs6qH3IeX9HM=;
+	h=Date:From:To:Subject:From;
+	b=SYFr2HToPoZKEnZJLutzpF66DHH+48B7bL/TqUjttBudy1eJqbVV6q3NZY1ilsEyy
+	 aCdA6jAuRIBlySwFXOS7U+z3T1JM0djeAyDoXHudb/o2vynqIDGjr/QYPoGgCPUKZL
+	 aUE0HmfXv2iy0xIGdIyQJyFI62J9kDFDvQSMeUiQ=
+Date: Thu, 11 Aug 2022 23:59:45 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/810560-c21d91@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] c21d91: 40-17G #CONCEALED BY CIK
+ FILER 93715 AND CIK FILER...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 7130
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: c21d91070047f0a9456bfcc8ba9e57000f257342=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/c21d910700=
+47f0a9456bfcc8ba9e57000f257342=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A 50074 90940565+, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-1.eml=0D
+    A Fw 1212-5758 OMISSIONS, OBSTRUCTION, cik 93715 (STFGX)-1.eml=0D
+    A Fwd Fw 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-1-1=
+.eml=0D
+    A Fwd Fw 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-2.e=
+ml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  40-17G #CONCEALED BY CIK FILER 93715 AND CIK FILER 1515623=0D
+=0D
+=0D
+(b) Amount of penalty -=0D
+=0D
+(1) In general. The amount of the accuracy-related penalty is 20 percent =
+of the portion of an underpayment=0D
+of tax required to be shown on a return that is attributable to any of th=
+e types of misconduct listed in paragraphs=0D
+(a)(1) through (a)(3) of this section, except as provided in paragraph (b=
+)(2) of this section.=0D
+=0D
+(2) Increase in penalty for gross valuation misstatement.=0D
+In the case of a gross valuation misstatement, as defined in section 6662=
+(h)(2) and =C2=A7 1.6662-5(e)(2),=0D
+the amount of the accuracy-related penalty is 40 percent of the portion o=
+f an underpayment of tax required=0D
+to be shown on a return that is attributable to the gross valuation misst=
+atement, provided the applicable=0D
+dollar limitation set forth in section 6662(e)(2) is satisfied.=0D
+=0D
+=0D
+=0D
+=C2=A7 1.6662-5 Substantial and gross valuation misstatements under chapt=
+er 1.=0D
+(a) In general. If any portion of an underpayment, as defined in section =
+6664(a) and=0D
+=C2=A7 1.6664-2, of any income tax imposed under chapter 1 of subtitle A =
+of the Code that is=0D
+required to be shown on a return is attributable to a substantial valuati=
+on misstatement=0D
+under chapter 1 (=E2=80=9Csubstantial valuation misstatement=E2=80=9D), t=
+here is added to the tax an amount equal to 20 percent of such portion.=0D=
+
+=0D
+Section 6662(h) increases the penalty to 40 percent in the case of a gros=
+s valuation misstatement under chapter 1=0D
+(=E2=80=9Cgross valuation misstatement=E2=80=9D).=0D
+No penalty under section 6662(b)(3) is imposed, however, on a portion of =
+an underpayment=0D
+that is attributable to a substantial or gross valuation misstatement unl=
+ess the aggregate=0D
+of all portions of the underpayment attributable to substantial or gross =
+valuation misstatements=0D
+exceeds the applicable dollar limitation ($5,000 or $10,000), as provided=
+ in section 6662(e)(2) and paragraphs=0D
+(b) and=0D
+(f)(2) of this section.=0D
+This penalty also does not apply to the extent that the reasonable cause =
+and good faith exception to this penalty=0D
+set forth in =C2=A7 1.6664-4 applies. There is no disclosure exception to=
+ this penalty.=0D
+=0D
+(b) Dollar limitation.=0D
+No penalty may be imposed under section 6662(b)(3) for a taxable year unl=
+ess=0D
+=0D
+the portion of the underpayment for that year that is attributable to sub=
+stantial or gross valuation misstatements exceeds $5,000=0D
+($10,000 in the case of a corporation other than an S corporation (as def=
+ined in section 1361(a)(1));=0D
+=0D
+or a personal holding company (as defined in section 542)).=0D
+=0D
+This limitation is applied separately to each taxable year for which ther=
+e is a substantial or gross valuation misstatement.=0D
+=0D
+=0D
+=0D
+(e) Definitions -=0D
+=0D
+(1) Substantial valuation misstatement.=0D
+There is a substantial valuation misstatement if the value or adjusted ba=
+sis of any property claimed on a=0D
+return of tax imposed under chapter 1 is 200 percent or more of the corre=
+ct amount.=0D
+=0D
+(2) Gross valuation misstatement.=0D
+There is a gross valuation misstatement if the value or adjusted basis of=
+ any property claimed on a return of tax=0D
+imposed under chapter 1 is 400 percent or more of the correct amount.=0D
+=0D
+(3) Property.=0D
+For purposes of this section, the term =E2=80=9Cproperty=E2=80=9D refers =
+to both tangible and intangible property.=0D
+Tangible property includes property such as land, buildings, fixtures and=
+ inventory.=0D
+Intangible property includes property such as goodwill, covenants not to =
+compete, leaseholds, patents,=0D
+contract rights, debts and choses in action.=0D
+=0D
+=0D
+(f) Multiple valuation misstatements on a return -=0D
+=0D
+(1) Determination of whether valuation misstatements are substantial or g=
+ross.=0D
+The determination of whether there is a substantial or gross valuation mi=
+sstatement on a return is=0D
+made on a property-by-property basis. Assume, for example, that property =
+A has a value of 60 but a taxpayer claims a value of 110,=0D
+and that property B has a value of 40 but the taxpayer claims a value of =
+100.=0D
+=0D
+Because the claimed and correct values are compared on a property-by-prop=
+erty basis,=0D
+there is a substantial valuation misstatement with respect to property B,=
+ but not with respect to property A,=0D
+even though the claimed values (210) are 200 percent or more of the corre=
+ct values (100) when compared on an aggregate basis.=0D
+=0D
+(2) Application of dollar limitation. For purposes of applying the dollar=
+ limitation set forth in section 6662(e)(2),=0D
+the determination of the portion of an underpayment that is attributable =
+to a substantial or gross valuation misstatement=0D
+is made by aggregating all portions of the underpayment attributable to s=
+ubstantial or gross valuation misstatements.=0D
+=0D
+Assume, for example, that the value claimed for property C on a return is=
+ 250 percent of the correct value, and that the value claimed for propert=
+y D on the return is 400 percent of the correct value.=0D
+Because the portions of an underpayment that are attributable to a substa=
+ntial or gross valuation misstatement on a return are aggregated in apply=
+ing the dollar limitation, the dollar limitation is satisfied if the port=
+ion of the underpayment that is attributable to the misstatement of the v=
+alue of property C, when aggregated with the portion of the underpayment =
+that is attributable to the misstatement of the value of property D, exce=
+eds $5,000 ($10,000 in the case of most corporations).=0D
+=0D
+(g) Property with a value or adjusted basis of zero.=0D
+=0D
+The value or adjusted basis claimed on a return of any property with a co=
+rrect value or adjusted basis of zero is considered to be 400 percent or =
+more of the correct amount. There is a gross valuation misstatement with =
+respect to such property, therefore, and the applicable penalty rate is 4=
+0 percent.=0D
+=0D
+I ANNEXED THESE - JUST IN CASE.=0D
+RECEIVED NYSCEF: 08/01/2020=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2xkNo2v2/=
+wHD14V7b_PLUS_2njQ=3D=3D=0D
+=0D
+HERE'S THE INVOICE WITH JUNE PAID. INCLUDING LEGAL FEES AND ANY DAMAGES.=0D=
+
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dvd54Sn1RL=
+wYlVxoKhGh0xg=3D=3D=0D
+=0D
+=0D

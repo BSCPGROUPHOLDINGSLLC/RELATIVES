@@ -1,0 +1,120 @@
+From - Fri Aug 12 02:06:39 2022
+X-Account-Key: account1
+X-UIDL: AGruDKUm3JRWYvX7QwU72CXpQJI
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Fri, 12 Aug 2022 07:03:30 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:03:31 +0000
+X-YMailAVSC: NXoGOn43bBsz1SyT5fhgt8y6G8UP__YQqBX2QJGHfvWw2r3
+ co_v.d76DtuN5VJKL0L0EamDw1BlrBV_pYiubAdfU.GgM2h63nppqr5tNqJG
+ EPAkt4dC6fA5bIi_I81k0Oc83NI53Naln76QnWsgxFubDBscD4_FNBMZKDpv
+ YOi_OssPPKmV.XDetZ.oZi2h8gyO3q_JnwIFQ6G5EZauxei8i4VYh3tc7f0e
+ 7VuN4AIW_rgKo7SQIz_1doOt4WgnZDrnjJSQMCSrCHK4a9KSkIXCM3F2Od0_
+ n02tzkWMOKDPM5JBf8XXIOh7DyNjMIrwfGf1ubjZZIMxVIue5ANkO_Cco1c5
+ I6HlSxKLoVixBdzqRUWF7QksB5JDgeYfRtkP2J5Fpony5N2tERZlH.KaHkGW
+ ir8neYipbSJH4gVHhYchDSvMlTd2mFi.AMNCmbsgFNYOb..F6wThxuOnKx9K
+ x_ngA.oKk.OUXoobZVCEXQmomaJB_RGCjj_ASaxpEHzxVkUq83ko8bkcfgfV
+ 52jkWWabVitsTsTUX1Z4I3kNBhm7GJHFGX4mtpLdGnMmlSLj2_Iy2Fs4RPVR
+ tzvBoTEVm9NoxMn9W5C4yjfwAGKUc2j4WSkZBlYM7vh9.Y18O.wW333XcdAi
+ rsz5tmR2qMN9tT0DjYHE.qf1oka4i92Cez_uErSDZNxneyRuNUo2ROacaNmx
+ 9wd.AdF0jcw_1nIDmRtN5ooxQ8bQG5UTwi1BSZbTrdIJvirxvcEc8ttmkjOk
+ HZVfPlOUwVebnk.qmtAHp7NgS3dXelVT6t41T7y9t0NZH28sOUm0L5RzMg6I
+ eyr25qd9UjlR9Dm1GbHFlQhdTikUaiS4l8cnGmvHmDer5ocANqb.xVRrNJye
+ h5O4qy5tUldfrYR7K28KrH2aMY9Bt7xVoG15jTBSdjYHuAdYezAD7V2Fw5bV
+ MEOB2rca1_B0I1J10cmxR7hjp5Avct3Ocer4rj1cxh4V6qJwZs9hOK697K7C
+ 4t25ApoN0geOlWcRNGR295XtgZxZLpPAg33RqGSFZA3zRyxDxh6NEw0DlBPG
+ JSz2C8zYnwrX0y.uF7RKlsMbNytuRBDrX.GJVTDV9u_beMH5uagbC8Q--
+X-YMailISG: EAmdYhUWLDvO6fhfBaH9G5ol0qS4IJ_gH0ZpIv32N7g9Ehb_
+ zJcmxl_ZF7cQi5vexjSSAsjtDin5C.hMf70eSpydHuCHdQ6w9qLn6hZbdI_Q
+ Zt.BZvCadRqyviGxHukveFK1qIBqQ8v2y4tYJKMaBrm5xHLmT0X6iHC_zQCD
+ Aj2pzHI4M3k.IZh3aifJ71Ald5hoWafMwW.CP1Hj_VLOoe8EnSIqS8P7swvi
+ uRzAWBcf9j3Q1eK1gHA3MtO0TbOGZMdXvy0Pel31rPZ71Vcaj27uAiqjZkrJ
+ MawbIJ6W5uwlvD2gGL60VF_fdbKcPLhMa1M3BTQbwvK1iMU0S29QyOuc9wGq
+ Ho.ca1IzbP290pjRtfCqfQZ1Z7NaqpBt9TSjrmNhzgUW1F8AjxeC66g_ezhz
+ 8ED9bmSLfn8Bv7w6gm2dfX7SbrQKeASqMRtSC.hRTNUw_fzmlQBOn0FaQHy2
+ i3RLy0Tf.3sCdnbKAaIidBE5jcZ9TYS2MrEX5.heRes_EBUhK31QTib.JyPd
+ 3AGPG8tJ8brUnuUEsW2xzTVZOafEBsVlUhdKuQH8ngJMgW5ELKjvi06Pm5Kb
+ 94Nqq_2H5ljnMTUQaA02G8ReaT8FTKlxKBEmz36esWjcYCfS6sH9GMp7fiL3
+ RuZiQSry8WyFYcPx12ij6DMqHV3ePa.8M5TlbNgvPcqDWyjc8A.taWiSEyKU
+ sZbKhTFIpssfI3bC61K7qqONZ0Jc.WHjiTTtOKR_fSv1.mUGaAO7yJ9dL9zv
+ Ou6uPtufztMpM69EsAfOS_1ejLh50ysHov070bMjAcxKK8q9j6rpZu3a1al0
+ 2L.Z1JSjxL_yOaVKL6Ui6OC8ZZDsUrStxkbYlIiGcczCB2JYnMUSvH1USsnN
+ Mw3xXgNheqjl99ajpNk6vQT4whEsQHyLSGV_FcGsLK0KEf2y9mGHuWe9hgRo
+ iztANLarUzzQQn.FZwOP9KLqVf2sYtEw6gJihrs2CrX_8l01azbbv965FJdB
+ FcyzHj7_NA049ejkaR75NYaiLn6Rffe3er4U.2ly47S901kkNQddDLcebF9i
+ RQfK5YTGY70dG7Pte0rnbycrc_1hdCqzlzLD1hkdZt7qG5XfdpWFftWRbrxl
+ Sja.ILemwgrGRoNVTraMB7qBhEgee24KTSNGNdKuivU7bIfd7Fx38GcDIUSU
+ KEIWg8g0q9I4EMKmdaEKC7OV1Ien
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.253.231.19 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:03:30 +0000
+Received: from github.com (hubbernetes-node-91006ad.ash1-iad.github.net [10.56.207.99])
+	by smtp.github.com (Postfix) with ESMTPA id 50A4C8403F0;
+	Fri, 12 Aug 2022 00:03:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660287810;
+	bh=19kL96f+bnGKzveuSg12/XeaMC93bdlJ73EkRKFpYzY=;
+	h=Date:From:To:Subject:From;
+	b=iIJmLW+ioyq2yi2DtVaJtokoAN5A1hooL7h5hKdlGnCYbpFJgpya00w6c3r5Y1dRn
+	 2ITulmkLh/M+jt33SiY1g64quiXyIZAGOLwL8Kg2EuPQd79RVFKtrxMONm8XvmSlQO
+	 Wleqo+2+iKAGyj/fI+pRQHoy9QhaARRcLT2kaTfw=
+Date: Fri, 12 Aug 2022 00:03:30 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/e19cfc-fc96e6@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] fc96e6: [CRD FIRM 8209, FINRA MEMBER
+ 6507985 ](https://saa...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 1476
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: fc96e61536e41c97f23bae0390b26377190c704f
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/fc96e61536e41c97f23bae0390b26377190c704f
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+
+  Log Message:
+  -----------
+  [CRD FIRM 8209, FINRA MEMBER 6507985 ](https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf)
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf
+
+

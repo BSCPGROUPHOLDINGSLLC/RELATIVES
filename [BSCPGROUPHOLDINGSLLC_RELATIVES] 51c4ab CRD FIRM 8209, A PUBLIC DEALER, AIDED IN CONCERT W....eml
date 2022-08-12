@@ -1,0 +1,142 @@
+From - Fri Aug 12 01:56:36 2022
+X-Account-Key: account1
+X-UIDL: AJR2vq0Si11kYvX5JgEZQJ1werU
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Fri, 12 Aug 2022 06:54:29 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:54:29 +0000
+X-YMailAVSC: kTquatA3bBvdiuRUqxziECZc0CJGORgFy6MWfVHFKloKtwR
+ ZuQmHYOy35Pvmewd9A.ewEDdHiTnGr6SfZTFnjv_ZNvaj01GDB0eLlO.W0h_
+ 0Yvqi2ai0Mtu8Mri6SyNz_2FSQ9pOg_99fW7lcyQ4hQgPNafiL2K7h9vTEJ4
+ Pq1C_EZfkSS8TVzk.J4Wg4NNbsUT5.lKlheQsUwqFt_QM2MIzHLR12MPaSNr
+ 5DPDLpaKGT7mpW6wBnXnoqv2zQwa_kFjZpNRN1seealzemJGGgW4Y6SFgA9S
+ ZnPOhs_Q9LpsAAotI3eYwxo5behr6MBckM.KjA.NuECVQzNjPSs2JrOCTRnb
+ StL72.lz9DHm7VvNW7boCi.lBiOGe39BtdkJMubWuJIA1_IJ8ExNGkXt4HkB
+ 0MZZc5X7Oix1JnFlMnbaIoXASSDbDg3T8jSEwxBsSfrQNy0gMz2YJqqUtRhs
+ MNEQ1cq2fEEZFha2jxwEFEMbZZvcgdGcZyuatxh4ggt_Z9LoAV_As8KfFAts
+ oMtrjfMuEJ2J7tSXJPpyZHqOb8s3vnjMoQQzb7rxeUfLk81IFXedGTASddJL
+ N_P4O8ObEe8t4sJQuaaNB6dT45VatPWlNyArmV.j_y1p6_xXGGCfUFFoPvTX
+ Y2_NFDPtbsUaV2gH1nncDcuQ49hkwKH6iYyJwIrkOZkfMW9n8qh3lliM4JRU
+ 901szHfea3cn7DhaysL10f0zQE3GEop2WKM3ejHlw5Ag__zKmMh6fD_qXFQR
+ KtqGSsgt984gzWkRHuH6mTMfkKTppZHIf_BoFauIPF38KNtHbnYSrST4nFtM
+ LR3t60gZ3qC7dqUzx3iuJ.vW7XcTqzOe_H7Wr4UFdx9IJWmJJBarqXCWAwgC
+ JoDqwWH9pbCidOU7ACRyNDzOw7gmjwOwhP3hGzuE5I1.wDvzCoTjcHxZ44u.
+ vDy6aW7Hayhf1IArk_J2o2LISTiBgWJql5PkNcruLi_fLEn4gxM6AJrYufgY
+ Gue64X8uZMRkPdWH.5_0Aj0FxI5rAG8s-
+X-YMailISG: Hgy2ZqAWLDtqYZ2eWkMWasB4nG0HMMpwGbkhkQb977dtua70
+ xjYkl.wfGjuftf49nQP3MiO031IE7aXth8DKeQ9s1m8meorXjor58VTpl1Wt
+ mRa7kYbVrzkpODw9SIOfHs1XCbqP_fpGrE8EKVPKGUncMs9CNUBjHRsuyGW7
+ mZPvb_esaEVI2_jqeMZ7J3diABUTQKjfg9euIM_KenYGejtALJei4g8twDjh
+ hyRtP0Q4p6F7BUQQ2ZHyvTrWqt9n0YPhe_.gaQCtfv0vx8OaDqD68t6PTJfr
+ eTsTLWbPVm94.HKBtB948tlY7lzoQmEWT1P57juy.uIzO1UDEpUycVr2hDCB
+ AHy1IfGy4AX7qERTCwvW1INcE4Qjnrc3mtgEEJwk0nwcGfz3IXeeWnPYWGux
+ CCKUhVv35UKoh4pxR9VVFJY5wSv6g9jY9daIeCeCCsSwYbWSXCEsrmsz3fzq
+ WHthA2R.09c2eOboRLpQbBkUfbWE5u0VWRRAgk7VSjwcjQ3iP.Gau5l3qXcD
+ 5qhCz7aCEPncI7GbKe0yW6ptiqohjx3G74E5KFpj7eujczZwA4OMtGewVwIs
+ DauiIeOHJrsR8SssO9rQZvyLey7og01OKbJBa8ZyurpJsCERnyb8Zn_Io8Oh
+ .wT5fNQQKWiTEsC6U7aiBBObzGV0.pI7toyxOvCQ3MVy.NT8e_wf4rJ1lQ8x
+ Ch3YwJAbeMVUFPnMb0En4Ch6sLnlXG4MByU4ehq_cXOPdyvjtkQ0BxnInJkw
+ TEvKuwi5XTQhjiAs8DdWZrc3REI23ENYPZq8KFY3Xj28LKSfFwM3iM.fYN0S
+ VOK9jWRZdyD3SK6.uSCEfkQX3EBSjxsDkrmczK_yjV6twYJwyy5nCcEYImN4
+ ckkAD8hTyP8Bapvgsls5ERmHWR_A9301zI0IfCUqpUvE85XyncwGhBXuRstr
+ 2aAItW4lVrhICNte_97BezVt.awVlSWJlLV_q1ix21c0ua4_zeQ8sP_YcWhG
+ .bxTIxVscGMNMSs.rOFTmLhWM91lgAeJgIa_JZTZAk1LWt_qOpfH2xixFwuj
+ GMJjjymxQJaT27S3HYvD88VUjl1ELpIun2VPeG9V1gD1HgPBzhLF1NP3pVvO
+ V_jZTZQalw8NZOlP0ALEjYq1f75aoq7ziZLzHV4ChJeqOZRrejb32mLULED7
+ GWrf0tZAuAKkvzihJMpybPuRYGoykjbR2XA-
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.253.231.25 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:54:29 +0000
+Received: from github.com (hubbernetes-node-40af66d.ac4-iad.github.net [10.52.208.63])
+	by smtp.github.com (Postfix) with ESMTPA id F082572035E;
+	Thu, 11 Aug 2022 23:54:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660287269;
+	bh=+M2yjUOoASrWc5cgw1y2UnHpngQOzRnZnOj2dnZV8pU=;
+	h=Date:From:To:Subject:From;
+	b=fbK8zvVYwJfU9ie9jZbff5/ZsuFXC8CQE9I3mUUfziuY0jNrjGlNjLCoX8jVeI1KB
+	 TRqUu33ysHkQoqr91XzKK7/xag2zWMxhevFQwORjjLRFqhugjQNh1LefQv7KBbdDth
+	 SFKeQdVykDVydZyL6zBmaJ29lW6Q09nDYO+iFUUI=
+Date: Thu, 11 Aug 2022 23:54:28 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/58b702-51c4ab@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] 51c4ab: CRD FIRM 8209, A PUBLIC
+ DEALER, AIDED IN CONCERT W...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 2148
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: 51c4ab8d6159bf076849c0a58d919d814a519155=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/51c4ab8d61=
+59bf076849c0a58d919d814a519155=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A Fw 398 OBSTRUCTION.eml=0D
+    A Fw B-114. C16-93715 OBSTRUCTION in DEALINGS.eml=0D
+    A Fw B-114. C16-93715 OBSTRUCTION in STFGX - SFITX - STFBX - SFBD.eml=
+=0D
+    A Fw No CO, doi. OBSTRUCTION-1.eml=0D
+    A Fw No CO, doi. OBSTRUCTION.eml=0D
+    A Fw [ OBSTRUCTION ] Summary Notes.eml=0D
+    A Fwd C16-93715 OBSTRUCTION..eml=0D
+    A Fwd OBSTRUCTION C16-93715. OMISSIONS=E2=80=94.eml=0D
+    A Fwd [ 1516523 ( ) 93715 ] OBSTRUCTION-1.eml=0D
+    A Fwd [ 1516523 ( ) 93715 ] OBSTRUCTION.eml=0D
+    A Fwd [ MSCO OMMISSIONS ] OBSTRUCTION 153974 1516523.eml=0D
+    A Fwd [ MSCO in the BCC ] OBSTRUCTION-1.eml=0D
+    A Fwd [ MSCO in the BCC ] OBSTRUCTION.eml=0D
+    A OBSTRUCTION & Summary Notes for Review..eml=0D
+    A OBSTRUCTION T1.eml=0D
+    A OBSTRUCTION.eml=0D
+    A Obstruction and Avoidance to Prison -- they still hide.eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  CRD FIRM 8209, A PUBLIC DEALER, AIDED IN CONCERT WITH LOCATION 1. GPS=0D=
+
+=0D
+15 U.S. Code =C2=A7 78r - Liability for misleading statements=0D
+=EF=BB=BF=0D
+1. Reference https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BERNIE/ra=
+w/main/2020_05_27%20-%20INDEX%20and%20PAPERS.pdf=0D
+=0D
+^ 1 REFERENCE.  summarizes those economic interests and freedoms, white c=
+ollar crimes and USC Title 18.225, violations under Continuing Financial =
+Crimes, and on my watch I filed upon discovery in the matter of NYSCEF 15=
+3974/2020, which the Plaintiff was confused as to which Felony it was avo=
+iding, and impeded the timely release to you and yours.=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pull/1=0D
+=0D
+=0D
+1. Coverpage =0D
+=0D
+=0D
+=0D
+=0D
+Nearly $1 billion lost in a single session and no CORPACT BY FILER 93715,=
+ or FILER 1516523.=0D
+=0D
+=0D

@@ -1,0 +1,322 @@
+From - Fri Aug 12 02:06:38 2022
+X-Account-Key: account1
+X-UIDL: ANgHEEpYnAUmYvX6LAliWCvcDsE
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.134.141
+ by atlas318.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 06:58:52 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.202]
+Received-SPF: pass (domain of github.com designates 192.30.252.202 as permitted sender)
+Authentication-Results: atlas318.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:58:52 +0000
+X-YMailISG: v.nOSl0WLDvegcynZojFHZzHq1tm0Twjz16xcPgmtWRN4a3a
+ GSg15VPh9qACgU5TldHmtklEa3lS4hV7NyWRNXwtCevlzjV36BxvO_Bl.wu3
+ 4lbawfv65C_zaN0a2U467wFBVd_gdZs__CmCt7_agO6Mc21Ev6E3JRR0z0TS
+ WXMvgv5KLRegbJbo0SGghtkvdvkfomnBan0Jm4P7FtYvd2K0pMvqLMmOPO1g
+ MLZrC6Tg3FkXFDSYWZugDbCHs5kR2hJLVaxp3viEN3OTI2IPVvIhRnBZURAk
+ VI42_aGAK_C2Ua46VoUkHrTHRLN2HWnVWgaOZMRZHicGOkBFMwuApub54xfw
+ Ho2rTmqZnqRbQ7_JNbDi9z_SM3FUkz0.lGZZdOKgjzH75h0m8d.pq0Z0GW7b
+ XgbN_WrxOAiUD1JLpEkPmRkLCUHfZmK0PjIK8mFJM.E6Jqe8PlJQI1.kntmw
+ DKd2Z7C0fkRa04eI1FRhpFYNQOeOCUTBHMTgWlQ1OCVH7wca8kfG978mebbU
+ KziIrRMcbQu.ksidoJGguCR8xaRgEfz.GquyzTsmk8Em4qrN2GRvmMRIpDUB
+ WySFrMjpmqFqzRe9k.r8Qk6ElEEPrSPBXGG7x0a9blpN28nV5RU.wa7jeVew
+ AhIQcYS2e19pSLRKUSLj7b7zoVo_Qb0VNIJq3NAVvDU08TUS0DNdBW9vLdkz
+ GdjrKSIwbFZJpNmNF5djb5jtihhBPDeHKHSjm53USOF2yndSsvIaLfQbd5ND
+ Z48I49Xj925GQGKFOgPsAuNYJpCr_fhBWPkCRmlyuKFnk2pbgAEGOpNMivpB
+ 9_tWk4.nLUERymSoNC0gyA6W91TP2YrtMwP7hOWUiaFjwivfEZPx.zRuvR9v
+ 5pxiZ0ufAV17wIwVCtA7eSW4uLKPznnBhlsZMwUxGo42fUo0ArBidfxJCTOC
+ CbQqatwzZAT8qC6JxOeLkkyaWW1exte3NWBqU_7VoKk56jMvh6Y7B3CiOzUr
+ FVxdofj_aZuGRTS6YpFoRr30P1j1Y0.MNuneus4cyY9WLC7Q8wi4QaBINr8_
+ OEQGjLzUUnntDfa0JFPelGWK5HvbPSD.GKaVbMe1cvz52Fsd3x5OuzdbzctB
+ OWxn4xB4jGUiMcHNy1KpJQMpdB.ndxmQHGrhpfJ3xKbtdnBPgc7FOxRyd7nP
+ ZfIMKCOrffHX4ADq6AncpA--
+Received: from 192.30.252.202 (EHLO out-19.smtp.github.com)
+ by 10.217.134.141 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:58:52 +0000
+Received: from github.com (hubbernetes-node-03733ab.va3-iad.github.net [10.48.125.86])
+	by smtp.github.com (Postfix) with ESMTPA id BD3AAE00C8;
+	Thu, 11 Aug 2022 23:58:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660287531;
+	bh=LrAByhDsT3afAPOjMgmjlyzPAJsaMftSxtr7c1sCe6o=;
+	h=Date:From:To:Subject:From;
+	b=kutg0qxLEjZKgQJi0bZ7CSLnXmNWhC5uXvE9hojXsesFjdT2pk+6jTZnyvitFwc24
+	 ZpCMNwv24J0bYibFwfR+sJNSNoF5kchZAXq2Tm822s9AQ+u1KzvE2WRa90ErZJufX5
+	 hA8wr2g8dt648nvQ18pi46cbgGFy6FhHCAV87rDA=
+Date: Thu, 11 Aug 2022 23:58:51 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/2a601c-810560@github.com>
+Subject: =?UTF-8?Q?[BSCPGROUPHOLDINGSLLC/RELATIVES]_810560:_26_U.S._Code?=
+ =?UTF-8?Q?_=C2=A7_6662_=281=29_Negligence_or_disregard_of...?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 11393
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: 810560433ac18bb83baa67906d238fc2a4f3516a=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/810560433a=
+c18bb83baa67906d238fc2a4f3516a=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A spacer-SaazdxP0 - Copy (2) - Copy - Copy - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy (2) - Copy - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy (2) - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy (2) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (2) - Copy - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (2) - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (2) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (2).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (3) - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (3) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (3).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (4) - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (4) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (4).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (5) - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (5) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (5).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (6) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (6).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (7) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy (8) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (2) - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (2) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (2).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (3) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (3).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (4) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (4).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (5) - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (5).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy (6).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy (2).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy (3).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy (4).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy (5).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy - Copy (2).gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy - Copy.gif=0D
+    A spacer-SaazdxP0 - Copy - Copy.gif=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  26 U.S. Code =C2=A7 6662 (1) Negligence or disregard of rules or regula=
+tions (see =C2=A7 1.6662-3);=0D
+=0D
+26 U.S. Code =C2=A7 6662 - Imposition of accuracy-related penalty on unde=
+rpayments=0D
+=0D
+=C2=A7 1.6662-2 Accuracy-related penalty.=0D
+(a) In general. Section 6662(a) imposes an accuracy-related penalty on an=
+y portion of an underpayment of tax (as defined in section 6664(a) and =C2=
+=A7 1.6664-2) required to be shown on a return if such portion is attribu=
+table to one or more of the following types of misconduct:=0D
+=0D
+(1) Negligence or disregard of rules or regulations (see =C2=A7 1.6662-3)=
+;=0D
+=0D
+(2) Any substantial understatement of income tax (see =C2=A7 1.6662-4); o=
+r=0D
+=0D
+(3) Any substantial (or gross) valuation misstatement under chapter 1 (=E2=
+=80=9Csubstantial valuation misstatement=E2=80=9D or =E2=80=9Cgross valua=
+tion misstatement=E2=80=9D), provided the applicable dollar limitation se=
+t forth in section 6662(e)(2) is satisfied (see =C2=A7 1.6662-5).=0D
+=0D
+=0D
+(b) Amount of penalty -=0D
+=0D
+(1) In general. The amount of the accuracy-related penalty is 20 percent =
+of the portion of an underpayment=0D
+of tax required to be shown on a return that is attributable to any of th=
+e types of misconduct listed in paragraphs=0D
+(a)(1) through (a)(3) of this section, except as provided in paragraph (b=
+)(2) of this section.=0D
+=0D
+(2) Increase in penalty for gross valuation misstatement.=0D
+In the case of a gross valuation misstatement, as defined in section 6662=
+(h)(2) and =C2=A7 1.6662-5(e)(2),=0D
+the amount of the accuracy-related penalty is 40 percent of the portion o=
+f an underpayment of tax required=0D
+to be shown on a return that is attributable to the gross valuation misst=
+atement, provided the applicable=0D
+dollar limitation set forth in section 6662(e)(2) is satisfied.=0D
+=0D
+=0D
+=0D
+=C2=A7 1.6662-5 Substantial and gross valuation misstatements under chapt=
+er 1.=0D
+(a) In general. If any portion of an underpayment, as defined in section =
+6664(a) and=0D
+=C2=A7 1.6664-2, of any income tax imposed under chapter 1 of subtitle A =
+of the Code that is=0D
+required to be shown on a return is attributable to a substantial valuati=
+on misstatement=0D
+under chapter 1 (=E2=80=9Csubstantial valuation misstatement=E2=80=9D), t=
+here is added to the tax an amount equal to 20 percent of such portion.=0D=
+
+=0D
+Section 6662(h) increases the penalty to 40 percent in the case of a gros=
+s valuation misstatement under chapter 1=0D
+(=E2=80=9Cgross valuation misstatement=E2=80=9D).=0D
+No penalty under section 6662(b)(3) is imposed, however, on a portion of =
+an underpayment=0D
+that is attributable to a substantial or gross valuation misstatement unl=
+ess the aggregate=0D
+of all portions of the underpayment attributable to substantial or gross =
+valuation misstatements=0D
+exceeds the applicable dollar limitation ($5,000 or $10,000), as provided=
+ in section 6662(e)(2) and paragraphs=0D
+(b) and=0D
+(f)(2) of this section.=0D
+This penalty also does not apply to the extent that the reasonable cause =
+and good faith exception to this penalty=0D
+set forth in =C2=A7 1.6664-4 applies. There is no disclosure exception to=
+ this penalty.=0D
+=0D
+(b) Dollar limitation.=0D
+No penalty may be imposed under section 6662(b)(3) for a taxable year unl=
+ess=0D
+=0D
+the portion of the underpayment for that year that is attributable to sub=
+stantial or gross valuation misstatements exceeds $5,000=0D
+($10,000 in the case of a corporation other than an S corporation (as def=
+ined in section 1361(a)(1));=0D
+=0D
+or a personal holding company (as defined in section 542)).=0D
+=0D
+This limitation is applied separately to each taxable year for which ther=
+e is a substantial or gross valuation misstatement.=0D
+=0D
+=0D
+=0D
+(e) Definitions -=0D
+=0D
+(1) Substantial valuation misstatement.=0D
+There is a substantial valuation misstatement if the value or adjusted ba=
+sis of any property claimed on a=0D
+return of tax imposed under chapter 1 is 200 percent or more of the corre=
+ct amount.=0D
+=0D
+(2) Gross valuation misstatement.=0D
+There is a gross valuation misstatement if the value or adjusted basis of=
+ any property claimed on a return of tax=0D
+imposed under chapter 1 is 400 percent or more of the correct amount.=0D
+=0D
+(3) Property.=0D
+For purposes of this section, the term =E2=80=9Cproperty=E2=80=9D refers =
+to both tangible and intangible property.=0D
+Tangible property includes property such as land, buildings, fixtures and=
+ inventory.=0D
+Intangible property includes property such as goodwill, covenants not to =
+compete, leaseholds, patents,=0D
+contract rights, debts and choses in action.=0D
+=0D
+=0D
+(f) Multiple valuation misstatements on a return -=0D
+=0D
+(1) Determination of whether valuation misstatements are substantial or g=
+ross.=0D
+The determination of whether there is a substantial or gross valuation mi=
+sstatement on a return is=0D
+made on a property-by-property basis. Assume, for example, that property =
+A has a value of 60 but a taxpayer claims a value of 110,=0D
+and that property B has a value of 40 but the taxpayer claims a value of =
+100.=0D
+=0D
+Because the claimed and correct values are compared on a property-by-prop=
+erty basis,=0D
+there is a substantial valuation misstatement with respect to property B,=
+ but not with respect to property A,=0D
+even though the claimed values (210) are 200 percent or more of the corre=
+ct values (100) when compared on an aggregate basis.=0D
+=0D
+(2) Application of dollar limitation. For purposes of applying the dollar=
+ limitation set forth in section 6662(e)(2),=0D
+the determination of the portion of an underpayment that is attributable =
+to a substantial or gross valuation misstatement=0D
+is made by aggregating all portions of the underpayment attributable to s=
+ubstantial or gross valuation misstatements.=0D
+=0D
+Assume, for example, that the value claimed for property C on a return is=
+ 250 percent of the correct value, and that the value claimed for propert=
+y D on the return is 400 percent of the correct value.=0D
+Because the portions of an underpayment that are attributable to a substa=
+ntial or gross valuation misstatement on a return are aggregated in apply=
+ing the dollar limitation, the dollar limitation is satisfied if the port=
+ion of the underpayment that is attributable to the misstatement of the v=
+alue of property C, when aggregated with the portion of the underpayment =
+that is attributable to the misstatement of the value of property D, exce=
+eds $5,000 ($10,000 in the case of most corporations).=0D
+=0D
+(g) Property with a value or adjusted basis of zero.=0D
+=0D
+The value or adjusted basis claimed on a return of any property with a co=
+rrect value or adjusted basis of zero is considered to be 400 percent or =
+more of the correct amount. There is a gross valuation misstatement with =
+respect to such property, therefore, and the applicable penalty rate is 4=
+0 percent.=0D
+=0D
+I ANNEXED THESE - JUST IN CASE.=0D
+RECEIVED NYSCEF: 08/01/2020=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2xkNo2v2/=
+wHD14V7b_PLUS_2njQ=3D=3D=0D
+=0D
+HERE'S THE INVOICE WITH JUNE PAID. INCLUDING LEGAL FEES AND ANY DAMAGES.=0D=
+
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dvd54Sn1RL=
+wYlVxoKhGh0xg=3D=3D=0D
+=0D
+(b) Amount of penalty -=0D
+=0D
+(1) In general. The amount of the accuracy-related penalty is 20 percent =
+of the portion of an underpayment=0D
+of tax required to be shown on a return that is attributable to any of th=
+e types of misconduct listed in paragraphs=0D
+(a)(1) through (a)(3) of this section, except as provided in paragraph (b=
+)(2) of this section.=0D
+=0D
+(2) Increase in penalty for gross valuation misstatement.=0D
+In the case of a gross valuation misstatement, as defined in section 6662=
+(h)(2) and =C2=A7 1.6662-5(e)(2),=0D
+the amount of the accuracy-related penalty is 40 percent of the portion o=
+f an underpayment of tax required=0D
+to be shown on a return that is attributable to the gross valuation misst=
+atement, provided the applicable=0D
+dollar limitation set forth in section 6662(e)(2) is satisfied.=0D
+=0D
+=0D
+=0D
+=C2=A7 1.6662-5 Substantial and gross valuation misstatements under chapt=
+er 1.=0D
+(a) In general. If any portion of an underpayment, as defined in section =
+6664(a) and=0D
+=C2=A7 1.6664-2, of any income tax imposed under chapter 1 of subtitle A =
+of the Code that is=0D
+required to be shown on a return is attributable to a substantial valuati=
+on misstatement=0D
+under chapter 1 (=E2=80=9Csubstantial valuation misstatement=E2=80=9D), t=
+here is added to the tax an amount equal to 20 percent of such portion.=0D=
+
+=0D
+=0D

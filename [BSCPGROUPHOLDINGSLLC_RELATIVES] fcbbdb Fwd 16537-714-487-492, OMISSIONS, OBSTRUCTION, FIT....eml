@@ -1,0 +1,453 @@
+From - Fri Aug 12 01:56:34 2022
+X-Account-Key: account1
+X-UIDL: ABcXS65J3X8wYvX3Ugc7kN72a3A
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.72
+ by atlas120.free.mail.bf1.yahoo.com with HTTPS; Fri, 12 Aug 2022 06:46:42 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas120.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:46:42 +0000
+X-YMailAVSC: lSP2d2Q3bBuvjDALbstfNJlubgUrGZjcI03lNugUXR6gQwi
+ un1zrNfw9tqvTszhT6rof_qqkYgWGKNgWu1.jn6b0RhwFrl8B9WjvV2T5Hz8
+ qWh9G7FLiqGl9vCg0_AJPB_uRlHIBcKYt0T2m3N3_vEV8zbEJMXvsvsXIuwk
+ aOp255af1PX6iPz49ouJ9CVRNBWAjdviIzwPO8wG7QM1MpIkeZ.p1vwEg1fv
+ 4FKxV3CzxwS.Dje8Z4d6Ijo60NaYd4KPkoXQD2JK_kJYJQP6aVQOAmVMVLsZ
+ _a9jwwOuAvc0zPZDPsJFYG8rjtbpK4gCsbPZH4vUqDhKNIJq7KMaAu3dQeuz
+ NrAYGXZKQqCGAk8efCHONbzL5Gp25dK9pkoyMV5htkEEQOf8_aZLKCu_I9lZ
+ cwnhqOsc4mRXH6nihIPy15tzozd237PItyY3sC11zXdtpOYpF.H7_tQ6rpHo
+ pwebeCY4Jm4FDvKlPoN1rlT9Eyactj2lOf_iIurj_1GBrGhF9Z729nnl.7Q_
+ ZJqbB2eimhVtWef6odJsLlJ2VPEwxJy3FniEQklptAVcG3gsuvb_lHoTVaBq
+ 9gndidUvEqMlxJ7i_ZxRiKOihQS6EVmHLg1R4rNxahblk_ja35cZ9YvXgK2O
+ zxXAxN497.j2Wse4psDoJ7032BLkmpi_Eru_gCQKGzGB9JFIm9v7ox10Br16
+ wjclQrLPoKU5eI9i2979jCelWIboDu3TLnoE4cHLrUN0YDMqQmdLkW3XPK3v
+ 4TJ8XMXzBtjpPTlRzAGWPGBtYUDenxjv6XYV9PaXb.HaaspCOwENfSFLE_Ws
+ vRBYayT_cqVf7KMINKaUJu6P1P7dFKBllfQoRCxUZRgiqN0jfgLu.meRHfAB
+ H.2b0E0EpZyW5IChXefth1UtWsrzvnZdHBE3VQ6dfAgx9zRIJU5FhYdwHrwn
+ rAlM64cdbeLGfpLt_pmE0lj.4foo8VO_O3621vc5kaLLmSci58BgI278ZNxw
+ BBEgdv5eIPTTCsRdzSLiMdndwmCjlGhUlZ8N319tFzSyii4.LEujxpHJUXhx
+ _04GtxglhNn1pk5rJrTp61qZ4lup0UQzXYzuhaqB5fYMQ6NIkwpqjcpUcL1D
+ zhxT8Kt3JDUoJeVVbjiVn40US07I1kRhcqXS.ABbQYLbZ4D78NEAErpTAqEp
+ ud4TMnAdVp93esbe7FGz5Uwg.NIQ.VnFnqGewOjkkyXggEA--
+X-YMailISG: 7lV_ayAWLDuVxj80Dp7yX1bqsBm.CkYTYKCmd.1LfzA9ByyU
+ KRG9Dq65XzsSqaOnl13RqrMpbRMD9xrOG93Srjmz84ObcNwK.WFtEw8ZZap2
+ VCoDon8mUjRKyHZ1Ra0c2_EOm4ViepEN7awYoMStqp8IGW77gCJaUGUuJ8rz
+ q_abpxZN4eFbgcAx.4RrQYAZ839Cux.x7.m2Tf5FDqMfh6D_iPjtqSbUG_xh
+ HFo8tk4GIY1U94ENpzGbws0XDMcuohnWs3fXjzp0xAjLQOOZeB92NANoLxbA
+ E4t8eYkvU7Rq7xCAh.KFph7X24hAm6CrJgHeApJqkBgUjM1r1OkX5aXHN5Z4
+ GsnPvCMj.EYLVQeIo3Ce.gdkbDLWnZyRnCg_5F2ddY5tLVYiNBY6zkvrWVTz
+ qH3wjP3rLoWlImbbxLVls8KOyC5Ts02MjPEMDML2C5epnIa2hPF3xRb3ZBi7
+ fJJKB_PDVpXSEfIc0auOw_jsG6NxbpenZ0s2qAlEK7x.9K5OOkDVQQYA4qCf
+ 5SwruW2U.TJ2Jwj8k_t.C779mWOCq06vBB_hYJLW8hUcAuR_obUNDlG0JgSO
+ QtlBg33ZUb70yCjWF3ufJ7JuJuW2SMWcM7Gw5e_vM5A6TD3YvuBvv2VIv8Fv
+ Ym12WszZRyMAt57nMtZ7l1OAXwO5Wr19IFsODuXjJNBo0i8gqSJLHBwZHQBb
+ LRTmBI20cXyEV.i3LQ0xibOb0XX_SPfZWHfvpNcdpwcIOoZOH6Ib_I70Ly8x
+ nzNDr_CE3Ec8.3jFH9N85zvsNmOpYETMuiQsR5gNBLIf5oWLiGFKy_GM40f1
+ flWtVehy9vE65z7KTAQmyVz4DaUhDla.xZhhw9C3oZoQ_0sspWN4u0oiE43r
+ g6w3BomC0dI3WJrOe9l2glLJYa3Cw1HCIWoOBkRGpzBH5mUkHnIGtbojyUfa
+ .9eZ_04vslHbSaFyOuzF4RKv3SC0UWvbHxptVaGKbndVtyZjHOA.ljLhS9ce
+ 3zr6hHbbwSH6FjR0n_RDMUGfX9LdXi_FlSIk_TvVuol7Pz__AE9G0nv5Cy8I
+ xw9JF3pzbNFPlffonkfwfxehYQJsbCEjqsc2yXtdNf6tTSvlZuPuCmGFcI62
+ sFcxvtmpxK2SH_uJ7_adzJkCTwNBjeLuLU8Hw.GnsjJ7GPcQsEKBxqzY1tOz
+ hycftZm9QDTef2SX5kwwakg-
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.197.40.72 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:46:42 +0000
+Received: from github.com (hubbernetes-node-a4b35b2.ac4-iad.github.net [10.52.201.26])
+	by smtp.github.com (Postfix) with ESMTPA id 0D5BB60072D;
+	Thu, 11 Aug 2022 23:46:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660286802;
+	bh=jart2/rjU5EJo8Bj8A++D+UcnIjCLyrycjbIYsComJw=;
+	h=Date:From:To:Subject:From;
+	b=pGeWl+qoFpg3k3XEfg0hlPNUoNbiY28EFT6QkWue3pKB6Sdv2moyjWplK93KHKING
+	 HIK013Ol45VKS5uU/ypYua0MEIwphRLirMP6km7SZT0PTUmhS5yry1Xz/JQ2czXTQX
+	 LeiL7rqSGezSrAiBt6yF6NCe5U0ZaLWy55rr5SPw=
+Date: Thu, 11 Aug 2022 23:46:42 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/8aff51-fcbbdb@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] fcbbdb: Fwd 16537-714-487-492,
+ OMISSIONS, OBSTRUCTION, FIT...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 15866
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: fcbbdb80fcb5f9d4d6b0126dc9f28284b97e9496=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/fcbbdb80fc=
+b5f9d4d6b0126dc9f28284b97e9496=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    M Fwd 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC..eml=0D=
+
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-1-1.eml=
+=0D
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-10.eml=0D=
+
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-2-1.eml=
+=0D
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-2.eml=0D=
+
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-3.eml=0D=
+
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-4.eml=0D=
+
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-5.eml=0D=
+
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-6.eml=0D=
+
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-7.eml=0D=
+
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-8.eml=0D=
+
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-9.eml=0D=
+
+    A Re For aided Obstruction of TAX invocation to State Farm..eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  Fwd 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC..eml=0D
+=0D
+Fwd 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC..eml=0D
+---=0D
+PROPERTY REPORT (see also: Miwa and Teschman) 	Assignment to Zucker 05/26=
+/2020 	=0D
+	Filed: 08/04/2020 			Confirmation Notice=0D
+ 307  	EXHIBIT(S)  - OPP  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY 	Fil=
+ed: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3M=
+t2U6UigWCM9XQ=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 308  	EXHIBIT(S)  - 503  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV] 	Filed: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxN=
+V4Y4DTX6pANaA=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 309  	EXHIBIT(S)  - no1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH  	Filed: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0=
+G0QvnmRLGpYIQ=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 310  	EXHIBIT(S)  - AC0  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2019000021408)2019010800475001 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9a=
+kRV9TGfXXJT/g=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 311  	EXHIBIT(S)  - AC1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n=
+3kGwHqebPg0fw=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 312  	EXHIBIT(S)  - AC2  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155421)2020052000291002 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2Pq=
+XuxmoKqFiESrw=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 313  	EXHIBIT(S)  - AC3  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn6=
+6hrVmJ9DX_PLUS_bdg=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 314  	EXHIBIT(S)  - AC4  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155423)2020052000291004 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 315  	EXHIBIT(S)  - ACR  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH - htt=
+ps://a836-acris.nyc.gov/ 	=0D
+	Filed: 08/09/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm=
+0ynPeXZKSHgLQ=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 316  	EXHIBIT(S)  - Bu0 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+COMPLAINT #14585819 (7/25/2020) @BBB 	Filed: 08/09/2020 	Confirmation Not=
+ice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVf=
+WOLjSXhyJZ94A=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+=0D
+=0D
+#### CERTIFICATES OF OCCUPANCY AT ALL RELEVANT TIMES. FOR THE LOAN 50074 =
+(ALSO FILED IN NYSCEF 153974/2020)=0D
+=0D
+ 230  	EXHIBIT(S)  - COr 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YORK=
+ 10012 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 231  	EXHIBIT(S)  - COf 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW YORK, NEW YORK 1001=
+2 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKf=
+no_PLUS_ol5jFakV9g=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 232  	EXHIBIT(S)  - MEW  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+Miwako Messer (AFFIDAVIT) IS REPORTED AS A 25 YEAR AFFILIATE OF THE PLAIN=
+TIFF 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D72GIYXnN1=
+f/CSjCYtDxKUw=3D=3D 	=0D
+	Received: 08/04/2020 	=0D
+=0D
+ 233  	EXHIBIT(S)  - MW1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+Affidavit of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED 	=0D=
+
+	Filed: 08/04/2020 		Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DG5D0bfOIy=
+4SeSXS47aSWbw=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 234  	EXHIBIT(S)  - VER 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+NO COMPLAINTS HAVE BEEN FILED IN MY BUILDING - PER DEPARTMENT OF BUILDING=
+S RECORDS. 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKf=
+no_PLUS_ol5jFakV9g=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 235  	EXHIBIT(S)  - 804  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+property report (see also: Miwa and Teschman) Assignment to Zucker 0526 	=
+=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DOioy2FAQ_=
+PLUS_uuEatGhmc4JnA=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+=0D
+<MOV DISTRIBUTION WITHOUT CONSENT>=0D
+[Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA=
+.EDU CONFIRMED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZING=
+RAMLLP.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip=
+)=0D
+	=0D
+## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.=0D
+[ 50074 EAST ++ ]=0D
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae38=
+7cc=0D
+	*** 	***	***=0D
+Your fax (ID: #31316917) to VARIOUS at 212-401-9146 has been delivered su=
+ccessfully at 12:12 AM EST on June 26th, 2022.=0D
+=0D
+=0D
+=0D
+https://faxzero.com/status/30246810/5331540dcefa70818b47fb597bf6a69acfd10=
+6be=0D
+	*** 	***	***=0D
+Your fax (ID: #30246810) to DONALD ZUCKER at 2125869867 has been delivere=
+d successfully at 9:50 PM EST on December 1st, 2021.=0D
+	=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+Your fax (ID: #30666994) to IRS CRIMINAL INVESTIGATIONS at 2674661115 has=
+ been delivered successfully at 11:44 PM EST on February 20th, 2022.=0D
+	=0D
+https://faxzero.com/status/30852826/92a1a0570d178d0311eb3764f01842d3ceb65=
+513=0D
+Your fax (ID: #30852826) to JOE MONK at 8164714832 has been delivered suc=
+cessfully at 4:42 AM EST on March 26th, 2022.=0D
+=0D
+---=0D
+	=0D
+# CASE FILE INFORMATION DISTRIBUTED - BY AND BETWEEN ALL RELEVANT PARTIES=
+=0D
+*** FDIC-01413744, LOCATION 1=0D
+	=0D
+FILE 1: [_30--FDIC-01413744 [ 50074 EST ++ ].pdf](https://github.com/WILS=
+ON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/files/8985964/_30--FDIC-01413744.50074.EST.%2B%2B.pdf)=0D
+    =0D
+FILE 2: [_30--FDIC-01413744 [ 50074 EST ++ ] 999.pdf](https://github.com/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZU=
+CKER/files/8985960/_30--FDIC-01413744.50074.EST.%2B%2B.999.pdf)=0D
+=0D
+FILE 3: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-3.pdf](https://github.co=
+m/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/files/8985961/_30--FDIC-01413744.50074.EST.%2B%2B.999-3.pdf)=0D
+=0D
+	=0D
+FILE 4: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-12.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985962/_30--FDIC-01413744.50074.EST.%2B%2B.999-12.pdf)=0D
+	=0D
+FILE 5: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-76.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985963/_30--FDIC-01413744.50074.EST.%2B%2B.999-76.pdf)=0D
+=0D
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D=0D
+	=0D
+# VIDEO.MOV DISTRIBUTION BY AND BETWEEN [@INGRAMLLP.COM] AND [@WILSONELSE=
+R.COM]=0D
+	[ MULE 1 ] [ MULE 2 ]=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 287 RECEIVED NYSCEF: 08/04/2020=0D
+Sent: Sunday, July 19, 2020 5:49 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+---=0D
+## Consumer Response Unit ( THANK YOU VERY MUCH FOR YOUR ASSISTANCE)=0D
+** National Center for Consumer and Depositor Assistance=0D
+** Federal Deposit Insurance Corporation =0D
+=0D
+### USC 18. =C2=A7208. Acts affecting a personal financial interest=0D
+=0D
+=0D
+(a) Except as permitted by subsection (b) hereof, whoever, being an offic=
+er or employee of the executive branch of the United States Government, o=
+r of any independent agency of the United States, a Federal Reserve bank =
+director, officer, or employee, or an officer or employee of the District=
+ of Columbia, including a special Government employee, participates perso=
+nally and substantially as a Government officer or employee, through deci=
+sion, approval, disapproval, recommendation, the rendering of advice, inv=
+estigation, or otherwise, in a judicial or other proceeding, application,=
+ request for a ruling or other determination, contract, claim, controvers=
+y, charge, accusation, arrest, or other particular matter in which, to hi=
+s knowledge, he, his spouse, minor child, general partner, organization i=
+n which he is serving as officer, director, trustee, general partner or e=
+mployee, or any person or organization with whom he is negotiating or has=
+ any arrangement concerning prospective employment, has a financial inter=
+est-Shall be subject to the penalties set forth in section 216 of this ti=
+tle.=0D
+(b) Subsection (a) shall not apply-=0D
+(1) if the officer or employee first advises the Government official resp=
+onsible for appointment to his or her position of the nature and circumst=
+ances of the judicial or other proceeding, application, request for a rul=
+ing or other determination, contract, claim, controversy, charge, accusat=
+ion, arrest, or other particular matter and makes full disclosure of the =
+financial interest and receives in advance a written determination made b=
+y such official that the interest is not so substantial as to be deemed l=
+ikely to affect the integrity of the services which the Government may ex=
+pect from such officer or employee;=0D
+(2) if, by regulation issued by the Director of the Office of Government =
+Ethics, applicable to all or a portion of all officers and employees cove=
+red by this section, and published in the Federal Register, the financial=
+ interest has been exempted from the requirements of subsection (a) as be=
+ing too remote or too inconsequential to affect the integrity of the serv=
+ices of the Government officers or employees to which such regulation app=
+lies;=0D
+(3) in the case of a special Government employee serving on an advisory c=
+ommittee within the meaning of the Federal Advisory Committee Act (includ=
+ing an individual being considered for an appointment to such a position)=
+, the official responsible for the employee's appointment, after review o=
+f the financial disclosure report filed by the individual pursuant to the=
+ Ethics in Government Act of 1978, certifies in writing that the need for=
+ the individual's services outweighs the potential for a conflict of inte=
+rest created by the financial interest involved...=0D
+=0D
+=0D
+---=0D
+ALL FILES FOLLOWED THE FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DENIE=
+D.=0D
+STEP 1: COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED ] EX-POST=
+ IN 2021=0D
+---=0D
+*** E-mail Notifications ***=0D
+An email regarding this filing has been sent to the following on 08/09/20=
+20 02:31 AM=0D
+#### SHARI LASKOWITZ - slaskowitz@ingramllp.com [ MULE ]=0D
+*** [ MULE NUMBER 1: slaskowitz@ingramllp.com] ***=0D
+*** [ MULE NUMBER 2: ASHLEY.HUMPHRIES@WILSONELSER.COM] ***=0D
+*** [ MULE NUMBER 3: CWEISS@INGRAMLLP.COM] ***=0D
+RE: MULE NUMBER 3, I AM NOT POSITIVE IF IT IS A REAL PERSON.=0D
+*** THESE ARE LIST SERV ADDRESSED MONITORED BY WHOEVER MAY OR MAY NOT BE =
+AVAILABLE, DEPENDING ON WHEN AND WHAT IS BEING DEALT WITH.=0D
+ADMINISTRATION@MSKYLINE.COM; LZUCKER@MSKYLINE.COM; ADMINISTRATOR@MSKYLINE=
+.COM; LEGAL@MSKYLINE.COM; LEGALASST@MSKYLINE.COM; SGO@COLUMBIA.EDU; SCCS@=
+COLUMBIA.EDU...=0D
+[ LOCATION 1 - FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOM=
+AINS=0D
+---=0D
+[LOCATION 3] @MSKYLINE.COM=0D
+[LOCATION 2] @WILSONELSER.COM, @INGRAMLLP.COM=0D
+[LOCATION 1] @COLUMBIA.EDU=0D
+---=0D
+WITHOUT CONSENT, PHOTOGRAPHED AND VIDEOTAPED THE INTERIOR OF MY APARTMENT=
+ - THEN HOSTED THEM ON THE INTERNET AS WELL.=0D
+*** NOTWITHSTANDING THE INDETERMINATE NUMBER OF <VIDEO.MOV> FILES BY AND =
+BETWEEN ALL THREE LOCATIONS ABOVE.=0D
+	=0D
+---=0D
+### [ LOAN DOCKETS FOR 50074 EST ++ ] $6,000,000.00 AND UNDER USC 18.225=0D=
+
+LOAN DOCKETS, ASSIGNMENT OF UNLAWFULLY REPRESENTED INCOME (USC 18.21)=0D
+* LEASES AND RENTS TO STATE FARM IN EXCHANGE FOR $6,000,000.00=0D
+=0D
+<br><br>=0D
+[LOCATION 3]  @MSKYLINE.COM<br>=0D
+* 101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+<br><br>=0D
+=0D
+[LOCATION 2]  @WILSONELSER.COM<br>=0D
+* 150 EAST 42ND STREET, NEW YORK, NY, 10017=0D
+<br><br>=0D
+=0D
+[LOCATION 1]  @COLUMBIA.EDU<br>=0D
+* Lewisohn Hall, 2970 Broadway, 4TH FLOOR, New York, NY 10027=0D
+=0D
+STATE FARM=0D
+FILED THEIR OWN PAYMENTS TO SATISFY THE UMBRELLA OF CHARGES UNDER USC 18.=
+215=0D
+![image](https://user-images.githubusercontent.com/108204659/175807560-b2=
+7733c2-c934-4c33-b580-43a5b123d300.png)=0D
+=0D
+![image](https://user-images.githubusercontent.com/108204659/175807575-0f=
+6343e2-80e8-42d5-9b9b-52bf35010c0f.png)=0D
+=0D
+respectfully, FILED [ by yours truly]=0D
+[docket 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?d=
+ocId=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D)=0D
+=0D
+	=0D
+---=0D
+=0D
+=0D

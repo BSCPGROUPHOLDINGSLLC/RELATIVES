@@ -1,0 +1,91 @@
+From - Fri Aug 12 01:36:26 2022
+X-Account-Key: account1
+X-UIDL: AGs3IngQv+1mYvX04QZsiOg2Tyc
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.136
+ by atlas115.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 06:36:17 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas115.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:36:17 +0000
+X-YMailISG: YnylT0sWLDte8.TagrDY9qAeYkFS7qIOU96Pu7wmwb4IUq7z
+ b7F0S0RUAq0EovATkTbfLcXFBfHsvRnzdltMowvdtMr_92RHR1jlHabT5Jvj
+ 6IWPngtWsxuP6ZW07jTjnDpppc0piqpEZwsMhy5SL7HlVI4pgP45Y2_mb.MZ
+ oEnM.bvBC0yt11jbMnZluS4Tbpoa1g2UFHOfi2E1YquRZi70zgsmXczApsvL
+ xMN2iia1iGhp1ytk1V6mI5PuEIYfpdKeAZxPTQI_ydjU_7X4od.ctHn3kala
+ 2PCyAs.wfRLl0b8JhyZB_AR68q7er2IPGPZfgieLJZIcqhPfsuarCiT_OgZF
+ x7BVSm4wmGnKDDJ_8xT1UDB.7tvc9nDw0vT9_ArY4pQGozlCSS1joj3w2.TB
+ .YGz2rlbKF3TV5fyh0M9AC4WOV2my7pa2NNuTO9JeEjO3lIr83KJwGWzFsAF
+ tMCLFTjsQ5gQX4lpgq93.pEdFVLdbMN3YSOtS7fCjON1R9X8ISadvj_qh3rp
+ TcDusXVVDN64QPVxsVSDIKEAnGtvC9ktWOvHEpY76EmcO4zwC03Ej9wFEK__
+ G.6hjL4tzVf.wd59k1Q7s2_7ZWxPG0XPtzp1MCDbG7zr2JPWHLJkH7GO5tlC
+ ljiHqUYbWbzA1P7hL.oKCYD_DRSkEvlMndIhVTVenCQ.soKtJG57v7uqepln
+ UU8KmvhZJHM_C1IyJDU1aO955pF0mhGS3P9d3h71fTNy_syCmtvo_R2M4M7I
+ TBxlO2VmNe5gZOx1ut8hwOpqq7hml_b12KYpbfBT5iz3lUh2RiAahdu_7BDE
+ 3R759.Wad8SFnIg5HxxyByTV2R1euwY68x2gzOUivVJ6SO6uloplx9aHpI7U
+ bke00z6QPPWXYmKxdTVEcjCYnhGXQM2w6WJCg_jI1yyj8IcOkxPFQ7eWroQc
+ wz5hKj35gWHd62cOESK1omVsZXevHmudrs6v27U6058OYN2YiuYe6XwKcbuM
+ 0ci8E70NeSfmRhr2LRDqYnoxj55OEK47oZxZVqzZOTUT6cTbMRPvD35l1O5r
+ d97jwQRJYtzP.moT5n7A3JNhbU18x_NaK5AeK.PHUXlGsvwep9EB6zfVq50P
+ sEv18Tomi1RF7cGIj5PfpxsHm7xSL.xANa.ipOBdkfvB6Lj39ODY_zuR54oR
+ dYMQ7RGsq2j2MJkso5D3eeJA7zXdxQo-
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.217.137.136 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:36:17 +0000
+Received: from github.com (hubbernetes-node-c8a06c6.va3-iad.github.net [10.48.12.52])
+	by smtp.github.com (Postfix) with ESMTPA id BAE175C00C9;
+	Thu, 11 Aug 2022 23:36:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660286176;
+	bh=5IiNUU+ka5tWS8umaexUqhFNKf5s+E7DQeE+Ev5lAtQ=;
+	h=Date:From:To:Subject:From;
+	b=RKjmtcuwuY70b802iWo+HZIH1V0O3tsiCbwW1uoV5qwseAQtdqpSwERjkmqVCnN3L
+	 hykP8NG+lR6SPzVWzKxQbdd5+mihdMtbj2lhHTHk4ouBRcvzJ10AasNyEXRlnjJTIx
+	 uSop9scD9RipJLY/O544QVJQCuUWdhnhlZWi3YLM=
+Date: Thu, 11 Aug 2022 23:36:16 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/962863-be9c4e@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] be9c4e: EVEN THEIR COUNSELORS HAVE
+ AVOIDED TO THE RISKS AN...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 729
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: be9c4e4662985b3b561df40293f2c13e5a587d48
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/be9c4e4662985b3b561df40293f2c13e5a587d48
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    A $$$$$ LOCATIONS
+
+  Log Message:
+  -----------
+  EVEN THEIR COUNSELORS HAVE AVOIDED TO THE RISKS AND TAX RISKS
+
+
+EVEN THEIR COUNSELORS HAVE AVOIDED TO THE RISKS AND TAX RISKS
+
+- AS IMPLIED -
+
+HELD BY THE WHOLE LIFE POLICY HOLDERS AND INVESTORS OF STATE FARM
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==
+
+

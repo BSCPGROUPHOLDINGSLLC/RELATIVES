@@ -1,0 +1,164 @@
+From - Fri Aug 12 01:56:35 2022
+X-Account-Key: account1
+X-UIDL: AOi8CiZQjcrMYvX4Dg0PwCjex/c
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.145
+ by atlas319.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 06:49:50 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas319.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 06:49:50 +0000
+X-YMailISG: mJv.IyMWLDtcLMV5swC3cKdVJpwwv3Kmb8Za57z5sCAGa_Dg
+ bqhmmr3wjP0rkAuThNdYGqeW8ClIyk8nQqx33lzniR7Wf5_WOE9KFUImsIpg
+ PLTu6YtrAFsFtjEf8fGSTBGHxWYvsj2HnjqzuiHDafara2r4iUHkeJ7mxA2Z
+ a8yB0wFvDGlgTxayA6NiTw4WqjmE0Ned_npxLo9w6RIAjiuW4DpMCfM.VhMW
+ QQeVJ.YsWK2U2ZLd9.n_8ssLO2OtEWiyR_Oeji55NtmbMfcrqlNOkx57iliK
+ 3RrhOUY5oMkFExVRpnXulDNdpAn4gBWBLWbd_sqV_egyr4KMN.Uia3PT4QAe
+ lm_lt7dq2lxsBofRnXyOC3Ykgi5hY.MZKGIlWqwsCVfbxwaK9XCRCOQusIAa
+ QfftOEdSFv9MRE9Rdf5MBc1La9LIx6PcjQ7gxY5NYnVdhJxKy12tj1kHkZgi
+ PS7ZjBEiemXs8BoR779bw5i53e7fDpJDLL.9miUNKcNBInXUa4xEfN7BZWna
+ ZEVk0eZo.nady_pXWWcajv.sR1h8IwMNjnweeyuAmSCTvXllxKJOIZhNqh0e
+ lTNwpDZ1qsSvfUuHGUVHqwmHoA99k_ehbw2ydVwB63nwyOfTUoomzdh_wfz6
+ hC3Nmlw0Zh__kL8IXzQAOEKP6lvewb7zafafW_bdnCTtS_9QOm.9DSn6lqJM
+ dUI_TNGNZ7VS4WH7PIJU_qs1UN.86OKhXw4j7caGGXMslA1A_eNXdnwuYPOf
+ v0zXFmduri5z6msoJv030dS7Y8e6a2m.Ld1GdzCYwXmF8tzkI4xAJoXOPGQ2
+ bW8vasyGYzu.BJ6dH30mHPPNhpGyEZsTTTOwXv1hYU3LOybzkbUqMVZObgHG
+ .diRE9RnXUUG0Q9aEdiBTfmvTQkMU3IBVi9_MlAzCumBYlC4lWXFqyr7fSSa
+ lCMHZ1bi.SDaHcjmmQpcKGv6JwMxfefFE0FxPLv_K.aKP5x021djw9JXdkVY
+ WKbn_W4NFVgdjGllz6v11I6Zj5Mc_rhjdI9TpO4PG4F_MukzndN_sCqYK2HM
+ DcTHCE6_XS4k.NLGRfZ8Uxdykt0v4DQB9xbeVspqTVR7XRsGdKGbl_IN5868
+ KNhGKR2SwK2c8LiHzMhZLEVuc3Jv92Rgn4G0xYGHr7XZWcuFfIWVaBev3ddL
+ 1YtI.I8VRNlD6L5SNwwocD.MXh8-
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.217.130.145 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 06:49:50 +0000
+Received: from github.com (hubbernetes-node-2dcd975.ash1-iad.github.net [10.56.207.77])
+	by smtp.github.com (Postfix) with ESMTPA id 12C04840198;
+	Thu, 11 Aug 2022 23:49:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660286990;
+	bh=ZcyiYwV45VOXKybaqdRfqOizb4RAPFTfJpgovRtMX54=;
+	h=Date:From:To:Subject:From;
+	b=C1fBx1+I9GXPgzgVAeUEH5MCqMJoaMhyEq8b12fYl0tpBUBO7gU4TZTGXfbNWpNl0
+	 YOltaxib4TzBDwa+PrxGOaMPVt5Eegjvhc/Nbmf0w+2aACfAVHGgXNhi4C30/5FYIG
+	 Fwwc2QAZUDiHilh4mUsIiJTzxAwx0ADYGxLA0zGg=
+Date: Thu, 11 Aug 2022 23:49:50 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/b2d4b2-138450@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] 138450:
+ https://iapps.courts.state.ny.us/nyscef/Confirmati...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 5770
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: 1384502e2905f2fc20cf296ecfb2131246b9490f
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/1384502e2905f2fc20cf296ecfb2131246b9490f
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    A Fw 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-1-1.eml
+    M Fw 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-2.eml
+    A Fw Automatic reply 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-1.eml
+    M Fwd 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC..eml
+    A Fwd For aided Obstruction of TAX invocation to State Farm.-1.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-1-1.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-10.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-11-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-12-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-13-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-14-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-15-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-16-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-17-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-18-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-19-1.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-2-1.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-2.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-20-1.eml
+    A Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-21-1.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-3.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-4.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-5.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-6.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-7.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-8.eml
+    M Re 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC.-9.eml
+
+  Log Message:
+  -----------
+  https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=gcMSDaFzm0ynPeXZKSHgLQ==
+
+
+---
+PROPERTY REPORT (see also: Miwa and Teschman) 	Assignment to Zucker 05/26/2020 	
+	Filed: 08/04/2020 			Confirmation Notice
+ 307  	EXHIBIT(S)  - OPP  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rjL6yoW3Mt2U6UigWCM9XQ== 	
+	Received: 08/09/2020 	 
+ 308  	EXHIBIT(S)  - 503  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV] 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=SgjFfExxNV4Y4DTX6pANaA== 	
+	Received: 08/09/2020 	 
+ 309  	EXHIBIT(S)  - no1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH  	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ== 	
+	Received: 08/09/2020 	 
+ 310  	EXHIBIT(S)  - AC0  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+ACRIS Detailed Document Information (2019000021408)2019010800475001 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ze6a1KA9akRV9TGfXXJT/g== 	
+	Received: 08/09/2020 	 
+ 311  	EXHIBIT(S)  - AC1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+ACRIS Detailed Document Information (2020000155422)2020052000291003 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=bVk8sIt7n3kGwHqebPg0fw== 	
+	Received: 08/09/2020 	 
+ 312  	EXHIBIT(S)  - AC2  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+ACRIS Detailed Document Information (2020000155421)2020052000291002 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw== 	
+	Received: 08/09/2020 	 
+ 313  	EXHIBIT(S)  - AC3  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+ACRIS Detailed Document Information (2020000155422)2020052000291003 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg== 	
+	Received: 08/09/2020 	 
+ 314  	EXHIBIT(S)  - AC4  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+ACRIS Detailed Document Information (2020000155423)2020052000291004 	Filed: 08/09/2020 	
+	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=/yhElCiKJ0BGv2DF/MOn4g== 	
+	Received: 08/09/2020 	 
+ 315  	EXHIBIT(S)  - ACR  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH - https://a836-acris.nyc.gov/ 	
+	Filed: 08/09/2020 	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ== 	
+	Received: 08/09/2020 	 
+ 316  	EXHIBIT(S)  - Bu0 	Dincer, B. (Pro Hac / Pro Se) 	Processed
+COMPLAINT #14585819 (7/25/2020) @BBB 	Filed: 08/09/2020 	Confirmation Notice
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=7Ry3LAoVfWOLjSXhyJZ94A== 	
+	Received: 08/09/2020 	 
+respectfully, FILED [ by yours truly]
+[docket 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=gcMSDaFzm0ynPeXZKSHgLQ==)
+
+

@@ -1,0 +1,168 @@
+From - Fri Aug 12 02:16:29 2022
+X-Account-Key: account1
+X-UIDL: AFb5cnpQSmg/YvX81gtxsHvLrSQ
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.76
+ by atlas324.free.mail.bf1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:10:14 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas324.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:10:14 +0000
+X-YMailAVSC: kxkkSpk3bBtZylxkfKsNl_BK4SZFobhabGr9jdhPqpeG_qV
+ vaqUfjOCDDxIykK0wiFI7s_k7H0TFuSAMpcAhl2yOHVz8cf2mW180VHxYGRg
+ azxpI4IZGGpq82YOYeREJhrHp7mHNCKw_H7Ui_q0EJbVyyTeMECyzt7ffhLA
+ 4NRZkuAsDjM.dSiLKBs5pOrrfg5Bs1yX7JO1cWxO70FbTZHxAn4CX.ifWxLd
+ .U3oNnqjk8aEh5dHJ57Xkxa24IiHep04xDZB3fQOpTDMQpOTxKaA2E2TqmPM
+ cNjCHK1zJ3LW6bO4fpB7IquaP6udZF0sT.ohggyvuFZHOH9xgVbzPv9Fe8zJ
+ 9.V7XeHTxDpfsml_x1KkPMnyQdeFgHU5PnrGUzHjkFSrR4FNu2tpSCm6BQP8
+ AX8A2FD7yf0qtq_aNpwfUDngyIR02qbC6qvi740Vpbj0uUWB2KflEtN_dcY3
+ ZXGnwhOxAeC67xhXNXB4O1yM_rmTnYMI70rf7Z.JlH1EwYFCpGsxH_ON54qs
+ b3maUpCuMt9t.aERMwhHUdU7SPSlePbixPjLmYaYtNnM2uqwyb3PpvvLGcYR
+ bWr23SqczsVzQwfhzDW2LXGSjNbisSgWoTdVlrWh6ftyIyh_fTbUB7zj0FrV
+ f_Y2sDfAHKYqDC8b5nnnDtI8mUNBAVDuJ99au4lnerkWaq.H..SgN5UcuehD
+ RWkhoDE_bmbB.XzgqTeufPByfFKFDSlCg6g08rpf_XMapnDW.DTe_ej5g9Yp
+ yiDLJpQEKnalzZ6iUsBWd_4nOa47DqAilE9NMru6tuvJygM7s7p7tR6NhPCT
+ 3FN9HQQVpKDiNZDNF9NAah054UStlp3zLwVDp_3A_c83jzcO83kmaMRagRUI
+ 0YWKCO.WfyunFzYqixylLVIJvVdE4a8JlJ0I2O0CKGLAuDaK8fQ5lR0nMF7N
+ oaHVj4AyJw5WA3O3_TXJjG5slNcMc1ihl9gZb2ZxbI2BdcfHXxzklzpIZlJ6
+ nQNw9Q5.XjdccHgcx2aJRPGZzEfZNplw-
+X-YMailISG: PthQ6VEWLDubMjbUohzwlIPUF1.1RERS4A7Q_88NVtPZXTSR
+ RI6a8XbpP.EQ9KZh.wvzxx0As1h5.YgmYBfqxyHy9M4ebtgSDqpNk62Ro4xy
+ _yp0_IlgaEF7pq.jGvwqDvoUo2tSdC_0gREXf14CsK2DGPlVU.C4A3g9TiEZ
+ SETj5LdXs6L5aonrhVHxH83PCHzr4xVa7wrW4RhY3xPKcW9FzIWaPt3xiP.W
+ 5rM09G13N34R5xxFEEA7L9upwJE62LSvwzWOewwdlLdP26X2esoHZY.m6QmQ
+ Ek3_yI29UHNsbQLwx_WgfJOSr_a9Nu0Kq_mXjbOTY.hMamKEMb.sfuRSA6P2
+ HK6IiYQwQSkwh1yNa_4Schp16MvbFnEZ4kFi0rG_fjfZZp8RYv6IWsaZiuuw
+ eu0QxkLuAFOtzVVJmevpRuWxv5y_jzB0ZKTo4ravKPGOzFEla1yh075nAOzC
+ xdtxKx2CCgb0J23LPZyaktkaYgkTmaWJK_l6rfhaClC6U5sUUVx4RtY55zSM
+ I8xMaTKv.mtAwZVCPjAZAI5eraBXX6TIu5uhatjwf5wdfhYZE_p22qum5QV8
+ JC0ozYoqRUX7NHrn1H9tAR1LGVvZiqkqhHGWk48jOL72ju7JpUwcSP3kjKQf
+ cxi9ViweipceTvQK__Tzzk7MFiTTrf78kmwBJ52pwBTsRQukIYTFgtsXRpPM
+ G.5lnsSyC.Q0SzmCTvaaQDWm1d0E3.uzWog_CmuaM9amDz5PW.qZg0ZGU08K
+ EkXRKxi1OEmFO2K73MI4IiAJgB3HSFD3qr47M.41MknrVQikfVGvEAEmqPu9
+ VDNUxc0GK0NycXfBIo.R3GR6Ydlqv6W7tWeLaFIXJJyyecGhPQFfCS5cEWHH
+ NNdDhajImZ_X83HCnzRq30K0RdUcYfGQTWIJVJ03BF63KU_Ylh.KaVyxK6WQ
+ FLtEKjk.vPKNoZo8MbaQtqp2OkDXm89SqBfmFdXhSJReVVSxGU5p9.lH7THH
+ vXbxdB8vkOlBtE7K..3IH7NYpbm65q9y7BKsSTVAIUc_NzakSFtC.Mj5zzh_
+ YkwwNA0iGJHSq.7aOpHfjTAiX7QyJMe8G4TKLUYro2BxFWucM2lSVgl1aqPc
+ Gczy68z2We92KhC1D_9dXbPguUfz0DHuw0oX6qxdGYxWa.Vin_qsbmtKBTVW
+ IEI49EmgHDpAh0IxMea6PaJo3mjSKE0Tlr0-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.36.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:10:14 +0000
+Received: from github.com (hubbernetes-node-225fb1b.ash1-iad.github.net [10.56.131.68])
+	by smtp.github.com (Postfix) with ESMTPA id 556B45E0938;
+	Fri, 12 Aug 2022 00:10:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660288214;
+	bh=+g8jnaL2s3cV+vCTiTix4NnuUq/kHdDS2fpp7SF7jPM=;
+	h=Date:From:To:Subject:From;
+	b=wUFDYKcGHm7OY3H4y5adPAaQacSgQzjepT4nZStcjaocZzciPWNHcz46E56OrWagg
+	 10hrJv/JRj8sM2MprJzNVUySe/tNxvLsbrqPeu2kmNRLAif2K9qZG46YUhtNLP1Pi8
+	 bmtzt+1LAxXQLmjOEGH7Vs2+IL42DA0x3gbJIdwU=
+Date: Fri, 12 Aug 2022 00:10:14 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/c74dd3-ead0d5@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] ead0d5: Add files via upload
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 3803
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: ead0d5b359d4aaa3498d7ddd6f84ebec7d5ca51f=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/ead0d5b359=
+d4aaa3498d7ddd6f84ebec7d5ca51f=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A 2021-11-19-jamesgorman-msco.pdf.eml=0D
+    A 2022-03-27-ColinBrooks.png 828=C3=971,138 pixels.eml=0D
+    A 22[state farm vp 43036] 4971235- paul j smith - semi annual.pdf.eml=
+=0D
+    A 22[state farm vp 43036] state farm vp management corp.eml=0D
+    A Filed. 153974-2020.docket399.ftc.statefarmrealtyinsurancellc.eml=0D=
+
+    A Filed. sf vp 43036-$3487] 1943922- $ tipsord $ state farm mutual au=
+tomobile insurance company-$3487.eml=0D
+    A Filed. sf.vp 43036] 2876793 - $david moore $3487 - ia 8018184.pdf.e=
+ml=0D
+    A Filed. sfvp 43036] 4971235- $smith - semi.pdf.eml=0D
+    A Filed. sfvp43036] $2876793 - david.moore $3487 - ia 8018184.pdf.eml=
+=0D
+    A Filed. state farm vp 43036] $3231040-2004555.pdf.eml=0D
+    A Filed. state farm vp 43036] $ludwig 3231040-2004555.pdf.eml=0D
+    A Filed. state farm vp 43036] 1943922- $michael tipsord state farm mu=
+tual automobile insurance company 3487.pdf.eml=0D
+    A Filed. state farm vp 43036] 3231040$ludwig terrance.pdf.eml=0D
+    A Filed. state farm vp 43036] 3231040- $ludwig terrance.pdf.eml=0D
+    A Filed. state farm vp 43036]advisers investment trust [$cik 1516523]=
+ monk[crd 1357149.eml=0D
+    A Jgorman.eml=0D
+    A Tisord.eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  Add files via upload=0D
+=0D
+INDIVIDUAL TIPS FILED WITH FINRA FOR THEIR  NONCHALANT DEALINGS WITH THE =
+GREATER OF $850 MILLION LOST IN TWO CLICKS OF A MOUSE=0D
+=0D
+=0D
+26 U.S. Code =C2=A7 6662 - Imposition of accuracy-related penalty on unde=
+rpayments=0D
+=0D
+=C2=A7 1.6662-2 Accuracy-related penalty.=0D
+(a) In general. Section 6662(a) imposes an accuracy-related penalty on an=
+y portion of an underpayment of tax (as defined in section 6664(a) and =C2=
+=A7 1.6664-2) required to be shown on a return if such portion is attribu=
+table to one or more of the following types of misconduct:=0D
+=0D
+(1) Negligence or disregard of rules or regulations (see =C2=A7 1.6662-3)=
+;=0D
+=0D
+(2) Any substantial understatement of income tax (see =C2=A7 1.6662-4); o=
+r=0D
+=0D
+(3) Any substantial (or gross) valuation misstatement under chapter 1 (=E2=
+=80=9Csubstantial valuation misstatement=E2=80=9D or =E2=80=9Cgross valua=
+tion misstatement=E2=80=9D), provided the applicable dollar limitation se=
+t forth in section 6662(e)(2) is satisfied (see =C2=A7 1.6662-5).=0D
+2022-03-27-ColinBrooks.png 828=C3=971,138 pixels.eml=0D
+2021-11-19-jamesgorman-msco.pdf.eml=0D
+22[state farm vp 43036] 4971235- paul j smith - semi annual.pdf.eml=0D
+22[state farm vp 43036] state farm vp management corp.eml=0D
+Filed. sfvp 43036] 4971235- $smith - semi.pdf.eml=0D
+Filed. sf.vp 43036] 2876793 - $david moore $3487 - ia 8018184.pdf.eml=0D
+Filed. sf vp 43036-$3487] 1943922- $ tipsord $ state farm mutual automobi=
+le insurance company-$3487.eml=0D
+Filed. state farm vp 43036] $3231040-2004555.pdf.eml=0D
+Filed. sfvp43036] $2876793 - david.moore $3487 - ia 8018184.pdf.eml=0D
+Filed. state farm vp 43036] $ludwig 3231040-2004555.pdf.eml=0D
+Filed. state farm vp 43036] 3231040$ludwig terrance.pdf.eml=0D
+Filed. state farm vp 43036] 3231040- $ludwig terrance.pdf.eml=0D
+Filed. state farm vp 43036] 1943922- $michael tipsord state farm mutual a=
+utomobile insurance company 3487.pdf.eml=0D
+Filed. 153974-2020.docket399.ftc.statefarmrealtyinsurancellc.eml=0D
+Filed. state farm vp 43036]advisers investment trust [$cik 1516523] monk[=
+crd 1357149.eml=0D
+Tisord.eml=0D
+Jgorman.eml=0D
+=0D
+=0D

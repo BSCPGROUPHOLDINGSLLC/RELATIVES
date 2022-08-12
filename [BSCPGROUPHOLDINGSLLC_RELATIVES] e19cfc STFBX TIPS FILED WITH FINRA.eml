@@ -1,0 +1,117 @@
+From - Fri Aug 12 02:06:38 2022
+X-Account-Key: account1
+X-UIDL: AM5cohUH6n+RYvX64wiykOM81gg
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.50.154
+ by atlas212.free.mail.gq1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:01:55 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas212.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:01:55 +0000
+X-YMailAVSC: EiAbu9k3bBuu36YH.O9inUHuzkvMhFQZvEu7hpFJS.LWY1n
+ LqlE29rZy8ZNQuIhyl5FONCC5LmbqK3s7Fl9CCVQkdKLN7aCGVCWiL1kaqhh
+ 5XjxgSDfT0kF53NhfPZG3ioJ8AAdq8IAc5r_W4XeDBN2DtkBvO.cGjPTB8id
+ X2b6PcaWlwle78QT9spJQ2bgYN75uG4d07uUiRiQTD.OP_N6gNOzYJWpK5_F
+ _yf8C9X3cE2HDiqy6UDSlNbTuy4Vg_2qrY6T5Qr6B2J.AQBHL2C6eQhaBpjy
+ AXT7PfXjbb0koVMH9HJCSAUpHKvLaYIDhG_IMX01jzcyeYt9rADQoW_gF8Dq
+ Vtrw.PlnBPuaNMHaL9QGiOZ0LQB.TltDxgLV5SYkKJ0_gN4J_mGu1IwQqpuC
+ A7hckeRG6mao6jyXCPeA2ddal3VjEGOMH7ikMWItWW5ly19ySPePmnbV55yd
+ LizO.vfa5xiPhRln4YCa0RO.L9DRaNkafv2hWho2l5KT0ITL2mC6EOvSOClL
+ qKRYk3kP9daYtswRoLQTZTpaj24VkRe4F4znoJhyTqzZ0Cg7cnWOmINu9uc2
+ NAkc9ar5jtMvjZ6cMM5hEwZw1xNg5QtYNPIq.ZuQgN2PxQ4V52ZQbtYSidJ8
+ C_pOIU9cCPSXRJvJ0FeoXUKk3hHTRpjQCK5nlgBt0WzztQibcYEVjdquOa6f
+ SkwhHSVyyb60FrOBzHeiL8IbJGTcgiRfSV_mRW2J_esEcsE_oARjUUJqZtHI
+ 3FIdv1KXGE8XBKtvV9BZ5VIqttRmajLub.84XFammtbg2WpfnPh.CYC4.kzh
+ wBEua.OqhnrEJJ4MvflbHmGfJKyoMmvFAZBgOEG04iOdFTse0sBbZJgK_.61
+ 11CZPaXIypiWaXifWx2sVrXtP1w83EUiK5.in5VroMlUYvEsdzMPb_Ouekzx
+ eDoX0G0fy5kq5M_PoKfVaNNTtzuBo50xp85FmXm9Z3tRHGq0wobikix1bmmr
+ z5vH3MClUsT6i6LY8900l7ZwdTWNg2yv8tEsT8cH5zOEEQ2uhcjeVwgJ8fcw
+ Dlk9TxCS91Np28BrHjKERZyXizo8xc1Qe.OG75WS466orvbZJLkyFVA--
+X-YMailISG: 87fKHEsWLDvBYdYMVG3KSz7BlQDOj7rFea9tO1YN7AlpnTeL
+ MZRnYspoInsuMsV_WeDSiFdJgB8aAL6MSdsL4sycPm9PkAcQQf6FELT4rBh.
+ 5whe2NDZnizwcowJAD7Uwla1ELy0lJihTNOMxZAx0fXe_wiEKNL6sjwA.Zvl
+ CS379bltuGLrUPlZczO6ofiW4txV.C0ZapljcNyjn0DSMi1tZROlVO2NhRXB
+ MDbWHEojvrL1DTMCxcLbhIcWTOlCKWmYBXYHIcMTUHqk.Oc70lAPqOS0Dz70
+ Ihf.XdQLQJX3v4qqaLRkoS.nN2bV_Cv5gh4PBfXoKIlz2V5MEktK9sou.Un4
+ B_cNg8f5361p872CFm8mz.hbQ_aR.OIpPXPhDKOyg.4xH9Go8GVvFEGw4vXV
+ hX2IdV0eAF2iipJFot3R2WTILw44FqP_rgIJ4KT88Ca8SGN.E9ONnWG60ipV
+ KA68xeq2lHcJWuc.gdaLmXeFBhzXX8GsErvkpe00Wh_Zlj0bAARJIYwy96Ak
+ VfPAQzuFfgcCvNb9LbE37uQiDw8hJ3rPCw01I7LMQ5EWGc7d5gI8nDPJhwJ6
+ .hVZRPTahH5UVFj28H4RHUgbonC.7Zwn4E5UCivstbiC7Ujuz3R4X6dlKnoT
+ JZJ9hhtFXkbauTNdsTpEm2XdF49dFIyhHmMPsfVyCAf1u.7eOf_TvNU2OkKE
+ tFW4P9i6OSaAeflcJ9U9NBgcKmM4IatVS99mlr9xMT084S9YE7O5aPPNP8N8
+ E8Emi9h3s16KtNC6mawe9_X84XoyU.NgTM1mb0IyQY0_9YJGJFoU8zmUhp31
+ vUMhIgCbyqIleAO3II1POXJe4ZqyPoNZAkS.Q_ZJ.lik2.XC2BE1P1mn3WAj
+ Ijx5TqeVdJP8jswju4_69hDOrZ5Yw1nRsviJHa.zcpnLfesEOjmIwLIjjhXj
+ UV4nV68Bf79Jnv9A3gQzMEdO.GRNskdpUPEabBI61eSOjmPBi7RSyZz1la7Q
+ BmAky_Z0UV6iXRtzF5Xj1s9AawSgx.ZjePJ0MCGjvt2WYVfic1MQK5iKnYQT
+ 3uPT1w6I4Mm_2IvMtbC.7Ac.xWcKVXMhShxksz76Z6NF3gfCQ2wDxiX2OZBl
+ dk29xi1Q9MM6lAzjJGc9C4jhbUXsMCPdQ2LKQg1MPAie0WYlGZ8jA7socZbD
+ uWS95mrvZhzpNxO8Q5EOkPbju3d5iOk-
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.253.50.154 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:01:55 +0000
+Received: from github.com (hubbernetes-node-33bba4f.va3-iad.github.net [10.48.221.73])
+	by smtp.github.com (Postfix) with ESMTPA id 9468F5C0323;
+	Fri, 12 Aug 2022 00:01:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660287714;
+	bh=+grR2BBgEKCRKe2lG8tLQxAfrIes4oZx7GLuuvodRlg=;
+	h=Date:From:To:Subject:From;
+	b=cQ2fm2LRpmERtB9rNhZ0TFGT90Pa3m0kkLznh0zXu62zzGhLRLfpRKGgyCpNPLeaM
+	 R831XFchlBg5DymwZ7OWivIVYYKSQPcOsMe7D8qYS6JmgHLLQZkSJy4QNDTOJfqeoQ
+	 CGFDDXjJM0dexyPy4Z7dxWzzZHYDWf/eoSTuXSxw=
+Date: Fri, 12 Aug 2022 00:01:54 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/c21d91-e19cfc@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] e19cfc: STFBX TIPS FILED WITH FINRA
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 1018
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: e19cfc765de905703438d56019cdd94170e9dd45
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/e19cfc765de905703438d56019cdd94170e9dd45
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    A 8209-$brooks--4776256-6109023.eml
+    A Filed. CRD complaints for SFBDX holdings..eml
+    A Stfgx filed.eml
+
+  Log Message:
+  -----------
+  STFBX TIPS FILED WITH FINRA
+
+STFBX filed. 
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf
+
+/BD
+
+

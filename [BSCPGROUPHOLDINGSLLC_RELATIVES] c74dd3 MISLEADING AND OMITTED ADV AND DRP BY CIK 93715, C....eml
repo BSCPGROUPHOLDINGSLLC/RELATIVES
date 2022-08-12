@@ -1,0 +1,179 @@
+From - Fri Aug 12 02:16:29 2022
+X-Account-Key: account1
+X-UIDL: AMU0PR1SVF0zYvX8eA36IDbJKIs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.220.161.203
+ by atlas115.free.mail.ne1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:08:40 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas115.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:08:40 +0000
+X-YMailISG: iqzvj8gWLDtPCbsuF6qVZH_NTdy1nBQLtUSy18NdgjKZ0E7A
+ FrkCBB7okyJltlhDHKSHcLmYJLtXRq4xDuRkeZJ133jeNj3RD..dWpALgyDv
+ 1QkGy.qJbLvuP2qSKCKqkvTNM7HE8yYYb288dPPYz83jNHnvyDme0dwHrWM7
+ GXrHt8OpZBfU4jgmc0CEx1Yf8VBdGcrAzfvYL33NREvHrlvBdIRHxOcAEecT
+ NXqBIiKvCWxruiK_GaL1j9d8Mi6TDkegkh6eu5rBQu_UqOVfENZvyRidNFBe
+ j0tAui2XWRpzXME3nqE8Akv6LOJHixhL4RBv3_y1fl5j83t.4pLkqbnjle63
+ aNQMgKaCkCpSpa0Zu0_XgA_BsXMG4dHxsnZKnq77y1ChR7oBh9bt4Rc6_lQS
+ M27iKh8r4n0ecOEwpepxqPy3tmVbDD7KIwLj3D0xa0SPLgiPddzcC9n8lJ.Z
+ NvDM3ZVr_njBm0UobUmXHevqR45OAhh.88s1zarLtSkU7dHPvKN24V6saDYR
+ WMiw2g5Yc6_hYWb2EU2d2xAdvTT0tKXe.JSNdjmQXMdsTIpdsJU7pS1UAczB
+ twAz4f.k3Kh6KZGMamHX4HQ.af.eSKw4xYI0VjoZMsWq14AMLsbW78EtQp15
+ OMMW_HsvZTNpTmc68UXQYJWtmkg1eJXqQx8dtDK0P6unEWiM6JnlQ_ftqrV4
+ efGclS8suh6D9wI7Fb7RXiSqV8Qt3aTgBQAvuhLOOHOvnkVeDZUKWN_dpTOL
+ 2rOtilyv0NO2q2zIOp7fkAQ5PkjUItTaFcm5IdCevtf6F2YPmAK3.gxDL32c
+ vdBlDn8PAg519pA6jw.iNn6d3RreIkXSzQfzNNZI_T0W3j8ZEPIYjLtYhhSH
+ eBtKmfGS.xFN7vwpd.0f4._riPeezHaCMwyG4Gc47rHnR4jFh.JD5iSZJtVF
+ 30xlXYOw.NLxAe2zPxcFCChz2TA250SZHDXc5Vd_Mthv1wQT9eJxAX60cp0r
+ yzPQW1XsYOxDS0PGG.6Nj3uI6s7xWDi89aAK5jl.KNPsA04GMx5xBYcNvSa4
+ mulGKpKn572j_y3hHoesOop4IHQKGDf9QdjYLfUKtrfRyyMsG9hzo4wbAX4F
+ 0bKuS6KQdK_F6wxKyaCjXqrkBg9Fe7eOyGxpLCil2rMEydf_Tp8J8KTtVsoy
+ IPADSfX33.5mV.WSb1X2Kb8S2g--
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.220.161.203 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:08:40 +0000
+Received: from github.com (hubbernetes-node-a39299b.ash1-iad.github.net [10.56.14.53])
+	by smtp.github.com (Postfix) with ESMTPA id 1BEB55E0A4C;
+	Fri, 12 Aug 2022 00:08:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660288120;
+	bh=bra4dzDnn6jR6rbwngtvwPRJ6cpppQ6k62UAh9+L6no=;
+	h=Date:From:To:Subject:From;
+	b=ULUfyiJXtK4zk53TRPPiGarseiijqBEdvjr/IwGKsz6JsEoatliwGF1y+ShoHGjeE
+	 V9QPD7w5O6CAHDAT3nzly84f89YrEQkxRP6tpcFTIy7T5iJYjJDYKTI1u7Ti7B4vkE
+	 LzTIB2lHzOitqxDgySk8p2ZMXoc/AmQmdmqWmZgA=
+Date: Fri, 12 Aug 2022 00:08:40 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/e4a38c-c74dd3@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] c74dd3: MISLEADING AND OMITTED ADV
+ AND DRP BY CIK 93715, C...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 4865
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: c74dd3da2f2bd63c9a3d7ba6abaf2fdb4923fc23
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/c74dd3da2f2bd63c9a3d7ba6abaf2fdb4923fc23
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    A CLASS III HOLDINGs. MORTGAGE AMOUNT $3,580,499.97-1.eml
+    A CLASS III HOLDINGs. MORTGAGE AMOUNT $3,580,499.97-2.eml
+    A CLASS III HOLDINGs. MORTGAGE AMOUNT $3,580,499.97.eml
+    M Fw 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS, ETC..eml
+    A Fw Fwd DOI REQUEST -- STATE FARM LOAN 50074..eml
+    A Re Fax Status ex post ) DELIVERED TO THE HONORABLE SHLOMO HAGGLER..eml
+    A Re Fwd IF THESE ARRESTS ARE NOT COMPLETED TODAY JOS.... IM DONE OFFERING ANY ASSITANCE TO YOU_YOURS..eml
+    A TRIED TO PULL A COMMUNITY BOARD STUNT IN BROOKLYN = YOU PERMIT FOR THEM TO CONTINUE IN THEIR BUSINESS.eml
+
+  Log Message:
+  -----------
+  MISLEADING AND OMITTED ADV AND DRP BY CIK 93715, CIK 1516523
+
+WAS ALL KNOWN, AND AIDED AND ABETTED BY THE COUNSELORS OF ZUCKER, AND LEWISOHN HALL UNDER THE AUSPICE OF THE ENDOWMENT ADMINISTRATORS, WITH THOSE TERMINALS BDINCER211@BLOOMBERG.NET, BDINCER1738@BLOOMBERG.NET, BDINCER1768@BLOOMBERG.NET LICENSED TO THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=0oALanv/mNr_PLUS_zXOysW5zeg==
+
+TRIED TO PULL A COMMUNITY BOARD STUNT IN BROOKLYN\
+
+--- NO I DON'T HAVE TO BE REASONABLE EITHER...  DO YOU PERMIT FOR THEM TO CONTINUE IN THEIR BUSINESS DEALINGS?
+
+           
+            1. LAURIE ZUCKER.
+            2. DONALD ZUCKER.
+            3. PAUL REGAN.
+            4. SHARI LASKOWITZ.
+            5. TOM ECHMANN.
+            6. RICKI ROER.
+            7. ASHLEY HUMPHRIES.
+            8. MIWAKO MESSER.
+            9. ROSALIA CHANN.
+
+           10. WILLIAM MCKENZIE.
+
+
+--- OBSTRUCTION OF JUSTICE ---AND  MOTIVE BELOW.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=dsAL8eNLGxyAjb2wOsRrPA==
+
+
+
+
+On 3/31/2022 5:40 PM, Work wrote:
+>
+> --- OBSTRUCTION OF JUSTICE ---AND  MOTIVE BELOW.
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=dsAL8eNLGxyAjb2wOsRrPA==
+>
+> UNDER THE SARBANES-OXLEY ACT, THE 1933 AND 40' ACT FOR PRIVATE AND PUBLIC CORPORATIONS "FREE AND CLEAR" ...
+>     IF THE ARRESTS AND CHARGES WHICH I REQUESTED ARE NOT CONDUCTED TODAY, ALL HELD WITHOUT BAIL  - - - - - -  NOT A FLIGHT RISK... BUT FOR PERMITTING THEM TO CONDUCT THEIR DAILY AFFAIRS AFTER OBSTRUCTION, PEEPING TOMS, WHO ALSO EVADED TO ROUGHLY 50 MILLIONS IN TAXES...
+>
+>                 I WILL PERSONALLY NOTIFY EVERY ATTENDEE AND FIRM OF DAVOS, THE SALT CONVENTIONS AND FROM THE PRIOR TEN YEARS WITH ALL DOCKETS ANNEXED IN 153974/20 
+>
+>    
+>
+> TRIED TO PULL A COMMUNITY BOARD STUNT IN BROOKLYN --- NO I DON'T HAVE TO BE REASONABLE EITHER...
+>
+>             1. LAURIE ZUCKER.
+>             2. DONALD ZUCKER.
+>             3. PAUL REGAN.
+>             4. SHARI LASKOWITZ.
+>             5. TOM ECHMANN.
+>             6. RICKI ROER.
+>             7. ASHLEY HUMPHRIES.
+>             8. MIWAKO MESSER.
+>             9. ROSALIA CHANN.
+>            10. WILLIAM MCKENZIE.
+>
+>
+> -------- Forwarded Message --------
+> Subject: 	Fwd: IF THESE ARRESTS ARE NOT COMPLETED TODAY JOS.... IM DONE OFFERING ANY ASSITANCE TO YOU/YOURS.
+> Date: 	Wed, 30 Mar 2022 09:14:10 -0500
+> From: 	Work <cockarens@vouchersrus.org>
+> To: 	info@ap.org <info@ap.org>, foia@eeoc.gov, mediarelations@ap.org <mediarelations@ap.org>
+> CC: 	tips@nypost.com <tips@nypost.com>, tips@latimes.com <tips@latimes.com>, tips@vibe.com <tips@vibe.com>
+>
+>
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=dsAL8eNLGxyAjb2wOsRrPA==
+>
+> UNDER THE SARBANES-OXLEY ACT, THE 1933 AND 40' ACT FOR PRIVATE AND PUBLIC CORPORATIONS "FREE AND CLEAR" ...
+>     IF THE ARRESTS AND CHARGES WHICH I REQUESTED ARE NOT CONDUCTED TODAY, ALL HELD WITHOUT BAIL  - - - - - -  NOT A FLIGHT RISK... BUT FOR PERMITTING THEM TO CONDUCT THEIR DAILY AFFAIRS AFTER OBSTRUCTION, PEEPING TOMS, WHO ALSO EVADED TO ROUGHLY 50 MILLIONS IN TAXES...
+>
+>                 I WILL PERSONALLY NOTIFY EVERY ATTENDEE AND FIRM OF DAVOS, THE SALT CONVENTIONS AND FROM THE PRIOR TEN YEARS WITH ALL DOCKETS ANNEXED IN 153974/20 
+>
+>    
+>
+> TRIED TO PULL A COMMUNITY BOARD STUNT IN BROOKLYN --- NO I DON'T HAVE TO BE REASONABLE EITHER...
+>
+>             1. LAURIE ZUCKER.
+>             2. DONALD ZUCKER.
+>             3. PAUL REGAN.
+>             4. SHARI LASKOWITZ.
+>             5. TOM ECHMANN.
+>             6. RICKI ROER.
+>             7. ASHLEY HUMPHRIES.
+>             8. MIWAKO MESSER.
+>             9. ROSALIA CHANN.
+>            10. WILLIAM MCKENZIE.
+>
+> P.S.     AT LEAST GIVE ME LIKE 6 DIGITS AND ILL GUESS THE OTHER THREE DIGITS.
+>
+
+
