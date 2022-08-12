@@ -1,0 +1,212 @@
+From - Thu Aug 11 23:47:39 2022
+X-Account-Key: account1
+X-UIDL: AN6hdtlJ/XssYvXKig69cHVp6q8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-production.v2-mail-prod1-gq1.omega.yahoo.com with HTTP; Fri, 12 Aug 2022 03:35:38 +0000
+Return-Path: <RICHARD.LEE3@nypd.org>
+X-Originating-Ip: [40.107.91.95]
+Received-SPF: pass (domain of nypd.org designates 40.107.91.95 as permitted sender)
+Authentication-Results: atlas-production.v2-mail-prod1-gq1.omega.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=QUARANTINE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 03:35:38 +0000
+X-YMailAVSC: owHs9W83bBsQ8EryW5BTLBLzxKVMHN_FZIBDbXI293Ojz.y
+ ROHsWcLoU1CsaSkHGKVhoEkzaI1d3ly8ANJSp4XsAUv_tR2CnSMxCBtlfa3d
+ 47tDj5G6KrRbohriuEsrCwLl0pWbzf27Hb3Io3fd.HKqCJGpLeXuYqrWByyi
+ 7HZZRokW78RsWe48nTYRgb9Cr9ZsdrVubeZWAb3UrVX2.AL.f0BsuXE0jnzd
+ kJyxhC.YbUuFu0UuhvzGb68bMxU1xK8.98LhVcrMjKu09u3AlPb1GgbGiQ_I
+ YfshYAQscM2CxVyNFVdSXxeFwNhUCxH.ziFanIuah1Pkq4i.jmcLanFpG1zL
+ kmhCMXwHv1wF1V1GkRLfYvBes4_Pujwgj.RrLd9sJ1fnpVqlHWd3cMpCBIZO
+ yY6QSXn6GzUp6WmiiKqDpIknpFVay1Clr1e.zpbcEVD5zYiDTxvcyx1vt7lL
+ Kj7xVnE.R6DEK4UGUAH3L1XrlJQ.EAKIteWbeQWavAFwv55aiHqbU3ICuH.3
+ W5eJTEnY8seW5B.fYR7THI808tHvWuE1J54oPOYdWKDUO3xOfpswbzr_vubX
+ HoBn.AZ9ToIjko6twV5_AHOJSluioB4XnZNTflpR9aox9HJj43Zd0Az2_KE6
+ 0VtoOV5LyrfdBzBieP6sOTidl.h323mR4nr3M8G.RMM9rsaniIn4R0XHdVVg
+ 29h.nXBVqYCb3o8xKu0q2rB7GspPxVMVlwOur.BastObCHgh_leE.pQQ0axg
+ QHrotqPX_YFpnRDNdk8EVMe3Xb9GQge.IRWi_VhuEpQZuIXkO86W7rXy4O2u
+ auC8ob1ZAxWW1eouo55sUJK7nwSIjc.qWrROc9TMCBW5DuEaYZDVwtDgHGro
+ FxJaO9IXie9Kc7etHNsYhgE87GYk2TbC7.fcIHL6ZuVzIq2hbRz7v.PZIUzj
+ 5_a0KZ115N5G6eDvo0N2BXSiAxcCM5Jns3A.B10Z7jBMnMZkU94DbFQQXByR
+ DZ88TSBimzNNUqPIZDneQ3c1Do_ArpeSCTEe.pW.xA3jQb6KxJTSxpDtOyxy
+ t_sedNm9duc.kLHaZNSgH5tsHFaWDrTf6Xg7f1PjSnf_m6lrC1s5idpjVLwR
+ bBwqfyBSKf_NGXNJlpYM9cj.HlzsyS6d2lvVlWA743kIJoi8-
+X-YMailISG: UDz6KKEWLDtBjQygw0l3kbSa8RBHylbOzJ4715E9ma8ec55b
+ YHr_3hAeDF646IfJ89A4eqiJgfT287bNLzCPwSm9yeV2kNUXciK5oqtyy2am
+ _AOQ9kqBXf4iRhqBOIR9qgpJSoldLnhB0lmYokf7luA2vWuLNQdB9GzrU38u
+ BjcSDVHhzoj2cPUJIX4_OD3_KcPR3FQdx6HmP.T8jnEpGyfh38wbaaon9U2w
+ Dp0f5_GP48vr21KsF4dNWgO0.2AbDiCOb7mC_KirMFVcyklmBnae.mjfbE4.
+ _ShRKDSh2BcJALiBaIXzFzitph4vjPBEBG4On81v4NxKTelZjG0w8Ix4tUqe
+ sN2in5.sQJKsR1tkkZIY3vcXsPhBbhOLZum7fkoYfyysu1FScjw8f0eM3CpU
+ SBWvwD3RdeUMjQSULraVIedL1QOpdRMqQzldZCTDKbpmDvm01UGn4ueWYsgd
+ 90pUOZmYOUXQn1vYOTclTgl71y2cyHRhx_UyETDyP0p53ltKSp468A4cZRsN
+ JBMY3cgcJEMID8mEHjXfIcEY_fiT.0JhxTHsAl4sKI17Ihtr7LgEn0L34fRP
+ rf37AlrNQlaywHp3lV1DlQm4PNuNaqWtgBB6TVDHZDLd.T3nymUr9oD0zjMy
+ COR1m9EeopGJ0X5xXsdwvcAWLybkw2cnwwN1dRCMnvb6yPIU.6RroYkBCXfL
+ nHFKLojp6uirDPEDHBicalGFsagJWE01W3TyRBEShcwU_oXqvyfKJ2R2_BMp
+ MMeLTF1h089Yd3VzenNXPd1V4gbLsxQ.bV8oAbll0o3IUKr3KhITgtffYzGN
+ fz.P1N3swk8GWFzXXRlnQmN0IO2s.kKD_Ls10NFlIUCfq53Idl6anNPzlQH7
+ JQsn3_5THwFUhm6FpG7cPohDqHSdTBE0_kNZmnX4ekdLJSYu4ZqvHZOnFOjL
+ 4VoHdfBJAKQu3_Jvmmc3ggCF.D8FCI7TOk6Pba3RjzifflQeGVntSQk_j9jg
+ mpljQ0llbnALuF0RYrDneSkOWv004azuuGTco3vddNgnwWao3dFYESnfXpxg
+ BhlfYEs5Hnhwk7hyNrvZ32viu79414egc_SW2ULWZ9SVmB8ssBZUcLSgjo3g
+ EqALMMT53pqI3olRdkU_oAb.SOKZNVszswnVRSHJr0sRwNjyPF3.hFNjWcEV
+ rNtkGLCMdpBLnlBjvFmdMKOE1GGNWTRTA59vrUnYciNLwrcrXEaCMpUT9uN7
+ Lws8AgZxeDbWhXB0Pt4cWI7PPcXj_Tyl5EUzftzrHF72.z9hrDTuBxHqDxlP
+ rAFl1EUjNELi5X5TkmYkmDxnMdehhlGcfyx65NSbi9r6kqtyyRhk4OWZsqUi
+ Dh0-
+Received: from 40.107.91.95 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.214.145.204 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 03:35:38 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=e4eIEvvr4DMgpD7lOYOag3yTvUUf3V+h+M7LDc2JCZivetykYGJuBYyy5p/v7NhfScS9Vpr/oLRyW4dl4Ogsc5Gm9q1xFFmA7dbBHP2A24gsrTY5dzDa9RCY/KYcQTZAWCQ2iM6DOwXYxDhJ8U5CX15z2FlEnOJq27JJvJsLAJpW4+9XHSnvQ7QqMmed8u+3I+Nibq4GhZAqMb/wNoiJd1Pkc/D0SgRIYx/E3VTX68RxwUfOS8tNvBEoL4D0ffC1o12/5FlHBobbMp3dh8cwYl9l+RGhFbWvz04sBBNhye+JzQhAtMV5mAgve1+rPJdI+/YxPc/IEcG4um8CBMUJkw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2xHKGlOyTjARlhApLD/4rgxhpfy8DxA21sHDHdhX7hk=;
+ b=duV1n3vuotwJuYCkhwqoX0ikiX6gnaDu7DkSmsth8fiHowHfJ6lswuaTwzWacA83m/QclPfnJMKwrQsmjqjzdaq3NJm5CNyCdRxpsz7MvwaxEmDCinlB00ZiGcwB9L9zTpBkZIzWntiX0dv5lvidLD5uy73MjQt63sn/L5xp2lhC7Gn+SijBBB0OMP1+bqrVqpp5CTTzVBhNFowHwB5xBQ9pohyoXdTcpz7kyd+fr4pnl1+QwzImzR+0sc+ietawI/cknlxzMcHWf6oUS9f2bsE4d30uZ7nWlfcD8Am+WKfeURb8qAEJl991lKJT125nIItllwJF9az7UI7aKnMftg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nypd.org; dmarc=pass action=none header.from=nypd.org;
+ dkim=pass header.d=nypd.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2xHKGlOyTjARlhApLD/4rgxhpfy8DxA21sHDHdhX7hk=;
+ b=LHf9zFkpAn0BOF0Q10EeJk/1lYCp53dClyJBDIa1tB5xpERbj8RX+QY5ZlmY4cddQCkJIn2oNnUJ4cqQxf0Bc97CdDKZAFZqWIpJ+Lu/xvNrGEN/nTPw1IKVzfSmKOWb9745+Lxpe8NHD/oJVmf1bRtspHcEGOSpnKPTGOTvl6A=
+Received: from BLAPR09MB7268.namprd09.prod.outlook.com (2603:10b6:208:2aa::17)
+ by SA1PR09MB8907.namprd09.prod.outlook.com (2603:10b6:806:28d::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5504.15; Fri, 12 Aug
+ 2022 03:35:36 +0000
+Received: from BLAPR09MB7268.namprd09.prod.outlook.com
+ ([fe80::2d18:d4f:92af:158f]) by BLAPR09MB7268.namprd09.prod.outlook.com
+ ([fe80::2d18:d4f:92af:158f%4]) with mapi id 15.20.5525.011; Fri, 12 Aug 2022
+ 03:35:36 +0000
+From: "LEE, RICHARD" <RICHARD.LEE3@nypd.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Re: White-Collar Criminals ( IN THE CC) 90849565 50074
+ (MIAMI@SEC.GOV)
+Thread-Topic: White-Collar Criminals ( IN THE CC) 90849565 50074
+ (MIAMI@SEC.GOV)
+Thread-Index: AQHYrfKQXlRobJulqEK/1LuJ+4kpBq2qif6i
+Date: Fri, 12 Aug 2022 03:35:36 +0000
+Message-ID: <1f13afb8c15b46d0a5b5474f35a5c3ed@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 879b4789-a3ea-4c65-4062-08da7c13b881
+x-ms-traffictypediagnostic: SA1PR09MB8907:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ BfzV/+K1vRRz0FyNEWSByX1TadTDO7cbxiGOwJSDo37iq2FNafs4u2+HjZvBJglj8OnlNrG3fWydIaJSze/HtfpTyGAqdTcnvo2yT1/pqTwrbYAAHduulxuJ1x+6EaEk/NLo6Ujb/IhH8mIZQUhuA8kQJe3f1jzxsMx6hSC5mfeAn5DzLBynmTjcsP/a7pRqfBVMTKULzDzsEjVWeCQxrn38ucI2rVPsbDYpDYK5ECohX5mJCzq6UhHFAAWHbFVd6t+SaOgLn3+KPgzf9UhmJapdUlPP8bh3NhtXi2P9G/Es7HQcyGrvE+J6BLQwSdy/+N3m8tsjHn4snLAbUn+KMejtlG34BJ1sFx7v8/MLRXDXyGivSoVcqr/BKBTFo5/O/WMUyIRY9v/8evUf03QaTEfo0hVwOb0ZghL2wGyB/PSgsyZqBO4HjPbaB19zmtha/PuJYFdkPNRT+Hsvllq066MTviCVZnt0m1BsQGJwFlk=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB7268.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(71200400001)(73894004)(621065003)(186003)(2616005)(88996005)(36756003)(6916009)(6486002)(108616005)(86362001)(2906002)(6506007)(24736004)(4270600006)(6512007)(8676002)(64756008)(66446008)(66476007)(66556008)(66946007)(498600001)(122000001)(8936002)(82960400001);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?zdkXdO+k5Ow6Z96wVFQiAmOaeTqILHWDOx+wIUzH4tcSF6hAto+ZM3BBraST?=
+ =?us-ascii?Q?khuEHGHBBRRqZqjMxwClr4xxe/WOz62OJeu1Nhlt6TZuDhl+fPCJWPwP+DdT?=
+ =?us-ascii?Q?2tQX4RE951dd3XECIjJ4fVv7JOD7rpXGNbXz73lhecUiliFIkedJh+h6P9sA?=
+ =?us-ascii?Q?NnykKzUHCsVtAqDmaUwD3Q/ejLSLukvHRatgvt8K5Fo0r3VBfif3++hyowot?=
+ =?us-ascii?Q?wNLXUTchyVITshXu38vz2C1WyWistRIcoDwl4m22gXsyhvKrsIKHb/yrKJzh?=
+ =?us-ascii?Q?I+eykO0NvBWxmisPd7r+NGuAAoLgrOkZ3kg4Tlzk8a4d0+aYZA5pni/KFsnI?=
+ =?us-ascii?Q?tEooyLNExllMh1ogwQm0JOjj/jMkSD0AdUPhKpBmwj87yr18vLVVheZhSQrV?=
+ =?us-ascii?Q?dgtHjni7kXF2tftIz7K0WX6BEFwwQYRpwCwid5WiZjbSqPZFvCDXw1OfnZSu?=
+ =?us-ascii?Q?koVTpxYc7BslVY5c7+O/16U6gXnGSXxs6d0L8gdH+hA8HOXWsKhnqXSHsPfV?=
+ =?us-ascii?Q?5iBCXt/3QTtX0Vt4cka0PfKfb/sFIMSGbPCAQnxpxv2uttf6h5iuQNpmqQNk?=
+ =?us-ascii?Q?W5yngpOTtSGi4uzQPfGi/cJ/qBXRd78EGIsREwmJQ/rp+uMrm/Bzo0eNWYF0?=
+ =?us-ascii?Q?7+1wd9Ut5yUtTzH0sTHQ0auWmXeitQR+lL+bU5YKBFpNSulVMIREira6R9dB?=
+ =?us-ascii?Q?l4ZM+9NHeNMVCSEauJYqafy4rZ4f12Ai6JpwSMuDlq98mnwGO7+Uw6OsZFbF?=
+ =?us-ascii?Q?l2lwRwCSJmoMUrReU4DUfEpGMhwptzIHrtGymeU78KWkfQHYr2K1n2PxgVSs?=
+ =?us-ascii?Q?PpWE1DMFwcmroo7EPHki/LS9qI86xLgnRWA9aZcBvO1Q7URyifxDlAU46Yhv?=
+ =?us-ascii?Q?A2jV9WeQzGoMfBk8wWIrMsYoWCjKscnGaivOmX5Ufihmu+LkldMygtKPy9hK?=
+ =?us-ascii?Q?UQhdwcCHhhUHVoapJFOZrqBOTWZJ7tLf7k7hsDiCX7zNzLVc+LyOXtJ6APPh?=
+ =?us-ascii?Q?WeVhlvuHSTkBpC2CWLrlX6xZ19e/hQMHeQIjFJG3XjulFI15VIaXTNVQtoVZ?=
+ =?us-ascii?Q?vxkgD1Az065FdsClWS9HdMia61iyLYAqy4tJKvVBtSuKG1YS2Oo82Tu+tCpv?=
+ =?us-ascii?Q?vxghynHL6JdKQYftrPaHf+dXmckY/lBbv5jLilLRXzLZqumu5ox8EFIfuGGX?=
+ =?us-ascii?Q?fNgP3k9wWQfKHjSYueXYq6Q7kKwS9fpGlDMZB6u5dELLuNpizBkK7Xgajhku?=
+ =?us-ascii?Q?1HXGrjI/hz5oBKDTi+QEsoc1OxHW7fhK2NzSd0/Nsd7oV3cnQbY1cMaGqNIL?=
+ =?us-ascii?Q?zX4YiGSKiDR6QQUAgH+SqQl5r7L35e03ov3YPSfPZckhKknLh30zptX741zC?=
+ =?us-ascii?Q?8OCuoCcxbl4jYw277P/bMGER4Yn4Us6dGt7zfHEsGFOwwrwRLvZmywpP5oUX?=
+ =?us-ascii?Q?Fv3rpAgmU1DiqojELwwKN/68yeC8+mIt?=
+Content-Type: multipart/report;
+	boundary="_000_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB7268.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 879b4789-a3ea-4c65-4062-08da7c13b881
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Aug 2022 03:35:36.7891
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA1PR09MB8907
+Content-Length: 1974
+
+--_000_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_"
+
+--_002_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: LEE, RICHARD
+   Subject: Re: White-Collar Criminals ( IN THE CC) 90849565 50074 (MIAMI@S=
+EC.GOV)
+   Sent: Thursday, August 11, 2022 10:26:10 PM (UTC-05:00) Eastern Time (US=
+ & Canada)
+
+ was read on Thursday, August 11, 2022 11:35:36 PM (UTC-05:00) Eastern Time=
+ (US & Canada).
+
+--_002_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: LEE, RICHARD<br>
+&nbsp;&nbsp; Subject: Re: White-Collar Criminals ( IN THE CC) 90849565 5007=
+4 (MIAMI@SEC.GOV)<br>
+&nbsp;&nbsp; Sent: Thursday, August 11, 2022 10:26:10 PM (UTC-05:00) Easter=
+n Time (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Thursday, August 11, 2022 11:35:36 PM (UTC-05:00) Eastern=
+ Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_--
+
+--_000_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; RICHARD.LEE3@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: UUGwljoTgESeyg4+HhprGw==
+Original-Message-ID: <6c4f9d06-edfc-e748-2794-6d3acbc29dda@yahoo.com>
+X-Display-Name: LEE, RICHARD
+
+
+--_000_1f13afb8c15b46d0a5b5474f35a5c3ednypdorg_--

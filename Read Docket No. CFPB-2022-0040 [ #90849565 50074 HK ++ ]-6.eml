@@ -1,0 +1,191 @@
+From - Thu Aug 11 11:51:58 2022
+X-Account-Key: account1
+X-UIDL: AKI5KKQjpGhbYvUotQc3qP4g0MQ
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.18
+ by atlas115.free.mail.ne1.yahoo.com with HTTPS; Thu, 11 Aug 2022 16:05:08 +0000
+Return-Path: <TAIMOOR.AHMAD@nypd.org>
+X-Originating-Ip: [40.107.89.139]
+Received-SPF: pass (domain of nypd.org designates 40.107.89.139 as permitted sender)
+Authentication-Results: atlas115.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=QUARANTINE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 11 Aug 2022 16:05:09 +0000
+X-YMailISG: 1zW9HbwWLDvTRUvNgD3Prn3vKu2SYKbYnkOVtPMJXG9CNDnE
+ k1ixBkgxo3RpKfmlUymzO6JkXFzdoIJkJCfyGPRHAT_AQaBYTPNGeeEIcSvf
+ 6yBbH19UEBz330VKofMgBEpjKj8.6.l_qK516blATqrAW0VBtkJwcry7mGE6
+ tVRyEFTbVqR19rfoKiZYMBXg64lIGreH8DvZjK5QqldeAsWPXurrH7rymM.J
+ L9PJmx21sq4BiVCcTcSzWjuU99HzcPoz2s83u8yF5kI12FzjCmQQggLdHFdT
+ Bt_22QVBf0rZTmQE2wr1vasHVmK6P5uVKQej677.y37fiBaonKW0Jv7v9wGe
+ BHNQE0p8kcBh9i.K.kkgUfvuJBd8MyLS8iqzKc5OTwdxhLQY1fqk6xOqbamL
+ SE6_r9hoJQylNQl0Z3zSSgenkpAA1rrjtogyncATBbmRMtyosddmjLTh_VNx
+ 9HDFxxqc.7_UM842dpWgKzgPyWzpTf.BjrU1wmNM5ymhasvxjaO7eDb0Pkwj
+ bPoKRlT4Sli01boOZO.W3jYkUyrk5kUDzCIBgtsCLrjVoNSE9lcacgM_cnvO
+ _dR3mprzgk_gkALz_zt8teUPW1wYjcXAZeCRHtY2exkt97rpWLIEYHMhho.0
+ GZpzdoA3zrDxRdZFegsIGpXfl7.gJpxyNdByylggBhic6FNKCDLxhsNoqsFb
+ x_FQEPQIrCNkJcKbe5VSKDb7P7rz.BCNm77p5.n5cbH1SIU5CIlnZPsaEItc
+ Qz.DwNT22nu8noH4925oHZs5bAlWGQo7jICd_XjqO0LhElgRn4mJciw1CTgM
+ C3RhFXiYoH4zWv_bwhUNr7FbOt1.1HnXgXM9l9vR5onYabqCbYTnotRMadD1
+ V772_AsmtEoesH6BgWCO0vDbKX6qCBnOm_iAGSz2_cQYyRRDQEHEISPZLueG
+ y8ZWT1aBcEq2Px1N6BOIkhVJVAv6qJr.fCULPwCzCWl6DrKakndc_PmKMuJi
+ 7Jwn5TRUA0qSgpqwTq7BNit4cNyCik9A4lBm.7_fMC2PBfMKl0W6xH_jedkA
+ 0Ntw0E3BL3FhLZf.Jp6yqmbYjsBW9omv3C6By8jTXvmZ6i0iDbj99iK2wq3a
+ 3cTuNeVZt8CtNJidxY9nLrGV0e_M8lkCKYaog5xrBvQxtaWUvfEf58fk7Jn3
+ WJBe7DdeRBESj9fHdCgj40PzRTdCPdnzQ2E.V2iZjwWltfps0E1QzBCWxw5l
+ t5ZShMxknuFHtE22gxs1cqk2PSo7OktwvSDCD3p9yfEdptVDhqlPiTvUDPWI
+ X1cCF3jH_FJqQ0IuLExke.FcEngBXNe6h7R10d9HyIzEElc0.KJAK9avO7sc
+ Y3QKRBMoPXHZbLs-
+Received: from 40.107.89.139 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.217.136.18 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 11 Aug 2022 16:05:08 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=PpIc8y8DwOJdB1WFYbTfvgDy1mQCSuaQcNfQYCpCduimdFYlpLReIcyNXUH3q0YvUZBqarSS61h3teSj6IFglSCeZ47i1WUwxlmvDzJh188tiX4Y3ezlkSQW81XTp0OpzF/Nwfhpx50Ho1lquBjKpbqnuFhVYT4Pf86IxSThv061t3yB3cbsKXkdDvjS4er4iAPsbYc0sVe+49vn3Bod7cazuEqnHryiW0p2K1fU/qkbFppVm26Gz61s3J2hLDo0XZ/jVd+I+pREMTYGsO86PAPCiLhZaVV8/c3YJDqUtd2J7o1kpxUVisI+lOP9IbstClNjRDGdBSADMnTuFRgOVA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=prB+jcBBssRPsA6vYksJHGGrBr6N5a/0NOtmHruNAUc=;
+ b=VG+XSLQiWOIKYRxhuvtJZ/jiYzP/yW+Vtj/oDlsldAGdwhB1fx8MEUcvRoVcKL/kNmg9pNps4RmM8trEiTPk14E0Ql7mBA1gF9cpvlIt1edP+VkmLlkK+uEwBpriVbRwsnKtqQkKlU9caxZhwt5wMXkUZOTwp+tPk8uUZj6eJVm1rlTVj3wRDRtjOevupBieNjH5U0hiy9X8MUwdCULAKBm7cZRAbAjmNgSjVi3Z9TsFvnIuTsfzyWHLvSX4VyMp/3z4sFymk+uC6T0yDY6/A0FxbfEEYO2ptmNdOdrzDl1xhSCWQoh8MpwxOQY3pTY+kGHmU6nIAN+y0w646KHYcw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nypd.org; dmarc=pass action=none header.from=nypd.org;
+ dkim=pass header.d=nypd.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=prB+jcBBssRPsA6vYksJHGGrBr6N5a/0NOtmHruNAUc=;
+ b=PKgSvQeF4gzdY1WRy+5FQg8r1oZqJ8XA+JEhQ5hI6bZRXnAoERpHQw8/Ga/DhIViz0X6Iozs5NAPAwEKYdj21NVbDz1Pq+3GzATOIs3lja8vBuyjsn8xvgM1CO2MDrq38lUCFnUjrrKTPBb0vAc/vmk3HHl9IhXgH6S8wCDg1GQ=
+Received: from BLAPR09MB6803.namprd09.prod.outlook.com (2603:10b6:208:2a6::11)
+ by SA1PR09MB7453.namprd09.prod.outlook.com (2603:10b6:806:17d::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5504.22; Thu, 11 Aug
+ 2022 16:05:08 +0000
+Received: from BLAPR09MB6803.namprd09.prod.outlook.com
+ ([fe80::fdde:68c5:c1d7:60]) by BLAPR09MB6803.namprd09.prod.outlook.com
+ ([fe80::fdde:68c5:c1d7:60%9]) with mapi id 15.20.5525.010; Thu, 11 Aug 2022
+ 16:05:07 +0000
+From: "AHMAD, TAIMOOR" <TAIMOOR.AHMAD@nypd.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Docket No. CFPB-2022-0040 [ #90849565 50074 HK ++ ]
+Thread-Topic: Docket No. CFPB-2022-0040 [ #90849565 50074 HK ++ ]
+Thread-Index: AQHYrQCKdLQ9M5hAP0eVU7asboR1sw==
+Importance: high
+X-Priority: 1
+Date: Thu, 11 Aug 2022 16:05:07 +0000
+Message-ID: <c3c96ffb5bf34ecdb25758fa29189116@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 5248bae9-a3f1-4388-e0d8-08da7bb342f0
+x-ms-traffictypediagnostic: SA1PR09MB7453:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 25LavuDgQs7d2Yn3TCAZdwjyTg3Ph9HpcslAa+tyICIdj1CFpnsQGiUyKh3TXY5Hy0R2HKuFYfJtPfrZQKM319nY7rO7Hejviqm1OAlj/sRii5QHwAFcQ3iP6ULuYhJiHPg+sb0DW7iKH7Z0CpajsPC1bdqAcXz9rQbGOfER6dXa9cRPC5HYh/w2H7S+EwcBX3PgQ3EVMPk2t3w5q/zjKQ9DtWDFEY2qah/orDCoi6D8YG4gm93dUU4zoPH3ObEOYa3kYPytQUCOSLuAVCX+lGplAKyI8P7xpaW0H2k9QbW6D+XTlmbtkw70xz2fih1DwGn1XtWr/Xqr5u61Wyr4QAdEx6UC5aTYPz7e0nGULD/DmPrH6p3McN0sfEoRVo2uWiu55lvpVddbLgi3FtQJ9Z+DjsersRlPvqWtVlGF60Q8MWyRSK8kb1YSeM0rAQGd9xza10RWmueN42V7zc8C+MZqGHEIGq93an47ld6c3dY=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6803.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(122000001)(108616005)(73894004)(6506007)(621065003)(24736004)(2906002)(2616005)(186003)(4270600006)(6512007)(498600001)(6486002)(66446008)(66556008)(66946007)(8676002)(66476007)(36756003)(64756008)(71200400001)(88996005)(82960400001)(8936002)(6916009)(86362001);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?DKFv/jULD34PKkkoATFmBxJVo9Xugdkfnygk7EbROH7nU4DJT7eCJkJ3LLEN?=
+ =?us-ascii?Q?HBRkFMUicnVWduJWo6Ee+TgwuHu3zVFxwNEG11z1wnDZIog9A/9dmkY4WMLk?=
+ =?us-ascii?Q?EXPcAUe1yR1CX4BUKbDuKnh/ZEQUeDrxaLZBATTwswDbNSQbmJ+diIYVN2Zu?=
+ =?us-ascii?Q?Z4FBK/2MSwEI/cdojCmt7EGyT4WjktHXAuE2J2NOYz6bbzrwS4gW5Wm8AhlO?=
+ =?us-ascii?Q?o0EUJ7sbaDUki1t0qkImVpnbX/zyclZGovpNR4mTBovbvGvWvOggzVgDcMXU?=
+ =?us-ascii?Q?MmRDL+ZRbrNWik1q7YIzWj/ZZF+ft6C0dnKHqdjEGItQv+evfdnbfzfplHWK?=
+ =?us-ascii?Q?FOMseoAOu2Vo61igpz08F0V0DhGQvLsAvDcgDAg9ghLb7Qm+3ogNcT/3MD78?=
+ =?us-ascii?Q?a1RgctBJgZ31jdhn3z7D+un4QUu++SM/crdySvf5WJGgH2hrLC8f93VeduXs?=
+ =?us-ascii?Q?SDXFd5LbbWc9Z7sqbf2mIykGB7XA2vI1KsZNc3jNjDL+vU1uSBo0HK2UaXfi?=
+ =?us-ascii?Q?2nq5Euobx2ODPpBGMQTe5lXR48RxgUEJD5jjxmyQ7e6y90g75OvMoOuwkaqh?=
+ =?us-ascii?Q?B6NSGlRXbEy+RYttEukEXeAC4fBjl3uC6eN2fzKQOfW1p/6ff/YUA7xENz7I?=
+ =?us-ascii?Q?8T//3si4fmuYiUcTeq47SvapBmpS+VAsc7hUNWpw/2XCGl1l1jX2CuBPgO7X?=
+ =?us-ascii?Q?vhc2RVt/qWIIhopl9yTDXoglBDzvGk269hsej4e4uMzZnRoJdrMB0g3qPxwO?=
+ =?us-ascii?Q?1XdL7MI+QyftryrKwg0ruSRZ3r1T/S9tTVTXF1ZIVeND6AeMo31r4jkSojIt?=
+ =?us-ascii?Q?kDe4acvLT+T3JsLD8e8izLKx0mhI8AThOtL8owKbWxEG9evbaDMdnAdKBU+X?=
+ =?us-ascii?Q?lDLAdEMkVGawRrWWXxhkyatJ6I8F8HlgU5ClJRP8tUOz7moDykLXFMP1oqNI?=
+ =?us-ascii?Q?XG0mR/VDVycvJZ3aL4qApjDL5UgBicXas+kxe4IvrRsF/I/FHWk4Otlgqqk0?=
+ =?us-ascii?Q?7JkTEtHdcxQ1aZZ8B7iFCmYVVCi0PCPO+VkE3KPrCKkKIoFWUeSuhOVm/T5B?=
+ =?us-ascii?Q?Eo9LugCfODlMtG4inBIsRbnWdoTsgcS24BSESWtAp/+H8c2pu2+Kon/AjcA/?=
+ =?us-ascii?Q?3+qhtAjhlvla3aUs/8EVn0t34WwwAPs5h7fkGKxevTc6xoFGS7W7ebQA1Ndb?=
+ =?us-ascii?Q?LKJBGYeVHxTMif6S7RhD+V9o3nGdwc9ZAnYUat5COxXQY2lKTdbWFgbqZS/u?=
+ =?us-ascii?Q?RvlUTUEX8qfkeG/Sx4UYCb2u6p1Ko6cRvCXAT7DTmB6i4tLhBdh4gwohqYZy?=
+ =?us-ascii?Q?0cnLMsl4amZBX76E/28ZhVAL+y1D1VXkrZ8+M55LX8nxjvAbOhL5h/UWThu2?=
+ =?us-ascii?Q?8R90ZQsOqDF2lBkxVSysi7s2NEtWC4BYyv693qcumnWrs2VulgMNvp6+o7Rd?=
+ =?us-ascii?Q?OiajFfgv797SBIo45MqYJwwlXHAEY03c?=
+Content-Type: multipart/report;
+	boundary="_000_c3c96ffb5bf34ecdb25758fa29189116nypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6803.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5248bae9-a3f1-4388-e0d8-08da7bb342f0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Aug 2022 16:05:07.8166
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA1PR09MB7453
+Content-Length: 1941
+
+--_000_c3c96ffb5bf34ecdb25758fa29189116nypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_c3c96ffb5bf34ecdb25758fa29189116nypdorg_"
+
+--_002_c3c96ffb5bf34ecdb25758fa29189116nypdorg_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: AHMAD, TAIMOOR
+   Subject: Docket No. CFPB-2022-0040 [ #90849565 50074 HK ++ ]
+   Sent: Wednesday, August 10, 2022 5:28:26 PM (UTC-05:00) Eastern Time (US=
+ & Canada)
+
+ was read on Thursday, August 11, 2022 12:05:07 PM (UTC-05:00) Eastern Time=
+ (US & Canada).
+
+--_002_c3c96ffb5bf34ecdb25758fa29189116nypdorg_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: AHMAD, TAIMOOR<br>
+&nbsp;&nbsp; Subject: Docket No. CFPB-2022-0040 [ #90849565 50074 HK ++ ]<b=
+r>
+&nbsp;&nbsp; Sent: Wednesday, August 10, 2022 5:28:26 PM (UTC-05:00) Easter=
+n Time (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Thursday, August 11, 2022 12:05:07 PM (UTC-05:00) Eastern=
+ Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_c3c96ffb5bf34ecdb25758fa29189116nypdorg_--
+
+--_000_c3c96ffb5bf34ecdb25758fa29189116nypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; TAIMOOR.AHMAD@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: /MMs/9F/IEKQ0XAf7EZkwA==
+Original-Message-ID: <723efe8a-9450-c9d6-4060-e42cf0623d5b@yahoo.com>
+X-Display-Name: AHMAD, TAIMOOR
+
+
+--_000_c3c96ffb5bf34ecdb25758fa29189116nypdorg_--

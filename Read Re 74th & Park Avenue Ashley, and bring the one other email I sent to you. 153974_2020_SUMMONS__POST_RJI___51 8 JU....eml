@@ -1,0 +1,193 @@
+From - Wed Aug 10 16:23:28 2022
+X-Account-Key: account1
+X-UIDL: AKLbfzZkdmpOYvOQvwJRwNPCGnA
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.216
+ by atlas114.free.mail.ne1.yahoo.com with HTTPS; Wed, 10 Aug 2022 11:04:30 +0000
+Return-Path: <ROBERT.YTURRASPE@nypd.org>
+X-Originating-Ip: [40.107.89.134]
+Received-SPF: pass (domain of nypd.org designates 40.107.89.134 as permitted sender)
+Authentication-Results: atlas114.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=QUARANTINE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 10 Aug 2022 11:04:30 +0000
+X-YMailISG: 4NQRI58WLDsN5nYXYco.EWBvOEIt21yYD6nwH0BYBinYP1ie
+ PolAOffmBOUdfrZ_tyVGJ1VTGtXKS1I4ZbA5d0yos6zUWjpwxBgQsH_80TFG
+ XNvw3bWSIYOlXwbRuSmShvHBwxJkxivTVJtAj51K.FieLbD4YHHmHkluQhfr
+ _zY3Gu_C940Wtg5cxSu9fqaE3.EnzFC10FROeniKUuSJPIpji2uZlZCchzpx
+ zQdd4cFul9lJESnqc4EKhZ2NF4s4RIu0eefVCfZ8RS_ElT3eJLLHDDJwG9Jw
+ jYAT.kmICVH4KhG0Y2NAw1VJUcNnVrxdO._ChCsMGLs7qB3w0ewHyqTR7yAO
+ qfUfk5Bl3Qoa58GwdFu883KNpFwwtgNHwmfkMq3F_dxFFej19dNkQ.dxPFOy
+ 8gvC6zzBA5zMrmK2psLpazsPhpXcZKQlL1eBDxZFqwIg61nw1AqXv6MOi4j7
+ hu8GVxxk5pkrh_DP0OTq7uq7Bu1Jh6MjSZVMH9St3W9GH9.sDJl6EnYPyANf
+ aUMdmxvrIh72hhGzvWdnOtxtLe6IheImOVsD8Zgrs.ZXhqJVq742pRIruLpQ
+ GDhf6mJ1.WFo_2C2NbMZF3k.lAC3EKyvy4mhVeF8Bko94hq1IPr.EYReryMy
+ 2V92Tw0Dp66tqEIRDTXjySEvvpNkqLliQ6jQDomqkCXU1zAg7c3xv0m8dVtq
+ PVG3zO1w4dVw5ApZSFVa5O4wwTLYJQKjHsRCoqX9bQk76yFYagCFuyx9y3pR
+ pq9Vx6aKEu3p4COsDv2QuP5SVaJ67lCCzhhDRzKclGvSgIiTAiOGXIgoRSJX
+ Wreyo0P3i0O2M39AOUYTiNCBaozAS2379IKafyLy.0k.90WS97_X91uvDqZu
+ MIUyWzeo.IvcascqgWJ1vZrdmC8faBQol7YFeyIhbnjpzwP.roIDl9XEgq13
+ netJBAdbDf9vWHcGhUpUBbW6W7euu50tORh0qAWuS52q23.GoeUk55Gqm28s
+ 0uY8jNuMTh5ypVDO2EzqRjUw8_8ju9BhTNmFz8jy4DqqIwP6fESVECgcg9Xj
+ olS4x.cIYXM50dpeHUs92fE4dUJxP.cAiuJ87ohmunwk6vKoo3mQTEZRiM0r
+ soksNagSB6GNdalIhTHD2VvhnB5.cTjguKnR4y8YKOtZOdVvCGZN0ukmsSQq
+ F_yHqG3AX1RRsSw9ESYQ8hrORfgEHogSfroQDB_GeqFGqhN55ooLrx3Han4e
+ WlUzdr1faLoMxE2sJ50FfPjcybjRYzxQK7c.z23ZZxiWxNjuCk5yKK7ABDlL
+ jM5tTQK.8TqEg0EXTV0pYtUpqPdgrhUZYcfEzTJ9WZknKr4NpviskD9RC1nh
+ ooQiW.Ln
+Received: from 40.107.89.134 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.217.136.216 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 10 Aug 2022 11:04:30 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=GDEDyWH2txDFRSwZjSMlUAR2HNjVZK4NblF4QfvhMttUIy5zt24bwCDDhFEksGr+AMaktLrjr2oSKeWtWJGh1DbfhBoUVcvVfg0W1M/JTjGC21seu7Q5LP3Og/VCzjiPZkZRvGX2XJR9oGTzLCS7Wcv14CDcBXufFRfTjkEdh+GdXbZQoDFycH7e0p0i2oNxp+WFPQJ5RqaG0LvtqwT/5pB3YtrzzCMcmyuI4jjV77BeskK86fFfQmgtaulneVS4ATJu1sGj4I0AwYIWSya0ve8c8dpCYCXHir8iDpJWEmz1XSQFOUFCQZ+DcEHzjXJnZVLm1HzsBRn//KFBat75sg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=po1rjQD0g92L3gQerxFQG9Gae5RVcqfRkZzqohoC+A0=;
+ b=OeMj4cxAn5AVr3sbUMWTcXOeNCd80O7VEIaW8mwjECLV6iK2ZqAFmbZ5BzqTRV7vC1Qm/axaz1iAoCOG5ACoYMQsVcXHC+72uY9HILRTkQkk+e8YlylPGfBp1Ids3mO6WiaG7/YdPeuQDmstj+H+CcUbZZxc4nR16LbhA8umuDtFZetZKYc8sGeUQlNwEioNq32EKh61Nbv09wNXRX/cmuPVd9rAgKynnPY9xEy+/OQDopTcaWQE2E750E81w+PilOj51strr0MkhZSq00HDnVkWii/+7H7jNcA9SApGXA1N5GL+iPcotPCzNPwgf2l/xh6qX9+ZOMKhgqADiPOgyg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nypd.org; dmarc=pass action=none header.from=nypd.org;
+ dkim=pass header.d=nypd.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=po1rjQD0g92L3gQerxFQG9Gae5RVcqfRkZzqohoC+A0=;
+ b=yPvnH2psOGT/ncnvODxSL7PMynHbIShLId+rVn/ATtvZJlq+1/SaGIXgkdUcvb5KG+kZND1W50RN1XNWY9UNbW4Iz5uzI5n02Xm/DSVBHRvMe7/tGmHH+vb2NhENjXaAcyrtIY43uGKNhxXpZkQ+2+QY4n2tvkBsWTG2o5gG3qc=
+Received: from MN2PR09MB5530.namprd09.prod.outlook.com (2603:10b6:208:217::10)
+ by MN2PR09MB5242.namprd09.prod.outlook.com (2603:10b6:208:21a::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5525.11; Wed, 10 Aug
+ 2022 11:04:29 +0000
+Received: from MN2PR09MB5530.namprd09.prod.outlook.com
+ ([fe80::85b6:bb18:b352:c013]) by MN2PR09MB5530.namprd09.prod.outlook.com
+ ([fe80::85b6:bb18:b352:c013%9]) with mapi id 15.20.5525.010; Wed, 10 Aug 2022
+ 11:04:29 +0000
+From: "YTURRASPE, ROBERT" <ROBERT.YTURRASPE@nypd.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Re: 74th & Park Avenue Ashley, and bring the one other email I
+ sent to you. 153974_2020_SUMMONS__POST_RJI___51 8 JULY 2020.pdf
+Thread-Topic: 74th & Park Avenue Ashley, and bring the one other email I sent
+ to you. 153974_2020_SUMMONS__POST_RJI___51 8 JULY 2020.pdf
+Thread-Index: AQHYnqu+1wIJJdpXNEClzY/hB9xChg==
+Date: Wed, 10 Aug 2022 11:04:29 +0000
+Message-ID: <19ce6c133c6f4a90ab042507f3a16b2a@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 9ce4cfea-a105-42f3-f066-08da7ac01902
+x-ms-traffictypediagnostic: MN2PR09MB5242:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ WZqQGax7Mw+QLQPj7hlQRdGb3txvmc7NgZ7BOGxQVUdDIGwDM0qEz1MRxFRyg3ueM6D1EAKL6kfZkCOUSEOsAVsVJ+Vh4vk5YdkyNHv3YDRGzCCPS1Wv3UCcGyEyMR99cEsAfe7cyaKESBk40edlubBYfgwtvSYoE2GUoOcGabI4eYxbZBiQczQkaVOw3Q4QYGFuDUlOjxUkD+wWbPKLajnhSUpXPPLYSIQS9WJzvk6xw3hhGYedzGvMQtKBuGhCklIYJAjCWWhM+WMyWQEgChWIHK4SP1ehSaZDpXuE7vohOPsYBrkne71VLsEApe3HmcNde4Ywbzwv/boxnFJrKEKzXs1EbT5VVmpT9pWGTO9ZWbJJ/UAK8G4YWi6z3IOgBUdJXD+GXBvsrpodWmXslh1pJsWyPy7hqxrSHB1/Hl5VsqJOgv4glwYFck9WAEsWTfsorV9qLOpSRBHjh23/jURmJPKoiuqQlmfBiwCx60SOdJ/bPzcSHn2PNHwaG98rn8mrQMTCdEMScDjopbSAGfPyXemJaQ0wnjEFvrjTrsU=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR09MB5530.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(6916009)(88996005)(71200400001)(36756003)(8936002)(6486002)(86362001)(498600001)(621065003)(82960400001)(2906002)(122000001)(2616005)(6506007)(108616005)(24736004)(66946007)(66476007)(64756008)(8676002)(66446008)(66556008)(4270600006)(186003)(6512007)(73894004)(101420200003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?Vs0tqH542jKE9aDhapr04D/rtsSV3jdYRZu+zYaWo2EgwkdmzGnK4U1Qg1x/?=
+ =?us-ascii?Q?R41hMaWIlFVj2pGyMO/POqXMOHK4Ufeeog+ymN8M3BijQxagxSWOyneUfvni?=
+ =?us-ascii?Q?3i4q9IMYyVkRN2pbu8Q2U1f9IurIPQNWV/22Nzi01TUIDuGq/w4oA6i+Cteu?=
+ =?us-ascii?Q?IbRBbzO5aBE/8MyR+VBiU0vkAjHYsmQfqqBS9pZy+BogcytbgUXeQOX06mXb?=
+ =?us-ascii?Q?beyeD9SGrivPuDxGbpJCSnV9bB+CzD+6+vBEatku0qg8eVfF/t8a2Utn50H4?=
+ =?us-ascii?Q?QGtUaU7QDefWGyihOoQiloFmKYAQQejDbxtcfHk01Dt5I2l06p6TPUoziDAg?=
+ =?us-ascii?Q?Y+HVf2XJB3DldeVtCv+shMuj57T1pG42iUoNIv+uQs/HWgsBVm9fwaFBqDJF?=
+ =?us-ascii?Q?3AHRse9OrVew01gfjT33iIJbBhUBMzOtdrZPYyxY6E0jH7Kaf21qIi7sKsMl?=
+ =?us-ascii?Q?Sy2MFy4WO4DaxyJOYBIjaTaiJXYEUU+DQ3vgnNtncb0pgxGQGUcZkh4qmrwQ?=
+ =?us-ascii?Q?UKaWttqt0UDGHc8yrBt4Roh5udcfpOWO2yZ/YBRcsvsYsuqli8dGHKoiHa6h?=
+ =?us-ascii?Q?bOoQH1CjKvnvEj00I2MvyEPPiSlIH7gcoEzguBpgS6k5RdMFRlx3rEsW+QNB?=
+ =?us-ascii?Q?B6olNkq4ZS5Tg6dDyaBauzm8bE4R5iVKqswPpK06JHKB2fiS9+sRUwP5kesr?=
+ =?us-ascii?Q?jJpaZ5UPSiCvWUdsbMU+hfhConrxXJO1fk1u5YRw97kt3QV4NT4XHVWzAvVj?=
+ =?us-ascii?Q?dbvKXYYSix+NRRDkl5qrQMVJLTNWQ/zdeWrZ52xNyghpefYRY0HTPpaeTGaP?=
+ =?us-ascii?Q?OorN/e1tK1H/LCDhSjjhD8RTwppk04CSU3Gz4KRI+Nkf+ztO3OWoH7bHsTCO?=
+ =?us-ascii?Q?5Bpl6nEQRK/HMf09KEOQ0+0Pm7oYpzv7xLHyHVkTQg4gnqBnDIt5nhkJmAHZ?=
+ =?us-ascii?Q?RmXbpN9sL6UJlySD8uHzsIlXWrZHIbxkTrs5w1uTyEjPzf8yWLKhtz1bS8YG?=
+ =?us-ascii?Q?rtXfy+0eC+rdYoODCLK5jltNfQeUiJBSJve/MQbnSw8Cd+vvZH4YweBVSEi0?=
+ =?us-ascii?Q?+ujtytucPzBXWqSiNIEgC8MTJhgEWoTHDbEYnF3gOvWg/Uq3BQG4kEV0CF/A?=
+ =?us-ascii?Q?whMXZ8/B9kHXscaYq37wgYaRlLiwlBbCf3cSlghRmEVNOk/IGmQ3hivOhd3U?=
+ =?us-ascii?Q?7jzfVJular1Oizonspz6l8VYxuoGEx67Cn9RY86XdQ/dSbKoO2PDski51SUR?=
+ =?us-ascii?Q?hjoaMwuVloW2kxDh+rjz0AdCX5HmcklqclTZvzhVMZEvhvAzbrm8NkNMq9o2?=
+ =?us-ascii?Q?WLOox9eLr/JpcYGcTdzzvFory0nOuSWSN8qQGQGSoASAL33LbIP4zsUFZuoX?=
+ =?us-ascii?Q?P5RbG0O28j54okwvJ2J1aim4JM92p9j8qikBH7PjKtfWyQj02DWjkka/QAm8?=
+ =?us-ascii?Q?SSEDLOza22Mawshjzq++iY/hDgvo1o/7nyG/yKuk29BLAZXdxoprGQ=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_19ce6c133c6f4a90ab042507f3a16b2anypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR09MB5530.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9ce4cfea-a105-42f3-f066-08da7ac01902
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Aug 2022 11:04:29.7654
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR09MB5242
+Content-Length: 2107
+
+--_000_19ce6c133c6f4a90ab042507f3a16b2anypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_19ce6c133c6f4a90ab042507f3a16b2anypdorg_"
+
+--_002_19ce6c133c6f4a90ab042507f3a16b2anypdorg_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: YTURRASPE, ROBERT
+   Subject: Re: 74th & Park Avenue Ashley, and bring the one other email I =
+sent to you. 153974_2020_SUMMONS__POST_RJI___51 8 JULY 2020.pdf
+   Sent: Saturday, July 23, 2022 12:47:56 PM (UTC-05:00) Eastern Time (US &=
+ Canada)
+
+ was read on Wednesday, August 10, 2022 7:04:29 AM (UTC-05:00) Eastern Time=
+ (US & Canada).
+
+--_002_19ce6c133c6f4a90ab042507f3a16b2anypdorg_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: YTURRASPE, ROBERT<br>
+&nbsp;&nbsp; Subject: Re: 74th &amp; Park Avenue Ashley, and bring the one =
+other email I sent to you. 153974_2020_SUMMONS__POST_RJI___51 8 JULY 2020.p=
+df<br>
+&nbsp;&nbsp; Sent: Saturday, July 23, 2022 12:47:56 PM (UTC-05:00) Eastern =
+Time (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Wednesday, August 10, 2022 7:04:29 AM (UTC-05:00) Eastern=
+ Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_19ce6c133c6f4a90ab042507f3a16b2anypdorg_--
+
+--_000_19ce6c133c6f4a90ab042507f3a16b2anypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; ROBERT.YTURRASPE@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: k99DFdvA+U+GSedt62t3Dw==
+Original-Message-ID: <e2ab4d47-99f2-81ef-5af6-0ab7b5e8d0a8@yahoo.com>
+X-Display-Name: YTURRASPE, ROBERT
+
+
+--_000_19ce6c133c6f4a90ab042507f3a16b2anypdorg_--
