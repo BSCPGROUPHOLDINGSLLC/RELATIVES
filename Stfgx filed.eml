@@ -1,0 +1,139 @@
+From - Thu May 19 19:37:53 2022
+X-Account-Key: account1
+X-UIDL: ACjpijRltPTuYobisAX3WAOPoX0
+X-Mozilla-Status: 0005
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.206.155.40
+ by atlas305.free.mail.gq1.yahoo.com with HTTPS; Fri, 20 May 2022 00:37:03 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.57.156.13]
+Received-SPF: pass (domain of icloud.com designates 17.57.156.13 as permitted sender)
+Authentication-Results: atlas305.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 00:37:04 +0000
+X-YMailAVSC: OpqpiLU3bBuw3.Q6NwPKf9o82wQlJQLEY_TYX7OUQtU724x
+ 7ZIaO.5x41QPJshYAkYtF6QSSYjRAYkHic344Or5Rwe3hEstuKyiF.comexD
+ H2GWJcJ0MYxFmAgH9C2SbYZ9ZRtYe9dh3UmhXnPVGccS9SnNZTnLpQm144ME
+ 5.w.XM8g2JSlJgqov01k1389zdr6SoijFLCKnwyMCq44DlroUWZpO55OJXBS
+ lLtL26hY34G6R8AJ7p9GEiKAJvvCH9EEJFQ5iScL1DYJyc5eDDACBca8bQ6j
+ Ekw.2hE_7TMMuZqEkWxSqHyaJEsBHrvPh2ah2jH_QRvIg3udJqPFD2.fB4C8
+ sbEIfH9FnJ6XXh_jaigdduh6dL.5P9_0t0J0Flz_UFSn2KOntp.E-
+X-YMailISG: L4WQrdUWLDsLs6wcTXAtSlaK3jQVCfVOFFqMiZUj54vqK4Fw
+ gfyunwFvxeushAbZLNgA9ccOfgET66TWpFGiyvKlFfVOWqMNem8d4xs8kJXu
+ DiwFOxtKu4vqeJuDwc7h2BSnRZjD954HCR2mCKvGgKnFPL9j9H4QvtFVmTQz
+ qfnuO0xKs44sx85Pby.hU9cKQ1GMVeS3dASwNB2rqxON6hEVwk_MRYYP4asi
+ a7qLzh3rR6.7VTnPGZNXdC4gf8tgJBcC2piG8B4efJTM5zN601iidvxt6VoJ
+ WjTlmKgqPB1nIljqhOiXQWOezX5.7OQzpGfRKZ3q7zlSlJ1elt0IrH_WgjjV
+ NNgEyte_Uc0pCWk6hXf39HNt3zm1fA0jlPtnK_bfRjcjBWmvG.t_r0_cIB5_
+ C3jpkk39Wqxnmji88_6SJ4mK9svX8PSU3rnofU2eZue51L4LcdR5g39.46NE
+ eAuSL0q34hNes0rnpQsdRu2P.GsxkRz7QIfOHFhjcQy_Wg9uFAtVAF4JRdOM
+ ETyjnckU6saML3TxeVMTCnIsvAc14iwHCO4iC5utuJDr_.aiMSKrry9FZRKh
+ tN1_kyR_6.IRoFYjfOtpWB_IuApaCADgnpY6K_NLjpdH.a8q7H.lS2jTzvxA
+ DFmskndKtlSqbX0Gx.pyT5J.gErO3jHEKWYPrZTdApjc1zqFgflXmOXE0NyD
+ DZE630AgtTVgwqcfDFmqVjlLRc1QbfRIXOjTTjfleGwQUuiGmKgRruAkNcqm
+ EhzLvEW9I0H8PovJUON01RKtxA5Krdaz8vJCvRCLzFGIy2gO_gnriuumts8t
+ ic7gIAGUkpjpp_MMZtkK8DtaLUWzR.PDqx_PhkH3tBvzbW00McXPSL7fIfvR
+ qI6IqKKPSY0KuD.oO9DUgRx3m_LIon3Rp1UooXFt7BItpAMeoiSBuy.a.RIT
+ 0Zmnf0NkVCN7KH516S.USU53Fgm.6XLCPrxLOcElZt3yv28xPONpqURfyfCm
+ Y3vCaPbHLzt6z18C8IBpyZbRi0Sy2XfHxHLXTkAGUGxWh_IcY4cC0VoRbeTX
+ 1_QBKVv1Sq3XTM8oHkFWDZPwqvuiNiydhy45nThk828ijYyr56RFcsNU04Pj
+ LmLKmXyKNRTFIEkvvISq8O_P6WwZxJ8jkdK9fwh__pNI5GgZOpWP5t6AeRXb
+Received: from 17.57.156.13 (EHLO ci74p00im-qukt09082302.me.com)
+ by 10.206.155.40 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 00:37:03 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1653007023;
+	bh=0OdbTNikxNLXDJkGpABL3GLWeYtWDHANxHAc8APSJww=;
+	h=Content-Type:From:Mime-Version:Subject:Message-Id:Date:To;
+	b=hSpNzrnTeE8fw4gDQrN5Rsr9tutZELrSFs8rHYv4UYZOv2J7lsxqqlEaqDOzStqPq
+	 AHnY8CHwQSf9WkQ7kdf5TfC6fPrMhVPmDpxys2e7Yo96jPns1SRdXO45pC2dHFWVhq
+	 MHQRnlmhOQC5XwvE30gFkZdbI1uYd779aFu7y91lkuv8cH2fS2zexeFI1yCH7fRde5
+	 VZZpPtiqsbgSt4VeXAnBlKLwwIR096lbCPXXbGFWIj17rTlMHzeMWTr6ByfcZJno1r
+	 YD5JDgE9Gxgiz6yALlsO5QG+of4T2oXU9cjlTsi9MmGHdpXGtE/dggsbIgZIkXXDXD
+	 GXJ5q9gx0awcA==
+Received: from smtpclient.apple (ci77p00im-dlb-asmtp-mailmevip.me.com [17.57.156.26])
+	by ci74p00im-qukt09082302.me.com (Postfix) with ESMTPSA id 222192FC069A;
+	Fri, 20 May 2022 00:36:59 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-1A4AE230-3177-4AE9-966C-11C4BD0F45F7
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Stfgx filed 
+Message-Id: <F1331DCA-5C72-4513-AD53-41283E759C0F@icloud.com>
+Date: Thu, 19 May 2022 20:36:57 -0400
+To: BBO 121 <ms60710444266@yahoo.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: ZzPrGtui5neigdKLEq9O-N9ooKTuZHaB
+X-Proofpoint-GUID: ZzPrGtui5neigdKLEq9O-N9ooKTuZHaB
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.790,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-12=5F03:2020-02-14=5F02,2022-01-12=5F03,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0 mlxlogscore=837 mlxscore=0
+ bulkscore=0 phishscore=0 adultscore=0 clxscore=1015 suspectscore=0
+ malwarescore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205200002
+Content-Length: 3071
+
+
+--Apple-Mail-1A4AE230-3177-4AE9-966C-11C4BD0F45F7
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b50022=
+48307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b50022=
+48307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d=
+3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf
+
+
+/BD
+
+
+--Apple-Mail-1A4AE230-3177-4AE9-966C-11C4BD0F45F7
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"><meta http-equiv=3D"conten=
+t-type" content=3D"text/html; charset=3Dutf-8"><div dir=3D"ltr"><meta http-e=
+quiv=3D"content-type" content=3D"text/html; charset=3Dutf-8"><p style=3D"mar=
+gin: 0px; font-stretch: normal; font-size: 12px; line-height: normal; font-f=
+amily: Helvetica;"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/=
+clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%=
+20-%20FIRM%208209%5BFILED%5D.pdf">https://saaze2311prdsra.blob.core.windows.=
+net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHU=
+RAM%20-%20FIRM%208209[FILED].pdf</a></p><p style=3D"margin: 0px; font-stretc=
+h: normal; font-size: 12px; line-height: normal; font-family: Helvetica;"><b=
+r></p><p style=3D"margin: 0px; font-stretch: normal; font-size: 12px; line-h=
+eight: normal; font-family: Helvetica;"><br></p><p style=3D"margin: 0px; fon=
+t-stretch: normal; font-size: 12px; line-height: normal; font-family: Helvet=
+ica;"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/1527953=
+9d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%20=
+8209%5BFILED%5D.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/152=
+79539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIR=
+M%208209[FILED].pdf</a></p><p style=3D"margin: 0px; font-stretch: normal; fo=
+nt-size: 12px; line-height: normal; font-family: Helvetica;"><br></p><p styl=
+e=3D"margin: 0px; font-stretch: normal; font-size: 12px; line-height: normal=
+; font-family: Helvetica;"><br></p><p style=3D"margin: 0px; font-stretch: no=
+rmal; font-size: 12px; line-height: normal; font-family: Helvetica;"><a href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5=
+000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209%5B$STFGX%5D.pdf">https:/=
+/saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956d=
+d/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf</a></p><p style=3D"marg=
+in: 0px; font-stretch: normal; font-size: 12px; line-height: normal; font-fa=
+mily: Helvetica;"><br></p><br><div dir=3D"ltr">/BD<div><br></div></div></div=
+></div></body></html>=
+
+--Apple-Mail-1A4AE230-3177-4AE9-966C-11C4BD0F45F7--

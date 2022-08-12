@@ -1,0 +1,100 @@
+From - Thu May 19 22:42:11 2022
+X-Account-Key: account1
+X-UIDL: ALeql1tW+fbmYobwTANACPOK4ck
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.234.155
+ by atlas304.free.mail.gq1.yahoo.com with HTTPS; Fri, 20 May 2022 01:35:07 +0000
+Return-Path: <6462563609@mms.att.net>
+X-Originating-Ip: [166.216.149.4]
+Received-SPF: pass (domain of mms.att.net designates 166.216.149.4 as permitted sender)
+Authentication-Results: atlas304.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@mms.att.net header.s=EMG20171113;
+ spf=pass smtp.mailfrom=mms.att.net;
+ dmarc=unknown header.from=mms.att.net;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 01:35:08 +0000
+X-YMailAVSC: R3lK2jA3bBv.8J9AIiR2Tv8oZ9kce7BTHcPtyzt1NMQPCFW
+ xk9jBcDXLJqD4XKYc7G.v_mIV0nlhsp15mf0lOS19aD36QEgv4Pst94uPVWz
+ hs_R0ubr_sA8b2EdaCJS4gF1Autfhups8aHRielCl7PilNbUHCVNbQpI6wkX
+ Pi8KYrLHH5nwH7tA4g9YTAxELcwAniap083b6SLTPoffBOPBSgUM12jFT7if
+ OqyFONWtS2pmmQDKfbEQwkpk8iQv6Yv_nSbwCji6ipCvRg1l4bVSAp2_Dk9v
+ z_XtFye7_yVzyU2msXA4N9_3qLNuJsxDjmuCjctO1yLQuekC.aD5I8oH6gfg
+ 8eREbiH7zoTafaxOSkHQmSYZBDuR9E3vAZWqJkd32sFJdSEcyuM4-
+X-YMailISG: 29uJ3msWLDs8Z.zmP5btaH80BHvtgZ.okaUtjGsOZglJKUQh
+ WEA4l2PVYEJwB7C8eHKGoapMrKwpqPjqslmKHZDs4g1tcAZUBkVfVj4MtyRg
+ .lyMnXTpC18C7wVU9wUbAsDr74.yPfNs0_diIdEOwoDTVdZcttcg5fE9765p
+ KB2oJ4HFhakBMSvrTdgl_Zon1NWiGSScsECq62gdkKzvrsoMeSzNVaG1K3na
+ VMQkvulCT_QAbGBqlsJUUPf.19P4k.WjvoKQfoCkDffRJsZBOAS4x1T5kMBK
+ JFMzQKWfJKJT252R1IMqh7Apg7intEcncWf0dzHKVKO2DmPbT9ulTqn2ynOq
+ zegvddOkh5iJB_qw1OK1qEL7h_1aAas4eoqUInsKkVmmAba1KUDx3BVDIM1b
+ 7wAKIWorWdJCUSOnfYqjm0gRIzdgj4Wfxq8UO7ice.TuGcT4q3U.qEAElo28
+ uGWbS3sBq5Z_50i7Wi.p3lW9B_C1FuACWPDySywy3EJf4kGPHkcW43XPP4cp
+ xjXa83dN.31H3fTVsNSBY88_ufHnb7dpnJXtd8BspEd6VKm8sY_yYfu_T13x
+ ScPFR9GArPYV5bfUJuyXJsBhf8_HwVQKdiIHWkdg1PxsEsERxHKCWdXM5MRE
+ aBu2WP779cb6ynHRvJNtz8DtJAHpXZ6EAbeY_jXyiZcAJ2JFWxJOUZkqNOqs
+ u8VCiN33dCrzTuMW7mUOGU_NW4GNKm6Sf.bD1RVBop28WOy9R3x2YVxdK867
+ J1tEmqsheb8cbhhzRcfnBkrFURRAY0zxVN5Ilvokh_nR0m72ZjWoEx_VeyC2
+ nUKGPCuqb4M.yOc2p4DTDkeEck0duYj8kmZ_jIORXZipx6hwOtHGYLf29Vso
+ vJtwff083l1gxuB8Hr5e8ZAd9I0W4_OUKwwsmMtGMkGYCi9f.uFi0P_aTFGH
+ J_DJ.pVm8ovFxxC1ja0cVEtVKNPeZ9yCvlyEdH4YFjQyhtP4TmMZYk7WmT1B
+ PU9U6WsoDa2nByeWIXD7x767fnLfqP1RKD3C27o9lcNbvLIrw5r5aSqbVpRz
+ 6HYnHsFaGmFJYPf3m4pJnBmWh0EJm3r8YOwGXum5aMK.Az1HGT6fUGw2MP33
+ kw.ykKaay_4q8uX5Sw--
+Received: from 166.216.149.4 (EHLO alpemg-mtmta01.wnsnet.attws.com)
+ by 10.253.234.155 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 01:35:07 +0000
+Received: from zatn1bmmsc01nfe001.wnsnet.atn1b.tci.att.com ([107.78.102.24])
+	by bizsmtp with ESMTP
+	id rePFn4e8zOQVtrrXnnsM2W; Thu, 19 May 2022 21:35:07 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mms.att.net;
+	s=EMG20171113; t=1653010507;
+	bh=pnP2CJgaWn/f81hFL5dIO8geUE+3m5+gNNzc9vRU9FI=;
+	h=In-Reply-To:To:Subject:From:Date;
+	b=ALURnSd359VUJ16hnKr3cVM4MUWCQYWFA4/OQqphEX9x1LfdyNXsZnoCsTBhYjR3j
+	 7Ud4KkKBRmxIrXJkECanKWfeLfvddgxtABZsw51ZnPoJA/eMrWKZ/9lcoDyuSpIq2O
+	 SwRFzLx32sCS2ZYpNY96L6uh8GifsZkyNQdmuyRiFAkeKa09WmK4fYR28Eog9ru8B/
+	 76co2NAr+C02ngItVdERfD+r5Ws4jy5S0H2latRb1BBECr2/n5cQPZNZeqw1fGQwao
+	 Zr92QswQ6ULxJJ2nQJc9R4zsluEjZRmkvIyQT4+OyDzg0YkdL/9/vHAofTV4IUxuUD
+	 bSmKg0xeXpT0g==
+Message-ID: <rePFn4e8zOQVtrrXnnsM2W@txt.att.net>
+In-Reply-To: 819845078.88501194.1653010507071.JavaMail.nems@zatn1bmmsc01nfe001
+X-Mms-Message-Type: m-send-req
+X-Mms-Transaction-Id: 1653010504-6
+X-Mms-MMS-Version: 1.2
+To: josephine.vella@finra.org, ms60710444266@yahoo.com, chicago@sec.gov, 
+	bbrief@bloomberg.net, newsletters@latimes.com, info@ey.com, 
+	info@kpmg.com, jpminvestorrelations@jpmchase.com, media@chi.frb.org, 
+	comments@dfs.ny.gov, ir-operations-team@tudor.com, news@penews.com, 
+	nlrt@bloomberg.net, mutualfunds@statefarm.com, 
+	finraproductmanagement@finra.org, finrawebmaster@finra.org, 
+	publicinfo@fdic.gov, info@statefarm.com, abanews@americanbar.com
+Subject: Filed. CRD complaints for SFBDX holdings.
+From: 6462563609@mms.att.net
+Date: Fri, 20 May 2022 01:35:07 +0000 (UTC)
+X-Mms-Sender-Visibility: Show
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_88501193_1842379344.1653010507071"
+MIME-Version: 1.0
+X-CMAE-Envelope: MS4xfB8yK3gjhBoB/m2GSIZcdm0vj5y2iHhdSdFvKeImzDtaq44qSq+858tCPWXqp525ydegKJjTx0t5ZOSs5Pj6q6IQpmuqsR4bA8q82SHu2GnsuvBvC+RE
+ xWv+XMdYwDTkGaWhh9jVccJusUJWxZbznnxcEBHYS+AEfLTF9/w92VObpmdizSIXhRiOIbdQdMxKrRNSsauBpsDejhm3VfrhJKW/zPro1ORZ47sOtk7CzOSr
+Content-Length: 907
+
+------=_Part_88501193_1842379344.1653010507071
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: Attachment; Filename=text_0.txt; Charset=UTF-8
+Content-ID: 0
+Content-Location: text_0.txt
+Content-Transfer-Encoding: BASE64
+
+U1RGQlggZmlsZWQuIApodHRwczovL3NhYXplMjMxMXByZHNyYS5ibG9iLmNvcmUud2luZG93cy5u
+ZXQvY2xlYW4vMTUyNzk1MzlkM2Q3ZWMxMWE3YjUwMDIyNDgzMDdiOTAvNjUwNzk4NSUyMCRQUklZ
+QSUyMERBUlNJTkklMjBSQUhVUkFNJTIwLSUyMEZJUk0lMjA4MjA5W0ZJTEVEXS5wZGYKCgpodHRw
+czovL3NhYXplMjMxMXByZHNyYS5ibG9iLmNvcmUud2luZG93cy5uZXQvY2xlYW4vMTUyNzk1Mzlk
+M2Q3ZWMxMWE3YjUwMDIyNDgzMDdiOTAvNjUwNzk4NSUyMCRQUklZQSUyMERBUlNJTkklMjBSQUhV
+UkFNJTIwLSUyMEZJUk0lMjA4MjA5W0ZJTEVEXS5wZGYKCgpodHRwczovL3NhYXplMjMxMXByZHNy
+YS5ibG9iLmNvcmUud2luZG93cy5uZXQvY2xlYW4vZDcyYTg5NDBkM2Q3ZWMxMWE3YjUwMDBkM2Ex
+OTU2ZGQvQ1JEJDY1MDc5ODUkUFJJWUEtREFSU0lOSS1SQUhVUkFNJDgyMDlbJFNURkdYXS5wZGYK
+CgovQkQK
+------=_Part_88501193_1842379344.1653010507071--
