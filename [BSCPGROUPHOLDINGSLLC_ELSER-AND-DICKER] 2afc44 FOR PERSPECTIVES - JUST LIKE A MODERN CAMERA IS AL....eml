@@ -1,0 +1,87 @@
+From - Thu Jun  2 03:04:40 2022
+X-Account-Key: account1
+X-UIDL: AAHmydcWaocyYphuigF+0HzGxxE
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.145
+ by atlas214.free.mail.ne1.yahoo.com with HTTPS; Thu, 2 Jun 2022 08:02:17 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.203]
+Received-SPF: pass (domain of github.com designates 192.30.252.203 as permitted sender)
+Authentication-Results: atlas214.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 2 Jun 2022 08:02:18 +0000
+X-YMailISG: zS7GaH8WLDsG9FIxroBf_ISDu3fK96yvrW5Od1XlvzcmIg8f
+ 7KLr071p4FhOhskr4KU3tZmrRdZjLKbWAZxuvGgHY.j3h47RZipj2W77c0N8
+ Qi4XLDxFmocNwhwh0QT1m1hztZMlQfTfhAdnB2IErFQ5QHUUNz4jNtAQzWo0
+ e8JykT.i8CXU6NlVRjBT9jCIPwzPrSXvaAUyBpPuCAC2DeTU6mNa17NXszUc
+ pY1wBpJpB_VAGoCqWRn6_6TgFKBRuK87h.apccNPEJRmWGLxXOEoqgZ.k3xL
+ __nsVzEKO_lq95xEXdrYHwfF6p2n7ftLwQqCNZmIivE039VvAZ86Os88zmTq
+ _3NIn2w.g8HdakfSd3lD8l8Hfq7CjO74ckdD2h.GI.QQOM2AL1uHm28Z8VPG
+ hPsNSHm7EvpebBtYh9EVHKYLVDGPM7TnCi5nhAKlE7gCMwJOTxmwavURnkbT
+ wzYSOoM6E_cCubn_T2iiareFM7jEanpIWhc3jDZLQCnhAeWEecSOnO6hCCgX
+ iE008wx5nB5gRwPLMQzYMt4Bcd9_a_D6BCnlM2VbVmvuVxI.iV3MYP0oyeIw
+ TdZFigl9Zev1h6V_S6VaOP6at_QNyF3sOjW119_9HeTbOyyQMSXuU.DmOqZb
+ fvvgq4JkjfGGm54CT9c_kEZCtE0BLrkv9ALnxVNMLcvF.OC4oYnDRm3QyB_t
+ b6BxETRYC3iZ9fEJZZWFDFFjp24yDrKJSpFm0womiS0_lQMh0liVeyPkZ_qx
+ Y3BKIB9QXqKOa9q8rmNjJOjfmq9SCX_n26BIePyyHFom.YZr2ap5d5EprQ_G
+ i9WWYaNFlpOjnBlmSjYHMfp0QW00RnBj4XcN2RNpiHvMlaEMJXVkjX2wLqXP
+ Y3ZDWieCiEOikaOrkmQwjLTwZe.mdEUwEsDXheXQrEskll.UFkjb3PsOGoCV
+ gWdvmnsHhYqjRJmpjQMNB9tq3PnkIkWhJeT7gIxO9NZwTAiet8DyM4gVqAmd
+ xwAlh_4.ibwr6ANVlPDsByMfVsGrWuMwgmrmXcX2NeLFsumnDbi6uEHe6fTv
+ HMS9FA6c5NseR03sBRPJ0zV1EceoMD4E2gJBvXrcNcrWAuqfAddm3UWn8S5P
+ 7poCIkdYbCalTREZF3DSa3lfRPxa8mDQ4Na2MUsKcGQ5Vqv6hYaUm0i1qH.f
+ jUpowiyc2.Ng26Zxk_BZFg--
+Received: from 192.30.252.203 (EHLO out-20.smtp.github.com)
+ by 10.217.130.145 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 02 Jun 2022 08:02:17 +0000
+Received: from github.com (hubbernetes-node-4f2d842.va3-iad.github.net [10.48.201.84])
+	by smtp.github.com (Postfix) with ESMTPA id 71E57E154C;
+	Thu,  2 Jun 2022 01:02:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654156937;
+	bh=dpJilUAln4c5EG0mj+6LAlQv8TR4WHGr/itiXz1L5tc=;
+	h=Date:From:To:Subject:From;
+	b=RIvKyvwlFiCuK9WHwjxX3FBC2xHscrjrNaF+v9pGZuodMBYCMDBBWNZQbH2fOsnVL
+	 yvqNTfCKhY9D7Qk/HCNmXk14dRZyfhQ9QDOUQaqlzDE4/+Uo49+vNcjGHxD/KUrD4/
+	 OFv8pfdKrBLZBKVCyfMBS+PHyDqckT7lywBFblJE=
+Date: Thu, 02 Jun 2022 01:02:17 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ inquiries@point72.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/d12140-2afc44@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 2afc44: FOR PERSPECTIVES -
+ JUST LIKE A MODERN CAMERA IS AL...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,inquiries@point72.com
+X-Auto-Response-Suppress: All
+Content-Length: 857
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 2afc440f4292210f7e3977eac917d1560c12ce13
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/2afc440f4292210f7e3977eac917d1560c12ce13
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-06-02 (Thu, 02 Jun 2022)
+
+  Changed paths:
+    A GC1 px - NOTICE FOR JUN 3 2022 [ TWO YEARS LATER ] LGL SIZE LANDSCAPEPD.pdf
+    A GC1 px - NOTICE FOR JUN 3 2022 [ TWO YEARS LATER ] LGL SIZED.pdf
+    A GC1 px - NOTICE FOR JUN 3 2022 [ TWO YEARS LATER ].pdf
+
+  Log Message:
+  -----------
+  FOR PERSPECTIVES - JUST LIKE A MODERN CAMERA IS ALSO ADJUSTABLE.
+
+SO EACH DOCUMENT - DOES HAVE A MEANINGFUL BASIS FOR REVIEW.
+- MORE SPECIFICALLY IN LITIGATION BY THE REGISTER OF THOSE WHO I NEED TO QUESTION.
+
+

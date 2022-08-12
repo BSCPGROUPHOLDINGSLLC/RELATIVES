@@ -1,0 +1,106 @@
+From - Sun May 29 00:36:55 2022
+X-Account-Key: account1
+X-UIDL: AKcpt6khC5p2YpMEhgu76CQcFrk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.148
+ by atlas115.free.mail.ne1.yahoo.com with HTTPS; Sun, 29 May 2022 05:28:35 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas115.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 29 May 2022 05:28:35 +0000
+X-YMailAVSC: p7hHZ1s3bBvNKvAxvUNHwyUTVmTaqnUd9pfsch3_3BGNHSM
+ .CZtdrcDbEigJdpmpV.TZ5NlmGrdxBakSfBkDi7WLMqLivCxD8FkRDGlLyIv
+ Bx_lqw_gUxLKhZUafwCyefrUXJEMwmbhaj9Has5wfhbqbizP_2Osmrr2EpEg
+ WoUjNQn3WwheskYvHuVmef5dNxgd9rvhf8o7pma.iBGTViA953erp3vL0QYt
+ wROy6K2w8ctr8qB0ueX3Q2Vt39YZXDIO78bqoNKUdOFgWyMPlOlPLMDgxcoO
+ _EfvnWa0c6gKM.cPnslnvuZ3ok8J0c0xvS.Pj8JQr44r6Ol0USULnp8suqA-
+ -
+X-YMailISG: qyGTUWcWLDsy8Go1747Qa7ENV4p_bLLIvol3G97yVugp2dDb
+ VDS_VwkNPEpDcKlylJhXvjtdyIpfBlgRxr24fiSPAfN31n0bY1Eeqd5vfltu
+ ELhpGjT093mwDJfO9CKieNqQpuON7wSyk8Xu1otZqxOZjIfXtf0576wXVSFB
+ XECXUV3lC_OX6IOnaa3B8g6wb2HQz8jo8Z80i.C1.k7vVnHsk4z6xUJWsLr6
+ 7MOKTOdMXYrqmuMyUGfm1Dz33sK6JkdVCroINjV7SdSgExHxFRFngZACDTlk
+ G1urI9FWFedKNpnQZPIsE9I7YO6gZHO0VF3MFL2PjfueCItRfTCf4BUMS8EJ
+ VNRSCPs1pch2DX04mcpjuQssj5zKYrwcW8VhYza79l6SB1R._wA95jqZKcIV
+ sPQA78Be0B.JPM88CaKh0mp7X7zJvcexXKAUaXZbHbysJKQLNWHR_BxEEBbU
+ Mmq6u9ZupzvJlqPpHuLdZvk.nUkUXJBXBpUMtQsQF_p96W3EeH_IudLYU8mJ
+ v6kn5mOUqAX7EjiO90xTPNdUDaknFui1vGVVZ6pjCbzKyv2zpQiqYHkyRMHS
+ 3_fCDdaNamPLH8RtPmFEqdX.LeFiPYpGCsALZpGjjOgdE6jGw2lUpr7XLC2S
+ RKp2fWEWtedKepLsMdWJmOyT9m74wp3iHwjhlseDLmF1J3ZR_mp_89X9gejD
+ COSu0w2giQHpSCey1GHXBdIRtry9XX1zzv6ea30zWbQgNLQ.bkLt4LdkBJ5f
+ FSzBUQdGBO6uC236V1j1ZsJwZl8igjv1ANN_y9w9JeH8ZskVQpO6Y11OBnkg
+ tlbCurGqhcoyDjcd8sDGraBjPgNAaUVErICTGD_0.t7T7.tqH3dpiZO0OSwc
+ NMAuaF39DgCKXu.XZSCTOczBVyuvW_v4nOLq5PPWLLTnhhesyhQhpUYO08RR
+ s6ukUKBnOaaUviNbJ5RCkfxrWczrQLfJ6umF1ffzrWgI_1DoRmFNKoFSxxAM
+ ilROkl3.SWgg9j4rGfi4GRDWwBaYpiiowvDyXYn5jNVFrWWzr_kK5RUlkAGJ
+ rAQjTE9GUGq.TpnMROL.5xsKnDE15zrYA7jWb8aBDto4UYq3ZFZHSx6eI4LQ
+ LnslzlMJZTzL576QG8pw5QJeQu4Q5Lkk465wGOslyTWoNxdMKgVXZbb7ClU6
+ wmNAbhjHZvTLJ5aPfxCicw--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.222.142.148 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 29 May 2022 05:28:35 +0000
+Received: from github.com (hubbernetes-node-b1d0cbd.ac4-iad.github.net [10.52.202.70])
+	by smtp.github.com (Postfix) with ESMTPA id 0E9E252056D;
+	Sat, 28 May 2022 22:28:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653802115;
+	bh=svZjrRFXmak00zQEgIKgMYa7msYtLm4DzkLZovMSl24=;
+	h=Date:From:To:Subject:From;
+	b=Uz/5IobiPtEIYhz1o/XaD09bwSnWKt8wsv8aRGwgiI8OKItNPIHCmrOJB98Q3lGbZ
+	 iSHugSOshZPvm/tIxMkumQ3sxcGSZmLDzTcjgONaY6cOaWq95qBOgSKOLPjvUI+g3O
+	 bCg9Gn5ozHTiH4I1JCL7j6Djs1u6jrFOqaSdUG+s=
+Date: Sat, 28 May 2022 22:28:35 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/2d2b62-d57082@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] d57082:
+ https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 1121
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: d57082cb5f85d4959d829f1def99ceb5992c949e
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/d57082cb5f85d4959d829f1def99ceb5992c949e
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-29 (Sun, 29 May 2022)
+
+  Changed paths:
+    A 2022-05-27---TCRReport 16537-714-487-492.pdf
+    A Date December 19, 2021 NYS 240.PDF
+    A IMG_7160.PNG
+    A IMG_7160_C.JPG
+    A IMG_7160_F.JPG
+    A IMG_7161-b.JPG
+    A IMG_7161.PNG
+    A IMG_7161_E.JPG
+    A IMG_7163.PNG
+    A IMG_7163_A.JPG
+    A IMG_7446.PNG
+    A IMG_7446_D.JPG
+    A IMG_7446_G.JPG
+    A Sun, Dec 19, 2021 - GIVE ME BACK THE SEX TAPES AND ILL STOP.PDF
+    A Sun, Dec 19, 2021 - give me my sex tapes back.PDF
+    A Sun, Dec 19, 2021 240.65.PDF
+
+  Log Message:
+  -----------
+  https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2
+
+

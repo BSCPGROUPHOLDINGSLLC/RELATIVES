@@ -1,0 +1,113 @@
+From - Tue May 31 15:50:33 2022
+X-Account-Key: account1
+X-UIDL: AL9gwf5dHS7CYpZ9qQ7NEGJXAFI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.164
+ by atlas207.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 20:42:22 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.210]
+Received-SPF: pass (domain of github.com designates 192.30.252.210 as permitted sender)
+Authentication-Results: atlas207.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 20:42:22 +0000
+X-YMailAVSC: YvCQ4P83bBuUszhAP8vivgij98OIF5Xcj7fpVbny1uJPB0d
+ SJGVUxsbhKbv8fqEJLORpxsRbWEh.RzHula_66E.t4pL9o3x96zBliD99uPg
+ hqlphjKHRUb1YNhIoRaQ1tsqhcrFl_TFbf1.1TzAQfl0Cesi5bH3rT0McuMF
+ 1hN3xAw5zTG8Dvd6v.gNbt7amsapB.P9697Gl3ew20XMLR_JpI6PGCPo0yyG
+ yTUSE286xVnw13OYBEfTbZQXTe0FRt4a5FKVx_1C9JJD9rqBvClywXw88o9_
+ 2Sg6CqXqC_cNdeV79q7q4hZHCz2J3UfaDAIvXAnrfqYltFxCUtLspw0ECKjy
+ D
+X-YMailISG: SgZLxgEWLDvQDh.DpRpxiriYmNenaFYfY7gbFbnLgw0PVCYe
+ 9OfCCHrDwJIHVzom7NQPKo8KaKzV5ivaEm6OV9RS.VIjl_JMQ76MI0yahvir
+ q5gAUZsv1Vwq8g60L6zrlPh70GeaQrICJ59xf.vZKnFJwLBWpNBCP7ZdjOZJ
+ W1CW56Cn3Cx642X77Zt09NerqVESaWJhNc98RELal1SC2ZyBwcCVGw.xYOUL
+ WoHtQi3lSENp2YeuvsBZyMzX9ZEmnqOIJnHlzcNkup._sszf_SEIRSzKjbpi
+ pZgO6LC6hDHpiOBQbKF8SNNMI2842g.ARrOq8e7mpARVPVr1Vkt4XD3O.D_2
+ XogGoVZWr_Ifi7ylv6YYsALAdvNkXXKON8dcsx70Va_yAZOBgLOtnLgQv2ps
+ ejHMPs1VwikJDqh_m_3nfCWRJUURyiOINqzbsBGO.U8xGE8LNv8lHHsRQhwD
+ atYFIJMxnKublasTnAr.rdjTHEiD6G0P16gb1SKjYGEkw_PK7.fGfWKZaEVk
+ J530lCzd.akpKnVEHwT74289y0Pbi.rYLOcuiSbw95Lz2J78Q.SvU0M1e_XW
+ nJJbBeS7uUHQgxfiZnpWJF7nwplWOQm_WgfDgj_VnAcTSx0atRDNyc.xRv0j
+ xbRvahm1RfINVhbYhuUGtANMYeqJCd2Pn3s9HJkn9643w5fN8vZhQAciX7EU
+ 34f_UKAYGm9Zm_kVjny8JlEuQEwhJcORL.1WyNFb.yKA.bEPk0czo79UoS0o
+ DHYE1ZIVkuJjY_oL8thrbQRw52txHEl5ooshRWWxi.9aZHGiJwkzQlQuOFbs
+ W9uL8PGg3CFwv9YMJeG0eyTd12QQwvYiSUa59s53O8YLDbfqGrDrHH30X3q1
+ thgbOldjgXG5wc1hid8MjWJz.oxleLFr.ylMIUFxR5HmgJf6BftOCU5oN5cV
+ aE2LyS6yTtRaBFxkU6nSn9sw.ArUNFX8QnTdEzX9QE5w5niUEQftPXowf3Ff
+ Icl8CQImfcqIXLSjH2P1dos3ijeRve7XgS0wT9JkbO_9gN1K7llctWv7vhtK
+ _lxuEfIq_b5t550q4YglODJB_hXvazIm1v1ch0JnRzlbG_Orbn0DPBpBXCn4
+ K6GNEmYkHlpX5H1i02._t71ZWPIgxhRlRcFZM8NnXycbQSSnhvDLlq0jHzoB
+ oifSn2ZqsJKk6Yh2xxER5g--
+Received: from 192.30.252.210 (EHLO out-27.smtp.github.com)
+ by 10.253.62.164 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 20:42:22 +0000
+Received: from github.com (hubbernetes-node-077714d.ash1-iad.github.net [10.56.203.102])
+	by smtp.github.com (Postfix) with ESMTPA id A5564900458;
+	Tue, 31 May 2022 13:42:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654029741;
+	bh=lvMPX5ZNw8WNCIjPn5+PCHxiPF/KWlAYvwGF6M1joUY=;
+	h=Date:From:To:Subject:From;
+	b=VyoHCd8osX1hc8SpZhfWNwsq0/M97gmy8J7B4Yg4vx4uud7Egow7vI7mRxKtC5ogJ
+	 cwhEZj1+sFq64lQjep6OGRROlaAOaqdACmjuE/m1YEzeqJAefH6KZLFSyZGg3xrwIa
+	 6Rn2uujxEPWdxCQIroR/2PGgoC7tc13Ka0aGIPPw=
+Date: Tue, 31 May 2022 13:42:21 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/87fcd0-2d41b4@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 2d41b4: state farm life
+ insurance company, ENCLOSURES TO J...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 2053
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 2d41b4d383c199de162a8dcd9ebae53f722032ab
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/2d41b4d383c199de162a8dcd9ebae53f722032ab
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A [00075] ENCLOSURES TO JUDGE IN 153974_2020  - CEASE AND DESIST - PRIVACY TORT EXHIBITS.zip
+
+  Log Message:
+  -----------
+  state farm life insurance company, ENCLOSURES TO JUDGE IN 153974_2020 - CEASE AND DESIST  - 153974 2020
+
+state farm life insurance company
+-- A 'FIDELITY' UNDER THE STATE FARM ASSURANCES FUNDS TRUST, OWNS THE LIABILITY OF TAX EVASION DOLLARS OWED FOR THE 15-YEARS PRIOR.
+--- ALSO HAS WILLFULLY TAKEN OWNERSHIP OF LEASES AND RENTS WHICH WERE "TRANSFERRED" AND ALSO USED AS A GUARANTEE FOR A $6 MILLION DOLLAR LOAN TO SULLIVAN PROPERTIES LP.
+#####
+#####
+[00075] ENCLOSURES TO JUDGE IN 153974_2020  - CEASE AND DESIST - PRIVACY TORT EXHIBITS
+////////////////////////////////
+////////////////////////////////
+[ UNIFIED STATE FARM MATTERS OF LIABILITY ] (https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/35b3050f3e7858ddd8141fb86ebe43dceb017f6a)
+
+///
+FINRA TIPS filed. Attached EMAIL & NOTICE
+----
+(https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8808839/Filed.sf.vp.43036.3487.-.ia.8018184.15156523.zip)
+
+
+///
+---6 MILLION DOLLAR LETTER OF CREDIT AND A PAYMENT PLAN FOR 10-YEARS OF TAX EVASION
+(https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/raw/633c731ed0d0ce42337f4b83e68e2b1aaf4e41f5/%5B00313AND383%5D%20-%20LOAN%2050074%20-%20ME133300053v.2%20-%206%20MILLION%20BY%20A%20FIDELITY%20-%20STATE%20FARM.zip)
+
+///
+---VIOLATION OF PRIVACY DOCKETS OBSTRUCTED IN NYSCEF 153974/2020
+(https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/raw/87fcd0190c3f7b43a7c7042c5e4499555099e678/%5B00306%5D%20-%20TAX%20BLOCK%20503%20-%20LOT%208%20-%20TORTS--%20VIOLATION%20OF%20PRIVACY%20DOCKETS.zip)
+
+

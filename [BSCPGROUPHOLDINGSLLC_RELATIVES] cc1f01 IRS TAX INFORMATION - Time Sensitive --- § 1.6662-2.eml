@@ -1,0 +1,283 @@
+From - Fri Aug 12 02:26:34 2022
+X-Account-Key: account1
+X-UIDL: AFY0b3Vn1pkvYvX+2Q74CIzznE4
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.75
+ by atlas101.free.mail.bf1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:18:49 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas101.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:18:49 +0000
+X-YMailAVSC: MoHf1ZE3bBtGgbeUHKEzvG9dMN25dFcZVXjB4Jm1DvVF.7Z
+ fOwE3Do23mQWIl1I47ZvKgNax6zB9Uou_XVEnlziRSXUYE_fum_xsOxwAMF5
+ dp0koD0rrTz01b3GDKLWlgxmgDiSHIHTtm57k7CGV68DS4tHVkKrNkL6TWSo
+ .AG7YsERK0GJv1qPJyig1zVtLnnb0X69kA1kqu9CxnvnogbMkegn0NlE.H8y
+ Oik__6pZKRaV4DREZDQ.hgxiHegzIsitXexMsL86T.XlN.jQredE5FCoY4Cy
+ wQeX2FrW_4oCfVrbdJ_hnX.lEcbNBomVFaI4TgtbbozMb4PdR8C8rYRCZsrP
+ PgJ6.V_oxrJr.CzPBM1wKZuyy6mdwxhrtE3FwAwo_vRkccsVnRRAgVveSo1B
+ y9HTPO35hLi_A_i9OGLrsB9A2DLlyedS7hCDh.0MTsDK2APRB0cU_FLD3qSS
+ DLxxdBurSppl0psbXIAzZGbQjzMcq1VQvHn3HDEoHNRC42DMoqfRtdhLrY8E
+ yHtlT7PO2D_UkNWYvsOkYYC8CrnruraDIi0NRMaL4ewFAWTE_z1PzJQiKT3r
+ nzqL4XtaCIaxGH4znlg4hRMc.CajwvGhQOT72nRBVn.QhLY7kTrecXwQD.C9
+ NbMZhydRApgLcZN2wkOO6YTDqm4SNUsTd6T7Ca.v3j5zhXwkmhyuugu.e3Xt
+ w1McRWeWOLX_lPWtJrq1FcoIbPZTUslMurx4rudXoTtmXEU3WmAEvjyEe77q
+ iXpHgBGr6IMUkjZ2SX_GEjX6npVyNSDQAK.abFJS5MtDeGIDgbT6eRYzKN5I
+ knKOZnfXDcINZil1HLvp_Xmnedj6tzGiuRrERwJJeiOWn_X_75e5Kt.bGFyo
+ NXLBISS5IY2YYPKlqO6lDrLwCfuRRB.9Hb.iJMOMkz6p0jpxePDzCaRYHGc.
+ aup5V3377fHFzEWKlJ4wLk5SLWKJSExL2wRPTNKHrNKFVz2tpXT8_J9pmdhT
+ z6LtbykWHWQkdg9OjcelHEb0zh8D8iJQx.KQXI_2UuzmO0T5uowxyweOY2Kt
+ 97sKASNOfdxLSxAOYa8w.z9hmx09vYiXVukCq9MS.ieqzgeK9
+X-YMailISG: wuVt_BwWLDuK0aIi2R9dnhFRyQF8iuHQbX3kQhdM.sSHTT3L
+ mdjULl4ljKq2ufQVZ6hRWlWVHWEkygQGJwg3JgC62B1YRsRVYl4UFK1ACgBA
+ AbmFpyksL.dVARCFHN8USvIqZtF_QeYY9KKNh91Y7gjDG_ej0XqHm50h0Ok6
+ osr3ldwPE2WdHC2ISV1pef1S9.LyapkIaQTtkrjLps72OFV6qPryKACpIs4A
+ ._iccaRkORjoGK5sFygiw5Tl6dhmU1dNAid26CpECfF54qjEMIggxbUNYLs6
+ 4RGcaSsXIl51YS9peEU.gWl4bhWuODmVrHfwUdasq2WZUc2GYPKBwsIJStA7
+ 29gKPwhxdgxAGRabvhwmBNc2ZjSEMRrq1LG37GcYJSPtXD0rK.oEfG.Ur4kX
+ 5Wy2z2z4BOKAie29DDECiS8T96SF0vZSUWzS1Eth9QvqZ7VmXIpItvovY.7S
+ Y.FfQVB.cH.meaAr5AFYUXGeW0FS.MqsnDnAKRgJYl5ehXokNTUDVSpfB_uH
+ eU6A1P6b7U01lYWM7P32hWshagOyr_wyxQpItGeaomsJ6QAF7z2xR_IPGZ29
+ oHkAUBasw.tDiKft3kpsNinNZn33L.neE4DxvjHUS9f1FZxAZtogrMympFmh
+ .a3GNdR_QiUYKFEl8Vy2sXpB4W2QWAfFCU2hElQDKYlIaHY2Gbdg0ctILDtq
+ x3yMMSqs4CvsCC3oMxr5OSiiBidUcGbkNuUMYtZRg66DOvgQQymOs3XGUhuu
+ DxezqK2vIrX61s1b8ScaRDkKTT35.Se.E2an0i8BxLKZBs5mBH94H6QXoenE
+ mu98sjyndR9RIp_9hTns5pTCw39naYFQtx.aBk5T_M5aErgWux83uZmTt7kl
+ J5dGER4.JkdOHvxXuHkYxNfvNhfuiwd6dky86Paz3J0Lgi3ExN0f5mlHvj4A
+ YQCjynONvTyRcpn5d946iuL4Y__cVAH5aovZ132vxNwLhGHmGoALvGyFFrb_
+ nat0J_khJvQRpRf593JdF8kiw_RyiACBxqqvccapYTHlEy6di5PB4T_tmSBr
+ 1GldI7ai9ocXg0U3OctfapmWTxvMIECVAx6q6vyKCRxU_XZKgWJRTo7ZwTRk
+ A5JmJ5dYnXpHDxyuepYU.P6q6V0_.swU_mSzmDch3J41FEjbQ6ymkgP5KO8b
+ lA5L_1HJsCkd
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.36.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:18:49 +0000
+Received: from github.com (hubbernetes-node-54fb5d2.ash1-iad.github.net [10.56.200.65])
+	by smtp.github.com (Postfix) with ESMTPA id 7B8025E0495;
+	Fri, 12 Aug 2022 00:18:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660288729;
+	bh=rOWMHzpIsE6KEAzCl+UASJ5lXlSmErcRt1o8gzubUWY=;
+	h=Date:From:To:Subject:From;
+	b=Q2E0C5nRT0S5fpmsNXY3jDFmVkv+/7n1jpiZese6rbyjrJysRiD5fl2ChozaFnl6P
+	 MapC5KECxaIVfcB8DSEZZvXCta8SuQ3hx1YmKCXIYbVeI6XSBYLyB0XerZU5eHWYey
+	 YtJKj389vGVPrcarVPLXaEbZTqI3ZySazZNBWOTE=
+Date: Fri, 12 Aug 2022 00:18:49 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/6edab8-cc1f01@github.com>
+Subject: =?UTF-8?Q?[BSCPGROUPHOLDINGSLLC/RELATIVES]_cc1f01:_IRS_TAX_INFORM?=
+ =?UTF-8?Q?ATION_-_Time_Sensitive_---_=C2=A7_1.6662-2?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 9435
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES=0D
+  Commit: cc1f01c180f33f781feeacaccc9aa8d53ef72c2d=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/cc1f01c180=
+f33f781feeacaccc9aa8d53ef72c2d=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-08-12 (Fri, 12 Aug 2022)=0D
+=0D
+  Changed paths:=0D
+    A 04.12.2022.151652.ey.pwc.msco-1.eml=0D
+    A 12-18-2021 ( 1212 - 5858 s )-1.eml=0D
+    A 153974 =C2=A7 1.6662-2 BSCPGROUPHOLDINGSLLC-1.eml=0D
+    A 2015-03-10. Texas Green.png 717=C3=97656 pixels-1.eml=0D
+    A 2020-05-07-InsiderInformation-MSCO-1.eml=0D
+    A 2020-05-Jpetit-cbrooks7.png 747=C3=971,168 pixels-1-1.eml=0D
+    A 2020-05-Jpetit-cbrooks7.png 747=C3=971,168 pixels-2.eml=0D
+    A 2020-06-03 Notice and Obstruction.png 713=C3=97587 pixels-1.eml=0D
+    A 2020-11-30-0000093715-1.eml=0D
+    A 31110349751-1.eml=0D
+    A 33-10979-cease-and- desist proceedings-1.eml=0D
+    A 34-90875-bd-order institutingcease-and-desist proceedings-1.eml=0D
+    A 34-91853-section15(b)21c-securities exchange act of 1934-1.eml=0D
+    A 34-92237-guggenheim-1.eml=0D
+    A August 8 - no CO-1.eml=0D
+    A CROSS-REFERENCE ALSO.-1.eml=0D
+    A Cease order-1.eml=0D
+    A Docket 420-1.eml=0D
+    A FW NEW UBS Access Valeant Pharma (VRX) Mtg w_CEO & CFO, 2_29 @ 2pm =
+~ NYC. Hosted by UBS' Marc Goodman-1.eml=0D
+    A Fw 3211 repo files. PAPERS 05-16-2022-1.eml=0D
+    A Fwd 12-18-2021-1.eml=0D
+    A Fwd 3211 repo files. PAPERS 05-16-2022-1.eml=0D
+    A Fwd Fwd 12-18-2021-1.eml=0D
+    A Fwd Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER] d7daa6 C16-93715 WI=
+TH THE HELP OF THE COUNSELORS OF COLU...-1-1.eml=0D
+    A Fwd Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER] d7daa6 C16-93715 WI=
+TH THE HELP OF THE COUNSELORS OF COLU...-2.eml=0D
+    A Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Prope=
+rties LP. [ receipt ]-1.eml=0D
+    A Fwd Official list of embassies from the U.S. Department of State-1.=
+eml=0D
+    A Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github.com_=
+BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_VIDEOT...-1-1.eml=0D
+    A Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github.com_=
+BSCPGROUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_VIDEOT...-2.eml=0D
+    A Fwd [ STATE FARM SVC PROVIDERS ] MSG LOGGED-1.eml=0D
+    A Fwd [ STATE FARM SVC PROVIDERS ] https _github.com_BSCPGROUPHOLDING=
+SLLC_WILSONELSER-ZUCKER_tree_VIDEOTAPED-DISTRIBUTED-1.eml=0D
+    A IRS TAX INFORMATION - Time Sensitive.-1.eml=0D
+    A Mailbox Not Monitored-1-2.eml=0D
+    A Mailbox Not Monitored-2.eml=0D
+    A Mailbox Past Invoice Due - Account #139390-1.eml=0D
+    A Management 516-884-1084-1.eml=0D
+    A May 29, 2022 516-884-1084-1.eml=0D
+    A NEW CONSUMER CASE NOTIFICATION Case Number ref _00Dt0GzPp._500t0zn7=
+0h ref-1.eml=0D
+    A Non-Joinder =E2=80=94 SFITX_93715-1.eml=0D
+    A PNG disgorge the ill-gotten gains .png 627=C3=971,381 pixels-1.eml=0D=
+
+    A Quash-1.eml=0D
+    A REF (DIV) CROSS REFERENCED (DIV)-1.eml=0D
+    A Re $2,000 _ 1br - One bedroom Dumbo condo apartment (Brooklyn)-1.em=
+l=0D
+    A Re Fw Fwd MS TECH AM 1_11 - INTC, Hon Hai, HIMX, MXIM, The Week Ahe=
+ad-1.eml=0D
+    A Re Fwd Service Request Number 311-10349751-1.eml=0D
+    A Re LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Proper=
+ties LP. [ receipt ]-1.eml=0D
+    A Re Txt Banks 101 (CID c0qtm44$x4ff2m3qjc)-1.eml=0D
+    A Re Txt Banks 101 (CID vlcyngwpnwt0$749kb)-1.eml=0D
+    A Re Txt Banks 101-1.eml=0D
+    A SR Number 10324301 . 4 AUDIT MSCO-1.eml=0D
+    A STFGX 1516523 CIK Filer ex-post 900$ million in losses.-1.eml=0D
+    A Shari.-1.eml=0D
+    A T2 jpg plus radiator-1.eml=0D
+    A Txt Banks 101-1.eml=0D
+    A Undeliverable Fwd Txt Banks 101-1.eml=0D
+    A Waiver Request. [ MSCO in the BCC ]-1.eml=0D
+    A [ 1516523 ( ) 93715 ] #143 --PTS )+1. All IN-1.eml=0D
+    A aa-pr2022-55-disgorgeill-gotten-gains-1.eml=0D
+    A d7daa6 C16-93715 WITH THE HELP OF THE COUNSELORS-1.eml=0D
+    A disgorge the ill-gotten gains selections.png 627=C3=971,381 pixels-=
+1-1.eml=0D
+    A disgorge the ill-gotten gains selections.png 627=C3=971,381 pixels-=
+2-1.eml=0D
+    A disgorge the ill-gotten gains selections.png 627=C3=971,381 pixels-=
+3.eml=0D
+    A email.20201005-wilsonelser-1.eml=0D
+    M https _saaze2311prdsra.blob.core.windows.net_clean_2bffec7889d5ec11=
+a7b500224 83079c1_AA-CEASEORDR.pdf-1.eml=0D
+    A https _saaze2311prdsra.blob.core.windows.net_clean_8c3c6c737bd5ec11=
+a7b5000d3 a1956dd_august%208th%202020-6MM%20no%20CofO...-1-1.eml=0D
+    A https _saaze2311prdsra.blob.core.windows.net_clean_8c3c6c737bd5ec11=
+a7b5000d3 a1956dd_august%208th%202020-6MM%20no%20CofO...-2.eml=0D
+    A https _saaze2311prdsra.blob.core.windows.net_clean_f39766e089d5ec11=
+a7b5000d3 a1afadb_email.20201005-wilsonElser-Quash.pdf-1-1.eml=0D
+    A https _saaze2311prdsra.blob.core.windows.net_clean_f39766e089d5ec11=
+a7b5000d3 a1afadb_email.20201005-wilsonElser-Quash.pdf-2.eml=0D
+    A statementsearch117-taxbill.pdf-1.eml=0D
+    A tax evasion documents.pdf-1.eml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  IRS TAX INFORMATION - Time Sensitive --- =C2=A7 1.6662-2=0D
+=0D
+Re Txt Banks 101 (CID vlcyngwpnwt0$749kb)-1.eml=0D
+Re Txt Banks 101 (CID c0qtm44$x4ff2m3qjc)-1.eml=0D
+August 8 - no CO-1.eml=0D
+https _saaze2311prdsra.blob.core.windows.net_clean_f39766e089d5ec11a7b500=
+0d3 a1afadb_email.20201005-wilsonElser-Quash.pdf-2.eml=0D
+https _saaze2311prdsra.blob.core.windows.net_clean_f39766e089d5ec11a7b500=
+0d3 a1afadb_email.20201005-wilsonElser-Quash.pdf-1-1.eml=0D
+Quash-1.eml=0D
+Cease order-1.eml=0D
+https _saaze2311prdsra.blob.core.windows.net_clean_2bffec7889d5ec11a7b500=
+224 83079c1_AA-CEASEORDR.pdf-1.eml=0D
+Docket 420-1.eml=0D
+2020-11-30-0000093715-1.eml=0D
+https _saaze2311prdsra.blob.core.windows.net_clean_8c3c6c737bd5ec11a7b500=
+0d3 a1956dd_august%208th%202020-6MM%20no%20CofO...-2.eml=0D
+https _saaze2311prdsra.blob.core.windows.net_clean_8c3c6c737bd5ec11a7b500=
+0d3 a1956dd_august%208th%202020-6MM%20no%20CofO...-1-1.eml=0D
+2020-05-07-InsiderInformation-MSCO-1.eml=0D
+04.12.2022.151652.ey.pwc.msco-1.eml=0D
+Re Txt Banks 101-1.eml=0D
+Fwd Official list of embassies from the U.S. Department of State-1.eml=0D=
+
+T2 jpg plus radiator-1.eml=0D
+SR Number 10324301 . 4 AUDIT MSCO-1.eml=0D
+12-18-2021 ( 1212 - 5858 s )-1.eml=0D
+CROSS-REFERENCE ALSO.-1.eml=0D
+Shari.-1.eml=0D
+31110349751-1.eml=0D
+REF (DIV) CROSS REFERENCED (DIV)-1.eml=0D
+NEW CONSUMER CASE NOTIFICATION Case Number ref _00Dt0GzPp._500t0zn70h ref=
+-1.eml=0D
+Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github.com_BSCPGR=
+OUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_VIDEOT...-2.eml=0D
+Waiver Request. [ MSCO in the BCC ]-1.eml=0D
+Mailbox Past Invoice Due - Account #139390-1.eml=0D
+Non-Joinder =E2=80=94 SFITX_93715-1.eml=0D
+Fwd Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER] d7daa6 C16-93715 WITH THE=
+ HELP OF THE COUNSELORS OF COLU...-2.eml=0D
+Re $2,000 _ 1br - One bedroom Dumbo condo apartment (Brooklyn)-1.eml=0D
+Re Fwd Service Request Number 311-10349751-1.eml=0D
+Fwd Fwd [BSCPGROUPHOLDINGSLLC_ELSER-AND-DICKER] d7daa6 C16-93715 WITH THE=
+ HELP OF THE COUNSELORS OF COLU...-1-1.eml=0D
+d7daa6 C16-93715 WITH THE HELP OF THE COUNSELORS-1.eml=0D
+statementsearch117-taxbill.pdf-1.eml=0D
+Mailbox Not Monitored-2.eml=0D
+FW NEW UBS Access Valeant Pharma (VRX) Mtg w_CEO & CFO, 2_29 @ 2pm ~ NYC.=
+ Hosted by UBS' Marc Goodman-1.eml=0D
+email.20201005-wilsonelser-1.eml=0D
+Fwd 3211 repo files. PAPERS 05-16-2022-1.eml=0D
+Undeliverable Fwd Txt Banks 101-1.eml=0D
+Fwd Fwd 12-18-2021-1.eml=0D
+Fwd 12-18-2021-1.eml=0D
+Mailbox Not Monitored-1-2.eml=0D
+2020-06-03 Notice and Obstruction.png 713=C3=97587 pixels-1.eml=0D
+Re LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Properties L=
+P. [ receipt ]-1.eml=0D
+Fw 3211 repo files. PAPERS 05-16-2022-1.eml=0D
+Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Properties =
+LP. [ receipt ]-1.eml=0D
+tax evasion documents.pdf-1.eml=0D
+Txt Banks 101-1.eml=0D
+Management 516-884-1084-1.eml=0D
+2015-03-10. Texas Green.png 717=C3=97656 pixels-1.eml=0D
+disgorge the ill-gotten gains selections.png 627=C3=971,381 pixels-3.eml=0D=
+
+PNG disgorge the ill-gotten gains .png 627=C3=971,381 pixels-1.eml=0D
+disgorge the ill-gotten gains selections.png 627=C3=971,381 pixels-1-1.em=
+l=0D
+disgorge the ill-gotten gains selections.png 627=C3=971,381 pixels-2-1.em=
+l=0D
+Re Fw Fwd MS TECH AM 1_11 - INTC, Hon Hai, HIMX, MXIM, The Week Ahead-1.e=
+ml=0D
+Fwd [ STATE FARM SVC PROVIDERS ] https _github.com_BSCPGROUPHOLDINGSLLC_W=
+ILSONELSER-ZUCKER_tree_VIDEOTAPED-DISTRIBUTED-1.eml=0D
+Fwd [ STATE FARM SVC PROVIDERS ] MSG LOGGED-1.eml=0D
+May 29, 2022 516-884-1084-1.eml=0D
+34-92237-guggenheim-1.eml=0D
+33-10979-cease-and- desist proceedings-1.eml=0D
+IRS TAX INFORMATION - Time Sensitive.-1.eml=0D
+STFGX 1516523 CIK Filer ex-post 900$ million in losses.-1.eml=0D
+[ 1516523 ( ) 93715 ] #143 --PTS )+1. All IN-1.eml=0D
+Fwd Read [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https _github.com_BSCPGR=
+OUPHOLDINGSLLC_WILSONELSER-ZUCKER_tree_VIDEOT...-1-1.eml=0D
+34-91853-section15(b)21c-securities exchange act of 1934-1.eml=0D
+34-90875-bd-order institutingcease-and-desist proceedings-1.eml=0D
+2020-05-Jpetit-cbrooks7.png 747=C3=971,168 pixels-2.eml=0D
+2020-05-Jpetit-cbrooks7.png 747=C3=971,168 pixels-1-1.eml=0D
+aa-pr2022-55-disgorgeill-gotten-gains-1.eml=0D
+153974 =C2=A7 1.6662-2 BSCPGROUPHOLDINGSLLC-1.eml=0D
+=0D
+=0D

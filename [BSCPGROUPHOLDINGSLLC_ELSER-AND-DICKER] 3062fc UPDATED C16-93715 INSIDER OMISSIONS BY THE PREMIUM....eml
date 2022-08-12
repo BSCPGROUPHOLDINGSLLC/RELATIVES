@@ -1,0 +1,210 @@
+From - Sun May 22 19:17:20 2022
+X-Account-Key: account1
+X-UIDL: ADNXBPdTCasnYorQYgS3CKv4WGA
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.230.152
+ by atlas125.free.mail.gq1.yahoo.com with HTTPS; Mon, 23 May 2022 00:08:05 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas125.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 23 May 2022 00:08:06 +0000
+X-YMailAVSC: sXcRSCM3bBvaLk1uqxMfslwZrswg2nryb0OzQK7wHRMOzZm
+ SLXYu6i.qHyvuRszuFyCGoCCklrESRfi8fAZcAL83YSj6CK1E7WPT2iTTaaw
+ M5S1jjnYF9quBrm6GwzHsTw76YqXjHWvjvt3llFTZXlCQ48P.pQ9dGjut3vf
+ samuKcvAZypUEP3bsWRrnw9P0yK3WUUL4I93x2WOe_Yq772YqD_gVipC2GJT
+ XAN6N2QQrg8.Pv.fKR6M2Qb8vkjZGcFHShhX_QWnZNA_2s1DRYMy_cTC9o5p
+ qOqgkl7XVImdD3UdsXa0uDieoT4SokS5Ko6viaRp0huyEQbtqcRtA8GTVjId
+ .f6M8y9mkFul4_JXDKXPyQLgj12seENdoteMdTkh7psr2ynWiMWTfAIba4IP
+ wUYqmBseUcD4lTI1rp4i1B4UChA--
+X-YMailISG: ZyS5pWkWLDvIqzBWFYwKXv23fFFf6zi4OcQ5Pk5Lh_WASqmV
+ 1oBrvFleHlL0mCgdGeBCR12U77MVG1bhOCNX8Sjo95cY4L_BsxgY2HuI94hA
+ QICMDQW0UnafWmkEnpbPjOXmklWLdrvlL_B6lKzG9RBebVKCnBhZicy7EId8
+ 5jlcKgIAaZnRx.0Op5rSobBXj6yj_0Km.nlt4NhY9bbUWMYwgAzZ1iMESXeg
+ zvQgJDQeRDgPNThkk7bLDMmUxIqMm6URkmECDhClx38OOZ.X2LMi0EydKMNt
+ e4fC1jRpkp4lBjgDoPgTRwkmmTfKNRdOTit7VYDOFNzYbRvw5eSkfUNtvd6m
+ NTeNDC3fLv27_245eIoR8Vb0j.D6gjVJIwuktj9O.v2ixUjBdR0m0ZBjjoBi
+ po2YKj96vWx_o6OXuwIUBQaRYFYLxeMTY1VFwWtK_0glH8EGEq31hDWFcHpo
+ TXvmkigRLnq8PT5_BX9un_UoaIqL3qBxaDk1bi6Xy2lD44QAFBLZH_VLia_Q
+ MTQjQAawApnlVzN.o2ZYQaU6Ud4l9vcfWWJ_AnVzO449Y9G1EKOeKsSUBnrD
+ n1kRSppbg.zWna0rjxtsj1EwOmsEO4Gnug95xVF94ZXesXuuBiskb15M05Y6
+ MYlx2F.ijjLNGMH9E4zW.6Q7s8Ef2o4IvROEz4yVvUgSKrdXG3f0e72c3dxW
+ vfp1XeJwvti2bWp6TFI5NH0jMKcg6Z.EEVvc34oIKcEIEq5UvOCLykG51P8m
+ zFn6Ty8XupQKHYbfKjX8uQ3_8K8m1PROG52bSUjVL5z8CzYaSGDKf.IRarS6
+ JePH7.5bdhHnzHf9GnyPgzrj6Mfd4t2ztQ8omYmpJxVr0gwGwEapd2PFYdOY
+ F05fv8v8zqjAOmxT0d0vzyodG7LZchYEPAtSS2UG9zHpfOtoUsWraj4cgw2Z
+ aoQxM.T3TFzrM8_EGBeU7hLmo1qY.YGUtxxP.S1geLtsZrQTYhAcf14WpwRb
+ APWQnNHT34Ep.X9DFInBBzcbLP8D6mu2Kas5FEbxTLuex8AYcBJtnHU20GZG
+ Hx_G4Xuhy5E0VgU1lLkxD3B8IAXnIku5YgZ0jibnFGbhGb6_jvSizc5h3kTM
+ rvpA58qIZjCNqj9nF.tGQM3lsFcpPEgiTQX2zuxQz1DWvD.TfcQkzoOPzDrB
+ PbQxjo..pTAZ0resh67uGCtD
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.253.230.152 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 23 May 2022 00:08:05 +0000
+Received: from github.com (hubbernetes-node-f5c4a9b.va3-iad.github.net [10.48.125.73])
+	by smtp.github.com (Postfix) with ESMTPA id 27D2B340842;
+	Sun, 22 May 2022 17:08:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653264485;
+	bh=5KzCImtGcizXHJwzPMIviHrPZyqgDH9gCejGjRJbm50=;
+	h=Date:From:To:Subject:From;
+	b=ya4nYsz7C2rTrjzSX6TGp33jLGUllI8764CjMc2qoihyHRHl6FP7G2lIHnS7GOeaW
+	 f9c9ski9DUA8Dhm65Hm25F3M4G3Q5VoFsZZXKExGlCErO8Fr+R+Qktc2g58EpLx5PY
+	 RtQjDHYJVVKD0X06+vwM8DkobI+p029xIiLRxgT0=
+Date: Sun, 22 May 2022 17:08:05 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ BLOCK803LOT11@OUTLOOK.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/d7daa6-3062fc@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 3062fc: UPDATED C16-93715
+ INSIDER OMISSIONS BY THE PREMIUM...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,BLOCK803LOT11@OUTLOOK.COM
+X-Auto-Response-Suppress: All
+Content-Length: 6665
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 3062fcf9c989174cbc76ea0b7d8135cf32eef8f4
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/3062fcf9c989174cbc76ea0b7d8135cf32eef8f4
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-22 (Sun, 22 May 2022)
+
+  Changed paths:
+    M C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION.html
+
+  Log Message:
+  -----------
+  UPDATED C16-93715 INSIDER OMISSIONS BY THE PREMIUM DEALERS AT 750 SEVENTH AVENUE & CO.
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="MarkdownViewer++" />
+        <title>new 4</title>
+        <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+      </head>
+    <body>
+        <table style="width:80%; border: 0px; height: 40px; margin-left: 50px;">
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: left;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg" target="_blank" rel="noopener">FILER 93715: STATE FARM ASSURANCES FUNDS TRUST, C.16 PROMOTIONAL BROKERS<br> <br> <br></a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+		</td>
+  </tr>
+    <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/6a91074b24d6ec11a7b50022483079c1/Compliance%202021-11-16.pdf" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+		</td>
+  </tr>
+    <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/3c87e47421d6ec11a7b5002248307f33/2021-11-16-483docNotice.png" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/521e9ac936d6ec11a7b5000d3a1af965/Nov.16-StateFarm.SullivanProps.PDF" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/3c87e47421d6ec11a7b5002248307f33/2021-11-16-483docNotice.png" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+		<td style="text-align: right;">
+			<a href="https://saaze2311prdsra.blob.core.windows.net/clean/6a91074b24d6ec11a7b50022483079c1/Compliance%202021-11-16.pdf" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+		</td>
+  </tr>
+  <tr>
+	<td style="text-align: right;">
+		<a href="https://user-images.githubusercontent.com/70865813/169640877-ef653d85-64a5-4f31-84d0-69a54a3d62aa.jpg" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 16, 2021 <br> <br> </a>
+	</td>
+  </tr> 
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/d7f17fab28d6ec11a7b50022483079c1/AnotherWaiver.pdf" target="_blank" rel="noopener">MHARVEY13@BLOOMBERG.NET NOV 16, 2021 <br> <br> </a>
+	</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/0010c00837d6ec11a7b5000d3a1afadb/Nov.17.483MATERIALCORPORATEACT.PDF" target="_blank" rel="noopener">JAMES.GORMAN@MORGANSTANLEY.COM NOV 17, 2021 <br> <br> </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/2325bf08c7d7ec11a7b5002248307b90/2021-11-19-JamesGorman-MSCO.PDF" target="_blank" rel="noopener">RULE-COMMENTS@SEC.GOV NOV 19, 2021<br> <br> <br></a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png" target="_blank" rel="noopener">DEC 18, 2021 <br> <br> COLIN.BROOKS@MORGANSTANLEY.COM </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/d7f17fab28d6ec11a7b50022483079c1/AnotherWaiver.pdf" target="_blank" rel="noopener">DEC 18, 2021 <br> <br> KSAPERSTEIN2@BLOOMBERG.NET </a>
+		</td>
+  </tr>  
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg" target="_blank" rel="noopener">DEC 18, 2021 <br> <br>PRAGHURAM2@BLOOMBERG.NET</a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/46c8dc8e20d6ec11a7b50022483079c1/2022-05-09-InsiderTrading.PDF" target="_blank" rel="noopener">DEC 18, 2021 <br> <br> <br> <br>PRAGHURAM2@BLOOMBERG.NET </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png" target="_blank" rel="noopener">DEC 18, 2021 <br> <br> PRIYA.RAGHURAM@MORGANSTANLEY.COM </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf" target="_blank" rel="noopener">DEC 18, 2021
+	<br> <br> KSAPERSTEIN2@BLOOMBERG.NET </a>
+		</td>
+  </tr>
+  <tr style=" padding-top: 20px;">
+	<td style="text-align: right;">
+	<a href="https://saaze2311prdsra.blob.core.windows.net/clean/b67c1a2d29d6ec11a7b5002248307b90/04.12.2022.151652.EY.PWC.MSCO-.pdf" target="_blank" rel="noopener">APR 12, 2022
+	<br> <br>THERMANSON@NORTHMARQ.COM
+	<br> <br>ICEGLOBALNETWORK-INFO@ICE.COM
+	<br> <br>KERRI.SAPERSTEIN@MORGANSTANLEY.COM
+	<br> <br>PRIYA.RAGHURAM@MORGANSTANLEY.COM
+	<br> <br>COLIN.BROOKS@MORGANSTANLEY.COM
+	</a>
+		</td>
+  </tr>
+</table>
+
+    </body>
+</html>
+
+

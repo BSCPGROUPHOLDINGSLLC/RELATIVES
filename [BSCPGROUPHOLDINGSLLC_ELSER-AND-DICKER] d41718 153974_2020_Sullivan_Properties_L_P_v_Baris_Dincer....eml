@@ -1,0 +1,109 @@
+From - Thu Jun  2 03:14:41 2022
+X-Account-Key: account1
+X-UIDL: AP2SwEwueQynYphwnQj8yIHjv1E
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.165
+ by atlas213.free.mail.ne1.yahoo.com with HTTPS; Thu, 2 Jun 2022 08:11:09 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.211]
+Received-SPF: pass (domain of github.com designates 192.30.252.211 as permitted sender)
+Authentication-Results: atlas213.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 2 Jun 2022 08:11:09 +0000
+X-YMailISG: BbqBS_gWLDs2iFKNoOTlNWNo26ZywuoFm4p3zP3e1_DN90qT
+ LewtO.3dHSBzhaN4.9mmgOSnnnk6j8Wwpou8Yu7mJMfujTTBBxoDYHREtTp6
+ R8MiCFNRmt9YvIfjtFCztGJTjU0t6_7h_sjlHvkAOFWla7xqv11BeSMzmOHL
+ uYk2F9J2KfmMQH2vhDbgHgCs6JZ_OQgTSA4e23KO_GRsDQSl_24mVwvct26d
+ XnbT5684J7Y6jENzg8Z1fogBguQasVeLfOQx8UU34vyO.BAr3W92na5bKBWT
+ 37JLv8SCZkONJh5MRsXINHsUfA7T0wOrj7sB.DQBZjKOwgPYAso8PQvWfM.s
+ Dm_Hi5j_MmgaWYB78lLdBGFyKHb2RhigvzHb.J7bOvpU4JLsCt8quNsmA8U5
+ IV_OOm48E5NFea4kDN68VCFQrnFsqX2I4S9xicOxzHYQGdy3hzmUbSZ3iCK9
+ yCUIuwoyr2m1nr9nySbvuIhQBKzx45LMI7QZLK83a6_yMDASqS4M9MqPZ8Sl
+ h1QFgEeFuuJgDXeMDtOlc_hKE83gzLlADaKzuWF1EUzJJ.uPHE6ZN6I_OWSI
+ foN2mCovvxXFCF9X.I07cLPPmsTazjUcsDtzIZ1uN5dWtXZnQAe3iodMWMs4
+ BiDy.mWnn0feG6L2.OAVolUWVk3hPtPWUYJp5hzazkxXnzH75rMXbpxWhqRz
+ xxUstkh37xF0udykrjvyAuNhLUHLs58VBrVcXxjgbXa6cFM6HYF.5.0WwjQI
+ kevSS5WEoJVY3YGWMxxmXMuAE39ZqcTs8AJaVLF1eo4IqW9snIVqURXAcxwo
+ RL7MvQmpuskKbzlPafjkbwfer9Ll.BY9DkNRJCl4Ep9RaCrCcpXjQ.4Js8Ng
+ AGcZ8cUcattSutBkTSwdyXBUhlu2OjCA_TWuTDTsfbrCmqEUg04u7vTi1kcH
+ YE56H9KbuMzLLOsdqpyMrNvfcIE19s5NRCSdWbCzepCaFHCkVVPaP4hYaFf0
+ jo7LzQV_pP_Iv_rNCG3r9iyCgYwGLoQg81DGpnwipNMbv.jTnGE3n8BrKZ2N
+ NLYeJE6uhOtCjwL7z8O1JZ0350QJXm_ONjIxFjIwTRnnicw8uYTGdAbybC9I
+ qTEUg2Z7wQj7Eo65m.naTxdpOaNfTfZhS8k8taCAr3akg8ob6dWWSndrLTNJ
+ nH94XKBTK7fK9a2rQt0VBuuXgHYglOkfkEE-
+Received: from 192.30.252.211 (EHLO out-28.smtp.github.com)
+ by 10.223.248.165 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 02 Jun 2022 08:11:09 +0000
+Received: from github.com (hubbernetes-node-6f3c6fa.ash1-iad.github.net [10.56.226.39])
+	by smtp.github.com (Postfix) with ESMTPA id A0ECE900391;
+	Thu,  2 Jun 2022 01:11:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654157468;
+	bh=Qswd9RtN0tabVnIyvAMzG9a9vLnZyHuvHQ1J8z7sibM=;
+	h=Date:From:To:Subject:From;
+	b=llz9DRfNw8kedxKMxlTRBKoMZL5xqvcwXvnL7l9Xkvgh/R/bX7nc+pa6S2tgKqzKC
+	 pqxbzWd7p+GmX2ZeS/Y3JClj//5Ww02nMNI/J3ol4hHazbOYu9uyP1xUPd6YCT8I1K
+	 6e+pBt874oFdHCvH+2hIJt6vEAe9WQDLznjF5CT0=
+Date: Thu, 02 Jun 2022 01:11:08 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ fed-mmkt-ops@bloomberg.net
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/2afc44-d41718@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] d41718:
+ 153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,fed-mmkt-ops@bloomberg.net
+X-Auto-Response-Suppress: All
+Content-Length: 2308
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: d41718d0b450f417d38ef190e4c33880a84e7610
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/d41718d0b450f417d38ef190e4c33880a84e7610
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-06-02 (Thu, 02 Jun 2022)
+
+  Changed paths:
+    A CofoDocumentContent-vIOLATION OF PRIVACY HANRAHAN.zip
+
+  Log Message:
+  -----------
+  153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__231 - 4 august 2020 - no certificate -- see also bylaws and deadlines
+
+'0. STFGX - REPORT - CHARLES SCHWAB [COMPLIANT].pdf'
+'10 AUG 2020 - LETTER TO LAURIE ZUCKER AT 1236AM.pdf'
+'10 AUG 2020 - LETTTER TO INGRAM AND LAURIE ZUCKER AT 0243AM.pdf'
+'117 Sullivan St _ PropertyShark report.pdf'
+ 153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__152.pdf
+'153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__166 security deposit.pdf'
+'153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__231 - 4 august 2020 - no certificate -- see also bylaws and deadlines.pdf'
+ 153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__244.pdf
+'153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__386 (pages 1-10).pdf'
+'153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__386(cpy).pdf'
+ 153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__386.pdf
+'2020-11-30 - BROKERS - AUDITORS.pdf'
+'2021.11.22 - STATE FARM MATERIAL FACTS - PEACOCK OF ZUCKER.pdf'
+'CofoDocumentContentServlet (1).pdf'
+'CofoDocumentContentServlet (2).pdf'
+ CofoDocumentContentServlet.pdf
+'Dec 22, 2021 - sgo2107@columbia.edu --- nyscef@nycourts.gov.pdf'
+'EX33 --- 2021-09-10 -- FILE NUMBER 0009813982 - AMY HANRAHAN.pdf'
+'EX35 --- 2020-09-08 -- FILE NUMBER 000674529 - ALAN RUBIN.pdf'
+'EX72 --- 2020.08.10 --- NOTICE FROM COUNSEL FOR ZUCKERS TO NOT CONTACT ANY AUTHORITY [ENCLOSURE].pdf'
+'Mar 1 2022 - securities fraud locked.pdf'
+'Mar 1 2022 - the Zuckers - 101 west 55th street.NY.NY.10019. -opt.pdf'
+'Nov 16, 2021 - WMCKENZIE@NYCOURTS.GOV --- SEC --- BOC@BOC.NYC.GOV.pdf'
+'privacy-before-and-after-effects 9.html'
+'privacy-before-and-after-effectsn  --- pull1moeX0X0X0-op.pdf'
+'privacy-before-and-after-effectsn  --- pull1moeX0X0X0.pdf'
+
+

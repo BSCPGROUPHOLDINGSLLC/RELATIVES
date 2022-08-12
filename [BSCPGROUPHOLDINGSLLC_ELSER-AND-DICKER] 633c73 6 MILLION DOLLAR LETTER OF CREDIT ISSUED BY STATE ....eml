@@ -1,0 +1,96 @@
+From - Tue May 31 15:20:32 2022
+X-Account-Key: account1
+X-UIDL: AM81FqdtyAO1YpZ2rQqLOPxFlqw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.234.154
+ by atlas123.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 20:12:29 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.210]
+Received-SPF: pass (domain of github.com designates 192.30.252.210 as permitted sender)
+Authentication-Results: atlas123.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 20:12:29 +0000
+X-YMailAVSC: XgIo9X03bBupFISQDND9O1eQKz5NcTYnt8eoS_RSwKqvZxD
+ fDKKQC3dBKssNzxDNCoaJGGH4in1OCrL7MN.x4C29vlmpMnrrZJYQU_ZyVwS
+ Cnu3pXumDd.DoZWF0E1SeiXz.jEjeCPXJj5nBpjUZwy.0k0pejlhmmspQ.Ze
+ plzqtjc7RuiiZcuLEZvQt6AfQQGg8.w.R6KuL49Qjb_BpM13cJZKzrJ_ZgX_
+ atpRLlNLhqx3pC_q2RUyvhBsVIjGM8X0q.kCi_quX2G41Z2Qipr5EKL5UEVF
+ ClonrVPAxqhcww8wCQ.dQiRSeXaXGDFCu3fYBS6xxARSToinyQXBUDF8bAa3
+ Z
+X-YMailISG: bi7ZsfwWLDvHazfMVZQGI2MtK6E1ujEk7LgERQwxfip.PcHb
+ Ng7HvnWPIPWUXJBUdS6sWxDirGwWDEevTcM0lxmyAjoEPvcJuyRvQGj5c5rx
+ ks9EFuHK4qqv5RbR2hhhCrOTV_prBqkNK1ui8oj.Aiu0M1DaVSpfWM2eiH40
+ 6i2EWPTI_C2hqBFpCBvldwnnwhbqsTDBzK2Ay7pBBX__s.HM.SKBBk7VdhHj
+ 8hDNM08i_0yMck6nxayNMUscJG1zyW1jRtxMpz5wSE.J1dZHNQGTq36T5e3f
+ 9m0WPc_8INYBC4A32jc666FoYyXS.GAM2APyWywr4RGAUK73g_0wos6uSbEa
+ XLHufYq866bDCIECvOCzCpr1oQgNicOPD3AhxWyyXypH1PHxOrtsdpCF9z7k
+ 7Ut1ijew9XkdYgM60WLkUew.NSO4i6j3iGSzD_hMKGDjK4XNU9TglTQvh_NL
+ OpOyuuOYim12w_zQoPPXe0TewPqhW0ES4DY87SoNMEugNZ2OGJRVGBYVggr_
+ XfHxqUU9XiCg7jXqE21hpaWGoI8ZVybrUY_94ut1362Om8TMKWOZCThW9.Sm
+ .TZH9bBMP7LZ9O7_H0ve5Ndv1inDffKL5tEiRBz07F_6Dt1XEfw3oBkZDfy_
+ 2j4Oys8Kod0wrB5NxjNRi7ISKfD9Ix7wNlbwF6sT0rrWpg4MAyxwixCTqKwp
+ h0SjmP1ZQEsSfxLdDL5hLiPVwPOV3.7ilMr2TJZ_0PQ2PFHPat9lihQTT.ZM
+ 7qdKqILGarsEFUapYSOyOd4CVFgNVVo_pxvoiULpOTgDlxrUWDQGCqZjhSKS
+ BQEkkK3v_VB4WWXeqrA.oHcVl2NYyYtsbRPqOZl_qaXpoUHpHyrW5EAA3pBa
+ _imHD5jQ6RGc.XTwCxAoF9o_S7KW.yMDnDakdBS19zx8xdDhaVSNMdlV_ry1
+ M.UUUUcYg1WTfpCOyujJwv4GqNg.DV18tOwa3QS3vgBRLuAeKPRcTiXBfCXU
+ h1wju8bCP0pXM3Ikh_K.KEqULQBhuFuLkCj_yKYNz3Sb.7Fr_kJPZJrajfw.
+ 3ukhMkwIsbm2y1eEhu1tx_z.4rKAzudyEoWROz98_DD3sr_Vzf8i4ejH56H1
+ 5j1uKIvpGXcRjidvZke8vq53De7M9glNY8Z8AiIgWw5k3h2KU6lL9N6R51X9
+ hvwm_cVafQa0TlE-
+Received: from 192.30.252.210 (EHLO out-27.smtp.github.com)
+ by 10.253.234.154 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 20:12:29 +0000
+Received: from github.com (hubbernetes-node-e5cc56d.ash1-iad.github.net [10.56.211.65])
+	by smtp.github.com (Postfix) with ESMTPA id 9D395900E7D;
+	Tue, 31 May 2022 13:12:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654027948;
+	bh=MARUNsvnkTqW2gvsKl3EmVtJkJ5jU22qv+3tGLvZMH0=;
+	h=Date:From:To:Subject:From;
+	b=UB/Zfw8fMQuMwkpfAYLRyOHG3nJAg18zLdC+DQlBe9I6KHQ8/B1eW56FzEspIe9Mc
+	 uJZF/I1cOBVvi0HRFe5h3VUWmm66iwVhbF9RF+t9euEGFs6ausyeaUuiQwnqdZ8S9l
+	 imXb+yesgb1rTQosu6HKjwjV4shAVQ6E7Tz7uI/0=
+Date: Tue, 31 May 2022 13:12:28 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/01840c-633c73@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 633c73: 6 MILLION DOLLAR
+ LETTER OF CREDIT ISSUED BY STATE ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 871
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 633c731ed0d0ce42337f4b83e68e2b1aaf4e41f5
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/633c731ed0d0ce42337f4b83e68e2b1aaf4e41f5
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A [00313AND383] - LOAN 50074 - ME133300053v.2 - 6 MILLION BY A FIDELITY - STATE FARM.zip
+
+  Log Message:
+  -----------
+  6 MILLION DOLLAR LETTER OF CREDIT ISSUED BY STATE FARM LIFE INSURANCE COMPANY (FILED IN NYSCEF MATTER 153974/2020)
+
+AND BY STATE FARM VP MANAGEMENT CORP. UNDER ITS ADVISER 3487
+AND SUBADVISOR, THE NORTHERN TRUST COMPANY.
+
+FILED WITH THE SECURITIES & EXCHANGE COMMISSION UNDER FILERS 93715, AND 1516523.
+
+SEE ALSO: TCR FILED NOVEMBER 13TH, 2020
+
+

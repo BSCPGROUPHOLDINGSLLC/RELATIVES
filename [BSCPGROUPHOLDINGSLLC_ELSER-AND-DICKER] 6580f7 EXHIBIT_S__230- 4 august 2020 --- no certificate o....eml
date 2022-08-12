@@ -1,0 +1,116 @@
+From - Tue May 31 16:20:32 2022
+X-Account-Key: account1
+X-UIDL: AD8MJnlyDxrjYpaFhQCYWHYI+Jw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.243.14
+ by atlas102.free.mail.bf1.yahoo.com with HTTPS; Tue, 31 May 2022 21:15:48 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas102.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 21:15:48 +0000
+X-YMailAVSC: .u1QOLk3bBtQKll8hmPLJfKe9oMQMLrcWH.6vHkZw4k67Ra
+ fyOVOXOILtTw0a6HHL4gQLatXfTm1PnJabvoPYyp5wKihlf5zTmg8cHqx0oa
+ r1IPV4saOktQ_IIGJgiZpp5X3WXvTMkiaDBCBe8_S9fkHPn4WOIg2cbAwAHS
+ Z8BeHmuLM.ZH.n8XjY_yvipgPyVN8nF2EGP0J2IbkdP2oQn_NtXzJXxHzdMw
+ 1LsjzlLtx4PBfqb9A5HX4mXASJjmaOqB39hnoa2i6Oe0vSLVua20_yIlZLuk
+ a86VxovciY3RUkf_oNbCA8Iz6o.c_s0b1KaihfLjz6ziRB_eBXxEgkILTasm
+ P
+X-YMailISG: 0twuq1AWLDvyiEdVcbwh0u440dVZUMJ3e9aX4h350.O8_gYJ
+ hmilxNQqfWnHIvre5E14b4z2lNo0vhV3dCbcvlkdoZVcncLhivlH2akyno9y
+ C.CERTJukFStukyxVXu6KTkK29NDd7iaOC5sHLQuLRzSs0E1D_YpyBRaFi4k
+ FxV45N0eZLdgf.FyYz7LNdDw7y4gayFHR7JyNt7F9lK9GganN3S62Gmd7sMu
+ zGRKefJyhrCImuX1D6IVuAAeWl_AKKFm9jUoQmMH6ZHdRsdMv0UxdP3EPlRY
+ liTE41Wmk42d.BjNkyPEjQBWSc44em8iHtO0taqUKmHMX_E_CVSBI36O4E8q
+ 1IkYMqabz8zLDCHe4Swg8Mo2k4Da4IxTOMiQVGXiHZwcTuA0W.2hUcC0ER.G
+ 1.eYBZzcxLcmoDk1lzSFcAn6y07IxxpBZpsQ92GLXU9acvpJG0O699M9ffiA
+ w5OXuC0YLpfFmdbq2x9dAtqKJNis0T8ga03rDi1Stbh_bH7eUxN2eCSEwBRs
+ yDzde6hj_dAGj0017oriWTktZaSXh8SRgqBsi1l5zQYxcO_JUPEJrjojHKfU
+ 4epJAc2nrWixxz4J.ihLMUwsHW01VuR8OlvEYGDpxiJfkZVzt0q5K6iB.3SS
+ wFfjtXbDDx7Wpkj7rIecXtclEL._N_z__QY2DnfYpw.jhCZcNJjQ2ger6p1H
+ JVfMtvSWt5nN1h8hoyyHfJMIhKPt9wdOnAKZlwDUBLXd4idCcA4YjRoIjQQd
+ qnpgTBk3.6JB.gWzqybIZ7Sm.VeQOYVmV6oZvVtm7x7TgYyKh7yf6FYcjZfi
+ gHbyisXGZf8y9tLSzDyESuGAJKy9C9ePV.y4lMsCvNPJMXAQCuplww52iDT5
+ YwLTfOAZT3mYhtHgMxPqeGpZu.tys85FyBYAm7u_Rh4Q4vjmjJ5LLggLMgbo
+ _hvbs1K0jkNSyUr6iLBj1fON_y39oCtfFBqP637_WL7K7bBgBIAsDpkXpxlU
+ qHISJTNC.06Pg6XZxGuH3KTBB8bP.PWHegzcfVLasVZoPFu92hV2w29dWP5n
+ 4O.7yzBjlh3Wls8.3x8PfiAm_2_3gJ768QJeO5.34c0RhWyIu6iY9fC2DhRg
+ dQ86aSpAXYHNYy2CxLnG25iYYpYOTGLya7zpSXFh9CuBrxmLvGuxaGLJd5O2
+ JcMWS5ahZUva4rjF4bUxq49c
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.196.243.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 21:15:48 +0000
+Received: from github.com (hubbernetes-node-c0d1613.va3-iad.github.net [10.48.205.47])
+	by smtp.github.com (Postfix) with ESMTPA id 78E6D5C0E7E;
+	Tue, 31 May 2022 14:15:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654031748;
+	bh=GqnzjAOm8+jsf9QY7i7vH4GBCupSZRRrD+NgfZ9iRlQ=;
+	h=Date:From:To:Subject:From;
+	b=mSSipah6DfykZ92HohZppce2oMTCy/t978iHNxTOri8NrqPwztpjZYhq37DYr5aM1
+	 5N6uPc2hjAjiWRs+hxc+YObr1pjGr1dFgbD37/LZqubZEtYmMB4ezpjFpbSPgq+rBW
+	 7QO3200u6/S/0kkDiAUiSQN6tRH37si6m73epN8U=
+Date: Tue, 31 May 2022 14:15:48 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/567afe-6580f7@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 6580f7: EXHIBIT_S__230- 4
+ august 2020 --- no certificate o...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 2634
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 6580f7a83b5cef186e7000d5e552d738ed7b5d5c
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/6580f7a83b5cef186e7000d5e552d738ed7b5d5c
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A STFGX-153974-93815-OMISSIONS
+
+  Log Message:
+  -----------
+  EXHIBIT_S__230- 4 august 2020 --- no certificate of occupancy
+
+FOLLOWING THE LOAN 50074 TO SULLIVAN PROPERTIES L.P. BY STATE FARM ON MAY 11TH, 2020
+
+           IX.        "... PLAINTIFF IS AWARE THEY ARE IN VIOLATION OF ETHICAL, AND GROSSLY NEGLIGENT OF MATTERS WHICH PERTAIN TO THE VIOLATION OF PRIVACY..."
+
+            X.         "... REPRESENTATIVES FOR PLAINTIFF SHOULD BE DISBARRED..."
+
+            XIII.      "... ABUSE OF AUTHORITY, PANIC, AND AVOIDANCE IS VERY CLEARLY A PANIC AND OBSTRUCTION
+                        DUE TO THE REALITY OF THE EFFECTS OF AIDING AND ABETTING TO BOTH TAX EVASION, AND THE BREACH OF FIDUCIARY DUTIES...
+                        NO DISCLOSURES BY A PUBLICLY TRADED MUTUAL FUND... AND A BREACH OF THEIR PROSPECTUS AT ANY COST..."
+
+            XIV.        "... PLANITIFF WAS WATCHING ME, AND AT THE SACRIFICE OF MY TIME ALSO CAUSED DAMAGES BEYOND THE SCOPE OF MY HEALTH, AND VIOLATED MY PRIVACY WHILE AIDING AND                         ABETTING THE NONDISCLOSURE AND OBSTRUCTION OF MY INTERVENTION TO PREVENT ANY FURTHER DAMAGES TO INVESTORS, TAXPAYERS, AND TO THE BENEFIT OF ITS OWN CITY..."
+
+           
+
+             XV.        "... REQUESTS THE COURT TO CONSIDER ALL REMEDIES AVAILABLE JOINTLY AND SEVERALLY CONSIDERING EACH INDIVIDUAL WHO HAS REPRESNTED THE INTERESTS OF THE                                  PLAINTIFF..."
+
+
+             XVI.     "... REQUESTS THE COURT TO REVIEW THE CONDUCT OF COUNSEL, REPLRESENTATIVES, AND THOSE ENJOINED IN THE NEGLIGENCY OF MY PRIVACY..."
+
+                        " PROVIDE INJUCTIVE RELIEF AS THE COURT ESTEEMS JUST AND PROPER, NOTARIZED AND SENT TO THE JUDGE ON THE 20TH OF JULY, 2020.
+
+
+DINCER:                                "SEEKS INJUCTIVE RELIEF AND FOR THE COURTS TO REVIEW THE CONDUCT OF COUNSEL, REPRESENTATIVE, AND ALL PARTIES WHO ARE INVOLVED OR ENJOINED WITH THE ACTIONS OF THE PLAINTIFF, INCLUDING ITS NEGLIGENCT OF PRIVACy... REFUSE TO REMOVE THE CAMERA... AND A BLATANT DISREGARD TO THE CONSTITUTIONAL RIGHTS OF PRIVACY IN THE SANCTITY OF MY HOME"
+
+ABOUT UNFAIR DEALINGS -     MONDAY JULY 20TH, 2020
+                                                    NYSCEF DOC. NO. 215
+
+

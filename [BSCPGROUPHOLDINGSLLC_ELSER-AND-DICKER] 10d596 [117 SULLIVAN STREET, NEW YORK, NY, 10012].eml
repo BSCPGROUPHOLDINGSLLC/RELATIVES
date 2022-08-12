@@ -1,0 +1,86 @@
+From - Sun May 22 23:39:50 2022
+X-Account-Key: account1
+X-UIDL: AA8JR5JZXT2JYosOEAN2uELktq0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.14
+ by atlas321.free.mail.ne1.yahoo.com with HTTPS; Mon, 23 May 2022 04:31:11 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.210]
+Received-SPF: pass (domain of github.com designates 192.30.252.210 as permitted sender)
+Authentication-Results: atlas321.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 23 May 2022 04:31:12 +0000
+X-YMailISG: 3UL3jkkWLDtlJAiVnwOdoFvzAIKVwzJrRomlq.KUzKtOYEVt
+ EKieQpRYpAUmkK7noHLlxIs8.ikTXD69hLFDEqQB8xkdkC0RvjXKTBzbY0Wh
+ PFO2gB9PFIAT8OTSm64gutkad_2Xdp3r87EJGUhe5NToCn1aDq7hmtfd2tnd
+ gTgjUdFo8XkAKtR7cRY9bh3H0wqzT2SAe9BIJO7sbpc0afCuCzYkX_IwiKNq
+ fUyURJ4VOzqc6beNvURHSrLYrI_o8y7VNiMJA8UCWHsMiQj6mXT1ZqGz52Hh
+ dbTiFQhDHKPatG8f6JP88LT8DfvCXQ0UsLJAXwu8a0PjR3zWIGo6TjshWlhm
+ W8jx01HMczS_o7w5.0bKF.EpUiBUHRemIDK4_lbmFylq1zbmTy1wipCB9v22
+ XSFByJcgDW1UklSLR4RGjTdkqQlZhcbdVoUNFgK0pg5SO2w6FT9cZyeMotdi
+ Sj3ZC2i4Qmn4sbXads3uv9QrP1dFtICP_y6L95jcSO24dr0Q8IquOCIs3gZs
+ u6kUzISnS.iXO0N.XC7wlffYmZpKYA_Yg3c2dDDP8Xsi1QFLZFgVBJttUXYX
+ 4M4ZK_eeUiEUNZ8VIQOAAIZXFnE1C0Hwun8WvEDvdIqK793bDvYKn9a6_KT5
+ qOLt1C.hh4iXLavW0jy9JqUoU5zk9lKO0ZGfR3Bx7i4kMhoWcWdmjlSb9v8N
+ 6gjAU6HdKN7S3RHZroVnpBgK7Clpz7aqS.ww.ed5m60fUDjfTJOqhU.NuXgO
+ ik6PvFLP5s3YIu7UtpzdAdqk07TzLrCmi7HWUYIxhgc1wEAwulM5edG1CYuh
+ Ungn60eapOXGPjWgwqpx9knfXyot3CU9TYA_9GJjPzRHkAPrkWyhmRp8NKy9
+ RBsYD5vrwaA.P32B_hQqxMMC9j2D7VOzJ05ID5jN6rc7mWNwCxuTfoofnDra
+ pfdKXpTfOnTiW.CECJPI6tZgb3TDDniBs_riCJ35R.DEr38maYIazg51vFQB
+ jnWFpKWGgLKrfPjHgNC_LS7NNzqcQDWQILVmq4y3TQTpcWgsEIZiawd_PsAZ
+ KrowpO2nOAeBIbZEjCS37c1EtEXEhW_JLoyJMYc0gVwXzZcJZlBUBBXuVyWY
+ et2_db_KwhSwpOnnG2m35HFkTyvHqLznjzJ4sQuYPqib9lDwOUffI_7QETL1
+ 0E83.5YwVfgew2Brf1R7HK1UYQ--
+Received: from 192.30.252.210 (EHLO out-27.smtp.github.com)
+ by 10.217.137.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 23 May 2022 04:31:11 +0000
+Received: from github.com (hubbernetes-node-7e3a83c.ash1-iad.github.net [10.56.208.73])
+	by smtp.github.com (Postfix) with ESMTPA id 660D7900B8B;
+	Sun, 22 May 2022 21:31:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653280271;
+	bh=qw68U15Kh8eiAKCnqDWhJ1uNJJZbMPbcg1i0ZuTETiE=;
+	h=Date:From:To:Subject:From;
+	b=0dytHU0+oOrTZBHp0cN/HAx9mflC3AneBZVbDTDhxWmRqOP97cwxlW8laXZxMkC3X
+	 A6Iuygmi7bMv7rCb7xlyJO9O/+0mNycatw8x4lLuUFySX/aLPB0845mKhAOMdq5RG1
+	 0Q3qhm36CIa9aPMpnDG1Le7JwxnLzu9VlJ5Y4DHA=
+Date: Sun, 22 May 2022 21:31:11 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ BLOCK803LOT11@OUTLOOK.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/TAX-OBSTRUCTIONS/000000-10d596@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 10d596: [117 SULLIVAN STREET,
+ NEW YORK, NY, 10012]
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,BLOCK803LOT11@OUTLOOK.COM
+X-Auto-Response-Suppress: All
+Content-Length: 683
+
+  Branch: refs/heads/TAX-OBSTRUCTIONS
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 10d5969613ebf0362c8233a32e76d87ff946b141
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/10d5969613ebf0362c8233a32e76d87ff946b141
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-22 (Sun, 22 May 2022)
+
+  Changed paths:
+    A C16-93715
+
+  Log Message:
+  -----------
+  [117 SULLIVAN STREET, NEW YORK, NY, 10012]
+
+[117 SULLIVAN STREET, NEW YORK, NY, 10012]
+
+"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/blob/d7daa60e1e93abf4098d905770c945a2957c46c8/---2011%20117%20SULLIVAN%20STREET.pdf"
+
+

@@ -1,0 +1,91 @@
+From - Sun May 29 11:38:54 2022
+X-Account-Key: account1
+X-UIDL: AGBFBq9cRausYpOhcgNTkOsl59E
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.35.48
+ by atlas101.free.mail.gq1.yahoo.com with HTTPS; Sun, 29 May 2022 16:38:25 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas101.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 29 May 2022 16:38:26 +0000
+X-YMailAVSC: Y0VIJsY3bBtRVuaiU256pndU6JmmPCf2..oYQAdDdWRM99b
+ rqLjflw8iew9UgjRDh_8zNwatepAek13ySlS4_cAyCtfVoBaQ8OZNAYes8LF
+ 8JDGi2twul8lu2wjD6hYQGavY5NTOBEYq52CeSHdUt8syc0ME5jjHGZ_FAx8
+ 5ncQRBLzmqOXFAecRogjxHq5O0CYDMnl0Zr1UaFwG.KnyelY6A9otb.bgEr7
+ bqK3YhDXzGHDh5jzpsNxo03IICt8wo2o69a9nwjIMMERzE6Zepi7stth1Y8f
+ r58yeSR9sTGBY.4.zbc2EPNlQE8czpVcrJi94iOAGGpYqr4SBo2RAm_ncH40
+ q
+X-YMailISG: w45Hz0wWLDvW8dv7VW8Jc.8.4prY0pg3gSRovNtLfcOIw7bg
+ wJR5aWfIBtCph3fbkZj8bpUHS3sfDAd_QVZlSmnA0TsTrhn6Tli2eNtOXYJe
+ VjB1Ou71BEw2vEkzouz8dVgJ2YI48vxJSqYKrLulw9hlt4ZUJZnslCt_CVzq
+ dH6Leb.hmI9.MkLvvn5uZhHzxT_iwgWF7cyuz_Pogrj9Ac1I_ohuPuxV_2rv
+ .v1ReMc6nmlvI63UtSK1KsOyxDdD8baqR1EIVI0Ascovf5IAXoxN1My7S.2b
+ huW7VQAZf9HsGIWFZj3nbJfUOG4aYQLcPAaoIhTTxcYkLPUraXBZsc9j3Mdj
+ QPJf_MuACly4Zduy0iK0ibxwU2pMMJwEtvPC1l_WOWSkaGoTcxfm6SwmvN3N
+ 15F4jMMT2tKtYG3gW5amatG.SbrnCkhmyClqoQP2Em7FpO80ochLr1_t8VM4
+ p_H1dHuKjXWsEmBuu0CSl2cDf3ONTXPNIaGhLY3m2D5Msm5RDWNNbdgsNh0Q
+ b_3Q54JWKHU4F73ot08nCPf50KApqyk.m3CJR5ISuv7uXWEfvvv4U5HifNeI
+ SSNjn9BCWNhSBZT9nfND2QKIwbKUdbHXBM.iVmCibsYtRpYl3HAwUWJQB5FB
+ 9hCpzirCa3Rvi2Aznjdw5U.7YHVUUJA_N6Jh3P_rxphWjGtaF1PT3vCheBFE
+ 8swQrpcuwTpKYC0vVB8ZK4P56G3FOh11_jYaqxfThTna9p8f66.hJfxntBYr
+ xbyd9XHZhXZXwVn2SzTVMcAPsjlh1MxfFq3Zn0yrKVi7xUhvRAEcg5FKRxwM
+ Pt.oKSIXxeGzwkSh6QQEM6SSIVCnSUVsHRkTPb9tu6PBTC418E5r8R1kLNFn
+ .C2KrGkv5s50A0YQTDieB8sIq5u3sfwZHPN2HzvIner3l0O3WcBDw9FQ.zL3
+ 2AnFL2wmbF4CJzB800u1AS2kUik.zaFa7BhX7ewRWVm7CfCVEPeQLYJ.WK7T
+ CgVjpWxjttSX6YGXV2TF8DvVnIeWPKZyUi9GkkkHsUeaSmDowjb2Db2YrnkQ
+ msCN7RNxRuFTGt71Belxj3Xo6jK0yaDNcXhTcwP8i_XxcbaL5uk0IpJUYV9U
+ lED7aapaIZK_4kuneUiAxjW3hQI5i_75legf9KXPbnrcIwSqXNtVLS3E3rPw
+ 4U.wpZ1K9eb8MmZkvlZdO9NiTg--
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.253.35.48 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 29 May 2022 16:38:25 +0000
+Received: from github.com (hubbernetes-node-12bad67.ac4-iad.github.net [10.52.200.86])
+	by smtp.github.com (Postfix) with ESMTPA id 27E9060010D;
+	Sun, 29 May 2022 09:38:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653842305;
+	bh=QzoyUWo2qxRxcxCXeGB0am7fvD/2wuslqawiJBoa6Ec=;
+	h=Date:From:To:Subject:From;
+	b=2XgllnDxs+6kSlgn8tz+0BwZNJqDrVmY7MWqSApe0nxt8Py3OCEsnfAnuRK2Qi0vf
+	 pUQjlZY1l++XOYJg4rHQ2KjHzntK/ku18EWxf2UwIGDQ9HDjcUwmyN9Oyku5ymcH50
+	 XvEQYh97MqR64EbdnNN2W8tTa+IcjfM7yyjzGh5Y=
+Date: Sun, 29 May 2022 09:38:25 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/f9768f-a1af53@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] a1af53: [NOV 16
+ 2021](https://github.com/BSCPGROUPHOLDINGS...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 652
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: a1af53173e126cb6fbcf71aa02affa517fe3dab1
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/a1af53173e126cb6fbcf71aa02affa517fe3dab1
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-29 (Sun, 29 May 2022)
+
+  Changed paths:
+    A STATE FARM - ZUCKER - MATERIAL INFORMATION 2.pdf
+
+  Log Message:
+  -----------
+  [NOV 16 2021](https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pull/1)
+
+[NOV 16 2021](https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pull/1)
+
+

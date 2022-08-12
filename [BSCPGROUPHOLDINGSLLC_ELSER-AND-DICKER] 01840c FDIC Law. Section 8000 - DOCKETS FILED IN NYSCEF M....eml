@@ -1,0 +1,91 @@
+From - Tue May 31 15:10:35 2022
+X-Account-Key: account1
+X-UIDL: AJWwkCRgE0XMYpZ1ugK7OIpgI8U
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.72
+ by atlas123.free.mail.bf1.yahoo.com with HTTPS; Tue, 31 May 2022 20:08:25 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas123.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 20:08:26 +0000
+X-YMailAVSC: VQ9vB5c3bBtmdvJnXpJHziTVWuSeFHidAeHbYYajq8lfd0J
+ b5ihauLcJ8XtScX8NWs5K5dEy.YR.4G4FfhxWEbb5k2hh6KJwhhO7S.Grj2F
+ J2HgLg1quLseXfhFb_oxdLOgCpt5Mu.RS8TSRX6gNX5TGB96nNZLh4wvyVWL
+ u3_A9NsQ1Qu8XY1cPonkDdlAK3xeTZgvli8TJpMCkdSi5ZjYR1UcfQB4x0h2
+ pVSLqMlgPFk88VeB0A7D3e_qo38lQ_xaV8ZL8LQoxDI77C_cfbvB72CPVxdi
+ pXF7CsKYmDGs_dpCAmf0T8J2WNfJS01tYWPY3pox_LNvHduRbjZ2kDQgex.o
+ F
+X-YMailISG: pHOcBmkWLDtEjwgr2QctPpkWZmWi_IsrpwRa95vTCyBQIdHr
+ k.46OSYdiE4ZLI.8xAuBduQqt5CVFuiDiENWRnR3Pr2le8AGJfbBR5HFP6lZ
+ x_GDtSOFRvLTwhhHA02BWP8fu0sl2nFIiid8zgH.gFa67mt95ClBXzRc2Li0
+ C1744dpspoG9RIS0A0kd.6lpYD5j9w12MSHPiw.a7VDNRyR8OOuBtC.YpF4z
+ RxzJQlA1WYtZ1oaoXvD8neAUIIa1QJ.pnTCh1WEO2ZfBI3ORQrVg_SyYXSGU
+ xP7GudRzelPbjJDKcLfJYkO_0KFVEuIAvsJuYuZOJlXdJX9iTcfkhY3pOwcz
+ ktS0IWiSIEzJ08rhUxQIMqH0DI6YH7KO.ln48.q1IMg1s70q31VLxEO8dnxD
+ CQhrdFQKdK1JrLcUAUbTv7aEE3CDHKvFJIhQ6dQmZ3ZNo6.5XaSkcJyaLnyZ
+ 63uIySTur9fa2XesodAuswMCyut_7ByDGdUbS9vjJm7X7XpdzbOEuMjjH9rC
+ QMx90hV0fWKe_pQwurHBIY.Aw.gEbmBh_eGCfJchVCPc3ao0nWTTw0lkR2d8
+ LHcJt8mrluIjpm7dQdEPZXqBAfazT5x8EzjSg8CZU9jvOdaB1VZxqRzK09OJ
+ OhV8Gd1pnS_9FcEu1CRBSh_svcdacRl_HgyBXL7PigZC_UW1XtcS5lJDdKqa
+ c2.v_qZzuKxypVDkLHNwcSOuYV5xUSs8JpGo1SP6.qUYVo5dQ5KhGtwjtfd7
+ xW_SlyBCuncLkkcdnHk16gzhomQq814.s1VRb0wpLaYmmL.4KKDPIO3EUWYU
+ T.2OS00WR00oSNGnZiUZwZQ_jmthszzqY_E7f3a5ive3786HCYc2WeN5ie2N
+ 6pvtVtKwYXRxBe02I7qlNoDGBj5eBFVp8r7c63Nz2FS1Jet3trtl1nAMuBEg
+ ET7dSL0upYim4KNd7PBbm_NI5acoCDNk3JWxjAP8F9f.7mfGFCYPZjdINxX6
+ cFRY64WDyvL_hYl3xsoErhujID1nTouhDSlu6rWFzLsrxd14PweHPIyEvUIO
+ 0KDZqFp4M86IfCntJRqmM3jk.C9K9HmxEHHGco2iHPbCC2rZuNhZ3e_DWjYC
+ soa8P6ZGtnKoQZRReZ3r5LIZ.AHOWwTmd.cjwsLtJZvQ8c_Ev2W_aJBwmNnE
+ iK9IiSLAuPqsHrZOm2m9REtZ
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.40.72 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 20:08:25 +0000
+Received: from github.com (hubbernetes-node-e2af5c8.ash1-iad.github.net [10.56.131.65])
+	by smtp.github.com (Postfix) with ESMTPA id A66DF5E0AC8;
+	Tue, 31 May 2022 13:08:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654027705;
+	bh=dHdFVNPOfrECaCxBbT2l5e5N4I/NcR/VQmjq8vztrpY=;
+	h=Date:From:To:Subject:From;
+	b=JSi/5SEzLxfZOsAhrGnJaQhrinMtGx0jg6F7/UizkzwFWzMY9kUOmm2qn5eWvR6Xp
+	 zL4BGkDYCvAt9v+qWtPhmSKOYX0rg5bdbuor2V6d0Up3cGHTIp346V0urIke7FHRBm
+	 Ps80YzJiKK/p+Sye3d44PFIH96IPhkgKQyO8rkX0=
+Date: Tue, 31 May 2022 13:08:25 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/35b305-01840c@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 01840c: FDIC Law. Section
+ 8000 - DOCKETS FILED IN NYSCEF M...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 684
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 01840cb65cfcd91ab39b9935ad78bd4707d6e9ea
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/01840cb65cfcd91ab39b9935ad78bd4707d6e9ea
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A FDIC Law. Section 8000 - DOCKETS FILED IN NYSCEF MATTER 153974 2020 FOR 93715.zip
+
+  Log Message:
+  -----------
+  FDIC Law. Section 8000 - DOCKETS FILED IN NYSCEF MATTER 153974 2020 FOR 93715
+
+[00313AND383] - LOAN 50074 - ME133300053v.2 - 6 MILLION BY A FIDELITY - STATE FARM
+
+

@@ -1,0 +1,96 @@
+From - Tue May 31 15:30:32 2022
+X-Account-Key: account1
+X-UIDL: AGP0RSJW2nQ3YpZ44An+mE9pBuQ
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.75
+ by atlas322.free.mail.bf1.yahoo.com with HTTPS; Tue, 31 May 2022 20:21:59 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas322.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 20:21:59 +0000
+X-YMailAVSC: BVmhXL83bBuYrXTi1e7o3Ct8nkrguHNc2_RtG9NU7P7aK4a
+ Cx3Eop1c5x7KKdbR5pJK5CW6Nnq9SYiSio3W1m_6wg9YBZTkKqG2xJPG1I_f
+ mvma7T50XgiH6qK9Llc_OPxL3fCXBJCY9HEVCBgOXSwtPu3MvSRr8sY7hy.m
+ F8xbwVQgt1.0XmLEyj6oITQrH_nXJr3SxiqtdcTsh2g7Y54JQeTzud9kJU4a
+ A2ugUhH6NIwEJLUk.tn8ripwvHbajWeT2F6PEou6IclpClJ5iL.kevgtLDjG
+ 65eKbRDtev9O4GW1cIDi1MoiprKhXzfyklCY1LYQKeNJ3Y9TL4Fi49Bkt.B4
+ f
+X-YMailISG: l.ygKkkWLDvOc0i0M9m9eCRcS_LKpx1MMFTSsMIhH4X18HiC
+ edEcHZluilHimvnoAunJOl8npyO3cER23_fIIW73csb9KZ09aiaq1JotPLyG
+ aH7v7ymUadq76UF7eucjil3DOan3cdR6eYPcPpofzbvdjfQk7B2ajKAlAKS0
+ r1AFA1ZmqYM9rnIv7PMRaZ_fOLhJaxgk7ZMPIPyDsfBKimOVOlfXIPTk4N9W
+ 4UCUK1SyRSrq6C5zf_cel0EEsEBshd9Eys2np8AeZmRwuS.CiTMwi.7qOWSu
+ aqntdI9fFcuRon8I6_jhuwZhafQnTU91QmCcUBHX28xJxvpbS1vJ2tsnY18E
+ 0c75ZPvWUH.aGdlswIiDw926NqAub8gd51KSyvvyaRW_HkOiOLGCT6yoN1RQ
+ GKE2xic6J39QA6CJg0sGzUzAGqctWeME5snfe3lLAgGdu6wry3Pncalx3Pkt
+ k6O4f6ztr3v5EQT2wLLPKY.jNMB150_QJ8t8wFrZw9AyavGP2HjnygFHlTGZ
+ OzMqOoD4RjA7Vkb8CjYHEzCoC7MAY6Y47ccUhKyxJMKBN1fkssUXekEdYZgG
+ 0ekh1qWk7lvYXJvpKlh8av5C6ALBVNaA_EgFdPJdKkMbdJWgBfOjgJRiravd
+ 7sfUSrO2IUPN_Vveu4IjANo_2tRRtfjLXxGg7LLoRy5oAk_xJ9ARW76P60aV
+ ic_zCxKqZVm1Rkdbiu9ryzRXcQwc0rcKbA_XtWjNFNtyxOcdKRxm22ui90l8
+ PsQzLUYFugVTZjjjs1SyZvQMAz4rotmD8cxUp.PsFBjDOzBhnSn5KdoZyYb5
+ qkmbpjc9GCFIfKCw5maguBllGrUIbSexVI44XM9BAwWyAbclC0qV0_R4nwzO
+ quOq.kzmm457LL7e7OfiKs7nMQdrp0yig3Dw65oGSNKqeI7DELf22chVjUox
+ q2cvjARHYlqDXszdq06iDCeoLjy89C0eRhtQJ8aloQEZm9W54_Poxu4_yZDr
+ GyNzJukTHvyWa.9Z3nTXWKnGAChCZlaFTCxIf4MmOGYp78cxRzbes4aaBYfE
+ qWvpiaTl11AwKbx5cpBQfo.O0SUFUWEtVJKkoFuA2ukaA93p.SeqSonuXlD_
+ dT0laMwMv5X9zaS.z29abUf5269zCsP8D0zqJ9s17._lga21R02MH2QcfXaT
+ 6ozQvYC52uoQZsHEO9J6zIJfwTON
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.36.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 20:21:59 +0000
+Received: from github.com (hubbernetes-node-727d397.ash1-iad.github.net [10.56.226.35])
+	by smtp.github.com (Postfix) with ESMTPA id E37915E0216;
+	Tue, 31 May 2022 13:21:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654028518;
+	bh=RwAjZhVyFNzI3hngGlWxZzuC6X3HdX491qMTu45K0Og=;
+	h=Date:From:To:Subject:From;
+	b=zWMNK1drL00oFs8YrrZskPCnkY4IUrXI4ZSqE6BzVX85ztG6fLodQVfkmPoXz+GyC
+	 xcUxs8k7k9S6gsKODc811R1YpAFQC12t1WgxBAXebJW5JtGzg99tAbMIfWj69ygvrN
+	 BApmvDrQRHMHXEXqjge48ASOSIT9MqcXf6GH/XOg=
+Date: Tue, 31 May 2022 13:21:58 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/633c73-87fcd0@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 87fcd0: [00306] - TAX BLOCK
+ 503 - LOT 8 - TORTS-- VIOLATIO...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 982
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 87fcd0190c3f7b43a7c7042c5e4499555099e678
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/87fcd0190c3f7b43a7c7042c5e4499555099e678
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A [00306] - TAX BLOCK 503 - LOT 8 - TORTS-- VIOLATION OF PRIVACY DOCKETS.zip
+
+  Log Message:
+  -----------
+  [00306] - TAX BLOCK 503 - LOT 8 - TORTS-- VIOLATION OF PRIVACY [ RENTS & LEASES TRANSFERRED TO STATE FARM ]
+
+AND BY STATE FARM VP MANAGEMENT CORP. UNDER ITS ADVISER 3487
+AND SUB-ADVISOR, THE NORTHERN TRUST COMPANY - WHICH WAS ALSO OMITTED IN THEIR "FILINGS TO MERGER".
+- IN MY PURVIEW, JUST A SHAMELESS ATTEMPT TO HIDE FROM THESE FACTS AS WELL.
+
+FILED WITH THE SECURITIES & EXCHANGE COMMISSION UNDER FILERS 93715, AND 1516523.
+SEE ALSO: TCR FILED NOVEMBER 13TH, 2020
+
+

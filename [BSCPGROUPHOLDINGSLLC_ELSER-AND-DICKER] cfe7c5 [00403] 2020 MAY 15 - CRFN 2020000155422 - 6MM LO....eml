@@ -1,0 +1,462 @@
+From - Tue May 31 16:00:32 2022
+X-Account-Key: account1
+X-UIDL: AAxPg2NwhD4FYpZ/tgSAWHyhmr4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.140
+ by atlas121.free.mail.bf1.yahoo.com with HTTPS; Tue, 31 May 2022 20:51:02 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas121.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 20:51:02 +0000
+X-YMailAVSC: OQrB9uI3bBu_I3kzr_H5VeQYBx1rWuYgjwffdaktBfytbiH
+ c0fI_QmAknG7puKgi_LPTI269lO61tC3HSY07IbpfKG9B5mLgL5n89e61i7H
+ zVJI5s4txl_pO4H4oVfcL1vy59d.K_YZOr0YM_rd4PHFTDOXP1ySWLQboyQ5
+ c_4OOyoWhSifkdyF_b0BMttyWSTGDpU_RyVqWgQSGs014F5ZukV7rnh5wxB6
+ RlI05x8NdnBID3LV8zguyYcvvPhhihCkaAWnp6Z3g7UMLiXLhMfA1pMJy1gA
+ zKeW1BqV9BFkkvXFKe5bHLzOWsUOklyW6O8TYNBjN6W6dtqbEJmURexz13yX
+ 01iT3Y_CtC0ZcmNqEN5bpjHP5pBFhdFcZgcE-
+X-YMailISG: ZLVNT60WLDsHYNws3CZia2scXZDZMwHWsugVHXsrOoKSAga7
+ gAlB_08Khx4pd7p_ltV..rq9eOwf9qt2SQU..mU0_autANGR_XdaIA1ERGVS
+ lOYvPV8ysCSYctf9QsZfwumFS4RlEK6y9iZCt3wv6tsEtnZr60cGphYRpKjO
+ MPT8Zj3BSqmrVSqSuYSsfrPodTsy4toORh8DZLDUO3mufK0Vt3WZo0hXid4G
+ oD_Naa_XnWSvEl6ShIcF_W0CHldIVLe1jCwjGC1mczstKNzAtuHoB15yV4SX
+ 4.mctwcFY92u2nmarNlyDaijIf1L96k0QGe44LhDDC8tzT4c2e8xSTZlDfHL
+ tF0W4yPbj6Rm9C8_NbEXvs6K5.gphFB3YJZbrZUFpW4Oldn3XbuDFZjZ7x_h
+ hfzb9z.3Y4iRk7.KXTRwuEhgrmZNOA3JuinUmDGTx2vbobiD6Hu.cpWWYlMe
+ xvwuJEw2X7cBy.6ucIwkmQpFcv_F9mBf8srXBPHAyusbE_Zwkim2qztb37Mc
+ GsWRUL4YuBK_6F7THGL_YLa5MOQjvN2VEaMSxTzLifjE.rWHdjzeNU_Y51FR
+ kfM2eAqcNrk41UuawlaKfyB_hlJXbBTKUzvM5TahlVKkiwDqFQWn1Fz33Ubn
+ lIQVtNMe6RjLRNzvBXZ7BoOIuOYvRMWVMGsc5sjim8YvB6G7K_WO2jNa.DZP
+ afjs5TPPhZzvDkJ2FCGG1G1vQejYvnByhW0kEx_0xUzW4pMmtwXNn4I1lGh7
+ LbktIhH.A6Ud81TFWF_5CskPSh__pA8jNml7A.8vwxIEDJ2QTonDEJFjs9h_
+ U8BaOcPWty3GRiz0GouKaMSLEvZssrTTHitKx1god1d9dlyIbpSQ1XmZ5L8Z
+ 9CdhFfyEuoij5EwesVPzuAUue5ZIRy0gup90zJ76Am4XYNaU1UDApPrM0Qjg
+ amqvB6vCYsZcOevNrqBKd7Prl0H..Es9NnzO2fVMMf.1MIcgoZ8olujy99eA
+ YqlCliv3ftGvUZjPNkkhxpcI7m2vT0sfyT5jZxE8_iEYmyxFdtr1hBvxYGkn
+ hsUnvEpG6ntpMKXkke60RqKqcDpuObCpGNzZqrmDwE6A3cTw3HjJj3mf1wI5
+ E.kDnesm8fHu6ADfzCNhmPo37._J1Vb_HXdslLUPkf_mD7_gPH.OkWomnjs1
+ Ar3Od_aiMUJ.e80NmZm7Qg--
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.197.32.140 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 20:51:02 +0000
+Received: from github.com (hubbernetes-node-0324fd9.va3-iad.github.net [10.48.205.102])
+	by smtp.github.com (Postfix) with ESMTPA id ADBB9340D42;
+	Tue, 31 May 2022 13:51:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654030261;
+	bh=w7lwc3P96TI1vW9SuqjkiIrIsd1hD5yHXJT256w6tdA=;
+	h=Date:From:To:Subject:From;
+	b=bCws69dU6f9TQU8i7jD3k8rnWGeNWgqvKMNSSeVXYKLI6FltmHQATRXmiR9US0y1N
+	 ZncsmFDtWZWEQA9AvotlcRnN4XFzboTGv9PVIiCcs2ospIoXvXDquGVr0/Yb0mZrPm
+	 mCJ32EjGnCfnyWtDgbTiuaKKYdi90W2jq/VAWvbo=
+Date: Tue, 31 May 2022 13:51:01 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/2d41b4-cfe7c5@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] cfe7c5: [00403] 2020 MAY 15 -
+ CRFN 2020000155422  - 6MM LO...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 14533
+
+  Branch: refs/heads/REQUEST-TO-BAR=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: cfe7c525716d8487819e661ca162080ca7249c72=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/cfe=
+7c525716d8487819e661ca162080ca7249c72=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-05-31 (Tue, 31 May 2022)=0D
+=0D
+  Changed paths:=0D
+    A [00403] 2020 MAY 15 - CRFN 2020000155422  - 6MM LOAN BY STATE FARM.=
+pdf=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  [00403] 2020 MAY 15 - CRFN 2020000155422  - 6MM LOAN BY STATE FARM=0D
+=0D
+2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+=0D
+=0D
+State Farm Associates' Funds Trust=0D
+SEC FILE NUMBER:	  811-01519=0D
+[N-CEN]    0001145549-21-006167=0D
+REPORT DATE:	     2020-11-30=0D
+FILING DATE:	     2021-02-11=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+     =0D
+State Farm Associates' Funds Trust=0D
+SEC FILE NUMBER:	  811-01519=0D
+[N-CEN]    0001145549-22-006149=0D
+REPORT DATE:		 2021-11-30=0D
+FILING DATE:	     2022-02-09=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+	=0D
+State Farm Associates' Funds Trust=0D
+[40-17G]	  0000093715-20-000003=0D
+REPORT DATE:	    	2020-06-08=0D
+FILING DATE:	        2020-06-08=0D
+Bond Period: 			April 1, 2020 to April 1, 2021=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000009371520000003/aft=
+2020.txt=0D
+=0D
+						ICI MUTUAL INSURANCE COMPANY=0D
+						ATTN:	RRG, 1401 H St. NW=0D
+						WASHINGTON, DC   20005=0D
+						--- INVESTMENT COMPANY BLANKET BOND=0D
+						o	State Farm Growth Fund=0D
+						o	State Farm Balanced Fund						=0D
+						o	State Farm Interim Fund=0D
+						o	State Farm Municipal Bond Fund=0D
+=0D
+SEMI-ANNUAL HOLDING REPORT=0D
+State Farm Associates' Funds Trust=0D
+[N-CSRS]	0001193125-20-200810=0D
+REPORT DATE:	    	2020-05-31=0D
+FILING DATE:	        2020-07-28=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d91=
+3497dncsrs.htm=0D
+o	State Farm Growth Fund			$ 5,110,893,730=0D
+o	State Farm Balanced Fund		$ 2,034,992,761	=0D
+o	State Farm Interim Fund			$   433,682,403=0D
+o	State Farm Municipal Bond Fund	$   714,878,356=0D
+___________________________________________________=0D
+TOTAL CAPITAL AT RISK:				$ 8,294,447,250=0D
+=0D
+	"The Funds did not hold any Level 3 securities or derivative instruments=
+ as of November 30, 2019 or for the six months ended."=0D
+	=0D
+	"There were no transfers of securities between Level 1 and Level 2 as of=
+ may 31, 2020 as compared to November 30, 2019."=0D
+	=0D
+July 28, 2020	=0D
+	Pursuant to the requirements of the Securities Exchange Act of 1934 and =
+the Investment Company Act of 1940, Sarbanes-Oxley Act of 2002.=0D
+=0D
+	[EX-99.CERT]  40' ACT=0D
+		https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d=
+913497dex99cert.htm=0D
+			/s/ Joe R. Monk Jr., 	President.=0D
+			/s/ Paul J. Smith, 		Senior Vice President and Treasurer.=0D
+			=0D
+	[EX-99.906CERT]	=0D
+		https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d=
+913497dex99906cert.htm=0D
+			/s/ Joe R. Monk Jr., 	President.=0D
+			/s/ Paul J. Smith, 		Senior Vice President and Treasurer.=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+ https://www.govinfo.gov/content/pkg/COMPS-1883/pdf/COMPS-1883.pdf=0D
+=0D
+	=0D
+https://pcaobus.org/About/History/Documents/PDFs/Sarbanes_Oxley_Act_of_20=
+02.pdf=0D
+=0D
+https://pcaobus.org/About/History/Documents/PDFs/Dodd_Frank_Title_IX.pdf=0D=
+
+=0D
+=0D
+SEC. 1001. SHORT TITLE.=0D
+This title may be cited as the =E2=80=98=E2=80=98Consumer Financial Prote=
+ction=0D
+Act of 2010=E2=80=99=E2=80=99.=0D
+SEC. 1002. DEFINITIONS.=0D
+Except as otherwise provided in this title, for purposes of this=0D
+title, the following definitions shall apply:=0D
+(1) AFFILIATE.=E2=80=94The term =E2=80=98=E2=80=98affiliate=E2=80=99=E2=80=
+=99 means any person that=0D
+controls, is controlled by, or is under common control with=0D
+another person.=0D
+(2) BUREAU.=E2=80=94The term =E2=80=98=E2=80=98Bureau=E2=80=99=E2=80=99 m=
+eans the Bureau of=0D
+Consumer Financial Protection.=0D
+(3) BUSINESS OF INSURANCE.=E2=80=94The term =E2=80=98=E2=80=98business of=
+ insurance=E2=80=99=E2=80=99 means the writing of insurance or the reinsu=
+ring of=0D
+risks by an insurer, including all acts necessary to such writing=0D
+or reinsuring and the activities relating to the writing of insurance or =
+the reinsuring of risks conducted by persons who act=0D
+as, or are, officers, directors, agents, or employees of insurers=0D
+or who are other persons authorized to act on behalf of such=0D
+persons. =0D
+=0D
+=0D
+=0D
+FORM: N-CEN  =0D
+	     ANNUAL REPORT FOR REGISTERED INVESTMENT COMPANIES=0D
+			TYPE:	 Form N-1A Filer [Mutual Fund]=0D
+			PERIOD:	   	   	    2020-11-30=0D
+			FILER:		            0000093715=0D
+			OMB NUMBER:	             3235-0729=0D
+       =0D
+______________________________________________________________=0D
+	   Registrant:	     State Farm Associates Funds Trust=0D
+	   Date:		                    2021-02-11=0D
+	   Signature:	        Terrence Ludwig=0D
+	   Title: 	     	    Chief Compliance Officer =0D
+							---------------------------------=0D
+=0D
+NAME:			     		State Farm Associates Funds Trust=0D
+INVESTMENT COMPANY ACT FILE NUMBER:		     		811-01519=0D
+	   CIK:	   	   	            	  0000093715=0D
+	   LEI:			                  254900O40XUSSLGWSS55=0D
+=0D
+REGISTRANT:				Open-end management investment company =0D
+				registered under the Act on Form N-1A =0D
+     =0D
+______________________________________________________________=0D
+SHARED CREDIT LINES=0D
+=0D
+        NAME:   State Farm Mutual Automobile Insurance Company=0D
+	    			=0D
+	        SEC FILE NUMBER:                     811-01519=0D
+=0D
+	          NAME 1: 	State Farm Municipal Bond Fund =0D
+	          NAME 2:	State Farm Interim Fund=0D
+	          NAME 3:	State Farm Balanced Fund=0D
+	          NAME 4:	State Farm Growth Fund=0D
+=0D
+						--------------------------------------=0D
+INVESTMENT ADVISERS:	State Farm Investment Management Corp.=0D
+SEC FILE NUMBER:		801-8184=0D
+CRD NUMBER:				000003487=0D
+=0D
+					--------------------------------------=0D
+TRANSFER AGENTS:	State Farm Investment Management Corp=0D
+SEC FILE NUMBER:	084-00839=0D
+=0D
+					--------------------------------------=0D
+SERVICE AGENTS:		State Farm Investment Management Corp.=0D
+  	=0D
+					-------------------------------------- =0D
+ADMINISTRATORS:		State Farm Investment Management Corp.=0D
+ 	=0D
+					-------------------------------------- =0D
+UNDERWRITER:		State Farm VP Management Corp.=0D
+CRD:			N/A=0D
+SEC FILE NUMBER:	008-50128=0D
+    =0D
+					--------------------------------------=0D
+BROKER-DEALER:		State Farm VP Management Corp.=0D
+SEC FILE NUMBER:	008-50128=0D
+CRD NUMBER:		000043036=0D
+    =0D
+					--------------------------------------=0D
+	=0D
+	CHIEF COMPLIANCE OFFICER:	Terrence Ludwig=0D
+	CRD NUMBER:			003231040=0D
+					ONE STATE FARM PLAZA=0D
+					BLOOMINGTON, IL, 61710=0D
+=0D
+		DIRECTOR 1:		    Thomas M Mengler=0D
+		DIRECTOR 2:		    David L Vance	=0D
+		DIRECTOR 3:		    Alan R Latshaw=0D
+		DIRECTOR 4:		    Anita M Nagler=0D
+		=0D
+		DIRECTOR 5:		    Joe R Monk Jr=0D
+				     CRD NUMBER:     001357149=0D
+		DIRECTOR 6:		Paul J Smith =0D
+				     CRD NUMBER:     004971235=0D
+        =0D
+       =0D
+--------------------------------------------------------------		=0D
+CUSTODIAN 1:		JPMorgan Chase Bank, N.A.=0D
+LEI:			7H6GLXDRUGQFU57RNE97=0D
+CUSTODY:		Section 17(f)(1)=0D
+				[15 U.S.C. 80a-17(f)(1)]=0D
+STATE:			NEW YORK=0D
+=0D
+					--------------------------------------=0D
+ACCOUNTANT 1:		Pricewaterhouse Coopers LLP=0D
+PCAOB NUMBER:		00238=0D
+=0D
+=0D
+______________________________________________________________=0D
+=0D
+State Farm Investment Management Corp. =0D
+     =0D
+			N-1A, SERIES REGISTERED:                4=0D
+			RELIANCES: 40-17G SFITX BLANKET COVERAGE.=0D
+				Rule 12d1-1 [17 CFR 270.12d1-1]=0D
+=0D
+						--------------------------------------=0D
+NAME 1:					State Farm Growth Fund=0D
+			AUM:		      5,308,974,798.00=0D
+TICKER:			STFGX=0D
+SEC FILE NUMBER:	811-01519=0D
+SERIES:			S000002055 =0D
+LEI:			25490064REEQMGE0GC29=0D
+CIN:			C000005410=0D
+CIK:			93715=0D
+=0D
+NAME 2:				     State Farm Balanced Fund=0D
+			AUM:		      2,084,421,670.00=0D
+TICKER:			STFBX=0D
+SEC FILE NUMBER:	811-01519=0D
+SERIES:				S000002056 =0D
+LEI:				254900EBILZP44C0ET43=0D
+CIN:				C000005411=0D
+CIK:				93715=0D
+=0D
+NAME 3:				     State Farm Interim Fund=0D
+			AUM:			429,251,103.00=0D
+TICKER:			SFITX	       =0D
+SEC FILE NUMBER:	811-01519=0D
+SERIES:				S000002057=0D
+LEI:				254900QMKPLXFY2DO125=0D
+CIN:				C000005412=0D
+CIK:				93715=0D
+=0D
+=0D
+NAME 4:			        State Farm Municipal Bond Fund=0D
+			AUM:			718,300,227.00=0D
+TICKER:			SFBDX=0D
+SEC FILE NUMBER:	811-01519=0D
+SERIES:			S00000205=0D
+LEI:			254900XY61CSODNC1J50=0D
+CIN:			C000005413 =0D
+CIK:			93715=0D
+______________________________________________________________=0D
+=0D
+Instructions.=0D
+1. Item G.1.a.i. Legal proceedings.=0D
+	(a) If the Registrant responded "YES" to Item B.11.a., provide a brief d=
+escription of the proceedings. =0D
+		-- As part of the description, provide the case or docket number (if an=
+y), and the full names of the principal parties to the proceeding.=0D
+	(b) If the Registrant responded "YES" to Item B.11.b., identify the proc=
+eeding and give its date of termination.=0D
+=0D
+2. Item G.1.a.ii. 	Provision of financial support. =0D
+If the Registrant responded "YES" to Item B.14., provide the following in=
+formation (unless the Registrant is a Money Market Fund): =0D
+	(a) Description of nature of support.=0D
+	(b) Person providing support.=0D
+	(c) Brief description of relationship between the person providing suppo=
+rt and the Registrant.=0D
+	(d) Date support provided.=0D
+	(e) Amount of support.=0D
+	(f) Security supported (if applicable). Disclose the full name of the is=
+suer, the title of the issue (including coupon or yield, if applicable) a=
+nd at least two identifiers, if available (e.g., CIK, CUSIP, ISIN, LEI).=0D=
+
+	(g) Value of security supported on date support was initiated (if applic=
+able).=0D
+	(h) Brief description of reason for support.=0D
+	(i) Term of support.=0D
+	(j) Brief description of any contractual restrictions relating to suppor=
+t.=0D
+=0D
+3. Item G.1.a.iii. Independent public accountant's report on internal con=
+trol (management investment companies other than small business investmen=
+t companies only). Each management investment company shall furnish a rep=
+ort of its independent public accountant on the company's system of inter=
+nal accounting controls. The accountant's report shall be based on the re=
+view, study and evaluation of the accounting system, internal accounting =
+controls, and procedures for safeguarding securities made during the audi=
+t of the financial statements for the reporting period. The report should=
+ disclose any material weaknesses in: (a) the accounting system; (b) syst=
+em of internal accounting control; or (c) procedures for safeguarding sec=
+urities which exist as of the end of the Registrant's fiscal year.=0D
+The accountant's report shall be furnished as an exhibit to the form and =
+shall: (1) be addressed to the Registrant's shareholders and board of dir=
+ectors; (2) be dated; (3) be signed manually; and (4) indicate the city a=
+nd state where issued.=0D
+Attachments that include a report that discloses a material weakness shou=
+ld include an indication by the Registrant of any corrective action taken=
+ or proposed.=0D
+The fact that an accountant's report is attached to this form shall not b=
+e regarded as acknowledging any review of this form by the independent pu=
+blic accountant.=0D
+	4. Item G.1.a.iv. Change in accounting principles and practices. If the =
+Registrant responded "YES" to Item B.21, provide an attachment that descr=
+ibes the change in accounting principles or practices, or the change in t=
+he method of applying any such accounting principles or practices. State =
+the date of the change and the reasons therefor. A letter from the Regist=
+rant's independent accountants, approving or otherwise commenting on the =
+change, shall accompany the description.=0D
+	5. Item G.1.a.v. Information required to be filed pursuant to exemptive =
+orders. File as an attachment any information required to be reported on =
+Form N-CEN or any predecessor form to Form N-CEN (e.g., Form N-SAR) pursu=
+ant to exemptive orders issued by the Commission and relied on by the Reg=
+istrant.=0D
+	6. Item G.1.a.vi. Other information required to be included as an attach=
+ment pursuant to Commission rules and regulations. File as an attachment =
+any other information required to be included as an attachment pursuant t=
+o Commission rules and regulations.=0D
+	Pursuant to the requirements of the Investment Company Act of 1940, the =
+Registrant has duly caused this report to be signed on its behalf by the =
+undersigned hereunto duly authorized.=0D
+=0D
+=0D
+Instructions to Item C.16 and Item C.17.=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+=0D
+            https://www.sec.gov/Archives/edgar/data/0000093715/0001193125=
+21278180/d222043dn8f.htm=0D
+=0D
+=0D
+=0D
+Priya D. Raghuram -- FILED A TIP FOR FINRA TO CONSIDER AS=0D
+    - TRADING AND SALES IN BONDS, CREDIT DEFAULT SWAPS, AND ALSO INSTITUT=
+IONAL SALES & TRADING.=0D
+    CRD# 6507985, FIRM# 8209=0D
+=0D
+Currently employed by and registered with the following Firm(s)=0D
+    MORGAN STANLEY & CO. LLC=0D
+    1585 Broadway, New York, NY 10036=0D
+    Registered with this firm since: 08/17/2017=0D
+=0D
+=0D
+=0D
+ANNUAL REPORT FOR REGISTERED INVESTMENT COMPANIES	=0D
+=0D
+=0D
+	Target Funds                                         					*** Surviving =
+Funds=0D
+	State Farm Associates=E2=80=99 Funds Trust =E2=80=94 State Farm Growth F=
+und             *** Advisers Investment Trust =E2=80=94 State Farm Growth=
+ Fund=0D
+	State Farm Associates=E2=80=99 Funds Trust =E2=80=94 State Farm Balanced=
+ Fund           *** Advisers Investment Trust =E2=80=94 State Farm Balanc=
+ed Fund=0D
+	State Farm Associates=E2=80=99 Funds Trust =E2=80=94 State Farm Interim =
+Fund            *** Advisers Investment Trust =E2=80=94 State Farm Interi=
+m Fund=0D
+	State Farm Associates=E2=80=99 Funds Trust =E2=80=94 State Farm Municipa=
+l Bond Fund     *** Advisers Investment Trust =E2=80=94 State Farm Munici=
+pal Bond Fund=0D
+=0D
+=0D

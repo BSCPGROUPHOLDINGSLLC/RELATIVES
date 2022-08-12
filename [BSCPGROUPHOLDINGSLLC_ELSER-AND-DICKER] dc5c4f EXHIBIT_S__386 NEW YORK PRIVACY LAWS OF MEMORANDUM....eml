@@ -1,0 +1,189 @@
+From - Thu Jun  2 03:24:40 2022
+X-Account-Key: account1
+X-UIDL: AHpgiTxeB/YGYphzdAV2cIgCTgY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.235
+ by atlas119.free.mail.bf1.yahoo.com with HTTPS; Thu, 2 Jun 2022 08:23:16 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas119.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 2 Jun 2022 08:23:16 +0000
+X-YMailAVSC: loLURY43bBt42EdbhH_ZODm4IVzD7DZDXK8VeyStq.ZeCJg
+ QjM3zZOEksDhsLsTTat0FA9ZJDMbqckRMAfIaVhNOcOWnl27CLs0YWQ3AiAW
+ HZ4EVHmY2KJqY1Pix7SO_dCNJds.fOU8.FwIYKizuIvdLo6QnRTP10uxcx94
+ q9rZuBE0breebEJWitQYtzQsLDAKlysbU2TZ9upnVSJkUioRWqyIAnvEhYYy
+ 7rcg402n6yM46eDbqcm2zhKVDiXwF2XlelhgL.kc36pswiq3om.BdAPtpnIM
+ psZljrMkzz9oRqr_MhGIXUJn6QtqDSidpbm__iuNZWciKyKrkdd1RmM_FXKx
+ 0xFqFN4dTmdCJvq0K9M2GbphMjr9PJBEj
+X-YMailISG: LC1PV2gWLDtSmyevs2wJCxvhTfigY.M_fmaQ8f03NS.u30rb
+ NeVyyrrKvf_vYdGbSiIg5wqpH.j0jPd_GW61EYxAiczicdKrs2qsu6H.yU1.
+ Q_wIH0_SS7faMezSnPZX5XQiHoJct3I53tdptsFoBcvc74kvv7c4f5nt0KD8
+ bB_u2y4UD3teop1N99f83hdc1DlAnCH.VUZD1gYQwYQmChm8gLmUsUQWR.iy
+ eDOu.wbiKIRhAonoyD1vqD1nldXvDq6bzrNX.nqceG_epCV0zS9V88gSpSLc
+ BPBaZoxCMrMsAvmqzoNesMFJQTNWtVt25yQvVtQkka37.aOLp2do6Mm7i88T
+ Z1NaWOyWFR8b4uF82GeqnTxRhHcA.iDsJsL9PWDyV0A0ql3s8zK1X72cTAtP
+ _1m5tsRKvbZtjegRAbiZGW2WaEgh0Dg67QB9w9S1U._RM9ncGU3OEitRtUKF
+ N_updSm4dRZSRkPvJ0iGKtaHmVJpBIzOabZvP32bZ4fD1wrcHjsI2man8Lnd
+ qI1A0umnRIjB9DN_THC7lrK1O5.78StXbyJojJ..L6KFbfbmgHg48bVUR_3J
+ JvGelDgi7jyCLmCXIXFzYSGrjHTlKAf_GA4RfgFZm0azEB9eczExHJsQjtqS
+ 7XIf.e.ltdd59w_iT7I9eUzczruVOv8jNhvCZaQcyufJb2G7pp20dPRcXnA1
+ ucQnsSsT2PfCy7JIwp_wUG3fIwpmpt2TDf8URH3hUI5C5Ge7RdQzVL630w.n
+ q0BIX.nfGWL9BLGsD7DRsOiqIRjgxf_ivHCnlPROTbfuQQqgzFSo93ka02EH
+ NYysH3bAZ.eEwXV3yPMUBH9Lp2t57WwKXjKEjwRG220k8LUu0VPUive3XwWx
+ oRa1es96qm0l8Bf5POnO7c.ElxeCTyUfpu3SyCef2qFcI8DVtNdLRCjBYNVG
+ wUwaskhn1g1tbHjJpUsvUOZFIQF07QjHVuINQQkNFS2XQHA259SB6qpRtzi6
+ yYgS8LjS63wiHie0MXTJG.DJAnWz29gekOlvuWS7UnXGSbVdw_vY5JGdsBFF
+ p1KUcZK9LM5bWoFfmyT5toUIc5FfjHAAKRaPwpKqHNh3s4NOMo9wABoEUdtd
+ L3zOkHZmbDLCz_tezinh6vzzhAVQl.UWvdNX07yH2t5efF9t1t4lxek3QW5R
+ y2Q03cTr2oYPW7NAzI9MdsB2
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.197.39.235 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 02 Jun 2022 08:23:16 +0000
+Received: from github.com (hubbernetes-node-a889d07.va3-iad.github.net [10.48.124.81])
+	by smtp.github.com (Postfix) with ESMTPA id DE5CD5C0211;
+	Thu,  2 Jun 2022 01:23:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654158195;
+	bh=jAMdzwKE1DLQ3Pqakl4uh9SmOJsktaXBpRuUnIJizso=;
+	h=Date:From:To:Subject:From;
+	b=TBR5vZgaCcaHTKaIHNS9ZylLwOgucwCqXZbL4m0p2nuj9tIa6PLGnd0KixXFa082n
+	 oMST8EIZT5zRbArdk1CQtMxWnuusau10y67nC05bbIJGViyI2o8v75fyzGxm4ZX5k7
+	 0J/jtLknZoivFaUAA5bn4BdzGDEt3C9N8wNFvjjo=
+Date: Thu, 02 Jun 2022 01:23:15 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ fed-mmkt-ops@bloomberg.net
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/d41718-dc5c4f@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] dc5c4f: EXHIBIT_S__386 NEW
+ YORK PRIVACY LAWS OF MEMORANDUM...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,fed-mmkt-ops@bloomberg.net
+X-Auto-Response-Suppress: All
+Content-Length: 4645
+
+  Branch: refs/heads/REQUEST-TO-BAR=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: dc5c4fc870700c99967b6e24d2ed9d1ddb090070=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/dc5=
+c4fc870700c99967b6e24d2ed9d1ddb090070=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-06-02 (Thu, 02 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A 153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__386.p=
+df=0D
+    A NEW YORK PRIVACY LAWS OF MEMORANDUM SUPPLEMENTS - ANNEXED.jpg=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  EXHIBIT_S__386 NEW YORK PRIVACY LAWS OF MEMORANDUM SUPPLEMENTS - ANNEXE=
+D=0D
+=0D
+ANNEXED=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIY8iDH_PL=
+US_UpVanEtcRioef3A=3D=3D=0D
+=0D
+ANNEXED ALSO THIS OTHER DOCKET.=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXkdNmKBgh=
+AAqMUItDdrwxA=3D=3D=0D
+=0D
+234=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- VER	NO COMPLAINTS HAVE BEEN FILED IN MY=
+ BUILDING - PER DEPARTMENT OF BUILDINGS RECORDS.=0D
+235=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 804 =C2=A0(Motion #002) property report=
+ (see also: Miwa and Teschman) Assignment to Zucker 0526=0D
+=C2=A0236=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- p97 =C2=A0(Motion #001)=0D
+	see also: MEWS schedule of assignments to Zucker =3D+ 97=0D
+	=0D
+=C2=A0237=C2=A0	NOTICE TO COUNTY CLERK CPLR 8019(C)=C2=A0=C2=A0(Motion #0=
+01) AMENDMENT TO CAPTION=0D
+=C2=A0238=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 111 =C2=A0(Motion #001) PROPERTY =
+REPORT=0D
+=C2=A0239=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 112 =C2=A0(Motion #001)=0D
+	CERTIFICATE OF OCCUPANCY	=0D
+=C2=A0240=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 113 =C2=A0(Motion #001)=0D
+	111 SULLIVAN STREET=0D
+	=0D
+=C2=A0241=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- TR3 =C2=A0(Motion #001) NO VERIFI=
+ABLE COMPLAINTS FILED IN MY RESIDENCE=0D
+=C2=A0242=C2=A0	NOTICE TO COUNTY CLERK CPLR 8019(C)=C2=A0=C2=A0(Motion #0=
+02) AMENDMENT TO CAPTION=0D
+=C2=A0243=C2=A0	NOTICE TO COUNTY CLERK CPLR 8019(C) MOTION TO CHANGE CAPT=
+ION IN THIS MATTER, WITH ATTACHED EXHIBITS.=0D
+=0D
+=C2=A0295=C2=A0	NOTICE OF MOTION		Returned For Correction	NOTICE OF MOTIO=
+N		=0D
+	=C2=A0Refile Document			=0D
+=C2=A0309=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- no1 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH 	Filed: 08/09/2020	Confi=
+rmation Notice=0D
+	=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0=
+G0QvnmRLGpYIQ=3D=3D=0D
+Received: 08/09/2020	=0D
+=0D
+=C2=A0=0D
+310=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC0 =C2=A0(Motion #001)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+	=0D
+ACRIS Detailed Document Information (2019000021408)2019010800475001	Filed=
+: 08/09/2020	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9a=
+kRV9TGfXXJT/g=3D=3D	Received: 08/09/2020=0D
+	=0D
+311=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC1 =C2=A0(Motion #001)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003	=0D
+Filed: 08/09/2020	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n=
+3kGwHqebPg0fw=3D=3D=0D
+Received: 08/09/2020	=0D
+=0D
+312=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC2 =C2=A0(Motion #001)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+ACRIS Detailed Document Information (2020000155421)2020052000291002=0D
+Filed: 08/09/2020	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2Pq=
+XuxmoKqFiESrw=3D=3D=0D
+Received: 08/09/2020	=0D
+=C2=A0=0D
+313=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC3 =C2=A0(Motion #001)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003=0D
+Filed: 08/09/2020	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn6=
+6hrVmJ9DX_PLUS_bdg=3D=3D=0D
+Received: 08/09/2020	=0D
+=0D
+314=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC4 =C2=A0(Motion #001)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+ACRIS Detailed Document Information (2020000155423)2020052000291004=0D
+Filed: 08/09/2020	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D=0D
+Received: 08/09/2020	=0D
+=0D
+315=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- ACR =C2=A0(Motion #002)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH =0D
+- https://a836-acris.nyc.gov/	=0D
+Filed: 08/09/2020	Confirmation Notice=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm=
+0ynPeXZKSHgLQ=3D=3D=0D
+=0D
+Received: 08/09/2020=0D
+=0D
+=0D

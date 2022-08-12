@@ -1,0 +1,767 @@
+From - Fri May 20 18:59:55 2022
+X-Account-Key: account1
+X-UIDL: AJ33KFhQCc13YogafAqTCK87B90
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.140
+ by atlas301.free.mail.bf1.yahoo.com with HTTPS; Fri, 20 May 2022 22:47:24 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.169]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.169 as permitted sender)
+Authentication-Results: atlas301.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 22:47:24 +0000
+X-YMailAVSC: GYClVj83bBsoDIxDkzrdw9Dtj4kJr7sWg7Ga5ZHWY6QwXHg
+ hqsZ2ejXuWAF.JTH83bzU9_Ry7CNvimaLixe9HZCzqQQIGmVw6QVzr22NPVv
+ n64XBo728ZrHROD_rKeAeh7JwhSYaYQylZ264xsIXcCdG3NmmjIIWsPL15Pn
+ BAbOATT4MuNGjNGN9va0vVeyS06A9nW1k0PMHfLIKx.SXPhkWW4q2BXY.rZ4
+ GTldptkkkQstW6wS_2vwU9nLfFNadxrX9UDgnWiMS1vckHTa9jVRm2prOTVm
+ adoAuy.jAN.j7eMzfGKKPpjQfiLhiTV9TtjEEoCj0V79v4JEX5RN17Vb.Lf2
+ di_AnZVK1H5xRuqWuhRbXuhw6heLN9k6hsUErKzOE005yf_HElRDOc.GjFwB
+ HlLWmNlyJo4b3H8fV_bEs65BW9feUsUqbHCNOnkfxRV3fwowmXzNKIVltvzL
+ AjtQDSSQHroZiaThhQseqNMBe
+X-YMailISG: gcohlngWLDt9P__k8y4VB.nu363fQErangQSt7f6OxXV9gyi
+ 7AAy1MMvWLztDSKlhz9CKQxhcTxL.WNsb7z_JG6Fi___BMYPWsV5QsLtPf42
+ UJ.6J3gCYjKiuAVOiiX5dSs2_kElSUTrQFxOj2rONAm0rVKJoI7sg8Mzz3A4
+ PVo6riNnjQklumuY.poOyyEpMe4jxsnlV.gQ.CDmS_R_mVdmkWkOtASvJUNn
+ 9uIYYmkx0KST3QJDtQduDktm54UC82nN_jHnl0Mk1nYgSkeYZ_FU035yY_Vw
+ 9.OloYIm0.XRIdj7hPqxnZAaQkwK6XtzLEi0fm4agMeqj3jexAgNv2sDbi1Q
+ MxpeqB70lPG.eHwoygyQUXIlkcIHhlSxO7_0DcfrFpaU0oNo6.B2np27gYtg
+ wO1WzdMHlz8for.Czr2WTyAFFB9rxzHMbeSLzSezzwP81fcByrZ1NxLS_O9f
+ UPxD1Uvh58w8V0ggNb9FY7gmzHWrVhCd7755VhAHSr9cjOkCXts9UbDe2h5e
+ 8bOhGG_Gr1qJHI343cYXcecx9mb6tUjSG05DXpQTuCpI6cqYTTMIuX5rkWjc
+ Crou46Gp1jfBln4MorISMxOfXILnO2VX1B_TdYLXOgRtDGB1IRtWsYRV.iyb
+ tCd32O8CYvoOO_V6QWQ3wFisJWTyHqtY23V1CSVDtAUHyzmD1tvVxdXW9nrr
+ P5MruMa9XAsTD4FFAxCYZnCQRSrJTBmsHvoJXRK7UaQL57AEB5pnT_RIGfSs
+ 7_w6n_kQ4p5AZNrxOjT76agBr4t8zr4dqdWBHjOQJh3dXAwVVRjEKq2P1z10
+ AdoDbD3PK0h3wIG29ZRpAnl4J0C3CVfwFMGL9AC6A28FGRqJGvDhGdgJz8fN
+ bTVgryZLPg_G2YY.KiamAbHvnwwPMiz0AhoJ0GZZHLbAGNWEBA36pItN1nHn
+ OxgCdteb32kb_C9wN0MraADNRAeF8pXqITPLAtbAwxggRR4RYqWVm_shqJzX
+ 8l3EYjU8J1X5sjDu1ChoZCRWNnrswFzCAUcgxPr.BGOi2A28Bq1kPOrA8pHL
+ cMP1BfP6jGSQUXsKyyiNcKh.45fdTVhbr.R19XEENAXOyDx_fMQu4xJb8Dun
+ RfJLoCtBP9lg.yS6GBOZd4xfMeOKqKrQdM65DxGYT9xzl98kOc3TQZG6LPN6
+ vVrewaU_fMFOe7WflckWiWAtGVRbbaV06k66znhVpBIpeIpJcQTrKlLtt2vt
+Received: from 17.58.63.169 (EHLO st43p00im-zteg10071901.me.com)
+ by 10.197.32.140 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 22:47:24 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1653086844;
+	bh=usvZG88Qh5R6cBNS0NIWIrGRj6DOzHZVLyKn3AJ95Mw=;
+	h=Content-Type:From:Mime-Version:Subject:Date:Message-Id;
+	b=Xx40URwWvDqgxpQnCWvM16wpqGxc+U77Y6HFiLbtFNBkLnua2c7GJBqUL8x8GeDeC
+	 ivlFOj9flW3CqGxOuHV4BvN2P0JBGZxKqvpd/F61jCARL+5i7JG1gpE/y1ZZe8Cl+s
+	 ij80h4I994G6mkJ2ZPyiAopGCKhUnv2MRwWUMpnsO8zgjii7aI8kTuO26TYZfuuaQx
+	 hfNptD9P9J7x//UXbvN0A6Px/Q+2Zvp9Dq9cweLf46aTsi2hwq1SzXLUhZ1lAl72J2
+	 a7Dqa5GWmaDeidGI/RpZfshs2Qeq3vS4WktN4Axu/+/8b95lk71VWS2PHdHNaviaWL
+	 gxsfnTDPKmeLA==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10071901.me.com (Postfix) with ESMTPSA id B93E28405ED;
+	Fri, 20 May 2022 22:47:20 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-66A02559-CABF-47AD-A403-87FCA7EEBEC2
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 16fe62: 153974   STFBX STFBX SFITX SFBDX - 1516523  > 9371...
+Date: Fri, 20 May 2022 18:47:20 -0400
+Message-Id: <35B7BFE9-A758-425C-BE8B-4CBFF20438BD@icloud.com>
+References: <3f4f2fa64f0245b2a00c9659c64168c0@BYAPR20MB2647.namprd20.prod.outlook.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: Yx_OzvTG2lpF5r0a-pcqMthsYgPoJ7Gl
+X-Proofpoint-GUID: Yx_OzvTG2lpF5r0a-pcqMthsYgPoJ7Gl
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.425,18.0.572,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-14=5F01:2022-01-14=5F01,2020-02-14=5F11,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 adultscore=0 bulkscore=0 phishscore=0
+ suspectscore=0 spamscore=0 clxscore=1015 mlxscore=0 malwarescore=0
+ mlxlogscore=999 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205200140
+Content-Length: 36941
+
+
+--Apple-Mail-66A02559-CABF-47AD-A403-87FCA7EEBEC2
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: zucker elser <BLOCK803LOT11@outlook.com>
+> Date: May 20, 2022 at 2:50:54 AM EDT
+> To: "Governor.Hochul@exec.ny.gov" <Governor.Hochul@exec.ny.gov>, "PRIYA.RA=
+GHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, "mscampusrecru=
+iting@morganstanley.com" <mscampusrecruiting@morganstanley.com>, "tracedatas=
+ervices@finra.org" <tracedataservices@finra.org>
+> Subject: FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 16fe62: 153974  STFBX=
+ STFBX SFITX SFBDX - 1516523  > 9371...
+>=20
+> =EF=BB=BF
+>=20
+>=20
+> ________________________________________
+> From: 1212-5858 <noreply@github.com>
+> Sent: Friday, May 20, 2022 6:50:49 AM (UTC) Coordinated Universal Time
+> To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM
+> Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 16fe62: 153974   STFBX ST=
+FBX SFITX SFBDX - 1516523  > 9371...
+>=20
+>  Branch: refs/heads/pmail-153974
+>=20
+>  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+>=20
+>  Commit: 16fe62235d4460d1fd11ed7a22ec672e8f05cfc1
+>=20
+>      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/16fe6=
+2235d4460d1fd11ed7a22ec672e8f05cfc1
+>=20
+>  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com=
+>
+>=20
+>  Date:   2022-05-20 (Fri, 20 May 2022)
+>=20
+>=20
+>=20
+>  Changed paths:
+>=20
+>    A  0001 ConfirmationNotice 1  pdf.msg
+>=20
+>    A ALSO  FOR THE OTHER AREAS    NAUGHTY SPOTTY.msg
+>=20
+>    A BATCH 2 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR COURTYAR=
+D IN THESE ANNEXED DOCUMENTS BY DEFENDANTS .msg
+>=20
+>    A BLOCK THE OTHER EMAIL AS WELL - SO YOU CAN DENY THAT RICKI .msg
+>=20
+>    A COUNT EM  YOU HAVE BREAKFAST YET BTW .msg
+>=20
+>    A FW          NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO T=
+HIS MATTER.msg
+>=20
+>    A FW  Automated Reply Re  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY=
+ TO COME CLEAN WITHOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I=
+ HOPE YOU CAN HANDLE IT  - IN THE PRYOR  (49).msg
+>=20
+>    A FW  Did not know you had a massage parlor      sorry btw  (13).msg
+>=20
+>    A FW  Did not know you had a massage parlor      sorry btw  (14).msg
+>=20
+>    A FW  Did not know you had a massage parlor      sorry btw .msg
+>=20
+>    A FW  Did not know you had a massage parlor  (15).msg
+>=20
+>    A FW  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MAT=
+TER (32).msg
+>=20
+>    A FW  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MAT=
+TER (33).msg
+>=20
+>    A FW  RE  BATCH 1 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR C=
+OURTYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS .msg
+>=20
+>    A FW  Read      THANK YOU FOR KINDLY ALERTING YOUR MANAGERS  ACCEPT THI=
+S AS A REASONABLE REQUEST  (41).msg
+>=20
+>    A FW  Read  FW      public record     ASSIGNMENT OF LEASES AND RENTS FO=
+R $6 000 000 00      ## ACRIS 001.msg
+>=20
+>    A FW  Read  Read  FW      public record     ASSIGNMENT OF LEASES AND RE=
+NTS FOR $6 000 000 00      ## ACRIS 001.msg
+>=20
+>    A FW  Read  here are their commencement documents  the 48TH    not acce=
+ssible there  -- here it is attached    see also page 21 of the lease  SSN -=
+-- Redacted per 22 NYCRR =C2=A7202 5(e)     (57).msg
+>=20
+>    A FW  Read  here are their commencement documents  the 48TH    not acce=
+ssible there  -- here it is attached    see also page 21 of the lease  SSN -=
+-- Redacted per 22 NYCRR =C2=A7202 5(e)     (58).msg
+>=20
+>    A FW  Read  here are their commencement documents  the 48TH    not acce=
+ssible there  -- here it is attached    see also page 21 of the lease  SSN -=
+-- Redacted per 22 NYCRR =C2=A7202 5(e)     (59).msg
+>=20
+>    A FW  Read  here are their commencement documents  the 48TH    not acce=
+ssible there  -- here it is attached    see also page 21 of the lease  SSN -=
+-- Redacted per 22 NYCRR =C2=A7202 5(e)     (60).msg
+>=20
+>    A FW  Thank you for contacting Vogue Customer Service      (KMM14033034=
+1V56560L0KM).msg
+>=20
+>    A FW  The New York Times Re  FW  Did not know you had a massage parlor .=
+msg
+>=20
+>    M FW  Undeliverable  RE  Undeliverable  RE      ALSO TY  IT IS MEANINGFU=
+L - ADULTERER(S) IN FACT          https   github com BSCPGROUPHOLDINGSLLC EL=
+SER-AND-DICKER pull 7.msg
+>=20
+>    A FW  https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5  K=
+IDS PRIVACY   .msg
+>=20
+>    A FW  is Paul talking to himself here  misspelled evection is that char=
+geable  (8).msg
+>=20
+>    A FW  ref         101 west 55th street  new york  NY  10019   .msg
+>=20
+>    A NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MATTER.=
+msg
+>=20
+>    A QUESTION 2  DO YOU SEE A PLAYGROUND OR A COURTYARD THAT IS ALSO SUPER=
+VISED LIKE THIS .msg
+>=20
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT  (10).msg
+>=20
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT  (11).msg
+>=20
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT  (12).msg
+>=20
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT  (49).msg
+>=20
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT  (9).msg
+>=20
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT .msg
+>=20
+>    A RE      NOTICE from the ZUCKER on the 10TH OF AUGUST IN 2020 =E2=80=93=
+ SAME DAY SERVICE ---- EX54x32x-LEXXXXXX (30).msg
+>=20
+>    A RE      NOTICE from the ZUCKER on the 10TH OF AUGUST IN 2020 =E2=80=93=
+ SAME DAY SERVICE ---- EX54x32x-LEXXXXXX (31).msg
+>=20
+>    A RE      NOTICE from the ZUCKER on the 10TH OF AUGUST IN 2020 =E2=80=93=
+ SAME DAY SERVICE ---- EX54x32x-LEXXXXXX.msg
+>=20
+>    A RE      you see my forehead there .msg
+>=20
+>    M RE  150 east 42ND STREET  NEW YORK  NY 10017.msg
+>=20
+>    A RE  ATTACHED    NOT IN DISNEYLAND -- AND NOT ON MY WATCH  SORRY .msg
+>=20
+>    A RE  Auto Reply Duke Realty CS Support.msg
+>=20
+>    A RE  BATCH 1 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR COUR=
+TYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS  (35).msg
+>=20
+>    A RE  BATCH 1 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR COUR=
+TYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS  (36).msg
+>=20
+>    A RE  BATCH 2 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR COUR=
+TYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS .msg
+>=20
+>    A RE  Did not know you had a massage parlor      sorry btw  (11).msg
+>=20
+>    A RE  Did not know you had a massage parlor      sorry btw  (12).msg
+>=20
+>    A RE  Did not know you had a massage parlor      sorry btw .msg
+>=20
+>    A RE  FW  Read      THANK YOU FOR KINDLY ALERTING YOUR MANAGERS  ACCEPT=
+ THIS AS A REASONABLE REQUEST .msg
+>=20
+>    M RE  FW  Read  FW      public record     ASSIGNMENT OF LEASES AND RENT=
+S FOR $6 000 000 00      ## ACRIS 001.msg
+>=20
+>    A RE  Fwd  ref         101 west 55th street  new york  NY  10019   .msg=
+
+>=20
+>    A RE  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MAT=
+TER (28).msg
+>=20
+>    A RE  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MAT=
+TER (29).msg
+>=20
+>    A RE  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MAT=
+TER (34).msg
+>=20
+>    A RE  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO THIS MAT=
+TER.msg
+>=20
+>    A RE  Read      THANK YOU FOR KINDLY ALERTING YOUR MANAGERS  ACCEPT THI=
+S AS A REASONABLE REQUEST  (37).msg
+>=20
+>    A RE  Read      THANK YOU FOR KINDLY ALERTING YOUR MANAGERS  ACCEPT THI=
+S AS A REASONABLE REQUEST  (38).msg
+>=20
+>    A RE  Read      THANK YOU FOR KINDLY ALERTING YOUR MANAGERS  ACCEPT THI=
+S AS A REASONABLE REQUEST .msg
+>=20
+>    A RE  https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5  K=
+IDS PRIVACY    (54).msg
+>=20
+>    A RE  https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5  K=
+IDS PRIVACY   .msg
+>=20
+>    A RE  https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5 (=
+48).msg
+>=20
+>    A RE  https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5.m=
+sg
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019     DEED AT=
+TACHED  you check the zip code on the first page .msg
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019     you see=
+ my forehead there .msg
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019    (17).msg=
+
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019    (24).msg=
+
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019    (53).msg=
+
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019    (6).msg
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019    (7).msg
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019    (8).msg
+>=20
+>    A RE  ref         101 west 55th street  new york  NY  10019   .msg
+>=20
+>    A Screenshot 2022-02-06 at 4 30 23 PM.msg
+>=20
+>    A Screenshot 2022-02-06 at 4 34 04 PM.msg
+>=20
+>    A Undeliverable  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES T=
+O THIS MATTER (310).msg
+>=20
+>    A Undeliverable  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES T=
+O THIS MATTER.msg
+>=20
+>    A Undeliverable  Read  here are their commencement documents  the 48TH =
+   not accessible there  -- here it is attached    see also page 21 of the l=
+ease  SSN --- Redacted per 22 NYCRR =C2=A7202 5(e)     (1091).msg
+>=20
+>    A Undeliverable  Read  here are their commencement documents  the 48TH =
+   not accessible there  -- here it is attached    see also page 21 of the l=
+ease  SSN --- Redacted per 22 NYCRR =C2=A7202 5(e)     (1093).msg
+>=20
+>    A Undeliverable  Read  here are their commencement documents  the 48TH =
+   not accessible there  -- here it is attached    see also page 21 of the l=
+ease  SSN --- Redacted per 22 NYCRR =C2=A7202 5(e)     (1145).msg
+>=20
+>    A Undeliverable  Read  here are their commencement documents  the 48TH =
+   not accessible there  -- here it is attached    see also page 21 of the l=
+ease  SSN --- Redacted per 22 NYCRR =C2=A7202 5(e)     (1147).msg
+>=20
+>    A VERIFIED COMPLAINT DRAFTED.msg
+>=20
+>=20
+>=20
+>  Log Message:
+>=20
+>  -----------
+>=20
+>  153974   STFBX STFBX SFITX SFBDX - 1516523  > 93715 semi annual holding r=
+eports
+>=20
+>=20
+>=20
+> 153974
+>=20
+> STFBX STFBX SFITX SFBDX - FILER 1516523
+>=20
+>=20
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b=
+5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].=
+pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b=
+5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].=
+pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b=
+5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/e041abffd2d7ec11a7b=
+5002248307b90/8209-$BROOKS--4776256-6109023[FILED].pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/2df8ebfad2d7ec11a7b=
+50022483079c1/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$C=
+IK%201516523]%20MONK[CRD%201357149].pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/88f53551d2d7ec11a7b=
+5002248307f33/[STATE%20FARM%20VP%2043036]%201943922-%20$michael%20tipsord%20=
+STATE%20FARM%20mutual%20automobile%20insurance%20company%203487.pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/154f7255d2d7ec11a7b=
+5002248307b90/[STATE%20FARM%20VP%2043036]%203231040-%20$LUDWIG%20TERRANCE.pd=
+f
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/564c7f62d2d7ec11a7b=
+5002248307f33/[STATE%20FARM%20VP%2043036]%203231040$LUDWIG%20TERRANCE.pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/464dc7e4d1d7ec11a7b=
+5000d3a1afadb/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%2080=
+18184.pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/0466bdead1d7ec11a7b=
+5000d3a1afadb/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/b3106d8ad1d7ec11a7b=
+5002248307b90/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%2=
+0FARM%20mutual%20automobile%20insurance%20company-$3487.pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/013f2491d1d7ec11a7b=
+5000d3a1af965/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20I=
+A%208018184.pdf
+>=20
+>=20
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/6ae08e99d1d7ec11a7b=
+5002248307aa9/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf
+>=20
+>=20
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/53bfe37dcfd7ec11a7b=
+5002248307b90/NEW%20CONSUMER%20Case%20Number_%20%20ref.PDF
+>=20
+>=20
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/b4cbce6ecfd7ec11a7b=
+5002248307b90/Fwd-%20TAX%20EVASION%20%20attachments.%20.pdf.pdf
+>=20
+>=20
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/b692cf79cfd7ec11a7b=
+5000d3a1956dd/Fwd:%20TAX%20EVASION%20%20attachments.%20.pdf
+>=20
+>=20
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/379bcc68ced7ec11a7b=
+5000d3a1afadb/BOTARIZED.on.the.30TH.of.MARCH.2022.STATE.FARM.TRUST.FUND.---s=
+ec-sfitx-state-farm-interim-fund-4017g-2020-june-08.pdf
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/c690d567bad7ec11a7b=
+5002248307f33/2022-03-27-ColinBrooks.png
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/bab7741fbad7ec11a7b=
+5002248307b90/2020-08-09.NYSCEF.png
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/80414a9db6d7ec11a7b=
+5002248307aa9/2020-08-09.NYSCEF.png
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/656c0a6ab6d7ec11a7b=
+5000d3a1afadb/F1-MultiSF-Zucker.png
+>=20
+>    https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b=
+50022483079c1/Nov16-JamesGorman.png
+>=20
+>=20
+>=20
+>=20
+>=20
+> /BD
+>=20
+>=20
+>=20
+>=20
+
+--Apple-Mail-66A02559-CABF-47AD-A403-87FCA7EEBEC2
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> zucker elser &lt;BLOCK803LOT11@=
+outlook.com&gt;<br><b>Date:</b> May 20, 2022 at 2:50:54 AM EDT<br><b>To:</b>=
+ "Governor.Hochul@exec.ny.gov" &lt;Governor.Hochul@exec.ny.gov&gt;, "PRIYA.R=
+AGHURAM@MORGANSTANLEY.COM" &lt;PRIYA.RAGHURAM@morganstanley.com&gt;, "mscamp=
+usrecruiting@morganstanley.com" &lt;mscampusrecruiting@morganstanley.com&gt;=
+, "tracedataservices@finra.org" &lt;tracedataservices@finra.org&gt;<br><b>Su=
+bject:</b> <b>FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 16fe62: 153974&nbs=
+p;  STFBX STFBX SFITX SFBDX - 1516523&nbsp; &gt; 9371...</b><br><br></div></=
+blockquote><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<span></span>=
+<br><span></span><br><span></span><br><span>________________________________=
+________</span><br><span>From: 1212-5858 &lt;noreply@github.com&gt;</span><b=
+r><span>Sent: Friday, May 20, 2022 6:50:49 AM (UTC) Coordinated Universal Ti=
+me</span><br><span>To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@O=
+UTLOOK.COM</span><br><span>Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 1=
+6fe62: 153974 &nbsp;&nbsp;STFBX STFBX SFITX SFBDX - 1516523 &nbsp;&gt; 9371.=
+.</span><br><span></span><br><span> &nbsp;Branch: refs/heads/pmail-153974</=
+span><br><span></span><br><span> &nbsp;Home: &nbsp;&nbsp;https://github.com/=
+BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER</span><br><span></span><br><span> &nbs=
+p;Commit: 16fe62235d4460d1fd11ed7a22ec672e8f05cfc1</span><br><span></span><b=
+r><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSL=
+LC/ELSER-AND-DICKER/commit/16fe62235d4460d1fd11ed7a22ec672e8f05cfc1</span><b=
+r><span></span><br><span> &nbsp;Author: 1212-5858 &lt;70865813+BSCPGROUPHOLD=
+INGSLLC@users.noreply.github.com&gt;</span><br><span></span><br><span> &nbsp=
+;Date: &nbsp;&nbsp;2022-05-20 (Fri, 20 May 2022)</span><br><span></span><br>=
+<span></span><br><span></span><br><span> &nbsp;Changed paths:</span><br><spa=
+n></span><br><span> &nbsp;&nbsp;&nbsp;A &nbsp;0001 ConfirmationNotice 1 &nbs=
+p;pdf.msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A ALSO &nbsp;FO=
+R THE OTHER AREAS &nbsp;&nbsp;&nbsp;NAUGHTY SPOTTY.msg</span><br><span></spa=
+n><br><span> &nbsp;&nbsp;&nbsp;A BATCH 2 -- DO YOU SEE ANY OBSERVATION(S) OF=
+ A PLAYGEROUND OR COURTYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS .msg</s=
+pan><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A BLOCK THE OTHER EMAIL AS=
+ WELL - SO YOU CAN DENY THAT RICKI .msg</span><br><span></span><br><span> &n=
+bsp;&nbsp;&nbsp;A COUNT EM &nbsp;YOU HAVE BREAKFAST YET BTW .msg</span><br><=
+span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp;AND MATER=
+IAL PARTIES TO THIS MATTER.msg</span><br><span></span><br><span> &nbsp;&nbsp=
+;&nbsp;A FW &nbsp;Automated Reply Re &nbsp;FW &nbsp;I POLITELY DID PROVIDE Y=
+OU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU=
+ ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nb=
+sp;(49).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;D=
+id not know you had a massage parlor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sorry btw=
+ &nbsp;(13).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nb=
+sp;Did not know you had a massage parlor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sorry=
+ btw &nbsp;(14).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW=
+ &nbsp;Did not know you had a massage parlor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s=
+orry btw .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp=
+;Did not know you had a massage parlor &nbsp;(15).msg</span><br><span></span=
+><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSE=
+L &nbsp;AND MATERIAL PARTIES TO THIS MATTER (32).msg</span><br><span></span>=
+<br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL=
+ &nbsp;AND MATERIAL PARTIES TO THIS MATTER (33).msg</span><br><span></span><=
+br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;RE &nbsp;BATCH 1 -- DO YOU SEE ANY OB=
+SERVATION(S) OF A PLAYGEROUND OR COURTYARD IN THESE ANNEXED DOCUMENTS BY DEFE=
+NDANTS .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;R=
+ead &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THANK YOU FOR KINDLY ALERTING YOUR MANAGER=
+S &nbsp;ACCEPT THIS AS A REASONABLE REQUEST &nbsp;(41).msg</span><br><span><=
+/span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;Read &nbsp;FW &nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;public record &nbsp;&nbsp;&nbsp;&nbsp;ASSIGNMENT OF LEASES AND=
+ RENTS FOR $6 000 000 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;## ACRIS 001.msg</spa=
+n><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;Read &nbsp;Read &=
+nbsp;FW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public record &nbsp;&nbsp;&nbsp;&nbsp;=
+ASSIGNMENT OF LEASES AND RENTS FOR $6 000 000 00 &nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;## ACRIS 001.msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW=
+ &nbsp;Read &nbsp;here are their commencement documents &nbsp;the 48TH &nbsp=
+;&nbsp;&nbsp;not accessible there &nbsp;-- here it is attached &nbsp;&nbsp;&=
+nbsp;see also page 21 of the lease &nbsp;SSN --- Redacted per 22 NYCRR =C2=A7=
+202 5(e) &nbsp;&nbsp;&nbsp;&nbsp;(57).msg</span><br><span></span><br><span> &=
+nbsp;&nbsp;&nbsp;A FW &nbsp;Read &nbsp;here are their commencement documents=
+ &nbsp;the 48TH &nbsp;&nbsp;&nbsp;not accessible there &nbsp;-- here it is a=
+ttached &nbsp;&nbsp;&nbsp;see also page 21 of the lease &nbsp;SSN --- Redact=
+ed per 22 NYCRR =C2=A7202 5(e) &nbsp;&nbsp;&nbsp;&nbsp;(58).msg</span><br><s=
+pan></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;Read &nbsp;here are their=
+ commencement documents &nbsp;the 48TH &nbsp;&nbsp;&nbsp;not accessible ther=
+e &nbsp;-- here it is attached &nbsp;&nbsp;&nbsp;see also page 21 of the lea=
+se &nbsp;SSN --- Redacted per 22 NYCRR =C2=A7202 5(e) &nbsp;&nbsp;&nbsp;&nbs=
+p;(59).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;Re=
+ad &nbsp;here are their commencement documents &nbsp;the 48TH &nbsp;&nbsp;&n=
+bsp;not accessible there &nbsp;-- here it is attached &nbsp;&nbsp;&nbsp;see a=
+lso page 21 of the lease &nbsp;SSN --- Redacted per 22 NYCRR =C2=A7202 5(e) &=
+nbsp;&nbsp;&nbsp;&nbsp;(60).msg</span><br><span></span><br><span> &nbsp;&nbs=
+p;&nbsp;A FW &nbsp;Thank you for contacting Vogue Customer Service &nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;(KMM140330341V56560L0KM).msg</span><br><span></span><br=
+><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;The New York Times Re &nbsp;FW &nbsp;Di=
+d not know you had a massage parlor .msg</span><br><span></span><br><span> &=
+nbsp;&nbsp;&nbsp;M FW &nbsp;Undeliverable &nbsp;RE &nbsp;Undeliverable &nbsp=
+;RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS MEANINGFUL - ADULTERER=
+(S) IN FACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https &nbs=
+p;&nbsp;github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 7.msg</span><b=
+r><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;https &nbsp;&nbsp;git=
+hub com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5 &nbsp;KIDS PRIVACY &nbs=
+p;&nbsp;.msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;=
+is Paul talking to himself here &nbsp;misspelled evection is that chargeable=
+ &nbsp;(8).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbs=
+p;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th street &=
+nbsp;new york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;.msg</span><br><span></span><=
+br><span> &nbsp;&nbsp;&nbsp;A NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp;AND=
+ MATERIAL PARTIES TO THIS MATTER.msg</span><br><span></span><br><span> &nbsp=
+;&nbsp;&nbsp;A QUESTION 2 &nbsp;DO YOU SEE A PLAYGROUND OR A COURTYARD THAT I=
+S ALSO SUPERVISED LIKE THIS .msg</span><br><span></span><br><span> &nbsp;&nb=
+sp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS MEANINGFUL -=
+ ADULTERER(S) IN FACT &nbsp;(10).msg</span><br><span></span><br><span> &nbsp=
+;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS MEANINGFU=
+L - ADULTERER(S) IN FACT &nbsp;(11).msg</span><br><span></span><br><span> &n=
+bsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS MEANI=
+NGFUL - ADULTERER(S) IN FACT &nbsp;(12).msg</span><br><span></span><br><span=
+> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS M=
+EANINGFUL - ADULTERER(S) IN FACT &nbsp;(49).msg</span><br><span></span><br><=
+span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT I=
+S MEANINGFUL - ADULTERER(S) IN FACT &nbsp;(9).msg</span><br><span></span><br=
+><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;I=
+T IS MEANINGFUL - ADULTERER(S) IN FACT .msg</span><br><span></span><br><span=
+> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTICE from the ZUCKE=
+R on the 10TH OF AUGUST IN 2020 =E2=80=93 SAME DAY SERVICE ---- EX54x32x-LEX=
+XXXXX (30).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;NOTICE from the ZUCKER on the 10TH OF AUGUST IN 20=
+20 =E2=80=93 SAME DAY SERVICE ---- EX54x32x-LEXXXXXX (31).msg</span><br><spa=
+n></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOT=
+ICE from the ZUCKER on the 10TH OF AUGUST IN 2020 =E2=80=93 SAME DAY SERVICE=
+ ---- EX54x32x-LEXXXXXX.msg</span><br><span></span><br><span> &nbsp;&nbsp;&n=
+bsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you see my forehead there .msg</span>=
+<br><span></span><br><span> &nbsp;&nbsp;&nbsp;M RE &nbsp;150 east 42ND STREE=
+T &nbsp;NEW YORK &nbsp;NY 10017.msg</span><br><span></span><br><span> &nbsp;=
+&nbsp;&nbsp;A RE &nbsp;ATTACHED &nbsp;&nbsp;&nbsp;NOT IN DISNEYLAND -- AND N=
+OT ON MY WATCH &nbsp;SORRY .msg</span><br><span></span><br><span> &nbsp;&nbs=
+p;&nbsp;A RE &nbsp;Auto Reply Duke Realty CS Support.msg</span><br><span></s=
+pan><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;BATCH 1 -- DO YOU SEE ANY OBSERV=
+ATION(S) OF A PLAYGEROUND OR COURTYARD IN THESE ANNEXED DOCUMENTS BY DEFENDA=
+NTS &nbsp;(35).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &=
+nbsp;BATCH 1 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR COURTYARD I=
+N THESE ANNEXED DOCUMENTS BY DEFENDANTS &nbsp;(36).msg</span><br><span></spa=
+n><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;BATCH 2 -- DO YOU SEE ANY OBSERVAT=
+ION(S) OF A PLAYGEROUND OR COURTYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANT=
+S .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Did no=
+t know you had a massage parlor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sorry btw &nbs=
+p;(11).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Di=
+d not know you had a massage parlor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sorry btw &=
+nbsp;(12).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp=
+;Did not know you had a massage parlor &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sorry b=
+tw .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;FW &n=
+bsp;Read &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THANK YOU FOR KINDLY ALERTING YOUR MA=
+NAGERS &nbsp;ACCEPT THIS AS A REASONABLE REQUEST .msg</span><br><span></span=
+><br><span> &nbsp;&nbsp;&nbsp;M RE &nbsp;FW &nbsp;Read &nbsp;FW &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;public record &nbsp;&nbsp;&nbsp;&nbsp;ASSIGNMENT OF LEASES=
+ AND RENTS FOR $6 000 000 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;## ACRIS 001.msg<=
+/span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Fwd &nbsp;ref=
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th street &nbsp;=
+new york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;.msg</span><br><span></span><br><s=
+pan> &nbsp;&nbsp;&nbsp;A RE &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp=
+;AND MATERIAL PARTIES TO THIS MATTER (28).msg</span><br><span></span><br><sp=
+an> &nbsp;&nbsp;&nbsp;A RE &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp;=
+AND MATERIAL PARTIES TO THIS MATTER (29).msg</span><br><span></span><br><spa=
+n> &nbsp;&nbsp;&nbsp;A RE &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp;A=
+ND MATERIAL PARTIES TO THIS MATTER (34).msg</span><br><span></span><br><span=
+> &nbsp;&nbsp;&nbsp;A RE &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp;AN=
+D MATERIAL PARTIES TO THIS MATTER.msg</span><br><span></span><br><span> &nbs=
+p;&nbsp;&nbsp;A RE &nbsp;Read &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THANK YOU FOR KI=
+NDLY ALERTING YOUR MANAGERS &nbsp;ACCEPT THIS AS A REASONABLE REQUEST &nbsp;=
+(37).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Read=
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THANK YOU FOR KINDLY ALERTING YOUR MANAGERS &=
+nbsp;ACCEPT THIS AS A REASONABLE REQUEST &nbsp;(38).msg</span><br><span></sp=
+an><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Read &nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;THANK YOU FOR KINDLY ALERTING YOUR MANAGERS &nbsp;ACCEPT THIS AS A REASONA=
+BLE REQUEST .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &n=
+bsp;https &nbsp;&nbsp;github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5=
+ &nbsp;KIDS PRIVACY &nbsp;&nbsp;&nbsp;(54).msg</span><br><span></span><br><s=
+pan> &nbsp;&nbsp;&nbsp;A RE &nbsp;https &nbsp;&nbsp;github com BSCPGROUPHOLD=
+INGSLLC ELSER-AND-DICKER pull 5 &nbsp;KIDS PRIVACY &nbsp;&nbsp;.msg</span><b=
+r><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;https &nbsp;&nbsp;git=
+hub com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5 (48).msg</span><br><spa=
+n></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;https &nbsp;&nbsp;github co=
+m BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5.msg</span><br><span></span><b=
+r><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;101 west 55th street &nbsp;new york &nbsp;NY &nbsp;10019 &nbsp=
+;&nbsp;&nbsp;&nbsp;DEED ATTACHED &nbsp;you check the zip code on the first p=
+age .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;ref &=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th street &nbsp;ne=
+w york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;&nbsp;&nbsp;you see my forehead ther=
+e .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;ref &n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th street &nbsp;new=
+ york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;&nbsp;(17).msg</span><br><span></span=
+><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;101 west 55th street &nbsp;new york &nbsp;NY &nbsp;10019 &n=
+bsp;&nbsp;&nbsp;(24).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp=
+;A RE &nbsp;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55t=
+h street &nbsp;new york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;&nbsp;(53).msg</spa=
+n><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;ref &nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th street &nbsp;new york &nbsp=
+;NY &nbsp;10019 &nbsp;&nbsp;&nbsp;(6).msg</span><br><span></span><br><span> &=
+nbsp;&nbsp;&nbsp;A RE &nbsp;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;101 west 55th street &nbsp;new york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;&nb=
+sp;(7).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;re=
+f &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th street &nbsp=
+;new york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;&nbsp;(8).msg</span><br><span></s=
+pan><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;101 west 55th street &nbsp;new york &nbsp;NY &nbsp;10019=
+ &nbsp;&nbsp;.msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Scre=
+enshot 2022-02-06 at 4 30 23 PM.msg</span><br><span></span><br><span> &nbsp;=
+&nbsp;&nbsp;A Screenshot 2022-02-06 at 4 34 04 PM.msg</span><br><span></span=
+><br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;NOTICE TO ZUCKER &nbsp;T=
+HEIR COUNSEL &nbsp;AND MATERIAL PARTIES TO THIS MATTER (310).msg</span><br><=
+span></span><br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;NOTICE TO ZUC=
+KER &nbsp;THEIR COUNSEL &nbsp;AND MATERIAL PARTIES TO THIS MATTER.msg</span>=
+<br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;Read &nb=
+sp;here are their commencement documents &nbsp;the 48TH &nbsp;&nbsp;&nbsp;no=
+t accessible there &nbsp;-- here it is attached &nbsp;&nbsp;&nbsp;see also p=
+age 21 of the lease &nbsp;SSN --- Redacted per 22 NYCRR =C2=A7202 5(e) &nbsp=
+;&nbsp;&nbsp;&nbsp;(1091).msg</span><br><span></span><br><span> &nbsp;&nbsp;=
+&nbsp;A Undeliverable &nbsp;Read &nbsp;here are their commencement documents=
+ &nbsp;the 48TH &nbsp;&nbsp;&nbsp;not accessible there &nbsp;-- here it is a=
+ttached &nbsp;&nbsp;&nbsp;see also page 21 of the lease &nbsp;SSN --- Redact=
+ed per 22 NYCRR =C2=A7202 5(e) &nbsp;&nbsp;&nbsp;&nbsp;(1093).msg</span><br>=
+<span></span><br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;Read &nbsp;h=
+ere are their commencement documents &nbsp;the 48TH &nbsp;&nbsp;&nbsp;not ac=
+cessible there &nbsp;-- here it is attached &nbsp;&nbsp;&nbsp;see also page 2=
+1 of the lease &nbsp;SSN --- Redacted per 22 NYCRR =C2=A7202 5(e) &nbsp;&nbs=
+p;&nbsp;&nbsp;(1145).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp=
+;A Undeliverable &nbsp;Read &nbsp;here are their commencement documents &nbs=
+p;the 48TH &nbsp;&nbsp;&nbsp;not accessible there &nbsp;-- here it is attach=
+ed &nbsp;&nbsp;&nbsp;see also page 21 of the lease &nbsp;SSN --- Redacted pe=
+r 22 NYCRR =C2=A7202 5(e) &nbsp;&nbsp;&nbsp;&nbsp;(1147).msg</span><br><span=
+></span><br><span> &nbsp;&nbsp;&nbsp;A VERIFIED COMPLAINT DRAFTED.msg</span>=
+<br><span></span><br><span></span><br><span></span><br><span> &nbsp;Log Mess=
+age:</span><br><span></span><br><span> &nbsp;-----------</span><br><span></s=
+pan><br><span> &nbsp;153974 &nbsp;&nbsp;STFBX STFBX SFITX SFBDX - 1516523 &n=
+bsp;&gt; 93715 semi annual holding reports</span><br><span></span><br><span>=
+</span><br><span></span><br><span>153974</span><br><span></span><br><span>ST=
+FBX STFBX SFITX SFBDX - FILER 1516523</span><br><span></span><br><span></spa=
+n><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob=
+.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20=
+DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf</span><br><span></span><br><s=
+pan> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.net/clean/1=
+5279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FI=
+RM%208209[FILED].pdf</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;htt=
+ps://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1=
+956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf</span><br><span></s=
+pan><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.n=
+et/clean/e041abffd2d7ec11a7b5002248307b90/8209-$BROOKS--4776256-6109023[FILE=
+D].pdf</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311=
+prdsra.blob.core.windows.net/clean/2df8ebfad2d7ec11a7b50022483079c1/[STATE%2=
+0FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[C=
+RD%201357149].pdf</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https:=
+//saaze2311prdsra.blob.core.windows.net/clean/88f53551d2d7ec11a7b5002248307f=
+33/[STATE%20FARM%20VP%2043036]%201943922-%20$michael%20tipsord%20STATE%20FAR=
+M%20mutual%20automobile%20insurance%20company%203487.pdf</span><br><span></s=
+pan><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.n=
+et/clean/154f7255d2d7ec11a7b5002248307b90/[STATE%20FARM%20VP%2043036]%203231=
+040-%20$LUDWIG%20TERRANCE.pdf</span><br><span></span><br><span> &nbsp;&nbsp;=
+&nbsp;https://saaze2311prdsra.blob.core.windows.net/clean/564c7f62d2d7ec11a7=
+b5002248307f33/[STATE%20FARM%20VP%2043036]%203231040$LUDWIG%20TERRANCE.pdf</=
+span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.b=
+lob.core.windows.net/clean/464dc7e4d1d7ec11a7b5000d3a1afadb/[sfVP43036]%20$2=
+876793%20-%20david.moore%20$3487%20-%20IA%208018184.pdf</span><br><span></sp=
+an><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.ne=
+t/clean/0466bdead1d7ec11a7b5000d3a1afadb/[STATE%20FARM%20VP%2043036]%20$3231=
+040-2004555.pdf</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://=
+saaze2311prdsra.blob.core.windows.net/clean/b3106d8ad1d7ec11a7b5002248307b90=
+/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mutua=
+l%20automobile%20insurance%20company-$3487.pdf</span><br><span></span><br><s=
+pan> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.net/clean/0=
+13f2491d1d7ec11a7b5000d3a1af965/[SF.VP%2043036]%202876793%20-%20$david%20moo=
+re%20$3487%20-%20IA%208018184.pdf</span><br><span></span><br><span></span><b=
+r><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.cor=
+e.windows.net/clean/6ae08e99d1d7ec11a7b5002248307aa9/[sfVP%2043036]%20497123=
+5-%20$SMITH%20-%20SEMI.pdf</span><br><span></span><br><span></span><br><span=
+></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windo=
+ws.net/clean/53bfe37dcfd7ec11a7b5002248307b90/NEW%20CONSUMER%20Case%20Number=
+_%20%20ref.PDF</span><br><span></span><br><span></span><br><span></span><br>=
+<span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.net/clean=
+/b4cbce6ecfd7ec11a7b5002248307b90/Fwd-%20TAX%20EVASION%20%20attachments.%20.=
+pdf.pdf</span><br><span></span><br><span></span><br><span></span><br><span> &=
+nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.net/clean/b692cf7=
+9cfd7ec11a7b5000d3a1956dd/Fwd:%20TAX%20EVASION%20%20attachments.%20.pdf</spa=
+n><br><span></span><br><span></span><br><span></span><br><span> &nbsp;&nbsp;=
+&nbsp;https://saaze2311prdsra.blob.core.windows.net/clean/379bcc68ced7ec11a7=
+b5000d3a1afadb/BOTARIZED.on.the.30TH.of.MARCH.2022.STATE.FARM.TRUST.FUND.---=
+sec-sfitx-state-farm-interim-fund-4017g-2020-june-08.pdf</span><br><span></s=
+pan><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.core.windows.n=
+et/clean/c690d567bad7ec11a7b5002248307f33/2022-03-27-ColinBrooks.png</span><=
+br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.blob.co=
+re.windows.net/clean/bab7741fbad7ec11a7b5002248307b90/2020-08-09.NYSCEF.png<=
+/span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311prdsra.=
+blob.core.windows.net/clean/80414a9db6d7ec11a7b5002248307aa9/2020-08-09.NYSC=
+EF.png</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://saaze2311=
+prdsra.blob.core.windows.net/clean/656c0a6ab6d7ec11a7b5000d3a1afadb/F1-Multi=
+SF-Zucker.png</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;https://sa=
+aze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/N=
+ov16-JamesGorman.png</span><br><span></span><br><span></span><br><span></spa=
+n><br><span></span><br><span></span><br><span>/BD</span><br><span></span><br=
+><span></span><br><span></span><br><span></span><br></div></blockquote></bod=
+y></html>=
+
+--Apple-Mail-66A02559-CABF-47AD-A403-87FCA7EEBEC2--

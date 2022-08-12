@@ -1,0 +1,94 @@
+From - Tue May 31 16:58:00 2022
+X-Account-Key: account1
+X-UIDL: AOcyxT0mQsp7YpaPIQHsMB8syOk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.86
+ by atlas319.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 21:56:48 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas319.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 21:56:48 +0000
+X-YMailAVSC: jccG2nA3bBsmOBl.gXcKt5Gt83FGJJ_6N9GxV6sMK03AtQV
+ Sr2GAhXMSyIuDbG4ldzSara92yFwHJqG_e36_UOKAqKUcae2gHrn.nm5oIkT
+ Zi8PbJROjdbL4fJGfRe3LbkcnlJe1Fuv1FF0QeQ5bmUDUOJhY1g33FB_ykFd
+ dRpoCtnt3..RuMnaja_P85t3d40zq7rYtbWvjDZQABALhLS0eR1QliNBgdEM
+ 0uf7xHcTpUAdktDc3V3ZV28_wnJlLrXs6Im9FqdQ4aI1zyNaUofv.2fcDE12
+ StAjP._01axcQpHEThrHSIZpwNBtlfQROKQBsscip.igqJc8LqmkBNW4buw-
+ -
+X-YMailISG: 6ZZWgDwWLDsUKHOK4gExJy9Suc1.TUA_fzzIfEa7j56LQhKv
+ .J7HhzX2fc26URS9gXpKTJ3NcdCzs2DTUTCoXJ0YeV9udFnI3NM_Om2JyVjR
+ s7O749DvxZRYYvN1BzwgDfF9oetOODNGq17nwx1E34YaDGhDpU0jTCCpRjwU
+ 6XuSlPIrw_LX3NTE9BZNsDFJNH.7VKcmlQKPWht72TnSmOEE4NYe97BIJaV4
+ o7Ci6ivFcwykk2JTSM60jNFKg1T8A9H.E7ueh7pTQXghWDlISY1pMubiBzbo
+ HcY.MRjV5Nv_sPMh6UUgZdIcyNyyqL2cp.DGYrFf7PB0eVgzlmNXHFQrclie
+ ms7VzVARfkJ2BgjnDbJPQS1bCKXtpZvjFzFrqf8421C2Gx5G429LcD0.pgJ_
+ 8uaPR4iUERbu02nMowbrm_Kpt56ISaWt.ojkVBRU9Evr46F0jTG0qhCne2QJ
+ _TGCfHKikQDLKhMFkCyQhjvZuzcnmsuwSGysCxBDb7d0XasHTq4PyYYdseq6
+ q8rd1IPi_02L7ZvK_ilNCqOp_QfVjupqXwtLahtf9wFWTq2RS7PUbWkY8Pub
+ Kh4jN1bZRd321luGPcQB3H_cHhwXX8seVwjhLsYpH3kQSkdseETyGElXoC56
+ SCBt1a6vJfVPfXPyRrb8rUmqPpvo8d9Dkb9PVqXQlPGO7pUe_q.mt65jyveN
+ tKhaLZNvEx_BSbiHFYmBTlrkFxfw0561AcQHSD3RSPoGtNPQy2V42.MMAnXD
+ _Z9uejRTRhMSuiGdTevoi9w1RSCA20chkfskNihUa4dAzcP31IxK1GZZGX4s
+ asxwjFhUhPH5dnOglsO5ca6oTwposOx7RTPWW8cYG0bD5ThI9.4.tj3UDC0L
+ _08gR7S_xj7r2Jmo5v5mFzzIJwSK6sQcEP.43zLYdVFjzbsJH9QfF6Q0oCZa
+ uVdxWL8FznJIkBs1VRHQhTBkBOTY6FAuzF0tLL3I5MsQuj8nMByg1SS7sDhZ
+ NaNu1NaKMl9FYFl8LUiN3KH.Ih8tASuxGi9byTJotfU7lmpT3Uvy5mOtcAXv
+ S5leghHNbwogb8sA.0tpMTY4SycuMqpYe3GBVG5F6MOWYgkEE5mHVJ.yA_iU
+ zB_O9PFbRNz6El_JNZxm2Uu4Enbm1hyu5LiOF5lquhrP0jXLFLzhovh9fOcT
+ O._McjlKWe.7JVwWIUSGFA--
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.253.233.86 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 21:56:48 +0000
+Received: from github.com (hubbernetes-node-7eb7ad9.ash1-iad.github.net [10.56.206.75])
+	by smtp.github.com (Postfix) with ESMTPA id 07EE95E03B4;
+	Tue, 31 May 2022 14:56:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654034208;
+	bh=5xKosaLpY26Obi3C8slJeu8yeHeLuQHHjuK3LQud9H4=;
+	h=Date:From:To:Subject:From;
+	b=vBvpPbZxopNFizf1nl7sJsUonKIaoy8jloWEIJ/AOqtqTtgjSIinN5+CY3WPa5xzt
+	 ruYprhENc5L6nLLHeAyp4M5H4m6/xx2oUxcocFXt/tPv1G6jMkOqi3v0lW8LR3nBCJ
+	 5ULNyR+D57IaDnLXA//hQNPIievc3woHo9bNDVr0=
+Date: Tue, 31 May 2022 14:56:48 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/7611ff-7e4cd8@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 7e4cd8:
+ GFY-ES-YM-EM-ELSER-MS-100
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 718
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 7e4cd839a9ebd587435c6f827450ab53001167ab
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/7e4cd839a9ebd587435c6f827450ab53001167ab
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A GFY-ES-YM-EM-ELSER-MS-100
+
+  Log Message:
+  -----------
+  GFY-ES-YM-EM-ELSER-MS-100
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/35b3050f3e7858ddd8141fb86ebe43dceb017f6a?diff=unified
+
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/7611ffe49e27451e243e64b31af1b1aca9bce749
+
+

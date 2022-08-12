@@ -1,0 +1,862 @@
+From - Sun May 22 16:42:53 2022
+X-Account-Key: account1
+X-UIDL: AKbDE2MJ2keUYoquOwe8eL7kZFI
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.18
+ by atlas207.free.mail.ne1.yahoo.com with HTTPS; Sun, 22 May 2022 21:42:22 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas207.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 22 May 2022 21:42:22 +0000
+X-YMailISG: qyvqwtQWLDvvaGkpXO_8Nce2_HJz.k9epBVmPho.1YjRM1wy
+ Vc6awrYKD1JxXaU5_hM8eECSMR.vsf9a2HClZDL4p4GKHZxtTDTHJw2YqtMJ
+ Sfmyugn520yN9Fx6oUxsmXnk87tuw.uYZ8ZBNhz2FEpJP.IyPY67WYPibmtY
+ 4TYT7fOVDmOx9ADMCA0QxlojD1n0TZdn6ptbzojbEpL_IRvf2DiHsWr_2YyZ
+ YeowIH2gJWZpCqk4ttXPyRFYdHbhu.Zwfwie4D7jh9SilamRg3UZsC.xe96N
+ dzhdb4JHbqOiV2Ik_AmKsk82cavuzcPoPGqDcLogyNdOhxj034etR4oDVngm
+ _vjrf6xlD1oVWiojnPfW2zP2REJlJXEv7xQYmGIUnLGjvaFov2GIU9fYwSMi
+ nrE45xt613.OE8YjssYvDkGiEifCev1g3SOlGr37_4CWz1GbA7vzWz9GrzCA
+ HjniVUHUzDsKNGWF90FoHHPV5jBmS9hHs3WqKgqhdJ9bVZTmb_PJnLQRQcqa
+ WbEvIP0v5HU_GJOCmQNIVyLYpJaVthfz9HPQLQrgPoWD3dXc_3m.elS46vKz
+ lPBrINT1vHL0X.4qKuADjZUejj6wqwxD_GsjFGlcE4tyI9qIy4k7L8oOpkQq
+ PUx8sWMojBV9SF1XkyXhVIySOLMKznDjU4LHn3gb_Dcjlc2Eww6p0wJ2Boq6
+ 7UReJHS_CTt7tpwx12ZPeXo8Ho2pzqKi3TBlOMhsOavHTPEfY5h6wLC5rQTL
+ SyMlXqdVLWckk9K2nieX01bxNnJ9U6emqfOVOui1UCzbuIE6g_s162X3Ba2v
+ v4U6O2lDhI3pswTuNfoRuqUHBTaHr.LSCWpsP8_K6oUkSCYZjfURirlrgH6u
+ Q15fGMINb8_e7uiYDLsyVPElXRcRwzEu8fSgGiZa9dBply0IHtXHMyEBImyX
+ bwP6GWE0ZahjGMbXw8G7qfSnaWI6m2nagmOhHl703JpfZI1OFXvVNrOT4WQ5
+ 3vNgrZJ6LvbAI.gVBzxFPIICRCz6l.2fRhP3VPAEpks_Ck8aM3ZCG4TGi283
+ 5OIjeb6az.km_hn13LP0jDYW82W.9cgSLF4Q3DBUT0zg6aOsG5UIiht2M9rR
+ jvECLVO89QwsBwYcEUZVHftaZq2_VDLcpt9SBW.bW8uc4JdeV.tnnclCOwMC
+ AEPTx2HDt9wp5oV_kw--
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.217.137.18 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 22 May 2022 21:42:22 +0000
+Received: from github.com (hubbernetes-node-ceff565.ac4-iad.github.net [10.52.211.88])
+	by smtp.github.com (Postfix) with ESMTPA id 316C2720B3F;
+	Sun, 22 May 2022 14:42:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653255742;
+	bh=Nv4Y11wvfYDAMw5ca9hoy6vWhrffTd8G+24H+5rfS5I=;
+	h=Date:From:To:Subject:From;
+	b=LirnLj/FZfXol5+DwpXiAnfNbUJ7RnjW1ijG1oEo4LgpS08ZbaTlBqnJ/xrxAu3Yf
+	 FCEnA2vcm8TFY/hhlv5ZqRpiD03sHiVtu1cFWWmWsfBw4AGk7MDyNPepgmswjkXmLJ
+	 CPGMGfOJJ/skr3jzA/65QKDJOkXgsIyuz662ePyo=
+Date: Sun, 22 May 2022 14:42:22 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ BLOCK803LOT11@OUTLOOK.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/a8ba6f-2d1c49@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 2d1c49: C16-93715   ---
+ PEEPING TOMS AND THEIR OBSTRUCTION...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,BLOCK803LOT11@OUTLOOK.COM
+X-Auto-Response-Suppress: All
+Content-Length: 30559
+
+  Branch: refs/heads/REQUEST-TO-BAR=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: 2d1c49e51f73ebb10aae7f518728ee1241ba2672=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/2d1=
+c49e51f73ebb10aae7f518728ee1241ba2672=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-05-22 (Sun, 22 May 2022)=0D
+=0D
+  Changed paths:=0D
+    A CBLR_2021.05.24.pdf=0D
+    A CFR-2010-title26-vol13-sec1-6662-2.pdf=0D
+    A Memo Style.pdf=0D
+    A nov13 and Dec18 2021 -  MDW LAWS.pdf=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  C16-93715   --- PEEPING TOMS AND THEIR OBSTRUCTIONS - AIDED AND ABETTED=
+ TAX EVASION =0D
+=0D
+Forward Guidance=0D
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgey=
+zvA85ViWMmvfAQ=3D=3D"=0D
+=0D
+TY BOLLINGER... =0D
+#1FAN // mvp --- =0D
+=0D
+=C2=A7 1.6662=E2=80=932 Accuracy-related penalty.=0D
+(a) In general. Section 6662(a) imposes=0D
+an accuracy-related penalty on any=0D
+portion of an underpayment of tax (as=0D
+defined in section 6664(a) and =C2=A7 1.6664=E2=80=932)=0D
+required to be shown on a return if=0D
+such portion is attributable to one or=0D
+more of the following types of misconduct:=0D
+(1) Negligence or disregard of rules or=0D
+regulations (see =C2=A7 1.6662=E2=80=933);=0D
+(2) Any substantial understatement=0D
+of income tax (see =C2=A7 1.6662=E2=80=934); or=0D
+(3) Any substantial (or gross) valuation=0D
+misstatement under chapter 1=0D
+(=E2=80=98=E2=80=98substantial valuation misstatement=E2=80=99=E2=80=99=0D=
+
+or =E2=80=98=E2=80=98gross valuation misstatement=E2=80=99=E2=80=99),=0D
+provided the applicable dollar limitation=0D
+set forth in section 6662(e)(2) is=0D
+satisfied (see =C2=A7 1.6662=E2=80=935).=0D
+The accuracy-related penalty applies=0D
+only in cases in which a return of tax=0D
+is filed, except that the penalty does=0D
+not apply in the case of a return prepared=0D
+by the Secretary under the authority=0D
+of section 6020(b). The accuracy-=0D
+related penalty under section 6662=0D
+and the penalty under section 6651 for=0D
+failure to timely file a return of tax=0D
+=0D
+=0D
+---------- Forwarded message ---------=0D
+Date: Sun, May 22, 2022, 4:16 PM=0D
+Subject: OBSTRUCTION C16-93715=0D
+=0D
+=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+=0D
+----------  --------- ----------  -------------------  ---------=0D
+=0D
+This Zucker family and their counselors decided to film =0D
+=0D
+the " interior of my apartment without my consent ";=0D
+=0D
+   =0D
+ - then decided to distribute the videos without my consent and transferr=
+ed the unlawful rents and leases to State Farm, under Filer CIK 93715, ma=
+naged by a FINRA regulated broker dealer, State Farm VP Management Corp, =
+and it=E2=80=99s Directors.=0D
+=0D
+https://github.com/bscpgroupholdingsllc/elser-and-dicker/pull/5=0D
+https://github.com/bscpgroupholdingsllc/elser-and-dicker/pull/7=0D
+            > 00048=0D
+            > mov files distributed attached.=0D
+=0D
+Thank you.=0D
+      =0D
+/s/ BO DINCER=0D
+     TEL.: 646-256-3609=0D
+               =0D
+p.s. they wouldn't let me file a cross motion after i caught them on tax =
+evasion.=0D
+THESE ARE THE BANKS AND BROKER DEALERS I HAVE BEEN DEALING WITH, NOTWITHS=
+TANDING THEIR COMPLIANCE, COUNSELORS, SALESMAN, AND ATTORNEYS WHO DON=E2=80=
+=99T SEEM TO UNDERSTAND PER THE FDIC, unlawfully earned funds cannot be h=
+eld in custody at a US Banking Institution. =0D
+=0D
+=0D
+MS- MORGAN STANLEY - WILSON ELSER DICKER & MOSKOWITZ. - PWC=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/302=0D
+SECTION 302: Certificate of occupancy, Multiple Residence (MRE) CHAPTER 6=
+1-B, ARTICLE 8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/302-A=0D
+SECTION 302-A, Unlawful occupation, Multiple Residence (MRE) CHAPTER 61-B=
+, ARTICLE 8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/303=0D
+SECTION 303: Enforcement, Multiple Residence (MRE) CHAPTER 61-B, ARTICLE =
+8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/304=0D
+SECTION 304: Penalties for violations, Multiple Residence (MRE) CHAPTER 6=
+1-B, ARTICLE 8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/305=0D
+SECTION 305: Nuisances, Multiple Residence (MRE) CHAPTER 61-B, ARTICLE 8=0D=
+
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/4=0D
+SECTION 4: Definitions, Multiple Residence (MRE) CHAPTER 61-B, ARTICLE 1=0D=
+
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/A7=0D
+ARTICLE 7: Non-fireproof New Multiple Dwellings, Multiple Residence (MRE)=
+ CHAPTER 61-B=0D
+=0D
+=0D
+WILSON, ELSER, MOSKOWITZ, EDELMAN & DICKER LLP=0D
+ainfo@buildings.nyc.gov=0D
+=0D
+101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+Label # 9469003699300000590947=0D
+Tracking Number: 9469003699300000590947=0D
+=0D
+Item B.14. Provision of financial support.=0D
+Instruction. For purposes of this Item, a provision of financial support =
+includes any (1) capital contribution, (2) purchase of a security from a =
+Money Market Fund in reliance on rule 17a-9 under the Act (17 CFR 270.17a=
+-9), (3) purchase of any defaulted or devalued security at fair value rea=
+sonably intended to increase or stabilize the value or liquidity of the R=
+egistrant's portfolio, (4) execution of letter of credit or letter of ind=
+emnity, (5) capital support agreement (whether or not the Registrant ulti=
+mately received support), (6) performance guarantee, or (7) other similar=
+ action reasonably intended to increase or stabilize the value or liquidi=
+ty of the Registrant's portfolio. Provision of financial support does not=
+ include any (1) routine waiver of fees or reimbursement of Registrant's =
+expenses, (2) routine inter-fund lending, (3) routine inter-fund purchase=
+s of Registrant's shares, or (4) action that would qualify as financial s=
+upport as defined above, that the board of directors has otherwise determ=
+ined not to be reasonably intended to increase or stabilize the value or =
+liquidity of the Registrant's portfolio.=0D
+=0D
+Investment Adviser;;State Farm Investment Management Corp.;One State Farm=
+ Plaza, B-2;Bloomington, IL 61710;Investment Sub-Adviser=0D
+Northern Trust Investments, Inc.;;50 South LaSalle Street;Chicago, IL 606=
+03;;Custodian;;=0D
+The Northern Trust Company;50 South LaSalle Street;Chicago, IL 60603;Inde=
+pendent Registered Public=0D
+Accounting Firm;PricewaterhouseCoopersLLP;One North Wacker;Chicago, IL 60=
+606=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, OH 43215-6101=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, ME 04101=0D
+For Additional Information, call;866-342-2418 (toll free) or 312-557-7940=
+=0D
+Investment Adviser;;;Vontobel Asset Management, Inc.;1540 Broadway;38th F=
+loor;New York, New York 10036=0D
+Custodian;The Northern Trust Company;50 South LaSalle Street;Chicago, Ill=
+inois 60603;=0D
+Independent Registered;Public Accounting Firm;Ernst & Young LLP;5 Times S=
+quare;New York, New York 10036=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, Ohio 43215-6101;=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, Maine 04101=0D
+For Additional Information, call;866-252-5393 (toll free) or 312-630-6583=
+=0D
+Investment Adviser;River Canyon Fund Management LLC;2000 Avenue of the St=
+ars, 11th Floor;Los Angeles, California 90067;=0D
+Custodian;The Northern Trust Company;50 South LaSalle Street;Chicago, Ill=
+inois 60603;Independent Registered;=0D
+Public Accounting Firm;Deloitte & Touche LLP;111 S. Wacker Drive;Chicago,=
+ Illinois 60606;=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, Ohio 43215-6101=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, Maine 04101=0D
+For Additional Information, call;800-245-0371 (toll free) or 312-557-0164=
+=0D
+=0D
+More specifically,=0D
+=0D
+Rule 12d1-1 [17 CFR 270.12d1-1]=0D
+=0D
+I also enjoy other CONFIRMATIONS of UNFAIR DEALINGS WHICH HAVE ALREADY be=
+en filed on behalf of MYSELF BY OTHERS.=0D
+=0D
+  =0D
+ AND IN THE UNFAIR AS SEEN IN THE NYSCEF DOCKETS ANNEXED AS EXHIBITS 1539=
+74/2020.=0D
+=0D
+                   =0D
+ [2022.04.17 [Price Waterhouse Cooper][SEC][Sarbanes-Oxley Act of 2002].p=
+df]=0D
+=0D
+    =0D
+CURRENTLY PRESENTS AN EVEN LARGER BODY OF RISK WHICH WAS DUE TO THE OMISS=
+ION, AND FAILURE TO DISCLOSE THE GROSS NEGLIGENCE=0D
+BY THE ZUCKER ORGANIZATION AND ITS COUNSELORS WHO WILL ACCEPT $2.00 AND A=
+LSO WITHOUT ANY QUESTIONS ASKED WILL PAY TO AVOID TO THEIR OWN PROSECUTIO=
+N AS SEEN IN THE HARASSMENT OF THE COURTS WITHOUT ANY "REASONABLE CAUSE".=
+=0D
+=0D
+*** THIS IS A FILED DOCUMENT WITH THE NY SUPREME COURT OF LAW - 1 PAGE ON=
+LY - AND WITH REASONABLE CAUSE - AS SEEN IN THE FINE PRINT AND BELOW.=0D
+    *** https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1=
+9MVPFXy0G0QvnmRLGpYIQ=3D=3D=0D
+=0D
+% JUST LIKE UNDER THE =0D
+Investment Company Act File Number: 811-22538=0D
+    =0D
+FILER 1516523, and with a BRAND NEW SET OF KEYS-=0D
+    =0D
+=0D
+ENJOY THESE COURT DOCKETS WHILE YOU CROSS THEM AS WELL.... =0D
+=0D
+AFTER THEY JUST DETONATED THEIR PRIOR INVESTMENT ADVISER, ALL OF THEIR OR=
+IGINAL DOCUMENTS HOWEVER AT THE EXPENSE OF AN AMOUNT GREATER THAN $900,00=
+0,000.00 IN THE PROCESS (AS OF CURRENT) SEEN IN THE LOSSES BY ITS INVESTO=
+RS.=0D
+   =0D
+    to avoid THIS: =0D
+https://violationtracker.goodjobsfirst.org/violation-tracker/tx-state-far=
+m-lloyds=0D
+   =0D
+    =0D
+MAINTAIN THE SAME SUB-MANAGER, COMPLIANCE OFFICER, ADDRESS - AND PAID 912=
+,500.00 TO CONDUCT THAT SMOOTH MANEUVER.=0D
+   =0D
+    =0D
+- ALL WHILE COMPARING APPLES TO APPLES, DID NOT WORK OUT IN THE INTEREST =
+OF THEIR RESPONSIBILITY TO THEIR INVESTORS.=0D
+=0D
+=0D
+    =0D
+--- IS GROSS NEGLIGENCE - BY DEFINITION TO PULL A STUNT LIKE THIS - AND P=
+ROXY EVERYONE FOR:=0D
+=0D
+    $ 9000.00 OF ACCOUNTING,=0D
+    $ 170000.00 IN POSTAGE,=0D
+    $ 443000.00 =0D
+IN DIRECTORS FEES, ETC. =0D
+FOR A TOTAL COST OF 912,500.00=0D
+=0D
+-- WILL PAY TO AVOID THE VIOLATION ABOVE --- BUT WON'T FILE AT ANY COST (=
+"WHICH IS FREE") TO KEEP THEIR INVESTORS INFORMED.=0D
+ =0D
+=0D
+INSTEAD:    =0D
+FILE THEMSELVES DOWN TO ZERO "UNCOVERED" =0D
+=0D
+AND without any material DISCLOSURE OF =0D
+A LEGAL MATTER =0D
+LOAN and without EXPLANATION or a FINE REGISTERED =0D
+=0D
+so the subscribers at $250.00 (two hundred and fifty dollar allotments) c=
+an make an INFORMED DECISION - is pathetic.=0D
+=0D
+   =0D
+ [Exchanges and data providers on Yahoo Finance Finance for Web Help - SL=
+N2310.pdf]=0D
+=0D
+NOT COVERED FOR OMISSIONS BY ITS DIRECT REPRESENTATIVES =0D
+/ PROMOTERS DURING THE PERIOD OF JANUARY 1, 2020 AND JANUARY 1, 2022.=0D
+            =0D
+- NOTWITHSTANDING ITS COUNSELORS, AUDITORS, CUSTODIANS, ADVISERS, AND BRO=
+KER DEALERS.=0D
+        =0D
+Fund Surviving the Merger - Advisers Investment Trust=0D
+    =0D
+"Investment Company Act File Number "811-22538"=0D
+"State Farm VP Management Corp. "000043036"=0D
+    2021-11-30 2021-03-31       =0D
+    ASSETS: $10,164,850,238=0D
+    PERFORMANCE: (-852,029,489.38)=0D
+=0D
+##TICKER: BRK-B## =0D
+HOW DO YOU LIKE THOSE APPLES INSTEAD?=0D
+    https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180=
+/d222043dn8f.htm=0D
+=0D
+    TOTAL AUM REPORT 2020: $ 8,294,447,250 ##=0D
+    TOTAL AUM NOV 30, 2021: $ 10,164,850,238=0D
+=0D
+TOTAL AUM NOV 24, 2021: $ 0.00=0D
+    =0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVI=
+HKtnJU/ni/zvg=3D=3D=0D
+=0D
+       =0D
+ =0D
+** Fund Surviving the Merger - Advisers Investment Trust ##=0D
+      =0D
+  - MATERIALLY IS MISREPRESENTED =0D
+HAVING BEEN FILED ON: April 23, 2021=0D
+=0D
+   ** SEMI-ANNUAL HOLDING REPORT=0D
+    ** State Farm Associates' Funds Trust=0D
+    ** [N-CSRS] 0001193125-20-200810=0D
+    ** REPORT DATE: 2020-05-31=0D
+    ** FILING DATE: 2020-07-28=0D
+=0D
+    https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810=
+/d913497dncsrs.htm=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVI=
+HKtnJU/ni/zvg=3D=3D=0D
+    o State Farm Growth Fund $ 5,110,893,730=0D
+    o State Farm Balanced Fund $ 2,034,992,761   =0D
+    o State Farm Interim Fund $ 433,682,403=0D
+    o State Farm Municipal Bond Fund $ 714,878,356=0D
+    _____________________________________________=0D
+=0D
+   =0D
+ FILED on the 24TH, of November ]=0D
+=0D
+I filed on the November 13th, 2021, had I not been obstructed, the TCR I =
+filed with the SEC and on the front page very clearly articulated: OMISSI=
+ONS.=0D
+=0D
+- to prevent this LARGER EMBODIMENT in CIK 15156523.=0D
+=0D
+thus OBSTRUCTION is not GOOD for THOSE who UNDERSTAND when I file a TCR i=
+s OFFICIAL, and used to their advantage as Insider Trades=0D
+=0D
+per the holding report filed by Terrence Ludwig, Paul J Smith and other c=
+ompliance officers and Directors of =0D
+State Farm VP Management Corp., I am certain those securities were traded=
+ by Morgan Stanley without any disclosure to other market participants.=0D=
+
+     =0D
+ ## WHEN I am CERTAIN=0D
+=0D
+I do NOTIFY parties which in part is a failure on the PART OF THE CURRENT=
+ "PROMOTERS"=0D
+1. to make these undisclosed / unregistered securities public and make th=
+em available to the General PUBLIC for consideration prior to making an i=
+nvestment. =0D
+- and also in the Central Registration Depository by the Representatives =
+at State Farm VP. FIRM 43036...=0D
+ =0D
+## SO HOW EXACTLY IS IT THESE MORALLY ARE DECISIONS BY THE "PROMOTERS" of=
+ a $10 BILLION DOLLAR "State Farm Associates' Funds Trust"=0D
+=0D
+COMPLIANCE OFFICER & TREASURER ALSO CERTIFIED UNDER THESE DOCTRINES HERE.=
+=0D
+- HAVE VIOLATED PWC IN THEIR CONCERTED EFFORTS OF OBSTRUCTION AND UNFAIR =
+DEALINGS HAVE CREATED AN EVEN LARGER PROBLEM, WITH THE HELP OF THE ZUCKER=
+ FAMILY AND ITS COUNSELORS.=0D
+=0D
+=0D
+1. REQUESTED AN ESTOPPEL: STATE FARM AND CEASE AND DESIST.=0D
+   =0D
+    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WAe=
+Cnxmd/hcOI4eTnbig=3D=3D=0D
+=0D
+2. REQUESTED AN ESTOPPEL: THE ZUCKER FAMILY & ITS COUNSELORS.=0D
+   =0D
+    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3Un=
+/JaVXZwF7kvbaee4w=3D=3D=0D
+=0D
+=0D
+SEE ALSO: EX72, AN UNKNOWN CORPORATION WHICH I NEVER MENTIONED, ANNEXED I=
+N A LETTER BY COUNSELORS FOR PLAINTIFF (IN A FORMER CASE) WHEREBY THEY AL=
+SO AVOIDED PROSECUTION BY USING UNFAIR PRACTICES, NOTWITHSTANDING SERVICE=
+ - AND A FAILURE ON THE FIRST PAGE AND DOCKET --- NOTWITHSTANDING THEIR "=
+REQUEST FOR JUDICIARY INTERVENTION" WHICH WAS ADDRESSED TO MYSELF AND USI=
+NG THE "BUILDING" AS THE ADDRESS, NO APARTMENT NUMBER NEEDED - BECAUSE TH=
+EY HAVE NO CERTIFICATE OF OCCUPANCY TO COLLECT RENT LEGALLY - HENCE THOSE=
+ ARE THE LEASES AND RENTS GUARANTEED TO STATE FARM - AND COULD HAVE BEEN =
+MITIGATED WITHOUT AN UP-FRONT DELUGE BY PERMITTING MYSELF TO "CROSS" THEM=
+ IN A COURT OF LAW... INSTEAD AVOIDED A CHANGE IN CAPTION AS SEEN IN THE =
+EXHIBIT ("WHICH WAS NOT PERMITTED"=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject:	Fwd: [ MSCO in the BCC ] OBSTRUCTION=0D
+Date:	Sun, 22 May 2022 10:20:07 -0400=0D
+From:	BO DINCER <bondstrt007@gmail.com>=0D
+To:	BBO 121 <ms60710444266@yahoo.com>=0D
+CC:	gpradocorrea@bloomberg.net, Citadel Talent Acquisition <HRTechSupport=
+@talent-citadel.com>=0D
+=0D
+=0D
+=0D
+=0D
+---------- Forwarded message ---------=0D
+From: pinkbookswap@yahoo.com <pinkbookswap@yahoo.com>=0D
+Date: Sun, May 22, 2022, 6:15 AM=0D
+Subject: Re: [ MSCO in the BCC ] Summary Notes for Review.=0D
+To: Ombudsman's Office <Ombuds@finra.org>, <Josephine.Vella@finra.org>, o=
+mbudsman@sec.gov <ombudsman@sec.gov>, BBO 121 <ms60710444266@yahoo.com>, =
+Dark Pink <Bondstrt007@gmail.com>, Bo Dincer <bo.dincer@yahoo.com>=0D
+Cc: block503lot11@outlook.com <block503lot11@outlook.com>, gsamonlinerequ=
+est@gs.com <gsamonlinerequest@gs.com>, marquee@gs.com <marquee@gs.com>, <=
+jpetit@mccarter.com>, <thermanson@northmarq.com>, <bdr11@bloomberg.net>, =
+Us Umusic Online Info <info@us.umusic-online.com>=0D
+=0D
+=0D
+Forward Guidance=0D
+=0D
+This Zucker family and their counselors decided to film =0D
+=0D
+the " interior of my apartment without my consent ";=0D
+=0D
+   =0D
+ - then decided to distribute the videos without my consent and transferr=
+ed the unlawful rents and leases to State Farm, under Filer CIK 93715, ma=
+naged by a FINRA regulated broker dealer, State Farm VP Management Corp, =
+and it=E2=80=99s Directors.=0D
+=0D
+    https://github.com/bscpgroupholdingsllc/elser-and-dicker/pull/5=0D
+    https://github.com/bscpgroupholdingsllc/elser-and-dicker/pull/7=0D
+=0D
+            > 00048=0D
+            > mov files distributed attached.=0D
+=0D
+Thank you.=0D
+      =0D
+/s/ BO DINCER=0D
+     TEL.:  646-256-3609=0D
+               =0D
+p.s. they wouldn't let me file a cross motion after i caught them on tax =
+evasion.=0D
+THESE ARE THE BANKS AND BROKER DEALERS I HAVE BEEN DEALING WITH, NOTWITHS=
+TANDING THEIR COMPLIANCE, COUNSELORS, SALESMAN, AND ATTORNEYS WHO DON=E2=80=
+=99T SEEM TO UNDERSTAND PER THE FDIC, unlawfully earned funds cannot be h=
+eld in custody at a US Banking Institution. =0D
+=0D
+=0D
+MS- MORGAN STANLEY - WILSON ELSER DICKER & MOSKOWITZ. - PWC=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/302=0D
+SECTION 302: Certificate of occupancy, Multiple Residence (MRE) CHAPTER 6=
+1-B, ARTICLE 8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/302-A=0D
+SECTION 302-A, Unlawful occupation, Multiple Residence (MRE) CHAPTER 61-B=
+, ARTICLE 8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/303=0D
+SECTION 303: Enforcement, Multiple Residence (MRE) CHAPTER 61-B, ARTICLE =
+8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/304=0D
+SECTION 304: Penalties for violations, Multiple Residence (MRE) CHAPTER 6=
+1-B, ARTICLE 8=0D
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/305=0D
+SECTION 305: Nuisances, Multiple Residence (MRE) CHAPTER 61-B, ARTICLE 8=0D=
+
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/4=0D
+SECTION 4: Definitions, Multiple Residence (MRE) CHAPTER 61-B, ARTICLE 1=0D=
+
+=0D
+https://www.nysenate.gov/legislation/laws/MRE/A7=0D
+ARTICLE 7: Non-fireproof New Multiple Dwellings, Multiple Residence (MRE)=
+ CHAPTER 61-B=0D
+=0D
+=0D
+WILSON, ELSER, MOSKOWITZ, EDELMAN & DICKER LLP=0D
+ainfo@buildings.nyc.gov=0D
+=0D
+101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+Label # 9469003699300000590947=0D
+Tracking Number: 9469003699300000590947=0D
+=0D
+Item B.14. Provision of financial support.=0D
+Instruction. For purposes of this Item, a provision of financial support =
+includes any (1) capital contribution, (2) purchase of a security from a =
+Money Market Fund in reliance on rule 17a-9 under the Act (17 CFR 270.17a=
+-9), (3) purchase of any defaulted or devalued security at fair value rea=
+sonably intended to increase or stabilize the value or liquidity of the R=
+egistrant's portfolio, (4) execution of letter of credit or letter of ind=
+emnity, (5) capital support agreement (whether or not the Registrant ulti=
+mately received support), (6) performance guarantee, or (7) other similar=
+ action reasonably intended to increase or stabilize the value or liquidi=
+ty of the Registrant's portfolio. Provision of financial support does not=
+ include any (1) routine waiver of fees or reimbursement of Registrant's =
+expenses, (2) routine inter-fund lending, (3) routine inter-fund purchase=
+s of Registrant's shares, or (4) action that would qualify as financial s=
+upport as defined above, that the board of directors has otherwise determ=
+ined not to be reasonably intended to increase or stabilize the value or =
+liquidity of the Registrant's portfolio.=0D
+=0D
+Investment Adviser;;State Farm Investment Management Corp.;One State Farm=
+ Plaza, B-2;Bloomington, IL 61710;Investment Sub-Adviser=0D
+Northern Trust Investments, Inc.;;50 South LaSalle Street;Chicago, IL 606=
+03;;Custodian;;=0D
+The Northern Trust Company;50 South LaSalle Street;Chicago, IL 60603;Inde=
+pendent Registered Public=0D
+Accounting Firm;PricewaterhouseCoopersLLP;One North Wacker;Chicago, IL 60=
+606=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, OH 43215-6101=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, ME 04101=0D
+For Additional Information, call;866-342-2418 (toll free) or 312-557-7940=
+=0D
+Investment Adviser;;;Vontobel Asset Management, Inc.;1540 Broadway;38th F=
+loor;New York, New York 10036=0D
+Custodian;The Northern Trust Company;50 South LaSalle Street;Chicago, Ill=
+inois 60603;=0D
+Independent Registered;Public Accounting Firm;Ernst & Young LLP;5 Times S=
+quare;New York, New York 10036=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, Ohio 43215-6101;=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, Maine 04101=0D
+For Additional Information, call;866-252-5393 (toll free) or 312-630-6583=
+=0D
+Investment Adviser;River Canyon Fund Management LLC;2000 Avenue of the St=
+ars, 11th Floor;Los Angeles, California 90067;=0D
+Custodian;The Northern Trust Company;50 South LaSalle Street;Chicago, Ill=
+inois 60603;Independent Registered;=0D
+Public Accounting Firm;Deloitte & Touche LLP;111 S. Wacker Drive;Chicago,=
+ Illinois 60606;=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, Ohio 43215-6101=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, Maine 04101=0D
+For Additional Information, call;800-245-0371 (toll free) or 312-557-0164=
+=0D
+=0D
+More specifically,=0D
+=0D
+Rule 12d1-1 [17 CFR 270.12d1-1]=0D
+=0D
+=0D
+=0D
+inter-fund purchases of Registrant's shares, or (4) action that would qua=
+lify as financial support as defined above, that the board of directors h=
+as otherwise determined not to be reasonably intended to increase or stab=
+ilize the value or liquidity of the Registrant's portfolio.=0D
+=0D
+Investment Adviser;;State Farm Investment Management Corp.;One State Farm=
+ Plaza, B-2;Bloomington, IL 61710;Investment Sub-Adviser=0D
+Northern Trust Investments, Inc.;;50 South LaSalle Street;Chicago, IL 606=
+03;;Custodian;;=0D
+The Northern Trust Company;50 South LaSalle Street;Chicago, IL 60603;Inde=
+pendent Registered Public=0D
+Accounting Firm;PricewaterhouseCoopersLLP;One North Wacker;Chicago, IL 60=
+606=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, OH 43215-6101=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, ME 04101=0D
+For Additional Information, call;866-342-2418 (toll free) or 312-557-7940=
+=0D
+Investment Adviser;;;Vontobel Asset Management, Inc.;1540 Broadway;38th F=
+loor;New York, New York 10036=0D
+Custodian;The Northern Trust Company;50 South LaSalle Street;Chicago, Ill=
+inois 60603;=0D
+Independent Registered;Public Accounting Firm;Ernst & Young LLP;5 Times S=
+quare;New York, New York 10036=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, Ohio 43215-6101;=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, Maine 04101=0D
+For Additional Information, call;866-252-5393 (toll free) or 312-630-6583=
+=0D
+Investment Adviser;River Canyon Fund Management LLC;2000 Avenue of the St=
+ars, 11th Floor;Los Angeles, California 90067;=0D
+Custodian;The Northern Trust Company;50 South LaSalle Street;Chicago, Ill=
+inois 60603;Independent Registered;=0D
+Public Accounting Firm;Deloitte & Touche LLP;111 S. Wacker Drive;Chicago,=
+ Illinois 60606;=0D
+Legal Counsel;Thompson Hine LLP;41 South High Street, Suite 1700;Columbus=
+, Ohio 43215-6101=0D
+Distributor;Foreside Financial Services, LLC;3 Canal Plaza, Suite 100;Por=
+tland, Maine 04101=0D
+For Additional Information, call;800-245-0371 (toll free) or 312-557-0164=
+=0D
+=0D
+More specifically,=0D
+=0D
+Rule 12d1-1 [17 CFR 270.12d1-1]=0D
+=0D
+I also enjoy other CONFIRMATIONS of UNFAIR DEALINGS WHICH HAVE ALREADY be=
+en filed on behalf of MYSELF BY OTHERS.=0D
+=0D
+  =0D
+ AND IN THE UNFAIR AS SEEN IN THE NYSCEF DOCKETS ANNEXED AS EXHIBITS 1539=
+74/2020.=0D
+=0D
+                   =0D
+ [2022.04.17 [Price Waterhouse Cooper][SEC][Sarbanes-Oxley Act of 2002].p=
+df]=0D
+=0D
+    =0D
+CURRENTLY PRESENTS AN EVEN LARGER BODY OF RISK WHICH WAS DUE TO THE OMISS=
+ION, AND FAILURE TO DISCLOSE THE GROSS NEGLIGENCE=0D
+BY THE ZUCKER ORGANIZATION AND ITS COUNSELORS WHO WILL ACCEPT $2.00 AND A=
+LSO WITHOUT ANY QUESTIONS ASKED WILL PAY TO AVOID TO THEIR OWN PROSECUTIO=
+N AS SEEN IN THE HARASSMENT OF THE COURTS WITHOUT ANY "REASONABLE CAUSE".=
+=0D
+=0D
+*** THIS IS A FILED DOCUMENT WITH THE NY SUPREME COURT OF LAW - 1 PAGE ON=
+LY - AND WITH REASONABLE CAUSE - AS SEEN IN THE FINE PRINT AND BELOW.=0D
+    *** https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1=
+9MVPFXy0G0QvnmRLGpYIQ=3D=3D=0D
+=0D
+% JUST LIKE UNDER THE =0D
+Investment Company Act File Number: 811-22538=0D
+    =0D
+FILER 1516523, and with a BRAND NEW SET OF KEYS-=0D
+    =0D
+=0D
+ENJOY THESE COURT DOCKETS WHILE YOU CROSS THEM AS WELL.... =0D
+=0D
+AFTER THEY JUST DETONATED THEIR PRIOR INVESTMENT ADVISER, ALL OF THEIR OR=
+IGINAL DOCUMENTS HOWEVER AT THE EXPENSE OF AN AMOUNT GREATER THAN $900,00=
+0,000.00 IN THE PROCESS (AS OF CURRENT) SEEN IN THE LOSSES BY ITS INVESTO=
+RS.=0D
+   =0D
+    to avoid THIS: =0D
+https://violationtracker.goodjobsfirst.org/violation-tracker/tx-state-far=
+m-lloyds=0D
+   =0D
+    =0D
+MAINTAIN THE SAME SUB-MANAGER, COMPLIANCE OFFICER, ADDRESS - AND PAID 912=
+,500.00 TO CONDUCT THAT SMOOTH MANEUVER.=0D
+   =0D
+    =0D
+- ALL WHILE COMPARING APPLES TO APPLES, DID NOT WORK OUT IN THE INTEREST =
+OF THEIR RESPONSIBILITY TO THEIR INVESTORS.=0D
+=0D
+=0D
+    =0D
+--- IS GROSS NEGLIGENCE - BY DEFINITION TO PULL A STUNT LIKE THIS - AND P=
+ROXY EVERYONE FOR:=0D
+=0D
+    $ 9000.00 OF ACCOUNTING,=0D
+    $ 170000.00 IN POSTAGE,=0D
+    $ 443000.00 =0D
+IN DIRECTORS FEES, ETC. =0D
+FOR A TOTAL COST OF 912,500.00=0D
+=0D
+-- WILL PAY TO AVOID THE VIOLATION ABOVE --- BUT WON'T FILE AT ANY COST (=
+"WHICH IS FREE") TO KEEP THEIR INVESTORS=0D
+=0D
+=0D
+=0D
+"https://saaze2311prdsra.blob.core.windows.net/clean/0010c00837d6ec11a7b5=
+000d3a1afadb/Nov.17.483MATERIALCORPORATEACT.PDF"=0D
+=0D
+"https://saaze2311prdsra.blob.core.windows.net/clean/0363e59f23d6ec11a7b5=
+000d3a1afadb/BB-117taxFiles.pdf"=0D
+=0D
+"https://saaze2311prdsra.blob.core.windows.net/clean/3217723b20d6ec11a7b5=
+002248307f33/2020-03-10%E2%80%94ICE%20Data%20Services.PDF"=0D
+=0D
+"https://saaze2311prdsra.blob.core.windows.net/clean/3217723b20d6ec11a7b5=
+002248307f33/2020-03-10=E2=80=94ICE%20Data%20Services.PDF"=0D
+=0D
+"https://saaze2311prdsra.blob.core.windows.net/clean/7391818e24d6ec11a7b5=
+000d3a1af965/DoiNotice-TaxEvasion%20and%20Continued%20OPS.PDF"=0D
+=0D
+"https://saaze2311prdsra.blob.core.windows.net/clean/b67c1a2d29d6ec11a7b5=
+002248307b90/04.12.2022.151652.EY.PWC.MSCO-.pdf"=0D
+=0D
+=0D
+---------- Forwarded message ---------<br>=0D
+Date: Sun, May 22, 2022, 4:16 PM=0D
+Subject: OBSTRUCTION C16-93715=0D
+=0D
+=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+=0D
+=0D
+DIRECT:  	646-256-3609<br>=0D
+EMAIL:		ms60710444266@yahoo.com=0D
+=0D
+----=0D
+=0D
+=0D
+------- Forwarded Message --------=0D
+Subject: 	Fwd: OBSTRUCTION C16-93715. OMISSIONS=E2=80=94=0D
+Date: 	Sun, 22 May 2022 16:22:06 -0400=0D
+From: 	BO DINCER <bondstrt007@gmail.com>=0D
+To: 	BBO 121 <ms60710444266@yahoo.com>, Ir-operations-team <ir-operations=
+-team@tudor.com>, ir@tigerglobal.com, info@kpmg.com, Ryan Cangialosi (US)=
+ <ryan.a.cangialosi@pwc.com>, Dean's Discipline - SCCS <conduct-admin@col=
+umbia.edu>, Amber Griffiths <ag2943@columbia.edu>, sgo2107@columbia.edu, =
+endowmentadmin@columbia.edu, jpminvestorrelatioms@jpmchase.com, Pam Olson=
+ (US) <pam.olson@us.pwc.com>=0D
+CC: 	TRACE Data Services <tracedataservices@finra.org>, Treasury.operatio=
+ns@cpa.texas.gov, tedhermanson@northmarq.com, Jpetit <jpetit@mccarter.com=
+>, jpminvestorrelations@jpmchase.com, JPMCinvestorrelations@jpmchase.com,=
+ JAMES GORMAN [MORGAN STANLEY] <james.gorman@morganstanley.com>, icegloba=
+lnetwork-info@ice.com <iceglobalnetwork-info@ice.com>, Bill Cassese (ICE =
+BONDS SECURITIES) <bcassese19@bloomberg.net>=0D
+=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6D=
+BJZ1wsiq0b38A=3D=3D=0D
+=0D
+# UNLAWFUL CUSTODY OF SECURITY=0D
+=0D
+=0D
+=0D
+## TAX RECEIPTS=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0=
+G0QvnmRLGpYIQ=3D=3D=0D
+=0D
+=0D
+=0D
+##  DISTRIBUTION OF MOV FILES / VIOLATION OF PRIVACY=0D
+# " PEEPING TOMS "=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOlBw=
+sgc1lnMJ2_PLUS_AqQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_=
+6_PLUS_kgBxoElZyFgKxGEQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1c=
+wANtAvbUwWX_PLUS_g=3D=3D=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOyDJ=
+uc93MrOnwh5Jw=3D=3D=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4RhX=
+5LEi0sISXetBw=3D=3D=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORkl=
+Cen4NaSEt6oFg=3D=3D=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_=
+6_PLUS_kgBxoElZyFgKxGEQ=3D=3D=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu9a=
+94Y3U5/kpIt5g=3D=3D=0D
+=0D
+=0D
+=0D
+# LINKS TO PROPERTY TAX RECEIPTS.=0D
+=0D
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183=0D
+=0D
+=0D
+    JANUARY 15, 2011. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0005]=0D
+    JANUARY 15, 2012. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0007]=0D
+    JANUARY 15, 2013. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0009]=0D
+    JANUARY 15, 2014. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0011]=0D
+    JANUARY 15, 2015. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0013]=0D
+    JANUARY 15, 2016. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0015]=0D
+    JANUARY 15, 2017. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0017]=0D
+    JANUARY 15, 2019. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0019]=0D
+    JANUARY 15, 2020. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0025]=0D
+	=0D
+=0D
+---------- Forwarded message ---------=0D
+Date: Sun, May 22, 2022, 4:16 PM=0D
+Subject: OBSTRUCTION C16-93715=0D
+=0D
+=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+=0D
+=0D

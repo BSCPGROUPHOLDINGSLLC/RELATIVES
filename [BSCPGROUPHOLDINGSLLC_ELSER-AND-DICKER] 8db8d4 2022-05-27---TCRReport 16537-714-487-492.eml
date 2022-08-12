@@ -1,0 +1,85 @@
+From - Fri May 27 22:18:00 2022
+X-Account-Key: account1
+X-UIDL: AFc4SAtyq7BtYpGTqAs+6HX9ACU
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.200
+ by atlas122.free.mail.ne1.yahoo.com with HTTPS; Sat, 28 May 2022 03:14:48 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.202]
+Received-SPF: pass (domain of github.com designates 192.30.252.202 as permitted sender)
+Authentication-Results: atlas122.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 28 May 2022 03:14:48 +0000
+X-YMailISG: f62uIf8WLDv9xjhChG.XDZ3Kq9.xLXLq.a1X3OkbNY1WiQhF
+ b4n2E1h2fVL1jKGvdPlNJrZkj2LRjKVn5G8ItaPiNw0VWmeIlnIlpImZVwj6
+ bX3mqanoWS1ZbaoNmJu8Qq5y4QffUCw_2jeLTV7_IGqkYRMKwk7aASUT5Rc8
+ pDobq6qEBv7_WK9Oj5fRfB2DpegG5uPCgHhnBatTs2vtPR68aDazHfAPOia_
+ LhcpkZGfipotXmh.1_4bzsl4eQU0f8vWsz97OYLmiV5H.vR0_dZI68WpW8W2
+ _w4ePDwXMDdCwmJ8eOQ90o5A95oFNtXqlbWgEkTPvj5zQkyQQvwdSkHuz_V2
+ FGO8FNwGzahyLEFoq6.5mrKTKuBSCM7mcpSgvOrpp47J2OEwagapd58VLReN
+ Z3FQxSmN6dQw0rGz.utIkU3JOge_CznZWTqwROyy0u3upguP9F9V45eCc9cJ
+ Oe71dS.N9rj436QgVOeRU7UGL3rjxtHpvJFSxo4E8rCPnznrCNRs7J_1c06R
+ zlum_CU7ldpxGDsFMcDzsTm5vJp5aE_HTTyyYgGeDzPmkJQKOx8M9jKrg9LB
+ NGD4xTIB9Qvg2cQ7Y8HBud8lcVDYZxm3xAAzPGrYY3tUx5nXTmBdCu3Iaoz.
+ ljLds4jCSFq24Q1Jan.bVoMRHhYkQpy8e3wP.77OB4gz9lkQje_vuqq_NeNB
+ .ZDAdOlTHYaMT5wZQYBk6CMDVC87NwE9H6WXriw7ryk23CGuHHan49qeIcgc
+ Hn3vevZ55iEhfwhoybFpYDeSDH0p9nWf2TFGKxfLoAQfY_KczitQc0gwjibt
+ 9GMTWx2V3_QCPLujrm1fObXWkhhEKGPuZw2nbiWaYdh6jUfNBXy8ZfrhltbU
+ _hMffRtChZG7bqunrJBn0isuWD_o5wMUr6bXXi2Ta3A7UfT1m2AiFD6RkTC3
+ evfwAE0EqxZaHa3fQG78dhtfX90j02sG9M9im8ALzSV5kdzTp3ogIqxuVucQ
+ e.2iR.rpHOG1RYKzs8F1lBdXx7at_.D6NlYTGRbYtOtBYZza55kMbn8B05BZ
+ puK53B3mtI16bQTUQ3eBewJcmo00yS46ofey4wuZYK_30NGRDq7qWojqExK4
+ 7xoL0O9ltKoS.c8_NEIrS9GZ.jD_ipRUk9yndlHibKpGv2KdagASuvn67LZL
+ yyKVbFl7EaBiut.eTovbqJ9KiA--
+Received: from 192.30.252.202 (EHLO out-19.smtp.github.com)
+ by 10.217.151.200 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 28 May 2022 03:14:48 +0000
+Received: from github.com (hubbernetes-node-883db0f.va3-iad.github.net [10.48.210.32])
+	by smtp.github.com (Postfix) with ESMTPA id 0A309E045B;
+	Fri, 27 May 2022 20:14:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653707688;
+	bh=6t9Hxab7LQvCR+YtWXKzRfYEvItAIxyY8GEbR9NfJs0=;
+	h=Date:From:To:Subject:From;
+	b=XlYOg28iUEI70QDv2k1J5+Zjj9AIGTh+3yk2z2st7EgjTINpIdP2aypjcEXyv2C9S
+	 ZWllIDRu/EwbxOKnr4Xsd4F9xUtCxVZeO92Bdil9JUZhUuGeCw+ucZrC0A9OqPAxBM
+	 bmhEoHjlGm7YZAdvVGl0/vkg4pz7Ls4Bal6pZcek=
+Date: Fri, 27 May 2022 20:14:48 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/b5cca7-8db8d4@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 8db8d4:
+ 2022-05-27---TCRReport 16537-714-487-492
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 694
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-27 (Fri, 27 May 2022)
+
+  Changed paths:
+    A 2020_05_27 - INDEX and PAPERS.pdf
+    A RE_ GROSS UNDERVALUATION OF PROPERTY AND TAX FRAUD.PDF
+    A RE_ Guaranteed Prosecution..PDF
+    A RE_ [ MSCO in the BCC ] UNDISCLOSED LEGAL MATTER AND UNLAWFUL CUSTODY.PDF
+
+  Log Message:
+  -----------
+  2022-05-27---TCRReport 16537-714-487-492
+
+

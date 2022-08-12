@@ -1,0 +1,391 @@
+From - Sun May 22 19:25:57 2022
+X-Account-Key: account1
+X-UIDL: ACKTdqFDfOGEYorUjg7FQG9KtCI
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.14
+ by atlas313.free.mail.ne1.yahoo.com with HTTPS; Mon, 23 May 2022 00:25:50 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas313.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 23 May 2022 00:25:50 +0000
+X-YMailISG: MthIFYQWLDsT8FwZKuPHZQjco6PXOufw4CIket7s1jx3PbCc
+ kva0mLCFJga0XS9.tsFrmqShYKyjf7urSVds8TKiTSQDl8WL7xx2DPSCGN.9
+ 12c8s.LQM6FrBTMWz.Kx4ser9aZb7b4fEi4_fg9dY1e4mElxeejfb7ne4EE.
+ PZXb2UL7KAqaUxgIXjHdQTTi1RZC_rtq3UZbzaTmwm.x8b3Eg.O9oTg8YV40
+ iUt02Eb1MK3YLQrxEHgsICA4SB6xOyRkZkJ4_TF9p1fyClUYq8nsmJq6IHxE
+ NkN8YgOxMOpIS4txaw88y1LFiDtRC9m.KB2hwrEHPUuYTLz3xA5kp.MCS5rL
+ vHm9G66msRoH61O.rV44q9dPOlfiscuLINuNVEJvU_BC8IzKhg2wEAU2Z3Rg
+ he.WynHvp.xdGhoKd57_BCd3vS4X8iRdQ6LlallcVRd4CM8ykynFydnd8duM
+ 1V2Xyo_NPla81gdF4uH26R9svpP.XTlloA2NQWJBCUbwOREB2jWxxB1v9vEn
+ _ou5uCZaX3f9.3pVhLQH2AnCa7F.aE_5YpfW1zXhCx8v8h.N2sKj5_7ffw9g
+ 3aVbU2nkooYpwz2hGzCL_gisYsNN4tgn77KgGvKCBicAgRLEUwTY3SiAzoph
+ xdvBV48g5DBLUYozln.Ric86zSEE_9.V2Kp7ung0mtSsnAQh1zxoW2FgAmdO
+ LdIljg09iBSBqc6AtzR6t1Hm8g8EcdXOw89SVd24yDGy6C4xKPvQ13Wz87cE
+ EeVTtfmySui85JPwR9rUCYQUHDS.sTOTBq1z0xUVZepBLHxJEXjA0SOEmGcw
+ Iirdpw9PTYySUZei2jebOSFJ7RplkVGuvVUmAe_1G2FoV_Y7UHcjvavz86hl
+ VxpV4HVOwIt6r68vw5trs6maR7vLpQCX34thmKVEs5KF3GqT2UPYYONu9RBr
+ 6buqIeST9BbqcbBRK0ArxZTvuyO3uPuPARcERAzjDXAVOSjFJxANTR12uanM
+ yRVgbskp8RuJa0x82vdB0kbuCF4xM53NP6U3zMToFOqLh6dcSuGt3n.n7r0O
+ 1qKK8F8AHHAcEszs0JDg4Die_HVv925C7sP2s_YzeujRqPUosV1lBcRsv7Qy
+ lR.1bctXo40d3v64EqLkGNwAiJGZFtLpD6lrfgj2UdGXqgXqOSih8bKKFkCS
+ hORXKJzqprly8Eq7fygq4A--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.137.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 23 May 2022 00:25:50 +0000
+Received: from github.com (hubbernetes-node-adfa2fb.ac4-iad.github.net [10.52.207.30])
+	by smtp.github.com (Postfix) with ESMTPA id 25B9C5204C2;
+	Sun, 22 May 2022 17:25:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653265550;
+	bh=y40xOwT1XEgwY94t3ioN5h7RETJX6DJllkNrk2K+XdQ=;
+	h=Date:From:To:Subject:From;
+	b=PQ/uMiyDZ0oNDWT6Q6p+QVsZSlWgFSixKt7N/Txi8bwgxQO4aof2N5fqo/aPX9jm8
+	 5RUwb+Jkff3Pesbhp3dCBZc1kol0L1DK13aZJXRIAQ00dZzwoaeQrXSXg2OqmyoSIP
+	 cPFy8m5uY/2L7UL8QHJtlOmDBolsZB47HYsRyIgQ=
+Date: Sun, 22 May 2022 17:25:50 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ BLOCK803LOT11@OUTLOOK.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/80bec9-a931f9@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] a931f9: C16-93715 - 1516523
+ from 93715 ? ##1 and for reaso...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,BLOCK803LOT11@OUTLOOK.COM
+X-Auto-Response-Suppress: All
+Content-Length: 7359
+
+  Branch: refs/heads/REQUEST-TO-BAR=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: a931f98ab5e5dd9bd1b122a1f46b2022b6505e41=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/a93=
+1f98ab5e5dd9bd1b122a1f46b2022b6505e41=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-05-22 (Sun, 22 May 2022)=0D
+=0D
+  Changed paths:=0D
+    A C1-93715-msco-8209-14444444444444=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  C16-93715 - 1516523 from 93715 ? ##1 and for reasonable CAUSE - =0D
+=0D
+just like Shari right ---- the trouble maker who owes $500 million in bac=
+k taxes on 6 properties...=0D
+=0D
+look your 100 billion, doesn't cover it.=0D
+=0D
+- You fight fair, and NO INSIDER INFORMATION - or I'll knock you off the =
+BLOCK.=0D
+=0D
+capiche?=0D
+- swaps allowed, futures also.=0D
+=0D
+/s/ BD.=0D
+=0D
+gtg.=0D
+=0D
+you changed your CRD in the new filer BTW... let the regulators know to s=
+witch it BACK to the 8209=0D
+=0D
+=0D
+=0D
+Branch: refs/heads/REQUEST-TO-BAR=0D
+=0D
+Home: https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+=0D
+Commit: 80bec9c83359c85563c8847bfef867c4cdb180cb=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/80bec9c83=
+359c85563c8847bfef867c4cdb180cb=0D
+=0D
+Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com=
+>=0D
+=0D
+Date: 2022-05-22 (Sun, 22 May 2022)=0D
+=0D
+=0D
+=0D
+Changed paths:=0D
+=0D
+A 1516523-100-C16-93715=0D
+=0D
+=0D
+=0D
+Log Message:=0D
+=0D
+-----------=0D
+=0D
+C16-93715 1516523 [ SFITX STFGX STFBX SFBDX ] #1=0D
+=0D
+=0D
+=0D
+ATTN: STATE FARM=0D
+=0D
+ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710=0D
+=0D
+=0D
+=0D
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1=0D
+=0D
+** YOU OWN THE TAX LIABILITIES ON THOSE PROPERTIES --- ALL 6 OF THEM=0D
+=0D
+** YOU ALSO TOOK ON THE LIABILITIES OF THE "LEASES AND RENTS" TRANSFFERRE=
+D?? OR USED AS A GUARANTEE FOR A LETTER OF CREDIT.=0D
+=0D
+=0D
+=0D
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgey=
+zvA85ViWMmvfAQ=3D=3D"=0D
+=0D
+=0D
+=0D
+yOU UNDERSTAND WHAT YOU'RE PLAYING WITH - OR DID I MARK YOUR INTEREST EAR=
+LIER AS WELL..=0D
+=0D
+=0D
+=0D
+LET me know if your counselors have an opinion on this as well.=0D
+=0D
+=0D
+=0D
+[ C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION]=0D
+=0D
+ATTACHED.=0D
+=0D
+=0D
+=0D
+#GOCARDS=0D
+=0D
+=0D
+=0D
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490=0D=
+
+=0D
+^ tax receipts=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/comments/s7-14-18/s71418-4531826-176079.pdf=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+VIOLATION OF PRIVACY=0D
+=0D
+=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+HOW MANY FIRMS DOES IT TAKE TO LOSE TWO BILLION DOLLARS OF MARKET CAP - A=
+ND HIDE IT FROM THE INVESTORS...=0D
+=0D
+=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/3062fcf9c=
+989174cbc76ea0b7d8135cf32eef8f4=0D
+=0D
+=0D
+=0D
+THATS TWO BILLION USD.=0D
+=0D
+=0D
+=0D
+NOT INCLUDING THE 9 BILLION IN ASSETS UNDER MANAGEMENTS LOST, AND NO LONG=
+ER UNDER FILER 93715.=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+- PRIOR TO LITIGATION AND REGULATORY FINES???=0D
+=0D
+=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+=0D
+=0D
+=0D
+WARNED THEM IN JUNE OF 2020 - THAT THERE IS ABOUT $9 BILLION AT RISK.=0D
+=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVI=
+HKtnJU/ni/zvg=3D=3D=0D
+=0D
+=0D
+=0D
+https://saaze2311prdsra.blob.core.windows.net/clean/61f910a979d5ec11a7b50=
+00d3a1af965/2020-06-03%20Notice%20and%20Obstruction.png=0D
+=0D
+=0D
+=0D
+TRIED TO HAVE STATE FARM RESPOND, IN A CHANGE OF CAPTION, AND NOTIFIED AL=
+L RELEVANT PARTIES ON THE 8TH OF AUGUST IN 2020.=0D
+=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1Nc=
+BADqRc_PLUS_g11P4g=3D=3D=0D
+=0D
+=0D
+=0D
+FILED A TCR REPORT WITH THE SECURITIES AND EXCHANGE COMMISSION ON NOVEMBE=
+R 13TH, 2021=0D
+=0D
+=0D
+=0D
+[ _TCRReport (1).pdf ]=0D
+=0D
+=0D
+=0D
+NOTIFIED THE PROMOTERS OF STATE FARM ON NOVEMBER 16TH, 2021=0D
+=0D
+=0D
+=0D
+HOW MANY PEOPLE DOES IT TAKE TO DO THE OPPOSITE?=0D
+=0D
+=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/d7daa60e1=
+e93abf4098d905770c945a2957c46c8=0D
+=0D
+=0D
+=0D
+June 3, 2020=0D
+=0D
+https://saaze2311prdsra.blob.core.windows.net/clean/61f910a979d5ec11a7b50=
+00d3a1af965/2020-06-03%20Notice%20and%20Obstruction.png=0D
+=0D
+=0D
+February 20, 2022=0D
+=0D
+Your fax (ID: #30666994) to IRS CRIMINAL INVESTIGATIONS at 267-466-1115=0D=
+
+=0D
+" has been delivered successfully at 11:44 PM Eastern Daylight Time"=0D
+=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+> per the holding report filed by Terrence Ludwig, Paul J Smith and other=
+ compliance officers and Directors of:=0D
+=0D
+> State Farm VP Management Corp.,=0D
+=0D
+=0D
+=0D
+> I am certain those securities reported in the semi-annual holding repor=
+ts were traded by Morgan Stanley without any disclosure to other market p=
+articipants, which I understand as:=0D
+=0D
+> INSIDER TRADING AND UNFAIR DEALINGS.=0D
+=0D
+=0D
+> ## WHEN I am CERTAIN=0D
+=0D
+>=0D
+=0D
+> I do NOTIFY parties which in part is a failure on the PART OF THE CURRE=
+NT "PROMOTERS"=0D
+=0D
+> 1. to make these undisclosed / unregistered securities public and make =
+them available to the General PUBLIC for consideration prior to making an=
+ investment. =0D
+=0D
+> - and also in the Central Registration Depository by the Representative=
+s at State Farm VP. FIRM 43036...=0D
+=0D
+=0D
+> ## SO HOW EXACTLY IS IT THESE MORALLY ARE DECISIONS BY THE "PROMOTERS" =
+of a $10 BILLION DOLLAR "State Farm Associates' Funds Trust"=0D
+=0D
+>=0D
+=0D
+> COMPLIANCE OFFICER & TREASURER ALSO CERTIFIED UNDER THESE DOCTRINES HER=
+E under the Sarbanas-Oxley and the Securities and Exchange Act of 1940, H=
+AVE NOT DEALT FAIRLY WITH PRICE WATERHOUSE, IN THEIR CONCERTED EFFORTS OF=
+ OBSTRUCTION AND UNFAIR DEALINGS=E2=80=A6 HAVE CREATED AN EVEN LARGER PRO=
+BLEM WHICH I ALSO TRIED TO MITIGATE IN THEIR OMISSIONS.=0D
+=0D
+=0D
+=0D
+> WITH THE HELP OF THE ZUCKER FAMILY AND ITS COUNSELORS, THESE LOSSES WIL=
+L CONTINUE AND MORE SPECIFICALLY IN THE =E2=80=9CEVASIVE=E2=80=9D STRATEG=
+IES EMPLOYED BY THE COUNSELORS AND ADVISORS OF THE FORMER AND CURRENT STA=
+TE FARM FUNDS HEADQUARTER, MANAGED AT:=0D
+=0D
+> ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710=0D
+=0D
+=0D
+=0D
+> TO CEASE AND DESIST.=0D
+=0D
+GTG/=0D
+=0D
+>=0D
+=0D
+> 1. I REQUESTED AN ESTOPPEL: STATE FARM=0D
+=0D
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WAeCn=
+xmd/hcOI4eTnbig=3D=3D=0D
+=0D
+>=0D
+=0D
+> 2. I REQUESTED AN ESTOPPEL: THE ZUCKER FAMILY & ITS COUNSELORS.=0D
+=0D
+=0D
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3Un/J=
+aVXZwF7kvbaee4w=3D=3D=0D
+=0D
+>=0D
+=0D
+>=0D
+=0D
+=0D
+=0D
+It's all about who you have working in your best interests - you know wha=
+t that is right Jamoe???=0D
+=0D
+=0D
+=0D
+- You're traders have to cheat AND pay extra to keep an eye on me, all 25=
+,000 of them - but guess what.=0D
+=0D
+=0D
+=0D
+--- I can carry them too... ALL OF THEM=0D
+=0D
+=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/d7daa60e1=
+e93abf4098d905770c945a2957c46c8=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+* HEY IF YOU ARE LOOKING FOR AN EARLY RETIREMENT, JUST SAY THE WORD BUDDY=
+. PLUS, THAT NAME HASN'T CHANGED IN A WHILE HAS IT...=0D
+=0D
+=0D

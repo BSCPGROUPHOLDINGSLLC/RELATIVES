@@ -1,0 +1,108 @@
+From - Fri Jun  3 02:29:52 2022
+X-Account-Key: account1
+X-UIDL: ANpJavZTEwNaYplqjgGh+LLyY7M
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.243.14
+ by atlas101.free.mail.bf1.yahoo.com with HTTPS; Fri, 3 Jun 2022 01:57:33 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas101.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 3 Jun 2022 01:57:34 +0000
+X-YMailAVSC: qFweP9Q3bBuaXGcZuVmi81JrgrVkUlf2vUE7iLxdrWTltt2
+ Yc8LOT7J.A9opXhAMbBkYxhsaitPnSwWkH3VQ6zj4G0hsNgXmtUuRgUjzhMn
+ VB_A3z.poQsCD74zcVrUceriLlS2nfCEnFls7Xz4RkEswzEi5FL.X1DwYiLW
+ DM753lS.UkEk8GZfQ9mKESTswVMALF3vUxKtL7f1LWDWKmwSCTuOw7Dp4IVZ
+ bxwpREr45IO6WW_yzl3rCOv.DcyDh1sKsdRIkISxBBsdXX6n6z13naRdscoO
+ xqebhih3bAQofkKIuPSxjZgVIPBfKIEBXw8DIFbYrHdg34bBrqvP9q.r6ow-
+ -
+X-YMailISG: JlmfC20WLDtyRAt37BIOsi4wtrqZNC1kBT85cjRGkivECan0
+ 9YR2yLRchBWB98GqI44XsezAjxZLOGFIu9qnSrHhraAHfQpKotRElPHp5xB5
+ 8kbZrALzv2gCRDJ0M_BxCmXMTCid0NmV919NxohiZCFtnsG1YjG0mdnfwRJN
+ QUjpXDLikFPOx5WKpzqcdaPE9JJ4lMapCzxEJfvSejMODhXDM_TYtqhTlCEZ
+ MMnlSOaC8.QYzZQBbX3e2SCs1y.__2ebGxMXC4MCkoD1v.Yw7.8jahUgOcGc
+ L2apLWjdaXm.cwDULTsIWTj6MtlRnKhVvLthWRNhttsnUZYRg78GxRr11.Ej
+ 3pej9zkI7wW60Xx_PpqWMbfI1fzXBeMeojyxToo4nbHvKOSMoHniK6fVN84I
+ 9hbF8kabrfLTnx9t2.TsglrIJfKPoFb5o06JDK4dauKsN7f8uQuX3.61MlQc
+ ugEuWcIJpA0HXvuZ6M25j72ucthj6WDi9NO4aEIFmWjLKwQgXKc27PSewQgh
+ QLh.0koWZiwcQpa13GdoyzGhBsUjzSMNRi8DlVQiJxuT9.H7DbMSHNGmDirH
+ IYKue6vJWZ58HybTjtAviJ_0hGHsf6A4gP8xawCwReuG.vHB_7WRGWQsTu3K
+ 8mY_iN6R99AprubPuX1X8KeqAWV_xBJdwxPiZLA1zQl_1q6C1PZaGKkp2rVy
+ Fib37xaBZXXLIwB5IK9pqE7CgU5eYx_lUAyQSNP5w4jzFe850sXfBExZFRo_
+ C8IQJGYmlLlWfK9HSA7WINwtDec98z5L9rhsmlA5MlX4GccHyofRGah78yrQ
+ ZDSFhk9F7cUnhN_gc2RnbXkN2iQPSlnQQPObs32hmGBDMwQXF9IqyCvxY.f_
+ 2MTTUpDmzUrSlZZs9pj.Md1Ia2o3tuQfOe7Zxq6PJi2EXgepf5tf2eI3bwPv
+ GKieuF45Lx3.2.apQazrgfBOF14gyupgR__JV9h1oWhaIy4XQ.4_izEMdrTz
+ 22pMCvjw8YoNnDaR41EqErwQY_esTnTHXBMsfnUiOik8dfAsePryvgY20d.U
+ N_J.WtXsw58zJp4pvcjn1Zlc.Kxyk.ehGBdCDBj5BM2Vm8pYlHyDn1UJg7D7
+ i.kWf4wZuObs8_qsUlozp5XQ72ZBBqB.9mW8LUa3IcWWsGahBm0JKawJzHd7
+ jgisMELTSmcL4J1djFw-
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.196.243.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 03 Jun 2022 01:57:33 +0000
+Received: from github.com (hubbernetes-node-309f174.ash1-iad.github.net [10.56.209.96])
+	by smtp.github.com (Postfix) with ESMTPA id B051F84047A;
+	Thu,  2 Jun 2022 18:57:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654221453;
+	bh=DQV3rwmnYeQppWyVSuwAi9bSccBfDNHeollUYVoDy6g=;
+	h=Date:From:To:Subject:From;
+	b=eFG80JwN1c7OweF1V62hZ0vwrMCCpVh9oJT7xYfIJgVHMmgPk+7ppekF3Yi94Eetw
+	 pIkfMlJLhjfXlkWSlHbmofX0QYrV6GqWEqT1rqqbYk699ZwAjqa0CxjJ30IXpbLplR
+	 aiwZKQAktwRBzLNBDQiqNonjnlAAa1fUoPvnqGxU=
+Date: Thu, 02 Jun 2022 18:57:33 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ governor.hochul@exec.ny.gov
+Message-ID: <BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/push/refs/heads/C16-93715-1516523-OBSTRUCTION-WILSONELSER/21bd91-4fdcd5@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER] 4fdcd5:
+ https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION & OMISSION [ STFGX - STFBX ] HOLDING
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,governor.hochul@exec.ny.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1016
+
+  Branch: refs/heads/C16-93715-1516523-OBSTRUCTION-WILSONELSER
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER
+  Commit: 4fdcd5acadd437b88b256675629b66ac6cb7ea9c
+      https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/commit/4fdcd5acadd437b88b256675629b66ac6cb7ea9c
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-06-02 (Thu, 02 Jun 2022)
+
+  Changed paths:
+    A IDED-LIKE-BERNIE-LIKE A ELEPHANT -.xps
+    A [AIDED THEM LIKE BERNIE] CONTRA TO MSCO FOR TRACE AND MSRB.pdf
+    A _AIDED-LIKE-BERNIE.html
+
+  Log Message:
+  -----------
+  https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BERNIE(bcassese19@bloomberg.net <bcassese19@bloomberg.net>)
+
+HERE GO EAT SOME SPAM -
+bcassese19@bloomberg.net <bcassese19@bloomberg.net>
+
+https://github.com/BSCPGROUPHOLDINGSLLC/AIDED-LIKE-BERNIE
+
+
+
+WILLIAM THOMAS CASSESE
+CRD#: 3005576
+B
+Broker Regulated by FINRA
+ICE BONDS SECURITIES CORPORATION
+CRD#: 123635
+850 Third Avenue
+9th Floor
+New York, NY 10022
+
+

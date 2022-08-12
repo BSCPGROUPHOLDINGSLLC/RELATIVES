@@ -1,0 +1,174 @@
+From - Mon May 23 07:05:01 2022
+X-Account-Key: account1
+X-UIDL: AMuVAYkg9sRhYot3yQbZ6NFanuk
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.34.76
+ by atlas203.free.mail.bf1.yahoo.com with HTTPS; Mon, 23 May 2022 12:02:17 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas203.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 23 May 2022 12:02:17 +0000
+X-YMailAVSC: sY0BZz43bBvjyryVLqfxIze7kEjHSRP8El_tPelAjIFybot
+ yA3e0TliJCNMkkjasBvWm51EO2zSMSBPrExmrUJsD4jjpLgPLsArOqGxkFhC
+ 0FrB0frLqXtoDgcqyEfw8rg5IdynFUZOaIrr341A3M1RVv4MkMme4m4MMgCA
+ hyOpXa1ROM01ZelHBpwksWo8VXy7asXC_y8VU3cQZWmkMOcklcbxOkr1tZE1
+ YW5mK_ixKgPt6nlBcrCJVLDlRtMBxmL_DbustVPmuORPFSssyo_6mEEtEFVf
+ ldzFNnv2Z.o8avrf39F53Ascq7gxVgHu_fBkgfN7BKP1aU2TokmfBQVHsIQ-
+ -
+X-YMailISG: GdD1LnIWLDvOgBiU6_0J1_ADOgF_EF_FxYKkp4k6Usjqx37z
+ Y76eGFroHX2nfDuabZOKTmxaEkrrfjJlqbzPXM9f.9z8VelmDMBUISPITNfQ
+ h2zfsbnLn0_m0sfNBtTJtFE1a1Gbv7EVSfKa4C8pK2IfPZQrRxrwpu0Pkp02
+ CnJKeh97WojxquSIyO4J5_SSpsV_MvOYK0tFKLBaNYsI4IAAgi7KyyZia8aJ
+ 8Fo2eTZHUEk7MwUrkeSsFoaGCQH6sBV42ofMck3x9lHHDuYHaVeqEtCJapYt
+ Xg8KmGrssIVXk_hR1yXi61v4k2lWx5Wq9czNxUKrpqtVle23Dt1B4XyMqbhU
+ YCM9B8_1Ut_AGbFd1j32N6nBdUuABo6Pl.Qi0WxEsxmL4_Oz4fZLeTI7XYHE
+ fd2nYdIVxapgI_KyDjzQiNqRF47EH1H8tGnKXpkH6r1w9ww3VkfeEQsfVHym
+ 6Rovg7OnzOhKB4rCaqAd8dNymMeqVQKasK5ZuRXj92FVRY4SfvgesTjhpIR.
+ X2FIn4wbEfWv4h8RWQ.KyKVlESHy6YPa6vqhPxjcmPgrsNfUNzy9KDDGuwbh
+ hAxjcAcsud3NTWQHOQl.PYEYU5_7srzPXWPoxbWCoq8_AteMrmrayG3tp2fZ
+ Uq4RtEJz_P99UivRpQ84KwPCl411UBTt5puVaBiz9it.E863YK4Fxnol5B2X
+ g_K6dJiD9ijuG4ZvS5DDoKkTSfyewlBKgOBU_bafkExVHY5rKr1tB_BYef1Y
+ iv42fX2sJ7IjzeCBFV6ar.qhM1SsbkURcLE8T05h0mlcKVqWjWh5XTedPJqx
+ OM5HqC6Oi8ejMLZ0btb3I3EuofqTE5SQJnqX2Ff3XnlKgmq97KLHn0EySklH
+ gZpUReb3DK3cL7wWJlVbHvn6RndP9g2S9NfrnrFXCytXfIp_jhLFQSpZ9LQF
+ 36imFUAawTcWQaf8ZvSWl4BaDBQLFC63JfFH_dA1S38.jOzmMKab.LxTfY3e
+ Zacdddftdb96OouE6JsWYsAy5jEbHrVVGHMA9scnT2Y6jyG._iEf3yAOOtTw
+ vc8ntRdXVWy_wlaM.yYgNOdvfc0eF6ptKepk3sjotDUfpvByDgPgTH0pxveN
+ QR1FrQ5gnZw6slgAtMwn6PITQdVyeVyxhEG3j8xXrLZXcnqL7PalF47aQ5HW
+ kdNgO6sKLm81ECCWDzlHmaxWuSg-
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.197.34.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 23 May 2022 12:02:17 +0000
+Received: from github.com (hubbernetes-node-364c5f9.va3-iad.github.net [10.48.125.69])
+	by smtp.github.com (Postfix) with ESMTPA id EBE6E340BDA;
+	Mon, 23 May 2022 05:02:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653307337;
+	bh=RA9in9LO0VdTNhY/UPwutW0GMBMixg+elGOGUOqQxIM=;
+	h=Date:From:To:Subject:From;
+	b=vDNkkFX5gEQVY9sH+dvW5zzwr9FRpoRxNi4PlPmqeMqMg0wrocXQ9Cqfmy5F6fJa+
+	 Oc3zI4anlCSW8sgfiwRjQdxS+dosb+cjXO+vSaB8s9d9zIoPan8abDHd2B2YGHlWLn
+	 ewQBMfZpZtIYXGin8I8bCvGRMc39ri+KTq8TCjNk=
+Date: Mon, 23 May 2022 05:02:16 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ BLOCK803LOT11@OUTLOOK.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/93715-CS16-93715-153974/562488-c4c86c@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] c4c86c: 93715 --- nov13 and
+ Dec18 2021 - could have saved ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,BLOCK803LOT11@OUTLOOK.COM
+X-Auto-Response-Suppress: All
+Content-Length: 3078
+
+  Branch: refs/heads/93715-CS16-93715-153974=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: c4c86cdbcc0e0fa3ea2869b7cf97d6fb393ae7dd=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/c4c=
+86cdbcc0e0fa3ea2869b7cf97d6fb393ae7dd=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-05-23 (Mon, 23 May 2022)=0D
+=0D
+  Changed paths:=0D
+    M C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION.html=0D
+    A LOAN 50074 - C16-93715 ANNEXED IN 153974 CARRIED OVER TO 1516523.ht=
+ml=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  93715 --- nov13 and Dec18 2021 - could have saved about 1.5 billion dol=
+lars by switching to BBO.=0D
+=0D
+ATTN: MR. MOORE & CO.=0D
+ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710=0D
+=0D
+I REQUESTED AN ESTOPPEL=0D
+--- --- TO CEASE AND DESIST FROM ALL THE ACTIVITY=0D
+=0D
+addr.: STATE FARM=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WAeCnxm=
+d/hcOI4eTnbig=3D=3D=0D
+=0D
+addr.: THE ZUCKER FAMILY & ITS COUNSELORS [ all of them ]=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3Un/JaV=
+XZwF7kvbaee4w=3D=3D=0D
+=0D
+NOTWITHSTANDING FOOLING AROUND WITH A 40' ACT MUTUAL FUND.=0D
+IF YOU ARE LOOKING FOR AN EARLY RETIREMENT, IT DOESN'T HAVE TO BE THIS WA=
+Y.=0D
+=0D
+PLUS, THE NAME HASN'T CHANGED THIS YEAR YET - AND IT DOESN'T HAVE TO....=0D=
+
+=0D
+TWENTY-FIVE MILLION US DOLLARS, UPFRONT=0D
+=0D
+AND CONSIDER THE MATTER CLOSED, WITH THE IMPLIED "COVERAGE" THEREAFTER.=0D=
+
+=0D
+WITHOUT ANY LEGAL EXPOSURES, AND WITH MYSELF THERE TO ASSIST YOU PERSONAL=
+LY - UNTIL THE DISASTER YOUR ADVISORS HAVE LEFT YOU WITH IS CLEAR.=0D
+=0D
+UPFRONT =E2=80=93 THAT IS MY COST, UNLESS YOU HAVE ANOTHER PROFESSIONAL T=
+O DEAL WITH YOUR COMPANY'S AFFAIRS LEGITIMATELY AFTER THE FACT... AND NOT=
+ THE KIND OF PROFESSIONAL THE ZUCKER WOULD HIRE TO WATCH ME IN A HOTEL RO=
+OM AT 5AM - JUST LKE THE ATTACHED FILE.=0D
+=0D
+A BETTER USE OF YOUR CREDIT LINE ANYWAYS, FOR ALL INTENSIVE PURPOSES.=0D
+=0D
+TIME SENSITIVE, AS ALWAYS.=0D
+=0D
+/S/ BO DINCER=0D
+=0D
+MS60710444266@YAHOO.COM=0D
+BDINCER66@ICLOUD.COM=0D
+TEL.: 646-256-3609=0D
+=0D
+CARRIES OVER, TRUST ME... I AM NOT A ZUCKER, AND THEY CAN NOT AFFORD ME -=
+ AT ANY PRICE.=0D
+=0D
+=E2=80=93 YOUR $25 MILLION DOLLAR CREDIT LINE IS GOING TO BE ENOUGH TO CO=
+VER MY COSTS TO REPAIR THE FIRM.=0D
+AND FOR FREE OF COURSE...=0D
+BUT ONLY AFTER WE SETTLE.=0D
+=0D
+https://www.scribd.com/document/386161673/Bo-Dincer-New-York-City-Fixed-I=
+ncome-Trader-Baris-Dincer-Maritime-Capital=0D
+=0D
+https://en.everybodywiki.com/Maritime_Capital_Partners_LP=0D
+=0D
+#GOCARDS.=0D
+=0D
+THANK FOR REACHING OUT, HAVE A GOOD NIGHT -  AND SORRY I WAS WORKING HK H=
+OURS AGAIN.=0D
+=0D
+  >> OUT OF COURT SETTLEMENT PRICE IN US DOLLARS $25,000,000.00=0D
+=0D
+ WITH THE IMPLIED "COVERAGE" OF PRE-EXISTING MATTERS SETTLED=0D
+=0D
+#1=0D
+THANKS DAVID FOR YOUR EMAIL AGAIN MR. MOORE.=0D
+=0D
+=0D
+/S/ BO DINCER.=0D
+      you know what code to use, same as last=0D
+      646-256-3609=0D
+=0D
+#12-12.5858=0D
+=0D
+##1=0D
+=0D
+=0D

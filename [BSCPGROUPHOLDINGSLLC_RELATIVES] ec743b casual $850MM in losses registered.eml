@@ -1,0 +1,120 @@
+From - Fri Aug 12 02:26:34 2022
+X-Account-Key: account1
+X-UIDL: ALlbhW80it9jYvX/MwkIgLV1ieA
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.76
+ by atlas323.free.mail.bf1.yahoo.com with HTTPS; Fri, 12 Aug 2022 07:20:19 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas323.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 12 Aug 2022 07:20:19 +0000
+X-YMailAVSC: LYzTXZ83bBsHGi2wzvjeZ9_1sttMb7Ky8yPKGZdZ021LSWP
+ X992c5eK8Gw_SqHZDam8iX5aS_0Ce3ceJrlx6y3Yx2XJCypGIhKk1F25EQbH
+ v5Xq.GkQ7NqHKftmYR9NizjwoAjmO1PqYmIwL1u8kaAOtK5SYtp9.WP7a2l4
+ pIWpF8hb2hhjrzdQ12BfGYYerH5IzJMJGL9ysBdtvO41dBZ2HYeiZzfu4Hc9
+ im5cqNAcBA1w6eQ.pqJi73rAEVpi_V.Tu5DFTZ2qrC_4P110LRIRXD8gGCAY
+ qPbDZ3mdOzn8S.eoWKy04xqG0WMeo_7m4gW4G4Fn.EnVOnS57AeUU0D_4rhf
+ t0Z0D0_c4MLM726nwZjxlV3f8rZaE6HXtkZp0PakKDfCruNViNXqa1dlvS.c
+ e_aAuKmCRg6xgxGNOUk0KSZpHntrqb9ZD.fwbVNkEtuah_C32JbEIe49WEhD
+ nn3vAaXRfPKf.EV3.nuMgwL6aB0lJmwYfxIdJRJh4CktOc5kp6YysQ1nLYka
+ Vl_Powh1_1DWiDRD6viJg1CmiaE63feR9vWg4lyQ5ujNIS3Ew9K03MYdf9vx
+ mBFBUzvdrE2Uqdwjx4Glpg8eQzOW5YSBcECV2H7dQuYpALBZcXinScAUpD8Y
+ wN8Yyjgoz3Fw4H91ebTfevssbKokt7bL.LsotBNgavxxM3jP2bhHeFxs7zAk
+ 3QzVqHkmf2wlZTE8tiFbmuLigIXdrbikI878T685kEkqyuHfvFQmD6bk0h1d
+ KRz1OsBILBqXCi1Qw2Y4TUk5b3PVblCC5ExfxWRUQ9RFIxaLjLm1zynki9Qv
+ C68P6bC6rEDcBCLertkXZq8b32ZdXigz8MJT62X9Ltiflbc.gfMEJWfO5n8C
+ yRRGWrVWb7r9CJqOQ0YCBRSnB6Vv6tJa2XZEWbee9AWnS0kTDE2s3rBPdv2b
+ 9AgKjZWoa6__e7y2D4A84PcON3L38.hxBo59RuTgTcyo0oBjOOg9fwFfJEN9
+ gein5ERFv22Mq2sF5gk3tEAOYHYRIUUA-
+X-YMailISG: IxSVnHsWLDuFZ2gDkh38NQuW_1VBrRtf7FikPOJL4Y2nDIeq
+ mIvCv.czhTJUXuvgCtevm1E6NM7WoYFjr9glda6uI3RWv1dsI2u.dcZySYh9
+ nrBaypU7UOrCMICH4hkk.d6PG5QQPcRm0k4mABiKxMhUmPDfIJ_aqAPNWEI1
+ UjX0ESGfkLlUpYkezgJiI.rek9OMwylb8bTeAYxYgUwGHQu5LSUGfVtldwUc
+ mRp2nLfotPyAv.6Gcen_V.QToSk8.QLr8Uu6dt7Fzo2kfDsOMHh0906cRapu
+ z7MpoRrWtbmNsBs5bdpjVDBpwRcXRNKie6Pbmh005C0YFpGt5GWqYiGux1mw
+ jcEMimmfbaLkfC1LPc.orSWmB2l50bUfE0gRXXguulf_LqWXpxRIz6c2JTJO
+ Co0Fj71OO_cLizNg5SsSQkn2sxRMdxqxkQ2_4DMh2EqsmEB3hcrEWE8SGuQr
+ drx2kx0_zmQnjBATz2N627U498mu3Lyjvl7T.r9wl61SeSegjKHaFyrnPUKL
+ LEZAJnlsNFM0g8bMnBwamP5oOSQsoCSnC8t5TV31eWO7uxYM9w9hR3PxE_m8
+ zrwTmVdfGXbseU69NVAcKw0HwK60V_P4echG4_InvTdHvjBZ8o2wCpMruzwJ
+ .dwMqVjn_zkb9kHjzgMuHz1uAaYLcpGpOP4Yo8CW0XV8ec1voWWFnxJfqcWC
+ WJ0AYmXALMDMreJskp2Lbe8qojHezd6or6vikxZce2ZnwIIVPu.R0i0Zg3ou
+ WmkufWhM8H25..Y0b34o3WcNTw79E2Ov1e60LR2RBq6wOaUtb9eM2CCNoPCg
+ OzukxbwINDX9BLrOnPZF58GDVyYGq17c5.hA.3pAay_BzTLPZbXD9PjjwhpJ
+ DuJhEg18B9ByniK4mo2F.C3bIdxSgXz.1QAG8GdQeyfLofqeqGW20usJd3bF
+ 8N5_ciImg6EZ0.fESTg948SccxQ5DrN24ERnLk8t_ElLf3lDtNDNH_34htsm
+ G.8SBm770Ix27h6WjhOvRJYSI8Dhi_u16U.Ti83RFRlEomJaLE6QYrxleC0z
+ dZTJUKRpr2J0yP_O8uzPhlUQ6S604rE5c4g1X5g0.hn6mXX1I.I9oeSo3Czg
+ QHOfkvKGCLVOWZleK.QofU2KeccxwjqLxxv._I_317J66qAh3xN6kPmAiGGr
+ PFusl6FfDfvLkvribqrbqKyqgjBQDQ--
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.197.36.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 12 Aug 2022 07:20:19 +0000
+Received: from github.com (hubbernetes-node-110df47.va3-iad.github.net [10.48.125.114])
+	by smtp.github.com (Postfix) with ESMTPA id 2EE0B3404F9;
+	Fri, 12 Aug 2022 00:20:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1660288819;
+	bh=rUhq5gBrz4lKuX0jSbjdjzBJI6g6ZodjQtMexnYEoHA=;
+	h=Date:From:To:Subject:From;
+	b=fqFGmp/UquwzBNuiiKTaCePi93Yao2Kvu49c4S4HXeq+xZYWxZa/GSXYtAmfmCmWJ
+	 +qjXkXbtMMQASPAtmgjRx8UJxUkO+d8vg6IJ/lcODu7yfKehGNpbWkSQ3qJ+cevf0T
+	 6ijWpRNSmNTNjCgzf2EaP2P9u/5uwvSHxhKP0Qws=
+Date: Fri, 12 Aug 2022 00:20:19 -0700
+From: 1212-5858 <noreply@github.com>
+To: helpdesk@listserv.leo.gov, 
+ ms60710444266@yahoo.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/RELATIVES/push/refs/heads/main/cc1f01-ec743b@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/RELATIVES] ec743b: casual $850MM in losses
+ registered
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: AIDED AND ABETTED BY LEWISOHN LOAN 50074 #90849565
+X-GitHub-Recipient-Address: helpdesk@listserv.leo.gov,ms60710444266@yahoo.com
+X-Auto-Response-Suppress: All
+Content-Length: 1396
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES
+  Commit: ec743b6e31f830e449c272bace66f7f031bea751
+      https://github.com/BSCPGROUPHOLDINGSLLC/RELATIVES/commit/ec743b6e31f830e449c272bace66f7f031bea751
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-08-12 (Fri, 12 Aug 2022)
+
+  Changed paths:
+    A 04.12.2022.151652.ey.pwc.msco 1516523.eml
+    A AA-CEASEORDR.pdf.eml
+    A Fwd 4-4-2022. Dispute number. Hi91831882.eml
+    A Fwd ATTN Brian Hodgson, of State Farm Life Insura.eml
+    M Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Properties LP. [ receipt ].eml
+    A Re A casual $850MM in losses registered...-1.eml
+    A Re A casual $850MM in losses registered....eml
+    A Re [ 1516523 ( ) 93715 ] #143 --PTS )+1. MTA-ID..eml
+    A aa-ceaseordr.eml
+    A door-221606_gallery.eml
+
+  Log Message:
+  -----------
+  casual $850MM in losses registered
+
+Re [ 1516523 ( ) 93715 ] #143 --PTS )+1. MTA-ID..eml
+Fwd LOAN 50074 annexed IN 153974_2020 State Farm and Sullivan Properties LP. [ receipt ].eml
+Fwd 4-4-2022. Dispute number. Hi91831882.eml
+door-221606_gallery.eml
+AA-CEASEORDR.pdf.eml
+aa-ceaseordr.eml
+04.12.2022.151652.ey.pwc.msco 1516523.eml
+Fwd ATTN Brian Hodgson, of State Farm Life Insura.eml
+Re A casual $850MM in losses registered....eml
+Re A casual $850MM in losses registered...-1.eml
+
+

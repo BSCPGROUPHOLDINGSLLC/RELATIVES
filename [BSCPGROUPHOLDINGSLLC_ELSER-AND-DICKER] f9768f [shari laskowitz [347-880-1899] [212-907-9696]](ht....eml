@@ -1,0 +1,95 @@
+From - Sun May 29 11:38:54 2022
+X-Account-Key: account1
+X-UIDL: ALnV3x9149IwYpOg2QFrSHxUvn8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.145
+ by atlas311.free.mail.ne1.yahoo.com with HTTPS; Sun, 29 May 2022 16:35:36 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas311.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 29 May 2022 16:35:37 +0000
+X-YMailISG: aUykvu0WLDsKfMI7bbw6supAIn3aEjFBoOY95cUAQhmS5gVx
+ mlF8REBY7FIPP154ZIXDs09UNBC8tVApnw7FmW0aR9TE0H8f3p6y5Zl8piDv
+ 1.Bd7c5Db.5ZziSbf6clZGRLoZSy4QQlvZX0qwDvj49iTLaYkxJIPDHZaVzj
+ oB4wqcBPamcgyINTJZ0rXATM5htj4fxJ0yDGIoA8UHnH3mpw1Q2ogyY5F0pd
+ 8mKTvbdPYDp0IiTc8vnSeBpA1ES5vcGIqTmClCrYH1PsaC17OhYX7jN1mTjN
+ 9t3PZvgFJG0NzknVteFKW5wFfpNpMgy.YvmP29j4neEz.cuFlVdKuOGAyQnk
+ pmeQHIpLQN8phw51EOGzpBIALXaG5G2OPuiR5tIZuL1Omr79tcgQQ7g_SjRN
+ kKS0JX6AYcsg6aGX.1DgzQogsrHtrqLw9uNZPBUsz794EvtY0RX2SrICyjCr
+ CSgTx8mgayEI1uF.YO8_.l3hNweAmV4wfhL3dmZXK_tT42rqSpRsS5n_ShSd
+ U1xyroLweh6N.ot89OEzAhVGc6yVv9GnK9kGV5B5doxjGrsSsJVo0WoaFfWq
+ 6N3XfrVEwgVE.j0XNmQrdoEfR2M0vJF9FJGSIjWGARFxUvXelAWd0tspFc7k
+ sab8XxmLHuD3IvtPKoZjZkq1s1idXuYXoqugWB87sIWPehyVmlsEAniGd7xO
+ A29s6paO8dtTrLTH.f9WDotNRQQdjwxMKZ9h7P2csYqHL_EC9oL571gVYzaK
+ y5kFchpK8_QFayjIYWivqgMiYWyow8pgeRybY2uQBvvfqeWmEczQCQYv.0_a
+ Q4NwYeB3VNcT7TR9VhV2xAQOVDGKjNgKz6XtxwAzYwPfxmb9y5n1bPxKptp8
+ 0SPYEz8I_MYf5kO8tUPT06qAAkO8FYtyjsIBsgYJtPdZ_pHmyx0VZ6WYpavu
+ fjS7qpJKKfi7DnZ.0dn2Ipza03_G4A3HYT4Xmuk7EuS.j6zYXfT6howq6oLc
+ AH.esJ003SoP0RVkrQp9JyGxuv2PoyWf5j5ZSvV0t2IwYDZmBtvTsQAr0OPC
+ MlzVu1zY1byeXsP11632XwPIktyzSe1NSq5Qyutf.uQ8Yh1uctOz71PvKLTp
+ 7cKyqTeNBPjqZvr2ipMSWTrGupPXluakJnz26kl_9w3xHOokkNWF1wBYR7u4
+ Gokc5baSR_09t0DMlRk-
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.217.130.145 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 29 May 2022 16:35:36 +0000
+Received: from github.com (hubbernetes-node-3a9f456.ac4-iad.github.net [10.52.201.38])
+	by smtp.github.com (Postfix) with ESMTPA id 3274F720B72;
+	Sun, 29 May 2022 09:35:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653842136;
+	bh=ZOy0ESDchi/oguVSb4Rs8pTGs8j+R5apOyTstAZJCmY=;
+	h=Date:From:To:Subject:From;
+	b=iCRAwhyKvKAP7MzMQA1de5ECHgJgNXaHIarYde3TTCqxmBFJGMIAJomGD8mi4Y6pp
+	 NJh99yFXU0TBY8TYRXPZRE/lwG9RHZ90vr4hNUw9xYrujee8a36nNUlAvQZdzDdRl6
+	 vsTcblubz9+f9xFLWrDOEtold2pcXzfYdWK29Lno=
+Date: Sun, 29 May 2022 09:35:36 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/d57082-f9768f@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] f9768f: [shari laskowitz
+ [347-880-1899] [212-907-9696]](ht...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 1215
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: f9768f68355ea015fc50fce1d53a61170d18d6cb
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/f9768f68355ea015fc50fce1d53a61170d18d6cb
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-29 (Sun, 29 May 2022)
+
+  Changed paths:
+    A (PS-Investigation@facil.columbia.edu)(crcmessages@ftc.gov).pdf
+    A ---2011 117 SULLIVAN STREET BILL_Page_1.jpg
+    A ---2011 117 SULLIVAN STREET BILL_Page_2.jpg
+    M C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION.html
+    A DOCKET 00048 - COMPLETE.htm
+    A DOCKET 00048 WILSON-ELSER-DICKER 007.html
+    A DOCKET 00048 WILSONELSER.html
+    A LOAN 50074 - C16-93715 ANNEXED IN 153974 CARRIED OVER TO 1516523.html
+    A shari laskowitz [347-880-1899] [212-907-9696].jpg
+
+  Log Message:
+  -----------
+  [shari laskowitz [347-880-1899] [212-907-9696]](https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pull/1)
+
+[shari laskowitz](https://github.com/BSCPGROUPHOLDINGSLLC/2021-DUCKER-ZUCKER/pull/1)
+150 EAST 42ND STREET NEW YORK, NY 10017
+ MOBILE : [347-880-1899] 
+ OFFICE  : [212-907-9696]
+
+

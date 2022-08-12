@@ -1,0 +1,106 @@
+From - Tue May 31 16:50:32 2022
+X-Account-Key: account1
+X-UIDL: AOb5N/pqkJCiYpaLlwb5KKmVIJ4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.88
+ by atlas306.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 21:41:42 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas306.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 21:41:43 +0000
+X-YMailAVSC: ousI0x03bBtmvTMQo0_dwpjacWKszAzDdwvEH69HZu0DcVI
+ YWrVwuw9lcTO.KhJ443bXdfqCL8O.9Jthd4OZP2Ma1eyIuC34jXFXBJU3A.1
+ fjxt0LRaoJjrQsuIHJXvcpgfsAnsb9rMPisqTklD6.IjcgR.qKhl9J72WS.j
+ 8EZhIYknB8cWe99t0t9MbCagTbEnO7ICL.SeSOspn3sxNhi7jHzmIbuyoikI
+ 7HhkzaFwwUwJHqyNGvLm8nVE76Bgbdkj.rW5SzTJOC9C.GAcEodc3DKK.eDX
+ 3NLPyzHi_LkrIJ6axQVvukwpEfxbhApGPRSG1sA3x0e8zL0tonw--
+X-YMailISG: SuRNv3AWLDtvQOccZqDKQ7bfY6M52Bs.Pkb2wuOR4Ot6dWFy
+ JrH9Xq0qqmYOvLUyKP_3Hly2wrgvbmgJUqQ1JSY0AxKG0wThy0lG0s_1qVQZ
+ C_rQvjRiHW.Mc9WLeHMFaIcSAZazac6P07tls2g7gB0.osqML7uFqbTwFd6P
+ aBF04jXigg2WMy74.48WQMXsJUP9pmMLodOA7A52QY7OBqGWyzr9cWTB_43J
+ aIDw1f6mpVUUukKZluGELR90B6Wb2_DSaedY1Cn2GDH6R8b9iBEVQ_OSpBNG
+ mdBuo_KdNkvXqnih99xY1YhoqYC61Z_w5IVyX4hIH52inafY8fyVPrxWFL_l
+ jFrDVGVhb19Qj_Z41eaHzoM7nt0_f9FD8S9VZvgwSH28UXdwk3rBNfaSv1.Q
+ CcOIt5.QqVsI.d0Cic21rhBBExtQgXc7RbyAs66U5By7jPSMDWZTFQplknzL
+ 4br36ZU8MdA8FJPS9gGAPYzZnUMBfCjkBe1CVJ7PV_0KCeqTgp2yyj3gzq2t
+ aw5XXgDb7vErW4G4_377MDzRz.eF_JuWIUhEUIj3gBoQE_FDMkQWNFgJuy8C
+ CthG._r0AHV9rmBOuGdp4Umj12UE4aBun4dhRqr_gxgBlW_vusRVfJtHQDDL
+ f.TymHigfaBlZjtyjnUtt2qlOYY5eQt64uKBeLMopZII2LstukJT9EfvQVHO
+ e7BTLvkgGY0T8RVeBvaILQ9dyeBLsADqs4eEhg4t3nvE5CRtjCiICBPNVXqo
+ bpddoJNZnoG6BZHlERE4CxJ2cjzqbYWu_VsYpxqUhREN4QhOevVwNX15KDPT
+ .632vERo8Dkrh.hmDwFXU7xAvC6mJfggFUrdWmUzn6Cx4Za8wzUMy29QYHdN
+ QlJKxZfk6gaVPXLOTU3AHZGN2.O5nP_6Kz4JW8KCLfQhFllLd9FgRuon2AAh
+ 6JhIUYHbiWyJGaaD6vjC_F0HeQWi_1cbU1laLsXFEMSDlHzGz7WNf7Okhm3E
+ FwP0S9x3VNQzJOeLfZA59k6vEDSwycemoeLSFpecnpO0NbxRMOKZMxpEnld5
+ jE4vC7G8V0XiBr85xshziCVe6LYx3ckV0bGzcPxJdtTezYxhnr76CaS2J12J
+ 8XWJT.JvH4M5hSBDI2NsWbcSYCk1hvnNdF2.EsnXA4ecJQyJ71aTfkKPgXBg
+ 6WWHme5HoUxiOjZ6.jSrnOUC2w--
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.253.31.88 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 21:41:42 +0000
+Received: from github.com (hubbernetes-node-3971517.ash1-iad.github.net [10.56.14.40])
+	by smtp.github.com (Postfix) with ESMTPA id 33A5A5E0574;
+	Tue, 31 May 2022 14:41:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654033302;
+	bh=hTiGG/qaL3Lu2rNw2WpLa0VMlycttrFbSol6bXdgxFY=;
+	h=Date:From:To:Subject:From;
+	b=1zIAO81CJbK2UxsAeNAg7woWvN3B8BxCvoVBciiTgiUC8gCa9piL5c8JYeo6Rb05l
+	 buFQnh7lZm0JZM9aqCh1C1jDjrn5KyHpnj28VZPEqlwhtU9WFHQFE8z599RhrNsCXr
+	 nr4VP/488WxBK8FmsOwHkSNjSF0WTJkZFlRmeGbA=
+Date: Tue, 31 May 2022 14:41:42 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/ca7f2b-8fd913@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 8fd913: *** OIG OVERSIGHT &
+ REGULATORY OVERSIGHT IN THIS M...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 1721
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 8fd9139cc3bdad2659cd0271280b3315793bd6b4
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8fd9139cc3bdad2659cd0271280b3315793bd6b4
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A [00312] - LOAN 50074 - MEI 33298935v.2.pdf
+
+  Log Message:
+  -----------
+  *** OIG OVERSIGHT & REGULATORY OVERSIGHT IN THIS MATTER.
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commiAt/35b3050f3e7858ddd8141fb86ebe43dceb017f6a?diff=unified
+
+[00084] -- 21 JULY 2020 --- CEASE AND DESIST -- CAMERAS - NYSCEF
+[[00084] -- 21 JULY 2020 --- CEASE AND DESIST -- CAMERAS - NYSCEF.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8809555/00084.--.21.JULY.2020.---.CEASE.AND.DESIST.--.CAMERAS.-.NYSCEF.pdf)
+
+---
+*** OIG OVERSIGHT & REGULATORY OVERSIGHT IN THIS MATTER.
+
+[https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/blob/d063f31de922131c325466d9cdee3c3109bc6e2d/MS61701-OIG-oversight](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/blob/d063f31de922131c325466d9cdee3c3109bc6e2d/MS61701-OIG-oversight) [ URL ]
+
+** LETTER OF CREDIT ANNEXED IN NYSCEF 153974/2020 EX-POST.
+
+---
+[ LOAN 50074 -- 382 MEI 33298935v.2.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8809575/00382.-.LOAN.50074.--.MEI.33298935v.2.pdf)[ URL ]
+
+[https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8809575/00382.-.LOAN.50074.--.MEI.33298935v.2.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8809575/00382.-.LOAN.50074.--.MEI.33298935v.2.pdf)
+---
+
+

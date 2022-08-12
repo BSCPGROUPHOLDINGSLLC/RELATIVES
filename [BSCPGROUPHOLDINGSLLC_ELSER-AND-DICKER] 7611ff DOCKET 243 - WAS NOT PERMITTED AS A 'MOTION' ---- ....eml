@@ -1,0 +1,106 @@
+From - Tue May 31 16:50:32 2022
+X-Account-Key: account1
+X-UIDL: AHgJgvdi4UXXYpaNMQ11UAFexzM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.50.154
+ by atlas316.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 21:48:33 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas316.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 21:48:33 +0000
+X-YMailAVSC: i2k6Ffk3bBtaBtJHxlG3PCX3eAXMVX1F82oHn9q7P20daQg
+ DOSqiPZ0EPotbldr5uwe7dOerLl4ki9aCcnZ4tixDFeWY3djd.G0geMtUfwa
+ sFsAYNsPKfAlbd8QmwD0w76RPhGp2g2_2fJ3rMWh0mZnlMSvEBDGD60i0BWo
+ 4xw.5w_St2e_rAzkj8laUBm_7wumz08AX1J2M9sz6Ua2EW7CUMlPbTzsX.k5
+ lm07qzrNFMXraiAVTIe6_SAkfE0bcFRy6I29e5u9_bepgqdJr4B6SaBbLpXk
+ Q7iUOgbbecNHguM6_lgxoniJS.0SQiuI1Nd8ZZscPTvj5Ae4rCEtPZTG69Q-
+ -
+X-YMailISG: Q9FHswYWLDvQCze_Oonn7HSgjHM2OuOCsXhWC_OxRAFPa6Cu
+ fXUAXLkTegPAYCOdWcf7TrcJI.rylhejN8nVsQ_s7fenpzcna1NF7LYlq9n9
+ awCF0z4lXNwg2LD3d9QS7VjPfn7pa4WHZnr94xxUG43Z_GEhKCbgeUIJRmsr
+ QH5N2EKXzxY2EEcydvZ3WKQkpUNbzVyci_QoeJoVobv4kAXN0C87DX7ZDJin
+ bdukXQd_fYDgSn23OyPXnFf4rL8fEMbr_PcxBLWwO.8jzZf042GR0uoFQ_vL
+ xKuH6ru7b8ReMfUvwe6QOQ2czbxHrxbu8eNOOnh_bN4uuMO3uJsbYdQSDmUk
+ zgAUA.DtFNA_fQhRFaPu7hag66QIa0qWNXGuK8qGccIWPEmk4uoJwh2WOZSk
+ yDytlE8tNQ0RGq554znp3Nj6JT1ThdJtTSsU_zciOkP9S4TbYHVViHZLsx7g
+ L5Q6IcYJoL0KxyMseGodcLvBhQWpRNcjVkJ4WQ0rgM0f9cyTxeklevbG5BM4
+ vMsrLC4YkNz.Li4Gbk9KPCVdKZUV8oTX3MGVFTnUF3vePXMKYAngKUzncHmj
+ vR32IieX.g2zznDj6Em01HGxoj8gZ2YYvezaW9xwQm0jlem8ZHh7aUqev6A2
+ BaibMMDwTnDOQ57E_G1PddvlhAtWvxKsqr.ik9OswKr9MzglE9.QlbjXhRSL
+ GJwcqRartgjiPjgLS4Ho3Ym7NvT.xHZ8aOfHRYjotWtcmnnd.PjHKvWFmRx.
+ CPQQ6Lq1gr.QWqgvVRjg9AEe7kNaeDc1lv72e1J1sNsfvP66iFbvlpaWH.65
+ RQ4ulmIs9UV4mxKcF02zAR.UPuvn9140jxyDZj7RBNm_ezK4F0CepxXJo10L
+ O7OHuIOXb7LC9PzJHsaJeQWq2Rv.7ofkV30CTlofQXkrh1dWIGHq5GzH3H.y
+ lXaR_q8d6pmZ.N9ZqfIVQ3Q6ynE_pRghQlCvQKI3F3exqb.CUpi7Mnb7Itir
+ UizJ3EKPU3JC26VdvwX1tSC0Y31104xuOhpKDDslO8aYW0scEcKGOQcM3qpx
+ a27Tem7z83NfxVTXMa_IoEt_YCUiKI_P8XN1tF5gF2.WheNbub6Bk64ovDYW
+ Lqi8jKGcgE60FvxMqctBP238xgQluD5uePOx7En6gfNSDXIuzA.p4er1lzuH
+ KJWAUsBdArBRRMleYgvfDn.Xrw--
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.253.50.154 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 21:48:33 +0000
+Received: from github.com (hubbernetes-node-afb5e40.va3-iad.github.net [10.48.209.65])
+	by smtp.github.com (Postfix) with ESMTPA id D891D3406E2;
+	Tue, 31 May 2022 14:48:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654033712;
+	bh=XwykeKVq/aV4GFCjEpJnoMxXDPfPn8+qZ0HaD4Cmo+k=;
+	h=Date:From:To:Subject:From;
+	b=TLTVXlii4wFhv8mYCMwe+XYgKnRHPUiqGrwycHTdMjb1rmOpneyQ7ArpVrGhsvtFk
+	 jwCVadtpwGdTlGMkS0Ayu79uV1wA+giusVS5hdPi7XeIXhDq1G+LDckVKVzVCul2+z
+	 txIYXurvyZ4DKaYO22nSyebZrGTdyg1z93GmFfbE=
+Date: Tue, 31 May 2022 14:48:32 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/8fd913-7611ff@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 7611ff: DOCKET 243 - WAS NOT
+ PERMITTED AS A "MOTION" ---- ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 1371
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 7611ffe49e27451e243e64b31af1b1aca9bce749
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/7611ffe49e27451e243e64b31af1b1aca9bce749
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A 53974-1516523-93715 -NYFRB POST 1.html
+    A 53974-1516523-93715 -NYFRB POST 121 --.pdf
+    A 53974-1516523-93715 -NYFRB POST 121.html
+    A [00243] -- NOTICE TO AMEND CAPTION.pdf
+
+  Log Message:
+  -----------
+  DOCKET 243 - WAS NOT PERMITTED AS A "MOTION" ---- NON-JOINDER AND UNFAIR PROCEEDINGS.
+
+910 DICKERS, A LASKOWITZ, AND A HANDFUL OF ZUCKERS...
+-- STILL DON'T UNDERSTAND THE MEANING OF "COVERAGE" OR "INDEMNITY"
+..  EVEN AT THE COST OF ONE INVESTMENT ADVISER AND THE GREATER OF $1 BILLION IN LOSSES SUFFERED BY THE INVESTORS AND RELATED PARTIES AT STATE FARM.
+
+
+153974-1516523-93715 -NYFRB POST 121 --
+53974-1516523-93715 -NYFRB POST 121
+53974-1516523-93715 -NYFRB POST 1
+THE TWO DOLLAR PRO - INGRAM YUZEK GAINEN CAROLL AND BERTOLOTTI LLP
+DOCKET EMAILS - 1516523 - 153974 - 93715
+DOCKET 00048 - unconsented videotapes - ducker like a zucker
+DOCKET 00048 - unconsented videotapes - ducker like a zucker BRANCHES TRACKED
+269 - ASHLEY.HUMPHRIES_WILSONELSER
+
+

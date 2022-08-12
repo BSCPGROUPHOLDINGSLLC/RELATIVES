@@ -1,0 +1,399 @@
+From - Sun May 29 11:48:54 2022
+X-Account-Key: account1
+X-UIDL: AJ82IxRDQjHPYpOjngrwyEnm/04
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.201
+ by atlas203.free.mail.bf1.yahoo.com with HTTPS; Sun, 29 May 2022 16:47:26 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.203]
+Received-SPF: pass (domain of github.com designates 192.30.252.203 as permitted sender)
+Authentication-Results: atlas203.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 29 May 2022 16:47:26 +0000
+X-YMailAVSC: lcGQRXE3bBve0k.UqukZPoPd1Otr26TQfP6YPcZQIPpGxgK
+ lu7IQXgmQFqVH_UEVyQowHymbLCJh2W4B0qB34ts7gzqgY5aZjLT71bvo1R2
+ 8g2Ifdj1PuNc.ZLFAKgeidrCctfSRn6vXCGLo5kjO90.3QWUm.6tU_8EfUia
+ VpBh5WDUJJU.s0XqfN6sfpf3UTi74A..RDrGWA.QJKJGZM2A5gfUa0grTkL6
+ tAvlpDU390FAovf0pbWoJEHbNbK3RrxX5s1lrW7IZZ2Dsw3TSQbycC.1yRsb
+ 2qO5860TsBwcGZqCIrUaJRx831CfRwoL5n751zkvM4hA9IH85iFNzJvlKvWI
+ vczkcf0hJyI259QuuLt8_h8rHqtJKyXValdQ-
+X-YMailISG: VSPgFIMWLDtBAKCBeblHP1IPNVHcxcKdtK_IkH2QYE7.T_91
+ Isjt26jKkXmSvt81icvzV.D6JEMs1_aMfdf4qp8nnbOJahs9do.HFGwyvSME
+ G0jJDMOsTY.ywbMHZSKgRLvpyA8axhWfxu7TSASNfwbsWC.2rPcm89PhMp45
+ G9GZiRXGglckb0RBEIhNvUd6FupJjOITkmY9OjBGMv_uNjMG.005S0WHReyR
+ ZdXzXOh.i3l3JJsH30uLpTPRVwUYg6DVFVYu45UGM_nJYoNesPLCRJGSg1G6
+ a274h1biLtXhMFx1HZn7rZ9BMIXLSha0.IUh5XPwVF1T1DqRVf9vIWxUkKzx
+ b.pSe2l.4lck79ju2n866TIdLiTCSTT9XfYAuESttVA9_cfICkQ8vIRmHv7j
+ 3TZW_5tLIXEkcNP57l0M.h6NRkAyAgGzZyBZCGhPDUgGnVpNAs_HQ5GIS_K8
+ y9r80O.SGZdTIy_FnL07_hLbcfg.12YzSP2v5oj_ZpsITSgimB.PS9v2l5Ce
+ HX3hor8U0hz74JEM5PDouVAwcx3oT9klHMbHmUjd05aBaF4Fww1w7dyobfLD
+ tfFROqn2UZFuzKK2CUSDbhHo4vqdqn4X8wZz8HFYxDO3k9A.6UDNXdAL4jOS
+ w0Mq.heTuNbasQnXy8orK4PExm0CFCVprUpkUBx_rgKEF7E9ZIKbJMalZTq.
+ rkYMwjNlYdJI32kdvHszPbXNSQbXJ9s8lme9uVmoy8gao9usaG9cacu_l1a0
+ QV8Ydp2vjUM81nbDMWh9zmeNmrk1QdSDB4xwL2GrLuOuBi4hoboIZu0Kvncg
+ 0e0qHLLIcVJtKzKrv.2cgxgwL4HK2GxKI5NhKdpe1Ly.heqcPWUV6zuQNiGy
+ L2xSWWxQXTD3l29vT_8Nl6IFXvkWfzzbfblmX4MkP5aiS7XDIgTiirt1vPVy
+ Oai9KZpDtYW22SvnVII1Fu05TI5.rx226sGcWUx.zq3PdXnR1EoXncqbG9PH
+ 17xC9BwAsd92WfKR2la97eFVNrWUvVAGVX0hy7CER7VEO7do6a7s3PoQzBXa
+ DFpWXGoJmqhLYzTy1NaGSBSqjn3ozBYLQqqn2ux4bs7BZ33qxa_bVsZh3kFP
+ jf0QGi4XrU7NKdSOdz6yfoqLMELaAkzvILBNtuRh8DC_r6HU9JgXKvOaOCm.
+ VNrjzO0AQ2Snp7E-
+Received: from 192.30.252.203 (EHLO out-20.smtp.github.com)
+ by 10.197.32.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 29 May 2022 16:47:26 +0000
+Received: from github.com (hubbernetes-node-319cdd4.va3-iad.github.net [10.48.14.39])
+	by smtp.github.com (Postfix) with ESMTPA id 2677DE029B;
+	Sun, 29 May 2022 09:47:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653842846;
+	bh=zscTLGn0EQ94laX1PJTJGCQvqtsFOFDF6pTp2SiOrzk=;
+	h=Date:From:To:Subject:From;
+	b=zrAJnN1zOBE2RnCFx8z2RmBxi7L4EOPNOp7xOqKbn8yNmFcprj2fJRoeGDtQWK8wC
+	 wYjM9IhnW7ePUuAtrkh+yYT8wB+YtXK7scJJypSkuCbtF9wT807z8aloSeVC7iMdBL
+	 MIKg100xkMbeZjhYgCj+z/2noyYlqGmxZeVdZmxM=
+Date: Sun, 29 May 2022 09:47:26 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/a1af53-846f81@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 846f81:
+ https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 15858
+
+  Branch: refs/heads/REQUEST-TO-BAR=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: 846f81ee4bf5fe65be1cdfaa55e6ff79de68a945=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/846=
+f81ee4bf5fe65be1cdfaa55e6ff79de68a945=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-05-29 (Sun, 29 May 2022)=0D
+=0D
+  Changed paths:=0D
+    A - Fw_ GIVE ME BACK THE SEX TAPES AND ILL STOP xmas.PDF=0D
+    A - Fwd_  Northern Trust Company. ACRIS 6MM.PDF=0D
+    A - Fwd_ Fwd_Fwd_Fwd_U.S. Securities and Exchange Commission.PDF=0D
+    A - Fwd_ NYS 240.65 is appropriate_ but give me my sex tapes back.(1)=
+.PDF=0D
+    A - Fwd_ NYS 240.65 is appropriate_ but give me my sex tapes back..PD=
+F=0D
+    A - Fwd_ SCCS GUIDANCE, THANK YOU Zuckers for your investments..PDF=0D=
+
+    A - Fwd_ STATE FARM - BLOOMINGTON.PDF=0D
+    A - Fwd_ =C2=A7 240.75 NY State [ 1 Question ].PDF.PDF=0D
+    A - GIVE ME BACK THE SEX TAPES AND ILL STOP.PDF=0D
+    A - Re_ Fwd_Northern Trust Company. ACRIS 6MM.PDF=0D
+    A - Re_ MATERIAL NOTICE of ACTION_ ZUCKER __State Farm FTC.PDF=0D
+    A - Re_ =C2=A7 240.75 NY State [ 1 Question ].PDF.PDF=0D
+    A -- [JLA] New notification from The Columbia Journal of Law & the Ar=
+ts.PDF=0D
+    A -- nov13 and Dec18 2021 - multiple dwelling laws.pdf=0D
+    A ---- [ Dec 2021 ] email DISTRIBUTION.pdf=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4c=
+c5b5604ddb8f7ccd80a7a5a6e13b6e4b2](https://github.com/BSCPGROUPHOLDINGSLL=
+C/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2=0D
+=0D
+[https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc=
+5b5604ddb8f7ccd80a7a5a6e13b6e4b2](https://github.com/BSCPGROUPHOLDINGSLLC=
+/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2)=0D
+=EF=BB=BF=0D
+https://youtu.be/x_6k0ceK3hw=0D
+=0D
+Ok Mr.Zucker?=0D
+=0D
+TY. =0D
+=0D
+Begin forwarded message:=0D
+=0D
+From: Bo Dincer <bdincer66@icloud.com>=0D
+Date: December 19, 2021 at 8:28:09 AM EST=0D
+To: Bd Dincer <bdincer211@bloomberg.net>, Bo Dincer <bd2561@columbia.edu>=
+, Baris Dincer <bondstrt@protonmail.com>, LZUCKER@mskyline.com, DZUCKER@m=
+skyline.com, Joseph Frumin <jefrumin@legal-aid.org>, legal@mskyline.com, =
+Lee Bollinger <lcb50@columbia.edu>, tips@insider.com, tips@latimes.com, h=
+elp@vogue.com, news@sec.gov, bo.dincer@yahoo.com, antitrust@ftc.gov, Stev=
+e O=E2=80=99Connell <Sgo2107@columbia.edu>, Daniel Richman <dcr2132@colum=
+bia.edu>, Jae Lee <jae@cs.columbia.edu>, James Comey <jbc2167@columbia.ed=
+u>, B Dincer <bdincer1768@bloomberg.net>, abari4@bloomberg.net, Jae Lee <=
+jae@cs.columbia.edu>, lgates16@bloomberg.net, fcastella3@bloomberg.net, g=
+poole2011@bloomberg.net, mbroughton11@bloomberg.net, mdunford3@bloomberg.=
+net, mharvey13@bloomberg.net, mkrebsbach3@bloomberg.net, mlockridge2@bloo=
+mberg.net, avales1@bloomberg.net, cdirks1@bloomberg.net, bbengtson3@bloom=
+berg.net, mzaroogian1@bloomberg.net, nahmed127@bloomberg.net, bdr11@bloom=
+berg.net, hmarsh6@bloomberg.net, pkroger5@bloomberg.net, rcorrea29@bloomb=
+erg.net, rholt22@bloomberg.net, rmiddleton19@bloomberg.net, cminter2@bloo=
+mberg.net, hrose17@bloomberg.net, sbarlow28@bloomberg.net, jchan161@bloom=
+berg.net, cmoser7@bloomberg.net, skim1465@bloomberg.net, slawson15@bloomb=
+erg.net, smarsh16@bloomberg.net, abari4@bloomberg.net, sreid42@bloomberg.=
+net, jhsui2@bloomberg.net, tbaker5@bloomberg.net, ahallman1@bloomberg.net=
+, asmock1@bloomberg.net, tlynch54@bloomberg.net, tsmith241@bloomberg.net,=
+ jwilson578@bloomberg.net, jyoung121@bloomberg.net, whao15@bloomberg.net,=
+ kbretz2@bloomberg.net, wruane1@bloomberg.net, kgilmore10@bloomberg.net, =
+khubbard1@bloomberg.net, ducrest2@bloomberg.net, krock5@bloomberg.net, ks=
+aperstein2@bloomberg.net, ksheffield1@bloomberg.net, colin.brooks@morgan.=
+stanley.com, b.dincer@columbia.edu, smbyrne@bloomberg.net, antitrust@ftc.=
+gov, beuliss@bloomberg.net, bstephan@bloomberg.net, btrauner@bloomberg.ne=
+t, chair@sec.gov, ckurak@bloomberg.net, cmhigham@bloomberg.net, cswartzla=
+nde@bloomberg.net, dianehsiung@bloomberg.net, DZUCKER@mskyline.com, ekhoz=
+iaeva@bloomberg.net, gpradocorrea@bloomberg.net, gshull@bloomberg.net, he=
+lp@vogue.com, hncaldwell@bloomberg.net, jhoyer@bloomberg.net, jmalito@blo=
+omberg.net, jsocha@bloomberg.net, jtattwood@bloomberg.net, kkarsten@bloom=
+berg.net, legal@mskyline.com, lrogalski@bloomberg.net, lrogers@bloomberg.=
+net, LZUCKER@mskyline.com, mmayberger@bloomberg.net, mwhipple@bloomberg.n=
+et, news@sec.gov, newyork@sec.gov, rrebholz@bloomberg.net, rrenken@bloomb=
+erg.net, sbrucker@bloomberg.net, sjent@bloomberg.net, steve@bloomberg.net=
+, tgipson@bloomberg.net, tips@insider.com, tips@latimes.com, tzelgert@blo=
+omberg.net, vtrimpe@bloomberg.net, wreinthaler@bloomberg.net, Steve O=E2=80=
+=99Connell <Sgo2107@columbia.edu>, Baris Dincer <bondstrt@protonmail.com>=
+, Bd Dincer <bdincer211@bloomberg.net>, Bo Dincer <bd2561@columbia.edu>, =
+Bo Dincer <bo.dincer@yahoo.com>, Daniel Richman <dcr2132@columbia.edu>, J=
+ae Lee <jae@cs.columbia.edu>, James Comey <jbc2167@columbia.edu>, Joseph =
+Frumin <jefrumin@legal-aid.org>, Lee Bollinger <lcb50@columbia.edu>, B Di=
+ncer <bdincer1768@bloomberg.net>, lcb50@columbia.edu=0D
+Cc: ahallman1@bloomberg.net, asmock1@bloomberg.net, avales1@bloomberg.net=
+, b.dincer@columbia.edu, bbengtson3@bloomberg.net, bdr11@bloomberg.net, b=
+euliss@bloomberg.net, bstephan@bloomberg.net, btrauner@bloomberg.net, cdi=
+rks1@bloomberg.net, ckurak@bloomberg.net, cmhigham@bloomberg.net, cminter=
+2@bloomberg.net, cmoser7@bloomberg.net, cswartzlande@bloomberg.net, diane=
+hsiung@bloomberg.net, ducrest2@bloomberg.net, ekhoziaeva@bloomberg.net, f=
+castella3@bloomberg.net, gpoole2011@bloomberg.net, gpradocorrea@bloomberg=
+.net, gshull@bloomberg.net, hmarsh6@bloomberg.net, hncaldwell@bloomberg.n=
+et, hrose17@bloomberg.net, jchan161@bloomberg.net, jhoyer@bloomberg.net, =
+jhsui2@bloomberg.net, jmalito@bloomberg.net, jsocha@bloomberg.net, jtattw=
+ood@bloomberg.net, jwilson578@bloomberg.net, jyoung121@bloomberg.net, kbr=
+etz2@bloomberg.net, kgilmore10@bloomberg.net, khubbard1@bloomberg.net, kk=
+arsten@bloomberg.net, krock5@bloomberg.net, ksheffield1@bloomberg.net, lg=
+ates16@bloomberg.net, lrogalski@bloomberg.net, lrogers@bloomberg.net, mbr=
+oughton11@bloomberg.net, mdunford3@bloomberg.net, mharvey13@bloomberg.net=
+, mkrebsbach3@bloomberg.net, mlockridge2@bloomberg.net, mmayberger@bloomb=
+erg.net, mwhipple@bloomberg.net, mzaroogian1@bloomberg.net, nahmed127@blo=
+omberg.net, pkroger5@bloomberg.net, rcorrea29@bloomberg.net, rholt22@bloo=
+mberg.net, rmiddleton19@bloomberg.net, rrebholz@bloomberg.net, rrenken@bl=
+oomberg.net, sbarlow28@bloomberg.net, sbrucker@bloomberg.net, sjent@bloom=
+berg.net, skim1465@bloomberg.net, slawson15@bloomberg.net, smarsh16@bloom=
+berg.net, smbyrne@bloomberg.net, sreid42@bloomberg.net, steve@bloomberg.n=
+et, tbaker5@bloomberg.net, tgipson@bloomberg.net, tlynch54@bloomberg.net,=
+ tsmith241@bloomberg.net, tzelgert@bloomberg.net, vtrimpe@bloomberg.net, =
+whao15@bloomberg.net, wreinthaler@bloomberg.net, wruane1@bloomberg.net, c=
+hair@sec.gov, colin.brooks@morgan.stanley.com, ksaperstein2@bloomberg.net=
+, newyork@sec.gov=0D
+Subject: Re: STATE FARM - BLOOMINGTON=0D
+=0D
+=EF=BB=BF=0D
+=0D
+/BD=0D
+=0D
+=0D
+On Dec 19, 2021, at 8:25 AM, Bo Dincer <bdincer66@icloud.com> wrote:=0D
+=0D
+=EF=BB=BFTHEY DO MANAGE PROPERTIES WITH CHILDREN=0D
+ AND HAVE VIDEOS OF ME HAVING SEX IN MY APARTMENT.=0D
+=0D
+TY=0D
+=0D
+=0D
+=0D
+/BD=0D
+=0D
+=0D
+On Dec 19, 2021, at 8:20 AM, Bo Dincer <bdincer66@icloud.com> wrote:=0D
+=0D
+=EF=BB=BF=0D
+=EF=BB=BF=0D
+=0D
+They are also managing building for children=E2=80=A6 and THEY REFUSE TO =
+RETURN MY TAPES (sexy nighttime videos) SO UNTIL THEY RETURN THEM=E2=80=A6=
+ =0D
+=0D
+I HAVE BEEN ASKING THEM FOR WEEKS NOW=E2=80=A6=0D
+=E2=80=A2 I also did not consent to them videotaping me. Ever.=0D
+/BD=0D
+=0D
+=0D
+On Dec 18, 2021, at 6:03 PM, Bd Dincer (COLUMBIA UNIVERSITY) <bdincer211@=
+bloomberg.net> wrote:=0D
+=0D
+=EF=BB=BF=0D
+krock5@bloomberg.net (w) Bloomington IL 61701, US=0D
+=0D
+=0D
+See also: TCRReport... =0D
+=0D
+=0D
+Thanks!=0D
+=0D
+=0D
+=0D
+=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 16:13:57 UTC-5:00=0D
+To:  Greg Shull (STATE FARM MUTUAL AU ) ,  Bill Trauner (STATE FARM MUTUA=
+L AU ) ,  Theresa Baker (STATE FARM MUTUAL AU ) ,  Tammy Gipson (STATE FA=
+RM MUTUAL AU ) ,  Leigh Ann Rogalski (STATE FARM MUTUAL AU ) ,  Chad Mose=
+r (STATE FARM MUTUAL AU ) ,  Ray Renken (STATE FARM MUTUAL AU ) ,  Matt H=
+arvey (STATE FARM MUTUAL AU ) ,  Steve Brucker (STATE FARM MUTUAL AU ) , =
+ Wade Reinthaler (STATE FARM MUTUAL AU ) ,  Tyler Smith (STATE FARM MUTUA=
+L AU ) ,  Rich Rebholz (STATE FARM MUTUAL AU ) ,  Brian Bengtson (STATE F=
+ARM MUTUAL AU ) ,  Kyle Gilmore (STATE FARM MUTUAL AU ) ,  Numan Ahmed (S=
+TATE FARM MUTUAL AU ) ,  Walter Ruane (STATE FARM MUTUAL AU ) ,  Vicki Tr=
+impe (STATE FARM MUTUAL AU ) ,  Brent Reeder (NORTHERN TRUST COMPA ) ,  S=
+teven Santiccioli (NORTHERN TRUST COMPA ) ,  sjs5@ntrs.com,  rebecca.coyl=
+e@statefarm.com,  nicole.bowyer@statefarm.com,  phil.supple.hid9@statefar=
+m.com,  dick.luedke.h2hj@statefarm.com,  brian.hodgson.nyz6@statefarm.com=
+=0D
+Cc:  Christin Higham (STATE FARM MUTUAL AU ) ,  Sophie Kim (STATE FARM MU=
+TUAL AU ) ,  Ketrick Karsten (STATE FARM MUTUAL AU ) ,  Larnita Gates (ST=
+ATE FARM MUTUAL AU ) ,  Gabriel Prado Correa (STATE FARM MUTUAL AU ) ,  M=
+att Krebsbach (STATE FARM MUTUAL AU ) ,  Felipe Castella (STATE FARM MUTU=
+AL AU ) ,  Susan Byrne (WESTWOOD MANAGEMENT ) ,  Julie Hoyer (STATE FARM =
+MUTUAL AU ) ,  Jeffrey Attwood (STATE FARM MUTUAL AU ) ,  John Malito (ST=
+ATE FARM MUTUAL AU ) ,  Robert Stephan (STATE FARM MUTUAL AU ) ,  Lisa Ro=
+gers (STATE FARM MUTUAL AU ) ,  Elena Khoziaeva (BRIDGEWAY CAPITAL MA ) ,=
+  Heather Caldwell (STATE FARM MUTUAL AU ) ,  Michael Whipple (BRIDGEWAY =
+CAPITAL MA ) ,  Michael Zaroogian (STATE FARM MUTUAL AU ) ,  Terence Lync=
+h (GAINSCO SERVICE CORP ) ,  Rebekah Holt (STATE FARM MUTUAL AU ) ,  Kati=
+e Hubbard (STATE FARM MUTUAL AU ) ,  Tim Zelgert (STATE FARM MUTUAL AU ) =
+,  Kara Olson (STATE FARM MUTUAL AU ) ,  Jim Chan (BLACKROCK INSTITUTIO )=
+ ,  John Socha (STATE FARM MUTUAL AU ) ,  Jennifer Hsui (BLACKROCK INSTIT=
+UTIO ) ,  Joe Young (STATE FARM MUTUAL AU ) ,  Scott Reid (STATE FARM MUT=
+UAL AU ) ,  Adam Hallman (STATE FARM MUTUAL AU ) ,  Wei Hao (STATE FARM M=
+UTUAL AU ) ,  Chris Minter (STATE FARM MUTUAL AU ) ,  Shelly Marsh (STATE=
+ FARM MUTUAL AU ) ,  Hollie Marsh (STATE FARM MUTUAL AU ) ,  Matthew Lock=
+ridge (WESTWOOD MANAGEMENT ) ,  Michael Mayberger (STATE FARM MUTUAL AU )=
+ ,  Ashley Smock (STATE FARM MUTUAL AU ) ,  Cory Swartzlander (STATE FARM=
+ MUTUAL AU ) ,  Scott Lawson (WESTWOOD MANAGEMENT ) ,  Ayman Bari (STATE =
+FARM MUTUAL AU ) ,  Adam Vales (STATE FARM MUTUAL AU ) ,  Robert Middleto=
+n (STATE FARM MUTUAL AU ) ,  Shane Jent (STATE FARM MUTUAL AU ) ,  Kevin =
+Rock (STATE FARM MUTUAL AU ) ,  Mark Dunford (STATE FARM MUTUAL AU ) ,  J=
+ean-Francois Ducrest (DUCREST, JEAN-FRANCO ) ,  Caroline Dirks (STATE FAR=
+M MUTUAL AU ) ,  Diane Hsiung (GEODE CAPITAL MANAGE ) ,  Hunter Rose (STA=
+TE FARM MUTUAL AU ) ,  Cameron Kurak (STATE FARM MUTUAL AU ) ,  Mark Brou=
+ghton (FIRST REPUBLIC BANK ) ,  Betsey Euliss (STATE FARM MUTUAL AU ) ,  =
+Kim Bretz (STATE FARM MUTUAL AU ) ,  Jon Wilson (STATE FARM MUTUAL AU ) ,=
+  Shawna Barlow (STATE FARM MUTUAL AU ) ,  Philip Kroger (STATE FARM MUTU=
+AL AU ) ,  Gabrielle Poole (STATE FARM MUTUAL AU ) ,  Ricardo Correa (STA=
+TE FARM MUTUAL AU ) ,  BO.DINCER@YAHOO.COM,  bd2561@columbia.edu=0D
+Subject: STATE FARM - BLOOMINGTON=0D
+=0D
+TY.=0D
+=0D
+=0D
+                    Kevin Rock=0D
+=0D
+Investment Information Analyst=0D
+State Farm Mutual Automobile Ins Co=0D
+         +1-309-735-2705 (o)                  1 State Farm Plz=0D
+        +1-309-530-1865 (m)                  Investment Department E-8=0D=
+
+       krock5@bloomberg.net (w)            Bloomington IL 61701, US=0D
+=0D
+=0D
+                                Phil Supple              1 Views Today=0D=
+
+Spokesperson    Career=0D
+State Farm Life Insurance Co                                             =
+                             Current=0D
+       +1-800-782-8332 (o)                  1 State Farm Plaza           =
+                            State Farm Life Insurance Co=0D
+   phil.supple.hid9@statefarm.com (w  Bloomington IL 61710, US           =
+                    Spokesperson=0D
+=0D
+=0D
+                                        News | More =C2=BB=0D
+=0D
+=0D
+                                           Nicole Tamilyn Bowyer=0D
+=0D
+Attorney=0D
+State Farm Insurance=0D
+   +1-504-840-4900 (o)                  853 Fincastle Turnpike=0D
+  +1-504-840-4941 (f)                   North Tazewell VA 24630=0D
+        nicole.bowyer@statefarm.com (w)=0D
+                          Focus       Legal=0D
+=0D
+     Rebecca Coyle              1 Views Today=0D
+Analyst:Public Policy   Career=0D
+State Farm Life Insurance Co                                             =
+                             Current=0D
+       +1-309-766-2311 (o)                  1900 M Street NW             =
+                             State Farm Life Insurance Co=0D
+  rebecca.coyle@statefarm.com (w)   Washington DC 20036, US              =
+                  Analyst:Public Policy=0D
+                                                                         =
+                                            2012-Present=0D
+=0D
+=0D
+                                                  Steven Santiccioli=0D
+=0D
+VP:Quantitative Management   =0D
+Northern Trust Company, The=0D
+        +1-3124444419 (o)                     Addl Contact Info  =C2=BB=0D=
+
+   312-444-5777 (o)                       181 W Madison St=0D
+      steve@bloomberg.net (w)             Chicago IL 60602-4510, =0D
+         sjs5@ntrs.com (w)=0D
+                                     I would work harder on my marriage i=
+f there was a retirement plan.=0D
+                                   Focus       Large Cap Stocks, Growth I=
+nvesting, Global, Equities, =0D
+                                                 Thematic Investing, Unit=
+ed States, Developed Markets=0D
+=0D
+                                   Funds Managed (7 Funds/7.7B Total Asse=
+ts in USD) | More =C2=BB=0D
+         Fund Name       Tot Ast YTD Ret 3M Px   Objective       Status=0D=
+
+21)    Northern International Equity In        5.5B    7.8             Fo=
+reign Blend   ACTV=0D
+22)      Northern Global Sustainability In       1.3B    20.5            =
+Thematic Sector ACTV=0D
+23)      Green Century Equity Fund       552.1M  25.2            Thematic=
+ Sector ACTV=0D
+=0D
+                                   Recent News | More =C2=BB=0D
+41)                     Northern Funds: 497 2019/07/02          EDG     0=
+7/2019  =0D
+=0D
+                         Brent Reeder=0D
+=0D
+Fund Manager  =0D
+Northern Trust Company, The=0D
+       +1-312-557-0153 (o)                  181 W Madison St=0D
+        bdr11@bloomberg.net (w)             Chicago IL 60602-4510, US=0D
+=0D
+                             Focus       Large Cap Stocks, Growth Investi=
+ng, United States, Equities, =0D
+                                            Mid Cap Stocks, Small Cap Sto=
+cks, Global, United Kingdom, | More =C2=BB=0D
+=0D
+                             Funds Managed (43 Funds/51.6B Total Assets i=
+n USD) | More =C2=BB=0D
+    Fund Name       Tot Ast YTD Ret 3M Px   Objective       Status=0D
+21)    Northern Stock Index Fund       12.6B   24.6            Blend Larg=
+e Cap ACTV=0D
+22)      USAA 500 Index Fund     10.7B   23.7            Blend Large Cap =
+ACTV=0D
+23)      Northern International Equity In        5.5B    7.8             =
+Foreign Blend   ACTV=0D
+=0D
+                             News | More =C2=BB=0D
+=0D
+=0D
+=0D
+<< HAPPY HOLIDAYS and Merry xmas >>=0D
+=0D
+=0D

@@ -1,0 +1,111 @@
+From - Mon May 23 05:25:00 2022
+X-Account-Key: account1
+X-UIDL: AP7sH7MRxMnDYotf8gMBiD4kG88
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.86
+ by atlas209.free.mail.gq1.yahoo.com with HTTPS; Mon, 23 May 2022 10:20:37 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas209.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 23 May 2022 10:20:37 +0000
+X-YMailAVSC: hH6s0Po3bBuUZbWFd2gGjDU7khx9XBC7mjChHFr5czPpyWD
+ KDER_Bfhle16CWUYPtbFU8fls5f9vPrUXf1wt_aCFX9WlSZws4xgyyfKCUI8
+ MJ5JxEpSLQdTHikuChTX11uk8aFYcIa.wErAbdssW0boqY5IGzTopePXHELV
+ zQKj_9Wt505SeEzBQzUOMLVrefjaSin7VIw4_otcL90bZkLtYooeVrhTk699
+ 4w0tlw5851a7rP9Uww3olZl4y7mYDya1tjv_1dASWk2T2AEpPukfUH692rfE
+ Z1zSNY4AEn_CHVoGYWUnIAwJriYa2HM90LFgUrT8s.0rn3vPC_AhldxMYHA-
+ -
+X-YMailISG: PQ335AkWLDv14yV8s97LcdzxPfvhMA2h.LvupLgVXr9u4QRB
+ XHtfZN.TQZogJ6o2V6VnTIVrfcpM5Vj9PMmbPX.Q.cgD93wvMi269OXyI_TY
+ gnLB0DjNndxwIoVelNJ6x9hl78zFVprT1CHKiJ9TTYuCyIH81hMQUyyq2kdy
+ i6R9pjBY1asf.gYg6fnMYb6G5uXvsSAVt3xde1f1J0mH.RsJ.XNl4Nggi2cH
+ rXqSPIwNifevOdoHVsFjoTtOkvbg9VajC2D6SrCR3gfG4ok.IEjMJztXJr8y
+ 5_uQ21sfVg_2Z7VZvLf9QAL8MvQM7vfORqGZNghdQuG2aP5f2KqaM5WTyVAe
+ GsqQ_ctpO5vMjjRhTSlth.GTWEMgB.yuepZOKzUET0UslasDrnUqK4WEUweX
+ ZujIDrN73rouibEcQxtahYtfth3lmJ8dKXlDMyN83oXJD4iVL10DvCFpjxaq
+ qz3uTUZwk1bBBb4rnPwjsPNjA1p4Ik0QEHfUCJfhdpxShK0qoFoUbOHWkKi6
+ SkEpoOjBZ3QmFaS4S.8S8NjTk9FkQeF.pFPx0PQN3m7oRJr4ZZIMJt_l6cIt
+ kXgCMdRlSJi83GOmMP7AkCHVpTJgiapo2gxxmyYc6puiaXZ2dduJFxr8Ougc
+ aCOq2VuCf4e3VGOEDq79Xa5GEo8Xm0FU7VUh8675wok0eP6WiB9TNaB3WOSG
+ mM2N5VEnw5BSJEFkuZCB9BjycPRWCIsfoSiXI3gztcLrObiyjoM367_LjfSd
+ ui3dKH3Je9oZ4NiFiNU0uzIxovFpcYr1MMH00N6og9hCfvEdlD51bvvtB7fD
+ t.GSMu1DZW25IZrCEclwuYTRYAttZRodtz5RnypzM9Jfj.eS6h21F7f6UqMC
+ 5gMY8LizXqn3w.UtwD.0sb43PuIt0.EyOjJLIyGzLCp.C36GmFRIRkytXHzh
+ DEBHpJeLbazR9kUFe0re6qbpBOKl2zh0iCic25PJDYiBlcIHVI8A9ypvNKdH
+ l9EGqVutHYBvfr739j3EgIz4q4EMof1IcanrTHP27eK6plkkP1tiIXIqNo_f
+ Q.meabMNeLX0wO0E9KlPQ_5kiX6zFaROKmn_2ZK6F5ssK8KRWZUeQ_2BED54
+ yHONwG0Ks8iblo8tHctWw4TQN2pRqaQqts9bYrE2Zx4z5M9IgfWWb_D9uK1I
+ lSAiXfBxHgw5nnrg1B_OFvd4HLPz.BbR
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.253.233.86 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 23 May 2022 10:20:37 +0000
+Received: from github.com (hubbernetes-node-315bf85.ash1-iad.github.net [10.56.207.86])
+	by smtp.github.com (Postfix) with ESMTPA id 108C15E0BF4;
+	Mon, 23 May 2022 03:20:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653301237;
+	bh=sSNTRFYt4m1HLwcy4XfgJZCsrESRMlIRzoYvO9tOzfs=;
+	h=Date:From:To:Subject:From;
+	b=fkpQK5aeLdlZr+WZMpIRIEIsvuN+RYZkb/IVMp1GxwL958zXRj2X6YkYPKCRiCP8R
+	 /k52HqsQV6hHpYI+Q5yInHLJimu9Hb/BCU2X1mijEvPYFD4OUarZax+xPMTPNhEsAg
+	 zBzZt/SOFRAslXH4hLi0kDh+KPqB6y3S/qzgbD2E=
+Date: Mon, 23 May 2022 03:20:37 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ realtime@sonymusic.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/push/refs/heads/C16-93715-1516523-OBSTRUCTION-WILSONELSER/a74049-06a5ce@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER] 06a5ce: C16-93715
+ OBSTRUCTION OBSESSION AND VIOLATION OF P...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION & OMISSION [ STFGX - STFBX ] HOLDING
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,realtime@sonymusic.com
+X-Auto-Response-Suppress: All
+Content-Length: 1733
+
+  Branch: refs/heads/C16-93715-1516523-OBSTRUCTION-WILSONELSER
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER
+  Commit: 06a5ce7c5c4973a828892cf11fe6cf73a03d51bd
+      https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/commit/06a5ce7c5c4973a828892cf11fe6cf73a03d51bd
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-23 (Mon, 23 May 2022)
+
+  Changed paths:
+    A ---2011 117 SULLIVAN STREET BILL_Page_1.jpg
+    A ---2011 117 SULLIVAN STREET BILL_Page_2.jpg
+    A 2020 HOLDINGS MSRB.txt
+    A C16 - DEALINGS -- UNFAIR DEALINGS AND INSIDER INFORMATION.html
+    A DOCKET 00048 - unconsented videotapes - ducker like a zucker BRANCHES TRACKED.html
+    A DOCKET EMAILS - 1516523 - 153974 - 93715.html
+    A DOCKET EMAILS - GIAMBOI TESCHMAN ETC.html
+    A KEEP-THE-FAITH ---- VIOLATION OF PRIVACY TORTS -.png
+    A NOTICE TO MORGAN STANLEY ON NOVEMBER 16TH.html
+    A PEEPING-TOMS---- AID AND ABET TAX EVASIONS C16-93715 OSTRUCTIONS.txt
+    A THE TWO DOLLAR PRO - INGRAM YUZEK GAINEN CAROLL AND BERTOLOTTI LLP.jpg
+
+  Log Message:
+  -----------
+  C16-93715 OBSTRUCTION OBSESSION AND VIOLATION OF PRIVACY.
+
+
+
+########################################################
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/37
+########################################################
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/blob/WILSON-ELSER-DICKER-LLP/-%20-%20153974.2020%20---%2020201005%20-%20email%20from%20iPhone%204%20-%20facetime.pdf
+*************************************************************8
+PRETTY MUCH, SUMS THIS GROUP UP HERE: https://www.youtube.com/watch?v=O6Stx_mwAVY
+
+*******************************************************
+
+

@@ -1,0 +1,94 @@
+From - Mon May 23 00:48:44 2022
+X-Account-Key: account1
+X-UIDL: AON+gTp43NEEYosf2gaD+G+8rvM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.203
+ by atlas222.free.mail.ne1.yahoo.com with HTTPS; Mon, 23 May 2022 05:47:06 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.203]
+Received-SPF: pass (domain of github.com designates 192.30.252.203 as permitted sender)
+Authentication-Results: atlas222.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 23 May 2022 05:47:06 +0000
+X-YMailISG: EHwLj5IWLDtpcjxjTv6.H5WEs8Y1xXcLgik5Bcj8NjZ1EH6n
+ Cwg7dZvoYu.aquqb7P6LnH2MC_GOIYZ97SSm6e5P74qppQMaX.Xx5jCVwcBK
+ 2YkKZnrz6hl.E2_radvsN3HtmVx2XOzkxou.FD2aTWm4yp9lIiskAYPSc5la
+ t9Ye4i8pgzD3c0PuHY.n_CkfZsT3ZqDEAH9y5UkDKDdpabZQGRf7bYtYvuwl
+ 8jsVLl2jzhNhdvI6CgS.GxXtX1HTFZ0WT0jFBgsZP8Xz9q_7e3.ScXJ34vUR
+ dN0h5rr1.dLRCpamVHzbVdVr2rzTcgNbFAMVChK9iP7u0Syoaz.4i3PjVr_R
+ uPLZqdfJkKwP7_57eMOTwJuuqEraG22UkO3xoODB87ICOjkHi_9U6FUP0QsT
+ YbYRvDl5DkiSlt2OsB6AwVXa1uK5yWwgP_7aPqCUoW_ZW96oje1IFCZSiSiZ
+ 2QD4VGY.DVYJrytKIaBGVz0qFiJfHXW9Ud.HRuFr7q78F1TQhLs9WtjCxJab
+ Iowwt7va5VKKNcWPNDXJYehO2ZZUcxRsGTmB9ji.aYKktZqQDLjG7dCA.3WS
+ .s5dI0uq6erB_EIvYTq53plfutIc6auKS3.tBykcTAOmqppgzricYdms1eBf
+ p.HaToT830sK.8HSwF2rqeEkQ_TBmUQ7WC067p7tWqLvkSaBrKmpS2nnSl1p
+ PmySm7gOEDxjMoXFIYw5vHX8OJWiT960dGM.5PlJk2E_KfvosdOkM9WSnqx.
+ cVL4t.0tM8mjtpWJgBch2LKd8DQqjxWLqGoP2wovY1S5IC5zhSXNe9GD6nXm
+ eGQTlyQYqM64b7ENSUzYm8ISnGCym41Hj8K1ltYbPIJoF96_rod_wqNuMY8Z
+ IxKxdf2Brr479SIQ3jD908vtUWJ643E2UUHAY.rJ9U9jhm7kB7XgDUz94DdE
+ .8J3VaW2chBBKa3AeTcwPvlUF1uzPbh_B45FnxacJ6Nhqzu1U_DMeKdf16Qc
+ cb1JPxcB8c.z95T9jjTJTae6S.zcuo8hhAb.uj2ggZiXOL7DIewaeWHemF1G
+ 9tLnPhOxtkhUkT2iXfEIJYW4U_cL_W47P3pRb_BPv0.FMhYY0yicXmWXUKGl
+ pz3S1CWivpic3QIc0qLx1wD6krm0LoATcm96IaVJIbx30pddeZ.vb6_jqKVc
+ Wdzt5a2PDxoEOvsuZIlxxYYTFQ--
+Received: from 192.30.252.203 (EHLO out-20.smtp.github.com)
+ by 10.217.150.203 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 23 May 2022 05:47:06 +0000
+Received: from github.com (hubbernetes-node-a26a2b7.va3-iad.github.net [10.48.12.56])
+	by smtp.github.com (Postfix) with ESMTPA id 99E06E019B;
+	Sun, 22 May 2022 22:47:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1653284825;
+	bh=cMXe1/XU3w1iTZeMFOLJI0DVkd0O/TdBwtwxocYCKE8=;
+	h=Date:From:To:Subject:From;
+	b=j5PZYox6C3KWwTpbsSf1iUYilQBI9yDoNfer9DClMdNUOi5mXdSN4OsKZVpvUHkNn
+	 iZSytUNyvEHVFUyPM9W+19Ceyn7L2aeJ3oN27rryHS+tSWe6Z6VKGz3t9sYoHjuspK
+	 FXntCbTc/9kv4WtolMiSn6LjMnKsSv8kh87SWEQg=
+Date: Sun, 22 May 2022 22:47:05 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ BLOCK803LOT11@OUTLOOK.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/STATE-FARM-C16-93715/a931f9-a0dd99@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] a0dd99: LOAN 50074 - ANNEXED
+ IN
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,BLOCK803LOT11@OUTLOOK.COM
+X-Auto-Response-Suppress: All
+Content-Length: 1308
+
+  Branch: refs/heads/STATE-FARM-C16-93715
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: a0dd99add56ed2a424269727cb7547db473a2743
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/a0dd99add56ed2a424269727cb7547db473a2743
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-23 (Mon, 23 May 2022)
+
+  Changed paths:
+    A ---2011 117 SULLIVAN STREET BILL_Page_1.jpg
+    A ---2011 117 SULLIVAN STREET BILL_Page_2.jpg
+
+  Log Message:
+  -----------
+  LOAN 50074 - ANNEXED IN 
+
+
+
+
+>>>[2010-2011:&nbsp;&nbsp;&nbsp;&nbsp;Tax Bill&nbsp;&nbsp;&nbsp;&nbsp;Q1: NYC](https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=1005030011&stmtDate=20100611&stmtType=SOA)
+
+>>>[2010-2011:&nbsp;&nbsp;&nbsp;&nbsp;Tax Bill&nbsp;&nbsp;&nbsp;&nbsp;Q2: NYC](https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=1005030011&stmtDate=20100827&stmtType=SOA)
+
+>>>[2010-2011:&nbsp;&nbsp;&nbsp;&nbsp;Tax Bill&nbsp;&nbsp;&nbsp;&nbsp;Q3: NYC](https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=1005030011&stmtDate=20101119&stmtType=SOA)
+
+>>>[2010-2011:&nbsp;&nbsp;&nbsp;&nbsp;Tax Bill&nbsp;&nbsp;&nbsp;&nbsp;Q4: NYC](https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=1005030011&stmtDate=20110218&stmtType=SOA)
+
+

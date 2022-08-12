@@ -1,0 +1,102 @@
+From - Tue May 31 14:40:33 2022
+X-Account-Key: account1
+X-UIDL: ALePD6NybIOEYpZtlQzVKFa15as
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.93
+ by atlas221.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 19:33:41 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.211]
+Received-SPF: pass (domain of github.com designates 192.30.252.211 as permitted sender)
+Authentication-Results: atlas221.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 19:33:41 +0000
+X-YMailAVSC: fqPPYP43bBsRo_Bjvos829WgHcuyXwiN2YKUtHm42oqCqx_
+ yEcJ04ZAheH9hWCKf32WVtpilzJUGoOo87Jq9_xAJxmN9gZUDzFZ8y9bbdF3
+ ET.qlVssVkG.eOOFnbuCFlXOs_AJFEAp7wCnDo97Y.axd.LCUPMK3YDtF8VQ
+ NqeGape1w9RdctTwEthoFd7hNrJKs_uOWvSM7ZYeB7q_TbbDJacjk64KLoDY
+ Hq.oLtLEVQ2dfkNi0U9qm_gi4ElfpC6gM8pxaqsm2WslOsGs.LwWBQVeUPJ3
+ pYVjijxKbWO7yBc6N0c0jwv2dpSUIB8h3hMbRJS1b21CDtHgAaKFT2.ivY9j
+ b
+X-YMailISG: HxywR4kWLDtidL.NBcJb.IVX8XgaGB2QD3pfphduCixBqgeY
+ IJuA1zjez_Ork0m7SddMviuEyaa.6BrR5a4IUj1dMhFBtynr0QzQYILIvz3Y
+ Phz1_UV8dS9RSVbi2e9Kz98ytgSWzexPGKkUmOkhfY4elgqSBIW5z9DoiyGp
+ LjSLnFWFfRvvX4lmRfc4EqWB7Za_Tdrt9n88uvaZAC8jxI3IZ2BlsK0_JV1D
+ Hx3Q4gzVgTBm9LPazjIbP8D9MBzvXnWjNXjctIjET2WlQXIk5OajrrZoN2Sz
+ AxPr3RMibcCBSlOkVTFBB4UJUNRkwwcx00v57V9q7VlY2T0k5ol12tWLTRL3
+ s0gAXWRErn2a85icHI7LBNr2cN2Hmr4Gcj0Z0qsy5CiFdglZ9b.yrK7XCTkn
+ EpLwB20LzqXbEobUvHcJ0JoK16mdjQE0ImW32G0qXHC6_o9KLiX2_rYGEJq6
+ 8Jir.2f3PWcU_QyxiauepHvBTDCiy_UkEPZM92IidnNsh.1L.7JlpslmhWjR
+ MTwTtbF1qWu1Qw_ZHNCf8lmYes2FPqfbPzIPjzO5nrAWW6Nl1x4kGJ.dHwvs
+ tYspgkdjOv_upA2ckLb3jjbGc2htQkXNeBXh6CxIEHjMQKY1pFc8ibgzBoFA
+ h1hEavmMmVEcXs7ooueod16AWLxVdhj6KJ.j1WIcnU0afb1esttLoeUAhVj7
+ 8s5hwE5uQKgp_d1EoyMG0YhwrJrjnKbAspU7ceVnlfkwsgkGK1j8eB.1MN9W
+ qm5tnFLMTAhUkRa0804tLZpZ5AjXVcNr4K3MUP.9aubSdo9V6QoHH33qIj0q
+ GPjnxp8VQRH8f1hvY8.aBiAl2uo3.h36r__gt.9_1NdcjV8bU5Wpf7Wn23z4
+ X9Gsq2XjEzHQ8ezhPxaKXnX3ssb6_T7UnSWpFrR85cSUmxL1UrFqxubWBsPw
+ crWcScCscwexBtpyOrPJYWxdcC10MxAk6_meQ19fP_61iZPqRMGZo7U4zDDk
+ wdNqYNZV495PscNC_Qm6znWOZcVvIJRlBqtEBiKhInPRcwK9KwNUybzgu.AT
+ oLAccSQyJCJVytHO5nEqLVVhGrtlrzXgvfRH25NEIaEXVb_RHxA.VeQuLcRE
+ qjYzgkyIQWbdWepYG17CmiUnkwSUu72YiUFrz6h9TlbJiDsCbawh3ConMz.o
+ 2E5ct9bjippwGGdqfr04
+Received: from 192.30.252.211 (EHLO out-28.smtp.github.com)
+ by 10.253.31.93 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 19:33:41 +0000
+Received: from github.com (hubbernetes-node-53af7ab.ash1-iad.github.net [10.56.202.55])
+	by smtp.github.com (Postfix) with ESMTPA id ADC6C900C01;
+	Tue, 31 May 2022 12:33:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654025620;
+	bh=F3Jup7o0bm75RTBLlpNExb36oZWqE8olZ3/jKy9Ibhw=;
+	h=Date:From:To:Subject:From;
+	b=JBG2zaPpLJJ4pXXq0e+agb2a8RZC+u5qe77lNoJaZVQte8098qqfINML01GvW84Pu
+	 ndht2UFLFHP3Oq4oChIIFB0a1ZOedro4fe8JpNgmFh+L8bKHUnt2Fr/1bv+AaVmrkj
+	 7V74r+bDfJuascSzaOcqRWzQdWNAYqh5bdE5QLdc=
+Date: Tue, 31 May 2022 12:33:40 -0700
+From: 1212-5858 <noreply@github.com>
+To: MS60710444266@YAHOO.COM, 
+ sjs5@ntrs.com
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/REQUEST-TO-BAR/2fe7d8-35b305@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 35b305: STATE FARM REALTY
+ INSURANCE CORPORATION
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: MS60710444266@YAHOO.COM,sjs5@ntrs.com
+X-Auto-Response-Suppress: All
+Content-Length: 1492
+
+  Branch: refs/heads/REQUEST-TO-BAR
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: 35b3050f3e7858ddd8141fb86ebe43dceb017f6a
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/35b3050f3e7858ddd8141fb86ebe43dceb017f6a
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+  Date:   2022-05-31 (Tue, 31 May 2022)
+
+  Changed paths:
+    A Filed. 153974-2020.docket399.ftc.statefarmrealtyinsurancellc.eml
+    A Filed. sf vp 43036-$3487] 1943922- $ tipsord $ state farm mutual automobile insurance company-$3487.eml
+    A Filed. sf.vp 43036] 2876793 - $david moore $3487 - ia 8018184.pdf.eml
+    A Filed. sfvp 43036] 4971235- $smith - semi.pdf.eml
+    A Filed. sfvp43036] $2876793 - david.moore $3487 - ia 8018184.pdf.eml
+    A Filed. state farm vp 43036] $3231040-2004555.pdf.eml
+    A Filed. state farm vp 43036] $ludwig 3231040-2004555.pdf.eml
+    A Filed. state farm vp 43036] 1943922- $michael tipsord state farm mutual automobile insurance company 3487.pdf.eml
+    A Filed. state farm vp 43036] 3231040$ludwig terrance.pdf.eml
+    A Filed. state farm vp 43036] 3231040- $ludwig terrance.pdf.eml
+    A Filed. state farm vp 43036]advisers investment trust [$cik 1516523] monk[crd 1357149.eml
+
+  Log Message:
+  -----------
+  STATE FARM REALTY INSURANCE CORPORATION
+
+A REPORTED OUTSIDE BUSINESS BY THE MEMBERS OF STATE FARM VP MANAGEMENT CORP.
++ AND ALSO THEIR INVESTMENT ADVISER, WHO OWNS 75% OF THEIR BUSINESS INTERESTS.
+
+
