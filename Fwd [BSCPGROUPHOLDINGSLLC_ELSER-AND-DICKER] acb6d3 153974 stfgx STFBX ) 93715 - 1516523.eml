@@ -1,0 +1,589 @@
+From - Fri May 20 18:59:54 2022
+X-Account-Key: account1
+X-UIDL: ABzEfz9JcUs2YogaUwewwOrgfu4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.211
+ by atlas222.free.mail.ne1.yahoo.com with HTTPS; Fri, 20 May 2022 22:46:43 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.169]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.169 as permitted sender)
+Authentication-Results: atlas222.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 22:46:43 +0000
+X-YMailISG: r1P34M8WLDth6is7hN4xzXS6NmcZ_y7zsE7gQR3cgsuOdev7
+ HkZGu_2QSC3TVjdjYr5AE5lnTdMqxeJnYAAa3z72Emh1oY8Y.DVqphIKZCDN
+ BA12W27d2QKC.W9VXdsv.vd8Zu7zBF2yqIxm5DPbmCYeq7vIKAgLNU1rhTJc
+ rXJLz1VjStOU_HHLB7gBXdccf_xEufOEcQkPXANveD9toAgxTdu9TtMvGYDV
+ sqq_6FbjFmyay7kDevAbFFgGrwhgMTpE24dcSD2ARQQj17rRP9JT.Koymqjz
+ NTh2R_Cg2a_EoUCNxsliRKSfNo9mzbFHgS_JOUxIQz3AvKb_6ZmV6pD07ygx
+ LulX8ZVz_UUURVWc_EDvJVX5O2GWYzSPJF7IOqCbWb7Qt81Oi45BWDYI6KfT
+ G10hdtmqyOraR8E_sA8vwK39Y4alMNWMviA69RzDJeeu0FdwzZfX7gIPTqj7
+ IePKw0XK3YoDNKyCK7thYCO0SNGEPSF2bqn1XLuoIiZZgD95iHRxPE3jdRpJ
+ L0JmAsiuRxHul1FZub_OOUTrWJ_j7f1VrahWQmFvWzoeAzN3..txbxTZJ9DE
+ znVcEzD8kdWV0xfJQL4VOp__aMjwsDgg1gmcIHpatTSxd3TPx2Oe3ydY9YIb
+ wC2ls6Ti96RbrveFaOYQvRXgf4Bya..8ls1Ed2gqEIYk6CCJSmGIIPYugsvb
+ CgImdDY_GBzFcmT86Z9eLOT60GFyO49rUOFk9iKRZ56xejZKsR0i3Ng_V3Q5
+ IjvNF7xDIIw_25tvZUTKoLh4Y8RERbjK4a08wt.qZNjlIdanpQrB9rivrJMM
+ 7xFVNJfflY9nTXUPNnsOyjW8hDqHrAc9DIiy_t22B7BzZzV8y3_xF_9oHP04
+ aCu4fq5dqS0SDE_k5acMiI3bnFWFFTpZD.TkXCLZaa5saK7MhuvyhOux1hzi
+ fG0m6eWe3IFqF60yJTAMrA05zc9KVfyAMzb4dPnrgWLgTr6.cyd8YLPJrHke
+ hhEY9BLGCfXDPvToloXsvn3wGzNSV6MrFaV25MBXMaIcSAPKOdf9Au7sNUhC
+ olk3fNH0TDVYMzNHKG6nCsZ6JttxbGUGiiXAI6QZ5PDZtoj_XNUhtvIpUUi9
+ 8LJRUH79svNonQ6n_R1WBBmeR_6S6t4EbSBfsswfR8LYkIs7v1U.6NZPP7.0
+ 0Jb7Q3j4MTzoQmpuX0xzjhfx3DkcPWBnMquRaYn8M7mWOzX0TQ--
+Received: from 17.58.63.169 (EHLO st43p00im-zteg10071901.me.com)
+ by 10.217.135.211 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 22:46:43 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1653086802;
+	bh=HPBRdHeM19+Dfgt+WStuQBQZ5SKg27trHpm9G8vN3Yc=;
+	h=Content-Type:From:Mime-Version:Subject:Date:Message-Id;
+	b=piF96KzzKRpZHi+9C7U35o5QsMCILnmitBaaB3vD4U0OGWY/LbMybbksK6Yc5qetY
+	 FVAJ4bVaRF2ypv81bWBU16wVm3sTgjHbGtvgQ2awxF5tbtbatk6lWelAxvHVd3DlN7
+	 BvmDu+8IItWNIkisIuxtT+Lm9eupZVDC+/5U7ff6/q9Go9XlKOPoYm4sch7AOTdxTn
+	 hap2KKWFBbvQVRpc+fS95nkzLqIpx71m4XNzqAxMKQG8W1+KOJ3e2Rxb9pTYNjhO4E
+	 1g4R45DN66ahaMnehQH9d70lPb0JsGXbRo7CqBAWIhk87k8+CPhjpxOJDLKF9sKTkQ
+	 /26cj5Uhwvp1w==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10071901.me.com (Postfix) with ESMTPSA id 294E6840AD4;
+	Fri, 20 May 2022 22:46:40 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-E97B750D-B795-4803-9417-72B909819B56
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] acb6d3: 153974 stfgx STFBX > 93715 - 1516523
+Date: Fri, 20 May 2022 18:46:39 -0400
+Message-Id: <DABAC559-4F75-48F9-B7E2-0D2DDAC70FD5@icloud.com>
+References: <eb888167941a4bd8975eb507baa7ce70@BYAPR20MB2647.namprd20.prod.outlook.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: 0jYEyCjdWjCmu6v0rho3OQHF2KxY-Xrm
+X-Proofpoint-GUID: 0jYEyCjdWjCmu6v0rho3OQHF2KxY-Xrm
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.425,18.0.572,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-14=5F01:2022-01-14=5F01,2020-02-14=5F11,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 adultscore=0 bulkscore=0 phishscore=0
+ suspectscore=0 spamscore=0 clxscore=1015 mlxscore=0 malwarescore=0
+ mlxlogscore=925 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205200140
+Content-Length: 27866
+
+
+--Apple-Mail-E97B750D-B795-4803-9417-72B909819B56
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: zucker elser <BLOCK803LOT11@outlook.com>
+> Date: May 20, 2022 at 2:56:26 AM EDT
+> To: "Governor.Hochul@exec.ny.gov" <Governor.Hochul@exec.ny.gov>, "PRIYA.RA=
+GHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, "mscampusrecru=
+iting@morganstanley.com" <mscampusrecruiting@morganstanley.com>, "tracedatas=
+ervices@finra.org" <tracedataservices@finra.org>
+> Subject: FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] acb6d3: 153974 stfgx S=
+TFBX > 93715 - 1516523
+>=20
+> =EF=BB=BF
+>=20
+>=20
+> ________________________________________
+> From: 1212-5858 <noreply@github.com>
+> Sent: Friday, May 20, 2022 6:56:16 AM (UTC) Coordinated Universal Time
+> To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM
+> Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] acb6d3: 153974 stfgx STFB=
+X > 93715 - 1516523
+>=20
+>  Branch: refs/heads/BSCPGROUPHOLDINGSLLC-patch-112
+>=20
+>  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+>=20
+>  Commit: acb6d35de46826dd608f8a9ed78c7bfd3bae574c
+>=20
+>      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/acb6d=
+35de46826dd608f8a9ed78c7bfd3bae574c
+>=20
+>  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com=
+>
+>=20
+>  Date:   2022-05-20 (Fri, 20 May 2022)
+>=20
+>=20
+>=20
+>  Changed paths:
+>=20
+>    A Automatic reply   EXTERNAL  ## BBO     THE KIDS PRIVACY   PRIORITY  S=
+ORRY  .msg
+>=20
+>    A FW      I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHO=
+UT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HANDL=
+E IT  - IN THE PRYOR .msg
+>=20
+>    A FW  Did not know you had a massage parlor .msg
+>=20
+>    A FW  FW  Did not know you had a massage parlor .msg
+>=20
+>    A FW  Read      LOCATED THE VIDEOGRAPHER FOR THE ZUCKERS=E2=80=A6 IN TH=
+E FEDERAL RECORD .msg
+>=20
+>    A FW  Read  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES TO TH=
+IS MATTER    .msg
+>=20
+>    A FW  Read  here are their commencement documents  the 48TH    not acce=
+ssible there  -- here it is attached    see also page 21 of the lease  SSN -=
+-- Redacted per 22 NYCRR =C2=A7202 5(e)     (1167).msg
+>=20
+>    A Not read      CALL MY BLUFF AGAIN MR  ZUCKER         VIDEO MOV       l=
+ocked DOCUMENT 8 FOR TAMPERING AND DISTRIBUTION  390kb .msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT (18).msg=
+
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT (19).msg=
+
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT (20).msg=
+
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT (27).msg=
+
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT (52).msg=
+
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (1).=
+msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (13)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (14)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (15)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (16)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (2).=
+msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (21)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (22)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (23)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (24)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (25)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (3).=
+msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (4).=
+msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (5).=
+msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (50)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D (51)=
+.msg
+>=20
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOTTY D.msg
+>=20
+>    A RE      almost forgot     HAPPY VALENTINES DAY!!!!.msg
+>=20
+>    A RE  Thank you for contacting Vogue Customer Service      (KMM14050761=
+7V70672L0KM).msg
+>=20
+>    A RE  Undeliverable  RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) I=
+N FACT          https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pul=
+l 7.msg
+>=20
+>    A RE  WHAT DO I HAVE TO BUY A DOMAIN FOR $1 99 - STILL CHEAPER THAN MIS=
+S LASKOWITZ   .msg
+>=20
+>    A Read      FW  VIDEO   MOV DISTRIBUTION       CONFIRMED   MOV      .ms=
+g
+>=20
+>    A Read      MOV distribution continues beyond earlier requests of non-c=
+onsent     (601).msg
+>=20
+>    A Read  FW  Automated Reply Re  FW  I POLITELY DID PROVIDE YOU AN OPPOR=
+TUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE T=
+RUTH  I HOPE YOU CAN HANDLE IT  - IN THE PRYOR  (453).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (108).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (17).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (31).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (330).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (356).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (359).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (362).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (367).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (368).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (374).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (385).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (387).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (390).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (396).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (397).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (401).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (404).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (419).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (429).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (432).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (443).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (448).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (450).msg
+>=20
+>    A Read  FW  I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WIT=
+HOUT MY DIVINE INTERVENTION  BUT YOU ASKED FOR THE TRUTH  I HOPE YOU CAN HAN=
+DLE IT  - IN THE PRYOR  (63).msg
+>=20
+>    A Undeliverable  BATCH 1 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGERO=
+UND OR COURTYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS .msg
+>=20
+>    A Undeliverable  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES T=
+O THIS MATTER (300).msg
+>=20
+>    A Undeliverable  NOTICE TO ZUCKER  THEIR COUNSEL  AND MATERIAL PARTIES T=
+O THIS MATTER (309).msg
+>=20
+>    A WHAT DO I HAVE TO BUY A DOMAIN FOR $1 99 - STILL CHEAPER THAN MISS LA=
+SKOWITZ   .msg
+>=20
+>=20
+>=20
+>  Log Message:
+>=20
+>  -----------
+>=20
+>  153974 stfgx STFBX > 93715 - 1516523
+>=20
+>=20
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/BSCPGROUPHOLDINGS=
+LLC-patch-112
+>=20
+>=20
+>=20
+>=20
+
+--Apple-Mail-E97B750D-B795-4803-9417-72B909819B56
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> zucker elser &lt;BLOCK803LOT11@=
+outlook.com&gt;<br><b>Date:</b> May 20, 2022 at 2:56:26 AM EDT<br><b>To:</b>=
+ "Governor.Hochul@exec.ny.gov" &lt;Governor.Hochul@exec.ny.gov&gt;, "PRIYA.R=
+AGHURAM@MORGANSTANLEY.COM" &lt;PRIYA.RAGHURAM@morganstanley.com&gt;, "mscamp=
+usrecruiting@morganstanley.com" &lt;mscampusrecruiting@morganstanley.com&gt;=
+, "tracedataservices@finra.org" &lt;tracedataservices@finra.org&gt;<br><b>Su=
+bject:</b> <b>FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] acb6d3: 153974 stf=
+gx STFBX &gt; 93715 - 1516523</b><br><br></div></blockquote><blockquote type=
+=3D"cite"><div dir=3D"ltr">=EF=BB=BF<span></span><br><span></span><br><span>=
+</span><br><span>________________________________________</span><br><span>From:=
+ 1212-5858 &lt;noreply@github.com&gt;</span><br><span>Sent: Friday, May 20, 2=
+022 6:56:16 AM (UTC) Coordinated Universal Time</span><br><span>To: mscampus=
+recruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM</span><br><span>Subj=
+ect: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] acb6d3: 153974 stfgx STFBX &gt;=
+ 93715 - 1516523</span><br><span></span><br><span> &nbsp;Branch: refs/heads/=
+BSCPGROUPHOLDINGSLLC-patch-112</span><br><span></span><br><span> &nbsp;Home:=
+ &nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER</span>=
+<br><span></span><br><span> &nbsp;Commit: acb6d35de46826dd608f8a9ed78c7bfd3b=
+ae574c</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https=
+://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/acb6d35de46826dd6=
+08f8a9ed78c7bfd3bae574c</span><br><span></span><br><span> &nbsp;Author: 1212=
+-5858 &lt;70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com&gt;</span><=
+br><span></span><br><span> &nbsp;Date: &nbsp;&nbsp;2022-05-20 (Fri, 20 May 2=
+022)</span><br><span></span><br><span></span><br><span></span><br><span> &nb=
+sp;Changed paths:</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Auto=
+matic reply &nbsp;&nbsp;EXTERNAL &nbsp;## BBO &nbsp;&nbsp;&nbsp;&nbsp;THE KI=
+DS PRIVACY &nbsp;&nbsp;PRIORITY &nbsp;SORRY &nbsp;.msg</span><br><span></spa=
+n><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I POLITELY=
+ DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION=
+ &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN=
+ THE PRYOR .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nb=
+sp;Did not know you had a massage parlor .msg</span><br><span></span><br><sp=
+an> &nbsp;&nbsp;&nbsp;A FW &nbsp;FW &nbsp;Did not know you had a massage par=
+lor .msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;Read=
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOCATED THE VIDEOGRAPHER FOR THE ZUCKERS=E2=80=
+=A6 IN THE FEDERAL RECORD .msg</span><br><span></span><br><span> &nbsp;&nbsp=
+;&nbsp;A FW &nbsp;Read &nbsp;NOTICE TO ZUCKER &nbsp;THEIR COUNSEL &nbsp;AND M=
+ATERIAL PARTIES TO THIS MATTER &nbsp;&nbsp;&nbsp;.msg</span><br><span></span=
+><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;Read &nbsp;here are their commencem=
+ent documents &nbsp;the 48TH &nbsp;&nbsp;&nbsp;not accessible there &nbsp;--=
+ here it is attached &nbsp;&nbsp;&nbsp;see also page 21 of the lease &nbsp;S=
+SN --- Redacted per 22 NYCRR =C2=A7202 5(e) &nbsp;&nbsp;&nbsp;&nbsp;(1167).m=
+sg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Not read &nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;CALL MY BLUFF AGAIN MR &nbsp;ZUCKER &nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;VIDEO MOV &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lo=
+cked DOCUMENT 8 FOR TAMPERING AND DISTRIBUTION &nbsp;390kb .msg</span><br><s=
+pan></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N=
+YSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOT (18)=
+.msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FO=
+R THOSE SPOT (19).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A R=
+E &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbs=
+p;&nbsp;&nbsp;FOR THOSE SPOT (20).msg</span><br><span></span><br><span> &nbs=
+p;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Infor=
+mation &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOT (27).msg</span><br><span></spa=
+n><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Cri=
+minal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOT (52).msg</spa=
+n><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE S=
+POT.msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp=
+;FOR THOSE SPOTTY D (1).msg</span><br><span></span><br><span> &nbsp;&nbsp;&n=
+bsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nb=
+sp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (13).msg</span><br><span></span><br>=
+<span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal C=
+ourt Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (14).msg</span><=
+br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOT=
+TY D (15).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp=
+;&nbsp;FOR THOSE SPOTTY D (16).msg</span><br><span></span><br><span> &nbsp;&=
+nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Informat=
+ion &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (2).msg</span><br><span></spa=
+n><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Cri=
+minal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (21).msg<=
+/span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THO=
+SE SPOTTY D (22).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A R=
+E &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbs=
+p;&nbsp;&nbsp;FOR THOSE SPOTTY D (23).msg</span><br><span></span><br><span> &=
+nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court In=
+formation &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (24).msg</span><br><spa=
+n></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYS=
+CEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (2=
+5).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;=
+FOR THOSE SPOTTY D (3).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nb=
+sp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbs=
+p;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (4).msg</span><br><span></span><br><s=
+pan> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Co=
+urt Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D (5).msg</span><br=
+><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY=
+ D (50).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&=
+nbsp;FOR THOSE SPOTTY D (51).msg</span><br><span></span><br><span> &nbsp;&nb=
+sp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYSCEF Criminal Court Informatio=
+n &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOTTY D.msg</span><br><span></span><br>=
+<span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;almost forgot &n=
+bsp;&nbsp;&nbsp;&nbsp;HAPPY VALENTINES DAY!!!!.msg</span><br><span></span><b=
+r><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Thank you for contacting Vogue Custome=
+r Service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(KMM140507617V70672L0KM).msg</span><=
+br><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Undeliverable &nbsp;=
+RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS MEANINGFUL - ADULTERER(=
+S) IN FACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https &nbsp=
+;&nbsp;github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 7.msg</span><br=
+><span></span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;WHAT DO I HAVE TO BUY A=
+ DOMAIN FOR $1 99 - STILL CHEAPER THAN MISS LASKOWITZ &nbsp;&nbsp;.msg</span=
+><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;FW &nbsp;VIDEO &nbsp;&nbsp;MOV DISTRIBUTION &nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;CONFIRMED &nbsp;&nbsp;MOV &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.msg</sp=
+an><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;MOV distribution continues beyond earlier requests of non-consent &=
+nbsp;&nbsp;&nbsp;&nbsp;(601).msg</span><br><span></span><br><span> &nbsp;&nb=
+sp;&nbsp;A Read &nbsp;FW &nbsp;Automated Reply Re &nbsp;FW &nbsp;I POLITELY D=
+ID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &=
+nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN T=
+HE PRYOR &nbsp;(453).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp=
+;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLE=
+AN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I H=
+OPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(108).msg</span><br><span><=
+/span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROV=
+IDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BU=
+T YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYO=
+R &nbsp;(17).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &=
+nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOU=
+T MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU C=
+AN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(31).msg</span><br><span></span><br>=
+<span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN=
+ OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKE=
+D FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(3=
+30).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &=
+nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVI=
+NE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDL=
+E IT &nbsp;- IN THE PRYOR &nbsp;(356).msg</span><br><span></span><br><span> &=
+nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTU=
+NITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR TH=
+E TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(359).msg<=
+/span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I P=
+OLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTER=
+VENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nb=
+sp;- IN THE PRYOR &nbsp;(362).msg</span><br><span></span><br><span> &nbsp;&n=
+bsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO=
+ COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH=
+ &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(367).msg</span><=
+br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITEL=
+Y DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTIO=
+N &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- I=
+N THE PRYOR &nbsp;(368).msg</span><br><span></span><br><span> &nbsp;&nbsp;&n=
+bsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME C=
+LEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;=
+I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(374).msg</span><br><spa=
+n></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID P=
+ROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp=
+;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE P=
+RYOR &nbsp;(385).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A R=
+ead &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN W=
+ITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE=
+ YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(387).msg</span><br><span></sp=
+an><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE=
+ YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT Y=
+OU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &=
+nbsp;(390).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &n=
+bsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT=
+ MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU C=
+AN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(396).msg</span><br><span></span><br=
+><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU A=
+N OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASK=
+ED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(=
+397).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW=
+ &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DI=
+VINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HAN=
+DLE IT &nbsp;- IN THE PRYOR &nbsp;(401).msg</span><br><span></span><br><span=
+> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPO=
+RTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR=
+ THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(404).m=
+sg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp=
+;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE I=
+NTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT=
+ &nbsp;- IN THE PRYOR &nbsp;(419).msg</span><br><span></span><br><span> &nbs=
+p;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNIT=
+Y TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE T=
+RUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(429).msg</sp=
+an><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POL=
+ITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVE=
+NTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp=
+;- IN THE PRYOR &nbsp;(432).msg</span><br><span></span><br><span> &nbsp;&nbs=
+p;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO C=
+OME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &=
+nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(443).msg</span><br=
+><span></span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY D=
+ID PROVIDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &=
+nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN T=
+HE PRYOR &nbsp;(448).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp=
+;A Read &nbsp;FW &nbsp;I POLITELY DID PROVIDE YOU AN OPPORTUNITY TO COME CLE=
+AN WITHOUT MY DIVINE INTERVENTION &nbsp;BUT YOU ASKED FOR THE TRUTH &nbsp;I H=
+OPE YOU CAN HANDLE IT &nbsp;- IN THE PRYOR &nbsp;(450).msg</span><br><span><=
+/span><br><span> &nbsp;&nbsp;&nbsp;A Read &nbsp;FW &nbsp;I POLITELY DID PROV=
+IDE YOU AN OPPORTUNITY TO COME CLEAN WITHOUT MY DIVINE INTERVENTION &nbsp;BU=
+T YOU ASKED FOR THE TRUTH &nbsp;I HOPE YOU CAN HANDLE IT &nbsp;- IN THE PRYO=
+R &nbsp;(63).msg</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A Undel=
+iverable &nbsp;BATCH 1 -- DO YOU SEE ANY OBSERVATION(S) OF A PLAYGEROUND OR C=
+OURTYARD IN THESE ANNEXED DOCUMENTS BY DEFENDANTS .msg</span><br><span></spa=
+n><br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;NOTICE TO ZUCKER &nbsp;=
+THEIR COUNSEL &nbsp;AND MATERIAL PARTIES TO THIS MATTER (300).msg</span><br>=
+<span></span><br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;NOTICE TO ZU=
+CKER &nbsp;THEIR COUNSEL &nbsp;AND MATERIAL PARTIES TO THIS MATTER (309).msg=
+</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;A WHAT DO I HAVE TO BUY=
+ A DOMAIN FOR $1 99 - STILL CHEAPER THAN MISS LASKOWITZ &nbsp;&nbsp;.msg</sp=
+an><br><span></span><br><span></span><br><span></span><br><span> &nbsp;Log M=
+essage:</span><br><span></span><br><span> &nbsp;-----------</span><br><span>=
+</span><br><span> &nbsp;153974 stfgx STFBX &gt; 93715 - 1516523</span><br><s=
+pan></span><br><span></span><br><span></span><br><span>https://github.com/BS=
+CPGROUPHOLDINGSLLC/ELSER-AND-DICKER/BSCPGROUPHOLDINGSLLC-patch-112</span><br=
+><span></span><br><span></span><br><span></span><br><span></span><br></div><=
+/blockquote></body></html>=
+
+--Apple-Mail-E97B750D-B795-4803-9417-72B909819B56--

@@ -1,0 +1,199 @@
+From - Fri May 20 18:59:55 2022
+X-Account-Key: account1
+X-UIDL: ADLSlFc1/Z7sYogacgKUKPawBqk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.213.170.250
+ by atlas213.free.mail.gq1.yahoo.com with HTTPS; Fri, 20 May 2022 22:46:57 +0000
+Return-Path: <bdincer66@icloud.com>
+X-Originating-Ip: [17.58.63.169]
+Received-SPF: pass (domain of icloud.com designates 17.58.63.169 as permitted sender)
+Authentication-Results: atlas213.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@icloud.com header.s=1a1hai;
+ spf=pass smtp.mailfrom=icloud.com;
+ dmarc=pass(p=QUARANTINE,sp=QUARANTINE) header.from=icloud.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 22:46:57 +0000
+X-YMailAVSC: j_RrN803bBvR4Dm208nKaj8SxKmp6mkVjTrxtTImH9ZCmZp
+ 0Cg0H57VtfJUlSPLmK0VU6_DcE1LKE3hN19K2eg0liWa._rzVGSdXuSbC0_4
+ nFNbtFG.1hWhCzP.hvr6flFiOhuDQ.vifUgdgOFINGt9Qgso2HhhpelqbpMA
+ n6P3fejOyWCozkxylAOvnSryHkMUlJLOI.cmiMhEMGpCPKXYur8UQrlWVXD5
+ m4_GsMyHs5gyqpZZokMlBuvO3wLJgRvGdh.K1Rjj35hQNMp6g2WucOo0_h9Z
+ K0Fqzv2_UlQj5.r9gRDalhhL6amBok5plCUFqlL2XBmxjhIQCos1JeWkOPW.
+ W3A8M7Tfwq.OGzlbsHujvbc4fsgOwg8ToztY3uXvlTxzwTHjWmOTTwFk0O0q
+ oUZF3.Yj79gL3YxhQbX6vGvtZVlEsGR0-
+X-YMailISG: LyK6ufIWLDvIzZaPAQlGTb3MoBblSpb2lQP4Y_qRHqBj.QUB
+ eVDMU8Cz1MFOJJQrFv1xQEOL2qo_gQaS6zZVDAtrd1p9jNxd3dbhj3Vdb85q
+ mW9blobZZN14OAnn0JsjSRPNmVdbDB2NxdtT4jh9d_bqba7puIhcqnDZlOrH
+ l5Zfyu_duQJo7.F5rjUKDmewg.CEq4hxhPBDIbZTkcqvTt2yDa5V1pM.dVRC
+ 0b3i3CkyyzHQUSBy2S0g8XdO4Foj1NCa4TbU87S9cWmZ2UqB8KP3v_k2D2xq
+ .tQknnnsVPELy5Hkdm9jl4WsfyoOQb8fgoDx.W0cKlkzbWDy3i4qlB28jYxX
+ TpOw7pWojVxpEz7fAc9ucZtYqz5DGweIzhR5JAHe1UoLesQKSdIisSPXjPPl
+ FOLy8f9w1neRNYZ3mIlJ9pBGIjFp2e6WyDV7FEJfpQ5Ov7if1rOABEBMPBCc
+ B.06yAB2m_ni2Dh_RefYnZrCvnihbQlQ7kaY8itd9QzYz8kq0ERL_DpJCzTU
+ vfx_Dcn1EpqxSmoRv1ypPkMIsWYQ0NRWrR_Z8F3.jXm4z0mSJuYln_eJseAH
+ hbQZlnRSGwSvr9qbRvwIDmaYNJF00UOKnv6KHOkg_9AgBTbBwcg1rgExEmsM
+ 3AYasmgVOvA7es9c2rtS18xTchoDFokV0PaCfqtRti6OG5.BO1vn6cig8gss
+ hLc4lJBYoGfeR1Oxo_9YXTEfcIiwKTZXGrWt2Lw4F9yMgqwKH_DnSZeZDawK
+ UeaoKlrHcTlhJ6MgVUAN7xdXN2ur4ViFJxWlf9C8BaF._DM_O417fVMe.m_b
+ yRS_5YdfQ7vawKgAsfblvXwtWqX7leSmN7SvRi2mQbzHzeCfDkjHt2RR4CZy
+ 47w5fuuSOkaC7Am1tKJyAxM9BtWAgwDm0S39ZIyWNv4PzEKBiKiP4FYMnLzE
+ 6dOrbWCjbATzuK06pmsyA5VHwdgyR66nUvXRD3KbI0g28yUlnk9N9S992EdB
+ r674HpOaU1DNKdfvwgE4ocu988m5SR3hIrOM0DGFKt6qNWO0Jj_Znt8K8554
+ zEEYBG6VdLMipaj393u58JpnDFREBH1sH.4xf57IRu2r.uEU0JVL6DtojpCP
+ LZp0qwfRH1Y2Vw0FrkrLLTSkMt8sVUlGM8yeosKW4LV8XiMijsg28HZXw.ck
+ sv_0rWuT2icxSCk3qZaPDKkWuIj5M7ooGhyy5.fc9EYScrQ-
+Received: from 17.58.63.169 (EHLO st43p00im-zteg10071901.me.com)
+ by 10.213.170.250 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 22:46:57 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1653086816;
+	bh=a16IFK1I+fkN6e1Fa/4Nh5dzxCv73GEeCjGw3qEgQCw=;
+	h=Content-Type:From:Mime-Version:Subject:Date:Message-Id;
+	b=vM6pSqqCAJR49q7pSUc//ixeAG4ismWr2Amx4c5P0xiYpNSuGVoYtiepfkki7hgVS
+	 QzE8ebc17pvq+fXA2rdUnhgnzWNyYDObHyIOL+CS8AzjLfA5PvWsQOq31eSiU3W4ma
+	 leQRt9SdiZL7pgJrWKNkQfXDWLHII90I/NzpkahDgUKE8hoYncd8uIIW7eilR77tVd
+	 nQpRDsGg8+FysqFPwJVan0m3vB416MmA5oP6Ugnz0RIO6lSJ8k6a5eLEB1MwvdUdVM
+	 uGlwiBFrDq/VIvLomP1tlMHBD5AvBbTBbXEYChDUFvmMuGO8fhdlC/OsZJ9ZHYjTpH
+	 pysaZ6dugJFUw==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10071901.me.com (Postfix) with ESMTPSA id 44F0A840AA2;
+	Fri, 20 May 2022 22:46:55 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-F319DA45-EF97-4F39-9C5B-3E58ADD7A713
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 9bfe6b: 153974 https://github.com/BSCPGROUPHOLDINGSLLC/...
+Date: Fri, 20 May 2022 18:46:54 -0400
+Message-Id: <69D05E16-8D53-4839-8E2C-5B27EEA28111@icloud.com>
+References: <af6e352e558a4fda8294004e01875abd@BYAPR20MB2647.namprd20.prod.outlook.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: QUmYhec2JXkk23OLPIHsjKSG4XkSQ4-V
+X-Proofpoint-GUID: QUmYhec2JXkk23OLPIHsjKSG4XkSQ4-V
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.425,18.0.572,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-14=5F01:2022-01-14=5F01,2020-02-14=5F11,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 adultscore=0 bulkscore=0 phishscore=0
+ suspectscore=0 spamscore=0 clxscore=1015 mlxscore=0 malwarescore=0
+ mlxlogscore=999 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205200140
+Content-Length: 5960
+
+
+--Apple-Mail-F319DA45-EF97-4F39-9C5B-3E58ADD7A713
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: zucker elser <BLOCK803LOT11@outlook.com>
+> Date: May 20, 2022 at 3:02:25 AM EDT
+> To: "Governor.Hochul@exec.ny.gov" <Governor.Hochul@exec.ny.gov>, "PRIYA.RA=
+GHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, "mscampusrecru=
+iting@morganstanley.com" <mscampusrecruiting@morganstanley.com>, "tracedatas=
+ervices@finra.org" <tracedataservices@finra.org>
+> Subject: FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 9bfe6b: 153974 https:=
+//github.com/BSCPGROUPHOLDINGSLLC/...
+>=20
+> =EF=BB=BF
+>=20
+>=20
+> ________________________________________
+> From: 1212-5858 <noreply@github.com>
+> Sent: Friday, May 20, 2022 7:02:21 AM (UTC) Coordinated Universal Time
+> To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM
+> Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 9bfe6b: 153974    https:/=
+/github.com/BSCPGROUPHOLDINGSLLC/...
+>=20
+>  Branch: refs/heads/BSCPGROUPHOLDINGSLLC-patch-199
+>  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+>  Commit: 9bfe6b0b8e9fc680419ca8c7de0125aae1581e78
+>      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/9bfe6=
+b0b8e9fc680419ca8c7de0125aae1581e78
+>  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com=
+>
+>  Date:   2022-05-20 (Fri, 20 May 2022)
+>=20
+>  Changed paths:
+>    A FW  RE       legal opinion  misc   (28).msg
+>    A HERE ARE THE EMAILS OF YOU DISTRIBUTING THE   MOV FILES I FOUND ON TH=
+E INTERNET .msg
+>    A RE      ALSO TY  IT IS MEANINGFUL - ADULTERER(S) IN FACT          htt=
+ps   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 7.msg
+>    A RE      NYSCEF Criminal Court Information     FOR THOSE SPOT (32).msg=
+
+>    A RE  Read  FW  https   github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKE=
+R pull 5  KIDS PRIVACY    (38).msg
+>=20
+>  Log Message:
+>  -----------
+>  153974    https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5=
+
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+>=20
+
+--Apple-Mail-F319DA45-EF97-4F39-9C5B-3E58ADD7A713
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> zucker elser &lt;BLOCK803LOT11@=
+outlook.com&gt;<br><b>Date:</b> May 20, 2022 at 3:02:25 AM EDT<br><b>To:</b>=
+ "Governor.Hochul@exec.ny.gov" &lt;Governor.Hochul@exec.ny.gov&gt;, "PRIYA.R=
+AGHURAM@MORGANSTANLEY.COM" &lt;PRIYA.RAGHURAM@morganstanley.com&gt;, "mscamp=
+usrecruiting@morganstanley.com" &lt;mscampusrecruiting@morganstanley.com&gt;=
+, "tracedataservices@finra.org" &lt;tracedataservices@finra.org&gt;<br><b>Su=
+bject:</b> <b>FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 9bfe6b: 153974 htt=
+ps://github.com/BSCPGROUPHOLDINGSLLC/...</b><br><br></div></blockquote><bloc=
+kquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<span></span><br><span></span=
+><br><span></span><br><span>________________________________________</span><=
+br><span>From: 1212-5858 &lt;noreply@github.com&gt;</span><br><span>Sent: Fri=
+day, May 20, 2022 7:02:21 AM (UTC) Coordinated Universal Time</span><br><spa=
+n>To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM</span>=
+<br><span>Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 9bfe6b: 153974 &n=
+bsp;&nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSLLC/...</span><br><span>=
+</span><br><span> &nbsp;Branch: refs/heads/BSCPGROUPHOLDINGSLLC-patch-199</s=
+pan><br><span> &nbsp;Home: &nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSL=
+LC/ELSER-AND-DICKER</span><br><span> &nbsp;Commit: 9bfe6b0b8e9fc680419ca8c7d=
+e0125aae1581e78</span><br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://githu=
+b.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/9bfe6b0b8e9fc680419ca8c7d=
+e0125aae1581e78</span><br><span> &nbsp;Author: 1212-5858 &lt;70865813+BSCPGR=
+OUPHOLDINGSLLC@users.noreply.github.com&gt;</span><br><span> &nbsp;Date: &nb=
+sp;&nbsp;2022-05-20 (Fri, 20 May 2022)</span><br><span></span><br><span> &nb=
+sp;Changed paths:</span><br><span> &nbsp;&nbsp;&nbsp;A FW &nbsp;RE &nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;legal opinion &nbsp;misc &nbsp;&nbsp;(28).msg</sp=
+an><br><span> &nbsp;&nbsp;&nbsp;A HERE ARE THE EMAILS OF YOU DISTRIBUTING TH=
+E &nbsp;&nbsp;MOV FILES I FOUND ON THE INTERNET .msg</span><br><span> &nbsp;=
+&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALSO TY &nbsp;IT IS MEANINGFU=
+L - ADULTERER(S) IN FACT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;https &nbsp;&nbsp;github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 7=
+.msg</span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N=
+YSCEF Criminal Court Information &nbsp;&nbsp;&nbsp;&nbsp;FOR THOSE SPOT (32)=
+.msg</span><br><span> &nbsp;&nbsp;&nbsp;A RE &nbsp;Read &nbsp;FW &nbsp;https=
+ &nbsp;&nbsp;github com BSCPGROUPHOLDINGSLLC ELSER-AND-DICKER pull 5 &nbsp;K=
+IDS PRIVACY &nbsp;&nbsp;&nbsp;(38).msg</span><br><span></span><br><span> &nb=
+sp;Log Message:</span><br><span> &nbsp;-----------</span><br><span> &nbsp;15=
+3974 &nbsp;&nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DIC=
+KER/pull/5</span><br><span></span><br><span>https://github.com/BSCPGROUPHOLD=
+INGSLLC/ELSER-AND-DICKER/pull/5</span><br><span></span><br><span>https://git=
+hub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7</span><br><span></span>=
+<br><span>https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11</=
+span><br><span></span><br></div></blockquote></body></html>=
+
+--Apple-Mail-F319DA45-EF97-4F39-9C5B-3E58ADD7A713--

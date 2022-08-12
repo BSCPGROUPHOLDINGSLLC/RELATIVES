@@ -1,0 +1,1221 @@
+From - Fri May 20 12:55:51 2022
+X-Account-Key: account1
+X-UIDL: AAjFaLEARlegYodkeADLIONJl1s
+X-Mozilla-Status: 0005
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.40
+ by atlas210.free.mail.bf1.yahoo.com with HTTPS; Fri, 20 May 2022 09:50:47 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.32]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.32 as permitted sender)
+Authentication-Results: atlas210.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 20 May 2022 09:50:47 +0000
+X-YMailAVSC: eQCrPbc3bBsQiGEg8MFXF0YLkohiTJAOJP4qnJTBBfxhAEs
+ 3C3ILyZ1HY6lv5noJEqCMUY6DXMWGIUFvHg3xXuTJp49qMWL0_ylJ1JC7kcT
+ ctEu.V3kEy9CY9HIGgGVRE21Sm9AepeZc7AoxRCrtSrLVIUGVZ8mHtf_uzqz
+ 88n3WDcmr5hF9.JNItDI0Y7i.OfAp5SVz2kbjN28_ZBOt.uikMxC4xkzApe.
+ wznvmNMxKoU4b7QBnLefYuUMFgh9sutBEYP2n2qKZaX4qsXKgEe22ylEM6Am
+ SbtiaaJ1NRMGycSrWm9fusbx7XYBZBcnyt9NNIhh4OEsfur_8Gs3WB2Wwm8a
+ u9FJNhvXCICBKlu1vaJ76ehO51G2j6S7JvXuMoE2i698uBrUK3PxWzB0O0XP
+ F6PSp95R2Oqmr6m3dpLCAF2Y_iH0EI1VZwmJyOWfHJxlEEEqjp7it.NPmLOC
+ qRcrovJ8CxvKFeKBmOxWxBmWGjlHpnPHccLbBqNK3gWI6DWdolvM3Vn4r.y7
+ 7k3.sotkGC2_0UdM-
+X-YMailISG: U.dnq5IWLDvs1KW6nF1yh9q5wJkNHjH2ZbwoApvQOfThlztG
+ x1Es7IFx0wYUKX0nkxXvYUrOrbZdHRPUJadml90V6vHhB0CmimWs6ymdBPXU
+ ZsUN_K4QvPlzbZ00GGfsr7eilbFEE4MgZpZRED2Letf7LX5WeNrjMvxwjTLj
+ ZQ5kPZ.Xv_jkq4gdUvMKCGgythWjqREIvx.qP6M8rD1kFmdv6DGEln1ST8j7
+ .pUd..PT.z9FaJO1PEpxANsc71IuWUlvNTLKL0rNuOEKHwfKltp7m2R7QTnC
+ 3EInCLj3dTjXTofrinJYY_BnpCGN8wlRfkwOdSxR8Cti18LucRUEZCtpwEZg
+ OrZ2q7OXd6xUP77z_lZxxQRPtuUo.wah99l..hIdL.uK1bgyQzGI96Y1wr6E
+ bFWh52FrW5lN_TSYJ7jcDGjmfp3sEH5727Qb7pzA__vNGEf7M4_3QvHMjO7j
+ WrmSpoNBsnRJaXqnKZRpHEtTvIXgaek5e2p2B0ICkY5_xjDQDDhzcfynXx8X
+ sMY6YG68AJPdXnRbNnu6f8_9s0UmbGIR8CIAsRkOMKXio20hjW2v7y7XUAEO
+ BXWTzfBa8Dn4MBM6TnC0nXQpaYSYtIVBj.Pde6aPtmfxTyaJYAWweAHaREms
+ EA_zMhMu7p5YwwFX0oHFpvCBLn8GXAvGpvPE0wFcxSGE13nV4yMZ2VSY86fz
+ IRjuvb23ijzvqwd1SP8jGsnNQs6nU3Y6ZgP9rTI6Nvw762exDrLQ_ktJbijc
+ HT3Iwo19836HiCn23WK1GOQ7dcE85T7glahEls.A3Qq56PPhCd3vOJlg6gyF
+ u2OsKshoqP3mQncAD8CkT4596pYzVDWl61CtMdfaAWZtF.UOUfPTn29_6ywj
+ tehW4r14UZU0eMmmqz_I69XIsxf67J9MmQPTHtPDW2C3S2Xxl8TpijpWDCau
+ KwhgsmfbY5NkG4FDWzHsP7FMeJbbwjw5eeJ.U05yCMkNUdOPwCNH6CDQKdQJ
+ fOxA6nh4hjnSEnCvBPrjUv71ew2lXgS0HbEtm9HFgfoz7BUhgk9PCGiqh28V
+ Q9gUgsEwERbjT6kLEaXG7LnFSlc9ywMmG_RHw91CGUw7uPtTDBH7_1K7Iw1s
+ lCqfzNmEO2UnkH2LGbnAau16IECyiSOr7h2KXQQCbuGpSBqoFT6eQg0ONnle
+ 4ErtZA--
+Received: from 98.137.69.32 (EHLO sonic316-8.consmr.mail.gq1.yahoo.com)
+ by 10.197.40.40 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 20 May 2022 09:50:47 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653040247; bh=tvp26FJwlvSmcnYvbQEMMGZot7hBsE/OPVsO8KVWMO4=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=hkslxquhpbyAcrsVIUIZItJnsJP3Mj3R8dJ6Az9KCxk3vy4/fgwnWzutQeBWN7/2D7XGXTpgKW0e6/cSk0x3iI8W5nAspt373eukkpomFo+UFFD2NLISlHIFAmJA2Vmcg3cMTbDivenLxDtRFqF+K2tK9uRsG2a1VqQ0cRcN2nEIRwSwkXwTLuBwkANuCKkzF3LWyL6YJfVHiWuFDcP9UJ6iPzER/7zmedAaE+sQJA85Ck363ntS9W/X+C51Dq3iABeRHYS4Pc/gF9tlRh+fsRH8zcHNVA3McKMarzmF0fvwIk/JV0L4oFywA6tiTbqHILj4xNdd22ePnb5HjUFzXw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653040247; bh=2UD3qmzfNNvUFbSXv2o7UtnkZyvrb0NL1cP5Q13YMIl=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=Sh2o6SkTJcltQKE4E4oVQ7HJ1O5M0fpbs6QJIyMrENLyiISAewgPKg6f80uql+kZptW9mXTowlBgCVpXJK80ZB9ZPrCCoQNALVWDkM8Dtiqn+MLpmSKDU5qdMgZjQwIJVgI7YMrO1PuQocV43wXCXwZhvz5I34sUv6HlN0FPDb1p+DnZbcQFrjlKks7rT7VUE3vp+j4EnAQaekJMvtPiKdOTc/ZgjhywDmVxuhJ9zhBUPyxRNwOgorQMLTGz95s9LwdD31hCVRmabhFO5aMvE3r8QBrZy6PMIWk/f6Z2nIa1u/f6gP48o7jpnbpuOlSGXckOprh8Yibv/Qwf7RNQAQ==
+X-YMail-OSG: DBpIq48VM1nFY31XmSR_3kWuU.zv9cEU54Z_RTjhvmMquCbU1CoPJTs6WNDVFuL
+ NAQlidzpYNJZazP8OESO8FaRhigy5QzB2AvF_65gW.fGSBbs5AY7dEWblO6SQ1P5fo2AEI_5YQqY
+ M.vwuy5cuFG5lSBaguqmeLNGQQP94rAjG.7eRarGHp_348COsK4QOtrxg34Aa2rPO9ToQ5nXjL6e
+ IFkjPkDnDo3PiWxRdt1vFLc_2RYkqojOgvYae0u9Ht5tDZN2AmB0K1JscxR7qjlAwRaZyiq392FL
+ uuT1gUzYacll5V48V_BxhFeJUM.kVwnv3eAAjMF8kgSdhsUUaT5qVoSsOACfDv7hT6FN4yrw6XU2
+ DieT4bFF.xa_l7CO4wyuuMIyinRzQ2GL6vs.j0wK6M93pHZQiInq5T65gRJqx9lVL0FerNwnCCog
+ 2LEQoMu_obY2iIFe_._nZ4AfFDFScA.APYhSP9gBiNlZwukEKTL1TyuTe0cCsXmvgV.ERbaEEFsv
+ DwPZ6YwZELKIRD6Hd5z_EEWUltiQOczaoI_lsIsABTBqCdaZLvMPZctfifAgIcKitB0Qp9WCZ2Z_
+ q24f3UZpnbuWJOD_go0udkR1quiLG8IO.hJ4MuGkXpMWNC08IcBdaN.JrkudF8nmU7T4MwFb36_n
+ IRnX5wckBEDNfkUbCqQ3RYHCcMx3sura2WthO8.ztd9ZX_amd8Rl2rxJWjfstSyueFb.vyo1vUvm
+ FGkWx.ZwQaMfqv7mqnODAr47YHqL4Q.LAfgYa_8Bg1tOt0OSETeeVMnpQadEC_Wn7insPamKJ05P
+ SuFxTcuWuebCVJF9Z9NA5E54v6mDU8AiS16lTmDsupVtZgHA3wsUejs145OdoC0zbCMcJULAWKjz
+ TeTLoC_LfBdEMRzKQeqD.QPJPuHLbDistEbk6y8HGbi0plSKxdhflilHkYpq9zLxncvOBEpehjBu
+ L_fntX34cEJYKgNBFppP.N6ompIUNyjMGnyxD7O6LZsWmIEMwyucRgWgkluXtHyh5D4qJl8wDCrs
+ .Sc_EpkzEoIX9jI3Hpy9_A8BrqkbvceeUgQdZyhef0OB03lC9buTL2GZ67HZMBpgYdRxiXAg2dqF
+ 9K3h7unSsOwMlUG_zfiPQy9CVyaIi8xGrK_TAdb3ureUYjqWcapaT9dgJnVaSwyrsu_tfhSsgfNt
+ Y0bqFDZ8d8DCLaC5V82G9DMdETjEHhOuEwtIm9Joq15dib8YGFg1ZsEE808sms9PDVizDHo7nmti
+ GoiUAcdG9KIMFe40MLvxS5sQczdqd6SGUbWgTg3hVNG5QeXvM6fSLd3Fyov64Ru4NDl6RRiVMN2f
+ foYr9z3OBO7YuMnwXL3R2JA_bnp8KSQ0QJD8eHkBejZhLg0WCp6MhXrhcmPgDe3k9cvSN71dIJ0x
+ WxR6xPZLoFr6g9M1mNJdzeoukf.xbbhIPOHDN_5GRp52lZB0agGVJHvWof1EjIu_A2emSeiUQUFo
+ BYAY2lC3sjv3TcCWDE2AQZBJ1.POzjitFuLKlwv3FU1gOuPdZi7PvOjhl1jVBoiga1VPSB.w2iYx
+ jK4s4BoQzbIy1dJgh4MfIgL7lBezY06bOV_8yXvbJobrcoi.P2NhF5iL26CTumCfITAP2Lm15L8z
+ Tw6RYDaK2_XdER7mBaJ2RDA1httNcAysr1VE8k9P7PsU701_CVyOcX0pSmsBx_T8643trLOjT8aU
+ 9v3UB5I0x.FunEms462Ojcx6GZ0x5vjvMLuiTLYNwKM30FY8u7n6T84WiKn_nNgroIG.mnTWfZar
+ Ukk0baQDIW3E9xSKVjISiDl.JF5Xp.9gr0xBtjbCjopWJoJzKYJgzyITi7zhvBBO1y2Cyv2893Ag
+ vMbtT95WyV3k3woUMyQ9TtDouBxFtLA5cXRjOIMO6mAvb3QGl5fB6q9_hDkJQpdl9_tqBsrCuk7L
+ lo3UZJJY3sBHODjuy.MIcPYOI1mGgXdbceUfgRCECvy5_U73j55fy0iLNyfPxy1QiQ2f4ya2rnoV
+ SH9jD3L42aBXDbrOWkq6WMxfe0OX_acvhbQjlYX7jwfC3C5PNXzx8Pxm4EBg22yxZznmTrn338t9
+ KeWH.DEVMeqSKqASpD_Qfob_ELH0Ni0bqlbgqV5myohOFFjS3GbsMjNQtadUdB0Y8iiuf2dh536E
+ 2v0Tvp6mF3d0Goisp0psbOuAjtgls_KHK8fOaQ0tCDeRhTiGyyedQElT8EvrNGUdXZXFiBbNX8b0
+ Y6laUfmN34dw3mOYzq1v9Nir.ULbScOSdAuumjU7apjZOUUj8yKYZ4nVbPM1ajSTDLmpM81VnwO4
+ xWjvYHLSKTi0VisLs2THFL23KUJWmJdxMDFzi.cHZM0nKNFpARCUwp_lIVbs.zMQ1KTnYPJFYX.l
+ iDIe6GZWQAWL6dhAaSbCctxHTmEeIaSI5PcaHa8v5bAiVfP4kWPYenrlNuDnm
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic316.consmr.mail.gq1.yahoo.com with HTTP; Fri, 20 May 2022 09:50:47 +0000
+Date: Fri, 20 May 2022 09:50:44 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "praghuram2@bloomberg.net" <praghuram2@bloomberg.net>, 
+	"Bloomberg L.P." <bbrief@bloomberg.net>, 
+	Paul Regan <legal@mskyline.com>, 
+	"lzucker@mskyline.com" <lzucker@mskyline.com>, 
+	"nym-preacompliancemgr-s@bop.gov" <nym-preacompliancemgr-s@bop.gov>, 
+	NYSCEF PROCESS HD <oca_hd_processor@nycourts.gov>, 
+	"oca@sec.gov" <oca@sec.gov>, OIG Hotline <oighotline@fdicoig.gov>, 
+	"oig.openrecords@tdcj.texas.gov" <oig.openrecords@tdcj.texas.gov>, 
+	"oigspecialops@tdcj.texas.gov" <oigspecialops@tdcj.texas.gov>
+Cc: "foiaconsultsandref@atf.gov" <foiaconsultsandref@atf.gov>, 
+	"foia@eeoc.gov.com" <foia@eeoc.gov.com>, 
+	FREEDOM OF INFORMATION ACT <foia@eeoc.gov>, 
+	Golf Channel <news@golfchannel.com>, 
+	"chscommunications@nychhc.org" <chscommunications@nychhc.org>
+Message-ID: <670138070.537694.1653040244505@mail.yahoo.com>
+In-Reply-To: <19DB9536-B0D5-4E32-AFF8-FAD1B2256EC5@icloud.com>
+References: <c0617b949206498fbf4efd9740f891fc@BYAPR20MB2647.namprd20.prod.outlook.com> <19DB9536-B0D5-4E32-AFF8-FAD1B2256EC5@icloud.com>
+Subject: Fw: Fwd: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 06cbdd: [153974
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_537693_112222793.1653040244497"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 42827
+
+------=_Part_537693_112222793.1653040244497
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Bo Dincer" <bdincer66@icloud.com> T=
+o: "block803lot11@outlook.com" <block803lot11@outlook.com> Cc:  Sent: Fri, =
+May 20, 2022 at 5:13 AM Subject: Fwd: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKE=
+R] 06cbdd: [153974 =20
+
+/BD
+
+Begin forwarded message:
+
+
+From: zucker elser <BLOCK803LOT11@outlook.com>
+Date: May 20, 2022 at 4:05:55 AM EDT
+To: "Governor.Hochul@exec.ny.gov" <Governor.Hochul@exec.ny.gov>, "PRIYA.RAG=
+HURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, "mscampusrecru=
+iting@morganstanley.com" <mscampusrecruiting@morganstanley.com>, "tracedata=
+services@finra.org" <tracedataservices@finra.org>
+Subject: FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 06cbdd: [153974](https=
+://github.com/BSCPGROUPHOLDINGSLLC/E...
+
+
+
+=EF=BB=BF
+
+
+________________________________________
+From: 1212-5858 <noreply@github.com>
+Sent: Friday, May 20, 2022 8:05:42 AM (UTC) Coordinated Universal Time
+To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 06cbdd: [153974](https://g=
+ithub.com/BSCPGROUPHOLDINGSLLC/E...
+
+ =C2=A0Branch: refs/heads/VIOLATION-OF-PRIVACY-153974-1516523-93715
+
+ =C2=A0Home: =C2=A0=C2=A0https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-=
+DICKER
+
+ =C2=A0Commit: 06cbdda330f69686bb28e74b6f74f3d2371b99da
+
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0https://github.com/BSCPGROUPHOLDINGSLLC/ELSE=
+R-AND-DICKER/commit/06cbdda330f69686bb28e74b6f74f3d2371b99da
+
+ =C2=A0Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.githu=
+b.com>
+
+ =C2=A0Date: =C2=A0=C2=A02022-05-20 (Fri, 20 May 2022)
+
+
+
+ =C2=A0Changed paths:
+
+ =C2=A0=C2=A0=C2=A0A 153974-99
+
+
+
+ =C2=A0Log Message:
+
+ =C2=A0-----------
+
+ =C2=A0[153974](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pu=
+ll/5)
+
+
+
+
+
+p.s. I never met any of the Zuckers, Wilson Dicker, Laskowitz, Miwa, or any=
+ of these people who documented me every day.[nov13 and Dec18 2021 - multip=
+le dwelling laws.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-Z=
+UCKER/files/8706680/nov13.and.Dec18.2021.-.multiple.dwelling.laws.pdf)
+
+[(PS-Investigation@facil.columbia.edu)(crcmessages@ftc.gov).pdf](https://gi=
+thub.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/8706682/PS-Investiga=
+tion%40facil.columbia.edu.crcmessages%40ftc.gov.pdf)
+
+
+
+
+
+
+
+https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/upload/CRC-REYYK=
+JAVIK-MONROVIA
+
+
+
+[Not read MOV distribution continues beyond earlier requests of non-consent=
+](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7)
+
+
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+
+
+
+
+
+--
+
+THESE PERVERT UPLOADED THE VIDEOS THEMSELVES.... AND EMAILED THEM AMONGS EA=
+CH OTHER...
+
+https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/2
+
+
+
+
+
+
+
+
+
+
+
+A very expensive decision... by a professional team of 900 + 1 Laskowitz?
+
+
+
+ =C2=A0=C2=A0=C2=A0**** non-joinder... no wonder....
+
+
+
+ =C2=A0=C2=A0=C2=A0**** https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-D=
+ICKER/pull/5
+
+
+
+ =C2=A0****
+
+
+
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D202=
+0052000291003
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1NcBA=
+DqRc_PLUS_g11P4g=3D=3D
+
+
+
+
+
+https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN=
+-CEN_X01/primary_doc.xml
+
+
+
+
+
+
+
+[ALL VIDEOS =C2=A0- UNRETURNED AS OF CURRENT =C2=A0=C2=A0=C2=A0SEE ALSO DOC=
+KET 008](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPW=
+FQc/WFihoyIKwEunaalQ=3D=3D)
+
+
+
+008 - ROSALIA CHANN AND ALEXIS BRANDON
+
+2020 07 26 - WINDOW NOT REPAIRED =C2=A0=C2=A0CAMERA IS WORKING =C2=A0ON 202=
+0 08 07 DOCKET 300
+
+2022 02 04 --- FRIDAY =C2=A0--- CONFIRMATIONS
+
+2022 02 06 --- SUNDAY --- CONFIRMATIONS
+
+CAMERA HAS NOT BEEN REMOVED - ENTERED IN THE DESCRIPTION OF THESE EXHIBITS =
+- REYNOSO - TECHMANN =C2=A0VENTILATOR =C2=A0FOUND A =C2=A0MOV FILE
+
+
+
+CHECK LINKS
+
+
+
+510-682 -9510 =C2=A0-- THIS ONE...
+
+NOTARIZED AN AFFIDAVIT IN ALAMEDA, CALIFORNIA AFTER MOVING OUT OF 111 SULLI=
+VAN STREET, ALLEGEDLY...
+
+ AND HER MOTHER ANNEXED A COMPLAINT THAT =C2=A0I WAS BOTHERING HER DAUGHTER=
+..
+
+I NEVER MET THESE B****S
+
+- I DON'T EVEN KNOW IF SHES A REAL PERSON, BUT THEY ANNEXED THAT SHE HAD TO=
+ MOVE OUT...
+
+
+
+
+
+[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFih=
+oyIKwEunaalQ=3D=3D](https://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D)
+
+
+
+[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DDh6Cccrtps=
+xJlvBthb8nEA=3D=3D](https://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DDh6CccrtpsxJlvBthb8nEA=3D=3D)
+
+
+
+
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DDh6Cccrtpsx=
+JlvBthb8nEA=3D=3D
+
+
+
+[Read =C2=A0FW =C2=A0ATTACHED =C2=A0=C2=A0=C2=A0NOT IN DISNEYLAND -- AND NO=
+T ON MY WATCH =C2=A0-- -- -- SORRY =C2=A0(155)](https://github.com/BSCPGROU=
+PHOLDINGSLLC/ELSER-AND-DICKER/pull/7)
+
+
+
+https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filen=
+ame1.pdf
+
+
+
+510 =C2=A0682 =C2=A0=C2=A09510
+
+
+
+Andrew Reynoso <AREYNOSO@MSKYLINE.COM>
+
+Tom Eschmann <TESCHMAN@MSKYLINE.COM>
+
+Joseph Giamboi <JGiamboi@mskyline.com>;
+
+MONDAY APRIL 13TH
+
+Laurie Zucker <LZucker@mskyline.com>
+
+Edward Devine <EDevine@mskyline.com>
+
+Laurie Zucker <LZucker@mskyline.com>
+
+
+
+
+
+MG Messer <mgMESSER@GMAIL.COM>
+
+"Miwa Messer
+
+111 Sullivan #3AR"
+
+
+
+Paul Regan <Legal@mskyline.com>
+
+
+
+
+
+MG Messer <rngrnessei Pgnrail.corn>
+
+Miwa Messer
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000=
+d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b5002=
+248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5000=
+d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b5002=
+24828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7b5000=
+d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000=
+d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b5002=
+24828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%=
+201516523]%20MONK[CRD%201357149].pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7b5000=
+d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7b5002=
+2482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%2080181=
+84.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b5002=
+2482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b5002=
+248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b5002=
+248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000=
+d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5000=
+d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b5002=
+24828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5002=
+248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%2=
+08018184.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b5002=
+24828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FA=
+RM%20mutual%20automobile%20insurance%20company-$3487.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b5002=
+24828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5002=
+248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%2=
+08018184.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b5002=
+24828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FA=
+RM%20mutual%20automobile%20insurance%20company-$3487.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000=
+d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000=
+d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf
+
+
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHK=
+tnJU/ni/zvg=3D=3D
+
+
+
+
+
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D202=
+0052000291003
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrEG=
+CsUUcCcvtJ8O/dfg=3D=3D
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0=
+QvnmRLGpYIQ=3D=3D
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0=
+QvnmRLGpYIQ=3D=3D
+
+
+
+
+
+
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0y=
+nPeXZKSHgLQ=3D=3D
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66h=
+rVmJ9DX_PLUS_bdg=3D=3D
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0y=
+nPeXZKSHgLQ=3D=3D
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHK=
+tnJU/ni/zvg=3D=3D
+
+
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLUS=
+_k6vCmKgfCSJEzuQ=3D=3D
+
+
+
+
+
+https://portal.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff8=
+6900c
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5000=
+d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf
+
+
+
+
+
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0PROPERTY=
+ 1: =C2=A0=C2=A0=C2=A0=C2=A0111 SULLIVAN STREET REAR, NEW YORK, NY, 10012
+
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0IS WHERE I RESIDED.
+
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0PROPERTY=
+ 2: =C2=A0=C2=A0=C2=A0=C2=A0117 SULLIVAN STREET, NEW YORK, NY, 10012
+
+ =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0WAS ALSO TRANSFERRED TO STATE FARM.
+
+
+
+
+
+\
+
+STATE FARM INVESTMENT MANAGEMENT
+
+SECURITY SYMBOL 3487
+
+04-12-2022
+
+TERRENCE MICHAEL LUDWIG
+
+2004555
+
+STATE FARM VP MANAGEMENT CORP 43036
+
+FAILURE TO DISCLOSE.
+
+https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b5002=
+2482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf
+
+
+
+\
+
+COLUMBIA.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgeyzvA=
+85ViWMmvfAQ=3D=3D
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DNvtIUa5jls0=
+V4/OF7/XlGg=3D=3D
+
+https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-=
+4bdd-afda-c433cc8912d8.png
+
+\
+
+CRC.
+
+https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-=
+4cc5-baf8-c80166e99414.png
+
+https://user-images.githubusercontent.com/70865813/168770459-03f1d0c4-a460-=
+491d-a82e-e6c400b7ff71.png
+
+\
+
+ZUCKER.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgeyzvA=
+85ViWMmvfAQ=3D=3D
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPlTp8O/4k_P=
+LUS_GPLPHn15fi6A=3D=3D
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFiho=
+yIKwEunaalQ=3D=3D
+
+https://user-images.githubusercontent.com/70865813/168733004-b6a8f437-dd06-=
+409a-83ba-0d404245514f.png
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DD9Td7IfWXya=
+jw1tBNCFb9g=3D=3D
+
+\
+
+RE: STATE FARM ASSOCIATES=E2=80=99 FUNDS TRUST
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2Ue=
+HQe8j2tXJoQ=3D=3D
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0=
+QvnmRLGpYIQ=3D=3D
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcweC7e=
+sRoSPO8MNtA=3D=3D
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIY8iDH_PLUS=
+_UpVanEtcRioef3A=3D=3D
+
+
+
+\
+
+STATE FARM ASSOCIATES=E2=80=99 FUNDS TRUST 1
+
+https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filen=
+ame1.pdf
+
+\
+
+### EMAIL CONFIRMATIONS BY THE COUNSELORS OF THE ZUCKER ORGANIZATION
+
+*** A VIOLATION OF PRIVACY AND A BREACH OF THE LAW AND CONTRACT.
+
+![image](https://user-images.githubusercontent.com/70865813/168770321-4e8f5=
+1c0-3ce4-4bdd-afda-c433cc8912d8.png)
+
+
+
+---
+
+was read on Monday, February 7, 2022 4:47:05 PM (UTC+00:00) Monrovia, Reykj=
+avik.
+
+To: PS Investigation
+
+Subject: see also : camera NOT POINTED AT A WINDOW docket 49 + SHANKING THE=
+ PORTER you missed.
+
+Sent: Sunday, February 6, 2022 8:06:50 PM (UTC+00:00) Monrovia, Reykjavik
+
+
+
+![168761279-17e64f23-4613-49b2-8704-123e68425e5c](https://user-images.githu=
+busercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.pn=
+g)
+
+
+
+
+
+![168761716-5f9b1aed-fef9-4ec2-9d90-3fa22bc69bc3](https://user-images.githu=
+busercontent.com/70865813/168770555-25ef68a8-5bb3-42e6-a28a-c35b60cd9b0b.pn=
+g)
+
+
+
+
+
+#### READ TIMESTAMPS
+
+
+
+[ https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/2 ](https=
+://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/2)
+
+
+
+[MSG BOX 1: VIOLATION OF PRIVACY - DISTRIBUTION WITHOUT CONSENT](https://gi=
+thub.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522=
+e1a4b9a2d1f4e49bb68)
+
+
+
+[MSG BOX 2: =C2=A7 11 440 Tampering with or fabricating physical evidence](=
+https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d69023191f=
+5a8a25006caf258a50b649da83aa0)
+
+
+
+[MSG BOX 3: The Zuckers are protected by these individuals](https://github.=
+com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/4/files)
+
+
+
+
+
+## ECONOMIC BENEFITS
+
+[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIY8iDH_PLU=
+S_UpVanEtcRioef3A=3D=3D](https://iapps.courts.state.ny.us/nyscef/ViewDocume=
+nt?docIndex=3DIY8iDH_PLUS_UpVanEtcRioef3A=3D=3D)
+
+
+
+#### HIRED A sub-par ON-DEMAN VIDEO SPECIALIST.
+
+**** ps what the heck is Pod-Cast?
+
+**** did NOT know I had one of those either.
+
+@rosaliachann
+
+[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFih=
+oyIKwEunaalQ=3D=3D]
+
+(https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFih=
+oyIKwEunaalQ=3D=3D)
+
+
+
+
+
+p.s. I never met any of the Zuckers, Wilson Dicker, Laskowitz, Miwa, or any=
+ of these people who documented me every day.[nov13 and Dec18 2021 - multip=
+le dwelling laws.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-Z=
+UCKER/files/8706680/nov13.and.Dec18.2021.-.multiple.dwelling.laws.pdf)
+
+[(PS-Investigation@facil.columbia.edu)(crcmessages@ftc.gov).pdf](https://gi=
+thub.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/8706682/PS-Investiga=
+tion%40facil.columbia.edu.crcmessages%40ftc.gov.pdf)
+
+
+
+
+
+ =20
+
+------=_Part_537693_112222793.1653040244497
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; =
+margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fa=
+mily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message ----=
+-</div> <div><b>From:</b> "Bo Dincer" &lt;bdincer66@icloud.com&gt;</div> <d=
+iv><b>To:</b> "block803lot11@outlook.com" &lt;block803lot11@outlook.com&gt;=
+</div> <div style=3D"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Fri,=
+ May 20, 2022 at 5:13 AM</div> <div><b>Subject:</b> Fwd: [BSCPGROUPHOLDINGS=
+LLC/ELSER-AND-DICKER] 06cbdd: [153974</div> </div>  <div id=3D"yiv003858594=
+3"><div><br><br><div dir=3D"ltr">/BD<div><br></div></div><div dir=3D"ltr"><=
+br>Begin forwarded message:<br><br></div><blockquote type=3D"cite"><div dir=
+=3D"ltr"><b>From:</b> zucker elser &lt;BLOCK803LOT11@outlook.com&gt;<br><b>=
+Date:</b> May 20, 2022 at 4:05:55 AM EDT<br><b>To:</b> "Governor.Hochul@exe=
+c.ny.gov" &lt;Governor.Hochul@exec.ny.gov&gt;, "PRIYA.RAGHURAM@MORGANSTANLE=
+Y.COM" &lt;PRIYA.RAGHURAM@morganstanley.com&gt;, "mscampusrecruiting@morgan=
+stanley.com" &lt;mscampusrecruiting@morganstanley.com&gt;, "tracedataservic=
+es@finra.org" &lt;tracedataservices@finra.org&gt;<br><b>Subject:</b> <b>FW:=
+ [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 06cbdd: [153974](https://github.co=
+m/BSCPGROUPHOLDINGSLLC/E...</b><br><br></div></blockquote><blockquote type=
+=3D"cite"><div dir=3D"ltr">=EF=BB=BF<span></span><br><span></span><br><span=
+></span><br><span>________________________________________</span><br><span>=
+From: 1212-5858 &lt;noreply@github.com&gt;</span><br><span>Sent: Friday, Ma=
+y 20, 2022 8:05:42 AM (UTC) Coordinated Universal Time</span><br><span>To: =
+mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM</span><br><=
+span>Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 06cbdd: [153974](http=
+s://github.com/BSCPGROUPHOLDINGSLLC/E...</span><br><span></span><br><span> =
+&nbsp;Branch: refs/heads/VIOLATION-OF-PRIVACY-153974-1516523-93715</span><b=
+r><span></span><br><span> &nbsp;Home: &nbsp;&nbsp;https://github.com/BSCPGR=
+OUPHOLDINGSLLC/ELSER-AND-DICKER</span><br><span></span><br><span> &nbsp;Com=
+mit: 06cbdda330f69686bb28e74b6f74f3d2371b99da</span><br><span></span><br><s=
+pan> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSLLC/=
+ELSER-AND-DICKER/commit/06cbdda330f69686bb28e74b6f74f3d2371b99da</span><br>=
+<span></span><br><span> &nbsp;Author: 1212-5858 &lt;70865813+BSCPGROUPHOLDI=
+NGSLLC@users.noreply.github.com&gt;</span><br><span></span><br><span> &nbsp=
+;Date: &nbsp;&nbsp;2022-05-20 (Fri, 20 May 2022)</span><br><span></span><br=
+><span></span><br><span></span><br><span> &nbsp;Changed paths:</span><br><s=
+pan></span><br><span> &nbsp;&nbsp;&nbsp;A 153974-99</span><br><span></span>=
+<br><span></span><br><span></span><br><span> &nbsp;Log Message:</span><br><=
+span></span><br><span> &nbsp;-----------</span><br><span></span><br><span> =
+&nbsp;[153974](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pul=
+l/5)</span><br><span></span><br><span></span><br><span></span><br><span></s=
+pan><br><span></span><br><span>p.s. I never met any of the Zuckers, Wilson =
+Dicker, Laskowitz, Miwa, or any of these people who documented me every day=
+.[nov13 and Dec18 2021 - multiple dwelling laws.pdf](https://github.com/BSC=
+PGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/8706680/nov13.and.Dec18.2021.-.m=
+ultiple.dwelling.laws.pdf)</span><br><span></span><br><span>[(PS-Investigat=
+ion@facil.columbia.edu)(crcmessages@ftc.gov).pdf](https://github.com/BSCPGR=
+OUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/8706682/PS-Investigation%40facil.co=
+lumbia.edu.crcmessages%40ftc.gov.pdf)</span><br><span></span><br><span></sp=
+an><br><span></span><br><span></span><br><span></span><br><span></span><br>=
+<span></span><br><span>https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-=
+ZUCKER/upload/CRC-REYYKJAVIK-MONROVIA</span><br><span></span><br><span></sp=
+an><br><span></span><br><span>[Not read MOV distribution continues beyond e=
+arlier requests of non-consent](https://github.com/BSCPGROUPHOLDINGSLLC/ELS=
+ER-AND-DICKER/pull/7)</span><br><span></span><br><span></span><br><span></s=
+pan><br><span>https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull=
+/5</span><br><span></span><br><span></span><br><span></span><br><span></spa=
+n><br><span></span><br><span>--</span><br><span></span><br><span>THESE PERV=
+ERT UPLOADED THE VIDEOS THEMSELVES.... AND EMAILED THEM AMONGS EACH OTHER..=
+.</span><br><span></span><br><span>https://github.com/BSCPGROUPHOLDINGSLLC/=
+WILSONELSER-ZUCKER/pull/2</span><br><span></span><br><span></span><br><span=
+></span><br><span></span><br><span></span><br><span></span><br><span></span=
+><br><span></span><br><span></span><br><span></span><br><span></span><br><s=
+pan>A very expensive decision... by a professional team of 900 + 1 Laskowit=
+z?</span><br><span></span><br><span></span><br><span></span><br><span> &nbs=
+p;&nbsp;&nbsp;**** non-joinder... no wonder....</span><br><span></span><br>=
+<span></span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;**** https://git=
+hub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</span><br><span></span=
+><br><span></span><br><span></span><br><span> &nbsp;****</span><br><span></=
+span><br><span></span><br><span></span><br><span>https://a836-acris.nyc.gov=
+/DS/DocumentSearch/DocumentImageView?doc_id=3D2020052000291003</span><br><s=
+pan></span><br><span></span><br><span></span><br><blockquote type=3D"cite">=
+<blockquote type=3D"cite"><span>https://iapps.courts.state.ny.us/nyscef/Vie=
+wDocument?docIndex=3DXjn0/e1NcBADqRc_PLUS_g11P4g=3D=3D</span><br></blockquo=
+te></blockquote><span></span><br><span></span><br><span></span><br><span>ht=
+tps://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-C=
+EN_X01/primary_doc.xml</span><br><span></span><br><span></span><br><span></=
+span><br><span></span><br><span></span><br><span></span><br><span></span><b=
+r><span>[ALL VIDEOS &nbsp;- UNRETURNED AS OF CURRENT &nbsp;&nbsp;&nbsp;SEE =
+ALSO DOCKET 008](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D)</span><br><span></span><br><span></span=
+><br><span></span><br><span>008 - ROSALIA CHANN AND ALEXIS BRANDON</span><b=
+r><span></span><br><span>2020 07 26 - WINDOW NOT REPAIRED &nbsp;&nbsp;CAMER=
+A IS WORKING &nbsp;ON 2020 08 07 DOCKET 300</span><br><span></span><br><spa=
+n>2022 02 04 --- FRIDAY &nbsp;--- CONFIRMATIONS</span><br><span></span><br>=
+<span>2022 02 06 --- SUNDAY --- CONFIRMATIONS</span><br><span></span><br><s=
+pan>CAMERA HAS NOT BEEN REMOVED - ENTERED IN THE DESCRIPTION OF THESE EXHIB=
+ITS - REYNOSO - TECHMANN &nbsp;VENTILATOR &nbsp;FOUND A &nbsp;MOV FILE</spa=
+n><br><span></span><br><span></span><br><span></span><br><span>CHECK LINKS<=
+/span><br><span></span><br><span></span><br><span></span><br><span>510-682 =
+-9510 &nbsp;-- THIS ONE...</span><br><span></span><br><span>NOTARIZED AN AF=
+FIDAVIT IN ALAMEDA, CALIFORNIA AFTER MOVING OUT OF 111 SULLIVAN STREET, ALL=
+EGEDLY...</span><br><span></span><br><span> AND HER MOTHER ANNEXED A COMPLA=
+INT THAT &nbsp;I WAS BOTHERING HER DAUGHTER...</span><br><span></span><br><=
+span>I NEVER MET THESE B****S</span><br><span></span><br><span>- I DON'T EV=
+EN KNOW IF SHES A REAL PERSON, BUT THEY ANNEXED THAT SHE HAD TO MOVE OUT...=
+</span><br><span></span><br><span></span><br><span></span><br><span></span>=
+<br><span></span><br><span>[https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D](https://iapps.courts.state.n=
+y.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D)</span><br=
+><span></span><br><span></span><br><span></span><br><span>[https://iapps.co=
+urts.state.ny.us/nyscef/ViewDocument?docIndex=3DDh6CccrtpsxJlvBthb8nEA=3D=
+=3D](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DDh6Ccc=
+rtpsxJlvBthb8nEA=3D=3D)</span><br><span></span><br><span></span><br><span><=
+/span><br><span></span><br><span></span><br><span></span><br><span></span><=
+br><span></span><br><span></span><br><span>https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3DDh6CccrtpsxJlvBthb8nEA=3D=3D</span><br><spa=
+n></span><br><span></span><br><span></span><br><span>[Read &nbsp;FW &nbsp;A=
+TTACHED &nbsp;&nbsp;&nbsp;NOT IN DISNEYLAND -- AND NOT ON MY WATCH &nbsp;--=
+ -- -- SORRY &nbsp;(155)](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND=
+-DICKER/pull/7)</span><br><span></span><br><span></span><br><span></span><b=
+r><span>https://www.sec.gov/Archives/edgar/data/0000093715/9999999997210057=
+90/filename1.pdf</span><br><span></span><br><span></span><br><span></span><=
+br><span>510 &nbsp;682 &nbsp;&nbsp;9510</span><br><span></span><br><span></=
+span><br><span></span><br><span>Andrew Reynoso &lt;AREYNOSO@MSKYLINE.COM&gt=
+;</span><br><span></span><br><span>Tom Eschmann &lt;TESCHMAN@MSKYLINE.COM&g=
+t;</span><br><span></span><br><span>Joseph Giamboi &lt;JGiamboi@mskyline.co=
+m&gt;;</span><br><span></span><br><span>MONDAY APRIL 13TH</span><br><span><=
+/span><br><span>Laurie Zucker &lt;LZucker@mskyline.com&gt;</span><br><span>=
+</span><br><span>Edward Devine &lt;EDevine@mskyline.com&gt;</span><br><span=
+></span><br><span>Laurie Zucker &lt;LZucker@mskyline.com&gt;</span><br><spa=
+n></span><br><span></span><br><span></span><br><span></span><br><span></spa=
+n><br><span>MG Messer &lt;mgMESSER@GMAIL.COM&gt;</span><br><span></span><br=
+><span>"Miwa Messer</span><br><span></span><br><span>111 Sullivan #3AR"</sp=
+an><br><span></span><br><span></span><br><span></span><br><span>Paul Regan =
+&lt;Legal@mskyline.com&gt;</span><br><span></span><br><span></span><br><spa=
+n></span><br><span></span><br><span></span><br><span>MG Messer &lt;rngrness=
+ei Pgnrail.corn&gt;</span><br><span></span><br><span>Miwa Messer</span><br>=
+<span></span><br><span></span><br><span></span><br><span></span><br><span><=
+/span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6=
+a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg</span><=
+br><span></span><br><span></span><br><span></span><br><span></span><br><spa=
+n></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/8de5=
+f89e10d3ec11a7b5002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg</spa=
+n><br><span></span><br><span></span><br><span></span><br><span></span><br><=
+span></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/a=
+463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg</=
+span><br><span></span><br><span></span><br><span></span><br><span></span><b=
+r><span></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clea=
+n/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%2043036]Advisers%20In=
+vestment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf</span><br><sp=
+an></span><br><span></span><br><span></span><br><span></span><br><span></sp=
+an><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997=
+d3ec11a7b5000d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20T=
+rust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf</span><br><span></span><b=
+r><span></span><br><span></span><br><span></span><br><span></span><br><span=
+>https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b500=
+0d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf</span><br><span></sp=
+an><br><span></span><br><span></span><br><span></span><br><span></span><br>=
+<span>https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a=
+7b500224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20=
+[$CIK%201516523]%20MONK[CRD%201357149].pdf</span><br><span></span><br><span=
+></span><br><span></span><br><span></span><br><span></span><br><span>https:=
+//saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7b5000d3a132=
+789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf</span><br><sp=
+an></span><br><span></span><br><span></span><br><span></span><br><span></sp=
+an><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95=
+d3ec11a7b50022482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-=
+%20IA%208018184.pdf</span><br><span></span><br><span></span><br><span></spa=
+n><br><span></span><br><span></span><br><span>https://saaze2311prdsra.blob.=
+core.windows.net/clean/af081f4095d3ec11a7b50022482864f0/[STATE%20FARM%20VP%=
+2043036]%20$3231040-2004555.pdf</span><br><span></span><br><span></span><br=
+><span></span><br><span></span><br><span></span><br><span>https://saaze2311=
+prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b5002248286997/StateFa=
+rmVP%20Management%20Corp-CRD%2343036.pdf</span><br><span></span><br><span><=
+/span><br><span></span><br><span></span><br><span></span><br><span>https://=
+saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b500224828699=
+7/StateFarmVP%20Management%20Corp-CRD%2343036.pdf</span><br><span></span><b=
+r><span></span><br><span></span><br><span></span><br><span></span><br><span=
+>https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b500=
+0d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf</span=
+><br><span></span><br><span></span><br><span></span><br><span></span><br><s=
+pan></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/db=
+5e3c6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg</s=
+pan><br><span></span><br><span></span><br><span></span><br><span></span><br=
+><span></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean=
+/172de37992d3ec11a7b500224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20=
+SEMI.pdf</span><br><span></span><br><span></span><br><span></span><br><span=
+></span><br><span></span><br><span>https://saaze2311prdsra.blob.core.window=
+s.net/clean/bee2b76c92d3ec11a7b5002248286997/[SF.VP%2043036]%202876793%20-%=
+20$david%20moore%20$3487%20-%20IA%208018184.pdf</span><br><span></span><br>=
+<span></span><br><span></span><br><span></span><br><span></span><br><span>h=
+ttps://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b50022=
+4828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FAR=
+M%20mutual%20automobile%20insurance%20company-$3487.pdf</span><br><span></s=
+pan><br><span></span><br><span></span><br><span></span><br><span></span><br=
+><span>https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11=
+a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf</spa=
+n><br><span></span><br><span></span><br><span></span><br><span></span><br><=
+span></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/b=
+ee2b76c92d3ec11a7b5002248286997/[SF.VP%2043036]%202876793%20-%20$david%20mo=
+ore%20$3487%20-%20IA%208018184.pdf</span><br><span></span><br><span></span>=
+<br><span></span><br><span></span><br><span></span><br><span>https://saaze2=
+311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b500224828654e/[sf%=
+20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20=
+automobile%20insurance%20company-$3487.pdf</span><br><span></span><br><span=
+></span><br><span></span><br><span></span><br><span></span><br><span>https:=
+//saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a132=
+6fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf</span><br><span></span><br>=
+<span></span><br><span></span><br><span></span><br><span></span><br><span>h=
+ttps://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d=
+3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf</span><br><span></span=
+><br><span></span><br><span></span><br><span></span><br><span></span><br><s=
+pan></span><br><span></span><br><span>https://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D</span><br><span></s=
+pan><br><span></span><br><span></span><br><span></span><br><span></span><br=
+><span>https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_i=
+d=3D2020052000291003</span><br><span></span><br><span></span><br><span></sp=
+an><br><span></span><br><span></span><br><span>https://iapps.courts.state.n=
+y.us/nyscef/ViewDocument?docIndex=3D_PLUS_TlrEGCsUUcCcvtJ8O/dfg=3D=3D</span=
+><br><span></span><br><span></span><br><span></span><br><span></span><br><s=
+pan></span><br><span>https://iapps.courts.state.ny.us/nyscef/ViewDocument?d=
+ocIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</span><br><span></span><br><span></s=
+pan><br><span></span><br><span></span><br><span></span><br><span>https://ia=
+pps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYI=
+Q=3D=3D</span><br><span></span><br><span></span><br><span></span><br><span>=
+</span><br><span></span><br><span></span><br><span></span><br><span></span>=
+<br><span></span><br><span></span><br><span></span><br><span>https://iapps.=
+courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=
+=3D</span><br><span></span><br><span></span><br><span></span><br><span></sp=
+an><br><span></span><br><span>https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D</span><br><span></span=
+><br><span></span><br><span></span><br><span></span><br><span></span><br><s=
+pan>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaF=
+zm0ynPeXZKSHgLQ=3D=3D</span><br><span></span><br><span></span><br><span></s=
+pan><br><span></span><br><span></span><br><span>https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D</span><br=
+><span></span><br><span></span><br><span></span><br><span></span><br><span>=
+</span><br><span>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3DLMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D</span><br><span></span><br><span></=
+span><br><span></span><br><span></span><br><span></span><br><span>https://p=
+ortal.311.nyc.gov/sr-details/?id=3D4296b0c3-c4a2-ec11-826d-0003ff86900c</sp=
+an><br><span></span><br><span></span><br><span></span><br><span></span><br>=
+<span></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean/=
+d585ccd85fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20O=
+missions.%20.pdf</span><br><span></span><br><span></span><br><span></span><=
+br><span></span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROPERTY 1: &nbsp;&nbsp;&nbsp;&nbsp;111 =
+SULLIVAN STREET REAR, NEW YORK, NY, 10012</span><br><span></span><br><span>=
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IS WHERE I RESIDED.</span><br><span></span><=
+br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;PROPERTY 2: &nbsp;&nbsp;&nbsp;&nbsp;117 SULLIVAN STREET, NEW YORK, NY, 100=
+12</span><br><span></span><br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WAS ALSO=
+ TRANSFERRED TO STATE FARM.</span><br><span></span><br><span></span><br><sp=
+an></span><br><span></span><br><span></span><br><span>\</span><br><span></s=
+pan><br><span>STATE FARM INVESTMENT MANAGEMENT</span><br><span></span><br><=
+span>SECURITY SYMBOL 3487</span><br><span></span><br><span>04-12-2022</span=
+><br><span></span><br><span>TERRENCE MICHAEL LUDWIG</span><br><span></span>=
+<br><span>2004555</span><br><span></span><br><span>STATE FARM VP MANAGEMENT=
+ CORP 43036</span><br><span></span><br><span>FAILURE TO DISCLOSE.</span><br=
+><span></span><br><span>https://saaze2311prdsra.blob.core.windows.net/clean=
+/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$323104=
+0-2004555.pdf</span><br><span></span><br><span></span><br><span></span><br>=
+<span>\</span><br><span></span><br><span>COLUMBIA.</span><br><span></span><=
+br><span>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfX=
+MaXgeyzvA85ViWMmvfAQ=3D=3D</span><br><span></span><br><span>https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3DNvtIUa5jls0V4/OF7/XlGg=3D=
+=3D</span><br><span></span><br><span>https://user-images.githubusercontent.=
+com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png</span><br><=
+span></span><br><span>\</span><br><span></span><br><span>CRC.</span><br><sp=
+an></span><br><span>https://user-images.githubusercontent.com/70865813/1687=
+70401-e0220bf9-e639-4cc5-baf8-c80166e99414.png</span><br><span></span><br><=
+span>https://user-images.githubusercontent.com/70865813/168770459-03f1d0c4-=
+a460-491d-a82e-e6c400b7ff71.png</span><br><span></span><br><span>\</span><b=
+r><span></span><br><span>ZUCKER.</span><br><span></span><br><span>https://i=
+apps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DfXMaXgeyzvA85ViWMmvf=
+AQ=3D=3D</span><br><span></span><br><span>https://iapps.courts.state.ny.us/=
+nyscef/ViewDocument?docIndex=3DPlTp8O/4k_PLUS_GPLPHn15fi6A=3D=3D</span><br>=
+<span></span><br><span>https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D</span><br><span></span><br><span>h=
+ttps://user-images.githubusercontent.com/70865813/168733004-b6a8f437-dd06-4=
+09a-83ba-0d404245514f.png</span><br><span></span><br><span>https://iapps.co=
+urts.state.ny.us/nyscef/ViewDocument?docIndex=3DD9Td7IfWXyajw1tBNCFb9g=3D=
+=3D</span><br><span></span><br><span>\</span><br><span></span><br><span>RE:=
+ STATE FARM ASSOCIATES=E2=80=99 FUNDS TRUST</span><br><span></span><br><spa=
+n>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2=
+UeHQe8j2tXJoQ=3D=3D</span><br><span></span><br><span>https://iapps.courts.s=
+tate.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</spa=
+n><br><span></span><br><span>https://iapps.courts.state.ny.us/nyscef/ViewDo=
+cument?docIndex=3DK9sgXcweC7esRoSPO8MNtA=3D=3D</span><br><span></span><br><=
+span>https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIY8iDH=
+_PLUS_UpVanEtcRioef3A=3D=3D</span><br><span></span><br><span></span><br><sp=
+an></span><br><span>\</span><br><span></span><br><span>STATE FARM ASSOCIATE=
+S=E2=80=99 FUNDS TRUST 1</span><br><span></span><br><span>https://www.sec.g=
+ov/Archives/edgar/data/0000093715/999999999721005790/filename1.pdf</span><b=
+r><span></span><br><span>\</span><br><span></span><br><span>### EMAIL CONFI=
+RMATIONS BY THE COUNSELORS OF THE ZUCKER ORGANIZATION</span><br><span></spa=
+n><br><span>*** A VIOLATION OF PRIVACY AND A BREACH OF THE LAW AND CONTRACT=
+.</span><br><span></span><br><span>![image](https://user-images.githubuserc=
+ontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png)</sp=
+an><br><span></span><br><span></span><br><span></span><br><span>---</span><=
+br><span></span><br><span>was read on Monday, February 7, 2022 4:47:05 PM (=
+UTC+00:00) Monrovia, Reykjavik.</span><br><span></span><br><span>To: PS Inv=
+estigation</span><br><span></span><br><span>Subject: see also : camera NOT =
+POINTED AT A WINDOW docket 49 + SHANKING THE PORTER you missed.</span><br><=
+span></span><br><span>Sent: Sunday, February 6, 2022 8:06:50 PM (UTC+00:00)=
+ Monrovia, Reykjavik</span><br><span></span><br><span></span><br><span></sp=
+an><br><span>![168761279-17e64f23-4613-49b2-8704-123e68425e5c](https://user=
+-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c8=
+0166e99414.png)</span><br><span></span><br><span></span><br><span></span><b=
+r><span></span><br><span></span><br><span>![168761716-5f9b1aed-fef9-4ec2-9d=
+90-3fa22bc69bc3](https://user-images.githubusercontent.com/70865813/1687705=
+55-25ef68a8-5bb3-42e6-a28a-c35b60cd9b0b.png)</span><br><span></span><br><sp=
+an></span><br><span></span><br><span></span><br><span></span><br><span>####=
+ READ TIMESTAMPS</span><br><span></span><br><span></span><br><span></span><=
+br><span>[ https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/=
+2 ](https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/2)</spa=
+n><br><span></span><br><span></span><br><span></span><br><span>[MSG BOX 1: =
+VIOLATION OF PRIVACY - DISTRIBUTION WITHOUT CONSENT](https://github.com/BSC=
+PGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4=
+e49bb68)</span><br><span></span><br><span></span><br><span></span><br><span=
+>[MSG BOX 2: =C2=A7 11 440 Tampering with or fabricating physical evidence]=
+(https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d69023191=
+f5a8a25006caf258a50b649da83aa0)</span><br><span></span><br><span></span><br=
+><span></span><br><span>[MSG BOX 3: The Zuckers are protected by these indi=
+viduals](https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/4/=
+files)</span><br><span></span><br><span></span><br><span></span><br><span><=
+/span><br><span></span><br><span>## ECONOMIC BENEFITS</span><br><span></spa=
+n><br><span>[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DIY8iDH_PLUS_UpVanEtcRioef3A=3D=3D](https://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DIY8iDH_PLUS_UpVanEtcRioef3A=3D=3D)</span><br><sp=
+an></span><br><span></span><br><span></span><br><span>#### HIRED A sub-par =
+ON-DEMAN VIDEO SPECIALIST.</span><br><span></span><br><span>**** ps what th=
+e heck is Pod-Cast?</span><br><span></span><br><span>**** did NOT know I ha=
+d one of those either.</span><br><span></span><br><span>@rosaliachann</span=
+><br><span></span><br><span>[https://iapps.courts.state.ny.us/nyscef/ViewDo=
+cument?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D]</span><br><span></span><br>=
+<span>(https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQ=
+c/WFihoyIKwEunaalQ=3D=3D)</span><br><span></span><br><span></span><br><span=
+></span><br><span></span><br><span></span><br><span>p.s. I never met any of=
+ the Zuckers, Wilson Dicker, Laskowitz, Miwa, or any of these people who do=
+cumented me every day.[nov13 and Dec18 2021 - multiple dwelling laws.pdf](h=
+ttps://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/8706680/nov=
+13.and.Dec18.2021.-.multiple.dwelling.laws.pdf)</span><br><span></span><br>=
+<span>[(PS-Investigation@facil.columbia.edu)(crcmessages@ftc.gov).pdf](http=
+s://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/8706682/PS-Inv=
+estigation%40facil.columbia.edu.crcmessages%40ftc.gov.pdf)</span><br><span>=
+</span><br><span></span><br><span></span><br><span></span><br></div></block=
+quote></div></div> </div> </blockquote>
+------=_Part_537693_112222793.1653040244497--

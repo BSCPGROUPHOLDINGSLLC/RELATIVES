@@ -1,0 +1,513 @@
+From - Sat May 21 10:31:08 2022
+X-Account-Key: account1
+X-UIDL: AKVM1VUqwojCYojXIQlDGNxy3Vw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.165
+ by atlas114.free.mail.ne1.yahoo.com with HTTPS; Sat, 21 May 2022 12:12:17 +0000
+Return-Path: <pinkbookswap@yahoo.com>
+X-Originating-Ip: [74.6.128.32]
+Received-SPF: pass (domain of yahoo.com designates 74.6.128.32 as permitted sender)
+Authentication-Results: atlas114.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 21 May 2022 12:12:17 +0000
+X-YMailISG: 9yQc0JwWLDsUtenB7CF9xYPmaKfHy_Rw.0vt8yN.pexZWUWV
+ FJtjC5pw9rcikzJwZZRPhOtShTxDJ_aFe1U8anrbTQ5VBshdJzaucIUwwog9
+ kClUrA7fkAElN_O_CfJm0Spp0OA9.RujzYHKGsI3HlKA1cUQP2FseQbwUagJ
+ OkeLUWbQas3hvaap1s5Eva.HbuU2Uc3y2LOkmKWJwFAyxnkTCr0qZaHC66Uj
+ k96MVoftGvFPRT0PzqpE6pUtHLkS4BpsTZEcK_miQpXhYjEL5m9ivpf8_dfD
+ i3aY4TxChUlklR_UJSl1rArEcFyHmpqCyEXFNHFWFbX7Qxu2YW1_f.dTp_XI
+ mFHSuuyOOEptniLqqQQsToXEvIuinMiXQoYKbr.04raZB5OzsnVnWvG6giPz
+ 5.sxFiN2a3HRdtyod8tDu9WV96gUfkMjRBPAoget4IiOs1g2FpQ5T1G1SzQ7
+ zurJWTAiwb4ycag9mWd7NH_aQ3JkaRs_iOHfB89hchlzlbiYzOLnwJ70YRQN
+ rmZ0F7BEIMw5..SYeeW3rOg_Ln6netOg8HRuHcSLoMHDkwvkIINuw2SM_gRY
+ 56_RNkUF471cfC6gh9u8qpEIT2Q4yUbJXfEovn6_Ss3Cc4PeQbXLL_i6XIVx
+ BAg6EoH4Yet8xntqAddJZsxNL3uVFE3O9fdK028ynLWuUr06eRgaHdpc4ASt
+ SoKdfYk2PgjXqvMO5goK.TGVlzsKe9uVbfKs1wUO8TtkHsvNH_LIqGzxKGNg
+ LzOKcH6fH4zgq_NRRbYbFoS5_4z2cFC8LRw6Li5osKTwvbotymwGj2F4Boga
+ M0MPp6rR.tFJ9wuelqXyG4AKxWyXcdk0q9Brb6r2P2TlPaEzshmztncWgmWl
+ _gvQsTmnAt8KSDl7Z_r1B4.6LNoND6SEwoChDVVDFbRDyK9O3Gg2mZZQJYff
+ YCvFk39nf0ph28fFtOaMl3SFFlymzLiALUVrOmH._EIyxF8QNYKDFvl1P_Sb
+ VvrSo.xaywPp80dp2zXYhWLawo315OahIwB0_ra6ozgqFBvpn4sq8vViLwCz
+ N4oEMYjdXqeByVnK7O6nv.vfuMIdo_hBtqGgipS.ngs_4u3rcZp1Jwn5vF_1
+ YCpr3D3Dt0zkfuNedXcGN9t.mDeVp4CZo2ipw28EbsnLtK4h3j8OswlIprTS
+ WHcp3dL5YXnCVHTg1LpG4MK7GkrSF7..UcTrVW9SI_aCAeZaWan5zaH8PElF
+ vRdE1a0xqA0wXrglS.AoVfhn29W_2Bvu1mA5Qo7Ty_cEw0Sa8ZUb3UHK5AU8
+ fgH1ddRXGU_NBdkVpHjlR6XNk2tKXVUswNmAWk_ANE5lDw--
+Received: from 74.6.128.32 (EHLO sonic304-9.consmr.mail.bf2.yahoo.com)
+ by 10.223.248.165 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 21 May 2022 12:12:17 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653135136; bh=ow8ORS0eyv1GM/kXfU+M1qI2KqeQGkQF4vW1WPj3Bqk=; h=Date:From:To:Subject:References:From:Subject:Reply-To; b=fBvWLR7vTbkHcN9Bs8wMJ6WS0DfxcPL0fPvoawY5ypl/F1XHwH4PIzpmT6b1GRR0+UnsvuVEfk78PK7IsKEO8W4Z+cOXQWllMGDqRAKmBdjO2UglYv8X8eXw8FSeIMdK0u3Ln1TdjoRH3fkmMZEJ6Y2i++Z/ZlAoDZcANIecmTYeIugBSBTIgo4uMyeGgG3oOjmo67qgA+jcsZcV+yeUPZ2JL/qIVbLDL2tJfTx41vVxNbtJwUrTamkN5ameIB1nvaMPTW81ZSeyFPpdFafpduLmzxxFbeUAYTfjgRN79uT8lzwUj9UgyGfT9bJH6i4BmBC4HJfH0Y/yuYmUp9UDyg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653135136; bh=AotTPZ5IgRjchL86sfSfEeGX/r6MEklnkHP1FS25aOq=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=kPhuz3iG+GHiuOWrfLav9nXwZwwZtvwDx1rbXhPSHn0C9FXQBS1kv5iP1Pz9f0GfZXEMZxFh5tLD9lMKEQr0Loz26YXJIqfZYMHVITmbde0s/6hmlpgqv76ESR1l9kj7uuSves/q2mfgXuBy551sLyTLaJghLfoBl3H8qg4H6IRbFZ/F//C/WTW66qSdnQbAaHAgytu2TmvdBz/nJ9oyOsNJIbO6chMii9gLPWqNqBe0oAMggo7q+2OXYHvcZQON47/3AJ+cwPrsJOM8nXYMpI9jCucKHg/bxllQ8ke9StsgRcwyWiVH1+Pea2dIRzKSOvk1YRm6Z5os146Tt53xsw==
+X-YMail-OSG: YW0c8SEVM1nC70homv2opb.NNHNhQ5NwR4cSHB83QtsCM5Pyr8rh7SzCAgw71Nn
+ AtkDcKhxcuuE5KvZmt4knsiUr9GTqvZFzlEkgQyBFrkXmk2hT6TIVqCqwxcrCvkhD4CM8v6uoYvS
+ 8M0RCAFAK4kCTrgqPOBRFosuaonvIC8YrJb_RYJ.v3pJyCnR85urjZhneZ3NxttUgqXOTItoTUne
+ 9prM1VQjRDFiai5.9vucXCvV_bJd8_eJCLAQFPOIIip512Ed4JyjD1QQFpeNtUKcQDIo8OsylYUA
+ CWBvzKPlig_cNmG_yt3lIXh_65dVaC.fYiaGFEtz3d29suuyjtwY5JIpcHvBQZVDnvCNQgqV37Gv
+ iV0IB1nBlun_ckBbqKJmfD2qH081gTDVuwcrx6d3UUjLsocudXiNqQfrWNxlm26ro6.wfnRHbwy4
+ kV6ZvUzK3iGmvJXz5v_PI1oAUahNyVwaLx5w1GpYy5dipjEfO54v59KlXX6Pq6cMLNltKINblSUU
+ PNJlydSpGYXDRS9_9jWDMyUGyzDvkpGVPda97VpScThkaSaNYC4dWBs5M.bl334w.stwPzqab7LZ
+ JO_aa2VklIh.2JJJjtX8AH05_RMq1rDLrDgTNFP00RJkCJUPQ99iu0mjjkTitWKsl2qY5fNvzSnZ
+ gXCPjQ4pEcI_nNLT.hpKiMX6ZfO0w34VDqFHBp9pC5KL89vkZ0_Dg8bBXjmlbPeuo7qNIv5alg.p
+ bC7wM5U6ds_csx1bqNz0M8NauVgOpyFNXBvor17bzIqVgYRoaF489hZ3rN5uZgbATdwdzBJGoFQn
+ YNXKm7VTBbkImmF_G9A3gHXX2tug_6rLyBnnf0q88pTZ78kA2hfTQFI.sLWnVBq.YwAicgvtVBlQ
+ nodhVCtrOu_wr1zJiBmbW87USja9HoBp5y.maTab1gRN07ju5.fsSrI1FkURpnD2ituWfhi3OSuj
+ i3Z7mL8e6uUQVc0f1Pg5XVEB2Xr9xSv1N8Vz3wffsREnV9LTND40thqPI7b0qTq1V9Y5.Ld144Ri
+ T7k6yA1dpQrSFJF44WL6f9pD5rStZbpzxVVZ4S5a1.l1DigkHn6Q7b5BprdToa2WjS4WlAzsQhgc
+ v6Qa8j2jhHtoHnEzEGAMhFnf3Z_5Ri6.TfuoItujO2gKNdTt5HzkTl.QvGlb79tM2GiBIIwYTQet
+ xdsMipGGSWo0mmwDHrj.rWVeZVZGMqcpNdNI0lag7qmdnrYGE5TBMTqiHO.Vwxuxa3nXkgjSOyVA
+ gPXpLOsO8uT6ps9Y5UOMkYc9Z_8GMxVOKV_dqeTP4YZkIuncKUOkYFtZj1.NSCfROzIWUZxbQMzr
+ 26m0RhpammZv4aNzp5FImf5ST2ucOCHPSWm5YvgRbKBupS0cD1qTUMLo7MmHvkuNQ2RYxA7F_XcQ
+ cVvC1UajKspguLBzFEdMNhgD7UY2kRTdzTnqLIrdsvfihWpIQj837sz6nDm.dMW87QZn0SdSRp7o
+ xw9mfQ2VsE2Vete2qmPIfzzSkRPTa7nAK7j5QEu0t_4cUtcCs2S9cuKK6QFw7eogVMn58tgXkbVO
+ TtNBZC0OUwUe18qjBx3M13YWn00.1PAbJRSNJAq_zjWLeoCjVlJoWPINM4BW0Lgprsq0M6.O9K_P
+ h20IUtO6fub0zS7uAiHEHoykSnP_l_XJJJxk8euV.u1i.huZXI0nEcYMKIcbgkTfi5jgqzhyzlKx
+ E0oKRhsq.ZWkLyW.ugXtWoSQLofke7kD1_B8ksdNq2LRNrzOE.XaYPjcKSGpkvjKXji9O2lvMVMp
+ W9hdHXWJ7aCg8d.8bH6c_EqY0sGVISEcHCBFmHR9O3R1cFttSyu5YPCWuGEs.2PaDrnJtfq3Dxo6
+ HbBnJ5jRY_V9awvclVl6lv3kO18jUlE50CFH2F5oWdq_IaAkktqy6h1OdVhS_nATQ0UX4jUyVEUd
+ gRtY0Ii3pDWo7PO2ux6ZI3EZqHGVBYP_6iAiyV6sok2ZxG2QOswNrl_Y8nqfwCERe6wEhiWjO2UI
+ wh.IulEPYc4tfJWexvZjBbWd1T_Oc.inzOU5H5a2_21SSNzODt2tj.W.F_2AFoBH_ipsvRTsRm0J
+ mGi6hyd7V7ECsYKBqD9qZU1j63jp4w2rl_jFje8a6FIvSue1HIOs0MiK66JVuLlJ5nHWp_JLua1K
+ DFLFrnts5ZLB6UJG8TW7A.OcbLs_JIKNdJ3lIkngKLe8XE72DVX1.UXFz0Ip3bguvzHf5rOa8hI1
+ t5t8XTHWRmwcGa4Kzu4kA9ZOH7eZD8TMpEBlJaClQjX9Hqf3qirZH83zLAJHeUmQ4RlnuFbiti1R
+ u6DBwQeaf1qZh7xIt8GLMuEY2KRIlA1EpvXq7.fMuz2COv7IF2f54Int8usaWvEGZaO9A9Tg7Uoz
+ FTEXqqnO1oDI-
+X-Sonic-MF: <pinkbookswap@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic304.consmr.mail.bf2.yahoo.com with HTTP; Sat, 21 May 2022 12:12:16 +0000
+Date: Sat, 21 May 2022 12:13:20 +0000 (UTC)
+From: "pinkbookswap@yahoo.com" <pinkbookswap@yahoo.com>
+To: BBO 121 <ms60710444266@yahoo.com>
+Message-ID: <1380201657.619356.1653135200275@mail.yahoo.com>
+Subject: Repository Messages.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_619355_1610744413.1653135200272"
+References: <1380201657.619356.1653135200275.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20225 YahooMailIosMobile
+Content-Length: 19548
+
+------=_Part_619355_1610744413.1653135200272
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+05-21-2022
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/ab88c04efcd8ec11a7b5000=
+d3a1956dd/1%20_%20_%20FAX%20confirm%20ProtonMail.pdf
+
+
+
+
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/3fb2bf65fcd8ec11a7b5000=
+d3a1afadb/12-12-2021%20%20%20%20%20+500%20TCR%201&2.%20SFITX-SFBDX.pdf
+
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/ed9ec876fcd8ec11a7b5000=
+d3a1af965/2020.07.17_response.pdf
+
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/397718d1fcd8ec11a7b5002=
+248307aa9/Case%20Number_%20%20ref1.pdf
+
+
+
+
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/b9d925e4fcd8ec11a7b5000=
+d3a1af965/FAX%20TO%20COUNSEL%20&%20THE%20JUDGE%20PLUS%20__%20a%20VIDEO%20.P=
+DF
+
+
+
+
+
+
+
+3487 CRD
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/8745b1f8fcd8ec11a7b5002=
+248307f33/firm_3487.pdf
+
+
+
+
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/f8eb424efdd8ec11a7b5002=
+248307b90/Fwd%20[B.14]%20[B.18]%20+300[x90]%20POST.%20[%20NYSCEF%20DOCKET%2=
+0420%20]%20obo%20Miss%20Daugherty.%20$1.4MM%20---------X%2008.04.2020.pdf
+
+
+
+
+
+
+
+Folder1
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/b12d575efdd8ec11a7b5000=
+d3a1af965/Fwd%20Folder%201.pdf
+
+
+
+
+
+
+
+Mandatory Entry
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/62f05375fdd8ec11a7b5002=
+2483079c1/httpsiapps.courts.state.ny.usfbemDocumentDisplayServletdocumentId=
+=3DOomxeuQk70qNjWWKb40STQ=3D=3D&system=3Dprod.pdf
+
+
+
+
+
+
+
+
+
+
+Rent stabilized lease
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/6c7874e7fdd8ec11a7b5000=
+d3a1af965/httpsiapps.courts.state.ny.usnyscefViewDocumentdocIndex=3DQU9Oxqm=
+Vn_PLUS_HmiA5AacTXsA=3D=3D.pdf
+
+
+
+
+
+
+
+Assigned rents and leases=C2=A0
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/72c39609fed8ec11a7b5000=
+d3a1956dd/Pages%20from%20_Acris.ASSIGNMENT%20OF%20RENTS%20AND%20LEASES.pdf
+
+
+
+
+
+
+
+Banging on radiotor image
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/df12211dfed8ec11a7b5002=
+248307f33/RE%20Did%20not%20know%20you%20had%20a%20massage%20parlor.png
+
+
+
+
+
+
+
+Zucker <> Sullivan Props
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/b5656992fed8ec11a7b5002=
+248307b90/Screenshot%202022-03-03%20at%209.02.21%20PM.pdf
+
+
+
+
+
+
+
+
+
+
+Angry
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/cc1b267bfed8ec11a7b5000=
+d3a1af965/Re%20ref.%20%20%20%20101%20west%2055th%20street,%20new%20york,%20=
+NY,%2010019%20%20httpsgithub.comBSCPGROUPHOLDINGSLLCELSER-AND-DICKERpull6.p=
+df
+
+
+_______________
+Tel: =C2=A0646-256-3609
+
+
+------=_Part_619355_1610744413.1653135200272
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy>
+<p class=3D"p1" style=3D"margin: 0px 0px 3px; font-stretch: normal; font-si=
+ze: 23px; line-height: normal; -webkit-text-size-adjust: auto;"><span class=
+=3D"s1" style=3D"font-weight: bold;">05-21-2022</span></p><p class=3D"p2" s=
+tyle=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: no=
+rmal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s=
+2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: norma=
+l; font-size: 14px; line-height: normal; -webkit-text-size-adjust: auto;"><=
+span class=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/=
+clean/ab88c04efcd8ec11a7b5000d3a1956dd/1%20_%20_%20FAX%20confirm%20ProtonMa=
+il.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/ab88c04efcd8ec1=
+1a7b5000d3a1956dd/1%20_%20_%20FAX%20confirm%20ProtonMail.pdf</a></span></p>=
+<p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px=
+; line-height: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"=
+><span class=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; fo=
+nt-stretch: normal; font-size: 14px; line-height: normal; min-height: 16.7p=
+x; -webkit-text-size-adjust: auto;"><span class=3D"s2"></span><br></p><p cl=
+ass=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; lin=
+e-height: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><spa=
+n class=3D"s2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-st=
+retch: normal; font-size: 14px; line-height: normal; -webkit-text-size-adju=
+st: auto;"><span class=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.=
+windows.net/clean/3fb2bf65fcd8ec11a7b5000d3a1afadb/12-12-2021%20%20%20%20%2=
+0+500%20TCR%201&amp;2.%20SFITX-SFBDX.pdf">https://saaze2311prdsra.blob.core=
+.windows.net/clean/3fb2bf65fcd8ec11a7b5000d3a1afadb/12-12-2021%20%20%20%20%=
+20+500%20TCR%201&amp;2.%20SFITX-SFBDX.pdf</a></span></p><p class=3D"p2" sty=
+le=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: norm=
+al; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"=
+></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal;=
+ font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-text-siz=
+e-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=3D=
+"margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; -=
+webkit-text-size-adjust: auto;"><span class=3D"s2"><a href=3D"https://saaze=
+2311prdsra.blob.core.windows.net/clean/ed9ec876fcd8ec11a7b5000d3a1af965/202=
+0.07.17_response.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/e=
+d9ec876fcd8ec11a7b5000d3a1af965/2020.07.17_response.pdf</a></span></p><p cl=
+ass=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; lin=
+e-height: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><spa=
+n class=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-st=
+retch: normal; font-size: 14px; line-height: normal; min-height: 16.7px; -w=
+ebkit-text-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=
+=3D"p3" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-h=
+eight: normal; -webkit-text-size-adjust: auto;"><span class=3D"s2"><a href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/397718d1fcd8ec11a7b=
+5002248307aa9/Case%20Number_%20%20ref1.pdf">https://saaze2311prdsra.blob.co=
+re.windows.net/clean/397718d1fcd8ec11a7b5002248307aa9/Case%20Number_%20%20r=
+ef1.pdf</a></span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: n=
+ormal; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-te=
+xt-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p2" st=
+yle=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: nor=
+mal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2=
+"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal=
+; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-text-si=
+ze-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=
+=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal=
+; -webkit-text-size-adjust: auto;"><span class=3D"s2"><a href=3D"https://sa=
+aze2311prdsra.blob.core.windows.net/clean/b9d925e4fcd8ec11a7b5000d3a1af965/=
+FAX%20TO%20COUNSEL%20&amp;%20THE%20JUDGE%20PLUS%20__%20a%20VIDEO%20.PDF">ht=
+tps://saaze2311prdsra.blob.core.windows.net/clean/b9d925e4fcd8ec11a7b5000d3=
+a1af965/FAX%20TO%20COUNSEL%20&amp;%20THE%20JUDGE%20PLUS%20__%20a%20VIDEO%20=
+.PDF</a></span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: norm=
+al; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-text-=
+size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p2" style=
+=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal=
+; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"><=
+/span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal; f=
+ont-size: 14px; line-height: normal; -webkit-text-size-adjust: auto;"><span=
+ class=3D"s2">3487 CRD</span></p><p class=3D"p2" style=3D"margin: 0px; font=
+-stretch: normal; font-size: 14px; line-height: normal; min-height: 16.7px;=
+ -webkit-text-size-adjust: auto;"><span class=3D"s2"></span><br></p><p clas=
+s=3D"p3" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-=
+height: normal; -webkit-text-size-adjust: auto;"><span class=3D"s2"><a href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/8745b1f8fcd8ec11a7b=
+5002248307f33/firm_3487.pdf">https://saaze2311prdsra.blob.core.windows.net/=
+clean/8745b1f8fcd8ec11a7b5002248307f33/firm_3487.pdf</a></span></p><p class=
+=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-h=
+eight: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span c=
+lass=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stret=
+ch: normal; font-size: 14px; line-height: normal; min-height: 16.7px; -webk=
+it-text-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p=
+2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height=
+: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=
+=3D"s2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: =
+normal; font-size: 14px; line-height: normal; -webkit-text-size-adjust: aut=
+o;"><span class=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.windows=
+.net/clean/f8eb424efdd8ec11a7b5002248307b90/Fwd%20%5BB.14%5D%20%5BB.18%5D%2=
+0+300%5Bx90%5D%20POST.%20%5B%20NYSCEF%20DOCKET%20420%20%5D%20obo%20Miss%20D=
+augherty.%20$1.4MM%20---------X%2008.04.2020.pdf">https://saaze2311prdsra.b=
+lob.core.windows.net/clean/f8eb424efdd8ec11a7b5002248307b90/Fwd%20[B.14]%20=
+[B.18]%20+300[x90]%20POST.%20[%20NYSCEF%20DOCKET%20420%20]%20obo%20Miss%20D=
+augherty.%20$1.4MM%20---------X%2008.04.2020.pdf</a></span></p><p class=3D"=
+p2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-heigh=
+t: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=
+=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: =
+normal; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-t=
+ext-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" s=
+tyle=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: no=
+rmal; -webkit-text-size-adjust: auto;"><span class=3D"s2">Folder1</span></p=
+><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-size: 14p=
+x; line-height: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;=
+"><span class=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.windows.n=
+et/clean/b12d575efdd8ec11a7b5000d3a1af965/Fwd%20Folder%201.pdf"></a></span>=
+<br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal; font-si=
+ze: 14px; line-height: normal; -webkit-text-size-adjust: auto;"><span class=
+=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/b12d=
+575efdd8ec11a7b5000d3a1af965/Fwd%20Folder%201.pdf">https://saaze2311prdsra.=
+blob.core.windows.net/clean/b12d575efdd8ec11a7b5000d3a1af965/Fwd%20Folder%2=
+01.pdf</a></span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: no=
+rmal; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-tex=
+t-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p2" sty=
+le=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: norm=
+al; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"=
+></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal;=
+ font-size: 14px; line-height: normal; -webkit-text-size-adjust: auto;"><sp=
+an class=3D"s2">Mandatory Entry</span></p><p class=3D"p2" style=3D"margin: =
+0px; font-stretch: normal; font-size: 14px; line-height: normal; min-height=
+: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"></span><br></=
+p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal; font-size: 14=
+px; line-height: normal; -webkit-text-size-adjust: auto;"><span class=3D"s2=
+"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/62f05375fd=
+d8ec11a7b50022483079c1/httpsiapps.courts.state.ny.usfbemDocumentDisplayServ=
+letdocumentId=3DOomxeuQk70qNjWWKb40STQ=3D=3D&amp;system=3Dprod.pdf">https:/=
+/saaze2311prdsra.blob.core.windows.net/clean/62f05375fdd8ec11a7b50022483079=
+c1/httpsiapps.courts.state.ny.usfbemDocumentDisplayServletdocumentId=3DOomx=
+euQk70qNjWWKb40STQ=3D=3D&amp;system=3Dprod.pdf</a></span></p><p class=3D"p2=
+" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height:=
+ normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=
+=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: =
+normal; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-t=
+ext-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p2" s=
+tyle=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: no=
+rmal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s=
+2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: norma=
+l; font-size: 14px; line-height: normal; -webkit-text-size-adjust: auto;"><=
+span class=3D"s2">Rent stabilized lease</span></p><p class=3D"p2" style=3D"=
+margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; mi=
+n-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"></spa=
+n><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal; font-=
+size: 14px; line-height: normal; -webkit-text-size-adjust: auto;"><span cla=
+ss=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/6c=
+7874e7fdd8ec11a7b5000d3a1af965/httpsiapps.courts.state.ny.usnyscefViewDocum=
+entdocIndex=3DQU9OxqmVn_PLUS_HmiA5AacTXsA=3D=3D.pdf">https://saaze2311prdsr=
+a.blob.core.windows.net/clean/6c7874e7fdd8ec11a7b5000d3a1af965/httpsiapps.c=
+ourts.state.ny.usnyscefViewDocumentdocIndex=3DQU9OxqmVn_PLUS_HmiA5AacTXsA=
+=3D=3D.pdf</a></span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch=
+: normal; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit=
+-text-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p2"=
+ style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: =
+normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D=
+"s2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: nor=
+mal; font-size: 14px; line-height: normal; -webkit-text-size-adjust: auto;"=
+><span class=3D"s2">Assigned rents and leases&nbsp;</span></p><p class=3D"p=
+2" style=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height=
+: normal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=
+=3D"s2"></span><br></p><p class=3D"p3" style=3D"margin: 0px; font-stretch: =
+normal; font-size: 14px; line-height: normal; -webkit-text-size-adjust: aut=
+o;"><span class=3D"s2"><a href=3D"https://saaze2311prdsra.blob.core.windows=
+.net/clean/72c39609fed8ec11a7b5000d3a1956dd/Pages%20from%20_Acris.ASSIGNMEN=
+T%20OF%20RENTS%20AND%20LEASES.pdf">https://saaze2311prdsra.blob.core.window=
+s.net/clean/72c39609fed8ec11a7b5000d3a1956dd/Pages%20from%20_Acris.ASSIGNME=
+NT%20OF%20RENTS%20AND%20LEASES.pdf</a></span></p><p class=3D"p2" style=3D"m=
+argin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; min=
+-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"></span=
+><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-s=
+ize: 14px; line-height: normal; min-height: 16.7px; -webkit-text-size-adjus=
+t: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=3D"margin=
+: 0px; font-stretch: normal; font-size: 14px; line-height: normal; -webkit-=
+text-size-adjust: auto;"><span class=3D"s2">Banging on radiotor image</span=
+></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-size:=
+ 14px; line-height: normal; min-height: 16.7px; -webkit-text-size-adjust: a=
+uto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=3D"margin: 0p=
+x; font-stretch: normal; font-size: 14px; line-height: normal; -webkit-text=
+-size-adjust: auto;"><span class=3D"s2"><a href=3D"https://saaze2311prdsra.=
+blob.core.windows.net/clean/df12211dfed8ec11a7b5002248307f33/RE%20Did%20not=
+%20know%20you%20had%20a%20massage%20parlor.png">https://saaze2311prdsra.blo=
+b.core.windows.net/clean/df12211dfed8ec11a7b5002248307f33/RE%20Did%20not%20=
+know%20you%20had%20a%20massage%20parlor.png</a></span></p><p class=3D"p2" s=
+tyle=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: no=
+rmal; min-height: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s=
+2"></span><br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: norma=
+l; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-text-s=
+ize-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=
+=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal=
+; -webkit-text-size-adjust: auto;"><span class=3D"s2">Zucker &lt;&gt; Sulli=
+van Props</span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: nor=
+mal; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-text=
+-size-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" styl=
+e=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: norma=
+l; -webkit-text-size-adjust: auto;"><span class=3D"s2"><a href=3D"https://s=
+aaze2311prdsra.blob.core.windows.net/clean/b5656992fed8ec11a7b5002248307b90=
+/Screenshot%202022-03-03%20at%209.02.21%20PM.pdf">https://saaze2311prdsra.b=
+lob.core.windows.net/clean/b5656992fed8ec11a7b5002248307b90/Screenshot%2020=
+22-03-03%20at%209.02.21%20PM.pdf</a></span></p><p class=3D"p2" style=3D"mar=
+gin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; min-h=
+eight: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"></span><=
+br></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: normal; font-siz=
+e: 14px; line-height: normal; min-height: 16.7px; -webkit-text-size-adjust:=
+ auto;"><span class=3D"s2"></span><br></p><p class=3D"p2" style=3D"margin: =
+0px; font-stretch: normal; font-size: 14px; line-height: normal; min-height=
+: 16.7px; -webkit-text-size-adjust: auto;"><span class=3D"s2"></span><br></=
+p><p class=3D"p3" style=3D"margin: 0px; font-stretch: normal; font-size: 14=
+px; line-height: normal; -webkit-text-size-adjust: auto;"><span class=3D"s2=
+">Angry</span></p><p class=3D"p2" style=3D"margin: 0px; font-stretch: norma=
+l; font-size: 14px; line-height: normal; min-height: 16.7px; -webkit-text-s=
+ize-adjust: auto;"><span class=3D"s2"></span><br></p><p class=3D"p3" style=
+=3D"margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal=
+; -webkit-text-size-adjust: auto;"><span class=3D"s2"><a href=3D"https://sa=
+aze2311prdsra.blob.core.windows.net/clean/cc1b267bfed8ec11a7b5000d3a1af965/=
+Re%20ref.%20%20%20%20101%20west%2055th%20street,%20new%20york,%20NY,%201001=
+9%20%20httpsgithub.comBSCPGROUPHOLDINGSLLCELSER-AND-DICKERpull6.pdf">https:=
+//saaze2311prdsra.blob.core.windows.net/clean/cc1b267bfed8ec11a7b5000d3a1af=
+965/Re%20ref.%20%20%20%20101%20west%2055th%20street,%20new%20york,%20NY,%20=
+10019%20%20httpsgithub.comBSCPGROUPHOLDINGSLLCELSER-AND-DICKERpull6.pdf</a>=
+</span></p><br><br>_______________<br><div>Tel: &nbsp;646-256-3609</div><di=
+v><br><div><br></div></div>
+</body></html>
+------=_Part_619355_1610744413.1653135200272--
