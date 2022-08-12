@@ -1,0 +1,964 @@
+From - Mon Jun 27 14:31:55 2022
+X-Account-Key: account1
+X-UIDL: AL8EA6d5JokBYroEtQN+iBTjab8
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.206.155.40
+ by atlas313.free.mail.gq1.yahoo.com with HTTPS; Mon, 27 Jun 2022 19:27:34 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.207]
+Received-SPF: pass (domain of github.com designates 192.30.252.207 as permitted sender)
+Authentication-Results: atlas313.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 19:27:34 +0000
+X-YMailAVSC: tg5Y6FY3bBuWYUYhwHzA2OT12rONAOeuVnwOGgkfdlkskFI
+ xteScSoTmY_A06pKMnHRyBGavjFCvzpAZ0QW3ZdKx43V8tVMWhUSTunPGoRB
+ KnctZHcLmRTpUJkY1gq9ihu9qGQsrdcdk4Bir2Yt1kWl1Ky93vagdWROplxm
+ cNmPf7F.rr7jayjX2ktAJdn.DIT364ExyagfB503b4Tf4KRE3xEequdK9BvM
+ .eSv6D1ZtZ7KUC0gA8jFm8KvVCyvWtpLZg3JnSYPKUkeBeBrLoQGbCPg.JYC
+ 4vrtaSYcTPI1d8z9TNEa0VWIaqyl2F_48lXvlU.rV9m5xesCGK7MsjdFzc95
+ v8yY-
+X-YMailISG: d1uZNdgWLDt5s3y6ON5yiIufUAHVraH1Ig5sOaG.oJoZ.QuF
+ TX2TcpoXyHztCUjtRiq7vzW1pwwYCTmjeI3Bd6YZ1.D5LpaGBCuGfL8w5yj7
+ 4AU5OUYVfNXWdgB_0YG5Ql3yy7fjCfghYg1b382rm1n5pO3SCWY7RDGYT0t.
+ 18zi3rdH4UF8Ks1O9NL7sKm1xHAJek8rkikO_bK77s2UuRN7NdKZMtN2PHF_
+ eH4j.5w_3Kp9nAgaGAXIwTEdYQJshZxUNhQC1KuMQaQDN9trfX26xRFzJ2pH
+ znZqUP70YDLS2k2o64QO6DACHlGdDehKFVA9c1iEtB7IXCC2cRVsTmXE.vGW
+ QeCqQeT4kkk0qPRtbb5rP3J_pVNaeN39qXHVthYsXMoVEpohACJaSbA7kcGJ
+ ymLf77d1097B9A8mgBlCKD5uN0jQxwsWISWNY6sEuCJPUQp.V4fLujW6I7UX
+ IVLwSdtYTOJAKMiM8G2rAA4mU8D3J0MivoD8JMk.zCLLmSM4SA2CQFwF2ScU
+ G_O1yq28TOd6X4D_f4VgA3gX2L4GcEmcufy40liiJ2G.y9OUATS5riEggpzC
+ r0j8P.G0Gqm9M51e7Mwu8CEhdTcZ7gHum88DjT4AtZ_GhK4aRKpZUY5hlZyS
+ hOuEgIpSayB5.EI0S735g8P_TJxrf22NRNU3JVlcCKZvGaZ0gHja_BaA7G1x
+ 7S86Medr4IUlO_g6miimKByZvFzsKze27PNNNi9Dggucl6XYMt39n5IOJiKz
+ pq25TSoYDwAaVcCf9yeSmGIXkZtnyGNQtMOOozDweGNE5aOI69YEB9.fuMuM
+ rsInQDtv1vFMrHTMmU0C7thJVHGWIWJuT7ttDxAZWLSkGhjkfbWM6Ilqf4rN
+ Je8OAUWW5m1kZAoAwFM7InOMcG1dBxE26a65kaYOdz6PilsxnINbv.Wawwd5
+ Hh00hTSpKfDFTMRabQr_xoDYFcGe8u6J7oUqn1lm4_t8NX7D0R2gW6.8dn6P
+ Tr.qgPUqEcONbaLe6k6qC3JaUIPWqFMwKxLCEHVJzIxupqt2drQZkOaQSmoc
+ oxpMfclCg6WBpZ6FXD08.pPPdHal4QSPohrMbovuGn8CDyLQubDqXpSjSEVw
+ F89DV4Tw.vOb48YGamrL2cKxPnX_EOxFb.bWLTASEpVPVbwzyoTzch7nG0OS
+ THLjxJq571WbCEh3BT230ML7cFAfvuZOl7cEZ2w-
+Received: from 192.30.252.207 (EHLO out-24.smtp.github.com)
+ by 10.206.155.40 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 19:27:34 +0000
+Received: from github.com (hubbernetes-node-fbf9b16.ac4-iad.github.net [10.52.211.83])
+	by smtp.github.com (Postfix) with ESMTPA id 62950600C1A;
+	Mon, 27 Jun 2022 12:27:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656358053;
+	bh=jiQ4WoCZIrhmRgdPjAsg1h2AFHCFd0GMNgTXBsP6WA0=;
+	h=Date:From:To:Subject:From;
+	b=wg6CuQvrGOixnvZM9ONKsfegu7Ze+Rqt8xoze9MpJkb11jxwSd1jsMu4rk9XzkCCw
+	 v+taT0+BsqlJnM1c5wM93yus40Ka6htc+SRgQRxMUNADniInkfq90JIuqEJQyrI/jd
+	 mZGdPk8QOPozInoxiR6l33y2ExDx7SUeb0JSPs44=
+Date: Mon, 27 Jun 2022 12:27:33 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/0a5062-08aa92@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 08aa92: Truly a delusional group, never met them.
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 49607
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 08aa928f3580e2c32382dfccee3df312ca10e534=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/08aa928f3580e2c32382dfccee3df312ca10=
+e534=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-27 (Mon, 27 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  Truly a delusional group, never met them.=0D
+=0D
+101 west 55th street, new york, ny 10019=0D
+103 west 55th street, new york, ny, 10019=0D
+150 east 42nd street, new york, ny 10017=0D
+=0D
+USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ], also fil=
+ed with the Financial Industry Regulatory Authority, and the Securities a=
+nd Exchange Commission - Notwithstanding the New York State Supreme Court=
+, the New York Department of Finance, and the NYC Finance Register - as r=
+eferenced below.=0D
+=0D
+=0D
+=C2=A721. Stolen or counterfeit nature of property for certain crimes def=
+ined=0D
+    (a) Wherever in this title it is an element of an offense that-=0D
+        (1) any property was embezzled, robbed, stolen, converted, taken,=
+ altered, counterfeited, falsely made, forged, or obliterated; and=0D
+        (2) the defendant knew that the property was of such character;=0D=
+
+            -such element may be established by proof that the defendant,=
+ after or as a result of an official representation as to the nature of t=
+he property, believed the property to be embezzled, robbed, stolen, conve=
+rted, taken, altered, counterfeited, falsely made, forged, or obliterated=
+.=0D
+            -(b) For purposes of this section, the term "official represe=
+ntation" means any representation made by a Federal law enforcement offic=
+er (as defined in section 115) or by another person at the direction or w=
+ith the approval of such an officer.=0D
+=0D
+=0D
+    =C2=A72. - Principals (a) Whoever commits an offense against the Unit=
+ed States or aids, abets, counsels, commands, induces or procures its com=
+mission, is punishable as a principal. (b) Whoever willfully causes an ac=
+t to be done which if directly performed by him or another would be an of=
+fense against the United States, is punishable as a principal.=0D
+=0D
+    =C2=A73. - Accessory after the fact Whoever, knowing that an offense =
+against the United States has been committed, receives, relieves, comfort=
+s or assists the offender in order to hinder or prevent his apprehension,=
+ trial or punishment, is an accessory after the fact. Except as otherwise=
+ expressly provided by any Act of Congress, an accessory after the fact s=
+hall be imprisoned not more than one-half the maximum term of imprisonmen=
+t or (notwithstanding section 3571) fined not more than one-half the maxi=
+mum fine prescribed for the punishment of the principal, or both; or if t=
+he principal is punishable by life imprisonment or death, the accessory s=
+hall be imprisoned not more than 15 years.=0D
+=0D
+    =C2=A74. Misprision of felony Whoever, having knowledge of the actual=
+ commission of a felony cognizable by a court of the United States, conce=
+als and does not as soon as possible make known the same to some judge or=
+ other person in civil or military authority under the United States, sha=
+ll be fined under this title or imprisoned not more than three years, or =
+both.=0D
+USC Title 18, =C2=A71962. Prohibited activities=0D
+=0D
+(a) It shall be unlawful for any person who has received any income deriv=
+ed, directly or indirectly, from a pattern of racketeering activity or th=
+rough collection of an unlawful debt in which such person has participate=
+d as a principal within the meaning of section 2, title 18, United States=
+ Code, to use or invest, directly or indirectly, any part of such income,=
+ or the proceeds of such income, in acquisition of any interest in, or th=
+e establishment or operation of, any enterprise which is engaged in, or t=
+he activities of which affect, interstate or foreign commerce. A purchase=
+ of securities on the open market for purposes of investment, and without=
+ the intention of controlling or participating in the control of the issu=
+er, or of assisting another to do so, shall not be unlawful under this su=
+bsection if the securities of the issuer held by the purchaser, the membe=
+rs of his immediate family, and his or their accomplices in any pattern o=
+r racketeering activity or the collection of an unlawful debt after such =
+purchase do not amount in the aggregate to one percent of the outstanding=
+ securities of any one class, and do not confer, either in law or in fact=
+, the power to elect one or more directors of the issuer.=0D
+=0D
+(b) It shall be unlawful for any person through a pattern of racketeering=
+ activity or through collection of an unlawful debt to acquire or maintai=
+n, directly or indirectly, any interest in or control of any enterprise w=
+hich is engaged in, or the activities of which affect, interstate or fore=
+ign commerce.=0D
+=0D
+(c) It shall be unlawful for any person employed by or associated with an=
+y enterprise engaged in, or the activities of which affect, interstate or=
+ foreign commerce, to conduct or participate, directly or indirectly, in =
+the conduct of such enterprise's affairs through a pattern of racketeerin=
+g activity or collection of unlawful debt.=0D
+=0D
+(d) It shall be unlawful for any person to conspire to violate any of the=
+ provisions of subsection (a), (b), or (c) of this section.=0D
+=0D
+USC Title 18, =C2=A71963. Criminal penalties=0D
+=0D
+(a) Whoever violates any provision of section 1962 of this chapter shall =
+be fined under this title or imprisoned not more than 20 years (or for li=
+fe if the violation is based on a racketeering activity for which the max=
+imum penalty includes life imprisonment), or both, and shall forfeit to t=
+he United States, irrespective of any provision of State law- (1) any int=
+erest the person has acquired or maintained in violation of section 1962;=
+ (2) any- (A) interest in; (B) security of; (C) claim against; or (D) pro=
+perty or contractual right of any kind affording a source of influence ov=
+er; any enterprise which the person has established, operated, controlled=
+, conducted, or participated in the conduct of, in violation of section 1=
+962; and (3) any property constituting, or derived from, any proceeds whi=
+ch the person obtained, directly or indirectly, from racketeering activit=
+y or unlawful debt collection in violation of section 1962. The court, in=
+ imposing sentence on such person shall order, in addition to any other s=
+entence imposed pursuant to this section, that the person forfeit to the =
+United States all property described in this subsection. In lieu of a fin=
+e otherwise authorized by this section, a defendant who derives profits o=
+r other proceeds from an offense may be fined not more than twice the gro=
+ss profits or other proceeds. (b) Property subject to criminal forfeiture=
+ under this section includes- (1) real property, including things growing=
+ on, affixed to, and found in land; and (2) tangible and intangible perso=
+nal property, including rights, privileges, interests, claims, and securi=
+ties.=0D
+=0D
+=0D
+=0D
+USC Title 18, 18,=C2=A7215. Receipt of commissions or gifts for procuring=
+ loans=0D
+=0D
+    (a) Whoever-=0D
+        (1) corruptly gives, offers, or promises anything of value to any=
+ person, with intent to influence or reward an officer, director, employe=
+e, agent, or attorney of a financial institution in connection with any b=
+usiness or transaction of such institution; or=0D
+        (2) as an officer, director, employee, agent, or attorney of a fi=
+nancial institution, corruptly solicits or demands for the benefit of any=
+ person, or corruptly accepts or agrees to accept, anything of value from=
+ any person, intending to be influenced or rewarded in connection with an=
+y business or transaction of such institution;=0D
+        -shall be fined not more than $1,000,000 or three times the value=
+ of the thing given, offered, promised, solicited, demanded, accepted, or=
+ agreed to be accepted, whichever is greater, or imprisoned not more than=
+ 30 years, or both, but if the value of the thing given, offered, promise=
+d, solicited, demanded, accepted, or agreed to be accepted does not excee=
+d $1,000, shall be fined under this title or imprisoned not more than one=
+ year, or both.=0D
+    (c) This section shall not apply to bona fide salary, wages, fees, or=
+ other compensation paid, or expenses paid or reimbursed, in the usual co=
+urse of business.=0D
+    (d) Federal agencies with responsibility for regulating a financial i=
+nstitution shall jointly establish such guidelines as are appropriate to =
+assist an officer, director, employee, agent, or attorney of a financial =
+institution to comply with this section. Such agencies shall make such gu=
+idelines available to the public.=0D
+=0D
+        FILED WITH THE SECURITIES AND EXCHANGE COMMISSION IN 2021,=0D
+=0D
+            UNDER CIK FILER 93715, (1) STATE FARM ASSURANCES FUNDS TRUST.=
+=0D
+            - DISCLOSE (2) STATE FARM LIFE INSURANCE COMPANY AS AN OUTSID=
+E BUSINESS IN THEIR FIRMS CRD FILINGS WITH FINRA, THE SAME ENTITY THAT NO=
+TARIZED AND COUNTERSIGNED ON LOAN 50074, DUALLY BY (3) DONALD ZUCKER WAS =
+EXECUTED ON MAY 13, 2020 - REPRESENTED BY THE ATTORNEYS ON BEHALF OF (4) =
+SULLIVAN PROPERTIES, LP, BELOW FOR CONVENIENCE.=0D
+=0D
+        THE DIRECTORS OF STATE FARM, WHO FILED WITH THE SECURITIES AND EX=
+CHANGE COMISSION.=0D
+=0D
+            BY:     (5) DAVID MOORE, (6) JOESEPH MONK, (7)PAUL J SMITH, A=
+ND UNDER (8)TERRENCE LUDWIG [AND OTHER DIRECTORS OF STATE FARM]=0D
+=0D
+        THE DIRECTORS OF STATE FARM, WHO FILED WITH THE FINANCIAL INDUSTR=
+Y REGULATORY AUTHORITY ON BEHALF OF (16) STATE FARM VP MANAGEMENT CORP.=0D=
+
+=0D
+            BY: (8) TERRENCE LUDWIG=0D
+=0D
+                        A TOTAL AMOUNT WAS ACCEPTED FOR A "SUCCESSFUL MER=
+GER",=0D
+=0D
+                        APPROXIMATELY $412,500 USD IN COMPENSATION WAS FI=
+LED WITH THE SEC.=0D
+=0D
+USC 18, =C2=A7241. Conspiracy against rights.=0D
+    - If two or more persons conspire to injure, oppress, threaten, or in=
+timidate any person in any State, Territory, Commonwealth, Possession, or=
+ District in the free exercise or enjoyment of any right or privilege sec=
+ured to him by the Constitution or laws of the United States, or because =
+of his having so exercised the same; or=0D
+    - If two or more persons go in disguise on the highway, or on the pre=
+mises of another, with intent to prevent or hinder his free exercise or e=
+njoyment of any right or privilege so secured=E2=80=94=0D
+=0D
+=0D
+            EXHIBITS FILED AND ANNEXED IN THE DOCKETS IN NY SUPREME COURT=
+ CIVIL MATTER=0D
+=0D
+                    NYSCEF 153974/2020=0D
+=0D
+USC 18,=C2=A7225. Continuing financial crimes enterprise=0D
+    (a) Whoever-=0D
+        (1) organizes, manages, or supervises a continuing financial crim=
+es enterprise; and=0D
+        (2) receives $5,000,000 or more in gross receipts from such enter=
+prise during any 24-month period=0D
+    -shall be fined not more than $10,000,000 if an individual, or $20,00=
+0,000 if an organization, and imprisoned for a term of not less than 10 y=
+ears and which may be life.=0D
+    (b) For purposes of subsection (a), the term "continuing financial cr=
+imes enterprise" means a series of violations under section 215, 656, 657=
+, 1005, 1006, 1007, 1014, 1032, or 1344 of this title, or section 1341 or=
+ 1343 affecting a financial institution, committed by at least 4 persons =
+acting in concert.        =0D
+              [ LOAN 50074: $6,000,000 ] ANNEXED IN DOCKETS 309-315 IN NY=
+SCEF MATTER 153974/2020=0D
+=0D
+                    ANNEXED IN NY SUPREME COURT MATTER 153974/2020=0D
+                    REPRESENTATIVES OF=0D
+=0D
+                    (9) SULLIVAN PROPERTIES LP, (10) SULLIVAN GP LLC, (11=
+) MANHATTAN SKYLINE MANAGEMENT CORP.=0D
+                   =0D
+=0D
+                    BY:     COUNSELORS FOR PLAINTIFFS IN NYSCEF 153974/20=
+20 [ ANNEXED THEREIN ] THE VIOLATION OF PRIVACY, AS SUPPLEMENT...=0D
+=0D
+                    (12) SHARI LASKOWITZ, (13) ASHLEY HUMPHRIES, (14) COR=
+Y WEISS, AND (15) PAUL REGAN=0D
+=0D
+                        DOCKETS ANNEXED IN NYSCEF 153974/2020 AND ALSO FI=
+LED WITH THE NY DEPT OF FINANCE.=0D
+=0D
+                    OBO:     (3) DONALD ZUCKER, (17) LAURIE ZUCKER, AND O=
+THERS WHO I AM UNFAMILIAR TO THEIR RESPECTIVE SHARES HELD AS LIMITED PART=
+NERS OF SULLIVAN PROPERTIES LP.=0D
+=0D
+                    UNLAWFULLY (USC 18.21) PRESENTED THE IMPLIED RETURNS =
+FOR 6 PROPERTIES WHICH WERE ALSO FILED, AND=0D
+                    >PUBLICLY AVAILABLE TO ALL REGULAR /COMPETENT PERSONS=
+.=0D
+=0D
+                    USED TO PROCURE AND OBTAIN A LOAN FOR $6,000,000.00 (=
+ SIX MILLION US DOLLARS) AND USED THE FOLLOWING ENTITY ON THE COVER PAGE:=
+=0D
+=0D
+                    (18) THE ZUCKER ORGANIZATION LLC=0D
+USC 18, =C2=A7 373 - Solicitation to commit a crime of violence=0D
+=0D
+(a) Whoever, with intent that another person engage in conduct constituti=
+ng a felony that has as an element the use, attempted use, or threatened =
+use of physical force against property or against the person of another i=
+n violation of the laws of the United States, and under circumstances str=
+ongly corroborative of that intent, solicits, commands, induces, or other=
+wise endeavours to persuade such other person to engage in such conduct, =
+shall be imprisoned not more than one-half the maximum term of imprisonme=
+nt or (notwithstanding section 3571) fined not more than one-half of the =
+maximum fine prescribed for the punishment of the crime solicited, or bot=
+h; or if the crime solicited is punishable by life imprisonment or death,=
+ shall be imprisoned for not more than twenty years.=0D
+=0D
+                (15)    <voicemail attached>=0D
+=0D
+(b) It is an affirmative defence to a prosecution under this section that=
+, under circumstances manifesting a voluntary and complete renunciation o=
+f his criminal intent, the defendant prevented the commission of the crim=
+e solicited. A renunciation is not "voluntary and complete" if it is moti=
+vated in whole or in part by a decision to postpone the commission of the=
+ crime until another time or to substitute another victim or another but =
+similar objective. If the defendant raises the affirmative defence at tri=
+al, the defendant has the burden of proving the defence by a preponderanc=
+e of the evidence.=0D
+    (c) It is not a defence to a prosecution under this section that the =
+person solicited could not be convicted of the crime because he lacked th=
+e state of mind required for its commission, because he was incompetent o=
+r irresponsible, or because he is immune from prosecution or is not subje=
+ct to prosecution.=0D
+USC 18 [ FORFEITURES ] >> RISKS HELD UNDER STATE FARM AT THE OBSTRUCTION =
+OF THE COUNSELORS IN NYSCEF 153974/2020=0D
+=0D
+=C2=A7229B. Criminal forfeitures; destruction of weapons=0D
+    (a) Property Subject to Criminal Forfeiture.=0D
+    -Any person convicted under section 229A(a) shall forfeit to the Unit=
+ed States irrespective of any provision of State law-=0D
+        (1) any property, real or personal, owned, possessed, or used by =
+a person involved in the offense;=0D
+        (2) any property constituting, or derived from, and proceeds the =
+person obtained, directly or indirectly, as the result of such violation;=
+ and=0D
+        (3) any of the property used in any manner or part, to commit, or=
+ to facilitate the commission of, such violation.=0D
+=0D
+    The court, in imposing sentence on such person, shall order, in addit=
+ion to any other sentence imposed pursuant to section 229A(a), that the p=
+erson forfeit to the United States all property described in this subsect=
+ion. In lieu of a fine otherwise authorized by section 229A(a), a defenda=
+nt who derived profits or other proceeds from an offense may be fined not=
+ more than twice the gross profits or other proceeds.=0D
+    (b) Procedures.-=0D
+        (1) General.=0D
+        -Property subject to forfeiture under this section, any seizure a=
+nd disposition thereof, and any administrative or judicial proceeding in =
+relation thereto, shall be governed by subsections (b) through (p) of sec=
+tion 413 of the Comprehensive Drug Abuse Prevention and Control Act of 19=
+70 (21 U.S.C. 853), except that any reference under those subsections to-=
+=0D
+            (A) "this subchapter or subchapter II" shall be deemed to be =
+a reference to section 229A(a); and=0D
+            (B) "subsection (a)" shall be deemed to be a reference to sub=
+section (a) of this section.=0D
+        (2) Temporary restraining orders.-=0D
+            (A)     In general.-For the purposes of forfeiture proceeding=
+s under this section, a temporary restraining order may be entered upon a=
+pplication of the United States without notice or opportunity for a heari=
+ng when an information or indictment has not yet been filed with respect =
+to the property, if, in addition to the circumstances described in sectio=
+n 413(e)(2) of the Comprehensive Drug Abuse Prevention and Control Act of=
+ 1970 (21 U.S.C. 853(e)(2)), the United States demonstrates that there is=
+ probable cause to believe that the property with respect to which the or=
+der is sought would, in the event of conviction, be subject to forfeiture=
+ under this section and exigent circumstances exist that place the life o=
+r health of any person in danger.=0D
+            (B)     Warrant of seizure.-If the court enters a temporary r=
+estraining order under this paragraph, it shall also issue a warrant auth=
+orizing the seizure of such property.=0D
+            (C)     Applicable procedures.-The procedures and time limits=
+ applicable to temporary restraining orders under section 413(e)(2) and (=
+3) of the Comprehensive Drug Abuse Prevention and Control Act of 1970 (21=
+ U.S.C. 853(e)(2) and (3)) shall apply to temporary restraining orders un=
+der this paragraph.   =0D
+    (c) Affirmative Defense.=0D
+        -It is an affirmative defense against a forfeiture under subsecti=
+on (b) that the property-=0D
+        (1) is for a purpose not prohibited under the Chemical Weapons Co=
+nvention; and=0D
+        (2) is of a type and quantity that under the circumstances is con=
+sistent with that purpose.=0D
+    (d) Destruction or Other Disposition.-The Attorney General shall prov=
+ide for the destruction or other appropriate disposition of any chemical =
+weapon seized and forfeited pursuant to this section.=0D
+    (e) Assistance.=0D
+    (f) Owner Liability.=0D
+        -The owner or possessor of any property seized under this section=
+ shall be liable to the United States for any expenses incurred incident =
+to the seizure, including any expenses relating to the handling, storage,=
+ transportation, and destruction or other disposition of the seized prope=
+rty=0D
+USC 18, =C2=A7218. Voiding transactions in violation of chapter; recovery=
+ by the United States=0D
+=0D
+    In addition to any other remedies provided by law the President or, u=
+nder regulations prescribed by him, the head of any department or agency =
+involved, may declare void and rescind any contract, loan, grant, subsidy=
+, license, right, permit, franchise, use, authority, privilege, benefit, =
+certificate, ruling, decision, opinion, or rate schedule awarded, granted=
+, paid, furnished, or published, or the performance of any service or tra=
+nsfer or delivery of any thing to, by or for any agency of the United Sta=
+tes or officer or employee of the United States or person acting on behal=
+f thereof, in relation to which there has been a final conviction for any=
+ violation of this chapter, and the United States shall be entitled to re=
+cover in addition to any penalty prescribed by law or in a contract the a=
+mount expended or the thing transferred or delivered on its behalf, or th=
+e reasonable value thereof.=0D
+=0D
+=0D
+NOTE.     I OFFERED THE DEFAULT CLAUSE OF THE LOAN SO THAT STATE FARM CAN=
+ CANCEL THE LOAN, EXECUTED AND FILED THE SAME AS EXHIBIT 420 IN NYSCEF MA=
+TTER 153974/2020. NONE OF THE INDIVUALS FROM STATE FARM HAVE RESPONDED TO=
+ THIS EFFECT SINCE THEN, AND MOST RECENTLY, MR. DAVID MOORE ATTEMPTED TO =
+PLACE A CO-WORKER IN HIS PLACE, MISS JANNA UNDERWOOD WHO I UNDERSTAND IS =
+NOT A DIRECTOR OF STATE FARM, ON THE BASIS OF FILINGS AND DOCUMENTS THAT =
+ARE AVAILABLE, PER THE FINANCIAL INDUSTRY REGULATORY AUTHORITY AND THE SE=
+CURITIES AND EXCHANGE COMMISSION UNDER CIK FILER 93715, AND CIK FILER 151=
+6523.=0D
+USC 18, =C2=A7216. Penalties and injunctions=0D
+=0D
+    (a) The punishment for an offense under section 203, 204, 205, 207, 2=
+08, or 209 of this title is the following:=0D
+        (1) Whoever engages in the conduct constituting the offense shall=
+ be imprisoned for not more than one year or fined in the amount set fort=
+h in this title, or both.=0D
+        (2) Whoever willfully engages in the conduct constituting the off=
+ense shall be imprisoned for not more than five years or fined in the amo=
+unt set forth in this title, or both.=0D
+    (b)     The Attorney General may bring a civil action in the appropri=
+ate United States district court against any person who engages in conduc=
+t constituting an offense under section 203, 204, 205, 207, 208, or 209 o=
+f this title and, upon proof of such conduct by a preponderance of the ev=
+idence, such person shall be subject to a civil penalty of not more than =
+$50,000 for each violation or the amount of compensation which the person=
+ received or offered for the prohibited conduct, whichever amount is grea=
+ter. The imposition of a civil penalty under this subsection does not pre=
+clude any other criminal or civil statutory, common law, or administrativ=
+e remedy, which is available by law to the United States or any other per=
+son.=0D
+    (c) If the Attorney General has reason to believe that a person is en=
+gaging in conduct constituting an offense under section 203, 204, 205, 20=
+7, 208, or 209 of this title, the Attorney General may petition an approp=
+riate United States district court for an order prohibiting that person f=
+rom engaging in such conduct. The court may issue an order prohibiting th=
+at person from engaging in such conduct if the court finds that the condu=
+ct constitutes such an offense. The filing of a petition under this secti=
+on does not preclude any other remedy which is available by law to the Un=
+ited States or any other person.=0D
+=0D
+=0D
+*****    *****    *****    *****    *****     *****    *****    *****=0D
+=0D
+GREY AREA=0D
+=0D
+=0D
+HERE IN THIS GREY AREA, WITH THE PROPER RESOURCES TO FURTHER THE CHARGES =
+THAT WERE FILED WITH THE NEW YORK SUPREME COURT, CIVIL PART AND THE SECUR=
+ITIES AND EXCHANGE COMMISSION ARE PROBABLE FOR CAUSE.=0D
+=0D
+=C2=A725. Use of minors in crimes of violence=0D
+    (a) Definitions.-In this section, the following definitions shall app=
+ly:=0D
+        (1) Crime of violence.-The term "crime of violence" has the meani=
+ng set forth in section 16.=0D
+        (2) Minor.-The term "minor" means a person who has not reached 18=
+ years of age.=0D
+        (3) Uses.-The term "uses" means employs, hires, persuades, induce=
+s, entices, or coerces.=0D
+=0D
+    (b) Penalties.=0D
+    -Any person who is 18 years of age or older, who intentionally uses a=
+ minor to commit a crime of violence for which such person may be prosecu=
+ted in a court of the United States, or to assist in avoiding detection o=
+r apprehension for such an offense, shall-=0D
+        (1) for the first conviction, be subject to twice the maximum ter=
+m of imprisonment and twice the maximum fine that would otherwise be auth=
+orized for the offense; and=0D
+        (2) for each subsequent conviction, be subject to 3 times the max=
+imum term of imprisonment and 3 times the maximum fine that would otherwi=
+se be authorized for the offense.=0D
+=0D
+=C2=A7151. Definition=0D
+=0D
+    As used in this chapter, the term "debtor" means a debtor concerning =
+whom a petition has been filed under title 11.=0D
+=0D
+    =C2=A7152. Concealment of assets; false oaths and claims; bribery=0D
+    A person who-=0D
+        (1) knowingly and fraudulently conceals from a custodian, trustee=
+, marshal, or other officer of the court charged with the control or cust=
+ody of property, or, in connection with a case under title 11, from credi=
+tors or the United States Trustee, any property belonging to the estate o=
+f a debtor;=0D
+        (2) knowingly and fraudulently makes a false oath or account in o=
+r in relation to any case under title 11;=0D
+        (3) knowingly and fraudulently makes a false declaration, certifi=
+cate, verification, or statement under penalty of perjury as permitted un=
+der section 1746 of title 28, in or in relation to any case under title 1=
+1;=0D
+        (4) knowingly and fraudulently presents any false claim for proof=
+ against the estate of a debtor, or uses any such claim in any case under=
+ title 11, in a personal capacity or as or through an agent, proxy, or at=
+torney;=0D
+        (5) knowingly and fraudulently receives any material amount of pr=
+operty from a debtor after the filing of a case under title 11, with inte=
+nt to defeat the provisions of title 11;=0D
+        (6) knowingly and fraudulently gives, offers, receives, or attemp=
+ts to obtain any money or property, remuneration, compensation, reward, a=
+dvantage, or promise thereof for acting or forbearing to act in any case =
+under title 11;=0D
+        (7) in a personal capacity or as an agent or officer of any perso=
+n or corporation, in contemplation of a case under title 11 by or against=
+ the person or any other person or corporation, or with intent to defeat =
+the provisions of title 11, knowingly and fraudulently transfers or conce=
+als any of his property or the property of such other person or corporati=
+on;=0D
+        (8) after the filing of a case under title 11 or in contemplation=
+ thereof, knowingly and fraudulently conceals, destroys, mutilates, falsi=
+fies, or makes a false entry in any recorded information (including books=
+, documents, records, and papers) relating to the property or financial a=
+ffairs of a debtor; or=0D
+        (9) after the filing of a case under title 11, knowingly and frau=
+dulently withholds from a custodian, trustee, marshal, or other officer o=
+f the court or a United States Trustee entitled to its possession, any re=
+corded information (including books, documents, records, and papers) rela=
+ting to the property or financial affairs of a debtor,=0D
+    -shall be fined under this title, imprisoned not more than 5 years, o=
+r both.=0D
+=0D
+=C2=A7246. Deprivation of relief benefits=0D
+=0D
+    Whoever directly or indirectly deprives, attempts to deprive, or thre=
+atens to deprive any person of any employment, position, work, compensati=
+on, or other benefit provided for or made possible in whole or in part by=
+ any Act of Congress appropriating funds for work relief or relief purpos=
+es, on account of political affiliation, race, color, sex, religion, or n=
+ational origin, shall be fined under this title, or imprisoned not more t=
+han one year, or both.=0D
+=C2=A7220. Illegal remunerations for referrals to recovery homes, clinica=
+l treatment facilities, and laboratories=0D
+=0D
+(a) Offense.-Except as provided in subsection (b), whoever, with respect =
+to services covered by a health care benefit program, in or affecting int=
+erstate or foreign commerce, knowingly and willfully-=0D
+    (1) solicits or receives any remuneration (including any kickback, br=
+ibe, or rebate) directly or indirectly, overtly or covertly, in cash or i=
+n kind, in return for referring a patient or patronage to a recovery home=
+, clinical treatment facility, or laboratory; or=0D
+    (2) pays or offers any remuneration (including any kickback, bribe, o=
+r rebate) directly or indirectly, overtly or covertly, in cash or in kind=
+-=0D
+        (A) to induce a referral of an individual to a recovery home, cli=
+nical treatment facility, or laboratory; or=0D
+        (B) in exchange for an individual using the services of that reco=
+very home, clinical treatment facility, or laboratory,=0D
+    -shall be fined not more than $200,000, imprisoned not more than 10 y=
+ears, or both, for each occurrence.=0D
+=0D
+(b) Applicability.-Subsection (a) shall not apply to-=0D
+    (1) a discount or other reduction in price obtained by a provider of =
+services or other entity under a health care benefit program if the reduc=
+tion in price is properly disclosed and appropriately reflected in the co=
+sts claimed or charges made by the provider or entity;=0D
+    (2) a payment made by an employer to an employee or independent contr=
+actor (who has a bona fide employment or contractual relationship with su=
+ch employer) for employment, if the employee's payment is not determined =
+by or does not vary by-=0D
+        (A) the number of individuals referred to a particular recovery h=
+ome, clinical treatment facility, or laboratory;=0D
+        (B) the number of tests or procedures performed; or=0D
+        (C) the amount billed to or received from, in part or in whole, t=
+he health care benefit program from the individuals referred to a particu=
+lar recovery home, clinical treatment facility, or laboratory;=0D
+    (3) a discount in the price of an applicable drug of a manufacturer t=
+hat is furnished to an applicable beneficiary under the Medicare coverage=
+ gap discount program under section 1860D=E2=80=9314A(g) of the Social Se=
+curity Act (42 U.S.C. 1395w=E2=80=93114a(g));=0D
+    (4) a payment made by a principal to an agent as compensation for the=
+ services of the agent under a personal services and management contract =
+that meets the requirements of section 1001.952(d) of title 42, Code of F=
+ederal Regulations, as in effect on the date of enactment of this section=
+;=0D
+    (5) a waiver or discount (as defined in section 1001.952(h)(5) of tit=
+le 42, Code of Federal Regulations, or any successor regulation) of any c=
+oinsurance or copayment by a health care benefit program if-=0D
+        (A) the waiver or discount is not routinely provided; and=0D
+        (B) the waiver or discount is provided in good faith;=0D
+    (6) a remuneration described in section 1128B(b)(3)(I) of the Social =
+Security Act (42 U.S.C. 1320a=E2=80=937b(b)(3)(I));=0D
+    (7) a remuneration made pursuant to an alternative payment model (as =
+defined in section 1833(z)(3)(C) of the Social Security Act) or pursuant =
+to a payment arrangement used by a State, health insurance issuer, or gro=
+up health plan if the Secretary of Health and Human Services has determin=
+ed that such arrangement is necessary for care coordination or value-base=
+d care; or=0D
+    (8) any other payment, remuneration, discount, or reduction as determ=
+ined by the Attorney General, in consultation with the Secretary of Healt=
+h and Human Services, by regulation.=0D
+    =0D
+    (c) Regulations.=0D
+    -The Attorney General, in consultation with the Secretary of Health a=
+nd Human Services, may promulgate regulations to clarify the exceptions d=
+escribed in subsection (b).=0D
+    (d) Preemption.-=0D
+        (1) Federal law.-This section shall not apply to conduct that is =
+prohibited under section 1128B of the Social Security Act (42 U.S.C. 1320=
+a=E2=80=937b).=0D
+        (2) State law.-Nothing in this section shall be construed to occu=
+py the field in which any provisions of this section operate to the exclu=
+sion of State laws on the same subject matter.=0D
+=0D
+    (e) Definitions.-In this section-=0D
+        (1) the terms "applicable beneficiary" and "applicable drug" have=
+ the meanings given those terms in section 1860D=E2=80=9314A(g) of the So=
+cial Security Act (42 U.S.C. 1395w=E2=80=93114a(g));=0D
+        (2) the term "clinical treatment facility" means a medical settin=
+g, other than a hospital, that provides detoxification, risk reduction, o=
+utpatient treatment and care, residential treatment, or rehabilitation fo=
+r substance use, pursuant to licensure or certification under State law;=0D=
+
+        (3) the term "health care benefit program" has the meaning given =
+the term in section 24(b);=0D
+        (4) the term "laboratory" has the meaning given the term in secti=
+on 353 of the Public Health Service Act (42 U.S.C. 263a); and=0D
+        (5) the term "recovery home" means a shared living environment th=
+at is, or purports to be, free from alcohol and illicit drug use and cent=
+ered on peer support and connection to services that promote sustained re=
+covery from substance use disorders.=0D
+USC 18, =C2=A7214. Offer for procurement of Federal Reserve bank loan and=
+ discount of commercial paper=0D
+=0D
+    Whoever stipulates for or gives or receives, or consents or agrees to=
+ give or receive, any fee, commission, bonus, or thing of value for procu=
+ring or endeavoring to procure from any Federal Reserve bank any advance,=
+ loan, or extension of credit or discount or purchase of any obligation o=
+r commitment with respect thereto, either directly from such Federal Rese=
+rve bank or indirectly through any financing institution, unless such fee=
+, commission, bonus, or thing of value and all material facts with respec=
+t to the arrangement or understanding therefor shall be disclosed in writ=
+ing in the application or request for such advance, loan, extension of cr=
+edit, discount, purchase, or commitment, shall be fined under this title =
+or imprisoned not more than one year, or both.=0D
+=0D
+GREY AREA=0D
+=0D
+*****    *****    *****    *****    *****     *****    *****    *****=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+*****=0D
+=0D
+=0D
+**** YOU'LL HAVE TO ASK THE FBI/NSA TO SEE IF THEY WILL VERIFY THIS *****=
+=0D
+=0D
+*****    USC 18, =C2=A7208. Acts affecting a personal financial interest=0D=
+
+    (a) Except as permitted by subsection (b) hereof, whoever, being an o=
+fficer or employee of the executive branch of the United States Governmen=
+t, or of any independent agency of the United States, a Federal Reserve b=
+ank director, officer, or employee, or an officer or employee of the Dist=
+rict of Columbia, including a special Government employee, participates p=
+ersonally and substantially as a Government officer or employee, through =
+decision, approval, disapproval, recommendation, the rendering of advice,=
+ investigation, or otherwise, in a judicial or other proceeding, applicat=
+ion, request for a ruling or other determination, contract, claim, contro=
+versy, charge, accusation, arrest, or other particular matter in which, t=
+o his knowledge, he, his spouse, minor child, general partner, organizati=
+on in which he is serving as officer, director, trustee, general partner =
+or employee, or any person or organization with whom he is negotiating or=
+ has any arrangement concerning prospective employment, has a financial i=
+nterest-=0D
+    -Shall be subject to the penalties set forth in section 216 of this t=
+itle.=0D
+    (b) Subsection (a) shall not apply-=0D
+        (1) if the officer or employee first advises the Government offic=
+ial responsible for appointment to his or her position of the nature and =
+circumstances of the judicial or other proceeding, application, request f=
+or a ruling or other determination, contract, claim, controversy, charge,=
+ accusation, arrest, or other particular matter and makes full disclosure=
+ of the financial interest and receives in advance a written determinatio=
+n made by such official that the interest is not so substantial as to be =
+deemed likely to affect the integrity of the services which the Governmen=
+t may expect from such officer or employee;=0D
+        (2) if, by regulation issued by the Director of the Office of Gov=
+ernment Ethics, applicable to all or a portion of all officers and employ=
+ees covered by this section, and published in the Federal Register, the f=
+inancial interest has been exempted from the requirements of subsection (=
+a) as being too remote or too inconsequential to affect the integrity of =
+the services of the Government officers or employees to which such regula=
+tion applies;=0D
+        (3) in the case of a special Government employee serving on an ad=
+visory committee within the meaning of the Federal Advisory Committee Act=
+ (including an individual being considered for an appointment to such a p=
+osition), the official responsible for the employee's appointment, after =
+review of the financial disclosure report filed by the individual pursuan=
+t to the Ethics in Government Act of 1978, certifies in writing that the =
+need for the individual's services outweighs the potential for a conflict=
+ of interest created by the financial interest involved; or=0D
+        (4) if the financial interest that would be affected by the parti=
+cular matter involved is that resulting solely from the interest of the o=
+fficer or employee, or his or her spouse or minor child, in birthrights-=0D=
+
+            (A) in an Indian tribe, band, nation, or other organized grou=
+p or community, including any Alaska Native village corporation as define=
+d in or established pursuant to the Alaska Native Claims Settlement Act, =
+which is recognized as eligible for the special programs and services pro=
+vided by the United States to Indians because of their status as Indians,=
+=0D
+            (B) in an Indian allotment the title to which is held in trus=
+t by the United States or which is inalienable by the allottee without th=
+e consent of the United States, or=0D
+            (C) in an Indian claims fund held in trust or administered by=
+ the United States,=0D
+        -if the particular matter does not involve the Indian allotment o=
+r claims fund or the Indian tribe, band, nation, organized group or commu=
+nity, or Alaska Native village corporation as a specific party or parties=
+.=0D
+    (c)(1) For the purpose of paragraph (1) of subsection (b), in the cas=
+e of class A and B directors of Federal Reserve banks, the Board of Gover=
+nors of the Federal Reserve System shall be deemed to be the Government o=
+fficial responsible for appointment.=0D
+    (2) The potential availability of an exemption under any particular p=
+aragraph of subsection (b) does not preclude an exemption being granted p=
+ursuant to another paragraph of subsection (b).=0D
+    (d)(1) Upon request, a copy of any determination granting an exemptio=
+n under subsection (b)(1) or (b)(3) shall be made available to the public=
+ by the agency granting the exemption pursuant to the procedures set fort=
+h in section 105 of the Ethics in Government Act of 1978. In making such =
+determination available, the agency may withhold from disclosure any info=
+rmation contained in the determination that would be exempt from disclosu=
+re under section 552 of title 5. For purposes of determinations under sub=
+section (b)(3), the information describing each financial interest shall =
+be no more extensive than that required of the individual in his or her f=
+inancial disclosure report under the Ethics in Government Act of 1978.=0D=
+
+    (2) The Office of Government Ethics, after consultation with the Atto=
+rney General, shall issue uniform regulations for the issuance of waivers=
+ and exemptions under subsection (b) which shall-=0D
+        (A) list and describe exemptions; and=0D
+        (B) provide guidance with respect to the types of interests that =
+are not so substantial as to be deemed likely to affect the integrity of =
+the services the Government may expect from the employee.=0D
+=0D
+*****    =C2=A7118. Interference with certain protective functions=0D
+    Any person who knowingly and willfully obstructs, resists, or interfe=
+res with a Federal law enforcement agent engaged, within the United State=
+s or the special maritime territorial jurisdiction of the United States, =
+in the performance of the protective functions authorized under section 3=
+7 of the State Department Basic Authorities Act of 1956 (22 U.S.C. 2709) =
+or section 103 of the Diplomatic Security Act (22 U.S.C. 4802) shall be f=
+ined under this title, imprisoned not more than 1 year, or both.=0D
+=0D
+*****    =C2=A7119. Protection of individuals performing certain official=
+ duties=0D
+    (a) In General.=0D
+        -Whoever knowingly makes restricted personal information about a =
+covered person, or a member of the immediate family of that covered perso=
+n, publicly available-=0D
+            (1) with the intent to threaten, intimidate, or incite the co=
+mmission of a crime of violence against that covered person, or a member =
+of the immediate family of that covered person; or=0D
+            (2) with the intent and knowledge that the restricted persona=
+l information will be used to threaten, intimidate, or facilitate the com=
+mission of a crime of violence against that covered person, or a member o=
+f the immediate family of that covered person,=0D
+        -shall be fined under this title, imprisoned not more than 5 year=
+s, or both.=0D
+        (b) Definitions.-In this section-=0D
+            (1) the term "restricted personal information" means, with re=
+spect to an individual, the Social Security number, the home address, hom=
+e phone number, mobile phone number, personal email, or home fax number o=
+f, and identifiable to, that individual;=0D
+            (2) the term "covered person" means-=0D
+                (A) an individual designated in section 1114;=0D
+                (B) a grand or petit juror, witness, or other officer in =
+or of, any court of the United States, or an officer who may be, or was, =
+serving at any examination or other proceeding before any United States m=
+agistrate judge or other committing magistrate;=0D
+                (C) an informant or witness in a Federal criminal investi=
+gation or prosecution; or=0D
+                (D) a State or local officer or employee whose restricted=
+ personal information is made publicly available because of the participa=
+tion in, or assistance provided to, a Federal criminal investigation by t=
+hat officer or employee;=0D
+            (3) the term "crime of violence" has the meaning given the te=
+rm in section 16; and=0D
+            (4) the term "immediate family" has the meaning given the ter=
+m in section 115(c)(2).=0D
+=0D
+=0D
+*****    =C2=A7115. Influencing, impeding, or retaliating against a Feder=
+al official by threatening or injuring a family member=0D
+    (a)(1) Whoever-=0D
+        (A) assaults, kidnaps, or murders, or attempts or conspires to ki=
+dnap or murder, or threatens to assault, kidnap or murder a member of the=
+ immediate family of a United States official, a United States judge, a F=
+ederal law enforcement officer, or an official whose killing would be a c=
+rime under section 1114 of this title; or=0D
+        (B) threatens to assault, kidnap, or murder, a United States offi=
+cial, a United States judge, a Federal law enforcement officer, or an off=
+icial whose killing would be a crime under such section,=0D
+    -with intent to impede, intimidate, or interfere with such official, =
+judge, or law enforcement officer while engaged in the performance of off=
+icial duties, or with intent to retaliate against such official, judge, o=
+r law enforcement officer on account of the performance of official dutie=
+s, shall be punished as provided in subsection (b).=0D
+=0D
+    (2) Whoever assaults, kidnaps, or murders, or attempts or conspires t=
+o kidnap or murder, or threatens to assault, kidnap, or murder, any perso=
+n who formerly served as a person designated in paragraph (1), or a membe=
+r of the immediate family of any person who formerly served as a person d=
+esignated in paragraph (1), with intent to retaliate against such person =
+on account of the performance of official duties during the term of servi=
+ce of such person, shall be punished as provided in subsection (b).=0D
+=0D
+    =C2=A7(b)=0D
+    (1)     The punishment for an assault in violation of this section is=
+-=0D
+            (A) a fine under this title; and=0D
+            (B)=0D
+                (i)     if the assault consists of a simple assault, a te=
+rm of imprisonment for not more than 1 year;=0D
+                (ii)     if the assault involved physical contact with th=
+e victim of that assault or the intent to commit another felony, a term o=
+f imprisonment for not more than 10 years;=0D
+                (iii)     if the assault resulted in bodily injury, a ter=
+m of imprisonment for not more than 20 years; or=0D
+                (iv)     if the assault resulted in serious bodily injury=
+ (as that term is defined in section 1365 of this title, and including an=
+y conduct that, if the conduct occurred in the special maritime and terri=
+torial jurisdiction of the United States, would violate section 2241 or 2=
+242 of this title) or a dangerous weapon was used during and in relation =
+to the offense, a term of imprisonment for not more than 30 years.=0D
+    (2)        A kidnapping, attempted kidnapping, or conspiracy to kidna=
+p in violation of this section shall be punished as provided in section 1=
+201 of this title for the kidnapping or attempted kidnapping of, or a con=
+spiracy to kidnap, a person described in section 1201(a)(5) of this title=
+.=0D
+        (3) A murder, attempted murder, or conspiracy to murder in violat=
+ion of this section shall be punished as provided in sections 1111, 1113,=
+ and 1117 of this title.=0D
+        (4) A threat made in violation of this section shall be punished =
+by a fine under this title or imprisonment for a term of not more than 10=
+ years, or both, except that imprisonment for a threatened assault shall =
+not exceed 6 years.=0D
+        (c) As used in this section, the term-=0D
+            (1) "Federal law enforcement officer" means any officer, agen=
+t, or employee of the United States authorized by law or by a Government =
+agency to engage in or supervise the prevention, detection, investigation=
+, or prosecution of any violation of Federal criminal law;=0D
+            (2) "immediate family member" of an individual means-=0D
+                (A) his spouse, parent, brother or sister, child or perso=
+n to whom he stands in loco parentis; or=0D
+                (B) any other person living in his household and related =
+to him by blood or marriage;=0D
+            (3) "United States judge" means any judicial officer of the U=
+nited States, and includes a justice of the Supreme Court and a United St=
+ates magistrate judge; and=0D
+            (4) "United States official" means the President, President-e=
+lect, Vice President, Vice President-elect, a Member of Congress, a membe=
+r-elect of Congress, a member of the executive branch who is the head of =
+a department listed in 5 U.S.C. 101, or the Director of the Central Intel=
+ligence Agency.=0D
+        (d) This section shall not interfere with the investigative autho=
+rity of the United States Secret Service, as provided under sections 3056=
+, 871, and 879 of this title.=0D
+        (e) There is extraterritorial jurisdiction over the conduct prohi=
+bited by this section.=0D
+=C2=A7116. Female genital mutilation=0D
+=0D
+***** YOU'LL HAVE TO ASK THE FBI/NSA TO SEE IF THEY WILL VERIFY THIS ****=
+*=0D
+=0D
+=0D
+=0D
+ =0D
+=0D
+=E2=80=93 I HOPE YOU UNDERSTAND WHERE THIS ALSO PRESENTS A CONFLICT, AS H=
+E BELIEVES THIS TO BE TRUE.=0D
+                                                    1_u.s._v._brian_benja=
+min_indictment (1).pdf=0D
+=0D
+    NYSCEF MATTER 153974/2020=0D
+    - SHARED ADDRESS WITH THE WILSON ELSER LAW FIRM, BELOW.=0D
+=0D
+    Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600=0D=
+
+=0D
+    150 East 42nd Street 19th Floor, New York, NY 10017 Filed: 07/21/2020=
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Voicemail from Mr. PAUL regan=0D
+Date: 	Sun, 26 Jun 2022 16:51:47 -0400=0D
+From: 	BO DINCER <bondstrt007@gmail.com>=0D
+To: 	customerservice@nypost.com, espnfrontrow@espn.com, teschmann@mskylin=
+e.com, Joseph Giamboi, ESQ <joseph.giamboi@brooklaw.edu>, LZUCKER@mskylin=
+e.com, sgo2107@columbia.edu, letters@nypost.com, Laskowitz, Shari <slasko=
+witz@ingramllp.com>, dallas-reserve-mgmt@dal.frb.org, 23pctdvo@nypd.com, =
+23pctyco@nypd.org, 1pctdvo@nypd.org, 1pctyco@nypd.org, praghuram2@bloombe=
+rg.net, PRIYA.RAGHURAM@MORGANSTANLEY.COM <PRIYA.RAGHURAM@morganstanley.co=
+m>, JAMES GORMAN [MORGAN STANLEY] <james.gorman@morganstanley.com>, Dow J=
+ones <wsjprosupport@dowjones.com>, paul.jones@tudor.com, Paul Regan <LEGA=
+L@mskyline.com>, LEGALASST@mskyline.com, MSKYLINE <anne@thehighlandpartne=
+rs.com>, cweiss@ingramllp.com, info@statefarm.com, State Farm <mutualfund=
+s@statefarm.com>, David Moore <david.moore.ct95@statefarm.com>, hillary.d=
+avis@latimes.com, Scott Holcomb <scott@holcombward.com>, SOHO HOUSE <memb=
+ership@sohohouse.com>=0D
+CC: 	KATHY HOCHUL <governor.hochul@exec.ny.gov>, BBO 121 <ms60710444266@y=
+ahoo.com>, MIT Sloan Executive Education <executive_education@mailsvc.slo=
+an.mit.edu>, Marc Lavigne <tessier3@stanford.edu>, NYSCEF PROCESS HD <oca=
+_hd_processor@nycourts.gov>, The New York Times <help@nytimes.com>, admin=
+istration@mskyline.com, MANHATTAN SKYLINE, LLC. <ADMINISTRATOR@mskyline.c=
+om>=0D
+=0D
+=0D
+I am terrified, where is he ? Touching himself or making videos with my G=
+lamour shots.=0D
+=0D
+Thats actually a compound, in the scope of avoidance to prosecution. =0D
+=0D
+Truly a delusional group, never met them.=0D
+=0D
+=0D

@@ -1,61 +1,62 @@
-From - Fri Jul  1 06:14:10 2022
+From - Thu Jun 30 13:29:14 2022
 X-Account-Key: account1
-X-UIDL: AGNJOikd0o6tYr6nowwN8AJEQ48
-X-Mozilla-Status: 1000
+X-UIDL: AFwwI3ZGh1mTYrzB0QbhuP+r4g4
+X-Mozilla-Status: 1001
 X-Mozilla-Status2: 00000000
 X-Mozilla-Keys:                                                                                 
-Received: from 10.253.31.91
- by atlas202.free.mail.gq1.yahoo.com with HTTPS; Fri, 1 Jul 2022 07:52:03 +0000
+Received: from 10.253.31.88
+ by atlas302.free.mail.gq1.yahoo.com with HTTPS; Wed, 29 Jun 2022 21:19:12 +0000
 Return-Path: <kford@helpusa.org>
-X-Originating-Ip: [40.107.237.64]
-Received-SPF: pass (domain of helpusa.org designates 40.107.237.64 as permitted sender)
-Authentication-Results: atlas202.free.mail.gq1.yahoo.com;
+X-Originating-Ip: [40.107.220.48]
+Received-SPF: pass (domain of helpusa.org designates 40.107.220.48 as permitted sender)
+Authentication-Results: atlas302.free.mail.gq1.yahoo.com;
  dkim=pass header.i=@HELPUSA.onmicrosoft.com header.s=selector2-HELPUSA-onmicrosoft-com;
  spf=pass smtp.mailfrom=helpusa.org;
  dmarc=unknown header.from=helpusa.org;
-X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 07:52:03 +0000
-X-YMailAVSC: 1xyLj8A3bBvsa0BBGfxvJFZLT0gOtQ654ooXHCeECvtoDDR
- 9.0fdmJ0aou6jM4umsNIncTDYuiVo8gU8LcyXrcXyS71gG.t_31dOlrMsCsC
- tn6N7AQfHTYdPhzudDMwAGjzkCkzyTNrNnaO.EdXezMokrjiJGsF7Wuu1dXs
- m0GDoCIFSoGPeV54Qbq6iAbOAWyjL2GKeZ6WEna0dszoljo2TLt9E_Cc5Qq8
- _AEnkGMn_EdSbiBoJOArmXY9LhovcQm.m34bGFMTxP8w8tbcOu.AQ3V_sTFf
- mcarCQF_vISvTa.Z6gIPHXqGInBHkft0P_4okJg9Fb3oMJKtdD.xyuUfMwEa
- sPNI-
-X-YMailISG: 2qnxCg0WLDu_DbgmjCs_lgc7NUe6c0TuIi1e1A8ljO_BSQk6
- 4jqWztBcqTryOw.wxtg3odfsGi.Sm0f3lRxhQfL._dgft9r63qZ1AgqFSEKN
- Zij77DoZtlKXoHiQomuwu3QjZHX84fK04mQt0.mWc4WMZ9ABfy5CvXsdkYuW
- XkQe7oBpOqzWi9mvMvh0Vvs55tHXrnTccgRkbhhS5654Gy3u55AUtDkeuqdM
- KTu_YKgeUe_taKyl4J2PZNQ_OhWQAT10s35V4KOGzGDW9iaQUs8.gCuCnKXV
- Ip8t0TyMxnHYyNu1NT6TjgYA.OmDMANIWUznC_9wys.atjljoAxiaweIvmNB
- 1Q3W5BMS.La1JMRMffE.UYIarHaXBgz_UUG5xk6gIBW1yahWGpHlY2GhWgkf
- 6IyZ.VrUJ0me09FYV6zyW2XORRgk6pdNXNWKGs8olatWDFdU4wuw2dFCuRny
- AoO7sO8HuUO1kWf0jyDiNmDZ5acCpVp3df59saevtZM5C8aN2TOPJ3_3I8OH
- 4GJ_BqEVxHScUL63I3vWJKtpRRwfkUpfW_c5b7YU8hfK4hM8fKLWy5GdFbpE
- ucq7GOFQ1DDIBp061_v4r__S_fFopFj6YC55hsE8VbYphgHtW9tZSZHE.Ydt
- h2blFH_tm0UaZ5i6JZVw_.w5jxI20G123DkHFiiQ3o9hEwvG260vDB88863_
- KTZT7FqkjUqgao_UOqQe54fiqgx7RkbvYgakWKdgK7vfQI1.lhuX36anX3gM
- 5oU7J4_cytVpYw37XJnqFlxgKYDRI3_rTt3PnQ55K.zg_jaG17fdSfqq81Bf
- 9ED3t1IQhSz0xALBKNBsOqPMN.RnO.UIq1JwcGH95cMSSdK99Dj4Jog69LlY
- L1_uWLJmVSaEOQBvFsMlJ7BoIT0icA49956JJYOkwozQQQ1dskkrV_Nl83sJ
- NamkEzmSQKRVM0wbXXBRrog37aRddiijo4peGCKR.Q73uBZfvpF4iJJludFg
- duYluhMZ00kZ2NOUbN7FLEcCImbsbY2JeJPZV3Mfaib1KkHF5V5BAdGc95P0
- m28hCRk4QxErdBhmawsLLtJpn5Nw7rYULagloQ.z7nSz9SfAmHMxAgZBc585
- TkZnNI7HFzYeIHAgkjPDeUXtFPdty1o9vrHFO0iwPqsMdX_eQXifpTQseUpc
- HOOQoL8bPEHbgXWcvykP8zI5XeS0O7w71uiJVGHBmoKE26vQrAvF7UQ.vYXi
- t9lW15YWxg17_kjY3GwojD7Jgwg41oG0VeFLL.Dud2Qrc1OtWgkBrkclA3gw
- mvwhKCiVqy4OSZmsaCjZsThk5Qft.HmfL4YE7lx5d9Mr_4TOg4YnHPYH87MO
- qgc8jTMCiS6w_YWEjA--
-Received: from 40.107.237.64 (EHLO NAM12-BN8-obe.outbound.protection.outlook.com)
- by 10.253.31.91 with SMTPs
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 29 Jun 2022 21:19:13 +0000
+X-YMailAVSC: tOa72oU3bBstZ4qataZTFqae.pHZmKzyxAcYWk9UH.xOsT6
+ DScvoKQytSQtOTRq5IJqIoVbntnD72EdPkap3YEwOwgfWw0Aj4k0UrUglqwx
+ ZIx8NwayS73mKUpcuZL80gr44PBH5AQU2dQHtVzMZLKCgHfjrPBXGY8oTSHA
+ 6eAfO5Ub2z6g0AUO4KUnNNYzMIeFiE9coJC4v1gxIPLIXvyvkF4TD7IxS4eA
+ ienAJ8dK9T6Zp99iew6NtoZJk0LKgId.3omQXwJisIMMCMQEJUeIMbXrI6r1
+ SHDJExSMaDX3FtKpF_sZVWJTbgaNgw2YJMLxjGYGi0c4pUmL3DkHCCAAabN6
+ bUTE-
+X-YMailISG: hK1x1vYWLDskmzRMqmCRBCxXMFLQjGjYa5V1G5ZqmxGElXos
+ 0Ex6Apmu4hh93AHL_Se8BlY3hEUGs4pxjPtHOkReZKd1Qxrg0RJV01tvcZag
+ nJDDJCGjqjmh5uBlMlCo7_KLh3FsBw2D_pJLi7GOXF9KApyFrVaWKt4ixMrD
+ MHnjF1pIXJoglUzqaOYd_X6hhPi7XlLHNb1L6jaE_1Ra2TlVVVTy6wyAwyZt
+ NUCiU.fHsaBNVZr9twfJlFtrazJRXBgmvx2WIfESYQaAGzquX25.i.HOpYyd
+ 4l79AWfNZpoRWmP18zbA8bbF3YeBK96nWJoy5M8o.s4PohObqZej11GH1aAV
+ wtNqKV9harMHdSkxmsnurpUTzA6.MUeZ0NRfdrZ5rxo9BF4gLatjMuk.DhS7
+ tEMOiW1whBtCjMhIM7aRlu2SioiBunab9_GbSMYaNMOELXCQ8GaWaTqrvM0l
+ nKIZQToDdoU1Tbg349BaAvXwGvrOMi6vl4q4XlCz1bHSd28N6PN0ZpzmvlvK
+ uekaQ7Q8nFbCuPPbGCghVPV1O8khZ68U7yXwi_1G8aIA7zqBcMtEnM1dtIRc
+ fo30W9ip0Rs59xrd8ZgU9O8RgTsmvTrhkx..XnUc7jXZi1OP66QrJm_kRMq7
+ cfh.X1QgA1dIYUeYv.J1Lt5T7tGrGKwmm1m11kSe3gaLbQd9sQ.RV2nHvHSm
+ rKG7z44mORGtlg3dl_NYkrZ9cMYTq3hL5K1DsTNWfQkFsH1yjJexOPicLzGj
+ P8_hKWIEETHeVgY16bnOPLzKjecmrSNLIM5V7nZJEdJIjACPOuKK5NukF8MT
+ Xy1FEVqZEEVENioUZqhOINBamh.TbN_JUAhdNrKbQEGLEPUKeldc1Jjw8Uo2
+ 7sSVjVqWfBIbIRnLCVQqUs7csbVIAfhfkvfl_LaRhCg2VTEUPkOXrQ2DJOnX
+ twyjSjf8ktLh28ahfQuVgsvx1jsSDeEiVvGMb9mRM8qw9fOoCmBOBN5ku05h
+ kweSngSZnCurukJre9rLTWzRcwANLd09n3zedtP3KLSL2u0RDbhgmkd6H9Px
+ P4OyRnRmek3xhiiXgcE0hktPrHNYGrk6CVgDjLMowCT0gZu3av9bX5TSeBjd
+ kszo6Y1MMbF59n7f7PKA6_z8MUG8t_QxZ9K27xykkX5SJYRS1Nl4zWBzBjMK
+ a9H4kVARgaXVaNceNY6q7sLPb.ksPnwYHzfmj0CI2hfqZwPEC3MDimauVZxm
+ tdsNtpm0S6bYqCketIKLEmZ9Y0KMKSfvFSPHrZxH2MifbgFZWxCVOAI36P5v
+ Hr._9WFmz2A_hlPi1gV.g_aCpJKya28rYQwBJ97zCBMclKPDPtkIqD11mynq
+ K.7v7GOuF6k91kF.dhpSXkynat43pe0pVPpSZtbwxtKJW7N6cf_QfbNPNu8D
+ lNo-
+Received: from 40.107.220.48 (EHLO NAM11-CO1-obe.outbound.protection.outlook.com)
+ by 10.253.31.88 with SMTPs
  (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
- Fri, 01 Jul 2022 07:52:03 +0000
+ Wed, 29 Jun 2022 21:19:12 +0000
 ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
- b=Gti+eYXVQy2+u2IoABXKvq331kXWE+Y5aWWbCjJTzjnxrqGXUCM8i22otDZtFZuEtHy0ccEVUEufTZ8bFA5UgOejzZbwybWb8BfIH6TCBmP/ojhCv8NbLxJKFdvt9DfaAKoQmnTaw+1rS2pty6zeJhtsN0UtPkT0IJgr91hYybVaKk71qhWU1Xk0a3tMLKPVmYHvWVHl6j4hWaOf7S9Ut5rafDDE3kVHqiKOC/Tdps0PNhvKvoL0HQwAtkGJxTwerPxIXzSopwaAzzTEELWsEo2Gci7k0rsH4IKM/oYxA28/1u/dUIxSUsatZYGc6MSeOZ6tK3PoYO75el+YVacbJA==
+ b=PEzWWrQu13hidI4Ax3fBU158l3Muo+X2eb0ohn62CwZ4axseHRfIcfcNfAQsg+kba/+VQSCiuKtJYKCq79VqYEFp834AkTpfe9yCQ2N4SttifaVmmijteOFWWSY3HA6tywUE0Gt9Va4xjuOZA0M+Xy1GQ/Xq7jViqerF7iX5BtfJbCmTM5/RCgkeH0sjH/MUuTJ/N2UuBkBKyopJ9o+6GdMgI7fkOFsb/awMwbyVHfS2l25QF/0NtZeVsK+G7pBSqcTHrk2NATAUuIzgiDeth+w0HEh5yAMi1n722s5CXysNnLBb5kfhGSsBaqNCwBhTVpF1rk0p2vvNI2fjPNpfPQ==
 ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
  s=arcselector9901;
  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
- bh=PafLzeQjQt7vicjGco14sRtu7/zgCB6SfwFRd2PlFZg=;
- b=mJZqZVMDXIR9AgW0AcljzokVe71TqVM1QtZk1hFOnOwymDbDWPjymRc+dczOMrEYMncfad6rk+KLI7o8tzrfj3+b4qayh/4tmBb/yzPnZTaRddjKCB4DFVjSFpQN80urKlNCmYuhYcRlc62IvUgjrEpElOnx9vIJGUDvhNHOZl2uBDJpqqPBsVR49s+HRZGaR/4UkF1VRclLv539Lhk8bhpzxOH2+T4zDwYpy8KeAyTswRP/18iossjPt4qcMdiTRMYfblZTLz7ITRWWXIsM0uo+KLmt5NctSyeOcutQtTd4N8ZROKenwb5JIRMhhUY5hfspuW7kSHxKAt1pRoR5kw==
+ bh=HPdzGyzlznrSU5UiKOF2afb7HWI0ySDeZeET+uiOpBU=;
+ b=OdzKjbBOiMoHwkpbW1tJnZ2r66V3LUQrCh8LNzUyTYv4cqTf8CVks7x9n/DQ3EIhg1OkRhnzTWb1DcJe58i32+LR3GuW5UnyB+kTBhO8uy6LSWLYZQZMDN7z6KkQ+RlH2Ye8TxRiQORaSiJXsqboAqfDqXxmPj0LPtRnyFUo4lCQdquKW6OcxQeDkElYFwxx0WF0M3SsWc2cpgHabvvh4HPxl17iz2hszZDvrTQEwYd8M7WgD9rW5M6pgmNofjqvxlmBYv/sGkKALZGaB1JS7r/1jOMIFuBBrpRAXlBenoYZ+MdXnNSzKTVWqOIY5Ks6hnQKwDYwTukRo6Zm5fSn2g==
 ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=fail (sender ip is
  20.98.2.159) smtp.rcpttodomain=yahoo.com smtp.mailfrom=helpusa.org;
  dmarc=none action=none header.from=helpusa.org; dkim=none (message not
@@ -63,129 +64,127 @@ ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=fail (sender ip is
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
  d=HELPUSA.onmicrosoft.com; s=selector2-HELPUSA-onmicrosoft-com;
  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
- bh=PafLzeQjQt7vicjGco14sRtu7/zgCB6SfwFRd2PlFZg=;
- b=Xii8xJOdKI1oa1TCHjj7YPLKiivRquTLd2ycLWv0mg0O0aPaahZK4vNbpVZpQoCSqHxVDDqukqpnRsBoK6v4i3uMhczCV4Mr66Yhl8JoIDu713R/bMvaRLbcpJ0zxEX0HTuUjmFtDFLFqO/PzbHfNZO0bzG5zs8efllUmS/53Lg=
-Received: from DS7PR06CA0041.namprd06.prod.outlook.com (2603:10b6:8:54::10) by
- MWHPR11MB1936.namprd11.prod.outlook.com (2603:10b6:300:111::7) with Microsoft
- SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
- 15.20.5395.15; Fri, 1 Jul 2022 07:52:01 +0000
-Received: from DM6NAM10FT043.eop-nam10.prod.protection.outlook.com
- (2603:10b6:8:54:cafe::e6) by DS7PR06CA0041.outlook.office365.com
- (2603:10b6:8:54::10) with Microsoft SMTP Server (version=TLS1_2,
- cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.15 via Frontend
- Transport; Fri, 1 Jul 2022 07:52:01 +0000
+ bh=HPdzGyzlznrSU5UiKOF2afb7HWI0ySDeZeET+uiOpBU=;
+ b=RTNy1v3JKtJZX1Bhn1eW6EieyZr9NOjdy3YW/62y942mhcmuWYcRwp7eYV6KqmsYQvT6sFug7qKMJnpr1p6hJdJZSWsYRoc3zsBYqIAgX2sirlNL0H0OMM+PLnEydNMixitqn9ARzk/XhvBqD6oiNlN4FUzQPaaZRCCWj8FHSAA=
+Received: from BN6PR19CA0112.namprd19.prod.outlook.com (2603:10b6:404:a0::26)
+ by SA1PR11MB5780.namprd11.prod.outlook.com (2603:10b6:806:233::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5373.18; Wed, 29 Jun
+ 2022 21:19:09 +0000
+Received: from BN7NAM10FT004.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:404:a0:cafe::66) by BN6PR19CA0112.outlook.office365.com
+ (2603:10b6:404:a0::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.14 via Frontend
+ Transport; Wed, 29 Jun 2022 21:19:08 +0000
 X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 20.98.2.159)
  smtp.mailfrom=helpusa.org; dkim=none (message not signed)
  header.d=none;dmarc=none action=none header.from=helpusa.org;
 Received: from us1-emailsignatures-cloud.codetwo.com (20.98.2.159) by
- DM6NAM10FT043.mail.protection.outlook.com (10.13.153.165) with Microsoft SMTP
+ BN7NAM10FT004.mail.protection.outlook.com (10.13.157.158) with Microsoft SMTP
  Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
- 15.20.5395.14 via Frontend Transport; Fri, 1 Jul 2022 07:52:01 +0000
+ 15.20.5395.14 via Frontend Transport; Wed, 29 Jun 2022 21:19:08 +0000
 Content-Type: multipart/mixed;
-	boundary="_e6f7c188-f458-4f50-8b0d-13ec9c1455e8_"
-Received: from NAM10-MW2-obe.outbound.protection.outlook.com (104.47.55.105) by us1-emailsignatures-cloud.codetwo.com with CodeTwo SMTP Server (TLS12) via SMTP; Fri, 01 Jul 2022 07:52:00 +0000
+	boundary="_79ebd765-c5c3-47aa-b382-e2578ea2e944_"
+Received: from NAM11-BN8-obe.outbound.protection.outlook.com (104.47.58.168) by us1-emailsignatures-cloud.codetwo.com with CodeTwo SMTP Server (TLS12) via SMTP; Wed, 29 Jun 2022 21:19:07 +0000
 ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
- b=aLT287tMGF2knEdHiKt4mIdj/9kt+ZaXK1KTUjE3hUvb6WYewIlNRW/BZzpnEIJCPmY9W375SJDp2Xoh7FHV7AC2Lfj1h2E9lECX5dQ5gjxQ497RM8nw9u3ZDTDv+NCTDZSzmtx/8YNoh8170yDeOpoZldUvM2RXNtIYTluPNzcLBgg3OZz/ZOPetmqVDn/o1rmiHxzOPUOOSWb3m2VZuXUMvWgckcvU8AtVfgukUlr5YFu6YcUsug/9pW1ISzTXu6eRFAKRa3Crx1ds3nmEoq3UZSezZDIQPqcZITiRpVdwGssw02isYHM3uGrEk2cY/MsIpyO7X7iZr5IC1ky7Jw==
+ b=HZwKX2dGJqxiH4RiP+flEZb2mdwj0CPxJ7ydwDQJRx8m8d16fymPyWuenvWJxLSn6RRgwo6CJZ4eNd11rs33vluyGAubnc4fYVkVMvFLOId1gIydLn2CTV1AqIZZAl/OjRt7gmet3F8dQ9wcROT5b4wLHJ9zrai1fcSESO8qzVwKJ2bLmrAULhnsQ76+CDMRcif/8rJYSbhmkxz28CTPIgu6CKc0jPc8VIQYdbYtj6ou/ZYnRRuIZEjOjX/N1BX+vsXDpPe8aHaaRNQGMu7z8HNT0YtUBay890dLFOAOJBzioVa+SP75/bRlD3M7trmbyLsWEsRT05nCZjhIurjTTg==
 ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
  s=arcselector9901;
  h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
- bh=a+cwrwIqFIiudt56tub+CjjEEGeiAwf8U/ilcFHnFcc=;
- b=c7lt3GxvGRvxzrkQnp9mmvYqCsr6/nkgqUs/zoB3POSZoIaSRzw0ER6l9Lg/8T3v5BjK/FHAeuHyyHMMxZdnHecwBJmwooxybiQQOq0yN8e5nYgDqjNkV+2uknRye8trfYb5nzKT0oqe7Czqfem6tmRRd3Z/PbWjc97QH69x1MEEaEawTD775+FsWWyPGrjyOuOU2BWV0Ef8yitwqcUAG9xNzRiWavlxw/LKN6huRQb97FdKymvDiR7AHjh+JE1+L5ECHHF6oOl/JiPBOAXni3JY2atmouSd4pZBqBepxuygsWmxVVjIZpgzpK6wed7R1S6dBqIB7qvf04+8Wo4nBg==
+ bh=BzFxQxzWymxTQR2X9nQK8XBd4cc0ZCGy1Uti3G/pqVQ=;
+ b=m6I3ovlSQ9aGXm1FnTHfColK/UlEd7Z/rQUEDImDW1K9YFCabAMzyfwuzIFCtOj4OPnJS3rKAjjINbgAJnloit3v7eYdl23YU2BiOE2j8GGNX7I/ln5NhWvG/qW7DZenYKWZrhFgxDrGPJRCIwnhx4XAATQG1oPNK80D4z58ZCXmx3vnT2r/LRtb+85ia1rwnhWA6Q4LKOiDF45syBX2HxNvmDi96O9mP6GZyjTnl8RUuV97R9wV5te5juYut1L24TyKi1omYCrmWtnqqWl6p0CzPGnjtFj0DFEA3yTWjbchszzeVf6BKe4D/qcDMUWy706f21iYxnQa4kqCbnoK5g==
 ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
  smtp.mailfrom=helpusa.org; dmarc=pass action=none header.from=helpusa.org;
  dkim=pass header.d=helpusa.org; arc=none
 Received: from MN0PR11MB5961.namprd11.prod.outlook.com (2603:10b6:208:370::9)
- by MWHPR11MB1679.namprd11.prod.outlook.com (2603:10b6:301:f::12) with
+ by BY5PR11MB3992.namprd11.prod.outlook.com (2603:10b6:a03:188::10) with
  Microsoft SMTP Server (version=TLS1_2,
- cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.15; Fri, 1 Jul
- 2022 07:51:56 +0000
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5373.17; Wed, 29 Jun
+ 2022 21:19:05 +0000
 Received: from MN0PR11MB5961.namprd11.prod.outlook.com
  ([fe80::b021:3441:a3f7:4053]) by MN0PR11MB5961.namprd11.prod.outlook.com
- ([fe80::b021:3441:a3f7:4053%7]) with mapi id 15.20.5373.018; Fri, 1 Jul 2022
- 07:51:56 +0000
+ ([fe80::b021:3441:a3f7:4053%7]) with mapi id 15.20.5373.018; Wed, 29 Jun 2022
+ 21:19:05 +0000
 From: Karen Ford <kford@helpusa.org>
 To: B D2022 <ms60710444266@yahoo.com>
-Subject: Read: *** A
- [ricki.roer@wilsonelser.com][ashley.humphries@wilsonelser.com]
-Thread-Topic: *** A
- [ricki.roer@wilsonelser.com][ashley.humphries@wilsonelser.com]
-Thread-Index: AQHYjRsLmJ/484hy1kSngDK/PjeXHg==
-Date: Fri, 1 Jul 2022 07:51:55 +0000
-Message-ID: <65e3227d68e34b5a9c6673fbabcbfd47@helpusa.org>
+Subject: Read: *** 400842/2020 *** Block 2679, LOT 43 *****
+Thread-Topic: *** 400842/2020 *** Block 2679, LOT 43 *****
+Thread-Index: AQHYi/uN905sAK1C90CF5zvOayCLKg==
+Date: Wed, 29 Jun 2022 21:19:04 +0000
+Message-ID: <33dbc56ef98941e09468841de65c9145@helpusa.org>
 Accept-Language: en-US
 Content-Language: en-US
 X-MS-Has-Attach:
 X-MS-TNEF-Correlator:
 Authentication-Results-Original: dkim=none (message not signed)
  header.d=none;dmarc=none action=none header.from=helpusa.org;
-X-MS-Office365-Filtering-Correlation-Id: 22ffe8b5-a64e-4855-01e2-08da5b369517
+X-MS-Office365-Filtering-Correlation-Id: 5ef47d5f-738c-4018-460a-08da5a15012e
 x-ms-traffictypediagnostic:
-	MWHPR11MB1679:EE_|DM6NAM10FT043:EE_|MWHPR11MB1936:EE_
+	BY5PR11MB3992:EE_|BN7NAM10FT004:EE_|SA1PR11MB5780:EE_
 X-MS-Exchange-SenderADCheck: 1
 X-MS-Exchange-AntiSpam-Relay: 0
 X-Microsoft-Antispam-Untrusted: BCL:0;
 X-Microsoft-Antispam-Message-Info-Original:
- UuqBbhbws2t3ys8/kvH2yA15K432bFnAExn/benj2vTsba4PMs1g/eG/NORwot1hYx9pygeqUU7S72hFGmuE7id9VN/SlT/1fd0lTn0MEo40L2i3IFslA89z4j06CqTF1ROfIjC+BDcmQp+pcb40I+F4cR76fC9cyzpNIwySo1wXSeyguSHKaOb1J2z1SxXsYfne00ivvN1VvdFwpXjcXnSFjJpvbq7fVnn34XSjL2E4+fUHi/N8e6HYvHmOkwuTM167ltzy5jvbUTb/Z3d5ttfkEOdauYMexT6j/mLCWXJCqvsBcTOCK59sj3+R32wrq/29GTxq3gdX1YX6cUfkl+qa2Pm4BMeJNO8eiVt9old9mc9Y9Ooj9f2tde8S/L4uCFZIKF+m1AQ5cQvmSqg1Tluf9a7E4tgx38e1dJiLKattQOmQOjF3cmMCqLYL17WhGKbFpEudkiTNod1VNTECIlfGaBf7QXE28Wr97JQ2xuVtOTvxM6iGCF7WKs9gkiIp
+ G2KuxTX0VZBJrKlzCP3rJfVpHobCMrgf0L0e7MzwiKwauLz3YtLrXr+FXMxD5xDjuHexUvxZqKlC1Qz90Xht7bmnFxq4YmnDzjA3VPy8JtVODImAeDfoc7LKYZq/k/4qap2rB9h14Y8Wtv5XfuGQtGEOcAyMG5wPUZuwYbgB84CBTeGC9Tn1ff/iuuQHkBLaxnerJo2Kb+6rnQd3pYycJ3T+Vd9PtUN86ZNSP4ryVFSXhaoYsuxji1UXgGiUJ6podg8vdbjaIxIn7eo2artbKFJYmSlQE+cwcn7jfgUYDFwxUSPj3kuqx3o2jYsby9fnatSdrM8yJ5j407yjmOQPqJ5ADuP9gG8ZTdiWTzZRznaUX9sCXLvDwuMURc21+z4CEFiK+Yv5Y6jExY0kyetpt+JvnoRDR+BWDZ9yaY5kR9DKprv41UaDsTDfX12otcOEoqR5WpcYRPkJ/Hku11Y6sjgKz9lNxYyy/iteMhEc3nM=
 X-Forefront-Antispam-Report-Untrusted:
- CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN0PR11MB5961.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(136003)(376002)(39850400004)(346002)(366004)(396003)(66476007)(66946007)(66556008)(6506007)(24736004)(6512007)(66446008)(64756008)(6916009)(316002)(122000001)(86362001)(41300700001)(36756003)(2906002)(8676002)(8936002)(4270600006)(108616005)(478600001)(621065003)(186003)(71200400001)(73894004)(6486002)(88996005)(2616005);DIR:OUT;SFP:1101;
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN0PR11MB5961.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(39850400004)(376002)(136003)(346002)(396003)(73894004)(186003)(621065003)(6916009)(122000001)(36756003)(8936002)(2906002)(316002)(2616005)(4270600006)(64756008)(66476007)(66446008)(66556008)(8676002)(6486002)(108616005)(66946007)(71200400001)(24736004)(6506007)(478600001)(6512007)(41300700001)(86362001)(88996005);DIR:OUT;SFP:1101;
 MIME-Version: 1.0
-X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR11MB1679
-X-CodeTwo-MessageID: d9d440e7-219b-4cb9-baac-acdc62fd6423.20220701075200@us1-emailsignatures-cloud.codetwo.com
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR11MB3992
+X-CodeTwo-MessageID: 9fe83713-e986-4a86-bf5b-8ebe07794ecd.20220629211907@us1-emailsignatures-cloud.codetwo.com
 X-CodeTwoProcessed: true
-References: <f667a325-f627-48c5-b56d-109c94242dcc.b4a2c843-1264-45ff-ab69-78e53af76c88.583a095a-17eb-4dbb-8c1a-09b70bf5ff02@emailsignatures365.codetwo.com>
+References: <f667a325-f627-48c5-b56d-109c94242dcc.b4a2c843-1264-45ff-ab69-78e53af76c88.74f24280-a97c-42be-bc6e-556709a0c8a7@emailsignatures365.codetwo.com>
 X-EOPAttributedMessage: 0
 X-MS-Exchange-Transport-CrossTenantHeadersStripped:
- DM6NAM10FT043.eop-nam10.prod.protection.outlook.com
+ BN7NAM10FT004.eop-nam10.prod.protection.outlook.com
 X-MS-PublicTrafficType: Email
 X-MS-Office365-Filtering-Correlation-Id-Prvs:
-	d08d29d6-cdfb-43e7-be00-08da5b3691c1
+	f92f0fce-65f9-4a7c-f72c-08da5a14fef4
 X-Microsoft-Antispam: BCL:0;
 X-Microsoft-Antispam-Message-Info:
-	XqXGi68KzNn7tOv5iafO5zwVuCV16VAM3+kSb46UNIqa2rl2sGWJjCvRyepHxUxgALwj6gdpEwJvC4dHlBWnULem0fn3AeI+jrLW0vZplPom9pZf1EG9urtyxQrAbDGIe/t9mDT1OtKk06fXorECmmjMDoAm9m02uslGtBojEyjSfaO6+s6CNjO+8RcUsKht4WeCrXxyM3Zhz8M+K6p1dY3Bpff9qawKsj5uiC2/Diu93IHLGJB57DRKAOneBsyVXu2ej8WmlE92aQUd5JN9uGrKTCCvKLN1CWa7/Kr2baKHoZYXZijWJlJKs4J2J6Bx9nU+4FUEa9lIU52+ZraRUIH6zcYsUSVTf9c3Kd38pdMfa+LxyYP+svHz6mRtIk6ld3vT2XWo3B/KUgnsdo2mUmOlZg0vdN3vCsk6TZrzXCgv0UCDl8NDC5Wg/QuoUJ5A40X+qJnaEGcI/83iNQ7HMIi1x97caahL/4xPkEn5rc4NufY3/1K98QrjC0L9/vGN+oWfMQJWukSQ3nP3VltUFkx048myMkgnht2RZzyDdtt09R5VPUI0PICPAhp9foyv/ZsIgFIBSG4p3LEnZ8/rYDEKHJlchgsaZKS/r2hg+6GNyeOjpxR+huw1XM1q2bX2q25qbmH+eIKuEuiSbgsYMXzM1AjwpbpAHwdRs45stCuyVnvtZsVIboBIN485uvWqH1zE5Tq5p7Vt+S79w/hPv997yzBufUxbhD4kEkrWx5vIMXCm+UaAV35yNItfxtDobQQu+dwu7GOTid+XACnYVXkYa6RQI0kUfUDmpSbIlkAVYDueHzjTd5F0mgNl/Pw8p2QO/cin2wffZ5nCGoWZ0SFeJ67XkQH9TbCF0OybZac=
+	1ugPZy3ktaJdpkxD8XpsmWFYMNt6toTVT4l5tV/SMcD9h96GJNNex9Y1rj2/wPfFTFP3Q2p8LXKxYZSanxgyqUQlef5Jnn9gAD8UT/yZz/n7S1aIGEjN/3iVa0GDslJS21WhOixhtGqZJUs8J5TdMh4huTEuyn9DhQPUJRQMcsmhDZzDVeHAFcAqdVNEJDmA/oUpfTCdxtTjUXbjC4VOs1BcSb8Z5icqkpjfpdy2TUkqszJaEa3rO94U2nHXWn2IqofCXONYYy2vfWFju3gi73qVsKF8j+zc2bu8LWRmOixpi0z/YL0I2COsPPXUaN7VWxjN0oVZEdQeowjpd7B0/la/vqCc2GOEopo1UWd2WDATwUcAxQdsGXlTgoZwYl7mVNxm9F4HVyykGgtyhmjXlRYMZ1hB9rhS3in5rH3oLzLQ9cs+aRUuIHkZtEnVduqmonVc5EWqyeoi3aeBBmqHCoVWJAdO841ijziKugXYfmatHujarixyvJgbAXB+H5GKIxJ7EchYOo6ossmI1Zk1oBtju+PghirOKjSBQncQwcoTQAdDN16OT3KYhPl1fDDgTmwPCFiBrJJL57l0l7XgaLONE/FCg2UENVyC4/QMFhcvsCXzLMMybJrdtK+aHlbQdEs2ntq0hB0yGqyJlzKmRkaNDPMFRhTqdjCOiYCRRA5ntRvZN2ZnhsjwJQCZyW7JlYNZna/7ybUnU0BSTbCFDXSqHxx/giOOpFQuVu4jn4Vhtfbpl7NDI/bnZSh25pBh1BLWziF9fDoUwu0NC0yDTScz52fsq7r19kWjEOvgZZHNqZxjpyDtL0RrzryncepuwaEHHUb0P5evai/lWqHNFQ==
 X-Forefront-Antispam-Report:
-	CIP:20.98.2.159;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:us1-emailsignatures-cloud.codetwo.com;PTR:us1-emailsignatures-cloud.codetwo.com;CAT:NONE;SFS:(13230016)(4636009)(346002)(136003)(396003)(39850400004)(376002)(40470700004)(46966006)(36840700001)(41300700001)(47076005)(356005)(82740400003)(108616005)(2906002)(6506007)(24736004)(86362001)(336012)(40140700001)(40480700001)(316002)(6916009)(7596003)(7636003)(82310400005)(36756003)(2616005)(8936002)(26005)(186003)(5660300002)(40460700003)(83380400001)(6486002)(36860700001)(8676002)(70586007)(478600001)(6512007)(70206006)(19290500002);DIR:OUT;SFP:1101;
+	CIP:20.98.2.159;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:us1-emailsignatures-cloud.codetwo.com;PTR:us1-emailsignatures-cloud.codetwo.com;CAT:NONE;SFS:(13230016)(4636009)(396003)(136003)(39850400004)(346002)(376002)(40470700004)(46966006)(36840700001)(36860700001)(8936002)(186003)(41300700001)(82740400003)(6486002)(2906002)(40480700001)(70206006)(5660300002)(356005)(47076005)(36756003)(7596003)(40140700001)(7636003)(336012)(2616005)(108616005)(40460700003)(8676002)(6512007)(6506007)(316002)(70586007)(82310400005)(6916009)(83380400001)(478600001)(86362001)(24736004)(26005)(19290500002);DIR:OUT;SFP:1101;
 X-OriginatorOrg: helpusa.org
-X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Jul 2022 07:52:01.3864
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Jun 2022 21:19:08.6500
  (UTC)
-X-MS-Exchange-CrossTenant-Network-Message-Id: 22ffe8b5-a64e-4855-01e2-08da5b369517
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5ef47d5f-738c-4018-460a-08da5a15012e
 X-MS-Exchange-CrossTenant-Id: 1529562d-021f-4c29-85be-09a5c68ada51
 X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=1529562d-021f-4c29-85be-09a5c68ada51;Ip=[20.98.2.159];Helo=[us1-emailsignatures-cloud.codetwo.com]
 X-MS-Exchange-CrossTenant-AuthSource:
-	DM6NAM10FT043.eop-nam10.prod.protection.outlook.com
+	BN7NAM10FT004.eop-nam10.prod.protection.outlook.com
 X-MS-Exchange-CrossTenant-AuthAs: Anonymous
 X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
-X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR11MB1936
-Content-Length: 18170
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA1PR11MB5780
+Content-Length: 18134
 
---_e6f7c188-f458-4f50-8b0d-13ec9c1455e8_
+--_79ebd765-c5c3-47aa-b382-e2578ea2e944_
 Content-Type: multipart/alternative;
-	boundary="_f3d5c170-c651-482a-b955-6747ad2e46f8_"
+	boundary="_b2a9a0e8-02fc-4c06-ba08-c3bac7d4ae5f_"
 
---_f3d5c170-c651-482a-b955-6747ad2e46f8_
+--_b2a9a0e8-02fc-4c06-ba08-c3bac7d4ae5f_
 Content-Type: text/plain; charset="us-ascii"
 Content-Transfer-Encoding: quoted-printable
 
 Your message
 
    To: Karen Ford
-   Subject: *** A [ricki.roer@wilsonelser.com][ashley.humphries@wilsonelser=
-.com]
-   Sent: Friday, July 1, 2022 3:17:31 AM (UTC-05:00) Eastern Time (US & Can=
-ada)
+   Subject: *** 400842/2020 *** Block 2679, LOT 43 *****
+   Sent: Wednesday, June 29, 2022 4:52:52 PM (UTC-05:00) Eastern Time (US &=
+ Canada)
 
- was read on Friday, July 1, 2022 3:51:55 AM (UTC-05:00) Eastern Time (US &=
- Canada).
+ was read on Wednesday, June 29, 2022 5:19:04 PM (UTC-05:00) Eastern Time (=
+US & Canada).
 
 [cid:newlogo2_2c4b9dd0-9a0e-493d-ba58-d8b2a51702d8.jpg]
 Karen Ford | Chief Operating Officer
 HELP USA | 115 East 13th Street, New York, NY 10003
 212-400-8291 | M 646-628-4194 | kford@helpusa.org<mailto:kford@helpusa.org>
 
---_f3d5c170-c651-482a-b955-6747ad2e46f8_
+--_b2a9a0e8-02fc-4c06-ba08-c3bac7d4ae5f_
 Content-Type: multipart/related;
-	boundary="_731b3a9e-80e0-4899-9db0-edb9eb415bf9_"
+	boundary="_0347d703-1ddd-4caa-83fe-a9dccd7a7ed6_"
 
---_731b3a9e-80e0-4899-9db0-edb9eb415bf9_
+--_0347d703-1ddd-4caa-83fe-a9dccd7a7ed6_
 Content-Type: text/html; charset="us-ascii"
 Content-Transfer-Encoding: quoted-printable
 
@@ -202,13 +201,12 @@ ding-left: 4pt; border-left: #800000 2px solid; } --></style>
 <div class=3D"PlainText">Your message <br>
 <br>
 &nbsp;&nbsp; To: Karen Ford<br>
-&nbsp;&nbsp; Subject: *** A [ricki.roer@wilsonelser.com][ashley.humphries@w=
-ilsonelser.com]<br>
-&nbsp;&nbsp; Sent: Friday, July 1, 2022 3:17:31 AM (UTC-05:00) Eastern Time=
- (US &amp; Canada)<br>
+&nbsp;&nbsp; Subject: *** 400842/2020 *** Block 2679, LOT 43 *****<br>
+&nbsp;&nbsp; Sent: Wednesday, June 29, 2022 4:52:52 PM (UTC-05:00) Eastern =
+Time (US &amp; Canada)<br>
 <br>
-&nbsp;was read on Friday, July 1, 2022 3:51:55 AM (UTC-05:00) Eastern Time =
-(US &amp; Canada).</div>
+&nbsp;was read on Wednesday, June 29, 2022 5:19:04 PM (UTC-05:00) Eastern T=
+ime (US &amp; Canada).</div>
 </span></font>
 =0A=
 <P style=3D"FONT-SIZE: 10pt; FONT-FAMILY: ARIAL" align=3Dcenter><IMG border=
@@ -224,7 +222,7 @@ style=3D"FONT-SIZE: 8pt" href=3D"mailto:kford@helpusa.org">kford@helpusa.or=
 g</A></P></body>
 </html>
 
---_731b3a9e-80e0-4899-9db0-edb9eb415bf9_
+--_0347d703-1ddd-4caa-83fe-a9dccd7a7ed6_
 Content-Description: newlogo2_2c4b9dd0-9a0e-493d-ba58-d8b2a51702d8.jpg
 Content-Type: image/jpeg;
 	name="newlogo2_2c4b9dd0-9a0e-493d-ba58-d8b2a51702d8.jpg"
@@ -427,18 +425,18 @@ aKKAD/hWfhv/AKF/RP8AwBi/+Jo/4Vn4b/6F/RP/AABi/wDiaKKAD/hWfhv/AKF/RP8AwBi/+Jo/
 4Vn4b/6F/RP/AABi/wDiaKKAD/hWfhv/AKF/RP8AwBi/+Jo/4Vn4b/6F/RP/AABi/wDiaKKAD/hW
 fhv/AKF/RP8AwBi/+Jp0Pw58PW8yyR6DoyOjBlZbKIFSOQQdvWiimtyKnwM2qKKK+lPzQ//Z
 
---_731b3a9e-80e0-4899-9db0-edb9eb415bf9_--
+--_0347d703-1ddd-4caa-83fe-a9dccd7a7ed6_--
 
---_f3d5c170-c651-482a-b955-6747ad2e46f8_--
+--_b2a9a0e8-02fc-4c06-ba08-c3bac7d4ae5f_--
 
---_e6f7c188-f458-4f50-8b0d-13ec9c1455e8_
+--_79ebd765-c5c3-47aa-b382-e2578ea2e944_
 Content-Type: message/disposition-notification
 
 Final-recipient: RFC822; kford@helpusa.org
 Disposition: automatic-action/MDN-sent-automatically; displayed
-X-MSExch-Correlation-Key: BQ6cloFuZEajOyiveafsvw==
-Original-Message-ID: <8d808ed4-4806-5eff-ea69-fe7450e5995e@yahoo.com>
+X-MSExch-Correlation-Key: 7DG2KjMex0WvR627qbO39w==
+Original-Message-ID: <7b8fe1e5-174a-1c31-21c2-9dde4ffa03aa@yahoo.com>
 X-Display-Name: Karen Ford
 
 
---_e6f7c188-f458-4f50-8b0d-13ec9c1455e8_--
+--_79ebd765-c5c3-47aa-b382-e2578ea2e944_--

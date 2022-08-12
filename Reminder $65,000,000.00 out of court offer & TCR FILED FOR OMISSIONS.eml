@@ -1,0 +1,440 @@
+From - Sat Jun 25 23:06:21 2022
+X-Account-Key: account1
+X-UIDL: AETT7ndDKKdqYrfZyQKQQIMDYLs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.18
+ by atlas207.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:00:08 +0000
+Return-Path: <BLOCK803LOT11@outlook.com>
+X-Originating-Ip: [40.92.45.27]
+Received-SPF: pass (domain of outlook.com designates 40.92.45.27 as permitted sender)
+Authentication-Results: atlas207.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@outlook.com header.s=selector1;
+ spf=pass smtp.mailfrom=outlook.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=outlook.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:00:09 +0000
+X-YMailISG: 2T3rx3IWLDtx_bZkDqWFGygkWm7LEG.62IFrZDg1mZWDnz5V
+ u8A6MWNjIwtt0sO_mzbvEuZ29Z41xyQW6O8JsFOP0qE.WDnmJei1jV1l1KBa
+ fkQFKpEdH7mtPuWVRa.fC.9X1oLyGKUHUc8qwzpYAoim.U85xaZzgoHFFFXc
+ Fl3nfwIeH77olBjkK4uC6FuIUsp0u0b0npJZB6zu16ChXJ1_DSpBL_wDgYN7
+ 0MPWbvDHHq8vS5nvkpzCL9R5L1orn6pCFbyole0qgLBvgPabJS2QqmJKwrlg
+ 5ShzePuSnLtvlD6sRtoT74RrS78FSCJkgj4oYzJ7Mfl.1fIvp1lZfwsKaEoa
+ Mft7McilXg7fS6OLQc4Rk.deLS5TOYuf3.nGdqlzjzNen531O8o7Q1Zo2q7x
+ xyGWXWHMYk8Wm1pZ2DrPFLA0.3wCc4mhkA0zrjmkXPy5Xjr3GV1xxS72w.un
+ aqKRFt2B_p4qlXTAPSU4WEx8ECIM5OHb04UFTau8QbN56da7ug7jGqoqby6Y
+ UlU_gq8JIve7R9X4p_YpwSfgUdGCTtY0HaK6NkKJ5RFHYWf6_gtcmtDScUMS
+ TKKFUjsOELkKgB2vyrPRnMu0xrA28NCy9OtB5AK77IDu3PoXilq8EI4vdV6a
+ D_C0IGPt91ApB0He5PbTyHHxHLu5hmvmStbs3PeBar8Dz0djlxbGARE.eNLT
+ 8vXuHEygn5AIxgZpeZ8MDiplMFNIRESwU05eINQ0LAR9pZShreoilB2FH_FE
+ nuGcaa6w0tT69V2eZiWIVGhAnscRlWCGsTN3HUK4I8a.7.OR1gHNou_XPTwx
+ tQpcfaDwAI5v_xE5Nng2dscYOTZh70M3yNO.CsDs0BMaLIzzc3YEduI.7U.D
+ XZUy5SStezjwMJZDewenf9CdWnYd4zH0bJHQNZmFl5lwFMlRxG660LcGqKOc
+ 2NrDrrKL2bOb_SItug1XHvLo8Vd6dg62qji4KliqxsxrkBu6BGlgKpvGM204
+ qZDnhT33dhaZZlttYBU2I9aUkGVVNj9OO9kEHb_bswdbiMJ8sqmuP2D4G_qN
+ ajDIi.JYdyKWIpwGXOHBs7PfALgceUt0OCrVR.Eo0Kbqi9H3MWveEMomea1l
+ fbTzseCCp7siIX8lBkuE5ZrFc8QbyCKdgJbACwAuNX0ftn5f6AiQEtwl9huF
+ vzlKX7VkqxeElK_9DEiwDgafjCPQKI0Ly06HOG6BdbfQx_b5W9jOnQRdMjpA
+ Ad8ph_mTtjmgD3l0.RRrvdLtHseiMK4cnZnX0zCSmfhLeEgolSPHl8vq.D43
+ DAxJGW4mFUcu0ff7b_SenyBrBGDfdf2FKBa.B4RdAf3LfEUyvc9fyWpbSeHg
+ T3Xjw85EsE0F4K3JcpweXCnTcJPXwR_BMOI-
+Received: from 40.92.45.27 (EHLO NAM04-DM6-obe.outbound.protection.outlook.com)
+ by 10.217.130.18 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:00:08 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=gQ0OnDtA6cEOamnZ1G6t5YsD2KyYUTLSfu9iqbz7fzt3GE5YQleMY3zpGY6B27drS6BlcuNypnuVOptiqUgqnLGINbCOf6943CyVTo/gRClGZcbWsGK/o+0Bi7bkL3XTL/c8BxYPG/9dq4EzbSh7WwU40/pdRlD2FpIZUxvXvXAk5WixirncP0hiURD/QMYyjaoHZn7778yFUXLlLhHsdG3svgNuDOyi5EEEIHnZX3NsWnD7UiWwuRnPA4kyY78IqZtqUY49+rkzHSm7GgKr1bF5jxujViPxWCeM0zJFU7T3oOZzDj337P6rvBLfRPeT5RFzSA0pWfKVsfqK8GSygw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=6hErrPmQMsbm9AAPT7Yqqdoq70ZaqRn1QJ/jyh5jOwI=;
+ b=DpuhinWsKT04b9r+TznxD7g9KiNJuICeJmzqNPAuTEHoHZHR1BBvtL7qqJiRmsfkYzHLhmlQfKk8kQr4u6p5KYZgVPrzcxYm5cfx+1jMI/cWZVt7UmabPLOCPGWXZNHf3cc7C1hlgOoUeth4TS//U27QZcQmKU6ccI8X/6fLAvvCRl1MqCzqWhLIvQE5pyITxoipPG4u2h3bP9igDXYDxpCAq6td2donO5Tp5Fg7bMspKkY5/2FCrB2+AldCA70xpEB/fH76C5oiGToHxok4aAbOw6Ep4+wwxpPYt7cBtXvahxTWedpQjVxO/rSFsNnGo8Gbj8uQFWEbHoqgsg2Whw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=6hErrPmQMsbm9AAPT7Yqqdoq70ZaqRn1QJ/jyh5jOwI=;
+ b=qlTDlPPodx5Mv10KDmx7lPdbg0J8FHM+JJiCe93g1lla2tHKp1IJKNvle1259aq3h1tisV6rAefZ2YFCJlMshn8gbHcvBLz6Z0Sj+GRQ1C2vN05QhJKln0rxDcyxZWV3+Ix1+KodihRwKAH8vbEw9HNCKCB7AxNrJ5+ywnPjhrZpjAsOYfZXZ1i7VHL3pzyqVe2314db6BUxRaf7cTk2kVCWIiZYvM/vs3Qo6PWbUp0SwkhFnuEPDSvTl5k571aSPjhMfBKuiqkriVSDbEEFFJ30GZCew6vrQPZ7izhbmI9/Vhz4KueUXsbZLqiLK4LOuLPcWiOx/fFNF38HP47gtQ==
+Received: from BYAPR20MB2647.namprd20.prod.outlook.com (2603:10b6:a03:fe::20)
+ by BN0PR20MB4102.namprd20.prod.outlook.com (2603:10b6:408:122::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5373.18; Sun, 26 Jun
+ 2022 04:00:06 +0000
+Received: from BYAPR20MB2647.namprd20.prod.outlook.com
+ ([fe80::bcec:f7f5:6f0b:93b]) by BYAPR20MB2647.namprd20.prod.outlook.com
+ ([fe80::bcec:f7f5:6f0b:93b%7]) with mapi id 15.20.5373.018; Sun, 26 Jun 2022
+ 04:00:06 +0000
+From: 153974 /2020 93715 / 1516523 <BLOCK803LOT11@outlook.com>
+To: 153974 /2020 93715 / 1516523 <BLOCK803LOT11@outlook.com>,
+	"governor.hochul@exec.ny.gov" <governor.hochul@exec.ny.gov>,
+	"BDINCER66@ICLOUD.COM" <BDINCER66@ICLOUD.COM>, 153974 2020
+	<ms60710444266@yahoo.com>, "JAMES GORMAN [MORGAN STANLEY]"
+	<JAMES.GORMAN@MORGANSTANLEY.COM>, "Emma.Bennett@morganstanley.com"
+	<Emma.Bennett@morganstanley.com>, "bondstrt007@gmail.com"
+	<bondstrt007@gmail.com>, "Sarah.Roberts1@morganstanley.com"
+	<Sarah.Roberts1@morganstanley.com>, "PREMERGER@FTC.COM" <PREMERGER@FTC.COM>,
+	"columbia.publicity@sonymusic.com" <columbia.publicity@sonymusic.com>,
+	"inbox@livekelly.com" <inbox@livekelly.com>, David Moore
+	<david.moore.ct95@statefarm.com>, "pinkbookswap@yahoo.com"
+	<pinkbookswap@yahoo.com>, Bo Dincer <bo.dincer@yahoo.com>,
+	"tessier3@stanford.edu" <tessier3@stanford.edu>, "stationservices@cbs2ny.com"
+	<stationservices@cbs2ny.com>, "marquee@gs.com" <marquee@gs.com>,
+	"abuse@gs.com" <abuse@gs.com>, "praghuram2@bloomberg.net"
+	<praghuram2@bloomberg.net>, "INVESTOR@ANNALY.COM" <INVESTOR@ANNALY.COM>,
+	"Janna.Underwood@STATEFARM.COM" <Janna.Underwood@STATEFARM.COM>,
+	"Tina.Powers@STATEFARM.COM" <Tina.Powers@STATEFARM.COM>,
+	"MIKE.CARTER.HUSL@STATEFARM.COM" <MIKE.CARTER.HUSL@STATEFARM.COM>,
+	"officeofthepresident@columbia.edu" <officeofthepresident@columbia.edu>,
+	"Greco, Amanda [GMD]"
+	<IMCEAEX-_o=ExchangeLabs_ou=Exchange+20Administrative+20Group+20+28FYDIBOHF23SPDLT+29_cn=Recipients_cn=c190de3e029d4091b8fd14015f12e672-grecoa@namprd20.prod.outlook.com>,
+	"malia.d.chatman@chase.com" <MALIA.D.CHATMAN@CHASE.COM>,
+	"kevin.kilkenny@chase.com" <KEVIN.KILKENNY@CHASE.COM>, "sjs5@ntrs.com"
+	<sjs5@ntrs.com>, "wendy.brunson@doc.nyc.gov" <wendy.brunson@doc.nyc.gov>,
+	"gcho@doi.nyc.gov" <gcho@doi.nyc.gov>, "ikawasaki@KPMG.com"
+	<ikawasaki@KPMG.com>, "oig.openrecords@tdcj.texas.gov"
+	<oig.openrecords@tdcj.texas.gov>, "oigspecialops@tdcj.texas.gov"
+	<oigspecialops@tdcj.texas.gov>, "People@mail.people.com"
+	<People@mail.people.com>, "njtsy1@bloomberg.net" <njtsy1@bloomberg.net>,
+	"sean.kelleher@wsaccess.com" <sean.kelleher@wsaccess.com>
+Subject: Reminder: $65,000,000.00 out of court offer & TCR FILED FOR OMISSIONS
+Thread-Topic: Reminder: $65,000,000.00 out of court offer & TCR FILED FOR
+ OMISSIONS
+Thread-Index: AdhuYqXoWRLX8R2obUSaVSp5QjRdyAarpJ66
+Date: Sun, 26 Jun 2022 04:00:06 +0000
+Message-ID:
+ <BYAPR20MB2647662A27F1421085DC8EACF9B69@BYAPR20MB2647.namprd20.prod.outlook.com>
+In-Reply-To:
+ <BYAPR20MB264724F91FC2B35D7F391575F9D49@BYAPR20MB2647.namprd20.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-Auto-Response-Suppress: All
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: f749fe8f-e9ec-4aae-c188-08da57285ae7
+x-ms-exchange-slblob-mailprops:
+ Gc2OTa7qnQ+vqhXgRmWd+eW7pAs7SSBlJ/vf+jZQqntgRGunTwB2t7Uf5NsysfpgIx6lVkbVaYV8IbPci/oJ+qM1fyTmwKejbTEz40Mo9LfLVrGTkJoCgQDvaTW5qEXB93uzvbbcRFaSVqFBgIgSfYHxWJI55r3EgujGA5BCatYlYt3n9YKmk2f6ArarXmh6Mr45P6/c+oaZv/POqMiYU6No8fVAyU+/mqpsqiJdH+rqYJ2JFhgPM/GP5bftrnwwg6qIVINqN+nXvQXuK3ZaD6Rb0UxbDo5ABb4vofoAukwKXTTWc9bB2KB7NeUCloVuOU0d8J7iOcz8z5SSv87TBgLsw6YBMQpty6kt3WAEJQFTMo52e/wYh6MewXa/Z2ZqzstP6wLOMv7U3KBnBTnnEGGYb/vxTC9iWl8awyE0Mn4M0Aav7NVR1NyaXGdS4q4wLXU1cbZ+05uen+JOcxC/xE8eOiOGvTRilMJqcAwHQZb4iWP0ww1ujBLspOWNhJ6Ff3vw8lRwKJEMh/OdQVg4X8TLa2sj/NCkJeC3geG8+27e75LN0hu5NGyNZ1r4/Isg03fA+sx4ORr7YwzBvA76GJm/HdHBXEKo5+klgC4GCDTBa5yBKyBkgNila5QJ2tqBVHQIdqvzCm3I637XEKmHz+rhbe8TZcwNOKAz5hMsP8/gQjUrs6jIGg==
+x-ms-traffictypediagnostic: BN0PR20MB4102:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ cblmMNeLottoXxxeUOYMPC6uc4agbhOJJPhHeJKiZLdgds4xXJZmVjCSGOSPV18u0YgVNQWo7sHr8ZN5ny7M0NdYeTIhLHaU1D96Y2G6v1X5Ka1nHuO7QF7Yv12tUelUQPAtursw+ZpMB2FbAh3br7zeVtd+Nd1zezrUP+Z0lYtkWe6+1dIISphxdtivbsZpCgWCtf0g1myksDZRduL1vpSKH67OaWFwxr5ECPQhihNLYYJIYVPogqmhLUETKMYfCYAhzuVd1/9G83xRZ2Ztm5oggfyy7MaybsLYfkFhVr1NO7Qzt0EAZDKKSJgtkwe5YqqiUVm0D4alUx6afKhwHqI8G4l4rVhdUVA2MmBp4ZmXgoGNpvQVYwSLNYEGThCVzpeb49igHHXFVZhq66UGJjOr1YZAYXa0zv9aqSrf+DBxn4HouLSP+ZfCg66rzlSGU8BevY8WZjeIcENZvP8+6EKjKnQNVCCC0gm49RjvyKY3TOBdPjHGtRHbSQtzO6qtppLk9x5EiZMcft+yruDPmsEefbAvQyKTU25UCddE1/jYbmEAAH6nrsIl9hzj7d3SZO3jNWtb1Xjwhf234zYBW0nxjroyaXhGyLmRNZNvyV8EhaYGvBl0J0BFnp6nvi3y
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?uQ1CdFP2+FFu5Ah25HX5hMzPorTIRdyMMpqJV17QqUkIt2mQhsUV5Vv1h9lm?=
+ =?us-ascii?Q?bvEsiBqOmaqq0hOUsUUUX7OsI3Obg5qjD2UYeBFPfGGoiA5PQ/2+ZuG42VE4?=
+ =?us-ascii?Q?RsN3SeCypgV4n9DPWcQOghP2VqI3o8LiVAv+SITgvlu00H18GPOay/hJAH73?=
+ =?us-ascii?Q?/o3ljJAWiMaHBRAsgIAJ8zQZW/UO80K6FYI0UbFNbf90a9YsnNx9aMzwEq0t?=
+ =?us-ascii?Q?jv35VOrZB6x9t38DjbLF08PcZGMDfS4E4lOU6x/A4YxSxhiFHQp76l16injs?=
+ =?us-ascii?Q?QT9Z8WNYfcZp6k1SZ+CElCJN+DfjFcHuQYMU8foFhxes0KSJv/DerC/kpUsk?=
+ =?us-ascii?Q?w1lSiZQ1O3Cg/EGmjJqe7a7I85giUwPE8QumGcWmw63Nwp1UGdZLEWDKh712?=
+ =?us-ascii?Q?NjFU5G83TtUd3yjr5dYMd08s/Itoay0sIebf9Z/FodCRhxG+d7oE7Ucfp7eU?=
+ =?us-ascii?Q?ELT/uXd0IXRLJ6SBiO0oHwejkKD28LIjM/gKzd6bKZOUDi1BIWC4qYaNL016?=
+ =?us-ascii?Q?dZGgGM0IYtQXMNJpRxAS6EpQNGW7zjSMmyk9VZkqUd86FpQxzQnqt8dH54tw?=
+ =?us-ascii?Q?ldJRiaf2ikgEYgnmIwagohQ7V7H9YRGlFD6LVJZeAkFK5VLGVHx/ndsERib3?=
+ =?us-ascii?Q?zaYwBJAHHnalSJ8IV8gA2dlYQ7R7w1V+2gykAug21Bt4X4BEYkI1lAiminw9?=
+ =?us-ascii?Q?pxUd2VKqtqpCBYn7oamnzRctYtQMGER69+JWONFTwQK7ELexwmJCdJH41TBK?=
+ =?us-ascii?Q?EjFGDEOyZRZ124PpEkqWKGnyEIRZsaR/a1TNWB93sipz33g59ur6B/KwuRlT?=
+ =?us-ascii?Q?4xobleabPKAjpvq8wgKzQTyDMLefzXKWHSwpTdjysoOQNcbsS5Uz3+6wR6Ig?=
+ =?us-ascii?Q?W0gW4xUNEkpLTB8YthpKdIF+ytcrDKAzgCXoAai2B+0Wz17DZ04WwonsIm8T?=
+ =?us-ascii?Q?XwuxLv8ASTCnb1WArAIUUgwUKMMeYBaQLD+OOpR6MJ0Ob4lga4ib9n4A233L?=
+ =?us-ascii?Q?yg+kXqeUHDQkZa6EyopeymAdeRpJhrzV7gwbl3ciXE7uahveiS64CudmOvN9?=
+ =?us-ascii?Q?X20SegvajrPilfDP89WYi0FOhQVOwDvRkICUZK9ncp+ivBwZnNTHOeZbMxgD?=
+ =?us-ascii?Q?8BvCZRwqrDbDPvTzWh8M7CW9IOLzdKbPr4hB1iw22riYFZuawWgc8VojrWgd?=
+ =?us-ascii?Q?UD52ibTOnQek53og?=
+Content-Type: multipart/related;
+	boundary="_006_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BYAPR20MB2647.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: f749fe8f-e9ec-4aae-c188-08da57285ae7
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Jun 2022 04:00:06.1480
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN0PR20MB4102
+Content-Length: 13134
+
+--_006_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_"
+
+--_000_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+[Logo]
+Your reminder for $65,000,000.00 out of court offer & TCR FILED FOR OMISSIO=
+NS
+SPJKHTF
+
+[Date]
+6/26/2022
+[Time]
+All Day
+
+--_000_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"ProgId" content=3D"Word.Document">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" initial-scale=3D"1=
+.0">
+<!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:Pixels=
+PerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]-->
+</head>
+<body>
+<style> body { font-family: 'Segoe UI', Arial, Helvetica; color: #454545; f=
+ont-size: 12px; } p, div, span { margin: 0; padding: 0; } table { border-co=
+llapse: collapse; font-family: 'Segoe UI', Arial, Helvetica; color: #454545=
+; } </style>
+<div style=3D"direction: ltr; color: #454545; font-family:'Segoe UI',Arial,=
+Helvetica; font-size:12px;">
+<table width=3D"100%" style=3D"border-collapse: collapse; mso-table-lspace:=
+ 0; mso-table-rspace: 0; background-color: #EAEAEA" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"30">
+<tbody>
+<tr>
+<td>
+<table width=3D"520" align=3D"center" style=3D"width: 520px; color: #454545=
+; font-size: 12px; border-collapse: collapse; mso-table-lspace: 0; mso-tabl=
+e-rspace: 0; background-color: #ffffff;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0">
+<tbody>
+<tr height=3D"90" style=3D"height: 90px;">
+<td height=3D"90" style=3D"height: 90px;">
+<table bgcolor=3D"#0078D7" width=3D"100%" height=3D"90" style=3D"height: 90=
+px; mso-table-lspace: 0; mso-table-rspace: 0;" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tbody>
+<tr style=3D"height: 90px;" height=3D"90">
+<td width=3D"90" height=3D"90" style=3D"width: 90px; height: 90px; margin: =
+0; padding: 0;">
+<div style=3D"box-sizing: border-box; width: 90px; height: 90px; margin: 0;=
+ padding: 0;" height=3D"90" width=3D"90" border=3D"0">
+<img style=3D"width: 90px; height: 90px; display: inline; margin: 0; paddin=
+g: 0;" height=3D"90" width=3D"90" border=3D"0" src=3D"cid:agenda_icon" alt=
+=3D"Logo">
+</div>
+</td>
+<td bgcolor=3D"#0078D7" height=3D"90" style=3D"height: 90px;">
+<div style=3D"color: #ffffff; font-family: 'Segoe UI Light', 'Segoe WP Ligh=
+t', 'Segoe UI', Helvetica, Arial; margin: 0 30px; font-size: 18px;">
+Your reminder for $65,000,000.00 out of court offer &amp; TCR FILED FOR OMI=
+SSIONS </div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" align=3D"center" style=3D"color: #454545; font-size: =
+12px; border-collapse: collapse; mso-table-lspace:0;mso-table-rspace:0; bac=
+kground-color: #ffffff; margin:0; padding:0;" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"vertical-align: top; margin: 0;">
+<div style=3D"margin: 20px; padding:0;">SPJKHTF</div>
+</td>
+</tr>
+<tr>
+<td height=3D"1">
+<div style=3D"height:1px;margin: 0;border-top:solid 1px #eaeaea;width:100%;=
+line-height:1px;">
+&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td>
+<table width=3D"100%" style=3D"border-collapse: collapse; mso-table-lspace:=
+0;mso-table-rspace:0;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"vertical-align: top; margin: 0;">
+<table width=3D"100%" style=3D"border-collapse: collapse; mso-table-lspace:=
+0; mso-table-rspace:0;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"46" style=3D"width: 46px">
+<div style=3D"margin: 20px 10px 8px 20px; padding: 0; width: 16px; height: =
+16px;"><img width=3D"16" height=3D"16" style=3D"width: 16px; height: 16px; =
+display: inline; margin: 0;" src=3D"cid:calendar" alt=3D"Date">
+</div>
+</td>
+<td>
+<div style=3D"margin: 20px 20px 10px 10px; padding: 0; line-height: 20px; v=
+ertical-align:middle; font-weight: bold;">
+6/26/2022 </div>
+</td>
+</tr>
+<tr>
+<td width=3D"46" style=3D"width: 46px">
+<div style=3D"margin: 10px 10px 8px 20px; padding: 0; width: 16px; height: =
+16px;"><img width=3D"16" height=3D"16" style=3D"width: 16px; height: 16px; =
+display: inline; margin: 0;" src=3D"cid:clock" alt=3D"Time">
+</div>
+</td>
+<td>
+<div style=3D"margin: 7px 20px 10px 10px; padding: 0; line-height: 20px; ve=
+rtical-align:middle;">
+All Day </div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
+
+--_000_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_--
+
+--_006_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_
+Content-Type: image/png; name="agenda_icon.png"
+Content-Description: agenda_icon.png
+Content-Disposition: inline; filename="agenda_icon.png"; size=2622;
+	creation-date="Sun, 26 Jun 2022 04:00:03 GMT";
+	modification-date="Sun, 26 Jun 2022 04:00:04 GMT"
+Content-ID: <agenda_icon>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAIAAAC3ytZVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1
+NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozNzM0YzZiOC1kZmRmLTRkZjUtYWM1Yy1kODhk
+YzZhYjJjYjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDhBOUYxN0E1RTAyMTFFNDk5MjBF
+MjcwQjVENkY3MTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDhBOUYxNzk1RTAyMTFFNDk5
+MjBFMjcwQjVENkY3MTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNp
+bnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Mzcz
+NGM2YjgtZGZkZi00ZGY1LWFjNWMtZDg4ZGM2YWIyY2I4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAu
+ZGlkOjM3MzRjNmI4LWRmZGYtNGRmNS1hYzVjLWQ4OGRjNmFiMmNiOCIvPiA8L3JkZjpEZXNjcmlw
+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
+
+--_006_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_
+Content-Type: image/png; name="calendar_icon.png"
+Content-Description: calendar_icon.png
+Content-Disposition: inline; filename="calendar_icon.png"; size=1142;
+	creation-date="Sun, 26 Jun 2022 04:00:04 GMT";
+	modification-date="Sun, 26 Jun 2022 04:00:04 GMT"
+Content-ID: <calendar>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1
+Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5YTI1YWNhMy0wYWVjLTRkOWYtOGFjYy1mNzkx
+OTQ2YzllZDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUE0QTZBRDU2OTI4MTFFNTg0RUNE
+MzgyRDREQUMwNkUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUE0QTZBRDQ2OTI4MTFFNTg0
+RUNEMzgyRDREQUMwNkUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUg
+KE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDo5YTI1YWNhMy0wYWVjLTRkOWYtOGFjYy1mNzkxOTQ2YzllZDkiIHN0UmVmOmRvY3VtZW50SUQ9
+InhtcC5kaWQ6OWEyNWFjYTMtMGFlYy00ZDlmLThhY2MtZjc5MTk0NmM5ZWQ5Ii8+IDwvcmRmOkRl
+c2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+R0I5
+2wAAAJRJREFUeNpi/P//PwMlgAnGYGRkBGFZIP4CxBxQPjLmgMqB1GAaAAR7gVgaiLmBWBOIN6Bh
+TaicIlQtBIC8APUGiLAD4m9A7AjlI2N7qJwzRBtUH5oBV6Ga32Ax4CUQOwDxTWQDGGGBCPQXSaEJ
+1AcOCBY0cUZi9WMLRMqicdSAATQAOR1UIccvAVAFTziUZmeAAAMAdu1CCYMApPIAAAAASUVORK5C
+YII=
+
+--_006_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_
+Content-Type: image/png; name="clock_icon.png"
+Content-Description: clock_icon.png
+Content-Disposition: inline; filename="clock_icon.png"; size=1230;
+	creation-date="Sun, 26 Jun 2022 04:00:04 GMT";
+	modification-date="Sun, 26 Jun 2022 04:00:04 GMT"
+Content-ID: <clock>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1
+Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5YTI1YWNhMy0wYWVjLTRkOWYtOGFjYy1mNzkx
+OTQ2YzllZDkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjNGRDUyMkM2OThEMTFFNTg0RUNE
+MzgyRDREQUMwNkUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjNGRDUyMkI2OThEMTFFNTg0
+RUNEMzgyRDREQUMwNkUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUg
+KE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDo5YTI1YWNhMy0wYWVjLTRkOWYtOGFjYy1mNzkxOTQ2YzllZDkiIHN0UmVmOmRvY3VtZW50SUQ9
+InhtcC5kaWQ6OWEyNWFjYTMtMGFlYy00ZDlmLThhY2MtZjc5MTk0NmM5ZWQ5Ii8+IDwvcmRmOkRl
+c2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+3Pqp
+dwAAAOxJREFUeNq0k0EKwjAQRYMttAfQIngBl3oP2009TKsbqeBBPIIuvIWKLurKM6i4EGmJv/IL
+sSS1Lvzw6CQzGdKfRIg/qA0W4AAeZA8S5moVggtIQQx8EnPuyhrj4gxMgK3J22yU6Zp02H2qTjqO
+I4EPhJTyDWuKWk+tTbhFq0EDi7WFT6LF2gAsQd7A5Jy1I6H8a59Om+S7rlvGa7ADM2Ewq6qVEgdK
+/FQbnMAAbCqLe6CrjLf8DsH5q4kGfZhYytMdo0HaY1QvUmTwxmIuq7uNY3DjFiMe1YhxylzY9DEd
+6fSd5s2bPKaf9RJgAFnPQ8r3MJ3wAAAAAElFTkSuQmCC
+
+--_006_BYAPR20MB2647662A27F1421085DC8EACF9B69BYAPR20MB2647namp_--

@@ -1,0 +1,1777 @@
+From - Sun Jun 26 11:41:05 2022
+X-Account-Key: account1
+X-UIDL: AFuDwRIjPwohYrh8Ngu4AKBDfLk
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.105
+ by atlas312.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 15:33:09 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.31]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.31 as permitted sender)
+Authentication-Results: atlas312.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 15:33:10 +0000
+X-YMailAVSC: _cJGSOk3bBtR8RDAX1tTQBIQhh3.uaza4BHs64wM6x9B3kW
+ fv_0oSwZi.nEhgCHIOqojCF33L6lSMo7El.O25cPPiVDzjn3YbE23bkzJRgF
+ V_N5oAgGWocvo.xi.q0Uk_2zjp4AF2Izy051_fcrrbk6tT6kjrmaOEAttJ_j
+ WL1GqRIB2uIatK.Erd3FpjW5uAVyTYaTV0oGeFr9PVvMjIhqeeBgDCRjsSlv
+ LumWOMPe3WdwWckuwGVsBD3x7fs9u.ei8Xt2sirCme7SM0Dd984gNbWuv8RO
+ b4G0EPElMxyAunC1huxBGwOniIAI7k5YpIGD.zv1wH2gS.C8MLhirRFCpdMc
+ xCw.Vody6KndE_Pm3Bb_H4Rf4uEodIkRTFB09SYvRdIQnD0E6eYnWuC5Wsee
+ izdwzgVo0fcY2fQ7qStio2e7CTp2VtKQ7ccGJXmRpaiWSNSVw2ef0cmaU.6J
+ L7Xs14D3C8X0__As8ZlixP4cD
+X-YMailISG: Do9XdfEWLDu6Kpxztc4hL8q.ZQxbQLME7pTqQd7mbo7iNgCv
+ uDiw2MsxXgFxO1H_2w869G9TpksQs0vCXm0LKBBWZC6HJwJ0TpXfAQfsqbfj
+ gqJDZFEvwBjfdu_jNjA5AbJ6nBpM2utdZ065pE_Yhcs4fqkWIHJEPt8QL1EH
+ rPbtkH.bZF69F4YRCn4sbwUjazGfUt232yksweObtUe4Zj4lzB9y_S.LMxUG
+ rf0HvIxmZOGQn3djsFBASGRz.Y1qfge6CPMseU2LqTiTdWQGwSSq0HOvLeOG
+ 0sUpNBxga8HtspQjO0hI_bQebiX7qfZTNrIGSvC5u72NOPBGcCbgizUkB8rv
+ KdMNDB8ZpXgdgxijSwRYx1T.5eP1l3xeO9qg_YAdmyKM7tsLx0u30QrCPG0t
+ 1kbLxj5gSRE7tU.l.W0jPPsfno9Oowm116CP8PhUV5PjO1p9Y2YKKdg6E35n
+ _gQ8weuOYYOs9TOkLLxGumuS35gRFRwJZ2qCMnA9f79CsZJX2YE6xV4GD.I9
+ SsBtphFBtIDlKdgCAGq1ThohtYYmNEQbaYIyqiUS9Fixt1qHtl.YNQ.f2K7L
+ FsGgihBW29rKix3N5eTP9llw4xprkUIqzm_CjjjqltFgmUzQJhe3HBNHn72Y
+ psAMZ88yDPucWBIMOJgQPhSgEB_ZFTm4o6VXxH7hcfDCYnQnlPlo6DGoTPHf
+ WjuUELSRVUAA1hfx.5OWmCUqRlbikOiWoH2P6R2TPJKSXOLISHCHFguPOXI5
+ YnTDzhnxo1zpXVvGtR8YNtMikKzY8f4obUpP6SSVl4OeTSUhrVI3JA4nBCTP
+ tx3EssuuF2F3cWhwMR2f6HdiksJQFHyjihFpPJoII0JOE6qo8FDI6cmSEolu
+ J7.gotoaJXOXSpu.atpT.5E6WUGOEgiEX96md38nt3ghmUcAG62mBapgUXO8
+ NF8KSuwfmTeJbb50MtbbJ0Gme2LEE.yx1obfAlDdxQgL3x79_GQRkoUPBrqY
+ O7RwgR_ZQHt2tt6jmg4Clmsess7DSTTOB0cntrA9O0t8xTDvlOpaPpbSr7Mq
+ SW_uQyTozPcDsukhjb474LtQ6ShCxgB0WAYtffkqcSThEvWcLL84EU0sLzCf
+ 8lL7K7cHOBJ7FEaMaH3nzdlsKd_lipyxCzFO7vZIGfyk4un2KdlUcP7XnMvn
+ 8A--
+Received: from 98.137.64.31 (EHLO sonic307-55.consmr.mail.gq1.yahoo.com)
+ by 10.197.39.105 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 15:33:09 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656257588; bh=n6Tv8ewqu2ouolMwGupGxKW1e3nmoo1Q2YlSKRyzV0Y=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=bdVct8ELFeyscYT6XzQtDC6n8yisNzSOgzh3ZndrHjDsLBOBg4UcPvpglh1nHxgskMzMYC7I7qCbJ2uuBw75q8rHFktrXehdpt3FkfZ8IdLRRSO8Dc37vdaAsExMqDDSUHs3zwpUwleXAhTKQ/HZHJnObl//iEx19q8AH7a80e2DST4NXsqNBEO90nAMJhKwMUzljRtEU0afAND+Dh3LK0fuiUvtcANNgel7Kc2o3THa4fH4KanA2yUFNiaRBhzwPZytnIKUWE6KhQHhBYjyRxpItQA4/G4Z/4OLenmM7QOmEnWCVIeViZ5wmDU+HwYPrjK3wJo9Q3iPNoCH1Kthcg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1656257588; bh=8x86s0Wxu/bTOfz0VL2nJzGEkqqPJ+a1rlUAEILMq7p=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=ExWLn7WfpB+kbtjc24Zb7jwi11PfZNIMIKB1qzUCOXkQ7qx3roETjLfSC2sNZPBtNYdZYn9m6+H8QjTDAhaGnNcU9O0fE7Znf3iExKxmWFm7QBu5FBW0LvDdQxIMqEsiMzrGzSmFsMNg11nlOsaacuMytMDMFRNb8fDLTcFuLBvMU8N84rg6qUXQ4DEbCJ09kPfiX5Nhz5OCzkl/890eun7aUMNR/3taXCFpQBZD0TsNTXFL3vGb+95rB6h5r0soa1wiwQrjVAAi+AhoOdvRIX535wb+tCP80y6u6HKwUf0Vb1cUDNWkHClrRFbgcIfK6KwqAZ7ehHyc8s2d0Nm5xQ==
+X-YMail-OSG: nj51n.MVM1mNr8CxYnmumIbaLxxK_5nUrCvL2v.0O5gPE9wDy9JkvK2o0ezjp6p
+ 7QUL3SXU__2q3jTX.xlbI5.oTAVQ86ftRXCyiXn4qsN1IpZeRSXP_9uRMHVjd1du4Ssy9zbLQ76X
+ ynWzO2LlwFCiA2N0hsOPLcectU27CRI3UerRZOUsERqT3LldeeG5xApasIpLxVwR0nFf6F6OGrOf
+ LjsKUEbaxxI3yqxCOh.Rad1UIw943.X_8qervOOz0POIPJB0NrCGLonbaJG9Etr.uTQctBwBegCr
+ MKC.4B8O98ywfMQL85dO5RHvILr9SdtZveO77K0x8alIMka8OOXLhkg8GO8RiJyUHlqnm_ToM3dm
+ 8SHMbw04HkpgaJaGjTNlmzGaQgOHL6jqI8vnBEqLhsfJHzskVtEdWZBNCUUm3wW4rhWflCL20iTa
+ aSvZIZSbST8FFW8U2aVvtmVK0Okiy04tDdkhq5lO3OuoaOfFAL49N8.LDuPXHjwpKgdkVZwjqdVz
+ bGLIZjHML8zZ0tWp3yGcp28y9isAurmJD_cPguO2.zhRrDxAVawoz69Jg6GWcbY6S2JwuHpoxkSB
+ bEp.6K7qQnv.zcdDsP9q9zMEE316NWLED6ByEsT.CLUambVDJJ7jDG0RX3kc.xadPC1K2y1ATium
+ ehTOqKhLipo76DJDVNYlM4PgDEpciJPFLtL8r3PhPH7aZSBYdaLoX1S895V7qy7crL0EcW6yfnwv
+ JsVZL8UMNyKKRbRzrZ2CGtTpYU3koxaFGSRsAUFL9cbTumY.3JvZinEhuWn7NduRdf_jXBDM174Z
+ 9XOepIOKoFpxx8OjyKzf6q0ZMsoU00VKWPhV.CPJNIlMbpRWNI.l4SCFtXq2rIjk0qBDqacCWO4W
+ HPUFf7wm2mTvJUi2f4Pr.vvdL5rGqddwkylIicMYQ_RHMKB6mOus9jgZaHtOI7rhmbYrMhPXENCz
+ mo7CqfVKzNt6foK3_M66gN8fCAjYTJkpgZJSCO5ns_vINi0.W2NgE7F.75dOdOGEMuiis4KpfiS8
+ 8U8mvSHODSXgw2SXUkyJ2L4F.AVyVLsU43YQ5z3IYcNS1mCuVjZ3SNeBcxDftN5OZqn4C7DJ4DYt
+ w19qHgIuH3ndEgcaq3MVJavm75yEc78Id3Os3iTwJKFlnUUzuyBx5RpaTV1IJkrh.j4wevYE1Ejg
+ u5fHe_G.bLfCP2ZE7EJKGcQJH7t9JP23xPRi0YCQ3lx3FBDnL8WW79547L1sCWbJhvItvL07TUq1
+ MNcyw18hVV5rktS6HLCAd6Q1W7QrVVMn5G.vbF7tEF6exr5peFjWykZ_AyIVQCtoF5bA.9NS5hmk
+ TJ.DxyrYmI_KW0fv.yKs4o0HXBpkmnt3OXQj7RsTAtkELpbLuyGp.DU1B9Q3ogODV6qCvXA7uTrk
+ KA7gFQ3Z3C9mdz5Gx6U2HHTmIoA9Yr5YcDrHjsaJmzQ_Q.xufqt5zVS75FUWjH.HlFJMRSfUtJLM
+ VhVqc_ewW.XVkWuggXmfgbrxaaGpvh6kqYAYzbwv2WIF_T.T2SAt84iUb2ypcwj_jW90aRGazaY1
+ NiwH4bTNOrf4NZ5iq0nlVVTHQN_KF9q6vRILoctXBX9v9KpbHGBkowKNvRLqhz5tLEYFKj2gDTd2
+ taXhe8Bp0tAnEq6fWBg5Fwx8S5K8J0_EBHM6zwAhW5_6ecszLyNGQax24Y65RLJ5nwvYG1yGcIvM
+ fCwz2z8SQh839NH7gUZOJ6ybKre5rAFovFynYb4hw4Fs6I8R4Y1y9L.ASzj53pEQdLNpB3LNa3jj
+ GEPVIiNs5UB5NgpD2pLjSue3W2jbzBfr1T51DS4FsqA2.edwvC002VDpZYo7HHl.xmTUwoI2wEKc
+ OhD0.u6jEUDrhzV84EVzwBBJDIDeOE_6lfyLB8CoXY3OIU_OBc5EiQpdzTrlpF840uT0_Kcn3JwN
+ 63zPJhlNwI1WSlY1B7xRccHOjtslOBE92joQOaNxiivAFuCO9Kn.JWa6FudcrJ0QYzN.rxAL1RXH
+ IwxWJ9z2p_.JKEDCF5hxP7hjt2l2D8IcXlkNZRuOlgEO89IBKqftPXTPbdI.85TUa5XwDiPNEGVV
+ LU.8h_wj0CDPA_8Auu9fAEpi_dIDFcvRESB04q5KJ5Vg3pKevH7vEEpQSpx31Geo9sG4Vundh2IG
+ DRkRePZvtNIxXP5MUWCDV.UFreiHuDEZO.vLvz5r_y4PS63vgXDpvatlxP6ocb8KDzrilHOOSMGH
+ FebJCDcjsSBQj30VJFpN5dvNkrfoSsAGjOHwdneO.9JPiKol.ABeJTAr96r.bHe1UN24ETvkvhhz
+ .0pccLkSLlckI3D1P9AuZjbtE.ve3opERfp3fd3ma5EJbY2mvceBStv6q8619zAQFvDGtjbpwQ5H
+ fdrdw661hBAEPN3gxl8zUr5yTi6scFdCSEfjHJDisNQ--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic307.consmr.mail.gq1.yahoo.com with HTTP; Sun, 26 Jun 2022 15:33:08 +0000
+Date: Sun, 26 Jun 2022 15:21:35 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>, 
+	ANGELA 00043govtIdx STUBBS <astubbs@feddirect.com>, 
+	"anthony.lincoln@va.gov" <anthony.lincoln@va.gov>, 
+	"asbpolicy@fdic.gov" <asbpolicy@fdic.gov>, 
+	"assessments@fdic.gov" <assessments@fdic.gov>, 
+	"Assetmarketing@fdic.gov" <assetmarketing@fdic.gov>, 
+	"Depositorservices@fdic.gov" <Depositorservices@fdic.gov>, 
+	"efoia@fdic.gov" <efoia@fdic.gov>, 
+	"judcraig@fdic.gov" <judcraig@fdic.gov>, 
+	Legal Services and Special Contracts Group <LSSCG@FDIC.gov>, 
+	"Williams-Young, LaJuan" <LWilliams-Young@FDIC.gov>, 
+	"MediaRequests@fdic.gov" <MediaRequests@fdic.gov>, 
+	"mgrinnell@fdic.gov" <mgrinnell@fdic.gov>, 
+	MATT LOWE <mlowe@fdic.gov>, 
+	"OCMgmtGrp@fdic.gov" <OCMgmtGrp@fdic.gov>, 
+	"oighotline@fdicoig.gov" <oighotline@fdicoig.gov>, 
+	"publicinfo@fdic.gov" <publicinfo@fdic.gov>, 
+	"realestateforsale@fdic.gov" <realestateforsale@fdic.gov>, 
+	"Regs@fdic.gov" <Regs@fdic.gov>, 
+	FDIC NoReply <shr_fdicsfnoreply@fdic.gov>, 
+	"supervision@fdic.gov" <supervision@fdic.gov>, 
+	"CongressionalLiaison@occ.treas.gov" <CongressionalLiaison@occ.treas.gov>, 
+	"CommunityAffairs@occ.treas.gov" <CommunityAffairs@occ.treas.gov>, 
+	"eoma@occ.treas.gov" <eoma@occ.treas.gov>, 
+	"IMOCC@sec.gov" <IMOCC@sec.gov>, 
+	Allison Siegel <asiegel@mtagservices.com>, 
+	"support@MTAGServices.com" <support@MTAGServices.com>, 
+	"Anthony.bucci@cbp.dhs.gov" <Anthony.bucci@cbp.dhs.gov>, 
+	"CBPINFOCENTER@cbp.dhs.gov" <CBPINFOCENTER@cbp.dhs.gov>, 
+	"CBPMEDIARELATIONS@cbp.dhs.gov" <CBPMEDIARELATIONS@cbp.dhs.gov>, 
+	"BARREDA, CECILIA M" <CECILIA.M.BARREDA@cbp.dhs.gov>, 
+	"GREGORY.L.DAVIS@cbp.dhs.gov" <GREGORY.L.DAVIS@cbp.dhs.gov>, 
+	"BURNS, JAMES E." <JAMES.E.BURNS@cbp.dhs.gov>, 
+	"JASON.A.GIVENS@cbp.dhs.gov" <JASON.A.GIVENS@cbp.dhs.gov>, 
+	"QUINONES, JEFFREY H" <JEFFREY.H.QUINONES@cbp.dhs.gov>, 
+	"MENNELL, JOHN B" <JOHN.B.MENNELL@cbp.dhs.gov>, 
+	"JONATHAN.D.ISETT@CBP.DHS.gov" <JONATHAN.D.ISETT@CBP.DHS.gov>, 
+	"JUSTIN.B.LONG@cbp.dhs.gov" <JUSTIN.B.LONG@cbp.dhs.gov>, 
+	"KRISTOFFER.N.GROGAN@cbp.dhs.gov" <KRISTOFFER.N.GROGAN@cbp.dhs.gov>, 
+	"LAWRENCE.R.PAYNE@cbp.dhs.gov" <LAWRENCE.R.PAYNE@cbp.dhs.gov>, 
+	"michael.niezgoda@cbp.dhs.gov" <michael.niezgoda@cbp.dhs.gov>, 
+	"PETER.CARR@cbp.dhs.gov" <PETER.CARR@cbp.dhs.gov>, 
+	"PAUZA, RICHARD J" <RICHARD.J.PAUZA@CBP.DHS.GOV>, 
+	"roderick.kise@cbp.dhs.gov" <roderick.kise@cbp.dhs.gov>, 
+	"THOMAS.GRESBACK@cbp.dhs.gov" <THOMAS.GRESBACK@cbp.dhs.gov>, 
+	KATHY HOCHUL <governor.hochul@exec.ny.gov>, 
+	"ms60710444266@yahoo.com" <MS60710444266@YAHOO.COM>
+Message-ID: <430978545.396035.1656256895793@mail.yahoo.com>
+In-Reply-To: <45c3df67-82a4-4ab7-817c-6f3ee2fd8d83@yahoo.com>
+References: <e0429271-3993-2eac-af67-06e526583302@yahoo.com> <45c3df67-82a4-4ab7-817c-6f3ee2fd8d83@yahoo.com>
+Subject: Re: Fwd: USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_396034_412111013.1656256895784"
+X-Mailer: WebService/1.1.20370 YahooMailAndroidMobile
+Content-Length: 107683
+
+------=_Part_396034_412111013.1656256895784
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Linked, mostly.
+
+/S/ BO DINCER=20
+=20
+  On Sun, Jun 26, 2022 at 10:32 AM, B D2022<ms60710444266@yahoo.com> wrote:=
+    =20
+also attached
+=20
+++50074=C2=A0=C2=A0=C2=A0 116th & broadway.
+=20
+ =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=
+=A0 =C2=A0=C2=A0=C2=A0 known and communicated as stated prior throughout th=
+ose proceedings in NYSCEF matter 153974/2020=20
+=20
+ -------- Forwarded Message --------=20
+| Subject:  | USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074=
+ ] VIA DHL(S) |
+| Date:  | Sat, 25 Jun 2022 23:58:02 -0500 |
+| From:  | B D2022 <ms60710444266@yahoo.com> |
+| To:  | Stephen O'Connell <sgo2107@columbia.edu>, slaskowitz@ingramllp.com=
+ <slaskowitz@ingramllp.com> |
+
+=20
+=20
+=20
+3 LOCATIONS, FOR CONVENIENCE.
+=20
+BELOW.
+=20
+=20
+
+=20
+=20
+USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ] VIA DHS/CBP
+=20
+=C2=A72. - Principals (a) Whoever commits an offense against the United Sta=
+tes or aids, abets, counsels, commands, induces or procures its commission,=
+ is punishable as a principal. (b) Whoever willfully causes an act to be do=
+ne which if directly performed by him or another would be an offense agains=
+t the United States, is punishable as a principal.
+=20
+=C2=A73. - Accessory after the fact Whoever, knowing that an offense agains=
+t the United States has been committed, receives, relieves, comforts or ass=
+ists the offender in order to hinder or prevent his apprehension, trial or =
+punishment, is an accessory after the fact. Except as otherwise expressly p=
+rovided by any Act of Congress, an accessory after the fact shall be impris=
+oned not more than one-half the maximum term of imprisonment or (notwithsta=
+nding section 3571) fined not more than one-half the maximum fine prescribe=
+d for the punishment of the principal, or both; or if the principal is puni=
+shable by life imprisonment or death, the accessory shall be imprisoned not=
+ more than 15 years.
+=20
+=C2=A74. Misprision of felony Whoever, having knowledge of the actual commi=
+ssion of a felony cognizable by a court of the United States, conceals and =
+does not as soon as possible make known the same to some judge or other per=
+son in civil or military authority under the United States, shall be fined =
+under this title or imprisoned not more than three years, or both.
+=20
+Filing User Shari Laskowitz |=C2=A0slaskowitz@ingramllp.com=C2=A0| 21290796=
+00
+=20
+150 East 42nd Street 19th Floor, New York, NY 10017 Filed: 07/21/2020
+=20
+[NYSCEF INDEX NO. 153974/2020]=C2=A0https://iapps.courts.state.ny.us/nyscef=
+/ViewDocument?docIndex=3DE0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D
+=20
+ VIOLATION OF PRIVACY AND BREACH OF DUTIES
+=20
+*** Filed: 07/21/2020=C2=A0https://iapps.courts.state.ny.us/nyscef/Confirma=
+tionNotice?docId=3DE0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D
+=20
+ NO CERTIFICATE OF OCCUPANCY IN AUGUST, 2020
+=20
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020 --- =
+NYSCEF DOC. NO. 230 --- RECEIVED NYSCEF: 08/04/2020=C2=A0https://iapps.cour=
+ts.state.ny.us/nyscef/ViewDocument?docIndex=3DAgwH2omenQPCvT0OYOE3Rg=3D=3D
+=20
+ PROCESSED
+=20
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=3DSVnk_PLUS_=
+wwn_PLUS_akZLr2HagUrng=3D=3D&ret=3DD&docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=
+=3D
+=20
+=20
+=20
+Please keep this notice=C2=A0https://iapps.courts.state.ny.us/nyscef/Confir=
+mationNotice?docId=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D=C2=A0CONFIRMATION -- PROC=
+ESSED The NYSCEF website has received an electronic filing on 08/04/2020 02=
+:32 PM.
+=20
+=20
+ BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES. ASHLEY.=
+HUMPHRIES@WILSONELSER.COM=20
+ FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM
+=20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxBYJ69pjIuD=
+xBegralE8Uw=3D=3D
+=20
+NYSCEF DOC. NO. 225 RECEIVED NYSCEF: 08/04/2020=C2=A0https://iapps.courts.s=
+tate.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D
+=20
+ FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020
+=20
+RECEIVED NYSCEF: 08/04/2020
+=20
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTBei=
+pcESQfFiwVQ=3D
+=20
+E-mail Notifications An email regarding this filing has been sent to the fo=
+llowing on 08/04/2020 02:32 PM: SHARI LASKOWITZ -=C2=A0slaskowitz@ingramllp=
+.com
+=20
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001 2=
+50 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(S) 3=
+, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion #001 2=
+55 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHIBIT(S) 8=
+, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Motion #001 2=
+61 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 EXHIBIT(S) 4=
+, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6, Motion #001 2=
+66 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 268 EXHIBIT(S) 9=
+, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(S) 11, Motion #001=
+ 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Motion #001 273 EXHIBIT(=
+S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275 EXHIBIT(S) 16, Motion=
+ #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S) 18, Motion #001 278 EXH=
+IBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion #001 280 EXHIBIT(S) 21, M=
+otion #001 281 EXHIBIT(S) 22, Motion #001 282 EXHIBIT(S) 23, Motion #001 28=
+3 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 25, Motion #001 285 EXHIBIT(S) =
+26, Motion #001 286 EXHIBIT(S) 27, Motion #001 287 EXHIBIT(S) 28, Motion #0=
+01 288 EXHIBIT(S) 29, Motion #001 289 EXHIBIT(S) 30, Motion #001 290 EXHIBI=
+T(S) 31, Motion #001 291 EXHIBIT(S) 32, Motion #001 292 EXHIBIT(S) 33, Moti=
+on #001 293 EXHIBIT(S) 34, Motion #001 294 EXHIBIT(S) 35, Motion #001
+=20
+Filing User Shari Laskowitz |=C2=A0slaskowitz@ingramllp.com=C2=A0| 21290796=
+00 150 East 42nd Street 19th Floor, New York, NY 10017
+=20
+Hon. Milton A. Tingling, New York County Clerk and Clerk of the Supreme Cou=
+rt NYSCEF Resource Center,=C2=A0nyscef@nycourts.gov=C2=A0Phone: 646-386-595=
+6 Website:=C2=A0http://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_o=
+perations.shtml
+=20
+Phone: (646) 386-3033 | Fax: (212) 401-9146 | Website:=C2=A0www.nycourts.go=
+v/efile
+ =20
+LOAN DOCKETS, ASSIGNMENT OF LEASES AND RENTS TO STATE FARM IN EXCHANGE FOR =
+$6,000,000.00
+=20
+ [ LOAN DOCKETS FOR 50074 EST ++ ]
+=20
+ [LOCATION 3] @MSKYLINE.COM
+=20
+101 WEST 55TH STREET, NEW YORK, NY, 10019
+=20
+ [LOCATION 2] @WILSONELSER.COM
+=20
+150 EAST 42ND STREET, NEW YORK, NY, 10017
+=20
+ [LOCATION 1] @COLUMBIA.EDU
+=20
+ Lewisohn Hall, 2970 Broadway, 4TH FLOOR -- New York, NY 10027
+=20
+ USC 18.21, UNLAWFUL RENTS AND LEASES TRANSFERRED TO STATE FARM
+=20
+ANNEXED IN THE LOAN DOCKETS AND IN NYSCEF 153974/2020
+=20
+=C2=A721. Stolen or counterfeit nature of property for certain crimes defin=
+ed (a) Wherever in this title it is an element of an offense that- (1) any =
+property was embezzled, robbed, stolen, converted, taken, altered, counterf=
+eited, falsely made, forged, or obliterated; and (2) the defendant knew tha=
+t the property was of such character; -such element may be established by p=
+roof that the defendant, after or as a result of an official representation=
+ as to the nature of the property, believed the property to be embezzled, r=
+obbed, stolen, converted, taken, altered, counterfeited, falsely made, forg=
+ed, or obliterated.
+ =20
+PROPERTY REPORT (see also: Miwa and Teschman) Assignment to Zucker 05/26/20=
+20 Filed: 08/04/2020 Confirmation Notice 307 EXHIBIT(S) - OPP (Motion #001)=
+ Dincer, B. (Pro Hac / Pro Se) Processed PLAINTIFF DOES NOT HAVE A CERTIFIC=
+ATE OF OCCUPANCY FOR THIS PROPERTY Filed: 08/09/2020 Confirmation Notice=C2=
+=A0https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3=
+Mt2U6UigWCM9XQ=3D=3D=C2=A0Received: 08/09/2020 308 EXHIBIT(S) - 503 (Motion=
+ #001) Dincer, B. (Pro Hac / Pro Se) Processed TAX MAP BLOCK 503 - LOT 8 [G=
+IS.NYC.GOV] Filed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D=C2=
+=A0Received: 08/09/2020 309 EXHIBIT(S) - no1 (Motion #001) Dincer, B. (Pro =
+Hac / Pro Se) Processed PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH Fil=
+ed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D=C2=A0Received: 08=
+/09/2020 310 EXHIBIT(S) - AC0 (Motion #001) Dincer, B. (Pro Hac / Pro Se) P=
+rocessed ACRIS Detailed Document Information (2019000021408)201901080047500=
+1 Filed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D=C2=A0Receive=
+d: 08/09/2020 311 EXHIBIT(S) - AC1 (Motion #001) Dincer, B. (Pro Hac / Pro =
+Se) Processed ACRIS Detailed Document Information (2020000155422)2020052000=
+291003 Filed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.courts.stat=
+e.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D=C2=A0Re=
+ceived: 08/09/2020 312 EXHIBIT(S) - AC2 (Motion #001) Dincer, B. (Pro Hac /=
+ Pro Se) Processed ACRIS Detailed Document Information (2020000155421)20200=
+52000291002 Filed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D=C2=
+=A0Received: 08/09/2020 313 EXHIBIT(S) - AC3 (Motion #001) Dincer, B. (Pro =
+Hac / Pro Se) Processed ACRIS Detailed Document Information (2020000155422)=
+2020052000291003 Filed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bd=
+g=3D=3D=C2=A0Received: 08/09/2020 314 EXHIBIT(S) - AC4 (Motion #001) Dincer=
+, B. (Pro Hac / Pro Se) Processed ACRIS Detailed Document Information (2020=
+000155423)2020052000291004 Filed: 08/09/2020 Confirmation Notice=C2=A0https=
+://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF=
+/MOn4g=3D=3D=C2=A0Received: 08/09/2020 315 EXHIBIT(S) - ACR (Motion #002) D=
+incer, B. (Pro Hac / Pro Se) Processed ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE=
+ AND RENTS ON FILED ON MAY 26TH -=C2=A0https://a836-acris.nyc.gov/=C2=A0Fil=
+ed: 08/09/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D=C2=A0Received: 08=
+/09/2020 316 EXHIBIT(S) - Bu0 Dincer, B. (Pro Hac / Pro Se) Processed COMPL=
+AINT #14585819 (7/25/2020) @BBB Filed: 08/09/2020 Confirmation Notice=C2=A0=
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVfWO=
+LjSXhyJZ94A=3D=3D=C2=A0Received: 08/09/2020
+=20
+ CERTIFICATES OF OCCUPANCY AT ALL RELEVANT TIMES. FOR THE LOAN 50074 (ALSO =
+FILED IN NYSCEF 153974/2020)
+=20
+230 EXHIBIT(S) - COr Dincer, B. (Pro Hac / Pro Se) Processed CERTIFICATE OF=
+ OCCUPANCY FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YORK 10012 Filed: 08=
+/04/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.us/nyscef/V=
+iewDocument?docIndex=3DJjKiWNUTBeipcESQfFiwVQ=3D=3D=C2=A0Received: 08/04/20=
+20 231 EXHIBIT(S) - COf Dincer, B. (Pro Hac / Pro Se) Processed CERTIFICATE=
+ OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW YORK, NEW YORK 10012 Filed: 08/0=
+4/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.us/nyscef/Vie=
+wDocument?docIndex=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D=C2=A0Received: 08/04=
+/2020 232 EXHIBIT(S) - MEW (Motion #002) Dincer, B. (Pro Hac / Pro Se) Proc=
+essed Miwako Messer (AFFIDAVIT) IS REPORTED AS A 25 YEAR AFFILIATE OF THE P=
+LAINTIFF Filed: 08/04/2020 Confirmation Notice=C2=A0https://iapps.courts.st=
+ate.ny.us/nyscef/ViewDocument?docIndex=3D72GIYXnN1f/CSjCYtDxKUw=3D=3D=C2=A0=
+Received: 08/04/2020
+=20
+233 EXHIBIT(S) - MW1 (Motion #001) Dincer, B. (Pro Hac / Pro Se) Processed =
+Affidavit of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED Filed:=
+ 08/04/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.us/nysce=
+f/ViewDocument?docIndex=3DG5D0bfOIy4SeSXS47aSWbw=3D=3D=C2=A0Received: 08/04=
+/2020 234 EXHIBIT(S) - VER Dincer, B. (Pro Hac / Pro Se) Processed NO COMPL=
+AINTS HAVE BEEN FILED IN MY BUILDING - PER DEPARTMENT OF BUILDINGS RECORDS.=
+ Filed: 08/04/2020 Confirmation Notice=C2=A0https://iapps.courts.state.ny.u=
+s/nyscef/ViewDocument?docIndex=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D=C2=A0Rec=
+eived: 08/04/2020 235 EXHIBIT(S) - 804 (Motion #002) Dincer, B. (Pro Hac / =
+Pro Se) Processed property report (see also: Miwa and Teschman) Assignment =
+to Zucker 0526 Filed: 08/04/2020 Confirmation Notice=C2=A0https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDocument?docIndex=3DOioy2FAQ_PLUS_uuEatGhmc4JnA=
+=3D=3D=C2=A0Received: 08/04/2020
+ [Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA.=
+EDU CONFIRMED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WI=
+LSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZINGRAMLL=
+P.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip)=20
+ FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.
+=20
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae387c=
+c=C2=A0*** *** *** Your fax (ID: #31316917) to VARIOUS at 212-401-9146 has =
+been delivered successfully at 12:12 AM Eastern Daylight Time on June 26th,=
+ 2022 [ 50074 EAST ++ ]
+=20
+The content of your fax included 1 page of coversheet with your text and 3 =
+pages of attached documents.
+=20
+Be sure to follow up with the recipient to make sure that the fax is legibl=
+e and is delivered to the right person in the office. Thank you for using F=
+axZero.com
+=20
+ CASE FILE INFORMATION DISTRIBUTED - BY AND BETWEEN ALL RELEVANT PARTIES
+=20
+*** FDIC-01413744, LOCATION 1
+=20
+FILE 1:=C2=A0_30--FDIC-01413744 [ 50074 EST ++ ].pdf
+=20
+FILE 2:=C2=A0_30--FDIC-01413744 [ 50074 EST ++ ] 999.pdf
+=20
+FILE 3:=C2=A0_30--FDIC-01413744 [ 50074 EST ++ ] 999-3.pdf
+=20
+FILE 4:=C2=A0_30--FDIC-01413744 [ 50074 EST ++ ] 999-12.pdf
+=20
+FILE 5:=C2=A0_30--FDIC-01413744 [ 50074 EST ++ ] 999-76.pdf
+=20
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020 NYSC=
+EF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020=C2=A0https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D
+=20
+[MULE] FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM INDEX NO. 153974/20=
+20 NYSCEF DOC. NO. 287 RECEIVED NYSCEF: 08/04/2020 Sent: Sunday, July 19, 2=
+020 5:49 PM=C2=A0https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D
+ =20
+ Consumer Response Unit ( THANK YOU VERY MUCH FOR YOUR ASSISTANCE)
+=20
+** National Center for Consumer and Depositor Assistance ** Federal Deposit=
+ Insurance Corporation
+=20
+ USC 18. =C2=A7208. Acts affecting a personal financial interest
+=20
+ (a) Except as permitted by subsection (b) hereof, whoever, being an office=
+r or employee of the executive branch of the United States Government, or o=
+f any independent agency of the United States, a Federal Reserve bank direc=
+tor, officer, or employee, or an officer or employee of the District of Col=
+umbia, including a special Government employee, participates personally and=
+ substantially as a Government officer or employee, through decision, appro=
+val, disapproval, recommendation, the rendering of advice, investigation, o=
+r otherwise, in a judicial or other proceeding, application, request for a =
+ruling or other determination, contract, claim, controversy, charge, accusa=
+tion, arrest, or other particular matter in which, to his knowledge, he, hi=
+s spouse, minor child, general partner, organization in which he is serving=
+ as officer, director, trustee, general partner or employee, or any person =
+or organization with whom he is negotiating or has any arrangement concerni=
+ng prospective employment, has a financial interest-Shall be subject to the=
+ penalties set forth in section 216 of this title. (b) Subsection (a) shall=
+ not apply- (1) if the officer or employee first advises the Government off=
+icial responsible for appointment to his or her position of the nature and =
+circumstances of the judicial or other proceeding, application, request for=
+ a ruling or other determination, contract, claim, controversy, charge, acc=
+usation, arrest, or other particular matter and makes full disclosure of th=
+e financial interest and receives in advance a written determination made b=
+y such official that the interest is not so substantial as to be deemed lik=
+ely to affect the integrity of the services which the Government may expect=
+ from such officer or employee; (2) if, by regulation issued by the Directo=
+r of the Office of Government Ethics, applicable to all or a portion of all=
+ officers and employees covered by this section, and published in the Feder=
+al Register, the financial interest has been exempted from the requirements=
+ of subsection (a) as being too remote or too inconsequential to affect the=
+ integrity of the services of the Government officers or employees to which=
+ such regulation applies; (3) in the case of a special Government employee =
+serving on an advisory committee within the meaning of the Federal Advisory=
+ Committee Act (including an individual being considered for an appointment=
+ to such a position), the official responsible for the employee's appointme=
+nt, after review of the financial disclosure report filed by the individual=
+ pursuant to the Ethics in Government Act of 1978, certifies in writing tha=
+t the need for the individual's services outweighs the potential for a conf=
+lict of interest created by the financial interest involved...
+=20
+ ALL FILES FOLLOWED THE FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DENIED=
+.
+ =20
+COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED] EX-POST IN 2021-- =
+*** E-mail Notifications *** An email regarding this filing has been sent t=
+o the following on 08/09/2020 02:31 AM:
+=20
+ SHARI LASKOWITZ -=C2=A0slaskowitz@ingramllp.com=C2=A0[ MULE ]
+ =20
+*** [ MULE ] ***=C2=A0ADMINISTRATION@MSKYLINE.COM;=C2=A0LZUCKER@MSKYLINE.CO=
+M;=C2=A0ADMINISTRATOR@MSKYLINE.COM;=C2=A0LEGAL@MSKYLINE.COM;=C2=A0LEGALASST=
+@MSKYLINE.COM;=C2=A0SGO@COLUMBIA.EDU;=C2=A0SCCS@COLUMBIA.EDU... [ LOCATION =
+1 - FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOMAINS
+=20
+[LOCATION 3] @MSKYLINE.COM [LOCATION 2] @WILSONELSER.COM, @INGRAMLLP.COM [L=
+OCATION 1] @COLUMBIA.EDU
+   =20
+
+------=_Part_396034_412111013.1656256895784
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Linked, mostly.<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</d=
+iv> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-fami=
+ly:Roboto, sans-serif; color:#6D00F6;"> <div>On Sun, Jun 26, 2022 at 10:32 =
+AM, B D2022</div><div>&lt;ms60710444266@yahoo.com&gt; wrote:</div> </div> <=
+div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px s=
+olid #6D00F6;"> <div id=3D"yiv0584450080">
+ =20
+
+   =20
+ =20
+  <div>
+    <p><font color=3D"#0080ff">also attached</font></p>
+    <p><font color=3D"#0080ff">++50074&nbsp;&nbsp;&nbsp; 116th &amp; broadw=
+ay.<br>
+      </font></p>
+    <div class=3D"yiv0584450080moz-forward-container"><font color=3D"#0080f=
+f"><b>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; known an=
+d communicated as stated prior throughout
+          those proceedings in NYSCEF matter 153974/2020</b></font></div>
+    <div class=3D"yiv0584450080moz-forward-container"><b></b><br>
+      <br>
+      -------- Forwarded Message --------
+      <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"yiv0=
+584450080moz-email-headers-table">
+        <tbody>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">Subject:
+            </th>
+            <td>USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN
+              50074 ] VIA DHL(S)</td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">Date: </th>
+            <td>Sat, 25 Jun 2022 23:58:02 -0500</td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">From: </th>
+            <td>B D2022 <a rel=3D"nofollow noopener noreferrer" ymailto=3D"=
+mailto:ms60710444266@yahoo.com" target=3D"_blank" href=3D"mailto:ms60710444=
+266@yahoo.com" class=3D"yiv0584450080moz-txt-link-rfc2396E">&lt;ms607104442=
+66@yahoo.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign=3D"BASELINE" nowrap=3D"" align=3D"RIGHT">To: </th>
+            <td><font color=3D"#ff80ff">Stephen O'Connell
+                <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:s=
+go2107@columbia.edu" target=3D"_blank" href=3D"mailto:sgo2107@columbia.edu"=
+ class=3D"yiv0584450080moz-txt-link-rfc2396E">&lt;sgo2107@columbia.edu&gt;<=
+/a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:slaskowitz@i=
+ngramllp.com" target=3D"_blank" href=3D"mailto:slaskowitz@ingramllp.com" cl=
+ass=3D"yiv0584450080moz-txt-link-abbreviated">slaskowitz@ingramllp.com</a>
+                <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:s=
+laskowitz@ingramllp.com" target=3D"_blank" href=3D"mailto:slaskowitz@ingram=
+llp.com" class=3D"yiv0584450080moz-txt-link-rfc2396E">&lt;slaskowitz@ingram=
+llp.com&gt;</a></font></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+     =20
+      <p>3 LOCATIONS, FOR CONVENIENCE.</p>
+      <p>BELOW.<br>
+      </p>
+      <p><font size=3D"2"><font face=3D"Helvetica, Arial, sans-serif"><br>
+          </font></font></p>
+      <h2 style=3D"margin-top:0px !important;margin-bottom:16px;font-size:1=
+.5em;font-weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1p=
+x solid;color:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont=
+, Helvetica, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255, 255);text-decoration-s=
+tyle:initial;text-decoration-color:initial;">USC 18. VIOLATIONS ANNEXED IN =
+NYSCEF 153974/2020 [
+        LOAN 50074 ] VIA DHS/CBP</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">=C2=A72. - Principals (=
+a)
+        Whoever commits an offense against the United States or aids,
+        abets, counsels, commands, induces or procures its commission,
+        is punishable as a principal. (b) Whoever willfully causes an
+        act to be done which if directly performed by him or another
+        would be an offense against the United States, is punishable as
+        a principal.</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">=C2=A73. - Accessory af=
+ter
+        the fact Whoever, knowing that an offense against the United
+        States has been committed, receives, relieves, comforts or
+        assists the offender in order to hinder or prevent his
+        apprehension, trial or punishment, is an accessory after the
+        fact. Except as otherwise expressly provided by any Act of
+        Congress, an accessory after the fact shall be imprisoned not
+        more than one-half the maximum term of imprisonment or
+        (notwithstanding section 3571) fined not more than one-half the
+        maximum fine prescribed for the punishment of the principal, or
+        both; or if the principal is punishable by life imprisonment or
+        death, the accessory shall be imprisoned not more than 15 years.</p=
+>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">=C2=A74. Misprision of
+        felony Whoever, having knowledge of the actual commission of a
+        felony cognizable by a court of the United States, conceals and
+        does not as soon as possible make known the same to some judge
+        or other person in civil or military authority under the United
+        States, shall be fined under this title or imprisoned not more
+        than three years, or both.</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">Filing User Shari
+        Laskowitz |<span>&nbsp;</span><a rel=3D"nofollow noopener noreferre=
+r" ymailto=3D"mailto:slaskowitz@ingramllp.com" target=3D"_blank" href=3D"ma=
+ilto:slaskowitz@ingramllp.com" style=3D"background-color:transparent;text-d=
+ecoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, bac=
+kground-color,;" class=3D"yiv0584450080moz-txt-link-freetext">slaskowitz@in=
+gramllp.com</a><span>&nbsp;</span>|
+        2129079600</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">150 East 42nd Street
+        19th Floor, New York, NY 10017 Filed: 07/21/2020</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">[NYSCEF INDEX NO.
+        153974/2020]<span>&nbsp;</span><a rel=3D"nofollow noopener noreferr=
+er" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3DE0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D" style=3D"background-c=
+olor:transparent;text-decoration:none;transition:color 80ms cubic-bezier(0.=
+33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-=
+freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DE=
+0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D</a></p>
+      <h1 style=3D"font-size:2em;margin:24px 0px 16px;font-weight:600;line-=
+height:1.25;padding-bottom:0.3em;border-bottom:1px solid;color:rgb(36, 41, =
+47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-s=
+erif, Color UI;font-style:normal;letter-spacing:normal;orphans:2;text-inden=
+t:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;back=
+ground-color:rgb(255, 255, 255);text-decoration-style:initial;text-decorati=
+on-color:initial;"><a rel=3D"nofollow noopener noreferrer" id=3D"yiv0584450=
+080user-content-violation-of-privacy-and-breach-of-duties" target=3D"_blank=
+" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-=
+ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#violation-of-privacy-an=
+d-breach-of-duties" style=3D"background-color:transparent;text-decoration:n=
+one;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-col=
+or,;float:left;padding-right:4px;line-height:1;" class=3D"yiv0584450080anch=
+or"></a> VIOLATION OF PRIVACY AND
+        BREACH OF DUTIES</h1>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">*** Filed: 07/21/2020<s=
+pan>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" =
+href=3D"https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3D=
+E0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D" style=3D"background-color:transparent;te=
+xt-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s,=
+ background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">https://i=
+apps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DE0CKxALt/dD_PLUS_=
+Wk3Z8vuaXQ=3D=3D</a></p>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-no-certificate-of-occupancy-in-august-2020"=
+ target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIV=
+AN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#no-cer=
+tificate-of-occupancy-in-august-2020" style=3D"background-color:transparent=
+;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) =
+0s, background-color,;float:left;padding-right:4px;line-height:1;" class=3D=
+"yiv0584450080anchor"></a> NO CERTIFICATE OF
+        OCCUPANCY IN AUGUST, 2020</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILED: NEW YORK COUNTY
+        CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020 --- NYSCEF DOC.
+        NO. 230 --- RECEIVED NYSCEF: 08/04/2020<span>&nbsp;</span><a rel=3D=
+"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.cour=
+ts.state.ny.us/nyscef/ViewDocument?docIndex=3DAgwH2omenQPCvT0OYOE3Rg=3D=3D"=
+ style=3D"background-color:transparent;text-decoration:none;transition:colo=
+r 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0=
+584450080moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/Vie=
+wDocument?docIndex=3DAgwH2omenQPCvT0OYOE3Rg=3D=3D</a></p>
+      <h1 style=3D"font-size:2em;margin:24px 0px 16px;font-weight:600;line-=
+height:1.25;padding-bottom:0.3em;border-bottom:1px solid;color:rgb(36, 41, =
+47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-s=
+erif, Color UI;font-style:normal;letter-spacing:normal;orphans:2;text-inden=
+t:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;back=
+ground-color:rgb(255, 255, 255);text-decoration-style:initial;text-decorati=
+on-color:initial;"><a rel=3D"nofollow noopener noreferrer" id=3D"yiv0584450=
+080user-content-processed" target=3D"_blank" href=3D"https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/=
+blob/main/README.md#processed" style=3D"background-color:transparent;text-d=
+ecoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, bac=
+kground-color,;float:left;padding-right:4px;line-height:1;" class=3D"yiv058=
+4450080anchor"></a> PROCESSED</h1>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;"><a rel=3D"nofollow noop=
+ener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us=
+/nyscef/FilingUserInfo?filerId=3DSVnk_PLUS_wwn_PLUS_akZLr2HagUrng=3D=3D&amp=
+;ret=3DD&amp;docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=3D" style=3D"background-c=
+olor:transparent;text-decoration:none;transition:color 80ms cubic-bezier(0.=
+33, 1, 0.68, 1) 0s, background-color,;">https://iapps.courts.state.ny.us/ny=
+scef/FilingUserInfo?filerId=3DSVnk_PLUS_wwn_PLUS_akZLr2HagUrng=3D=3D&amp;re=
+t=3DD&amp;docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=3D</a></p>
+      <blockquote style=3D"margin:0px 0px 16px;padding:0px 1em;border-left:=
+0.25em solid;font-family:-apple-system, BlinkMacSystemFont, Helvetica, Aria=
+l, sans-serif, Color UI;font-size:16px;font-style:normal;font-weight:400;le=
+tter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-spa=
+ce:normal;widows:2;word-spacing:0px;background-color:rgb(255, 255,        2=
+55);text-decoration-style:initial;text-decoration-color:initial;">
+        <blockquote style=3D"margin:0px;padding:0px 1em;border-left:0.25em =
+solid;">
+          <p style=3D"margin-top:0px;margin-bottom:0px;">Please keep this n=
+otice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" target=3D"_=
+blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?d=
+ocId=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D" style=3D"background-color:transparent;=
+text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0=
+s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">https:/=
+/iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DUZsCx4RNLy/6V9g=
+f1BkpTQ=3D=3D</a><span>&nbsp;</span>CONFIRMATION
+            -- PROCESSED The NYSCEF website has received an electronic
+            filing on 08/04/2020 02:32 PM.</p>
+        </blockquote>
+      </blockquote>
+      <span style=3D"color:rgb(36, 41, 47);font-family:-apple-system, Blink=
+MacSystemFont, Helvetica, Arial, sans-serif, Color UI;font-size:16px;font-s=
+tyle:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px=
+;text-transform:none;white-space:normal;widows:2;word-spacing:0px;backgroun=
+d-color:rgb(255, 255,        255);text-decoration-style:initial;text-decora=
+tion-color:initial;display:inline !important;float:none;">BY AND BETWEEN TH=
+E WILSON ELSER LAW
+        FIRM, AND ITS REPRESENTATIVES. <a rel=3D"nofollow noopener noreferr=
+er" ymailto=3D"mailto:ASHLEY.HUMPHRIES@WILSONELSER.COM" target=3D"_blank" h=
+ref=3D"mailto:ASHLEY.HUMPHRIES@WILSONELSER.COM" class=3D"yiv0584450080moz-t=
+xt-link-abbreviated yiv0584450080moz-txt-link-freetext">ASHLEY.HUMPHRIES@WI=
+LSONELSER.COM</a></span>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-filed-new-york-county-clerk-08042020-0232-p=
+m" target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULL=
+IVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#file=
+d-new-york-county-clerk-08042020-0232-pm" style=3D"background-color:transpa=
+rent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68,=
+ 1) 0s, background-color,;float:left;padding-right:4px;line-height:1;" clas=
+s=3D"yiv0584450080anchor"></a> FILED: NEW YORK COUNTY
+        CLERK 08/04/2020 02:32 PM</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;"><a rel=3D"nofollow noop=
+ener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3DxBYJ69pjIuDxBegralE8Uw=3D=3D" style=3D"back=
+ground-color:transparent;text-decoration:none;transition:color 80ms cubic-b=
+ezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-t=
+xt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI=
+ndex=3DxBYJ69pjIuDxBegralE8Uw=3D=3D</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">NYSCEF DOC. NO. 225
+        RECEIVED NYSCEF: 08/04/2020<span>&nbsp;</span><a rel=3D"nofollow no=
+opener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D" style=3D"ba=
+ckground-color:transparent;text-decoration:none;transition:color 80ms cubic=
+-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz=
+-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D</a></p>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-filed-new-york-county-clerk-08042020-0910-a=
+m-index-no-1539742020" target=3D"_blank" href=3D"https://github.com/WILSON-=
+ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob=
+/main/README.md#filed-new-york-county-clerk-08042020-0910-am-index-no-15397=
+42020" style=3D"background-color:transparent;text-decoration:none;transitio=
+n:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:lef=
+t;padding-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> FILE=
+D: NEW YORK COUNTY
+        CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">RECEIVED NYSCEF:
+        08/04/2020</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;"><a rel=3D"nofollow noop=
+ener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3DJjKiWNUTBeipcESQfFiwVQ=3D" style=3D"backgro=
+und-color:transparent;text-decoration:none;transition:color 80ms cubic-bezi=
+er(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-=
+link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInde=
+x=3DJjKiWNUTBeipcESQfFiwVQ=3D</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">E-mail Notifications
+        An email regarding this filing has been sent to the following on
+        08/04/2020 02:32 PM: SHARI LASKOWITZ -<span>&nbsp;</span><a rel=3D"=
+nofollow noopener noreferrer" ymailto=3D"mailto:slaskowitz@ingramllp.com" t=
+arget=3D"_blank" href=3D"mailto:slaskowitz@ingramllp.com" style=3D"backgrou=
+nd-color:transparent;text-decoration:none;transition:color 80ms cubic-bezie=
+r(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-l=
+ink-freetext">slaskowitz@ingramllp.com</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">249 AFFIDAVIT OR
+        AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001 250
+        EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252
+        EXHIBIT(S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254
+        EXHIBIT(S) 5, Motion #001 255 EXHIBIT(S) 6, Motion #001 256
+        EXHIBIT(S) 7, Motion #001 257 EXHIBIT(S) 8, Motion #001 258
+        EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Motion #001 261
+        EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263
+        EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265
+        EXHIBIT(S) 6, Motion #001 266 EXHIBIT(S) 7, Motion #001 267
+        EXHIBIT(S) 8, Motion #001 268 EXHIBIT(S) 9, Motion #001 269
+        EXHIBIT(S) 10, Motion #001 270 EXHIBIT(S) 11, Motion #001 271
+        EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Motion #001 273
+        EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275
+        EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277
+        EXHIBIT(S) 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279
+        EXHIBIT(S) 20, Motion #001 280 EXHIBIT(S) 21, Motion #001 281
+        EXHIBIT(S) 22, Motion #001 282 EXHIBIT(S) 23, Motion #001 283
+        EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 25, Motion #001 285
+        EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #001 287
+        EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289
+        EXHIBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291
+        EXHIBIT(S) 32, Motion #001 292 EXHIBIT(S) 33, Motion #001 293
+        EXHIBIT(S) 34, Motion #001 294 EXHIBIT(S) 35, Motion #001</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">Filing User Shari
+        Laskowitz |<span>&nbsp;</span><a rel=3D"nofollow noopener noreferre=
+r" ymailto=3D"mailto:slaskowitz@ingramllp.com" target=3D"_blank" href=3D"ma=
+ilto:slaskowitz@ingramllp.com" style=3D"background-color:transparent;text-d=
+ecoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, bac=
+kground-color,;" class=3D"yiv0584450080moz-txt-link-freetext">slaskowitz@in=
+gramllp.com</a><span>&nbsp;</span>|
+        2129079600 150 East 42nd Street 19th Floor, New York, NY 10017</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">Hon. Milton A.
+        Tingling, New York County Clerk and Clerk of the Supreme Court
+        NYSCEF Resource Center,<span>&nbsp;</span><a rel=3D"nofollow noopen=
+er noreferrer" ymailto=3D"mailto:nyscef@nycourts.gov" target=3D"_blank" hre=
+f=3D"mailto:nyscef@nycourts.gov" style=3D"background-color:transparent;text=
+-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, b=
+ackground-color,;" class=3D"yiv0584450080moz-txt-link-freetext">nyscef@nyco=
+urts.gov</a><span>&nbsp;</span>Phone:
+        646-386-5956 Website:<span>&nbsp;</span><a rel=3D"nofollow noopener=
+ noreferrer" target=3D"_blank" href=3D"http://www.nycourts.gov/courts/1jd/s=
+upctmanh/county_clerk_operations.shtml" style=3D"background-color:transpare=
+nt;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1=
+) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">http=
+://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_operations.shtml</a><=
+/p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">Phone: (646) 386-3033
+        | Fax: (212) 401-9146 | Website:<span>&nbsp;</span><a rel=3D"nofoll=
+ow noopener noreferrer" target=3D"_blank" href=3D"http://www.nycourts.gov/e=
+file" style=3D"background-color:transparent;text-decoration:none;transition=
+:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;">www.nyco=
+urts.gov/efile</a></p>
+      <hr style=3D"min-height:0.25em;overflow:hidden;margin:24px 0px;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-attachment:initial;border:0px;padding:0px;=
+color:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvet=
+ica, Arial, sans-serif, Color UI;font-size:16px;font-style:normal;font-weig=
+ht:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;=
+white-space:normal;widows:2;word-spacing:0px;text-decoration-style:initial;=
+text-decoration-color:initial;">
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">LOAN DOCKETS,
+        ASSIGNMENT OF LEASES AND RENTS TO STATE FARM IN EXCHANGE FOR
+        $6,000,000.00</p>
+      <h1 style=3D"font-size:2em;margin:24px 0px 16px;font-weight:600;line-=
+height:1.25;padding-bottom:0.3em;border-bottom:1px solid;color:rgb(36, 41, =
+47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-s=
+erif, Color UI;font-style:normal;letter-spacing:normal;orphans:2;text-inden=
+t:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;back=
+ground-color:rgb(255, 255, 255);text-decoration-style:initial;text-decorati=
+on-color:initial;"><a rel=3D"nofollow noopener noreferrer" id=3D"yiv0584450=
+080user-content--loan-dockets-for-50074-est--" target=3D"_blank" href=3D"ht=
+tps://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEF=
+ARM-SULLIVAN-ZUCKER/blob/main/README.md#-loan-dockets-for-50074-est--" styl=
+e=3D"background-color:transparent;text-decoration:none;transition:color 80m=
+s cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;padding-r=
+ight:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> [ LOAN DOCKETS =
+FOR 50074
+        EST ++ ]</h1>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-location-3--mskylinecom" target=3D"_blank" =
+href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#location-3--mskylinecom" =
+style=3D"background-color:transparent;text-decoration:none;transition:color=
+ 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;paddi=
+ng-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> [LOCATION 3=
+]
+        @MSKYLINE.COM</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">101 WEST 55TH STREET,
+        NEW YORK, NY, 10019</p>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-location-2--wilsonelsercom" target=3D"_blan=
+k" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON=
+-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#location-2--wilsonelse=
+rcom" style=3D"background-color:transparent;text-decoration:none;transition=
+:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left=
+;padding-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> [LOCA=
+TION 2]
+        @WILSONELSER.COM</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">150 EAST 42ND STREET,
+        NEW YORK, NY, 10017</p>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-location-1--columbiaedu" target=3D"_blank" =
+href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#location-1--columbiaedu" =
+style=3D"background-color:transparent;text-decoration:none;transition:color=
+ 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;paddi=
+ng-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> [LOCATION 1=
+]
+        @COLUMBIA.EDU</h2>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-lewisohn-hall-2970-broadway-4th-floor---new=
+-york-ny-10027" target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-S=
+TATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/R=
+EADME.md#lewisohn-hall-2970-broadway-4th-floor---new-york-ny-10027" style=
+=3D"background-color:transparent;text-decoration:none;transition:color 80ms=
+ cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;padding-ri=
+ght:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> Lewisohn Hall, 2=
+970
+        Broadway, 4TH FLOOR -- New York, NY 10027</h2>
+      <h3 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.25em;font=
+-weight:600;line-height:1.25;color:rgb(36, 41, 47);font-family:-apple-syste=
+m, BlinkMacSystemFont, Helvetica, Arial, sans-serif, Color UI;font-style:no=
+rmal;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;wh=
+ite-space:normal;widows:2;word-spacing:0px;background-color:rgb(255, 255, 2=
+55);text-decoration-style:initial;text-decoration-color:initial;"><a rel=3D=
+"nofollow noopener noreferrer" id=3D"yiv0584450080user-content-usc-1821-unl=
+awful-rents-and-leases-transferred-to-state-farm" target=3D"_blank" href=3D=
+"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STA=
+TEFARM-SULLIVAN-ZUCKER/blob/main/README.md#usc-1821-unlawful-rents-and-leas=
+es-transferred-to-state-farm" style=3D"background-color:transparent;text-de=
+coration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, back=
+ground-color,;float:left;padding-right:4px;line-height:1;" class=3D"yiv0584=
+450080anchor"></a> USC 18.21, UNLAWFUL RENTS
+        AND LEASES TRANSFERRED TO STATE FARM</h3>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">ANNEXED IN THE LOAN
+        DOCKETS AND IN NYSCEF 153974/2020</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">=C2=A721. Stolen or
+        counterfeit nature of property for certain crimes defined (a)
+        Wherever in this title it is an element of an offense that- (1)
+        any property was embezzled, robbed, stolen, converted, taken,
+        altered, counterfeited, falsely made, forged, or obliterated;
+        and (2) the defendant knew that the property was of such
+        character; -such element may be established by proof that the
+        defendant, after or as a result of an official representation as
+        to the nature of the property, believed the property to be
+        embezzled, robbed, stolen, converted, taken, altered,
+        counterfeited, falsely made, forged, or obliterated.</p>
+      <hr style=3D"min-height:0.25em;overflow:hidden;margin:24px 0px;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-attachment:initial;border:0px;padding:0px;=
+color:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvet=
+ica, Arial, sans-serif, Color UI;font-size:16px;font-style:normal;font-weig=
+ht:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;=
+white-space:normal;widows:2;word-spacing:0px;text-decoration-style:initial;=
+text-decoration-color:initial;">
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">PROPERTY REPORT (see
+        also: Miwa and Teschman) Assignment to Zucker 05/26/2020 Filed:
+        08/04/2020 Confirmation Notice 307 EXHIBIT(S) - OPP (Motion
+        #001) Dincer, B. (Pro Hac / Pro Se) Processed PLAINTIFF DOES NOT
+        HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY Filed:
+        08/09/2020 Confirmation Notice<span>&nbsp;</span><a rel=3D"nofollow=
+ noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3Mt2U6UigWCM9XQ=3D=3D" style=3D=
+"background-color:transparent;text-decoration:none;transition:color 80ms cu=
+bic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080=
+moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DrjL6yoW3Mt2U6UigWCM9XQ=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 308 EXHIBIT(S) - 503 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV]
+        Filed: 08/09/2020 Confirmation Notice<span>&nbsp;</span><a rel=3D"n=
+ofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D" s=
+tyle=3D"background-color:transparent;text-decoration:none;transition:color =
+80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv058=
+4450080moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D</a><span>&nbsp;</span>Recei=
+ved:
+        08/09/2020 309 EXHIBIT(S) - no1 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed PLAINTIFF ASSIGNED LEASES AND RENTS ON
+        MAY 15TH Filed: 08/09/2020 Confirmation Notice<span>&nbsp;</span><a=
+ rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://iap=
+ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=
+=3D=3D" style=3D"background-color:transparent;text-decoration:none;transiti=
+on:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=
+=3D"yiv0584450080moz-txt-link-freetext">https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D</a><span>&nbsp;</=
+span>Received:
+        08/09/2020 310 EXHIBIT(S) - AC0 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed ACRIS Detailed Document Information
+        (2019000021408)2019010800475001 Filed: 08/09/2020 Confirmation
+        Notice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D" style=3D"background-color:transp=
+arent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68=
+, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9akRV=
+9TGfXXJT/g=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 311 EXHIBIT(S) - AC1 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed ACRIS Detailed Document Information
+        (2020000155422)2020052000291003 Filed: 08/09/2020 Confirmation
+        Notice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D" style=3D"background-color:transp=
+arent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68=
+, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3kG=
+wHqebPg0fw=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 312 EXHIBIT(S) - AC2 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed ACRIS Detailed Document Information
+        (2020000155421)2020052000291002 Filed: 08/09/2020 Confirmation
+        Notice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D" style=3D"background-color:transp=
+arent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68=
+, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXux=
+moKqFiESrw=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 313 EXHIBIT(S) - AC3 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed ACRIS Detailed Document Information
+        (2020000155422)2020052000291003 Filed: 08/09/2020 Confirmation
+        Notice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D" style=3D"background-color:t=
+ransparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1,=
+ 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freete=
+xt">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7D=
+n66hrVmJ9DX_PLUS_bdg=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 314 EXHIBIT(S) - AC4 (Motion #001) Dincer, B. (Pro
+        Hac / Pro Se) Processed ACRIS Detailed Document Information
+        (2020000155423)2020052000291004 Filed: 08/09/2020 Confirmation
+        Notice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D" style=3D"background-color:transp=
+arent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68=
+, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BG=
+v2DF/MOn4g=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 315 EXHIBIT(S) - ACR (Motion #002) Dincer, B. (Pro
+        Hac / Pro Se) Processed ACRIS.NYC.GOV &gt;&gt; ASSIGNMENT OF
+        LEASE AND RENTS ON FILED ON MAY 26TH -<span>&nbsp;</span><a rel=3D"=
+nofollow noopener noreferrer" target=3D"_blank" href=3D"https://a836-acris.=
+nyc.gov/" style=3D"background-color:transparent;text-decoration:none;transi=
+tion:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" clas=
+s=3D"yiv0584450080moz-txt-link-freetext">https://a836-acris.nyc.gov/</a><sp=
+an>&nbsp;</span>Filed:
+        08/09/2020 Confirmation Notice<span>&nbsp;</span><a rel=3D"nofollow=
+ noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D" style=3D=
+"background-color:transparent;text-decoration:none;transition:color 80ms cu=
+bic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080=
+moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020 316 EXHIBIT(S) - Bu0 Dincer, B. (Pro Hac / Pro Se)
+        Processed COMPLAINT #14585819 (7/25/2020) @BBB Filed: 08/09/2020
+        Confirmation Notice<span>&nbsp;</span><a rel=3D"nofollow noopener n=
+oreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nysce=
+f/ViewDocument?docIndex=3D7Ry3LAoVfWOLjSXhyJZ94A=3D=3D" style=3D"background=
+-color:transparent;text-decoration:none;transition:color 80ms cubic-bezier(=
+0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-lin=
+k-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3D7Ry3LAoVfWOLjSXhyJZ94A=3D=3D</a><span>&nbsp;</span>Received:
+        08/09/2020</p>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-certificates-of-occupancy-at-all-relevant-t=
+imes-for-the-loan-50074-also-filed-in-nyscef-1539742020" target=3D"_blank" =
+href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#certificates-of-occupancy=
+-at-all-relevant-times-for-the-loan-50074-also-filed-in-nyscef-1539742020" =
+style=3D"background-color:transparent;text-decoration:none;transition:color=
+ 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;paddi=
+ng-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> CERTIFICATE=
+S OF OCCUPANCY
+        AT ALL RELEVANT TIMES. FOR THE LOAN 50074 (ALSO FILED IN NYSCEF
+        153974/2020)</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">230 EXHIBIT(S) - COr
+        Dincer, B. (Pro Hac / Pro Se) Processed CERTIFICATE OF OCCUPANCY
+        FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YORK 10012 Filed:
+        08/04/2020 Confirmation Notice<span>&nbsp;</span><a rel=3D"nofollow=
+ noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTBeipcESQfFiwVQ=3D=3D" style=3D=
+"background-color:transparent;text-decoration:none;transition:color 80ms cu=
+bic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080=
+moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument=
+?docIndex=3DJjKiWNUTBeipcESQfFiwVQ=3D=3D</a><span>&nbsp;</span>Received:
+        08/04/2020 231 EXHIBIT(S) - COf Dincer, B. (Pro Hac / Pro Se)
+        Processed CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW
+        YORK, NEW YORK 10012 Filed: 08/04/2020 Confirmation Notice<span>&nb=
+sp;</span><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D=
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKfn=
+o_PLUS_ol5jFakV9g=3D=3D" style=3D"background-color:transparent;text-decorat=
+ion:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, backgroun=
+d-color,;" class=3D"yiv0584450080moz-txt-link-freetext">https://iapps.court=
+s.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=
+=3D</a><span>&nbsp;</span>Received:
+        08/04/2020 232 EXHIBIT(S) - MEW (Motion #002) Dincer, B. (Pro
+        Hac / Pro Se) Processed Miwako Messer (AFFIDAVIT) IS REPORTED AS
+        A 25 YEAR AFFILIATE OF THE PLAINTIFF Filed: 08/04/2020
+        Confirmation Notice<span>&nbsp;</span><a rel=3D"nofollow noopener n=
+oreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nysce=
+f/ViewDocument?docIndex=3D72GIYXnN1f/CSjCYtDxKUw=3D=3D" style=3D"background=
+-color:transparent;text-decoration:none;transition:color 80ms cubic-bezier(=
+0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-lin=
+k-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3D72GIYXnN1f/CSjCYtDxKUw=3D=3D</a><span>&nbsp;</span>Received:
+        08/04/2020</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">233 EXHIBIT(S) - MW1
+        (Motion #001) Dincer, B. (Pro Hac / Pro Se) Processed Affidavit
+        of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED
+        Filed: 08/04/2020 Confirmation Notice<span>&nbsp;</span><a rel=3D"n=
+ofollow noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DG5D0bfOIy4SeSXS47aSWbw=3D=3D" s=
+tyle=3D"background-color:transparent;text-decoration:none;transition:color =
+80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv058=
+4450080moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3DG5D0bfOIy4SeSXS47aSWbw=3D=3D</a><span>&nbsp;</span>Recei=
+ved:
+        08/04/2020 234 EXHIBIT(S) - VER Dincer, B. (Pro Hac / Pro Se)
+        Processed NO COMPLAINTS HAVE BEEN FILED IN MY BUILDING - PER
+        DEPARTMENT OF BUILDINGS RECORDS. Filed: 08/04/2020 Confirmation
+        Notice<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ta=
+rget=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D" style=3D"background-color:t=
+ransparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1,=
+ 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freete=
+xt">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9s=
+Kfno_PLUS_ol5jFakV9g=3D=3D</a><span>&nbsp;</span>Received:
+        08/04/2020 235 EXHIBIT(S) - 804 (Motion #002) Dincer, B. (Pro
+        Hac / Pro Se) Processed property report (see also: Miwa and
+        Teschman) Assignment to Zucker 0526 Filed: 08/04/2020
+        Confirmation Notice<span>&nbsp;</span><a rel=3D"nofollow noopener n=
+oreferrer" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nysce=
+f/ViewDocument?docIndex=3DOioy2FAQ_PLUS_uuEatGhmc4JnA=3D=3D" style=3D"backg=
+round-color:transparent;text-decoration:none;transition:color 80ms cubic-be=
+zier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-tx=
+t-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3DOioy2FAQ_PLUS_uuEatGhmc4JnA=3D=3D</a><span>&nbsp;</span>Received:
+        08/04/2020</p>
+      <span style=3D"color:rgb(36, 41, 47);font-family:-apple-system, Blink=
+MacSystemFont, Helvetica, Arial, sans-serif, Color UI;font-size:16px;font-s=
+tyle:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px=
+;text-transform:none;white-space:normal;widows:2;word-spacing:0px;backgroun=
+d-color:rgb(255, 255,        255);text-decoration-style:initial;text-decora=
+tion-color:initial;display:inline !important;float:none;">[<a rel=3D"nofoll=
+ow noopener noreferrer" ymailto=3D"mailto:Read:SLASKOWITZINGRAMLLP.COM---WI=
+LSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA.EDU" target=3D"_blank" href=3D"mail=
+to:Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA=
+.EDU" class=3D"yiv0584450080moz-txt-link-abbreviated          yiv0584450080=
+moz-txt-link-freetext">Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER-=
+-SCCS--XXXX@COLUMBIA.EDU</a>
+        CONFIRMED](</span><a rel=3D"nofollow noopener noreferrer" target=3D=
+"_blank" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZINGRAM=
+LLP.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip" sty=
+le=3D"background-color:rgb(255, 255,        255);text-decoration:none;trans=
+ition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;font-=
+family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif, Col=
+or UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:norma=
+l;orphans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2=
+;word-spacing:0px;" class=3D"yiv0584450080moz-txt-link-freetext">https://gi=
+thub.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULL=
+IVAN-ZUCKER/files/8985954/Read-.SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUC=
+KER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip</a><span style=3D"color:rgb(36,=
+ 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, s=
+ans-serif, Color UI;font-size:16px;font-style:normal;font-weight:400;letter=
+-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:n=
+ormal;widows:2;word-spacing:0px;background-color:rgb(255, 255,        255);=
+text-decoration-style:initial;text-decoration-color:initial;display:inline =
+!important;float:none;">)</span>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-faxed-the-prior-msg-to-ny-supreme-courts-ci=
+vil-branch" target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STATE=
+FARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/READM=
+E.md#faxed-the-prior-msg-to-ny-supreme-courts-civil-branch" style=3D"backgr=
+ound-color:transparent;text-decoration:none;transition:color 80ms cubic-bez=
+ier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;padding-right:4px;li=
+ne-height:1;" class=3D"yiv0584450080anchor"></a> FAXED THE PRIOR MSG TO NY
+        SUPREME COURTS, CIVIL BRANCH.</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;"><a rel=3D"nofollow noop=
+ener noreferrer" target=3D"_blank" href=3D"https://faxzero.com/status/31316=
+917/6b34c3ad9620003256df358c638765fc2ae387cc" style=3D"background-color:tra=
+nsparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0=
+.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freetext=
+">https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae38=
+7cc</a><span>&nbsp;</span>***
+        *** *** Your fax (ID: #31316917) to VARIOUS at 212-401-9146 has
+        been delivered successfully at 12:12 AM Eastern Daylight Time on
+        June 26th, 2022 [ 50074 EAST ++ ]</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">The content of your
+        fax included 1 page of coversheet with your text and 3 pages of
+        attached documents.</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">Be sure to follow up
+        with the recipient to make sure that the fax is legible and is
+        delivered to the right person in the office. Thank you for using
+        FaxZero.com</p>
+      <h1 style=3D"font-size:2em;margin:24px 0px 16px;font-weight:600;line-=
+height:1.25;padding-bottom:0.3em;border-bottom:1px solid;color:rgb(36, 41, =
+47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-s=
+erif, Color UI;font-style:normal;letter-spacing:normal;orphans:2;text-inden=
+t:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;back=
+ground-color:rgb(255, 255, 255);text-decoration-style:initial;text-decorati=
+on-color:initial;"><a rel=3D"nofollow noopener noreferrer" id=3D"yiv0584450=
+080user-content-case-file-information-distributed---by-and-between-all-rele=
+vant-parties" target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STA=
+TEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/REA=
+DME.md#case-file-information-distributed---by-and-between-all-relevant-part=
+ies" style=3D"background-color:transparent;text-decoration:none;transition:=
+color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;=
+padding-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> CASE F=
+ILE INFORMATION
+        DISTRIBUTED - BY AND BETWEEN ALL RELEVANT PARTIES</h1>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">*** FDIC-01413744,
+        LOCATION 1</p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILE 1:<span>&nbsp;</sp=
+an><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-=
+SULLIVAN-ZUCKER/files/8985964/_30--FDIC-01413744.50074.EST.%2B%2B.pdf" styl=
+e=3D"background-color:transparent;text-decoration:none;transition:color 80m=
+s cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;">_30--FDIC-01413744=
+ [ 50074 EST ++ ].pdf</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILE 2:<span>&nbsp;</sp=
+an><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-=
+SULLIVAN-ZUCKER/files/8985960/_30--FDIC-01413744.50074.EST.%2B%2B.999.pdf" =
+style=3D"background-color:transparent;text-decoration:none;transition:color=
+ 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;">_30--FDIC-0141=
+3744 [ 50074 EST ++ ]
+          999.pdf</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILE 3:<span>&nbsp;</sp=
+an><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-=
+SULLIVAN-ZUCKER/files/8985961/_30--FDIC-01413744.50074.EST.%2B%2B.999-3.pdf=
+" style=3D"background-color:transparent;text-decoration:none;transition:col=
+or 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;">_30--FDIC-01=
+413744 [ 50074 EST ++ ]
+          999-3.pdf</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILE 4:<span>&nbsp;</sp=
+an><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-=
+SULLIVAN-ZUCKER/files/8985962/_30--FDIC-01413744.50074.EST.%2B%2B.999-12.pd=
+f" style=3D"background-color:transparent;text-decoration:none;transition:co=
+lor 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;">_30--FDIC-0=
+1413744 [ 50074 EST ++ ]
+          999-12.pdf</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILE 5:<span>&nbsp;</sp=
+an><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https:=
+//github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-=
+SULLIVAN-ZUCKER/files/8985963/_30--FDIC-01413744.50074.EST.%2B%2B.999-76.pd=
+f" style=3D"background-color:transparent;text-decoration:none;transition:co=
+lor 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;">_30--FDIC-0=
+1413744 [ 50074 EST ++ ]
+          999-76.pdf</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">FILED: NEW YORK COUNTY
+        CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020 NYSCEF DOC. NO.
+        314 RECEIVED NYSCEF: 08/09/2020<span>&nbsp;</span><a rel=3D"nofollo=
+w noopener noreferrer" target=3D"_blank" href=3D"https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D" style=
+=3D"background-color:transparent;text-decoration:none;transition:color 80ms=
+ cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450=
+080moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocum=
+ent?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D</a></p>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">[MULE] FILED: NEW YORK
+        COUNTY CLERK 08/04/2020 02:32 PM INDEX NO. 153974/2020 NYSCEF
+        DOC. NO. 287 RECEIVED NYSCEF: 08/04/2020 Sent: Sunday, July 19,
+        2020 5:49 PM<span>&nbsp;</span><a rel=3D"nofollow noopener noreferr=
+er" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewD=
+ocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D" style=3D"background-color:=
+transparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1=
+, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-freet=
+ext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4=
+RNLy/6V9gf1BkpTQ=3D=3D</a></p>
+      <hr style=3D"min-height:0.25em;overflow:hidden;margin:24px 0px;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-attachment:initial;border:0px;padding:0px;=
+color:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvet=
+ica, Arial, sans-serif, Color UI;font-size:16px;font-style:normal;font-weig=
+ht:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;=
+white-space:normal;widows:2;word-spacing:0px;text-decoration-style:initial;=
+text-decoration-color:initial;">
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-consumer-response-unit--thank-you-very-much=
+-for-your-assistance" target=3D"_blank" href=3D"https://github.com/WILSON-E=
+LSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/=
+main/README.md#consumer-response-unit--thank-you-very-much-for-your-assista=
+nce" style=3D"background-color:transparent;text-decoration:none;transition:=
+color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;=
+padding-right:4px;line-height:1;" class=3D"yiv0584450080anchor"></a> Consum=
+er Response Unit (
+        THANK YOU VERY MUCH FOR YOUR ASSISTANCE)</h2>
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">** National Center for
+        Consumer and Depositor Assistance ** Federal Deposit Insurance
+        Corporation</p>
+      <h1 style=3D"font-size:2em;margin:24px 0px 16px;font-weight:600;line-=
+height:1.25;padding-bottom:0.3em;border-bottom:1px solid;color:rgb(36, 41, =
+47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-s=
+erif, Color UI;font-style:normal;letter-spacing:normal;orphans:2;text-inden=
+t:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;back=
+ground-color:rgb(255, 255, 255);text-decoration-style:initial;text-decorati=
+on-color:initial;"><a rel=3D"nofollow noopener noreferrer" id=3D"yiv0584450=
+080user-content-usc-18-208acts-affecting-a-personal-financial-interest" tar=
+get=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-Z=
+UCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#usc-18-208=
+acts-affecting-a-personal-financial-interest" style=3D"background-color:tra=
+nsparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1, 0=
+.68, 1) 0s, background-color,;float:left;padding-right:4px;line-height:1;" =
+class=3D"yiv0584450080anchor"></a> USC 18. =C2=A7208. Acts
+        affecting a personal financial interest</h1>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-a-except-as-permitted-by-subsection-b-hereo=
+f-whoever-being-an-officer-or-employee-of-the-executive-branch-of-the-unite=
+d-states-government-or-of-any-independent-agency-of-the-united-states-a-fed=
+eral-reserve-bank-director-officer-or-employee-or-an-officer-or-employee-of=
+-the-district-of-columbia-including-a-special-government-employee-participa=
+tes-personally-and-substantially-as-a-government-officer-or-employee-throug=
+h-decision-approval-disapproval-recommendation-the-rendering-of-advice-inve=
+stigation-or-otherwise-in-a-judicial-or-other-proceeding-application-reques=
+t-for-a-ruling-or-other-determination-contract-claim-controversy-charge-acc=
+usation-arrest-or-other-particular-matter-in-which-to-his-knowledge-he-his-=
+spouse-minor-child-general-partner-organization-in-which-he-is-serving-as-o=
+fficer-director-trustee-general-partner-or-employee-or-any-person-or-organi=
+zation-with-whom-he-is-negotiating-or-has-any-arrangement-concerning-prospe=
+ctive-employment-has-a-financial-interest-shall-be-subject-to-the-penalties=
+-set-forth-in-section-216-of-this-titleb-subsection-a-shall-not-apply-1-if-=
+the-officer-or-employee-first-advises-the-government-official-responsible-f=
+or-appointment-to-his-or-her-position-of-the-nature-and-circumstances-of-th=
+e-judicial-or-other-proceeding-application-request-for-a-ruling-or-other-de=
+termination-contract-claim-controversy-charge-accusation-arrest-or-other-pa=
+rticular-matter-and-makes-full-disclosure-of-the-financial-interest-and-rec=
+eives-in-advance-a-written-determination-made-by-such-official-that-the-int=
+erest-is-not-so-substantial-as-to-be-deemed-likely-to-affect-the-integrity-=
+of-the-services-which-the-government-may-expect-from-such-officer-or-employ=
+ee2-if-by-regulation-issued-by-the-director-of-the-office-of-government-eth=
+ics-applicable-to-all-or-a-portion-of-all-officers-and-employees-covered-by=
+-this-section-and-published-in-the-federal-register-the-financial-interest-=
+has-been-exempted-from-the-requirements-of-subsection-a-as-being-too-remote=
+-or-too-inconsequential-to-affect-the-integrity-of-the-services-of-the-gove=
+rnment-officers-or-employees-to-which-such-regulation-applies3-in-the-case-=
+of-a-special-government-employee-serving-on-an-advisory-committee-within-th=
+e-meaning-of-the-federal-advisory-committee-act-including-an-individual-bei=
+ng-considered-for-an-appointment-to-such-a-position-the-official-responsibl=
+e-for-the-employees-appointment-after-review-of-the-financial-disclosure-re=
+port-filed-by-the-individual-pursuant-to-the-ethics-in-government-act-of-19=
+78-certifies-in-writing-that-the-need-for-the-individuals-services-outweigh=
+s-the-potential-for-a-conflict-of-interest-created-by-the-financial-interes=
+t-involved" target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STATE=
+FARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/READM=
+E.md#a-except-as-permitted-by-subsection-b-hereof-whoever-being-an-officer-=
+or-employee-of-the-executive-branch-of-the-united-states-government-or-of-a=
+ny-independent-agency-of-the-united-states-a-federal-reserve-bank-director-=
+officer-or-employee-or-an-officer-or-employee-of-the-district-of-columbia-i=
+ncluding-a-special-government-employee-participates-personally-and-substant=
+ially-as-a-government-officer-or-employee-through-decision-approval-disappr=
+oval-recommendation-the-rendering-of-advice-investigation-or-otherwise-in-a=
+-judicial-or-other-proceeding-application-request-for-a-ruling-or-other-det=
+ermination-contract-claim-controversy-charge-accusation-arrest-or-other-par=
+ticular-matter-in-which-to-his-knowledge-he-his-spouse-minor-child-general-=
+partner-organization-in-which-he-is-serving-as-officer-director-trustee-gen=
+eral-partner-or-employee-or-any-person-or-organization-with-whom-he-is-nego=
+tiating-or-has-any-arrangement-concerning-prospective-employment-has-a-fina=
+ncial-interest-shall-be-subject-to-the-penalties-set-forth-in-section-216-o=
+f-this-titleb-subsection-a-shall-not-apply-1-if-the-officer-or-employee-fir=
+st-advises-the-government-official-responsible-for-appointment-to-his-or-he=
+r-position-of-the-nature-and-circumstances-of-the-judicial-or-other-proceed=
+ing-application-request-for-a-ruling-or-other-determination-contract-claim-=
+controversy-charge-accusation-arrest-or-other-particular-matter-and-makes-f=
+ull-disclosure-of-the-financial-interest-and-receives-in-advance-a-written-=
+determination-made-by-such-official-that-the-interest-is-not-so-substantial=
+-as-to-be-deemed-likely-to-affect-the-integrity-of-the-services-which-the-g=
+overnment-may-expect-from-such-officer-or-employee2-if-by-regulation-issued=
+-by-the-director-of-the-office-of-government-ethics-applicable-to-all-or-a-=
+portion-of-all-officers-and-employees-covered-by-this-section-and-published=
+-in-the-federal-register-the-financial-interest-has-been-exempted-from-the-=
+requirements-of-subsection-a-as-being-too-remote-or-too-inconsequential-to-=
+affect-the-integrity-of-the-services-of-the-government-officers-or-employee=
+s-to-which-such-regulation-applies3-in-the-case-of-a-special-government-emp=
+loyee-serving-on-an-advisory-committee-within-the-meaning-of-the-federal-ad=
+visory-committee-act-including-an-individual-being-considered-for-an-appoin=
+tment-to-such-a-position-the-official-responsible-for-the-employees-appoint=
+ment-after-review-of-the-financial-disclosure-report-filed-by-the-individua=
+l-pursuant-to-the-ethics-in-government-act-of-1978-certifies-in-writing-tha=
+t-the-need-for-the-individuals-services-outweighs-the-potential-for-a-confl=
+ict-of-interest-created-by-the-financial-interest-involved" style=3D"backgr=
+ound-color:transparent;text-decoration:none;transition:color 80ms cubic-bez=
+ier(0.33, 1, 0.68, 1) 0s, background-color,;float:left;padding-right:4px;li=
+ne-height:1;" class=3D"yiv0584450080anchor"></a> (a) Except as permitted
+        by subsection (b) hereof, whoever, being an officer or employee
+        of the executive branch of the United States Government, or of
+        any independent agency of the United States, a Federal Reserve
+        bank director, officer, or employee, or an officer or employee
+        of the District of Columbia, including a special Government
+        employee, participates personally and substantially as a
+        Government officer or employee, through decision, approval,
+        disapproval, recommendation, the rendering of advice,
+        investigation, or otherwise, in a judicial or other proceeding,
+        application, request for a ruling or other determination,
+        contract, claim, controversy, charge, accusation, arrest, or
+        other particular matter in which, to his knowledge, he, his
+        spouse, minor child, general partner, organization in which he
+        is serving as officer, director, trustee, general partner or
+        employee, or any person or organization with whom he is
+        negotiating or has any arrangement concerning prospective
+        employment, has a financial interest-Shall be subject to the
+        penalties set forth in section 216 of this title. (b) Subsection
+        (a) shall not apply- (1) if the officer or employee first
+        advises the Government official responsible for appointment to
+        his or her position of the nature and circumstances of the
+        judicial or other proceeding, application, request for a ruling
+        or other determination, contract, claim, controversy, charge,
+        accusation, arrest, or other particular matter and makes full
+        disclosure of the financial interest and receives in advance a
+        written determination made by such official that the interest is
+        not so substantial as to be deemed likely to affect the
+        integrity of the services which the Government may expect from
+        such officer or employee; (2) if, by regulation issued by the
+        Director of the Office of Government Ethics, applicable to all
+        or a portion of all officers and employees covered by this
+        section, and published in the Federal Register, the financial
+        interest has been exempted from the requirements of subsection
+        (a) as being too remote or too inconsequential to affect the
+        integrity of the services of the Government officers or
+        employees to which such regulation applies; (3) in the case of a
+        special Government employee serving on an advisory committee
+        within the meaning of the Federal Advisory Committee Act
+        (including an individual being considered for an appointment to
+        such a position), the official responsible for the employee's
+        appointment, after review of the financial disclosure report
+        filed by the individual pursuant to the Ethics in Government Act
+        of 1978, certifies in writing that the need for the individual's
+        services outweighs the potential for a conflict of interest
+        created by the financial interest involved...</h2>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-all-files-followed-the-following-procedure-=
+-upon-being-admitted-of-denied" target=3D"_blank" href=3D"https://github.co=
+m/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZU=
+CKER/blob/main/README.md#all-files-followed-the-following-procedure--upon-b=
+eing-admitted-of-denied" style=3D"background-color:transparent;text-decorat=
+ion:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, backgroun=
+d-color,;float:left;padding-right:4px;line-height:1;" class=3D"yiv058445008=
+0anchor"></a> ALL FILES FOLLOWED THE
+        FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DENIED.</h2>
+      <hr style=3D"min-height:0.25em;overflow:hidden;margin:24px 0px;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-attachment:initial;border:0px;padding:0px;=
+color:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvet=
+ica, Arial, sans-serif, Color UI;font-size:16px;font-style:normal;font-weig=
+ht:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;=
+white-space:normal;widows:2;word-spacing:0px;text-decoration-style:initial;=
+text-decoration-color:initial;">
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">COMMUNICATIONS BETWEEN
+        LOCATION 1 &amp; LOCATION 2 [ LOGGED] EX-POST IN 2021-- ***
+        E-mail Notifications *** An email regarding this filing has been
+        sent to the following on 08/09/2020 02:31 AM:</p>
+      <h2 style=3D"margin-top:24px;margin-bottom:16px;font-size:1.5em;font-=
+weight:600;line-height:1.25;padding-bottom:0.3em;border-bottom:1px solid;co=
+lor:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-style:normal;letter-spacing:normal;orph=
+ans:2;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-=
+spacing:0px;background-color:rgb(255, 255, 255);text-decoration-style:initi=
+al;text-decoration-color:initial;"><a rel=3D"nofollow noopener noreferrer" =
+id=3D"yiv0584450080user-content-shari-laskowitz---slaskowitzingramllpcom--m=
+ule-" target=3D"_blank" href=3D"https://github.com/WILSON-ELSER-STATEFARM-S=
+ULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/blob/main/README.md#s=
+hari-laskowitz---slaskowitzingramllpcom--mule-" style=3D"background-color:t=
+ransparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33, 1,=
+ 0.68, 1) 0s, background-color,;float:left;padding-right:4px;line-height:1;=
+" class=3D"yiv0584450080anchor"></a> SHARI LASKOWITZ -<span>&nbsp;</span><a=
+ rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:slaskowitz@ingramll=
+p.com" target=3D"_blank" href=3D"mailto:slaskowitz@ingramllp.com" style=3D"=
+background-color:transparent;text-decoration:none;transition:color 80ms cub=
+ic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080m=
+oz-txt-link-freetext">slaskowitz@ingramllp.com</a><span>&nbsp;</span>[
+        MULE ]</h2>
+      <hr style=3D"min-height:0.25em;overflow:hidden;margin:24px 0px;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-attachment:initial;border:0px;padding:0px;=
+color:rgb(36, 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvet=
+ica, Arial, sans-serif, Color UI;font-size:16px;font-style:normal;font-weig=
+ht:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;=
+white-space:normal;widows:2;word-spacing:0px;text-decoration-style:initial;=
+text-decoration-color:initial;">
+      <p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(36, 41, 47);f=
+ont-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif,=
+ Color UI;font-size:16px;font-style:normal;font-weight:400;letter-spacing:n=
+ormal;orphans:2;text-indent:0px;text-transform:none;white-space:normal;wido=
+ws:2;word-spacing:0px;background-color:rgb(255, 255,        255);text-decor=
+ation-style:initial;text-decoration-color:initial;">*** [ MULE ] ***<span>&=
+nbsp;</span><a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:ADMIN=
+ISTRATION@MSKYLINE.COM" target=3D"_blank" href=3D"mailto:ADMINISTRATION@MSK=
+YLINE.COM" style=3D"background-color:transparent;text-decoration:none;trans=
+ition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" cla=
+ss=3D"yiv0584450080moz-txt-link-freetext">ADMINISTRATION@MSKYLINE.COM</a>;<=
+span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto=
+:LZUCKER@MSKYLINE.COM" target=3D"_blank" href=3D"mailto:LZUCKER@MSKYLINE.CO=
+M" style=3D"background-color:transparent;text-decoration:none;transition:co=
+lor 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yi=
+v0584450080moz-txt-link-freetext">LZUCKER@MSKYLINE.COM</a>;<span>&nbsp;</sp=
+an><a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:ADMINISTRATOR@=
+MSKYLINE.COM" target=3D"_blank" href=3D"mailto:ADMINISTRATOR@MSKYLINE.COM" =
+style=3D"background-color:transparent;text-decoration:none;transition:color=
+ 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv05=
+84450080moz-txt-link-freetext">ADMINISTRATOR@MSKYLINE.COM</a>;<span>&nbsp;<=
+/span><a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:LEGAL@MSKYL=
+INE.COM" target=3D"_blank" href=3D"mailto:LEGAL@MSKYLINE.COM" style=3D"back=
+ground-color:transparent;text-decoration:none;transition:color 80ms cubic-b=
+ezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-t=
+xt-link-freetext">LEGAL@MSKYLINE.COM</a>;<span>&nbsp;</span><a rel=3D"nofol=
+low noopener noreferrer" ymailto=3D"mailto:LEGALASST@MSKYLINE.COM" target=
+=3D"_blank" href=3D"mailto:LEGALASST@MSKYLINE.COM" style=3D"background-colo=
+r:transparent;text-decoration:none;transition:color 80ms cubic-bezier(0.33,=
+ 1, 0.68, 1) 0s, background-color,;" class=3D"yiv0584450080moz-txt-link-fre=
+etext">LEGALASST@MSKYLINE.COM</a>;<span>&nbsp;</span><a rel=3D"nofollow noo=
+pener noreferrer" ymailto=3D"mailto:SGO@COLUMBIA.EDU" target=3D"_blank" hre=
+f=3D"mailto:SGO@COLUMBIA.EDU" style=3D"background-color:transparent;text-de=
+coration:none;transition:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, back=
+ground-color,;" class=3D"yiv0584450080moz-txt-link-freetext">SGO@COLUMBIA.E=
+DU</a>;<span>&nbsp;</span><a rel=3D"nofollow noopener noreferrer" ymailto=
+=3D"mailto:SCCS@COLUMBIA.EDU" target=3D"_blank" href=3D"mailto:SCCS@COLUMBI=
+A.EDU" style=3D"background-color:transparent;text-decoration:none;transitio=
+n:color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color,;" class=
+=3D"yiv0584450080moz-txt-link-freetext">SCCS@COLUMBIA.EDU</a>... [ LOCATION=
+ 1 -
+        FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOMAINS</p>
+      <p style=3D"margin-top:0px;margin-bottom:0px !important;color:rgb(36,=
+ 41, 47);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, s=
+ans-serif, Color UI;font-size:16px;font-style:normal;font-weight:400;letter=
+-spacing:normal;orphans:2;text-indent:0px;text-transform:none;white-space:n=
+ormal;widows:2;word-spacing:0px;background-color:rgb(255, 255, 255);text-de=
+coration-style:initial;text-decoration-color:initial;">[LOCATION 3] @MSKYLI=
+NE.COM [LOCATION 2]
+        @WILSONELSER.COM, @INGRAMLLP.COM [LOCATION 1] @COLUMBIA.EDU</p>
+     =20
+    </div>
+  </div>
+
+</div> </div> </blockquote>
+------=_Part_396034_412111013.1656256895784--

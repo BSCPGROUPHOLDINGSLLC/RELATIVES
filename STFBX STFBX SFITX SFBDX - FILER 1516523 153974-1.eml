@@ -1,0 +1,422 @@
+From - Fri May 20 01:25:06 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.854
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Fri, 20 May 2022 01:19:19 -0400
+X-Cyrus-Session-Id: sloti52n19-1653023959-2082218-2-8521062765658727425
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx1 ([10.202.2.200])
+  by compute4.internal (LMTPProxy); Fri, 20 May 2022 01:19:19 -0400
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id D7CEB23C014F
+	for <COCKARENS@VOUCHERSRUS.ORG>; Fri, 20 May 2022 01:19:19 -0400 (EDT)
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+    by mx1.messagingengine.com (Authentication Milter) with ESMTP
+    id D59F1387AFF;
+    Fri, 20 May 2022 01:19:19 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1653023959; b=sRv5DlA9tmAridNHgxjWWn1xXpdM24RKXTwC9BKYNuiXHUneE4
+    e1DH53XUSqNs+tEtl9iFv1IjLgJjYh0rpWmyO6v+tLQywll63Gl6+TCzAvR9NA5N
+    N4OuZy6Gf3N5dOZGsTxuHVY6QEldJjEHRlICrOj0DGu4nqjp6ySzWiD4TG6rgyF+
+    GOXoiT4/U5b1tsSUm2GxHEG8lclSszlaXrFRMtQgmsA9KXPS+v8AEoup+qnSXdVR
+    L5FItIOd/Bh+dKRaNF3cb/n/grBHy5ktjaYo9x3aOit5XwHyoM+ChocDMc9FCvMC
+    qzWwIRNFuH8rZkfFlQ7flQUHtM/RWzP+ydqw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :subject:references:to:cc:from:in-reply-to; s=fm1; t=1653023959;
+    bh=tdEdvmLZipx0TekzLMeBzKhrUMGTPV4W+4ak4nhM1p4=; b=pziFfLH8tUPw
+    9yUunc5qKLMJYqMYaFvPlBrLo85jAw5R3apm5FQEc7bZfMx2rjTdmV2RWZl5Z1zZ
+    loIi3rMrE/651idHjvPNQpM/o3L8EgOjqjfuVnLGBXduiKRLoTQJUYTSYinMmRks
+    0p+05HqDEwx1TC316ayHSh4/SVe5TtN+4Ijrp70syGloap2ClCL9D/qP8xGjD2Oq
+    Y3HvW3nm7e7U53d1DMieTcykSj8jBsNAfAdCarogQoFAkweFydt/nDhKFoSnO81n
+    9he+OVDjiEllnJk1sOOvOjo0vu4T2hpZ/ocOqL0oSEm8Buzg/XfjQl4buaUmg01J
+    4EEwjFF+yg==
+ARC-Authentication-Results: i=1; mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic309-44.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=ZO7Bf2Uh header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.129.218
+    (sonic309-44.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx1.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta5.am0.yahoodns.net,mta6.am0.yahoodns.net,mta7.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta7.am0.yahoodns.net,mta5.am0.yahoodns.net,mta6.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-31 state=0
+Authentication-Results: mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic309-44.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx1.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx1.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx1.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=ZO7Bf2Uh header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.129.218
+      (sonic309-44.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedriedvgdelhecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenogfuuhhsphgvtghtffhomhgrihhnucdlgeelmdenoggjrghhohho
+    qddqteefieduqddtudculddvtddmnecujfgurheptgfkffggfgfufhfvvefhpfgjofesrg
+    dtreerreefjeenucfhrhhomhepuecuffdvtddvvdcuoehmsheitdejuddtgeeggedvieei
+    seihrghhohhordgtohhmqeenucggtffrrghtthgvrhhnpeeigfdutedthfdvueeugfetgf
+    ejffefhffhjedtledugefhgeevudevgeekkeejleenucffohhmrghinhepfihinhguohif
+    shdrnhgvthenucfkphepjeegrdeirdduvdelrddvudeknecuvehluhhsthgvrhfuihiivg
+    eptdenucfrrghrrghmpehinhgvthepjeegrdeirdduvdelrddvudekpdhhvghlohepshho
+    nhhitgeftdelqdeggedrtghonhhsmhhrrdhmrghilhdrsghfvddrhigrhhhoohdrtghomh
+    dpmhgrihhlfhhrohhmpeeomhhsiedtjedutdeggeegvdeiieeshigrhhhoohdrtghomheq
+X-ME-VSScore: -31
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.129.218 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx1.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic309-44.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.129.218
+Received: from sonic309-44.consmr.mail.bf2.yahoo.com (sonic309-44.consmr.mail.bf2.yahoo.com [74.6.129.218])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1.messagingengine.com (Postfix) with ESMTPS
+	for <COCKARENS@VOUCHERSRUS.ORG>; Fri, 20 May 2022 01:19:19 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653023958; bh=tdEdvmLZipx0TekzLMeBzKhrUMGTPV4W+4ak4nhM1p4=; h=Date:Subject:References:To:Cc:From:In-Reply-To:From:Subject:Reply-To; b=ZO7Bf2Uh05xzaBvaR0GAHzwSu5LLxSyKrrX/tMAL/a92xAACBAsQhzU6gVT75m2OQ1XnO3quLQXRw9s0+nqCHiH7Q3YDzzYEHZhj4iKkmSy5negocfVugVF4DInAuOzCH9vb2Q6Peu9lLBjL8wipf8re9aK0MC/AA+ew7Mjv/DNsXc7UZVIX1/lRN4BRl/ZjZyb+MMhntEP4hCAqVDrGFhi8fWy/3ABEWgpjXOZwtqtcV0zI5RFi/sF/d/vAdJ/Sc7uFBk0gvlNUQ87v/8grkXA+YbiErUFQwsMPTXq7dYJvhrIldrfuo2bvR9vuMholcVWPa7p/JjAVAwrSCT8FCQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653023958; bh=gjKPW/q4csPTFKTJAJEVQKr98Wqlu+4cd0aejFXkXMG=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=uaCS2BnYvBZU9j7ajvlXADWXKH7mY7mviYYZXDy4KcZNN/8j0MZ8OAbRDP2LQv5A3WaHUU3841S/+zfMsQwU5N6B3WVkfmD6xxTtqJN4VosWexbG3w1+BGZIBdvwFmnezXKdJd6Q7fjpeIVtC+btkfQu7pTBjW+vd6/2o4DlI4vi5Q2tRY6S61OY+ZIim1bDECy3t1akPzwFUt+1VRfpCffJjrzm2tc9vvYLmLleBnXpnLOV/bOz2tm8gH0esgIrfu5XB2eHrC7NagZ0B2m3hFi8QL4dpK1dmrP+ZA/eLIyPAv5RIgY2EcCPxQelaIWEx2YCgwClC2/LEh6jtXIKMA==
+X-YMail-OSG: Fg04lNgVM1kP06BphdTtPfQ.gTINV_61R_Qn_AWnOosXkMDJKBARo.B4VMEHmaE
+ Jy3Y0LLalZ1DsXscBLWzQfxPRKYd2.gIFuChAnnDhj8x7TK8hFeWLMUHMWEwvSwkcd_DmTScNM55
+ eRcGiVjlLrPk.VFrIf2ZX7HmeHnWg8KB5JJABTZwqnNjsoooKCE6J23ssX.xFPIrRXpEJN8VB3fE
+ B8q2V_zmgBSqJxdHU9kcbrxEFT_1dXoqWBKnhYlW9sronquHauh_HiNFourg0ao7yaYFRJFybdLX
+ qAjTbKUU2_jam0MU0zn2Dn1Drq3sG9LW84nvavzrqZ.rI0m1S6zNUNNm4ohTZfunrIG9StRu9gmx
+ 2bNyKhgtoA_eNA6I.fvFt7HzLP9sZKcqGVi8mW2SXR92ywUV_aMW8wxbGhSdHG08LL_q1eOA99JF
+ 6Dgsc.IoMgUA0NbkvrtsxId8Hfs2zSMrpseKLJPq7mYbBYyrkFOCoGu8MvAqcbk3iRF7szCvK6rx
+ mME1JYX1H5GL7jzPXgKfi.qyOoXStVOP0CPrJMzFv5wcGnilvdSrciiPxF4udxf7t.UDEmsad8O2
+ Bh8TI2blT2nluBCfr1UsSvNsmof8TTxFFMzyl7e9jOtB3HM_FSySo6Ua8dNxAHLtruxECVWzMLt_
+ 6W.bLcKMTRjayLpt1KVd15dkkAorvCeztaCaf.tJ5DKuZM5Nn10N4n1uwK9no_n292786LiSG6Ei
+ 8QuBDXeh8b28Yozl6DF.z9NVlxOSKuTttvaYsMDSrRpiZBPCqNcyvStoqHK2IBwBoJ21tNthyY6P
+ WufZabLd_04TaBfwiPHPhDxEXH9sV8ADeMW2tobB35tqC8ZDeaDGu4qUSSpWbLFZK7mUOiChXk5Z
+ GOfoIJf44Xpgmh8EGhTneXPCggMovVzW71lTFVVNH0biLdk33sl.4DZANJ9E1vyTGdVLVGDjVR5c
+ upvfCZQri0DAEllXK7jIw_4_rLtetAz2ZTJsKcikdojqYTspu87q5TYDTAarVapBRScrB9xocUX5
+ JA9WTrJenUeV.IBbNM.qKQxNVDv5OU.2smjV.UuPIgFfHCBJaonh3zznA0wsB53QiCTiGIhbAA2Z
+ oY_xDKsV7bXQhO9yBYJoChVhifF41dU2Y9LwPCmxY5nJ5_MPD8PLDtH7cXpx2earpOUvhtNwFowJ
+ jWfo5MEg6rjExdnpDRT8.GodyX.ElCN.CHQYy40T2Vz9pa013bEno4hU4J9bydtktinSwDKP4gb2
+ Ga.a7e0_x0Hj6tjpRsFzHxDEwqUlmaVQPmzyl1hqmZNR5JUWHCi9DN_U3GoVDkySiJVt0jQAlCZo
+ dHuvnLoV7UKtUop2tWp0IJRr0ZQW31c3m4YiKzi8GThG7hzzq_CfBRAJ4BSQ0oFlo7suhTOu7Y4R
+ jxt0l0wiJrDMXkrLGmz4qKTsOlyb1k65LaoSmVX0b35frRV9dt_JG1vk65XUDDl_fxucfG11u2QD
+ Nwy9nRBxrVGl_zrWZSuN4unNeXTSgXdPZ.YGSrQifBmy1PU5q9f9id4oN.IahCMQeDuL4PrKKAdK
+ ids69qgL7nDaVQndLK6QL4_KCohtbkD29KF4uvfdMGdQv1QQS6QYlK__sHfmQjKT38Wjn9xbTI8C
+ KQTO1A3nZRq92XSXbGSarcH9Cj96wTyJGecAQAASbxbsre_vRbwdfZS2uxVHSDk6W9rGR3mVynYm
+ Zp.3ZmWt1M.pDOqiVLlVRPlA5Q4mt6qeC0U5Ja03Tf_aZ5ty5zf42LJeyIOQAWTr9uhN_BBgisrM
+ g6NhRz6HjErdlBjyn02WLOdh9_pCgicX26Z7Kq.YEHoAhHHw5EBc2V7zlpWEr5Lqdxe7bIB_6e1e
+ PeE3B59an5xJgbX_EuJ9rmqLic7PrAf6AAciUTZRAref5Z8DFRBQijiuJM0_8VXeSJEpDGYFEHkM
+ IckxUxtQ430unl6W9zxFJuGowTtUnA5bgJrtUSCmvja_3io8yVfjHap_SHVPk3vXUb7W7Wg7yRp_
+ Tlvg87YmI_TfXiISwbnrPKJA6_TRHCOuDyLtjT7kS4kqtR8bYYMx5JoGQ2nBTrZL4iPNH1JCcaoM
+ GhbEWdpHwYXxJam5km6thLovSlsZ_CJs7XEXJyAkD_KJM2eg6BHboWJs6.TDfMkYd_gFHtJa5GWM
+ 8Ba4YIUrNip7LTkYWztXdClE6BTmRq3ke3E1pokNlFKx0P04fyeEW73CP.2KjO7wNDbC3P9WUo5g
+ hZJorbfBxPg3Od86aPW9gxZTD8UYy.qTV4NypM6U3kLmBcwPcBv93asqWLlNYXeoh1yJRe0MXbko
+ h
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic309.consmr.mail.bf2.yahoo.com with HTTP; Fri, 20 May 2022 05:19:18 +0000
+Received: by hermes--canary-production-gq1-5cd7967f4d-jm9lz (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 3f915826684d0a66a74f7bf84e36a6d9;
+          Fri, 20 May 2022 05:17:16 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------K06PjnYc8qT1W7ZscSUSp5L0"
+Message-ID: <41c41b98-24b8-d677-527c-f9fd1ee67512@yahoo.com>
+Date: Fri, 20 May 2022 01:16:42 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Subject: STFBX STFBX SFITX SFBDX - FILER 1516523 153974
+Content-Language: en-US
+References: <d8be65ec-e997-14ad-ee1f-225bbe00240d@yahoo.com>
+To: terrance.ludwig@statefarm.com, replacementprogram@statefarm.com,
+ "rebecca.coyle@statefarm.com" <rebecca.coyle@statefarm.com>,
+ PHIL SUPPLE <phil.supple.hid9@statefarm.com>, PAUL.SMITH@STATEFARM.COM,
+ Nicole Bowyer <nicole.bowyer@statefarm.com>,
+ State Farm <mutualfunds@statefarm.com>, MIKE.CARTER.HUSL@STATEFARM.COM,
+ JOSE.MONK@STATEFARM.COM, dick.luedke.h2hj@statefarm.com,
+ David Moore <david.moore.ct95@statefarm.com>,
+ "brian.hodgson.nyz6@statefarm.com" <brian.hodgson.nyz6@statefarm.com>,
+ "NORTHERN TRUST <sjs5@ntrs.com>" <sjs5@ntrs.com>,
+ "steve@bloomberg.net" <steve@bloomberg.net>,
+ Brent Reeder <bdr11@bloomberg.net>, Personal Loans <farm@fablefarmers.com>
+Cc: Yana Siegel <yana.siegel@wilsonelser.com>,
+ WILLIAM BEHR <william.behr@wilsonelser.com>,
+ Urvashi Sinha <urvashi.sinha@wilsonelser.com>,
+ "Thomas R. Manisero" <thomas.manisero@wilsonelser.com>,
+ "Suzanne S. Swanson" <suzanne.swanson@wilsonelser.com>,
+ "Stephen J. Barrett" <stephen.barrett@wilsonelser.com>,
+ "Stacey L. Seltzer" <stacey.seltzer@wilsonelser.com>,
+ Sean Wagner <sean.wagner@wilsonelser.com>,
+ "Roger R. Gottilla" <roger.gottilla@wilsonelser.com>,
+ Ricki Roer <ricki.roer@wilsonelser.com>,
+ Ricki Roer <ricki.roer@wilsonanddicker.com>,
+ "ricki.raared@wilsonsdickers.com" <ricki.raared@wilsonsdickers.com>,
+ patricia.wik@wilsonelser.com, meghan.rigney@wilsonelser.com,
+ Lori Semlies <lori.semlies@wilsonelser.com>,
+ "Lois K. Ottombrino" <lois.ottombrino@wilsonelser.com>,
+ "Lauren M. Zink" <lauren.zink@wilsonelser.com>,
+ "Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>,
+ jwilson578@bloomberg.net, judy.selmeci@wilsonelser.com,
+ "Jennifer L. Sciales" <jennifer.sciales@wilsonelser.com>,
+ "Jennifer M. Provost" <jennifer.provost@wilsonelser.com>,
+ info@wilsonelser.com, Hannah.King@WILSONELSER.COM,
+ grace.song@wilsonelser.com, erin.zecca@wilsonelser.com,
+ ellyn.wilder@wilsonelser.com, elizabeth.scoditti@wilsonelser.com,
+ Debra Tama <debra.tama@wilsonelser.com>,
+ "Daniel F. Flores" <daniel.flores@wilsonelser.com>,
+ curt.schlom@wilsonelser.com, craig.hunter@wilsonelser.com,
+ craig.brinker@wilsonelser.com, Corrine Shea <corrine.shea@wilsonelser.com>,
+ carole.nimaroff@wilsonelser.com, aviva.stein@wilsonelser.com,
+ "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>,
+ Angelique Sabia-Candero <angelique.sabia-candero@wilsonelser.com>,
+ angel.vitiello@wilsonelser.com,
+ Andrea Shiffman <andrea.shiffman@wilsonelser.com>,
+ Amy Hanrahan <amy.hanrahan@wilsonelser.com>, alex.kress@wilsonelser.com,
+ ALDEN 00066govtIdx WILSON <alden.wilson@maine.gov>,
+ Alan Rubin <alan.rubin@wilsonelser.com>
+From: B D2022 <ms60710444266@yahoo.com>
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <d8be65ec-e997-14ad-ee1f-225bbe00240d@yahoo.com>
+X-Forwarded-Message-Id: <d8be65ec-e997-14ad-ee1f-225bbe00240d@yahoo.com>
+X-Mailer: WebService/1.1.20225 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------K06PjnYc8qT1W7ZscSUSp5L0
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+-------- Forwarded Message --------
+Subject: 	153974 email attachments
+Date: 	Fri, 20 May 2022 01:04:23 -0500
+From: 	B D2022 <ms60710444266@yahoo.com>
+To: 	zucker elser <BLOCK803LOT11@outlook.com>
+CC: 	alex.zuluaga@ey.com <alex.zuluaga@ey.com>, david.brown1@ey.com 
+<david.brown1@ey.com>, Deborah M Jones <Deborah.Jones@ey.com>, 
+info@ey.com <info@ey.com>, jacqueline.kelley@ey.com 
+<jacqueline.kelley@ey.com>, karim.anani@ey.com <karim.anani@ey.com>, 
+kevin.klimara@ey.com <kevin.klimara@ey.com>, lee.henderson@ey.com 
+<lee.henderson@ey.com>, mark.schwartz1@ey.com <mark.schwartz1@ey.com>, 
+rachel.gerring@ey.com <rachel.gerring@ey.com>
+
+
+
+STFBX STFBX SFITX SFBDX - FILER 1516523
+
+  * https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf
+    <https://saaze2311prdsra.blob.core.windows.net/clean/e041abffd2d7ec11a7b5002248307b90/8209-$BROOKS--4776256-6109023[FILED].pdf>
+  * https://saaze2311prdsra.blob.core.windows.net/clean/e041abffd2d7ec11a7b5002248307b90/8209-$BROOKS--4776256-6109023[FILED].pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/2df8ebfad2d7ec11a7b50022483079c1/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/88f53551d2d7ec11a7b5002248307f33/[STATE%20FARM%20VP%2043036]%201943922-%20$michael%20tipsord%20STATE%20FARM%20mutual%20automobile%20insurance%20company%203487.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/154f7255d2d7ec11a7b5002248307b90/[STATE%20FARM%20VP%2043036]%203231040-%20$LUDWIG%20TERRANCE.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/564c7f62d2d7ec11a7b5002248307f33/[STATE%20FARM%20VP%2043036]%203231040$LUDWIG%20TERRANCE.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/464dc7e4d1d7ec11a7b5000d3a1afadb/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%208018184.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/0466bdead1d7ec11a7b5000d3a1afadb/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/b3106d8ad1d7ec11a7b5002248307b90/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/013f2491d1d7ec11a7b5000d3a1af965/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208018184.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/6ae08e99d1d7ec11a7b5002248307aa9/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/53bfe37dcfd7ec11a7b5002248307b90/NEW%20CONSUMER%20Case%20Number_%20%20ref.PDF
+  * https://saaze2311prdsra.blob.core.windows.net/clean/b4cbce6ecfd7ec11a7b5002248307b90/Fwd-%20TAX%20EVASION%20%20attachments.%20.pdf.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/b692cf79cfd7ec11a7b5000d3a1956dd/Fwd:%20TAX%20EVASION%20%20attachments.%20.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/379bcc68ced7ec11a7b5000d3a1afadb/BOTARIZED.on.the.30TH.of.MARCH.2022.STATE.FARM.TRUST.FUND.---sec-sfitx-state-farm-interim-fund-4017g-2020-june-08.pdf
+  * https://saaze2311prdsra.blob.core.windows.net/clean/c690d567bad7ec11a7b5002248307f33/2022-03-27-ColinBrooks.png
+  * https://saaze2311prdsra.blob.core.windows.net/clean/bab7741fbad7ec11a7b5002248307b90/2020-08-09.NYSCEF.png
+  * https://saaze2311prdsra.blob.core.windows.net/clean/80414a9db6d7ec11a7b5002248307aa9/2020-08-09.NYSCEF.png
+  * https://saaze2311prdsra.blob.core.windows.net/clean/656c0a6ab6d7ec11a7b5000d3a1afadb/F1-MultiSF-Zucker.png
+  * https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png
+
+
+/BD
+
+--------------K06PjnYc8qT1W7ZscSUSp5L0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body data-gramm="false" spellcheck="false">
+    <div class="moz-forward-container"><br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>153974 email attachments</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Fri, 20 May 2022 01:04:23 -0500</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>B D2022 <a class="moz-txt-link-rfc2396E" href="mailto:ms60710444266@yahoo.com">&lt;ms60710444266@yahoo.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td>zucker elser <a class="moz-txt-link-rfc2396E" href="mailto:BLOCK803LOT11@outlook.com">&lt;BLOCK803LOT11@outlook.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">CC: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:alex.zuluaga@ey.com">alex.zuluaga@ey.com</a> <a class="moz-txt-link-rfc2396E" href="mailto:alex.zuluaga@ey.com">&lt;alex.zuluaga@ey.com&gt;</a>,
+              <a class="moz-txt-link-abbreviated" href="mailto:david.brown1@ey.com">david.brown1@ey.com</a> <a class="moz-txt-link-rfc2396E" href="mailto:david.brown1@ey.com">&lt;david.brown1@ey.com&gt;</a>, Deborah M
+              Jones <a class="moz-txt-link-rfc2396E" href="mailto:Deborah.Jones@ey.com">&lt;Deborah.Jones@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:info@ey.com">info@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:info@ey.com">&lt;info@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:jacqueline.kelley@ey.com">jacqueline.kelley@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:jacqueline.kelley@ey.com">&lt;jacqueline.kelley@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:karim.anani@ey.com">karim.anani@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:karim.anani@ey.com">&lt;karim.anani@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:kevin.klimara@ey.com">kevin.klimara@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:kevin.klimara@ey.com">&lt;kevin.klimara@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:lee.henderson@ey.com">lee.henderson@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:lee.henderson@ey.com">&lt;lee.henderson@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:mark.schwartz1@ey.com">mark.schwartz1@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:mark.schwartz1@ey.com">&lt;mark.schwartz1@ey.com&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:rachel.gerring@ey.com">rachel.gerring@ey.com</a>
+              <a class="moz-txt-link-rfc2396E" href="mailto:rachel.gerring@ey.com">&lt;rachel.gerring@ey.com&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <p><font size="2"><font face="Helvetica, Arial, sans-serif">STFBX
+            STFBX SFITX SFBDX - FILER 1516523<br>
+          </font></font></p>
+      <ul>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/15279539d3d7ec11a7b5002248307b90/6507985%20$PRIYA%20DARSINI%20RAHURAM%20-%20FIRM%208209[FILED].pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/e041abffd2d7ec11a7b5002248307b90/8209-$BROOKS--4776256-6109023[FILED].pdf">https://saaze2311prdsra.blob.core.windows.net/clean/d72a8940d3d7ec11a7b5000d3a1956dd/CRD$6507985$PRIYA-DARSINI-RAHURAM$8209[$STFGX].pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/e041abffd2d7ec11a7b5002248307b90/8209-$BROOKS--4776256-6109023[FILED].pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/e041abffd2d7ec11a7b5002248307b90/8209-$BROOKS--4776256-6109023[FILED].pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/2df8ebfad2d7ec11a7b50022483079c1/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/2df8ebfad2d7ec11a7b50022483079c1/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/88f53551d2d7ec11a7b5002248307f33/[STATE%20FARM%20VP%2043036]%201943922-%20$michael%20tipsord%20STATE%20FARM%20mutual%20automobile%20insurance%20company%203487.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/88f53551d2d7ec11a7b5002248307f33/[STATE%20FARM%20VP%2043036]%201943922-%20$michael%20tipsord%20STATE%20FARM%20mutual%20automobile%20insurance%20company%203487.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/154f7255d2d7ec11a7b5002248307b90/[STATE%20FARM%20VP%2043036]%203231040-%20$LUDWIG%20TERRANCE.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/154f7255d2d7ec11a7b5002248307b90/[STATE%20FARM%20VP%2043036]%203231040-%20$LUDWIG%20TERRANCE.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/564c7f62d2d7ec11a7b5002248307f33/[STATE%20FARM%20VP%2043036]%203231040$LUDWIG%20TERRANCE.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/564c7f62d2d7ec11a7b5002248307f33/[STATE%20FARM%20VP%2043036]%203231040$LUDWIG%20TERRANCE.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/464dc7e4d1d7ec11a7b5000d3a1afadb/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%208018184.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/464dc7e4d1d7ec11a7b5000d3a1afadb/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%208018184.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/0466bdead1d7ec11a7b5000d3a1afadb/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/0466bdead1d7ec11a7b5000d3a1afadb/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/b3106d8ad1d7ec11a7b5002248307b90/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/b3106d8ad1d7ec11a7b5002248307b90/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/013f2491d1d7ec11a7b5000d3a1af965/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208018184.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/013f2491d1d7ec11a7b5000d3a1af965/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208018184.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/6ae08e99d1d7ec11a7b5002248307aa9/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/6ae08e99d1d7ec11a7b5002248307aa9/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/53bfe37dcfd7ec11a7b5002248307b90/NEW%20CONSUMER%20Case%20Number_%20%20ref.PDF"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/53bfe37dcfd7ec11a7b5002248307b90/NEW%20CONSUMER%20Case%20Number_%20%20ref.PDF</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/b4cbce6ecfd7ec11a7b5002248307b90/Fwd-%20TAX%20EVASION%20%20attachments.%20.pdf.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/b4cbce6ecfd7ec11a7b5002248307b90/Fwd-%20TAX%20EVASION%20%20attachments.%20.pdf.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/b692cf79cfd7ec11a7b5000d3a1956dd/Fwd:%20TAX%20EVASION%20%20attachments.%20.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/b692cf79cfd7ec11a7b5000d3a1956dd/Fwd:%20TAX%20EVASION%20%20attachments.%20.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/379bcc68ced7ec11a7b5000d3a1afadb/BOTARIZED.on.the.30TH.of.MARCH.2022.STATE.FARM.TRUST.FUND.---sec-sfitx-state-farm-interim-fund-4017g-2020-june-08.pdf"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/379bcc68ced7ec11a7b5000d3a1afadb/BOTARIZED.on.the.30TH.of.MARCH.2022.STATE.FARM.TRUST.FUND.---sec-sfitx-state-farm-interim-fund-4017g-2020-june-08.pdf</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/c690d567bad7ec11a7b5002248307f33/2022-03-27-ColinBrooks.png"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/c690d567bad7ec11a7b5002248307f33/2022-03-27-ColinBrooks.png</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/bab7741fbad7ec11a7b5002248307b90/2020-08-09.NYSCEF.png"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/bab7741fbad7ec11a7b5002248307b90/2020-08-09.NYSCEF.png</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/80414a9db6d7ec11a7b5002248307aa9/2020-08-09.NYSCEF.png"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/80414a9db6d7ec11a7b5002248307aa9/2020-08-09.NYSCEF.png</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/656c0a6ab6d7ec11a7b5000d3a1afadb/F1-MultiSF-Zucker.png"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/656c0a6ab6d7ec11a7b5000d3a1afadb/F1-MultiSF-Zucker.png</a></font></li>
+        <li><font size="1" face="Helvetica, Arial, sans-serif"><a
+              moz-do-not-send="true"
+href="https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png"
+              class="moz-txt-link-freetext">https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b50022483079c1/Nov16-JamesGorman.png</a><br>
+          </font></li>
+      </ul>
+      <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+            /BD<br>
+          </font></font><br>
+      </p>
+    </div>
+  </body>
+</html>
+
+--------------K06PjnYc8qT1W7ZscSUSp5L0--
