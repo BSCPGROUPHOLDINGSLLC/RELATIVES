@@ -1,0 +1,305 @@
+From - Sun Jun 26 05:09:54 2022
+X-Account-Key: account1
+X-UIDL: AH3ptwtST8mHYrguNwPA8HTbjRs
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.12
+ by atlas324.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 10:00:22 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas324.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 10:00:23 +0000
+X-YMailISG: DWBOhZwWLDv3G_w_ZtL0l1OfSAYKge7v6jlOp0I7gpNCEHsg
+ 5Mjl4ACUUpM0DrK4DZKCzTBAjcABuBlI_DLiV2NRLUi19UOT2B0pPQhUIfkZ
+ URfDfN5.pIwZfFPzNWmVQYt7tHVSN8oslNYMBhoaFopZNGH30VwNor6rBYoo
+ 2_SZix50bWzSqBPzlKpbSTYSAH3vrkcjPFadO2zxzwQI1puH.lpdfkH9t1GD
+ kSdl6fzqacynDfBS1IrZtBLWnKc.rgVx_OAn6_zc8D4cuxex2karNZgKwvg6
+ ZjtDnaW9e8GP45gVJnM6FAlDjL9cylMS0AqzqbQUjWt8RZpJmgZhkdZd3886
+ .D50Py7h8aImWQBKNsIeeFlhL2Q2JZN11WAaUvsi0Faz_9nIEuZFZOXNrDFj
+ jhuQw8pSlZV3.WVXoU6569n4P_b7ea6prjBDtHvulORoAYDdHcEsKU5FxnRM
+ mYi2bjMKPmr1KaJVGspe0TP18UTAqsvoDvb2ZmHzTndKBQJpvo3SQeAHD0mL
+ FR7DS1rFVnSNVO4_On_ZTs3yjAnKRntoseXYYJJielZ35mn3nyErc7hePqrF
+ N._xq5t5JOYnnTQSw5hxiZAKNaOgQS8hGQviHO3aKID7sAoeU.jcEd3sqJ_2
+ gXN0xgU9ZHay6gXH0ONZNZBHZA_mYPQy.LZphcbRruAzTSS8_F4qdr_yD.Qo
+ Bk1koNQIJmYUnI16SDZamauYCBHw4cQocIj0eRMKDOrw6myiary7N2emG29y
+ KutN7a.77CNVpUO3gTBJkSZYlwSGfEYnpCN6aYwQO2.yNCbHDFliuBpxfC53
+ Gww6eKZ23rsvY6cBtxlEVft8uspVWey9vny4K0MwpPX3c5aTfD5.7oBDGklI
+ DMmSLFz.AAFgOrycjwyrftFug8Q3pQws1iYXYeR6rUioi7.FhiC_5PCLTFk_
+ RuVeuJiZr9XLHfZ792ogMVhYB7AR9Uxy9X2oywrmNy629W3HJExeGNL3WZ.i
+ XS2dA553fyYhakrKy2e_CFCZKKVJKyev0b4ZULSa1uVSsKFa3Jb2sdBe3LN_
+ 6rAmYEh2nVrgexGEZ14mV9mwSpmEgAjbwqDz_OBMX0A5xOrt4bdZjTCrxV6q
+ FA7htNmd9DJBCw1JXRIslgw85VMOA.aCk9JZ1mkPH5ESPK4W5TbO4UL_TABk
+ 6KM3r18aVYhsPxWlm5reaFRlzS7wZHpg1egy
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.217.150.12 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 10:00:22 +0000
+Received: from github.com (hubbernetes-node-c9975ad.ash1-iad.github.net [10.56.208.47])
+	by smtp.github.com (Postfix) with ESMTPA id 6290C8404B8;
+	Sun, 26 Jun 2022 03:00:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656237622;
+	bh=7hazWmqhLGFdyTD16pMs3zKOSDCufAwUk5QySkBJDVU=;
+	h=Date:From:To:Subject:From;
+	b=yVmpl2oJjBSnWNuYmhCmrF5fFHZNpOUpz8N/ZyEb++xrzwYa1p92yy99YTOK7ZboW
+	 GjgSvRncmgO/t7d4LLGL4NtvYLY3ni7fwpglKL9LvE6GKKYPupIgHAG1Bia5IJGD9c
+	 HWuzo3fBk2HK2qvzCsls12YOGgUCzG4m8JYXK+Bw=
+Date: Sun, 26 Jun 2022 03:00:22 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/e8718e-07cbb9@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 07cbb9: DESTRUCTION AND FALSIFICATION OF REPORTS AND RECORDS
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 12350
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 07cbb98ebf7275c15cc986d3820970b5d84df03d=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/07cbb98ebf7275c15cc986d3820970b5d84d=
+f03d=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  DESTRUCTION AND FALSIFICATION OF REPORTS AND RECORDS=0D
+=0D
+=0D
+Section 203(f) of the Advisers Act permits the Commission to sanction any=
+ person who, at the time of the misconduct, was associated with an invest=
+ment adviser, if the Commission finds that the sanction is in the public =
+interest and the person has been convicted of any offense specified in Se=
+ction 203(e)(2) within ten years of the commencement of proceedings. 15 U=
+.S.C. =C2=A7 80b3(e)(2),(f).=0D
+=0D
+https://www.sec.gov/alj/aljdec/2015/id747ce.pdf=0D
+conspiracy to commit securities fraud, in violation of 18 U.S.C. =C2=A7 3=
+71; =0D
+conspiracy to commit wire fraud, in violation of 18 U.S.C. =C2=A7 1349; =0D=
+
+securities fraud, in violation of 15 U.S.C. =C2=A7=C2=A7 78j(b), 78ff, an=
+d 17 CFR =C2=A7 240.10b-5; =0D
+wire fraud, in violation of 18 U.S.C. =C2=A7 1343; =0D
+and investment adviser fraud, in violation of 15 U.S.C. =C2=A7=C2=A7 80b-=
+6 and 80b-17. OIP at 2; =0D
+=0D
+On June 23, 2014, Balboa was sentenced to a prison term of fortyeight mon=
+ths, to run concurrently on all counts, followed by three years of superv=
+ised release, and ordered to pay restitution of $390,243,873.92 and to fo=
+rfeit $2,223,000. =0D
+=0D
+15 U.S.C. =C2=A7 80b3(e)(2)(A). =0D
+Ex. C at 1-2; Exs. D, E. The superseding indictment charged Balboa with, =
+among other things, engaging in a scheme to falsely inflate the value of =
+illiquid securities between January 2008 and October 2008 and with commit=
+ting wire fraud. =0D
+=0D
+15 U.S. Code =C2=A7 78r - Liability for misleading statements=0D
+(a)Persons liable; persons entitled to recover; defense of good faith; su=
+it at law or in equity; costs, etc.=0D
+Any person who shall make or cause to be made any statement in any applic=
+ation, report, or document filed pursuant to this chapter or any rule or =
+regulation thereunder or any undertaking contained in a registration stat=
+ement as provided in subsection (d) of section 78o of this title, which s=
+tatement was at the time and in the light of the circumstances under whic=
+h it was made false or misleading with respect to any material fact, shal=
+l be liable to any person (not knowing that such statement was false or m=
+isleading) who, in reliance upon such statement, shall have purchased or =
+sold a security at a price which was affected by such statement, for dama=
+ges caused by such reliance, unless the person sued shall prove that he a=
+cted in good faith and had no knowledge that such statement was false or =
+misleading. A person seeking to enforce such liability may sue at law or =
+in equity in any court of competent jurisdiction. In any such suit the co=
+urt may, in its discretion, require an undertaking for the payment of the=
+ costs of such suit, and assess reasonable costs, including reasonable at=
+torneys=E2=80=99 fees, against either party litigant.=0D
+=0D
+(b)Contribution=0D
+Every person who becomes liable to make payment under this section may re=
+cover contribution as in cases of contract from any person who, if joined=
+ in the original suit, would have been liable to make the same payment.=0D=
+
+=0D
+(c)Period of limitations=0D
+No action shall be maintained to enforce any liability created under this=
+ section unless brought within one year after the discovery of the facts =
+constituting the cause of action and within three years after such cause =
+of action accrued.=0D
+=0D
+=0D
+[SFITX]=0D
+15 U.S. Code =C2=A7 78s - Registration, responsibilities, and oversight o=
+f self-regulatory organizations=0D
+(5)The Commission shall consult with and consider the views of the Secret=
+ary of the Treasury prior to approving a proposed rule filed by a registe=
+red securities association that primarily concerns conduct related to tra=
+nsactions in government securities, except where the Commission determine=
+s that an emergency exists requiring expeditious or summary action and pu=
+blishes its reasons therefor. If the Secretary of the Treasury comments i=
+n writing to the Commission on a proposed rule that has been published fo=
+r comment, the Commission shall respond in writing to such written commen=
+t before approving the proposed rule. If the Secretary of the Treasury de=
+termines, and notifies the Commission, that such rule, if implemented, wo=
+uld, or as applied does (i) adversely affect the liquidity or efficiency =
+of the market for government securities; or (ii) impose any burden on com=
+petition not necessary or appropriate in furtherance of the purposes of t=
+his section, the Commission shall, prior to adopting the proposed rule, f=
+ind that such rule is necessary and appropriate in furtherance of the pur=
+poses of this section notwithstanding the Secretary=E2=80=99s determinati=
+on.=0D
+=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/alj/aljdec/2015/id739ce.pdf=0D
+[t]he proper functioning of the securities industry and markets depends o=
+n the=0D
+integrity of industry participants and their commitment to transparent di=
+sclosure.=0D
+Securities industry participation by persons with a history of fraudulent=
+ conduct is=0D
+antithetical to the protection of investors. . . . We have long held that=
+ a history of=0D
+egregious fraudulent conduct demonstrates unfitness for future participat=
+ion in the=0D
+securities industry even if the disqualifying conduct is not related to t=
+he=0D
+professional capacity in which the respondent was acting when he or she e=
+ngaged=0D
+in the misconduct underlying the proceeding. The industry relies on the f=
+airness=0D
+and integrity of all persons associated with each of the professions cove=
+red by the=0D
+collateral bar to forgo opportunities to defraud and abuse other market=0D=
+
+participants.=0D
+=0D
+=0D
+=0D
+TRANSACTIONS OF CERTAIN AFFILIATED PERSONS AND UNDERWRITERS=0D
+-UNLAWFUL TRANSACTIONS=0D
+SEC. 17. (a) =0D
+It shall be unlawful for any affiliated person or pro- moter of or princi=
+pal underwriter for a registered investment company (other than a company=
+ of the character described in section 12 (d) (3) (A) and (B)), or any af=
+filiated person of such a person, promoter, or principal underwriter, act=
+ing as principal- =0D
+(1) knowingly to sell any security or other property to such registered c=
+ompany or to any company controlled by such regis- tered company, unless =
+such sale involves solely (A) securities of which the buyer is the issuer=
+, (B) securities of which the seller is the issuer and which are part of =
+a general offering to the holders of a class of its securities, or (C) se=
+curities deposited with the trustee of a unit investment trust or periodi=
+c payment plan by the depositor thereof;=0D
+=0D
+(2) knowingly to purchase from such registered company, or from any compa=
+ny controlled by such registered company, any security or other property =
+(except securities of which the seller is the issuer)=0D
+=0D
+=0D
+Liability of directors, etc., for willful misfeasance.=0D
+SEC. 17. =0D
+(h) 	After one year from the effective date of this title, neither=0D
+the charter, certificate of incorporation, articles of association, inden=
+ture of trust, nor the by-laws of any registered investment company, nor =
+any other instrument pursuant to which such a company is organized or adm=
+inistered, shall contain any provision which protects or purports to prot=
+ect any director or officer of such company against any liability to the =
+company or to its security holders to which he would otherwise be subject=
+ by reason of willful misfeasance, bad faith, gross negligence or reckles=
+s disregard of the duties involved in the conduct of his office.=0D
+=0D
+		In the event that any such instrument does not at the effective date of=
+ this Act comply with the requirements of this subsection (h) and is not =
+amended to comply therewith prior to the expiration of said one year, suc=
+h company may nevertheless continue to be a registered investment company=
+ and shall not be deemed to violate this subsection if prior to said expi=
+ration date each such director or officer shall have filed with the Commi=
+ssion a waiver in writing of any protective provision of the instrument t=
+o the extent that it does not comply with this subsection, and each such =
+person subsequently elected or appointed shall before assuming office fil=
+e a similar waiver.=0D
+=0D
+(i) 	After one year from the effective date of this title no contract or =
+agreement under which any person undertakes to act as investment adviser =
+of, or principal underwriter for, a registered investment company shall c=
+ontain any provision which protects or purports to protect such person ag=
+ainst any liability to such company or its security holders to which he w=
+ould otherwise be subject by reason of willful misfeasance, bad faith, or=
+ gross negligence, in the performance of his duties, or by reason of his =
+reckless disregard of his obligations and duties under such contract or a=
+greement.=0D
+=0D
+Injunctions against gross abuse.=0D
+SEC. 36. =0D
+The Commission is authorized to bring an action in the proper district co=
+urt of the United States or United States court of=0D
+any Territory or other place subject to the jurisdiction of the United St=
+ates, alleging that a person serving or acting in one or more of the foll=
+owing capacities has been guilty, after the enactment of this title and w=
+ithin five years of the commencement of the action, of gross misconduct o=
+r gross abuse of trust in respect of any registered investment company fo=
+r which such person so serves or acts:=0D
+(1) as officer, director, member of an advisory board, investment adviser=
+, or depositor; or=0D
+(2) as principal underwriter, if such registered company is an open-end c=
+ompany, unit investment trust, or face-amount=0D
+certificate company.=0D
+If the Commission's allegations of such gross misconduct or gross abuse o=
+f trust are established, the court shall enjoin such person from acting i=
+n such capacity or capacities either permanently or for such period of ti=
+me as it in its discretion shall deem appropriate.=0D
+=0D
+=0D
+SEC. 32. =0D
+(c) The Commission is authorized, by rules and regulations or order in th=
+e public interest or for the protection of investors, to require accounta=
+nts and auditors to keep reports, work sheets, and other documents and pa=
+pers relating to registered investment companies for such period or perio=
+ds as the Commission may prescribe, and to make the same available for in=
+spection by the Commission or any member or representative thereof.=0D
+=0D
+=0D
+DESTRUCTION AND FALSIFICATION OF REPORTS AND RECORDS=0D
+SEC. 34.=0D
+=0D
+(a) It shall be unlawful for any person, except as permitted by rule, reg=
+ulation, or order of the Commission, willfully to=0D
+destroy, mutilate, or alter any account, book, or other document the pres=
+ervation of which has been required pursuant to section 31 (a) or 32 (c).=
+=0D
+(b) It shall be unlawful for any person to make any untrue statement of a=
+ material fact in any registration statement, application, report, accoun=
+t, record, or other document filed or transmitted pursuant to this title =
+or the keeping of which is required pursuant to section 31 (a). =0D
+=0D
+It shall be unlawful for any person so filing, transmitting, or keeping a=
+ny such document to omit to state therein any fact necessary in order to =
+prevent the statements made therein, in the light of the circumstances un=
+der which they were made, from being materially misleading. For the purpo=
+ses of this subsection, any part of any such document which is signed or =
+certified by an accountant or auditor in his capacity as such shall be de=
+emed to be made, filed, transmitted, or kept by such accountant or audito=
+r, as well as by the person filing, transmitting, or keeping the complete=
+ document.=0D
+=0D
+=0D

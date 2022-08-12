@@ -1,0 +1,324 @@
+From - Mon Jun 27 19:03:06 2022
+X-Account-Key: account1
+X-UIDL: ADFWSKZ2KuzZYrpEgwYG+LTUs3A
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.147.94
+ by atlas216.free.mail.ne1.yahoo.com with HTTPS; Tue, 28 Jun 2022 00:00:14 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas216.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 00:00:14 +0000
+X-YMailAVSC: WRAkeSY3bBvJC6TnjUY0w8CmeZpGMBanbzCbjHdk8G2n6e0
+ qh0ZJVzJQBFhJAgLkp8opzcS2N3zefyiKvJoiAsNX9eIWJuOJajiBJJEaZGW
+ 5qMEBoBbz0JA8L7VhtVBhJnXxiBrwDi6Qf9JRsiI3_ZYf0ch1_9Sj215o8zw
+ kclqPx9uAjeMwcZJf6pVa9NYwXLOLFH7kPC73KEyBWFyX.Ar9sW27zRFgZ73
+ HCsM4XUK81Iz4chHkVJkTj7C_MRzF6PvinTKS4wiOD3L7Jei6sbnhhlDdWdT
+ 91pzVVziE7MUq8G9Co5qGzJ8c5f6OzzQZmB.rj3szaLEqFX36fWCIxFRqTpc
+ .wWlDh36jSUi2JWAP.1WHitxdK2Lzkq.hqWc-
+X-YMailISG: 3KxzW4gWLDvJQPSq.6PPz79v1swxISgHCyKh3k0BG2n.1cIJ
+ ZnWicAFuZegqHIWyUr.d4XPD8fog.aOud44WM.gNkIDhehER.7xT1Va90qTr
+ rxV3G_mKuvJbT57QglhZbSSmfeL_HPk2iBL.tBoBUeLPLT2lLJv3Rx.t4.ST
+ dwLdCRxiOnrDPcwHG7VZz2FGMLT_s6kfUTiggGNrxl2rZY1jx2nz0lnLZ_Om
+ bU88jr0BA2tvW1Wy5wmTZiIRaXqw.hcns1t2o8x6PfYRu1g2qU0vp5D5QyIj
+ U0NBfTW6wKVLUBMBGhgNHCjpXxokQXM_6slty_FYhXJRBAAm4F1NaEVrYQFx
+ ysTOoF25G12VVKcHRpT6E.vQP8F8SHB_fozsxUr1Y1RTP0VLK4CL7avR.c4A
+ PpTNvkaZ5qKHQ5RqqMNi_YQKhTpRW4B.7PiNQva9vYwdDacHpB7rODrzd1rO
+ PWLg5TAAWgwVjRGaYeVPMPE2RjGDG1dSnJGt1Cmrh.CXgRgqZlJlxlVzRgtL
+ q.jdeq_6etA0rSP_6E3nP8lBWS.Z3wwyzu43BqLm8PHxSUzz.q.udI.ct4cw
+ zioF4e5FeeYj6HmGCN7Y821Dbfwmr._l3AtYXqdkVdlHho4nejL4S5HnxCZS
+ EaortO5bdd8ckCPEol3wPkGV1cDSqwfoRpKzxTLJG8XDwYdqvqSQ5eLz9PIc
+ AbiqPiVRqEK6umGextKHdajRWi19Epv1D_jrjD2ff175H0Hs2FRrL.gz6T4t
+ XuKTUtvfsWH6.7OLRoGJffmt64ib78J.iJQqZ5inZ5WZMnuHqGlXi7PVYxrz
+ NdXLCRwklWjfub900Ns5wlA7f6qDs_UmwA1Mlf3FVHiXvoAgUjlR.6egGmQ7
+ Yh9Mlcoyo6gH5WhKdQ5FPWXc7K.Vovkieb6Ioi9k0.osmBwZspf9SJjEjdHD
+ qe1lDbWMa6uTSN1lT8BCFJ0PmpTEI3Y2Px85xKNpVS41ERxx2Sy1EhkU88eF
+ CXu8g9sF8EBiGEjNE.LIPYziY9KXC1P8lRIdzOYHiGz_2cDcIR5DLd3JQrm8
+ npty.icOo7r7YLtYiK2s_xf6u85uzoFttjUOtfl6KZhBeheWw3hoS5luruPx
+ AWDE358fnCWWTiiMyGIfu31eWurdGEgBdDr6dmSClgB3cZy7Rq9wb0nvgnZ2
+ b_.nNrIxHFsPGzCoZgrNdFEc4gdGy6O1d5C.T4QRnu8q2g--
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.217.147.94 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 00:00:14 +0000
+Received: from github.com (hubbernetes-node-0887865.va3-iad.github.net [10.48.207.46])
+	by smtp.github.com (Postfix) with ESMTPA id 35EB85C059A;
+	Mon, 27 Jun 2022 17:00:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656374414;
+	bh=9/BsH/KLALAS+L01w7Ydsu2ytLbcciiglP3wAv250YI=;
+	h=Date:From:To:Subject:From;
+	b=sjRxFqxSwHKTWbp9pySVuNXmUZRE8cVUC2/acNlhekyBvegM0mGRFziwnODeckRrM
+	 Fp+w9Dz5YusLUrZILf3q1Mx/aZ750xaP54uZZUzxJIHs89/ft0I0623zOcQMqkOtES
+	 LrPHUdosY7TfWJ6ZCB1GnMjT+RUDkgXD0K8vcED4=
+Date: Mon, 27 Jun 2022 17:00:14 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/2022-06-27/ed5a7e-358ac7@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 358ac7: [$6 MILLION DOLLAR LOAN](https://iapps.courts.stat...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 15161
+
+  Branch: refs/heads/2022-06-27=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 358ac7fde89d5f367648579a54a28c929d34ea6c=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/358ac7fde89d5f367648579a54a28c929d34=
+ea6c=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-27 (Mon, 27 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  [$6 MILLION DOLLAR LOAN](https://iapps.courts.state.ny.us/nyscef/ViewDo=
+cument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D) EXECUTED AND NOTARIZ=
+ED BY ALL RELEVANT PARTIES, WHICH I PERSONALLY FILED ON 08/09/2020 02:24 =
+AM AFTER PROVIDING [NOTICE TO STATE FARM](https://iapps.courts.state.ny.u=
+s/nyscef/ViewDocument?docIndex=3DXjn0/e1NcBADqRc_PLUS_g11P4g=3D=3D)<br> -=
+- NYSCEF INDEX NO. 153974/2020<br> THE ATTORNEYS, AS ACCESSORIES AND UNDE=
+R [USC 18, =C2=A72]+[USC 18, =C2=A73]+[USC 18, =C2=A74] BELIEVED THEY ARE=
+ ALSO EXEMPT FROM PROSECUTION<br><br> https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br> ***** =
+    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dcve65=
+PXNBCtdxjJFkfwUnw=3D=3D<br> *****     [USC 18, =C2=A7225]+[USC 18, =C2=A7=
+21]+[USC 18, =C2=A7215]+[USC 18, =C2=A7241]+[USC 18, =C2=A7373]   <**voic=
+email attached>*<br> *****     [USC 18, =C2=A7241]+[USC 18, =C2=A7216][US=
+C 18, =C2=A7218]+[USC 18, =C2=A7229B]<br> *****     [USC 18, =C2=A71962]+=
+[USC 18, =C2=A71963]<br> *****     [USC 18, =C2=A72]+[USC 18, =C2=A73]+[U=
+SC 18, =C2=A74]<br> *****    https://iapps.courts.state.ny.us/nyscef/View=
+Document?docIndex=3Dc3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D<br> *****    under =
+ [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A71962]+[USC 18, =C2=
+=A71963]+[USC 18, =C2=A7241]+[USC 18, =C2=A74]+the desperation of [USC 18=
+, =C2=A73] =3D priceless<br> *****    https://iapps.courts.state.ny.us/ny=
+scef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br> ***** =
+   https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/=
+WFihoyIKwEunaalQ=3D=3D<br> *****    https://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DCOy_PLUS_fGGrxcNqhj5mZodapA=3D=3D<br> *****   =
+ GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID PROSECUTI=
+ON IN A VIOLATION OF PRIVACY CASE<br> *****    https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<b=
+r> *****    ABUSE OF THE NY SUPREME COURT, CIVIL PART IN 2020 <br> ***** =
+   DURING THE COVID-19 PANDEMIC - SEE ALSO LOSSES SUFFERED IN ONE UPON DI=
+SCOVERY OF THE MATERIAL FACTS<br> *****    TICKERS: STFGX, SFITX, SFBDX, =
+STFBX<br> *****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR=
+ EFFECTIVELY, AN "ESTOPPEL"<br> *****    https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3Dcve65PXNBCtdxjJFkfwUnw=3D=3D<br> *****   =
+ https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D<br> *****    https://iapps.courts.state.ny.us/n=
+yscef/ViewDocument?docIndex=3DLMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br> *****=
+    UNLAWFUL ASSETS IN CUSTODY AT JP MORGAN CHASE BANK, NA<br> *****    h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6DB=
+JZ1wsiq0b38A=3D=3D<br>      	&nbsp;&nbsp;&nbsp;*****     *****     ***** =
+    *****     *****     *****     *****     *****     *****     *****    =
+ *****     *****     *****     *****     *****     *****     *****     **=
+***     *****     *****     *****     *****     *****     *****     *****=
+     *****  (1)    STATE FARM ASSURANCES FUNDS TRUST.<br> (2)    STATE FA=
+RM LIFE INSURANCE COMPANY<br> *****     ONE STATE FARM PLAZA, BLOOMINGTON=
+, IL, 61710<br>  (3)    [DONALD ZUCKER](https://iapps.courts.state.ny.us/=
+nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D)<br> (4)=
+    [SULLIVAN PROPERTIES LP](https://iapps.courts.state.ny.us/nyscef/View=
+Document?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D)<br> *****     101 =
+WEST 55TH STREET, NEW YORK, NY, 10019<br>  (5)    DAVID MOORE<br> (6)    =
+[MONK, JOSEPH RILEY JR (CRD#:1357149)](https://brokercheck.finra.org/indi=
+vidual/summary/1357149)<br> (7)    PAUL J SMITH<br> (8)    TERRENCE LUDWI=
+G<br> *****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>  (9)    =
+SULLIVAN PROPERTIES LP<br> *****     101 WEST 55TH STREET, NEW YORK, NY, =
+10019<br>  (10)    SULLIVAN GP LLC<br> *****     101 WEST 55TH STREET, NE=
+W YORK, NY, 10019<br>  (11)    MANHATTAN SKYLINE MANAGEMENT CORP.<br>    =
+       of counsel in NYSCF matter 153974/2020 [ annexed ] obo of "Plainti=
+ffs"<br> (12)    [SHARI LASKOWITZ](https://iapps.courts.state.ny.us/nysce=
+f/ViewDocument?docIndex=3Dcve65PXNBCtdxjJFkfwUnw=3D=3D) <br> (13)    ASHL=
+EY HUMPHRIES<br> (14)    CORY WEISS<br> *****     150 EAST 42ND STREET, N=
+EW YORK, NY, 10017<br>      (15)    PAUL REGAN<br> *****     101 WEST 55T=
+H STREET, NEW YORK, NY, 10019<br>   (16)    [STATE FARM VP MANAGEMENT COR=
+P](https://brokercheck.finra.org/firm/summary/43036)<br> *****     ONE ST=
+ATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>   (17)    [RICKI ROER](https:/=
+/github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM=
+-SULLIVAN-ZUCKER/files/8996267/3.RICKI.E.ROAR.pdf)<br>  (18)    [AMY HANR=
+AHAN 0009813982](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996269/1.ELSER.-.00098139=
+82.-.Annual.Report.1.pdf)<br>   (19)    [ALAN RUBIN 0006974529](https://g=
+ithub.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-S=
+ULLIVAN-ZUCKER/files/8996268/1.ELSER.-.0006974529.-.Annual.Report-1.pdf)<=
+br>  *****     150 EAST 42ND STREET, NEW YORK, NY, 10017<br>     <br>    =
+  *****     *****     *****     *****     *****     *****     *****     *=
+****     *****     *****     *****     *****     *****<br><br><br>   Subj=
+ect: 1320 EST: Voicemail from Mr. PAUL REGAN [USC 18, =C2=A7241]<br> From=
+:B D2022 <ms60710444266@yahoo.com><br> Date:6/27/2022, 2:32 PM<br> To:"us=
+doj@public.govdelivery.com" <usdoj@public.govdelivery.com>, "irs@service.=
+govdelivery.com" <irs@service.govdelivery.com>, "usttb@public.govdelivery=
+.com" <usttb@public.govdelivery.com>, "financialeducation@info.consumerfi=
+nance.gov" <financialeducation@info.consumerfinance.gov>, "DHSOIG@public.=
+govdelivery.com" <DHSOIG@public.govdelivery.com>, "vaoig@messages.va.gov"=
+ <vaoig@messages.va.gov>, "pbgc@subscriptions.pbgc.gov" <pbgc@subscriptio=
+ns.pbgc.gov>, "USPSOIG@public.govdelivery.com" <USPSOIG@public.govdeliver=
+y.com>, "cdfifund@service.govdelivery.com" <cdfifund@service.govdelivery.=
+com>, "subscribe@subscribe.ftc.gov" <subscribe@subscribe.ftc.gov>, "vatax=
+@public.govdelivery.com" <vatax@public.govdelivery.com>, "tigta@service.g=
+ovdelivery.com" <tigta@service.govdelivery.com>, "news@updates.sba.gov" <=
+news@updates.sba.gov>, "news@updates.oig.dot.gov" <news@updates.oig.dot.g=
+ov>, KATHY HOCHUL <governor.hochul@exec.ny.gov>, "ms60710444266@yahoo.com=
+" <MS60710444266@YAHOO.COM>, "bdincer66@icloud.com" <bdincer66@icloud.com=
+><br> CC:"MSHY1 [ DEC 18 - 2021]" <mshy1@bloomberg.net>, "Ashley V. Humph=
+ries" <ashley.humphries@wilsonelser.com>, "slaskowitz@ingramllp.com" <sla=
+skowitz@ingramllp.com>, "lzucker@mskyline.com" <lzucker@mskyline.com>, "a=
+dministrator@mskyline.com" <administrator@mskyline.com>, "administration@=
+mskyline.com" <ADMINISTRATION@MSKYLINE.COM> <br>BCC:"10pctyco@nypd.org" <=
+10pctyco@nypd.org>, "23pctyco@nypd.org" <23pctyco@nypd.org>, "1pctdvo@nyp=
+d.org" <1pctdvo@nypd.org>, "1pctyco@nypd.org" <1pctyco@nypd.org>=0D
+=0D
+[$6 MILLION DOLLAR LOAN](https://iapps.courts.state.ny.us/nyscef/ViewDocu=
+ment?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D) EXECUTED AND NOTARIZED=
+ BY ALL RELEVANT PARTIES, WHICH I PERSONALLY FILED ON 08/09/2020 02:24 AM=
+ AFTER PROVIDING [NOTICE TO STATE FARM](https://iapps.courts.state.ny.us/=
+nyscef/ViewDocument?docIndex=3DXjn0/e1NcBADqRc_PLUS_g11P4g=3D=3D)<br>=0D
+-- NYSCEF INDEX NO. 153974/2020<br>=0D
+THE ATTORNEYS, AS ACCESSORIES AND UNDER [USC 18, =C2=A72]+[USC 18, =C2=A7=
+3]+[USC 18, =C2=A74] BELIEVED THEY ARE ALSO EXEMPT FROM PROSECUTION<br><b=
+r>=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn6=
+6hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****     https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D<br>=0D
+*****     [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7215]+[USC=
+ 18, =C2=A7241]+[USC 18, =C2=A7373]   <**voicemail attached>*<br>=0D
+*****     [USC 18, =C2=A7241]+[USC 18, =C2=A7216][USC 18, =C2=A7218]+[USC=
+ 18, =C2=A7229B]<br>=0D
+*****     [USC 18, =C2=A71962]+[USC 18, =C2=A71963]<br>=0D
+*****     [USC 18, =C2=A72]+[USC 18, =C2=A73]+[USC 18, =C2=A74]<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+c3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D<br>=0D
+*****    under  [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7196=
+2]+[USC 18, =C2=A71963]+[USC 18, =C2=A7241]+[USC 18, =C2=A74]+the despera=
+tion of [USC 18, =C2=A73] =3D priceless<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+PWFQc/WFihoyIKwEunaalQ=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D<br>=0D
+*****    GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID P=
+ROSECUTION IN A VIOLATION OF PRIVACY CASE<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    ABUSE OF THE NY SUPREME COURT, CIVIL PART IN 2020 <br>=0D
+*****    DURING THE COVID-19 PANDEMIC - SEE ALSO LOSSES SUFFERED IN ONE U=
+PON DISCOVERY OF THE MATERIAL FACTS<br>=0D
+*****    TICKERS: STFGX, SFITX, SFBDX, STFBX<br>=0D
+*****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR EFFECTIVE=
+LY, AN "ESTOPPEL"<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    UNLAWFUL ASSETS IN CUSTODY AT JP MORGAN CHASE BANK, NA<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+R9aac7D6DBJZ1wsiq0b38A=3D=3D<br>=0D
+     	&nbsp;&nbsp;&nbsp;*****     *****     *****     *****     *****    =
+ *****     *****     *****     *****     *****     *****     *****     **=
+***     *****     *****     *****     *****     *****     *****     *****=
+     *****     *****     *****     *****     *****     *****=0D
+=0D
+(1)    STATE FARM ASSURANCES FUNDS TRUST.<br>=0D
+(2)    STATE FARM LIFE INSURANCE COMPANY<br>=0D
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>=0D
+=0D
+(3)    [DONALD ZUCKER](https://iapps.courts.state.ny.us/nyscef/ViewDocume=
+nt?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D)<br>=0D
+(4)    [SULLIVAN PROPERTIES LP](https://iapps.courts.state.ny.us/nyscef/V=
+iewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D)<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+(5)    DAVID MOORE<br>=0D
+(6)    [MONK, JOSEPH RILEY JR (CRD#:1357149)](https://brokercheck.finra.o=
+rg/individual/summary/1357149)<br>=0D
+(7)    PAUL J SMITH<br>=0D
+(8)    TERRENCE LUDWIG<br>=0D
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>=0D
+=0D
+(9)    SULLIVAN PROPERTIES LP<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+(10)    SULLIVAN GP LLC<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+(11)    MANHATTAN SKYLINE MANAGEMENT CORP.<br>=0D
+          of counsel in NYSCF matter 153974/2020 [ annexed ] obo of "Plai=
+ntiffs"<br>=0D
+(12)    [SHARI LASKOWITZ](https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dcve65PXNBCtdxjJFkfwUnw=3D=3D) <br>=0D
+(13)    ASHLEY HUMPHRIES<br>=0D
+(14)    CORY WEISS<br>=0D
+*****     150 EAST 42ND STREET, NEW YORK, NY, 10017<br>=0D
+    =0D
+(15)    PAUL REGAN<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+ (16)    [STATE FARM VP MANAGEMENT CORP](https://brokercheck.finra.org/fi=
+rm/summary/43036)<br>=0D
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>=0D
+=0D
+ (17)    [RICKI ROER](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996267/3.RICKI.E.ROA=
+R.pdf)<br>=0D
+ (18)    [AMY HANRAHAN 0009813982](https://github.com/WILSON-ELSER-STATEF=
+ARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996269/=
+1.ELSER.-.0009813982.-.Annual.Report.1.pdf)<br> =0D
+ (19)    [ALAN RUBIN 0006974529](https://github.com/WILSON-ELSER-STATEFAR=
+M-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996268/1.=
+ELSER.-.0006974529.-.Annual.Report-1.pdf)<br> =0D
+*****     150 EAST 42ND STREET, NEW YORK, NY, 10017<br>=0D
+    <br>=0D
+     *****     *****     *****     *****     *****     *****     *****   =
+  *****     *****     *****     *****     *****     *****<br><br><br>=0D
+=0D
+=0D
+Subject: 1320 EST: Voicemail from Mr. PAUL REGAN [USC 18, =C2=A7241]<br>=0D=
+
+From:B D2022 <ms60710444266@yahoo.com><br>=0D
+Date:6/27/2022, 2:32 PM<br>=0D
+To:"usdoj@public.govdelivery.com" <usdoj@public.govdelivery.com>, "irs@se=
+rvice.govdelivery.com" <irs@service.govdelivery.com>, "usttb@public.govde=
+livery.com" <usttb@public.govdelivery.com>, "financialeducation@info.cons=
+umerfinance.gov" <financialeducation@info.consumerfinance.gov>, "DHSOIG@p=
+ublic.govdelivery.com" <DHSOIG@public.govdelivery.com>, "vaoig@messages.v=
+a.gov" <vaoig@messages.va.gov>, "pbgc@subscriptions.pbgc.gov" <pbgc@subsc=
+riptions.pbgc.gov>, "USPSOIG@public.govdelivery.com" <USPSOIG@public.govd=
+elivery.com>, "cdfifund@service.govdelivery.com" <cdfifund@service.govdel=
+ivery.com>, "subscribe@subscribe.ftc.gov" <subscribe@subscribe.ftc.gov>, =
+"vatax@public.govdelivery.com" <vatax@public.govdelivery.com>, "tigta@ser=
+vice.govdelivery.com" <tigta@service.govdelivery.com>, "news@updates.sba.=
+gov" <news@updates.sba.gov>, "news@updates.oig.dot.gov" <news@updates.oig=
+.dot.gov>, KATHY HOCHUL <governor.hochul@exec.ny.gov>, "ms60710444266@yah=
+oo.com" <MS60710444266@YAHOO.COM>, "bdincer66@icloud.com" <bdincer66@iclo=
+ud.com><br>=0D
+CC:"MSHY1 [ DEC 18 - 2021]" <mshy1@bloomberg.net>, "Ashley V. Humphries" =
+<ashley.humphries@wilsonelser.com>, "slaskowitz@ingramllp.com" <slaskowit=
+z@ingramllp.com>, "lzucker@mskyline.com" <lzucker@mskyline.com>, "adminis=
+trator@mskyline.com" <administrator@mskyline.com>, "administration@mskyli=
+ne.com" <ADMINISTRATION@MSKYLINE.COM>=0D
+<br>BCC:"10pctyco@nypd.org" <10pctyco@nypd.org>, "23pctyco@nypd.org" <23p=
+ctyco@nypd.org>, "1pctdvo@nypd.org" <1pctdvo@nypd.org>, "1pctyco@nypd.org=
+" <1pctyco@nypd.org>=0D
+=0D
+=0D

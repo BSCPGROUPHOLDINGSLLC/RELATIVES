@@ -1,0 +1,381 @@
+From - Sun Jun 26 14:21:14 2022
+X-Account-Key: account1
+X-UIDL: AN2hp2t4oUEBYriwkAa6qI0HOXk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.232.211
+ by atlas211.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 19:16:32 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas211.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 19:16:32 +0000
+X-YMailAVSC: QZiHDys3bBtn1bhuYrDhAfOvLKdYXNEaC55M_scNv_jBK55
+ dcRjM8egv_YE1sSMap6iwpS73aAbqgSMcMgHmTmNTH70nEg29QIjGr4_YvOT
+ qUIDAs1.s1D7yfDeiB3q2GBFlocPE0BxLBKfPQyAGhi5fs5RwuGrNhyCTFVw
+ GXyBKD09qR34BqXxXl.ch1uh2HM1gRnvLwb47E3MswvAIJKuhPoGeEz7BDZg
+ tOYMcbtolXVhL3zNl.P4v5.NdSPjG_8rS0Tu1L_p2VIvuykZuKoysPAhLi8V
+ Ua2h0n2kQ8Z_GcuDsTRPqLrybceMmMQls4y94_m3YXI1TOzunwDIR6V_IQ9J
+ BHAs-
+X-YMailISG: u5JPRW8WLDt1Txhhbjj1q1XTHXPsgHBaNFiQEXKstji04Mc8
+ K3MVgbsKGvIoKf_SdOUTvMhIj0ea6R4rQ59uSuCRlpGTWNsv7KjNXtEc1LNx
+ PLhvmkBxSlIVbhQYPWRz8.nzQyt8YZSCgASSWxWsjsmt2rDOuxMI8gejHKq2
+ WZgGSfa2z9qtw9hr5DOckqfUsjeG6yPNqECq2igqwJyKIiGIv6Ug8d_7WrxU
+ R4PUNbOKVxPAmdyGCRBBX4Fv..bhZCOg5hVvjHsdT3C4Exjmq7FY.rGNDWHo
+ mwkM9cM01DY6pfGMqSHA44N.m5M3YKF3JtNhrsUvNy4E.q5URV8O9dcN7n8P
+ nbjzCXd9W8NXJ7I4uiqYYUNRx9Q6GhzBFjqpciatvIwKXVmjh7boWUC1TgE2
+ mL1ORq0BDhnXl16EtCYkDrB6RrI99z0W5axLwUAAQt1DMiPsi.NDKZVVloDG
+ QMX2X7XBaT.fFxwfJhWQgkCjexAAJ3N0YKhaso3loazQLSHWJ_rG8mprYc_x
+ _pfpV0QWQWFF3RE6TZoQlN3V6C0xz9rXrfZRQp0bY_k0zM.Sbirbgz2k6z2.
+ Rt0YkegLOGnrOzfHIPCJ1iw1_QAXZ.ASj8YDw5SLNkZjbjusFFZvA8jXGMxk
+ 0juh8wv6AWGB4LIXPerHDHBHOvZV8isXJgtDU8ldfpz2KNWW9GRkWf2rZUXs
+ P5g2AwG6bhneePvDfs.EweeegR2eRQelznxt51iwBcy3CLXS92xPek.Wv.UC
+ OSwHoZEHSpXLk4Ks1E3Q75HjHCeEmUkxhjWT413HZLImDzOdt6UMZeuOwleM
+ DpkQiKbwj9rfRFUx5iJJPjW_N4rbpKSMgs507B1iaV3XPiVTZLHIlTDP3vWK
+ gJ0mSS6DyrMX7pYvkXkVocjluXhPi4I3lmt6sQLSrTyWSUGkQB5mUIqy1Iaa
+ p1AjZRSen6wHQ5GSJJ.I8cd.aQOXTZ3qP0bhDUFwoQQydJyRCxX8JTCJZQi0
+ bbMsXo0MNHztoWXdgnkIjI675EAo0QACTh5Ub1z7E4C9S36RT2IRO.vsnoNv
+ KptRTN1S_o5MWz7NIbv1osaFz1kK0kxEPbsNRzi6x8AtPCgppG3x857sH3vP
+ IuhCtbr0NAzscfHFU1ZEfOYFIv9wGTqikT.XbdvDFvxjP3dtsp0fX43ydsk.
+ I9voxZdi3i3FTi33gGzYRXqXrWHFbJ4WUhyKG1vrj0.Xg5pf
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.253.232.211 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 19:16:32 +0000
+Received: from github.com (hubbernetes-node-05dc34d.ac4-iad.github.net [10.52.11.64])
+	by smtp.github.com (Postfix) with ESMTPA id 56AFA72020B;
+	Sun, 26 Jun 2022 12:16:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656270991;
+	bh=yvb/ydKMqAewWcSe4MIZNGsm7QmSGq6mpvdQdGDBbc0=;
+	h=Date:From:To:Subject:From;
+	b=ZUJySXWCFI1EBCkkh57RGwfVsEc93O5K+xxWLC5Vnle/5L+VzPkQoVLgo388xfcMx
+	 zX9xEYVNIHpN1lMN3pOES9OdWnId3RWJOcOhRCbWcJ8LOO8lU7+gUIG6IyAUp5t24P
+	 A2fZ8qE98f1Z5JJGZPtqImkRmO5wd0v4QGLoqQPA=
+Date: Sun, 26 Jun 2022 12:16:31 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/b8a0f7-37495d@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 37495d: AKA. NOT FIT.
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 20275
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 37495d104c11c1762bb5e40134e9524f4acd323f=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/37495d104c11c1762bb5e40134e9524f4acd=
+323f=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  AKA. NOT FIT.=0D
+=0D
+=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Fwd: t113434=0D
+Date: 	Fri, 24 Jun 2022 08:22:03 -0500=0D
+From: 	B D2022 <ms60710444266@yahoo.com>=0D
+To: 	smbyrne@bloomberg.net <smbyrne@bloomberg.net>, John Malito <jmalito@=
+bloomberg.net>, Steven Santiccioli, Northern Trust <steve@bloomberg.net>,=
+ [ NTRS ] Steven Santiccioli <sjs5@ntrs.com>, Heather Caldwell <hncaldwel=
+l@bloomberg.net>, Brent Reeder <bdr11@bloomberg.net>, Michael Zaroogian <=
+mzaroogian1@bloomberg.net>, Terence Lynch <tlynch54@bloomberg.net>, Rebek=
+ah Holt <rholt22@bloomberg.net>, Katie Hubbard <khubbard1@bloomberg.net>,=
+ Leigh Ann Rogalski <lrogalski@bloomberg.net>, smarsh16@bloomberg.net <sm=
+arsh16@bloomberg.net>, Chris Minter <cminter2@bloomberg.net>, Hollie Mars=
+h <hmarsh6@bloomberg.net>, Matthew Lockridge <mlockridge2@bloomberg.net>,=
+ Ashley Smock <asmock1@bloomberg.net>, Cory Swartzlander <cswartzlande@bl=
+oomjhoyerberg.net>, Scott Lawson <sbloomberglawson15@bloomberg.net>, Ayma=
+n Bari <abari4@bloomberg.net>, Adam Vales <avales1@bloomberg.net>, KEVIN =
+ROCK <krock5@bloomberg.net>, Jean-Francois Ducrest <ducrest2@bloomberg.ne=
+t>, Mark Dunford <mdunford3@bloomberg.net>, Caroline Dirks <cdirks1@bloom=
+berg.net>, Kyle Gilmor <kgilmore10@bloomberg.net>, Diane Hsiung <dianehsi=
+ung@bloomberg.net>, HUNTER ROSE <hrose17@bloomberg.net>, Cameron Kurak <c=
+kurak@bloomberg.net>, Mark Broughton <mbroughton11@bloomberg.net>, Betsey=
+ Euliss <beuliss@bloomberg.net>, Kim Bretz <kbretz2@bloomberg.net>, Jon W=
+ilson <jwilson578@bloomberg.net>, Numan Ahmed <nahmed127@bloomberg.net>, =
+Walter Ruane <wruane1@bloomberg.net>, Shawna Barlow <sbarlow28@bloomberg.=
+net>, Philip Kroger <pkroger5@bloomberg.net>, Gabrielle Poole <gpoole2011=
+@bloomberg.net>, Ricardo Correa <rcorrea29@bloomberg.net>, Matt Krebsbach=
+ <mkrebsbach3@bloomberg.net>, Sophie Kim <skim1465@bloomberg.net>, Ketric=
+k Karsten <kkarsten@bloomberg.net>, Larnita Gates <lgates16@bloomberg.net=
+>, Vicki Trimpe <vtrimpe@bloomberg.net>, Christin Higham <cmhigham@bloomb=
+erg.net>, Christina Constantine <cconstanti37@bloomberg.net>, MSHY1 [ DEC=
+ 18 - 2021] <mshy1@bloomberg.net>, Peter Melley <pmelley@bloomberg.net>, =
+jhoyer@bloomberg.net <jhoyer@bloomberg.net>, gshull@bloomberg.net <gshull=
+@bloomberg.net>, Jeffrey Attwood <jtattwood@bloomberg.net>, Robert Stepha=
+n <bstephan@bloomberg.net>, LISA ROGERS <lrogers@bloomberg.net>, Elena Kh=
+oziaeva <ekhoziaeva@bloomberg.net>, btrauner@bloomberg.net <btrauner@bloo=
+mberg.net>, tbaker5@bloomberg.net <tbaker5@bloomberg.net>, tgipson@bloomb=
+erg.net <tgipson@bloomberg.net>, Michael Whipple <mwhipple@bloomberg.net>=
+, Chad Moser <cmoser7@bloomberg.net>, tzelgert@bloomberg.net <tzelgert@bl=
+oomberg.net>, Ray Renken <rrenken@bloomberg.net>, Kara Olson Sheffield <k=
+sheffield1@bloomberg.net>, Jennifer Hsui <jhsui2@bloomberg.net>, John Soc=
+ha <jsocha@bloomberg.net>, Joe Young <jyoung121@bloomberg.net>, Wade Rein=
+thaler <wreinthaler@bloomberg.net>, sreid42@bloomberg.net <sreid42@bloomb=
+erg.net>, Adam Hallman <ahallman1@bloomberg.net>, Tyler Smith <tsmith241@=
+bloomberg.net>, Wei Hao <whao15@bloomberg.net>, Rich Rebholz <rrebholz@bl=
+oomberg.net>, Michael Mayberger <mmayberger@bloomberg.net>, Brian Bengtso=
+n <bbengtson3@bloomberg.net>, BARIS xmas211 Dincer <bdincer211@bloomberg.=
+net>, Donald Rizer <drizer@bloomberg.net>, Paul Aragon <aragonp@bloomberg=
+.net>, B.DINCER@COLUMBIA.EDU <b.dincer@columbia.edu>, Jesse Aguilar <agui=
+larj@bloomberg.net>, FEDERATED INVESTMENT <fed-mmkt-ops@bloomberg.net>, S=
+amriddi Abney <sadhikari2@bloomberg.net>, cmobloomberg@bloomberg.net, Ker=
+ri Saperstein <ksaperstein2@bloomberg.net>, Ms Hyld (MORGAN STANLEY ) <ms=
+hyld@bloomberg.net>, Morgan Stanley15 (MORGAN STANLEY ADVTG ) <mstanley15=
+3@bloomberg.net>, Morgan Stanley154 (MORGAN STANLEY ADVTG ) Morgan Stanle=
+y154 (MORGAN STANLEY ADVTG ) <mstanley1541@bloomberg.net>, Morgan32 Stanl=
+ey (MORGAN STANLEY ADVTG ) Morgan32 Stanley (MORGAN STANLEY ADVTG ) <msta=
+nley321@bloomberg.net>, Marc Freeman <mfreeman57@bloomberg.net>, Viviana =
+Lui-Chan <vlui-chan@bloomberg.net>, Jay Loftus <jloftus21@bloomberg.net>,=
+ William Downey <wdowney4@bloomberg.net>, tclarke57@bloomberg.net <tclark=
+e57@bloomberg.net>, Brian Carr <bcarr43@bloomberg.net>, Michael Karp <kar=
+p58@bloomberg.net>, Nicole Bowyer <nicole.bowyer@statefarm.com>, gpradoco=
+rrea@bloomberg.net <gpradocorrea@bloomberg.net>=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	t113434=0D
+Date: 	Sun, 22 May 2022 08:25:56 -0500=0D
+From: 	B D2022 <ms60710444266@yahoo.com>=0D
+To: 	MILTON MCKENZIE <MS60710444266@YAHOO.COM>=0D
+=0D
+=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:37:40 UTC-5:00=0D
+To:Susan Byrne (WESTWOOD MANAGEMENT ) <mailto:smbyrne@bloomberg.net>, Jul=
+ie Hoyer (STATE FARM MUTUAL AU ) <mailto:jhoyer@bloomberg.net>, Greg Shul=
+l (STATE FARM MUTUAL AU ) <mailto:gshull@bloomberg.net>, Jeffrey Attwood =
+(STATE FARM MUTUAL AU ) <mailto:jtattwood@bloomberg.net>, John Malito (ST=
+ATE FARM MUTUAL AU ) <mailto:jmalito@bloomberg.net>, Steven Santiccioli (=
+NORTHERN TRUST COMPA ) <mailto:steve@bloomberg.net>, Robert Stephan (STAT=
+E FARM MUTUAL AU ) <mailto:bstephan@bloomberg.net>, Lisa Rogers (STATE FA=
+RM MUTUAL AU ) <mailto:lrogers@bloomberg.net>, Elena Khoziaeva (BRIDGEWAY=
+ CAPITAL MA ) <mailto:ekhoziaeva@bloomberg.net>, Bill Trauner (STATE FARM=
+ MUTUAL AU ) <mailto:btrauner@bloomberg.net>, Heather Caldwell (STATE FAR=
+M MUTUAL AU ) <mailto:hncaldwell@bloomberg.net>, Theresa Baker (STATE FAR=
+M MUTUAL AU ) <mailto:tbaker5@bloomberg.net>, Tammy Gipson (STATE FARM MU=
+TUAL AU ) <mailto:tgipson@bloomberg.net>, Brent Reeder (NORTHERN TRUST CO=
+MPA ) <mailto:bdr11@bloomberg.net>, Michael Whipple (BRIDGEWAY CAPITAL MA=
+ ) <mailto:mwhipple@bloomberg.net>, Michael Zaroogian (STATE FARM MUTUAL =
+AU ) <mailto:mzaroogian1@bloomberg.net>, Terence Lynch (GAINSCO SERVICE C=
+ORP ) <mailto:tlynch54@bloomberg.net>, Rebekah Holt (STATE FARM MUTUAL AU=
+ ) <mailto:rholt22@bloomberg.net>, Katie Hubbard (STATE FARM MUTUAL AU ) =
+<mailto:khubbard1@bloomberg.net>, Leigh Ann Rogalski (STATE FARM MUTUAL A=
+U ) <mailto:lrogalski@bloomberg.net>, Chad Moser (STATE FARM MUTUAL AU ) =
+<mailto:cmoser7@bloomberg.net>, Tim Zelgert (STATE FARM MUTUAL AU ) <mail=
+to:tzelgert@bloomberg.net>, Ray Renken (STATE FARM MUTUAL AU ) <mailto:rr=
+enken@bloomberg.net>, Kara Olson (STATE FARM MUTUAL AU ) <mailto:ksheffie=
+ld1@bloomberg.net>, Jim Chan (BLACKROCK INSTITUTIO ) <mailto:jchan161@blo=
+omberg.net>, Matt Harvey (STATE FARM MUTUAL AU ) <mailto:mharvey13@bloomb=
+erg.net>, Steve Brucker (STATE FARM MUTUAL AU ) <mailto:sbrucker@bloomber=
+g.net>, John Socha (STATE FARM MUTUAL AU ) <mailto:jsocha@bloomberg.net>,=
+ Jennifer Hsui (BLACKROCK INSTITUTIO ) <mailto:jhsui2@bloomberg.net>, Joe=
+ Young (STATE FARM MUTUAL AU ) <mailto:jyoung121@bloomberg.net>, Wade Rei=
+nthaler (STATE FARM MUTUAL AU ) <mailto:wreinthaler@bloomberg.net>, Scott=
+ Reid (STATE FARM MUTUAL AU ) <mailto:sreid42@bloomberg.net>, Adam Hallma=
+n (STATE FARM MUTUAL AU ) <mailto:ahallman1@bloomberg.net>, Tyler Smith (=
+STATE FARM MUTUAL AU ) <mailto:tsmith241@bloomberg.net>, Wei Hao (STATE F=
+ARM MUTUAL AU ) <mailto:whao15@bloomberg.net>, Chris Minter (STATE FARM M=
+UTUAL AU ) <mailto:cminter2@bloomberg.net>, Shelly Marsh (STATE FARM MUTU=
+AL AU ) <mailto:smarsh16@bloomberg.net>, Hollie Marsh (STATE FARM MUTUAL =
+AU ) <mailto:hmarsh6@bloomberg.net>, Matthew Lockridge (WESTWOOD MANAGEME=
+NT ) <mailto:mlockridge2@bloomberg.net>, Rich Rebholz (STATE FARM MUTUAL =
+AU ) <mailto:rrebholz@bloomberg.net>, Michael Mayberger (STATE FARM MUTUA=
+L AU ) <mailto:mmayberger@bloomberg.net>, Ashley Smock (STATE FARM MUTUAL=
+ AU ) <mailto:asmock1@bloomberg.net>, Brian Bengtson (STATE FARM MUTUAL A=
+U ) <mailto:bbengtson3@bloomberg.net>, Cory Swartzlander (STATE FARM MUTU=
+AL AU ) <mailto:cswartzlande@bloomberg.net>, Scott Lawson (WESTWOOD MANAG=
+EMENT ) <mailto:slawson15@bloomberg.net>, Ayman Bari (STATE FARM MUTUAL A=
+U ) <mailto:abari4@bloomberg.net>, Adam Vales (STATE FARM MUTUAL AU ) <ma=
+ilto:avales1@bloomberg.net>, Robert Middleton (STATE FARM MUTUAL AU ) <ma=
+ilto:rmiddleton19@bloomberg.net>, Shane Jent (STATE FARM MUTUAL AU ) <mai=
+lto:sjent@bloomberg.net>, Kevin Rock (STATE FARM MUTUAL AU ) <mailto:kroc=
+k5@bloomberg.net>, Mark Dunford (STATE FARM MUTUAL AU ) <mailto:mdunford3=
+@bloomberg.net>, Jean-Francois Ducrest (DUCREST, JEAN-FRANCO ) <mailto:du=
+crest2@bloomberg.net>, Caroline Dirks (STATE FARM MUTUAL AU ) <mailto:cdi=
+rks1@bloomberg.net>, Kyle Gilmore (STATE FARM MUTUAL AU ) <mailto:kgilmor=
+e10@bloomberg.net>, Diane Hsiung (GEODE CAPITAL MANAGE ) <mailto:dianehsi=
+ung@bloomberg.net>, Hunter Rose (STATE FARM MUTUAL AU ) <mailto:hrose17@b=
+loomberg.net>, Cameron Kurak (STATE FARM MUTUAL AU ) <mailto:ckurak@bloom=
+berg.net>, Mark Broughton (FIRST REPUBLIC BANK ) <mailto:mbroughton11@blo=
+omberg.net>, Betsey Euliss (STATE FARM MUTUAL AU ) <mailto:beuliss@bloomb=
+erg.net>, Kim Bretz (STATE FARM MUTUAL AU ) <mailto:kbretz2@bloomberg.net=
+>, Jon Wilson (STATE FARM MUTUAL AU ) <mailto:jwilson578@bloomberg.net>, =
+Numan Ahmed (STATE FARM MUTUAL AU ) <mailto:nahmed127@bloomberg.net>, Wal=
+ter Ruane (STATE FARM MUTUAL AU ) <mailto:wruane1@bloomberg.net>, Shawna =
+Barlow (STATE FARM MUTUAL AU ) <mailto:sbarlow28@bloomberg.net>, Philip K=
+roger (STATE FARM MUTUAL AU ) <mailto:pkroger5@bloomberg.net>, Gabrielle =
+Poole (STATE FARM MUTUAL AU ) <mailto:gpoole2011@bloomberg.net>, Ricardo =
+Correa (STATE FARM MUTUAL AU ) <mailto:rcorrea29@bloomberg.net>, Felipe C=
+astella (STATE FARM MUTUAL AU ) <mailto:fcastella3@bloomberg.net>, Matt K=
+rebsbach (STATE FARM MUTUAL AU ) <mailto:mkrebsbach3@bloomberg.net>, Gabr=
+iel Prado Correa (STATE FARM MUTUAL AU ) <mailto:gpradocorrea@bloomberg.n=
+et>, Larnita Gates (STATE FARM MUTUAL AU ) <mailto:lgates16@bloomberg.net=
+>, Ketrick Karsten (STATE FARM MUTUAL AU ) <mailto:kkarsten@bloomberg.net=
+>, Sophie Kim (STATE FARM MUTUAL AU ) <mailto:skim1465@bloomberg.net>, Vi=
+cki Trimpe (STATE FARM MUTUAL AU ) <mailto:vtrimpe@bloomberg.net>, Christ=
+in Higham (STATE FARM MUTUAL AU ) <mailto:cmhigham@bloomberg.net>, BD DIN=
+CER (COLUMBIA UNIVERSITY ) <mailto:bdincer211@bloomberg.net>, b.dincer@co=
+lumbia.edu=0D
+Cc: Kerri Saperstein (MORGAN STANLEY & CO. ) <mailto:ksaperstein2@bloombe=
+rg.net>, COLIN.BROOKS@MORGAN.STANLEY.COM=0D
+Subject: Fwd:Fwd:Fwd:Fwd:Fwd:=C2=BB =C2=BB =C2=BB STATE FARM - BLOOMINGTO=
+N =C2=BB =C2=BB =C2=BB Northern Trust Company. ACRIS 6MM=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:34:03 UTC-5:00=0D
+To: Kerri Saperstein (MORGAN STANLEY & CO. ) <mailto:ksaperstein2@bloombe=
+rg.net>, colin.brooks@morgan.stanley.com <mailto:colin.brooks@morgan.stan=
+ley.com>=0D
+Cc:james.gorman@morganstanley.com <mailto:james.gorman@morganstanley.com>=
+=0D
+Subject: Fwd:Fwd:Fwd:Fwd:=C2=BB =C2=BB =C2=BB STATE FARM - BLOOMINGTON =C2=
+=BB =C2=BB =C2=BB Northern Trust Company. ACRIS 6MM=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:27:47 UTC-5:00=0D
+To: james.gorman@morgan.stanley.com=0D
+Cc: Christina Constantine (FINRA ) <mailto:cconstanti37@bloomberg.net>, M=
+s Hy (MORGAN STANLEY INVES ) <mailto:mshy1@bloomberg.net>, Ms Hyld (MORGA=
+N STANLEY ) <mailto:mshyld@bloomberg.net>, Peter Melley (FINRA ) <mailto:=
+pmelley@bloomberg.net>, Susan Byrne (WESTWOOD MANAGEMENT ) <mailto:smbyrn=
+e@bloomberg.net>, Julie Hoyer (STATE FARM MUTUAL AU ) <mailto:jhoyer@bloo=
+mberg.net>, Greg Shull (STATE FARM MUTUAL AU ) <mailto:gshull@bloomberg.n=
+et>, Jeffrey Attwood (STATE FARM MUTUAL AU ) <mailto:jtattwood@bloomberg.=
+net>, John Malito (STATE FARM MUTUAL AU ) <mailto:jmalito@bloomberg.net>,=
+ Steven Santiccioli (NORTHERN TRUST COMPA ) <mailto:steve@bloomberg.net>,=
+ Robert Stephan (STATE FARM MUTUAL AU ) <mailto:bstephan@bloomberg.net>, =
+Lisa Rogers (STATE FARM MUTUAL AU ) <mailto:lrogers@bloomberg.net>, Elena=
+ Khoziaeva (BRIDGEWAY CAPITAL MA ) <mailto:ekhoziaeva@bloomberg.net>, Bil=
+l Trauner (STATE FARM MUTUAL AU ) <mailto:btrauner@bloomberg.net>, Heathe=
+r Caldwell (STATE FARM MUTUAL AU ) <mailto:hncaldwell@bloomberg.net>, The=
+resa Baker (STATE FARM MUTUAL AU ) <mailto:tbaker5@bloomberg.net>, Tammy =
+Gipson (STATE FARM MUTUAL AU ) <mailto:tgipson@bloomberg.net>, Brent Reed=
+er (NORTHERN TRUST COMPA ) <mailto:bdr11@bloomberg.net>, Michael Whipple =
+(BRIDGEWAY CAPITAL MA ) <mailto:mwhipple@bloomberg.net>, Michael Zaroogia=
+n (STATE FARM MUTUAL AU ) <mailto:mzaroogian1@bloomberg.net>, Terence Lyn=
+ch (GAINSCO SERVICE CORP ) <mailto:tlynch54@bloomberg.net>, Rebekah Holt =
+(STATE FARM MUTUAL AU ) <mailto:rholt22@bloomberg.net>, Katie Hubbard (ST=
+ATE FARM MUTUAL AU ) <mailto:khubbard1@bloomberg.net>, Leigh Ann Rogalski=
+ (STATE FARM MUTUAL AU ) <mailto:lrogalski@bloomberg.net>, Chad Moser (ST=
+ATE FARM MUTUAL AU ) <mailto:cmoser7@bloomberg.net>, Tim Zelgert (STATE F=
+ARM MUTUAL AU ) <mailto:tzelgert@bloomberg.net>, Ray Renken (STATE FARM M=
+UTUAL AU ) <mailto:rrenken@bloomberg.net>, Kara Olson (STATE FARM MUTUAL =
+AU ) <mailto:ksheffield1@bloomberg.net>, Jim Chan (BLACKROCK INSTITUTIO )=
+ <mailto:jchan161@bloomberg.net>, Matt Harvey (STATE FARM MUTUAL AU ) <ma=
+ilto:mharvey13@bloomberg.net>, Steve Brucker (STATE FARM MUTUAL AU ) <mai=
+lto:sbrucker@bloomberg.net>, John Socha (STATE FARM MUTUAL AU ) <mailto:j=
+socha@bloomberg.net>, Jennifer Hsui (BLACKROCK INSTITUTIO ) <mailto:jhsui=
+2@bloomberg.net>, Joe Young (STATE FARM MUTUAL AU ) <mailto:jyoung121@blo=
+omberg.net>, Wade Reinthaler (STATE FARM MUTUAL AU ) <mailto:wreinthaler@=
+bloomberg.net>, Scott Reid (STATE FARM MUTUAL AU ) <mailto:sreid42@bloomb=
+erg.net>, Adam Hallman (STATE FARM MUTUAL AU ) <mailto:ahallman1@bloomber=
+g.net>, Tyler Smith (STATE FARM MUTUAL AU ) <mailto:tsmith241@bloomberg.n=
+et>, Wei Hao (STATE FARM MUTUAL AU ) <mailto:whao15@bloomberg.net>, Chris=
+ Minter (STATE FARM MUTUAL AU ) <mailto:cminter2@bloomberg.net>, Shelly M=
+arsh (STATE FARM MUTUAL AU ) <mailto:smarsh16@bloomberg.net>, Hollie Mars=
+h (STATE FARM MUTUAL AU ) <mailto:hmarsh6@bloomberg.net>, Matthew Lockrid=
+ge (WESTWOOD MANAGEMENT ) <mailto:mlockridge2@bloomberg.net>, Rich Rebhol=
+z (STATE FARM MUTUAL AU ) <mailto:rrebholz@bloomberg.net>, Michael Mayber=
+ger (STATE FARM MUTUAL AU ) <mailto:mmayberger@bloomberg.net>, Ashley Smo=
+ck (STATE FARM MUTUAL AU ) <mailto:asmock1@bloomberg.net>, Brian Bengtson=
+ (STATE FARM MUTUAL AU ) <mailto:bbengtson3@bloomberg.net>, Cory Swartzla=
+nder (STATE FARM MUTUAL AU ) <mailto:cswartzlande@bloomberg.net>, Scott L=
+awson (WESTWOOD MANAGEMENT ) <mailto:slawson15@bloomberg.net>, Ayman Bari=
+ (STATE FARM MUTUAL AU ) <mailto:abari4@bloomberg.net>, Adam Vales (STATE=
+ FARM MUTUAL AU ) <mailto:avales1@bloomberg.net>, Robert Middleton (STATE=
+ FARM MUTUAL AU ) <mailto:rmiddleton19@bloomberg.net>, Shane Jent (STATE =
+FARM MUTUAL AU ) <mailto:sjent@bloomberg.net>, Kevin Rock (STATE FARM MUT=
+UAL AU ) <mailto:krock5@bloomberg.net>, Mark Dunford (STATE FARM MUTUAL A=
+U ) <mailto:mdunford3@bloomberg.net>, Jean-Francois Ducrest (DUCREST, JEA=
+N-FRANCO ) <mailto:ducrest2@bloomberg.net>, Caroline Dirks (STATE FARM MU=
+TUAL AU ) <mailto:cdirks1@bloomberg.net>, Kyle Gilmore (STATE FARM MUTUAL=
+ AU ) <mailto:kgilmore10@bloomberg.net>, Diane Hsiung (GEODE CAPITAL MANA=
+GE ) <mailto:dianehsiung@bloomberg.net>, Hunter Rose (STATE FARM MUTUAL A=
+U ) <mailto:hrose17@bloomberg.net>, Cameron Kurak (STATE FARM MUTUAL AU )=
+ <mailto:ckurak@bloomberg.net>, Mark Broughton (FIRST REPUBLIC BANK ) <ma=
+ilto:mbroughton11@bloomberg.net>, Betsey Euliss (STATE FARM MUTUAL AU ) <=
+mailto:beuliss@bloomberg.net>, Kim Bretz (STATE FARM MUTUAL AU ) <mailto:=
+kbretz2@bloomberg.net>, Jon Wilson (STATE FARM MUTUAL AU ) <mailto:jwilso=
+n578@bloomberg.net>, Numan Ahmed (STATE FARM MUTUAL AU ) <mailto:nahmed12=
+7@bloomberg.net>, Walter Ruane (STATE FARM MUTUAL AU ) <mailto:wruane1@bl=
+oomberg.net>, Shawna Barlow (STATE FARM MUTUAL AU ) <mailto:sbarlow28@blo=
+omberg.net>, Philip Kroger (STATE FARM MUTUAL AU ) <mailto:pkroger5@bloom=
+berg.net>, Gabrielle Poole (STATE FARM MUTUAL AU ) <mailto:gpoole2011@blo=
+omberg.net>, Ricardo Correa (STATE FARM MUTUAL AU ) <mailto:rcorrea29@blo=
+omberg.net>, Felipe Castella (STATE FARM MUTUAL AU ) <mailto:fcastella3@b=
+loomberg.net>, Matt Krebsbach (STATE FARM MUTUAL AU ) <mailto:mkrebsbach3=
+@bloomberg.net>, Gabriel Prado Correa (STATE FARM MUTUAL AU ) <mailto:gpr=
+adocorrea@bloomberg.net>, Larnita Gates (STATE FARM MUTUAL AU ) <mailto:l=
+gates16@bloomberg.net>, Ketrick Karsten (STATE FARM MUTUAL AU ) <mailto:k=
+karsten@bloomberg.net>, Sophie Kim (STATE FARM MUTUAL AU ) <mailto:skim14=
+65@bloomberg.net>, Vicki Trimpe (STATE FARM MUTUAL AU ) <mailto:vtrimpe@b=
+loomberg.net>, Christin Higham (STATE FARM MUTUAL AU ) <mailto:cmhigham@b=
+loomberg.net>, BD DINCER (COLUMBIA UNIVERSITY ) <mailto:bdincer211@bloomb=
+erg.net>, Donald Rizer (FINRA ) <mailto:drizer@bloomberg.net>, Paul Arago=
+n (FINRA ) <mailto:aragonp@bloomberg.net>, b.dincer@columbia.edu, chair@s=
+ec.gov=0D
+Subject: Fwd:Fwd:Fwd:=C2=BB =C2=BB =C2=BB STATE FARM - BLOOMINGTON =C2=BB=
+ =C2=BB =C2=BB Northern Trust Company. ACRIS 6MM=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:22:34 UTC-5:00=0D
+To: Kerri Saperstein (MORGAN STANLEY & CO. ) <mailto:ksaperstein2@bloombe=
+rg.net>, james.gorman@morganstanley.com=0D
+Cc: bd2561@columbia.edu=0D
+Subject: Fwd:Fwd:=C2=BB =C2=BB =C2=BB STATE FARM - BLOOMINGTON =C2=BB =C2=
+=BB =C2=BB Northern Trust Company. ACRIS 6MM=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:21:00 UTC-5:00=0D
+To: bo.dincer@yahoo.com=0D
+Subject: Fwd:=C2=BB =C2=BB =C2=BB STATE FARM - BLOOMINGTON =C2=BB =C2=BB =
+=C2=BB Northern Trust Company. ACRIS 6MM=0D
+=0D
+=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:20:35 UTC-5:00=0D
+To: Michael Karp (FINRA ) <mailto:karp58@bloomberg.net>, Brian Carr (FINR=
+A ) <mailto:bcarr43@bloomberg.net>, Trudy Clarke (FINRA ) <mailto:tclarke=
+57@bloomberg.net>, William Downey (FINRA ) <mailto:wdowney4@bloomberg.net=
+>, Jay Loftus (FINRA ) <mailto:jloftus21@bloomberg.net>, Viviana Lui-Chan=
+ (FINRA ) <mailto:vlui-chan@bloomberg.net>, Marc Freeman (FINRA ) <mailto=
+:mfreeman57@bloomberg.net>, newyork@sec.gov, chair@sec.gov=0D
+Cc: Kerri Saperstein (MORGAN STANLEY & CO. ) <mailto:ksaperstein2@bloombe=
+rg.net>, b.dincer@columbia.edu, bondstrt@protonmail.com=0D
+Subject: =C2=BB =C2=BB =C2=BB STATE FARM - BLOOMINGTON =C2=BB =C2=BB =C2=BB=
+ Northern Trust Company. ACRIS 6MM=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:15:44 UTC-5:00=0D
+To: Ms. Hayashi (NOMURA SECURITIES CO ) <mailto:jihou3@bloomberg.net>, Mo=
+rgan32 Stanley (MORGAN STANLEY ADVTG ) <mailto:mstanley321@bloomberg.net>=
+, Morgan Stanley154 (MORGAN STANLEY ADVTG ) <mailto:mstanley1541@bloomber=
+g.net>, Morgan Stanley15 (MORGAN STANLEY ADVTG ) <mailto:mstanley153@bloo=
+mberg.net>, Ms Hy (MORGAN STANLEY INVES ) <mailto:mshy1@bloomberg.net>, M=
+s Hyld (MORGAN STANLEY ) <mailto:mshyld@bloomberg.net> Cc: Kerri Saperste=
+in (MORGAN STANLEY & CO. ) <mailto:ksaperstein2@bloomberg.net>, Cmo Citib=
+ank (CITIBANK NA ) <mailto:cmobloomberg@bloomberg.net>, Samriddi Abney (F=
+EDERAL HOME LOAN BA ) <mailto:sadhikari2@bloomberg.net>, Federated Mmktop=
+s (FEDERATED INVESTMENT ) <mailto:fed-mmkt-ops@bloomberg.net>, Jesse Agui=
+lar (FEDERAL HOME LOAN BA ) <mailto:aguilarj@bloomberg.net>, Shafat Alam =
+(FEDERAL RESERVE BANK ) <mailto:salam32@bloomberg.net>, Steven Santicciol=
+i (NORTHERN TRUST COMPA ) <mailto:steve@bloomberg.net>, bd2561@columbia.e=
+du, colin.brooks@morgan.stanley.com Subject: Fwd:STATE FARM - BLOOMINGTON=
+ =C2=BB Northern Trust Company. ACRIS 6MM=0D
+=0D
+=0D
