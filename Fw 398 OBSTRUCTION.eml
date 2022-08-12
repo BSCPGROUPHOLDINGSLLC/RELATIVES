@@ -1,0 +1,373 @@
+From - Sun May 22 07:22:10 2022
+X-Account-Key: account1
+X-UIDL: AMq/afhddFy7YoomdQL9oLv2H2o
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.10
+ by atlas206.free.mail.ne1.yahoo.com with HTTPS; Sun, 22 May 2022 12:03:00 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.146]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.146 as permitted sender)
+Authentication-Results: atlas206.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 22 May 2022 12:03:01 +0000
+X-YMailISG: TwxOaW0WLDvWfgKawymAxMLJCk1RcEEAz3LLGQ1auA1AJqmt
+ 0aBiTiCGAmEhrF2W0ilMAP0v9sz4ibj9byjP3Z32bz14k86S0FWFV7LqxyAp
+ A7.ja9eQp6xs9Sl4Z_kVEvQiKRzjHeRDf.P9A_MQpgaxBHeMVjGAW6Mw7LF7
+ 6IvNFHjfBIw48qoIOHNe2uvp7NgDufOdF0aXsIPViZsDSOMfvc6jJt6WiwYJ
+ tuYggPNUsrRf5wKWSSGcvopGjNKHe1Kv55mLNvpM6rmYMU6VezKdgj_wslo4
+ CbUDLo7XsKs2AuebOQbAzAqqsxi8hDpO1gbIzlNJdFSBSUkW7.cZrp080pS3
+ hKbMKPDcCRE02_jfzjLwtX1jVnlzkQ3y.NwLg5LjqJolZaj.fu5b5nWKcskn
+ kR94xJdWIopSM56_fq0V7dWGlpIVG0c5t0tDmNAzIGnJCY6_xMw.4KQ7o3T6
+ TnccFFRqHf7etTIyKX2cwUS1jufCxyf9Vz_qsBmGi5mYtbWiInanDZN1VUzU
+ JM0ODLu79Gohovl0.Yw7gE4jX6nu1OAlYqw3KM7V_xhdWA7YDWZDoaYTVkgu
+ zWAjtxxe6WAd6Nzv7YUdntyBMnnpZFmRhQ4gkaCh9pm9DdudrBugsMjLNkdP
+ ETjDUDC2hYKZlkHlRunW4_n9dy1fny47stuU5VoSebUjlJMATFKUOM04mmi0
+ vUdgf4VjX9bFGXq2NxnXjO4NujuPV8xGCtEUF3P.p1jWLNqFy7BrhrttUbeF
+ L8xURWswAvbhcxlmbJIzrlLCeiC.PPiuSFYAWJdy3RxuSb2yxOFa6A77vvI3
+ cg4EeAyD1j47XxjDUUOW5qXpuhcRnnndXn8miPnnEv090oOgDGWMWp22LS8A
+ bcbiGl70W5Wc5M7CurOLSyGu0RFndJJ.eh_Q_t1hjB1s8H.f1kFg0wNtx60h
+ uDWtsBe3sCXhUjoIkKZFffejw6DCv1yx7xvttPkAFe_vrNENdQN8F43VA7Ix
+ Gn6nNqGiAzKCmbwkwWdL2p0qLX6eG.fiETAQSV8jcpx.CszqFzYv.VOR9rEK
+ f.csvPAm2Z__CKA3WvYOSzCwzVYFDpEP0ZhwkIbgpdzQM0xfYbryuZe0ONrb
+ 7sDkhAGQAvoDK0hw3b9Mag1BUrAqR2_ASm45rJ1lrmhCib9rTKfZGd6.GFcL
+ 2R7I9TgRbGOF
+Received: from 98.137.69.146 (EHLO sonic310-20.consmr.mail.gq1.yahoo.com)
+ by 10.217.151.10 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 22 May 2022 12:03:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653220979; bh=iNzOZlixADDC/joOQ9Tkwf8Cyr0bDHhC33L+hFlDtKg=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=fLK5dfMY9O2zvJ59osAVIyDwqqVzc/H1wFk10YXmeIT4mPbjc1SlokgRd/x6EqAFLxdwybQSC+0zDkiexr97EpQM624kNYer3l/iLaV2wnVj9EOfN6wqs+kYRl4dKgwnVsi609dr5GGjCB6YBGWKzLK/e3+gLJILt/iYDQ5C5YA77/BrK8GvhzrqP2WxutOY3RTARngPM/eyFN7ujrwIPxB0dbVYMYG683QLDDw3WA/EmxxRIaHRqlkOwXDdkSsROEArasymbL33ZjBqVRlIXlKeiW0jm0CTBZqDl1vW34e6Uy3hRdduAYKaVadupvlBBX0/88JKZ9NM+VBH3dTeJA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653220979; bh=xJLlbOFssiXKxULPbrSLu6jS82t4Xr0GFZGTZOBAaq1=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=F4k+I1MHGOsfGLkwJlm9HgB3Gs6I8NGs9H0/UgQ8MECZTJAIPVIjbu8PGCIznm2e1SKIIYUaL+oJwMzOVvOCOZoMIVO0qgyUuSzOqZPT3LtzNAdvx3qECQwpP2S+6TsGFEWI4Of+u4SfbTmWO54v9qWJzlnn2ATWXi8RkiR29prvBqVfZq5TAibD/I9A+/g1qwU7iJg5LQx9hAu7W6czWidrufizVBJtxJO1qSFW3kvz2/e9NF5EcHAidThrJ8vfHgnCqCXZcA7g/47gxqKMpCaTLUx71izQflMz8xOIY333Sfsv1HRLIUYwe7itycR6xmbmeaiZ6AUBKSNCaokKEA==
+X-YMail-OSG: wxcQhLoVM1ndQkKG08jD7EZbGDensVvmxVw3f_svQTFw2rib52BAqK3lnduBfZa
+ 0CoMp.7zXvNQxM1REyO7.MeU7fX1ZRK5Rn8IvFF_JFVNGuXeKBjw7OldJTckPPsZnmtv7YqCO6lu
+ aKgBvjEiF382crveCdezU5gXAcQnnsG3NVVt4vpEmeCt1cUcXLqDQpNpA6Wg3LKHFh4KpLJSjSAO
+ jkBmDowylWbjtMr6P_5xeqOjl0MwAg54InETkyXeUj_n1JVsD2UJdoVar8LFq26RgNAbGMm76VS8
+ MA6zpAiXu9QvJH7_FGBByWmK0d6GZlqUYVnWdqGau_om5QRRLKcGa4OG9BfUe0x3aKs8jB5cCXO2
+ ynpt2FLjnYGH1yeaZGpVMrnCbmpT39U7bDCfjEqLo8EDa9_Qg0EmXLv.l8za_c6P78mvCfV2o.KD
+ fKB4gltv38qsDkR4IpoKdrfIjiRpnuCPO5LuSjTML1RxuFo_TbQ_.4EEoBSvh7fbt3Qebsd.2EPa
+ zXYnJCcR3UwyFRHfJpxeUmQpCEhnOvITpJqdchNZAT_AFeMRB_ozEGaz9wq4DsR9v.6TDJKhRzAz
+ WPun6buz0j1cmlT8MSPCE7ydVDANjPmrTMF.8O8ExIRa3vStABKvEFqMEfxLzRFONelBFkbRuklw
+ DrcNqUu1_gFX7aTMGbRhD.YUrh8tLJ9oVYbslddtS2MA8_R1EuWOlu9f6guh0ct0FfKIlcGywFJj
+ q6704zAVQxrUwAF8sgL2j3wCJNBxvclABNZWriSTuZAs.rsmAE7q7ywA6AauTtnxQ44pxjq8S8Gu
+ Wmp7MjknOKjBd8fQHl57Y2pWLhmhdm9ibx.EIJ.o8niqoT5N1qoAYNrHV2ErgABcuKbfwIl4axa3
+ KGoNjMkgYUTBIGdPawPDzz5a19B6dHfaRAsmOie5NtUg8hWiYp83n7vi5Xq3Bow0BPo9jQ0rIlaV
+ wBPBNVKP5dwffEiRT2PjpP3eSroGRlpAhH9R.UiKBv8n0tHUVROVtxGscWqLsW24vjVv6JTTQdOE
+ d3Skd.jRUAieH5f1ieHdCNuczv4r6yMas0Cgx8LObC7FgcFAtfnQOeXmSPVk53NZtSqVoMhGRdXG
+ nK6ZOTnUg5dQ8OYKoX6Wxv3aRil5yV471h59Sk5ccdSGxKcJbOzs78DQZ3l3iKi0bDHE29H_WNYe
+ unzKgB601JxnNd2swZBoLrzu581CClssiPcSbaSMAdufY1up.DA7XMi6V.5GbVDqhhmkSk3j_NeJ
+ GXFl5ei1gaR3ym44JiH3dkLR1tIC7T1VbCw5jbuaIHjupUPa4V32wAcEhkse6O6r0q_zny9AOrdr
+ KjCjZ2IiKjmYCp2NO.PJy73rFgeKj6.FllKdLDFpMULPeawo6YL7fdfZjUuCr0BqmilpNX7tp5rm
+ 55lHO8VPY3xFsnqdnSo.Cy9EQozMpVsLxPMvGaK3ctxVmc_6iZqP5qgqP8wQFNXPS6Y1KUj0Bb1D
+ AnCmKAK6GIZNQOjOOf5zBguYnAGqs_wzJFvkBDnsHbS47SH9JMLyFEHYlgxvfA1cs9f1J0Q8GF3j
+ BFsx3j.TTjPqEiUnBq4s9TNyWFy5Szv9yxoD5OhZs8YMq83PA4XkfHYoEAgIgo6wsk3Lsxv4kr8z
+ G6KcYtRjFBYAvcA6_onGsHl2XDBHmtQ69_.bhMG7iKaP9BGKgG4eqYoCvpptRu96AID7D0HBuh63
+ GHutGGMNol26wh56Cah09wEd45S4gZcyyOlGaqqzBymtYb9GPZYs.Gz4XIv1n9it20xghfqhIRNr
+ ov.aFRuq_vizAO5H8EtZhPtjB1zXi63MoPJpUUeKJD1a1XzdKKzoZZh0teXvhdzANcG6hAWEw_j9
+ bAa9ZZSbzHTXIyUQD8Vl.CP3swPAshwBcd2qpxnS37V8fW6tXgu5w_iqI7doE.kT2KxtecLEp9KG
+ ral5OJNvSQ1rqzWPdreoKIVZxsBWbQxN0CCmdzOlSxiF9OQ1IrX.PInPp2PF.ugPwDX3uJvJZoMd
+ 6lrwjrM2mfSmEdTGzwLGQsxgGK6itHEG4DlRE14DSI6hyEffoCPySQHKQpuAIW1.wWSurFwTTp7S
+ lVDAE_xQ.yob.jBpUC7WGMzRoNf3j.rQ.JEWFd_OkpX1gU74tSOtlhyR46cJzQRy8g6Q6Sny_Vdz
+ J3LasXZ.DrDId7ZOJ2QZ288k90SB6XdMsZHh0jb.tYMh9Q5.2vZFS3BH.aEm7wtSc.IinjF2X_uV
+ e5Li1kEp30eF9TydYVVFnyRjK8JPSKeao9UEb.tvjqG699dSIvKgL_uNwigWW1x98Ni.vkNvhcRO
+ lRyoOZWPlxHp39VHPJBfZqYqtXWh8Q6iY07f6dsSJF5pRS_7yu2cZ17P_SxB1mKFpciAZW1Q4_CN
+ BWwR24.i2wdGvfhdH
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.gq1.yahoo.com with HTTP; Sun, 22 May 2022 12:02:59 +0000
+Date: Sun, 22 May 2022 12:02:53 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <476292400.1027679.1653220973474@mail.yahoo.com>
+In-Reply-To: <4E490662-C9C0-4DAA-97BC-BD197D0358EB@icloud.com>
+References: <4E490662-C9C0-4DAA-97BC-BD197D0358EB@icloud.com>
+Subject: Fw: 398 OBSTRUCTION
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1027678_2109861397.1653220973472"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 13161
+
+------=_Part_1027678_2109861397.1653220973472
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "Bo Dincer" <bdincer66@icloud.com> T=
+o: "BBO 121" <ms60710444266@yahoo.com> Cc:  Sent: Tue, May 17, 2022 at 9:49=
+ PM Subject: 398 =20
+#nov16-2021 PWC- STATE FARM
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/c31213993cd6ec11a7b5000=
+d3a1956dd/STATE%20FARM%20-%20PWC%20-%20%20INFO%20-%20nov16-2021.pdf
+
+
+
+
+tax evasionloan50075
+
+
+
+
+May 9 2022 Notice
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/847789e43cd6ec11a7b5000=
+d3a1af965/TAX%20EVASIONLoan50075.PDF
+
+
+
+
+nov17-2021-ingramzuckers
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/0d16940d3dd6ec11a7b5002=
+2483079c1/Nov17-2021-IngramZuckers.PDF
+
+
+
+
+
+
+
+
+
+-7398
+
+
+
+
+=EF=BB=BFhttps://saaze2311prdsra.blob.core.windows.net/clean/0f198ce646d6ec=
+11a7b5002248307f33/2022-05-04-EstoppelDENIED.PDF
+
+
+
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/30ae18d746d6ec11a7b5000=
+d3a1afadb/2022-03-18-WilsonElser%20Firm.PDF
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/0e0bc9b146d6ec11a7b5002=
+248307b90/2020-11-30-0000093715-Properties10012.PDF
+
+
+
+
+
+
+
+
+
+
+-7679
+
+
+
+
+2022-05-08-tax evasion-insiderobstructions
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/80832e9f4ad6ec11a7b5000=
+d3a1956dd/2022-05-08-TAX%20EVASION-InsiderOBSTRUCTIONS.PDF
+
+
+
+
+BMW Motorsports=C2=A0
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/3e980ca54ad6ec11a7b5000=
+d3a1afadb/BMW-MOTORSPORTS.png
+
+
+
+
+Nov 16- Notice
+
+
+
+
+https://saaze2311prdsra.blob.core.windows.net/clean/cd7272864ad6ec11a7b5000=
+d3a1956dd/Nov%2016%202021-10%20attachments.png
+
+
+
+
+/BD
+ =20
+
+------=_Part_1027678_2109861397.1653220973472
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; =
+margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fa=
+mily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message ----=
+-</div> <div><b>From:</b> "Bo Dincer" &lt;bdincer66@icloud.com&gt;</div> <d=
+iv><b>To:</b> "BBO 121" &lt;ms60710444266@yahoo.com&gt;</div> <div style=3D=
+"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Tue, May 17, 2022 at 9:4=
+9 PM</div> <div><b>Subject:</b> 398</div> </div>  <div id=3D"yiv4641651299"=
+><div><p style=3D"margin:0px;font-stretch:normal;line-height:normal;color:r=
+gb(0, 0, 0);" class=3D"yiv4641651299p1">#nov16-2021 PWC- STATE FARM</p><p s=
+tyle=3D"margin:0px;font-stretch:normal;line-height:normal;min-height:16.7px=
+;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv464165129=
+9s1"></span></p><p style=3D"margin:0px;font-stretch:normal;line-height:norm=
+al;min-height:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span c=
+lass=3D"yiv4641651299s1"></span><br></p><p style=3D"margin:0px;font-stretch=
+:normal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><=
+span style=3D"text-decoration:underline;" class=3D"yiv4641651299s2"><a rel=
+=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://saaze23=
+11prdsra.blob.core.windows.net/clean/c31213993cd6ec11a7b5000d3a1956dd/STATE=
+%20FARM%20-%20PWC%20-%20%20INFO%20-%20nov16-2021.pdf">https://saaze2311prds=
+ra.blob.core.windows.net/clean/c31213993cd6ec11a7b5000d3a1956dd/STATE%20FAR=
+M%20-%20PWC%20-%20%20INFO%20-%20nov16-2021.pdf</a></span></p><p style=3D"ma=
+rgin:0px;font-stretch:normal;line-height:normal;min-height:16.7px;color:rgb=
+(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></spa=
+n><br></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;col=
+or:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span class=3D"yiv4641651299s1"=
+>tax evasionloan50075</span></p><p style=3D"margin:0px;font-stretch:normal;=
+line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span cla=
+ss=3D"yiv4641651299s1"><br></span></p><p style=3D"margin:0px;font-stretch:n=
+ormal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><sp=
+an class=3D"yiv4641651299s1">May 9 2022 Notice</span></p><p style=3D"margin=
+:0px;font-stretch:normal;line-height:normal;min-height:16.7px;color:rgb(0, =
+0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></span><b=
+r></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;color:r=
+gb(0, 0, 0);" class=3D"yiv4641651299p1"><span style=3D"text-decoration:unde=
+rline;" class=3D"yiv4641651299s2"><a rel=3D"nofollow noopener noreferrer" t=
+arget=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clea=
+n/847789e43cd6ec11a7b5000d3a1af965/TAX%20EVASIONLoan50075.PDF">https://saaz=
+e2311prdsra.blob.core.windows.net/clean/847789e43cd6ec11a7b5000d3a1af965/TA=
+X%20EVASIONLoan50075.PDF</a></span></p><p style=3D"margin:0px;font-stretch:=
+normal;line-height:normal;min-height:16.7px;color:rgb(0, 0, 0);" class=3D"y=
+iv4641651299p2"><span class=3D"yiv4641651299s1"></span><br></p><p style=3D"=
+margin:0px;font-stretch:normal;line-height:normal;color:rgb(0, 0, 0);" clas=
+s=3D"yiv4641651299p1"><span class=3D"yiv4641651299s1">nov17-2021-ingramzuck=
+ers</span></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal=
+;min-height:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span cla=
+ss=3D"yiv4641651299s1"></span><br></p><p style=3D"margin:0px;font-stretch:n=
+ormal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><sp=
+an style=3D"text-decoration:underline;" class=3D"yiv4641651299s2"><a rel=3D=
+"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://saaze2311p=
+rdsra.blob.core.windows.net/clean/0d16940d3dd6ec11a7b50022483079c1/Nov17-20=
+21-IngramZuckers.PDF">https://saaze2311prdsra.blob.core.windows.net/clean/0=
+d16940d3dd6ec11a7b50022483079c1/Nov17-2021-IngramZuckers.PDF</a></span></p>=
+<p style=3D"margin:0px;font-stretch:normal;line-height:normal;min-height:16=
+.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><br><span class=3D"yiv4=
+641651299s1"></span></p><p style=3D"margin:0px;font-stretch:normal;line-hei=
+ght:normal;min-height:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"=
+><span class=3D"yiv4641651299s1"></span></p><p style=3D"margin:0px;font-str=
+etch:normal;line-height:normal;min-height:16.7px;color:rgb(0, 0, 0);" class=
+=3D"yiv4641651299p2"><span style=3D"text-decoration:underline;" class=3D"yi=
+v4641651299s2"></span><br></p><p style=3D"margin:0px;font-stretch:normal;li=
+ne-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span class=
+=3D"yiv4641651299s1">-7398</span></p><p style=3D"margin:9px 0px 8px;font-st=
+retch:normal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299=
+p3"><br></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;c=
+olor:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span class=3D"yiv4641651299s=
+1">=EF=BB=BF<a rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=
+=3D"https://saaze2311prdsra.blob.core.windows.net/clean/0f198ce646d6ec11a7b=
+5002248307f33/2022-05-04-EstoppelDENIED.PDF"><span class=3D"yiv4641651299s2=
+">https://saaze2311prdsra.blob.core.windows.net/clean/0f198ce646d6ec11a7b50=
+02248307f33/2022-05-04-EstoppelDENIED.PDF</span></a></span></p><p style=3D"=
+margin:0px;font-stretch:normal;line-height:normal;min-height:16.7px;color:r=
+gb(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></s=
+pan><br></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;m=
+in-height:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span class=
+=3D"yiv4641651299s1"></span><br></p><p style=3D"margin:0px;font-stretch:nor=
+mal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span=
+ style=3D"text-decoration:underline;" class=3D"yiv4641651299s2"><a rel=3D"n=
+ofollow noopener noreferrer" target=3D"_blank" href=3D"https://saaze2311prd=
+sra.blob.core.windows.net/clean/30ae18d746d6ec11a7b5000d3a1afadb/2022-03-18=
+-WilsonElser%20Firm.PDF">https://saaze2311prdsra.blob.core.windows.net/clea=
+n/30ae18d746d6ec11a7b5000d3a1afadb/2022-03-18-WilsonElser%20Firm.PDF</a></s=
+pan></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;min-h=
+eight:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"=
+yiv4641651299s1"></span><br></p><p style=3D"margin:0px;font-stretch:normal;=
+line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span sty=
+le=3D"text-decoration:underline;" class=3D"yiv4641651299s2"><a rel=3D"nofol=
+low noopener noreferrer" target=3D"_blank" href=3D"https://saaze2311prdsra.=
+blob.core.windows.net/clean/0e0bc9b146d6ec11a7b5002248307b90/2020-11-30-000=
+0093715-Properties10012.PDF">https://saaze2311prdsra.blob.core.windows.net/=
+clean/0e0bc9b146d6ec11a7b5002248307b90/2020-11-30-0000093715-Properties1001=
+2.PDF</a></span></p><p style=3D"margin:0px;font-stretch:normal;line-height:=
+normal;min-height:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><sp=
+an style=3D"text-decoration:underline;" class=3D"yiv4641651299s2"></span><b=
+r></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;min-hei=
+ght:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span style=3D"te=
+xt-decoration:underline;" class=3D"yiv4641651299s2"></span><br></p><p style=
+=3D"margin:0px;font-stretch:normal;line-height:normal;min-height:16.7px;col=
+or:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span style=3D"text-decoration:=
+underline;" class=3D"yiv4641651299s2"></span><br></p><p style=3D"margin:0px=
+;font-stretch:normal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv46=
+41651299p1"><span class=3D"yiv4641651299s1">-7679</span></p><p style=3D"mar=
+gin:0px;font-stretch:normal;line-height:normal;min-height:16.7px;color:rgb(=
+0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></span=
+><br></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;colo=
+r:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span class=3D"yiv4641651299s1">=
+2022-05-08-tax evasion-insiderobstructions</span></p><p style=3D"margin:0px=
+;font-stretch:normal;line-height:normal;min-height:16.7px;color:rgb(0, 0, 0=
+);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></span><br></=
+p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;color:rgb(0=
+, 0, 0);" class=3D"yiv4641651299p1"><span style=3D"text-decoration:underlin=
+e;" class=3D"yiv4641651299s2"><a rel=3D"nofollow noopener noreferrer" targe=
+t=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/80=
+832e9f4ad6ec11a7b5000d3a1956dd/2022-05-08-TAX%20EVASION-InsiderOBSTRUCTIONS=
+.PDF">https://saaze2311prdsra.blob.core.windows.net/clean/80832e9f4ad6ec11a=
+7b5000d3a1956dd/2022-05-08-TAX%20EVASION-InsiderOBSTRUCTIONS.PDF</a></span>=
+</p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;min-heigh=
+t:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4=
+641651299s1"></span><br></p><p style=3D"margin:0px;font-stretch:normal;line=
+-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span class=
+=3D"yiv4641651299s1">BMW Motorsports&nbsp;</span></p><p style=3D"margin:0px=
+;font-stretch:normal;line-height:normal;min-height:16.7px;color:rgb(0, 0, 0=
+);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></span><br></=
+p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;color:rgb(0=
+, 0, 0);" class=3D"yiv4641651299p1"><span style=3D"text-decoration:underlin=
+e;" class=3D"yiv4641651299s2"><a rel=3D"nofollow noopener noreferrer" targe=
+t=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/clean/3e=
+980ca54ad6ec11a7b5000d3a1afadb/BMW-MOTORSPORTS.png">https://saaze2311prdsra=
+.blob.core.windows.net/clean/3e980ca54ad6ec11a7b5000d3a1afadb/BMW-MOTORSPOR=
+TS.png</a></span></p><p style=3D"margin:0px;font-stretch:normal;line-height=
+:normal;min-height:16.7px;color:rgb(0, 0, 0);" class=3D"yiv4641651299p2"><s=
+pan class=3D"yiv4641651299s1"></span><br></p><p style=3D"margin:0px;font-st=
+retch:normal;line-height:normal;color:rgb(0, 0, 0);" class=3D"yiv4641651299=
+p1"><span class=3D"yiv4641651299s1">Nov 16- Notice</span></p><p style=3D"ma=
+rgin:0px;font-stretch:normal;line-height:normal;min-height:16.7px;color:rgb=
+(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></spa=
+n><br></p><p style=3D"margin:0px;font-stretch:normal;line-height:normal;col=
+or:rgb(0, 0, 0);" class=3D"yiv4641651299p1"><span style=3D"text-decoration:=
+underline;" class=3D"yiv4641651299s2"><a rel=3D"nofollow noopener noreferre=
+r" target=3D"_blank" href=3D"https://saaze2311prdsra.blob.core.windows.net/=
+clean/cd7272864ad6ec11a7b5000d3a1956dd/Nov%2016%202021-10%20attachments.png=
+">https://saaze2311prdsra.blob.core.windows.net/clean/cd7272864ad6ec11a7b50=
+00d3a1956dd/Nov%2016%202021-10%20attachments.png</a></span></p><p style=3D"=
+margin:0px;font-stretch:normal;line-height:normal;min-height:16.7px;color:r=
+gb(0, 0, 0);" class=3D"yiv4641651299p2"><span class=3D"yiv4641651299s1"></s=
+pan><br></p><br><div dir=3D"ltr">/BD<div><br></div></div></div></div> </div=
+> </blockquote>
+------=_Part_1027678_2109861397.1653220973472--

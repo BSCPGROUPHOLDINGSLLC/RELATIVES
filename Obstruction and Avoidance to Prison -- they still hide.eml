@@ -1,0 +1,155 @@
+From - Sun Apr 17 11:34:17 2022
+X-Account-Key: account1
+X-UIDL: AJuOtHRYOo/aYkOcEAsQCEP0X0M
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.9
+ by atlas201.free.mail.bf1.yahoo.com with HTTPS; Tue, 29 Mar 2022 23:53:52 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.69.83]
+Received-SPF: pass (domain of yahoo.com designates 98.137.69.83 as permitted sender)
+Authentication-Results: atlas201.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 29 Mar 2022 23:53:52 +0000
+X-YMailISG: n3aLzQYWLDs4xP2OLBF5_bFSshRTuNo_.iEMLOlNQySAlJJE
+ jWnR3SRwL93mernya4jd3Nx2jppBHaDP8_sqByL0PY9is96w85SDcYnj.PzJ
+ AiY6u6Hr2ku96BEUJwRvVmXmq4Joh0tCNok94dFOw8JoRVhhnb4MZ54EM2hR
+ p4T0ta2cMsC9qH4G3lv_TvIQ_MwIuotpCf17W6ldGf_RayBXX5muTvynNQj5
+ cT8kXVLjP_JPAZK04EHUEiGgmj52Jvs7Yt100sRbLZHix7fDs_Ixez19N55v
+ K1vnKLeI7zaJWADZKNKLobWDvqJ8iWBCX.11RqG_a_vEC9VAv38i9VNqTQ3s
+ 1SJAVXiZnFFKvJIuFjnokNBJ7ZkCYW9JkUDxT3hlmnSFhUKEPAZLdaypNFZG
+ zMK0Xx1gbhH8WZ51MEdtPadiAzFAN4TjeObBtSXsJt8AoAoASonFI5Tg0bUe
+ zi42311LfAM9eeHxXRFOoqPgrkeHvxDckWwLNKuKnrRGLBoLmghp3.x2ZflN
+ hOQi6QzX75mCAQC1tt7hgE55vlwi_._AZq8v1yI8dxWvArdoPzPNdJqWT53D
+ pC.KpUAP3tWDK3L0.rMpzR5BDV333JPgPFA1_ede7jh1GlyvDv.cUl8.Ayo9
+ yADEcVLIRPCTHH5VV0Uy7VemNJz1KUSWICTMm7IewzYoE7q8Ztm95TQEd7Pl
+ dTbr2CTk1BMsh0ySJnOoln0loN3iZu.7SBMsP.S6DMURoWxdCCvA25yTAKE1
+ N5.zWYb8u4HSEZrSjBrEyk..CbUE_RZDI3id2sSMtsUySmhUZYTJr7V66Fuz
+ ZGByNNqGTIWEH3oQm3n.n5xNpmC.S3AxYgctapTximd5Dw1wA.YpqDJmZTwe
+ NoVBOxu1ncI_EzW4qQcA5.dqszTeHKl7_VM7c93gTgXB3rkF4pmKBzKWH5dJ
+ h7PlGkyPsnzXzLANphxvcdm3unGoxLaCKvP0nQV3Iwo8vRO6sRd3IWAkfGk2
+ 9LsOTOljwQkQAOyDmIoTWvclacc6QdxLuJVd7H0YGbPbzkfgKS4ynMWN8Iix
+ osFlWBWIs5tHc4IYQGAGTw3Zcanqhx6GL3lFedUJQx6tPjlu930drGOcBtSf
+ HGRrkQ89vp9YwTczTUHVuQvsu8gBM6kr75Bi4DW5NUHXOwZzVzeqlTxdup0-
+Received: from 98.137.69.83 (EHLO sonic314-20.consmr.mail.gq1.yahoo.com)
+ by 10.197.37.9 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 29 Mar 2022 23:53:52 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1648598031; bh=hdPGFoSFkUCrOBgaBhTh+2QFbC3TwECpSzKO9eSTaqY=; h=Date:From:Reply-To:To:Cc:Subject:References:From:Subject:Reply-To; b=Vjchhe2B5jJ55nFbYbYIr40cKryDO6a4i2SxGQNLrxqUn1H8glCgXdkD+wpRhUjiXVX4UrwBVg/YcEFAuOyYFbzUPXpKRVfbN5DKA+b98V3ozu5GUheFgJza64e+OA1gJMKF0T7sGAF+7MQxQ7rCd1KP77NAEkSe9ETGN2KfFTvzqDLVuMieiqQ/SQqbRzinJ1QopdwT2h5u0kXlk7CXXNNzRp0TnSOo9I2ix2vTkRXrfeDe5XKUf4ZZNUlUS19+5M4yvzx56JqzeeXtvypFgEg59UrHThMRMi4EXdGJx9fHipoPh/wqqZUw9EO/SQ1XYHth9V6aMc96IahuA9yKkw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1648598031; bh=NkzwybWhCtzTVvhrh4Ox4YbVNCB+8Z8nPg/h/KFt9rv=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=JqZRa+EC0tcSHvW/Rs+ySSi0fE54cMkBSVrTWpIfT/+q67HjgkB1jPTVT2CIjyNzdjd8ZJ4mnZRJWosysUUAX4fA3Qe+1ZU0T+uytysQywJrCYoKkyfFRQfz+sGprYy9SxPF54Kb4/rkFTBw1P3FjOYgmOaPpT7MOrvrD/SklgWOOGRfojmtko8YNIGuUa1jzHghVuN9g/UIvKvex+0nkbVNUe494NUM4VPqqrRITSLk96sZaX3kAIqEQPnf7E694jomgNl1fP9v88geLm8Ei1ojGJ99IyilMljgsXoGotdxXD5qNfKjOeyFSerlPuMZbac6db/n9hmdSt88vuBZRg==
+X-YMail-OSG: dPCisAMVM1lMMTz8wNQcpCHi.I2JPwtIuQAL3sCRuW._19pn66lvFP4oBZg222m
+ 078OqOd1aflhitgXv43yorXJagdxsvviSqVZDfVUt_u6Wlt_6vBUbY0vkmKLvzz5RKBblO9fiweA
+ NFWWCJC5cpFArkv2hyp2elb_BpWs.D3QAzRWwQb4jog16lR.I91FdzzvCUCtKhLYZD41DozTxBno
+ vRyCnRNh7EvHKVksHuZrqbQZ5kcBHDJeTb3L1w44tct1xbHlzxlaKrdxsyOEZcuZcNw6.fj2pFCm
+ jWSjHHBKWZ.FzXoUs6TOQwM4lE54UG2jImheMxwJxoeWKcMZo2z3_ZAazMb.K_buL62T452koZHx
+ .nsT2sFFXV1UjE_uOZmynI9L2sVyJXIYYpXZfFddRHKhNvSFYXFWerUdhVVtvsziTJnsuYv1Zrpo
+ Z5rBXVCbXG4zDMPU1_wyaEzoVjCNPBWyl8lTAdpeOeDObpRAO4aPhQ54nJk6Sjg4Rmln.TbR7wbq
+ ULY9cwHl54xNBq6NczW3hNLOwX7J.vLPvZRC_WweetjGK2NKkSNvm0FeD7EaY4__FvwINd_zqE1T
+ 0ziqO2N4EIIzLILEPtL3L4AAE9XU0wv8T08fSadHKR58z05yB9EAJ17KnQy0kV6f8bU4NPyz.aAJ
+ sEJunrjWF.yIGYX9TeGDHLn_rFMfxBDDMnh4q52yZDSYX7lNNJEovRtAsmvzTsqtBcsFYvtpeU1l
+ vYBj1LgeAcpmR2SP33.mv_efqN8ztKoApZrvFEyA5Mk7yX2g8AWFykiSv8.mBr2Do5Gty77dNfq.
+ u5_2_tLKdSlZ5QNCEgNJJLpA9yOLB8a83VQABmwsTQvi7Zrhj0nLESThFNW3j7qQmfNU5z2E6NJr
+ ciohc.1lAksoewOEfn6zHA2BuKNVKl6oCXUSFgvZ8ayAaznUZmqS4pCTzqZB9LxX9Qncd8B8uIEf
+ Z_QbPif3bLPrhXRQngTBpeUrDWzyGPiHlJES0.cyYdf6SE0sFf.7bztxYgkI.9BpitdcYG.f2BFY
+ JlD8wWwUh7FZbhtcsoa_W1_b5uJisoHqiRkyVrJHkfM8i6ScKNHEzlM0IBPwPF1mYf6EeJtM3urz
+ nDGF0kJIDqNGnHFbLLIAZPYtSOmAK9v_LKQBIVtUg27mDNL7u41TE21FxeHzurWwMtB7R40XXTCA
+ QTIv.y1Rtga7id5yTnYjTB31bM4yR9k2i7jrqRxFmwDsL2E4YCw0ZYE.pez9RIUVf8M2FaKEqyc9
+ M9FpUAXfPqrLGvJeQohKo8Lot0VEGhApy07BKJ7DICcG0rxK.1GTU8jC71gwkntWKMZKkOBx5eMx
+ 4jkQMPNaF1_q5mLm5PwD6p.nZJKqCL4tPhOyB0AZM62KA7A2IWTm9qPET9jxVyCp_L0LokIuozT8
+ 2LtOKxUqSz2nvtUo.hBNaVlqxpvx7dPQAq4ge1I4qxvi5IoDue4DZdxRf8387zeIg6ukFUsCXz6z
+ 6Q8t7bn5hox87y7bsqE9LLCuSGdWMg.RfRYPTuV5L.xHn2Bn4n16ALCWc3LASdWwq.Li2zXkeF4d
+ ahRpXIduh2uBUxLx1G_pKeId.7Gzv7mY1QqTBTnQbJVJDH0.eKS0_T8SNpKySJMaDgUre8LiX1A3
+ Y4nwLkXQyaWLsV2imYD2IKvm56WSR..NuVOMZn5yLJFStYe0p_dBvRPLSaiG4Q0hJxGFA7f2xk7C
+ 6RtWF0yxueH6dQtgcfr71xikWgbXVXWHzS8BKRuHHvqEIYkDHf77weCOk5Kj6ucfztaCdA.X9HVI
+ 8PSsqRtn._9aB2nayqfJJDGif5j.q9FhTUh3QoY3yzptyNNIoQy6pvtA1QloHYQdrZQ4TLDXXGh6
+ W_Sr8EaOebNaU0ruJtvHmd6410SmDWPGmhT6_ZsEJLZw5QIbv2DDHf1ZWdVgszRYHHDHWxle3U9D
+ TfUxOUoEhZeivo4bCOXloZEDGndnAgInKva5rLbTDywPMRcoZ1Ll8N6tTkiKG.wnJ17UR_ysdYHJ
+ rWshYwzvPhxr4km4v1rJp9us9DQ0jFqzGhcKrPonnqC09p91Nu8UdRIeW3NABFrmzjmbZJSRrLZm
+ 8S4AuBhiqJnpXRErseIxdbSr_ddp5Lz_A6KMp8sT_YSV.vRcSV7ySpHfVxtmuTMDccTAzh0kDk4G
+ _v0WZZLBVgejwiNF9CQ4QycazVPw0auOGO93l4_Js2FH29HNBlmzGY74z3PAl_f97UdEdeNw5Tn4
+ gh71oEcVqR5jnXL.dqcK2YIwDcs.KOPF4mLmWOIcN2GR2H7Be4zuuPVh2SxwhZhCd4OKMo5ikliY
+ 9nQwiEAySgnJVMOnAkIJTeRcqn4AsRncQ3OLewts1VDB8nxoQ7J7C8xbIaNtoGkmv6EZA.xDCwPX
+ vl5PZvIyTdtDY5doX__7FoZ3CRjGE0J6M0CpArIUmEAM52Wo-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.gq1.yahoo.com with HTTP; Tue, 29 Mar 2022 23:53:51 +0000
+Date: Tue, 29 Mar 2022 23:54:37 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "leaston@ap.org" <leaston@ap.org>, "info@ap.org" <info@ap.org>, 
+	"mediarelations@ap.org" <mediarelations@ap.org>
+Cc: "nmeir@ap.org" <nmeir@ap.org>
+Message-ID: <1651510950.1259056.1648598077841@mail.yahoo.com>
+Subject: Obstruction and Avoidance to Prison --  they still hide
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1259055_1559911377.1648598077839"
+References: <1651510950.1259056.1648598077841.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.19987 YahooMailAndroidMobile
+Content-Length: 3463
+
+------=_Part_1259055_1559911377.1648598077839
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This was earlier in 2020
+No order of estoppel for the Zuckers, State Farm, and their associates trie=
+d to preserve their tax evasion money....
+=C2=A0No disclosure of material facts and at the expense of violating my pr=
+ivacy - which comes with the added risk of prison sentences.. any risks for=
+ the 8 billion invested there? SFITX, SFBDX, and all in the same building.=
+=C2=A0
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+
+
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+
+
+
+
+
+
+
+------=_Part_1259055_1559911377.1648598077839
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This was earlier in 2020<div id=3D"yiv3196106234yMail_cursorElementTracker_=
+1648596643716" style=3D"overflow-wrap: break-word;"><br clear=3D"none" styl=
+e=3D"overflow-wrap: break-word;"></div><div id=3D"yiv3196106234yMail_cursor=
+ElementTracker_1648596643947" style=3D"overflow-wrap: break-word;">No order=
+ of estoppel for the Zuckers, State Farm, and their associates tried to pre=
+serve their tax evasion money....</div><div id=3D"yMail_cursorElementTracke=
+r_1648597818022" style=3D"overflow-wrap: break-word;"><br></div><div id=3D"=
+yMail_cursorElementTracker_1648597818254" style=3D"overflow-wrap: break-wor=
+d;">&nbsp;No disclosure of material facts and at the expense of violating m=
+y privacy - which comes with the added risk of prison sentences.. any risks=
+ for the 8 billion invested there? SFITX, SFBDX, and all in the same buildi=
+ng.&nbsp;</div><div id=3D"yMail_cursorElementTracker_1648597931814" style=
+=3D"overflow-wrap: break-word;"><br></div><div id=3D"yMail_cursorElementTra=
+cker_1648597932025" style=3D"overflow-wrap: break-word;">https://github.com=
+/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</div><div id=3D"yiv3196106234=
+yMail_cursorElementTracker_1648596807385" style=3D"overflow-wrap: break-wor=
+d;"><br clear=3D"none" style=3D"overflow-wrap: break-word;"></div><div id=
+=3D"yiv3196106234yMail_cursorElementTracker_1648596809858" style=3D"overflo=
+w-wrap: break-word;"><blockquote type=3D"cite" style=3D"overflow-wrap: brea=
+k-word; margin-right: 0px;"><div dir=3D"ltr" style=3D"overflow-wrap: break-=
+word;"><blockquote type=3D"cite" class=3D"yiv3196106234protonmail_quote" st=
+yle=3D"overflow-wrap: break-word; margin-right: 0px;"><p style=3D"overflow-=
+wrap: break-word;"><font size=3D"4" face=3D"Arial" style=3D"overflow-wrap: =
+break-word;"><b style=3D"overflow-wrap: break-word;"><span dir=3D"ltr" styl=
+e=3D"overflow-wrap: break-word; font-size: 12.2778px;"><span dir=3D"ltr" st=
+yle=3D"overflow-wrap: break-word;"><font color=3D"#ff0000" style=3D"overflo=
+w-wrap: break-word;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect"=
+ id=3D"yiv3196106234yMail_cursorElementTracker_1648596810950" target=3D"_bl=
+ank" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/=
+11" class=3D"yiv3196106234moz-txt-link-freetext" style=3D"overflow-wrap: br=
+eak-word; word-break: break-word;">https://github.com/BSCPGROUPHOLDINGSLLC/=
+ELSER-AND-DICKER/pull/11</a></font></span></span></b></font></p><p style=3D=
+"overflow-wrap: break-word;" id=3D"yMail_cursorElementTracker_1648597778599=
+"><br></p></blockquote></div></blockquote></div><div id=3D"ymail_android_si=
+gnature"><br></div>
+------=_Part_1259055_1559911377.1648598077839--

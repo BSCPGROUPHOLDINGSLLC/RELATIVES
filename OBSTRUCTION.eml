@@ -1,0 +1,162 @@
+From - Sun May 22 07:22:10 2022
+X-Account-Key: account1
+X-UIDL: ADvGkzQUGm5MYookfgqW8N+lCig
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.230.155
+ by atlas318.free.mail.gq1.yahoo.com with HTTPS; Sun, 22 May 2022 11:54:38 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.205]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.205 as permitted sender)
+Authentication-Results: atlas318.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 22 May 2022 11:54:38 +0000
+X-YMailAVSC: OKkczvg3bBsaZ2huhB4XopYGTpbOhonxCraXQ_PVWHgrtdy
+ 2ozmD93lKztz2tPIBIV9COsVXdTca3Z3YmSB5ci3hDPVaR.Df.x..KtcHKsw
+ nIP257dPCNFoCmQjYqKBr5N_vq5bWts..4eo4mQaYvmD4t1cxdPGdphOd4Yj
+ 5xbqgpZofaAWizvUpLLa7iu2WOSaWsNXxdg5nruQV6NCjXi3OmGA41sBKs6F
+ Fj.UnGdx7Tm12G7ChC.eewvHCAEnrxqnKahy6ofgoYx8AIicuwY7ja1MWaQQ
+ TevGY.HkRdKpRhMM4AcH8WRlQJjmYHp3oMFC7RESLpd1bkCo.acDaDyWzhA-
+ -
+X-YMailISG: CgQdxOoWLDvhLsjMbYG3PZ7Dw6zL_nNu3SCWbMeD3t7MrhfE
+ piyC3._h8i2A1pK5wLuZnx1Bu2zJltcUOMsKdpeuFZWWHLB0HTDeXY9NVrng
+ 1OtEaKEr1cWf2eo1mKTv2RkafMODhttXOP6FsB7i7jWK_l0Em7QtVijVGmy.
+ SQWVwa4CROlKdNSMuwtct6ArPFsWM1i7eVffb3_MnLIq.iOwhqZpH0o_isEq
+ ZmBSs15Wylvq7xyhWWn21ixs50dGwkq.rTSLSFXbcSkKWbgoyvfwFC.qHyo3
+ 4yy26Q3vbeCjDllClD2FnvgEH3j2Bs3375TrHpbRCHY7TpQc8_Wf9NrFQexM
+ 2DUCm3_OurQZKBsr2ZngKF0XmgVvxs9qcEjwYuAK0kVy19I0i3M3.qVxA4io
+ DhqJPPcAV6ePyiajxSOp_MyZpeN.SF.JLLNxMZQCkcUKdJejLiTFtIgMSjjY
+ GgVtpW_aOk20Ua66JyFeakdIRjsR36UBpYQICx8KQgyMHj_sAKJRJbBcwUMH
+ xINEqeXry4RaNq8zrnmFmeBcq2mPwKTc1Ukmu7_cK.JHMdl8JDIuRz13PaQu
+ 2XZkABw6yG1p4QvPIEbG3x0NvqpaWMM8c_PfC4gNRTkvUbhVBu1MrxJ9yv.j
+ BET4287OPecgwiwDTGesQEZEcDQKKDtEoqXNJgUMn2U4qQvvJJrrfNo9nPxw
+ tKDYjvISK5kRL.5Z_B6Q1fUA5g4PT1lY9JQuJy.Sil3U0_DZ7dJXKGlqNv.E
+ 6nHQOHPeIO6DZbl47Lz5HeNCXx2ZlEzjxUbRnbABPmw1x9UJUm4sLyO_IW4i
+ gtOwzNRK9.c3lyVAkTwDcUSa667V96HEcaYFycBFhqGKsXY.EzbTj6mkUtbQ
+ ECw_Iv4eYO15b.Eiv2KhuhbCYLwlP.IZDy15r2oO5jasoHFVLnBl.Lwyyj1Q
+ tXMXiPf_ku6s5WmA4_maGRabiiiYWZcfJVMY2PgDvER35zblgT7HgmZ5qVZG
+ bxW4a4NrhRppDQJnSCc4mVKTshosYSrcGZWX1gLoChxttgEYdSsFIL09nVe0
+ dTjhjv6u7tILcAvoiPjLiQ2PYIfFYBxStSMPN736DDDaQZVCFvrY2mbjXY2E
+ 6fModkwLQFszftdPzy0hhnin9gvCFW3Pc3dyQ9XYojMg6bMdRv0Jsk1lYviN
+ czj3b65pM_tpFwj_KCDY84UstukwPw--
+Received: from 98.137.64.205 (EHLO sonic303-24.consmr.mail.gq1.yahoo.com)
+ by 10.253.230.155 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 22 May 2022 11:54:38 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653220478; bh=cVIFEFY59f8k8S53GFjAON3KhyuU5o7QytVBxYSh7hM=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=cvfX3CUhqetmXF6tb118ZV7G33umJJG+w1xNmJUHpmrYlyA5gWeYX3jWq2+rzNR5rZxT5zoCvrSDFYb674erpZHn1kbKPu7sLzBa/ku96KzqfH+Eq18Z4xELPiWjENpIJhmiwzPjbiG2CiJGfX6VM6cUnnwZeyKLulTCp2CSjLNFEJG+drCfOU/bfxvPn+mdh4reos2Z4WG5HphRDhemyjjjaO4Xn3XXMC8+KP4fsrKbHXlrukX6gTetB7I6thEkfnZtDdOU6Gjx6ioYuEeMGpPyBp83YRxZYHDBOhvoD3b/CPS1dLzGJDa30gGni32gNWvqT5IwR6Mi5BroqK+Veg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653220478; bh=MY4J9qh8RVBStQeLmCcvnG63LsqAqZOd20vKcoKpnaF=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=fsyW68hcg81wsgxak4faCJh5iZFDHUDKzIRJ9njUFzfX16b8zRA4IgqY0HfBWvYAV7iKUG6PaebQ5Gp4CvECW+njGFX0zZXWXHLjik1vDM4b6UwGErRPnqYDGeYQndNODJwM3WOI2WNfGThQBAtDxwIyAIuXUJpqp6/SSpLvKXF18Mb46EatnInfrBISezP+IgVBw+hH0RtH1qu/4cL97tU+XJRqs/XOw0GEiqUbYAR335/ryovrPqxRK62DAqZYZWT6CunbSb8Yw8HX/Bo4AjmhBTenJCKKA+6hgez2XZNHClcGyOUNaHIBhxB+H68buqZ2eB5eZQxLkV4QwDZVVg==
+X-YMail-OSG: VVAMK34VM1k7sl4XkvT1A_k.30CdW2VFKPB363zhaWM6c37NjSiwEIVVfcRA045
+ e_KltK7HaatDpYyjukO8bijp_azj8tCXQNsqmF958LuPoHxA0OPHCEoI9cOO9_gLx4xkK9Cfd3Ml
+ x3u3CJ9mqGPZ4eykcFUWnXqOCKvfvEnuQDhquQmjaDRVWgTh.QGE.x1lhiD7WtznQN9K_ItspJrt
+ 3PRTaxpsA7FEXYmx4r6it0_lLlGliPhvBJs4eRIGKwUJivFaHm_eg_5Y0UmNftNb4vzfvhIDFzFq
+ b1hAAMXV5bNcgwqNeBdRYkDV0t2mXAOy4JkUggGNqfwlLtrXbYVJ3_K5c6aERaY_LjeGedGE4eHP
+ wBUf0jTZfqFmUJcj.M8pK9VPujE64PCq7o8_BWQky58bhcf_FhllGHAdOCufpSoLNWt6CCzCJzXu
+ gLQ0oglnm.MXEn9xrWahzuQIqobAlidhPA1JxOKY1Bl0fv.YeaJ8UU.4QPN214woEB0kDyOvFNuF
+ 7U06SWyoNVkRvDZUiPiHfdKfF8Q7TbGNRth3x0_VjdofJaVM6sgpwLeFqZg6BRwSSwxnNz0vKl4e
+ arvVk5XSMA9tTvweqNGIjuvo.Wir1miPmeNZQZoSw24dqN1KEsb8diUVmI4_9C1tkVbLTOTUj5C5
+ 5iHjZdnCtRMfnZDSDBxVn3Z68JMJXUyemex3FyF9cctJxSMe.0pDuAcCRs4TNFWt8azqksjkfBag
+ MQhRC0XvfQIluKlC7NIEp7dVsMdvLBFwlcXaYQd5LoORS9lK0vBeHHHllAm8OftEFn0BsTojKiVc
+ 33qf.iVJKuOU7PKoO4ulxWIdAqjQVYF3KjeYh6ZOf23ZBcpJ0bJrcUSxoRn7RmfPsYsNKOpD9f4w
+ UvPNSVm40PTrsAoZ14bBKlnXkjh17XkIhvQBeSjWI8bSwwsavjk84KZfnoBTh84j_oO9pG.hda3c
+ yoXAlspMPorH5W41EjAtoLwtKFqvnUCpYrMcyZi0D7hk9LsSU5YcySK3AmW3_3kU12wSWX5plg.j
+ LFfAefWzVHw2jYvgj7Aph8YgSzA.IDZ6fy9QSzbC4VqEsEQUKJnhfzZZJI88zGanRBCocNIgp_j1
+ Hy1KvgP6iL2JcvHOfi4DJtOTzG_Z8xeXSDgQqYpwarfGV5Y3YwOhnBvID8cwu1.7nMcH4Ci_YOvw
+ aOhf7WkZv1Lbs_fT8BD.moxzTP4MmvUjPKYcMR4W1B21EniwhxK9JZN3r3S0xV_9HNUoZJ0EuQ3Q
+ 2ItkkjVW6FZ3bxNFVARhMz0f3BR_qiwISQJtMsvlRTadtc2j8gVVQdVqdRG5b51tRHt.oLgoutlY
+ 7ABrovDGAO.a_DyuqfZgW4FG3K1cdtmcxqVRrgdIE_TGc8N1pDqrT2_aKekvBVS_Wyi6urm.XAsI
+ JLcolKGeGEsj0bUI6HSguZK0FjM.aeV4AQGEgJIdoAwwBV.vBSqaw9z7295FQFpMxAmSQBJs8z8G
+ rtYGogUHPPpQ98Qngs69c960OgKpM0baRZv8fd5sgMaZ83YjV10D0vzkgLxzd_RbIXkXgfgioBYd
+ PFVDUvXtYTOmqZnl8wKdhs46FQM8y4g25pbe5nhLFnbJy6_qhMfMrPWjY_Zg5NfF9YLGT5iQ2ESy
+ NS8C3UOyPdPbueSGZFdFM28aHuyyXuKl1F6EmkXwFvP27SvzauigWZZsmwvIsajxjsxmc059IHb.
+ YymXyHubzJJgMj3CzERSCmdvvSm0lcsb4gvmoxTcdB1RC1RB4aCuzajxCNMyFSDFv3akynks_GmI
+ CjYRQFw1rZ3O3uuvW9.xsnuGPCgfkQjw5BZyo1gATirtZiLgghsG3yxEJdGCts4.FpTXME577GKe
+ 15GWrilrhCMazT9BGpZyXFSLl7zIdBnaJYPEYsvlLeXVgBeGBEt8a_CDfWufQXRJQ7eW7Gv2NdvM
+ A3mkluM7g8h2v64edaSI8zFi3967pi5QjfDura3RXGj1QnFfm99rusJxF2zrfSnaRPuycWrS7CFs
+ ya0.al._phh7ALfH_kaCGvBvi5tTmfFnfbbJ2l90wxponsUDhXue8fU7qjbQ4hdQ082MGfZEyKxB
+ 7ak9D9jMHu8l36nzKt9AX1Lzq.5_p1jbujMK0ixfuaEu3wbQH4GOaJ97etfrA1bY1p6GOh0b2lr2
+ hq.Rvv9vRPrIVfpf3v2Jhwa2w7MJzZ1B3DLKbQm1NsBTqb2J_VCoYgRncErm4XABbKe_q.glOlFd
+ jtsAch5H.O9hM5qtqLxXn9SDeqgtmMiy4Hh8Bwucx6tnl4a35wJjjfMAv6WyV71rEz_Xcb4_widM
+ zy8D0OBy7g4mnNFIx5hA8K2LtRw6pjP28ErTIzBJhj4.kn2MpErzLYAEZ2VaLt11WC_T_j0DQsMq
+ KtWjlr_WfswJSaJYLHwoU
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic303.consmr.mail.gq1.yahoo.com with HTTP; Sun, 22 May 2022 11:54:38 +0000
+Date: Sun, 22 May 2022 11:54:36 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <1849854370.1034795.1653220476968@mail.yahoo.com>
+In-Reply-To: <aab462b7-f244-4fe8-a6ce-48ce84291b77@WPSFD3P9.OPR.STATEFARM.ORG>
+References: <aab462b7-f244-4fe8-a6ce-48ce84291b77@WPSFD3P9.OPR.STATEFARM.ORG>
+Subject: OBSTRUCTION
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1034794_2074285838.1653220476966"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 3698
+
+------=_Part_1034794_2074285838.1653220476966
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+   ----- Forwarded Message ----- From: "info@statefarm.com" <info@statefarm=
+.com> To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com> Cc:  Sent: Tue, May 1=
+7, 2022 at 11:44 PM Subject: RE: Ref.; 10327900 #STATE FARM #ZUCKER #151652=
+3 #93715 [1-1088335170] =20
+Thank you for your submission; please consider this message as your confirm=
+ation we have received your email. Our service goal is to respond to reques=
+ts as quickly as possible.=C2=A0 However, when message volumes increase, we=
+ commit to responding to emails within five (5) business days.=20
+
+If you are a CUSTOMER in need of immediate assistance, please visit our Con=
+tact Us page or talk to a State Farm representative 24/7 at 800-STATE-FARM =
+(800-782-8332).
+
+If you are a VENDOR requesting to do business with State Farm, and your ser=
+vices are not needed at this time, you may not receive further contact. If =
+you are a vendor in need of immediate assistance, please visit our Business=
+-to-Business Contact Us page or talk to a B2B Help Desk representative 24/7=
+ at 855-311-2681.
+ =20
+
+------=_Part_1034794_2074285838.1653220476966
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; =
+margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <div style=3D"font-fa=
+mily:Roboto, sans-serif; color:#6D00F6;"> <div>----- Forwarded Message ----=
+-</div> <div><b>From:</b> "info@statefarm.com" &lt;info@statefarm.com&gt;</=
+div> <div><b>To:</b> "bo.dincer@yahoo.com" &lt;bo.dincer@yahoo.com&gt;</div=
+> <div style=3D"display:none"><b>Cc:</b> </div> <div><b>Sent:</b> Tue, May =
+17, 2022 at 11:44 PM</div> <div><b>Subject:</b> RE: Ref.; 10327900 #STATE F=
+ARM #ZUCKER #1516523 #93715 [1-1088335170]</div> </div>  <div id=3D"yiv3616=
+220180"><p><span style=3D"font-size:12px;"><span style=3D"font-family:arial=
+, helvetica, sans-serif;">Thank you for your submission; please consider th=
+is message as your confirmation we have received your email. Our service go=
+al is to respond to requests as quickly as possible.&nbsp; However, when me=
+ssage volumes increase, we commit to responding to emails within five (5) b=
+usiness days. </span></span></p><p><span style=3D"font-size:12px;"><span st=
+yle=3D"font-family:arial, helvetica, sans-serif;">If you are a <strong><em>=
+CUSTOMER </em></strong>in need of immediate assistance, please visit our <a=
+ rel=3D"nofollow noopener noreferrer" target=3D"_blank" href=3D"https://www=
+.statefarm.com/customer-care/contact-us"><span style=3D"color:black;"><span=
+ style=3D"color:black;">Contact Us</span></span></a> page or talk to a Stat=
+e Farm representative 24/7 at 800-STATE-FARM (800-782-8332).</span></span><=
+/p><p><span style=3D"font-size:12px;"><span style=3D"font-family:arial, hel=
+vetica, sans-serif;">If you are a <strong><em>VENDOR </em></strong>requesti=
+ng to do business with State Farm, and your services are not needed at this=
+ time, you may not receive further contact. If you are a vendor in need of =
+immediate assistance, please visit our Business-to-Business <a rel=3D"nofol=
+low noopener noreferrer" target=3D"_blank" href=3D"https://b2b.statefarm.co=
+m/b2b/contactus.html"><span style=3D"color:black;"><span style=3D"color:bla=
+ck;">Contact Us</span></span></a> page or talk to a B2B Help Desk represent=
+ative 24/7 at 855-311-2681.</span></span></p></div> </div> </blockquote>
+------=_Part_1034794_2074285838.1653220476966--

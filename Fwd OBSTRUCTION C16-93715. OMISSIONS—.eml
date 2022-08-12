@@ -1,0 +1,270 @@
+From - Sun May 22 15:32:23 2022
+X-Account-Key: account1
+X-UIDL: ANidPSRzX3AdYoqbeges2GZ84Z0
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.200
+ by atlas302.free.mail.bf1.yahoo.com with HTTPS; Sun, 22 May 2022 20:22:18 +0000
+Return-Path: <bondstrt007@gmail.com>
+X-Originating-Ip: [209.85.166.54]
+Received-SPF: pass (domain of gmail.com designates 209.85.166.54 as permitted sender)
+Authentication-Results: atlas302.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 22 May 2022 20:22:18 +0000
+X-YMailAVSC: HI6lsSA3bBsvfUFAcuXQngG6oKQnpvq6dytyW2FlSIdu35J
+ 51YVlBixDBycCcrtwVzfgGMXvyK1AR30A9BZrRjWRrheHiZ4PrmjOc3rvgWx
+ 2GWq7SW.07JQc8BBh_OMryQspHDO0f3jx3TP3OyTK8jsHWU4WLPvbKOBtUkP
+ .UPnpcAHwr4w7wsw75kYCU7M1ixj0LeKK2euTTUEx4TrALwazOfb4CTRklGB
+ 3E8sO7IIsPmAMHzcxA8BICM6pERYBmEcAbGo.I4HQEL8VXQ0he2lCDhjXGx1
+ jFTT8C5xKX8yppc4XCFdyw89j4Qi5WCyzh8HM3bI9BPUvcOQ3ErJBrxQJJFv
+ hGNmJ7PgeJ_HGLnIidqKD_2gyKWhSPPaJmrcL659qKlpu_6yHZcHZRw--
+X-YMailISG: sViMoIIWLDvDzGahxR9FsXSpV6m5e6BaYjnZp5fEs3hP6WiW
+ A3dhTcKjUIjVGYTykU0RoYDfkP7H_xrX9QT4rtDmlkFLesUhTvI5u7RdZRLK
+ 3r.q1tugR3xlR9gdwu_GCIoOcU4VQOOdudFI45S6ivdssbKheholHAHVJS5r
+ FgjvczbihDa6a9mzWBWz.xYVtQAZ8WjoIBgMJ5McGI_ep7QK1NWUwH.FLwuQ
+ 3EGu9inQB7Siis8jhKjCVlaMJzCZop.vlUNLH5Ia943VPsjpZnLZh204zpFu
+ 3r_eql9kk7Ot2EZx82a79Y.tjaMt5Ir5aQ6igvZnQntfHhxGKReWTnze_jq2
+ awjQt4GrDxjkWACO70Y0hovfEYTATHDQoyF8B.58HpuDuNTKqxGdPaR.yAFB
+ y8I_yK2P9uELu_oa_ItRfVA8E71Uv5nRH8dgIElOrlbBEQ18V2y9mViLIrNf
+ JbJ3C3nb3oOtjFaVszUhUNdf_LgOyU55nlZEUw_3iOwM3sR.Hmlu0V9QKhcU
+ 6k0WROeCukOWR8G.WE_AuxJWboua2NTY.QQH_DFrz.GOIWfAL5e4pfb5A..c
+ 6NK9MAZ.1x.4.RoKC_w3oH_nzniY1GQtphXcr2FC7BHYrfVf4Kt_uwMXdfWW
+ MiJs1vkt10rWAs7N9Jaybzj1hPnZ0Aq1AHi4TSz2naCk2VMr702cIjm.VgMX
+ ZFImkMvXpWXF3O6pQpJWiFfqzdGrQFofU4wvsdLCpJnYkmAqP5biiKe9bNfe
+ rgMBgdgxMK9Ha8vY4.roTW7F279BC2gpGh_tTLnQ3H2RYCPhY9JF65nSv_rp
+ zbwYwJgXuzcBXMUmO6XjQ6kAnVnrDmBLzr5sF7Q5thsXngCenax5v9CgdT2m
+ KtI55ICf6aF0cuejW7WvcqO969gGW7aMsK2LFUpbEjLWKJpuQ3OqYDkx.rjP
+ N1pgdVHoUM1G7FfghAtqU7ujVO4t29_w5ruZ3VV.TgeZD5jN8pyRRsiqQWl3
+ rhfDx_9pnH1YIqYJxyNS239x550Wa6qQe_tSM.Rl.Iyd0U0_QjoeUYgM8RiZ
+ hXcdu55xXpj_hw1cug25EiBpQM_WjiHP8tV6tNwuAx.Eq7uk7B2D9TWPXTc2
+ .VoorHRr1xGpK42QEO1Sn9SJbAuJqqWfogTza2IZpGGJAifL3Z8mPguqYgoZ
+ Mg9oJ28q4zbZmJgtL2k-
+Received: from 209.85.166.54 (EHLO mail-io1-f54.google.com)
+ by 10.197.37.200 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 22 May 2022 20:22:18 +0000
+Received: by mail-io1-f54.google.com with SMTP id 2so3666016iou.5
+        for <ms60710444266@yahoo.com>; Sun, 22 May 2022 13:22:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to:cc;
+        bh=B+neH+mEXX0nrdnlHrhftUN6EckgfXaXqpht2/d+RUY=;
+        b=MrflDNIAeL8dbKBbMn7wk9O8Zz8OyMigj8sO7U0kuMXKzWlA8VUTtUfnESwRUYh5n8
+         mdx7596PFTZnDQPd8ovLcieBTZNxUmD1fH3wLsJfgX0W/IvodpiWrJ/ecAAi7StiAo23
+         FGdFxR258X6joq1vExFIYM2GmKfv85QjRum5fnSIAvRcN/6SSikUpb3HlY8bcLlM7bHc
+         Cv4uMpGHYIjCK9PBFvDCYjt3easH+brHYgS/MZhPSydjoPXxK8wJH1YJBxGE9b3E99eE
+         UzEgxigi34t15gbutaHogu4NYklsVEGMu7OpBWNn+4E+NECjs+Yy0gSQ+ResHErbggtG
+         vyqA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+        bh=B+neH+mEXX0nrdnlHrhftUN6EckgfXaXqpht2/d+RUY=;
+        b=KmDKxvl2opO6bDBf5SzatTTvlL0SakPhguPA+lr8iw/FeBF9Q/OZV9kgdsPIGWzbA4
+         V2ZqdEsAzQDDuZmzGZDH05SbvIDrmc09/wIpB7DwDgbxM7DAhBV0vMfim7YbFk54eQDR
+         r1/rD2zyZYHkv3EGN44Jf5G5lfv50L/1o1MaKlPePuUNbqALAUloI1Qi0BPbch3eT1WH
+         OZxWWecD3zO3eLt1ufRDVagx17r9gbKJfUbE4jO9DTW3Ll87YnmBNBaKoOaAp0a7C8Ht
+         u33QW3wP22vWZ7edcWZ1IqYhqGvSfuUXySx9L/P7jy0YzI5idkhpEhBTmUSDWr8br6X9
+         koCA==
+X-Gm-Message-State: AOAM533QUyKQFwQ2uyR4hzJ+CDy4QhxzvXIRVXFTy/yGAOMbBJG6N5wK
+	IYbwT1IeV87j85vovRnY71iv3FcL6IkvKAFfEfig5Xiv
+X-Google-Smtp-Source: ABdhPJzUFfpiCxQo4gsZsbyyFXdEB+t6CXm2IPViaVg3MsybLBVfBCZu6QGmvp1tfTIekoeaDHvrzD6iocGFu99U3lc=
+X-Received: by 2002:a05:6638:498e:b0:32e:be76:f908 with SMTP id
+ cv14-20020a056638498e00b0032ebe76f908mr2046575jab.66.1653250937894; Sun, 22
+ May 2022 13:22:17 -0700 (PDT)
+MIME-Version: 1.0
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Sun, 22 May 2022 16:22:06 -0400
+Message-ID: <CAOHu48_iX2K47afSp0nOtPpnNGa7opUr3zOzggRc18aswWn4Jw@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_OBSTRUCTION_C16=2D93715=2E_OMISSIONS=E2=80=94?=
+To: BBO 121 <ms60710444266@yahoo.com>, 
+	Ir-operations-team <ir-operations-team@tudor.com>, ir@tigerglobal.com, info@kpmg.com, 
+	"Ryan Cangialosi (US)" <ryan.a.cangialosi@pwc.com>, 
+	"Dean's Discipline - SCCS" <conduct-admin@columbia.edu>, Amber Griffiths <ag2943@columbia.edu>, sgo2107@columbia.edu, 
+	endowmentadmin@columbia.edu, jpminvestorrelatioms@jpmchase.com, 
+	"Pam Olson (US)" <pam.olson@us.pwc.com>
+Cc: TRACE Data Services <tracedataservices@finra.org>, Treasury.operations@cpa.texas.gov, 
+	tedhermanson@northmarq.com, Jpetit <jpetit@mccarter.com>, 
+	jpminvestorrelations@jpmchase.com, JPMCinvestorrelations@jpmchase.com, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, 
+	=?UTF-8?B?4oCLaWNlZ2xvYmFsbmV0d29yay1pbmZvQGljZS5jb20=?= <iceglobalnetwork-info@ice.com>, 
+	"Bill Cassese (ICE BONDS SECURITIES)" <bcassese19@bloomberg.net>
+Content-Type: multipart/alternative; boundary="000000000000e0bcd905df9f7af3"
+Content-Length: 8324
+
+--000000000000e0bcd905df9f7af3
+Content-Type: text/plain; charset="UTF-8"
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38A==
+
+^^ unlawful custody of SECURITY
+
+
+
+tax receipts
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==
+
+
+
+distribution of MOV files / VIOLATION OF PRIVACY
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=c3iexOlBwsgc1lnMJ2_PLUS_AqQ==
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=C4X_PLUS_6_PLUS_kgBxoElZyFgKxGEQ==
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=YvkihzM1cwANtAvbUwWX_PLUS_g==
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=UZsCx4RNLy/6V9gf1BkpTQ==
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=YGRsoOyDJuc93MrOnwh5Jw==
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=84wdx4RhX5LEi0sISXetBw==
+
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=5uMb/ORklCen4NaSEt6oFg==
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=C4X_PLUS_6_PLUS_kgBxoElZyFgKxGEQ==
+
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=oz2nfEu9a94Y3U5/kpIt5g==
+
+
+
+
+
+
+    JANUARY 15, 2011. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0005]
+    JANUARY 15, 2012. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0007]
+    JANUARY 15, 2013. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0009]
+    JANUARY 15, 2014. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0011]
+    JANUARY 15, 2015. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0013]
+    JANUARY 15, 2016. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0015]
+    JANUARY 15, 2017. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0017]
+    JANUARY 15, 2019. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0019]
+    JANUARY 15, 2020. . . . . . . . . . . . . . . . . . . .. . . . . . . .
+. . .[0025]
+
+links to Property Tax Receipts.
+
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183
+
+---------- Forwarded message ---------
+Date: Sun, May 22, 2022, 4:16 PM
+Subject: OBSTRUCTION C16-93715
+
+
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164afaa6
+
+
+
+_______________
+Tel:  646-256-3609
+
+--000000000000e0bcd905df9f7af3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"><div dir=3D"auto"><br></div><div><a href=3D"https://iapps=
+.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6DBJZ1wsiq0b38A=
+=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9a=
+ac7D6DBJZ1wsiq0b38A=3D=3D</a></div><div dir=3D"auto"><br></div><div dir=3D"=
+auto">^^ unlawful custody of SECURITY</div><div dir=3D"auto"><br></div><div=
+ dir=3D"auto"><br></div><div dir=3D"auto"><br></div><div dir=3D"auto">tax r=
+eceipts</div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div><div d=
+ir=3D"auto"><br></div><div dir=3D"auto"><a href=3D"https://iapps.courts.sta=
+te.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D">https=
+://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmR=
+LGpYIQ=3D=3D</a></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></d=
+iv><div dir=3D"auto"><br></div><div dir=3D"auto">distribution of MOV files =
+ / VIOLATION OF PRIVACY</div><div dir=3D"auto"><br></div><div dir=3D"auto">=
+<a href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+c3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D">https://iapps.courts.state.ny.us/nyscef/=
+ViewDocument?docIndex=3Dc3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D</a></div><div dir=
+=3D"auto"><br></div><div dir=3D"auto"><a href=3D"https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6_PLUS_kgBxoElZyFgKxGEQ=3D=
+=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PL=
+US_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D</a></div><div dir=3D"auto"><br></div><div =
+dir=3D"auto"><a href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocumen=
+t?docIndex=3DYvkihzM1cwANtAvbUwWX_PLUS_g=3D=3D">https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1cwANtAvbUwWX_PLUS_g=3D=3D</a><=
+/div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div><div dir=3D"au=
+to"><br></div><div dir=3D"auto"><a href=3D"https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D">https://iapps=
+.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=
+=3D=3D</a></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div><di=
+v dir=3D"auto"><br></div><div dir=3D"auto"><a href=3D"https://iapps.courts.=
+state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOyDJuc93MrOnwh5Jw=3D=3D">ht=
+tps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOyDJuc93=
+MrOnwh5Jw=3D=3D</a></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br>=
+</div><div dir=3D"auto"><br></div><div dir=3D"auto"><a href=3D"https://iapp=
+s.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4RhX5LEi0sISXetBw=
+=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84w=
+dx4RhX5LEi0sISXetBw=3D=3D</a></div><div dir=3D"auto"><br></div><div dir=3D"=
+auto"><br></div><div dir=3D"auto"><br></div><div dir=3D"auto"><a href=3D"ht=
+tps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORklCen4=
+NaSEt6oFg=3D=3D">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3D5uMb/ORklCen4NaSEt6oFg=3D=3D</a></div><div dir=3D"auto"><br></div><di=
+v dir=3D"auto"><a href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocum=
+ent?docIndex=3DC4X_PLUS_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D">https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6_PLUS_kgBxoElZyFgKxGE=
+Q=3D=3D</a></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div><d=
+iv dir=3D"auto"><a href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocu=
+ment?docIndex=3Doz2nfEu9a94Y3U5/kpIt5g=3D=3D">https://iapps.courts.state.ny=
+.us/nyscef/ViewDocument?docIndex=3Doz2nfEu9a94Y3U5/kpIt5g=3D=3D</a></div><d=
+iv dir=3D"auto"><br></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br=
+></div><div dir=3D"auto"><br></div><div dir=3D"auto"><br></div><div dir=3D"=
+auto"><br></div><div dir=3D"auto">=C2=A0 =C2=A0 JANUARY 15, 2011. . . . . .=
+ . . . . . . . . . . . . . .. . . . . . . . . . .[0005]</div><div dir=3D"au=
+to">=C2=A0 =C2=A0 JANUARY 15, 2012. . . . . . . . . . . . . . . . . . . .. =
+. . . . . . . . . .[0007]</div><div dir=3D"auto">=C2=A0 =C2=A0 JANUARY 15, =
+2013. . . . . . . . . . . . . . . . . . . .. . . . . . . . . . .[0009]</div=
+><div dir=3D"auto">=C2=A0 =C2=A0 JANUARY 15, 2014. . . . . . . . . . . . . =
+. . . . . . .. . . . . . . . . . .[0011]</div><div dir=3D"auto">=C2=A0 =C2=
+=A0 JANUARY 15, 2015. . . . . . . . . . . . . . . . . . . .. . . . . . . . =
+. . .[0013]</div><div dir=3D"auto">=C2=A0 =C2=A0 JANUARY 15, 2016. . . . . =
+. . . . . . . . . . . . . . .. . . . . . . . . . .[0015]</div><div dir=3D"a=
+uto">=C2=A0 =C2=A0 JANUARY 15, 2017. . . . . . . . . . . . . . . . . . . ..=
+ . . . . . . . . . .[0017]</div><div dir=3D"auto">=C2=A0 =C2=A0 JANUARY 15,=
+ 2019. . . . . . . . . . . . . . . . . . . .. . . . . . . . . . .[0019]</di=
+v><div dir=3D"auto">=C2=A0 =C2=A0 JANUARY 15, 2020. . . . . . . . . . . . .=
+ . . . . . . .. . . . . . . . . . .[0025]</div><div dir=3D"auto"><br></div>=
+<div dir=3D"auto">links to Property Tax Receipts.</div><div dir=3D"auto"><b=
+r></div><div dir=3D"auto"><a href=3D"https://github.com/users/BSCPGROUPHOLD=
+INGSLLC/projects/1#column-183">https://github.com/users/BSCPGROUPHOLDINGSLL=
+C/projects/1#column-183</a><br><br><div class=3D"gmail_quote" dir=3D"auto">=
+<div dir=3D"ltr" class=3D"gmail_attr">---------- Forwarded message --------=
+-<br>Date: Sun, May 22, 2022, 4:16 PM<br>Subject: OBSTRUCTION C16-93715<br>=
+</div><br><div>
+
+            <div>
+                <br>
+            </div>
+        <div><a href=3D"https://faxzero.com/status/30666994/5790f1701861111=
+9e07814be9e36110d164afaa6" rel=3D"nofollow noreferrer noreferrer" target=3D=
+"_blank">https://faxzero.com/status/30666994/5790f17018611119e07814be9e3611=
+0d164afaa6</a></div><div><br><br></div><div><div><br></div><div>___________=
+____<br><div>Tel: =C2=A0646-256-3609</div><div><br><div><br></div></div></d=
+iv></div>
+</div></div></div></div>
+
+--000000000000e0bcd905df9f7af3--
